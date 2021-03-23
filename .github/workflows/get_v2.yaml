@@ -25,5 +25,8 @@ jobs:
           pip install -r requirements.txt
 
       - name: '获取V2ray订阅'
-
-        run: python3 main.py
+        run: |
+          python3 main.py
+          git add .
+          git commit --allow-empty -m "up"
+          git push
