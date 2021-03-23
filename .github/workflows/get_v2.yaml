@@ -19,11 +19,25 @@ jobs:
         uses: actions/setup-python@v1
         with:
           python-version: 3.7
-
       - name: 'Install requests'
         run: |
           pip install -r requirements.txt
-
+      - name: Setup Git Infomation
+        env:
+          email: ${{ secrets.EMAIL }}
+          username: ${{ secrets.USERNAME }}
+        run: |
+          git config --global user.name "$username"
+          git config --global user.email "$email"
+          - name: Setup SSH Private Key
+            env:
+              token_Private_Keys: ${{ secrets.token_Private_Keys }}
+            run: |
+              mkdir -p ~/.ssh/
+              echo "$token_Private_Keys" > ~/.ssh/id_rsa
+              chmod 600 ~/.ssh/id_rsa
+              eval "$(ssh-agent -s)"
+              ssh-add ~/.ssh/id_rsa
       - name: '获取V2ray订阅'
         run: |
           python3 main.py
