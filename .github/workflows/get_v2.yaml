@@ -44,3 +44,11 @@ jobs:
           git add .
           git commit --allow-empty -m "up"
           git push
+      - name: sync github -> gitee
+        uses: Yikun/hub-mirror-action@master
+        with:
+          src: github/ronghuaxueleng
+          dst: gitee/getready
+          static_list: "v2ray"
+          dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}
+          dst_token: ${{ secrets.GITEE_TOKEN }}

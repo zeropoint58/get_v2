@@ -1,5 +1,7 @@
+import os
 import re
 import time
+from shutil import copyfile
 
 import requests
 from bs4 import BeautifulSoup
@@ -21,3 +23,4 @@ if __name__ == '__main__':
     v2FileName = time.strftime('%Y%m%d', time.localtime(time.time())) + '_v2ray'
     with open(v2FileName, 'wb') as f:
         f.write(v2File.content)
+    copyfile(v2FileName, 'v2ray.txt')
