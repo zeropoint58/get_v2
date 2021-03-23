@@ -22,9 +22,7 @@ jobs:
 
       - name: 'Install requests'
         run: |
-          pip install requests
-          pip install BeautifulSoup
-          pip install PyQuery
+          pip install -r requirements.txt
 
       - name: '获取V2ray订阅'
 
