@@ -1,0 +1,31 @@
+name: 获取V2ray订阅
+
+on:
+  schedule:
+    - cron: '* 15 * * *'
+  workflow_dispatch:
+    watch:
+      types: started
+    repository_dispatch:
+      types: get_v2ray
+jobs:
+  get_v2ray:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: 'Set up Python'
+        uses: actions/setup-python@v1
+        with:
+          python-version: 3.7
+
+      - name: 'Install requests'
+        run: |
+          pip install requests
+          pip install BeautifulSoup
+          pip install PyQuery
+
+      - name: '获取V2ray订阅'
+
+        run: python3 main.py
