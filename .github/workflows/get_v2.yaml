@@ -1,8 +1,7 @@
 name: 获取V2ray订阅
-
 on:
   schedule:
-    - cron: '0 0 * * * ? *'
+    - cron: '0 * */2 * *'
   workflow_dispatch:
     watch:
       types: started
