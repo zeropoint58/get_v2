@@ -44,10 +44,11 @@ jobs:
           git add .
           git commit --allow-empty -m "up"
           git push
-      - name: 'Mirror to gitee'
-        uses: pixta-dev/repository-mirroring-action@v1
+      - name: 'sync github -> gitee'
+        uses: Yikun/hub-mirror-action@master
         with:
-          target_repo_url:
-            git@gitee.com:getready/get_v2.git
-          ssh_private_key:
-            ${{ secrets.GITEE_PRIVATE_KEY }}
+          src: github/ronghuaxueleng
+          dst: gitee/getready
+          static_list: "get_v2"
+          dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}
+          dst_token: ${{ secrets.GITEE_TOKEN }}
