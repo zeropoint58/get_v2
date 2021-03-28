@@ -20,6 +20,6 @@ if __name__ == '__main__':
     doc = PyQuery(new_v2ray_data_html)
     s = re.findall('https?://drive.google.com/uc\Sexport=download&id=\S+', doc.text())
     v2File = requests.get(s[0])
-    v2FileName = 'v2ray.txt'
+    v2FileName = 'vv'
     with open(v2FileName, 'wb') as f:
         f.write(v2File.content)
