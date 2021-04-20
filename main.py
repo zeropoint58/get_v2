@@ -17,8 +17,12 @@ if __name__ == '__main__':
     doc = PyQuery(new_v2ray_data_html)
     s = re.findall('https?://drive.google.com/uc\Sexport=download&id=\S+', doc.text())
     for i, val in enumerate(s):
+        file = requests.get(val)
         if i % 2 == 0:
-            v2File = requests.get(val)
             v2FileName = 'vv{}'.format(i)
             with open(v2FileName, 'wb') as f:
-                f.write(v2File.content)
+                f.write(file.content)
+        else:
+            cFileName = 'c{}'.format(i)
+            with open(cFileName, 'wb') as f:
+                f.write(file.content)
