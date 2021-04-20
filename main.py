@@ -19,6 +19,6 @@ if __name__ == '__main__':
     for i, val in enumerate(s):
         if i % 2 == 0:
             v2File = requests.get(val)
-            v2FileName = 'vv%'.format(i)
+            v2FileName = 'vv{}'.format(i)
             with open(v2FileName, 'wb') as f:
                 f.write(v2File.content)
