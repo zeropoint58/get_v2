@@ -1,7 +1,4 @@
-import os
 import re
-import time
-from shutil import copyfile
 
 import requests
 from bs4 import BeautifulSoup
@@ -19,7 +16,9 @@ if __name__ == '__main__':
     new_v2ray_data_html = new_v2ray_data.text
     doc = PyQuery(new_v2ray_data_html)
     s = re.findall('https?://drive.google.com/uc\Sexport=download&id=\S+', doc.text())
-    v2File = requests.get(s[0])
-    v2FileName = 'vv'
-    with open(v2FileName, 'wb') as f:
-        f.write(v2File.content)
+    for i, val in enumerate(s):
+        if i % 2 == 0:
+            v2File = requests.get(val)
+            v2FileName = 'vv%'.format(i)
+            with open(v2FileName, 'wb') as f:
+                f.write(v2File.content)
