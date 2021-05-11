@@ -16,6 +16,7 @@ if __name__ == '__main__':
     new_v2ray_data_html = new_v2ray_data.text
     doc = PyQuery(new_v2ray_data_html)
     s = re.findall('https?://drive.google.com/uc\Sexport=download&id=\S+', doc.text())
+    file_list = ['https://raw.githubusercontent.com/ssrsub/ssr/master/v2ray', 'https://raw.githubusercontent.com/ssrsub/ssr/master/Clash.yml']
     for i, val in enumerate(s):
         file = requests.get(val)
         if i % 2 == 0:
