@@ -3,222 +3,741 @@ socks-port: 7891
 allow-lan: true
 mode: Rule
 log-level: info
-external-controller: :9090
+external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇭🇰 https://www.mattkaydiary.com|Best!Transit*Shanghai-HK*CN2-GIA05, server: transite-shcn2-05.iplc188.com, port: 10001, type: vmess, uuid: 03783713-9223-4b7e-943b-67eddc1909ec, alterId: 1, cipher: auto, tls: false}
-  - {name: 🇭🇰 https://www.mattkaydiary.com|Best!Transit*Shanghai-HKT*05, server: transite-shcn2-05.iplc188.com, port: 10005, type: vmess, uuid: 03783713-9223-4b7e-943b-67eddc1909ec, alterId: 1, cipher: auto, tls: false}
-  - {name: 🇭🇰 https://www.mattkaydiary.com|Low Latency!Transit*Guangzhou-HK03, server: gzcm03.iplc188.com, port: 10001, type: vmess, uuid: 03783713-9223-4b7e-943b-67eddc1909ec, alterId: 1, cipher: auto, tls: false}
-  - {name: 🇸🇬 https://www.mattkaydiary.com|Transit*Guangzhou-Singapore03, server: gzcm03.iplc188.com, port: 10002, type: vmess, uuid: 03783713-9223-4b7e-943b-67eddc1909ec, alterId: 1, cipher: auto, tls: false}
-  - {name: https://www.mattkaydiary.com|Transit*Guangzhou-Taipei03, server: gzcm03.iplc188.com, port: 10003, type: vmess, uuid: 03783713-9223-4b7e-943b-67eddc1909ec, alterId: 1, cipher: auto, tls: false}
-  - {name: https://www.mattkaydiary.com|Best!*Shanghai-Taipei*21, server: shcu01.iplc188.com, port: 10004, type: vmess, uuid: 03783713-9223-4b7e-943b-67eddc1909ec, alterId: 1, cipher: auto, tls: false}
-  - {name: 🇬🇧 https://www.mattkaydiary.com|adi|0422 - 英国, server: 185.134.23.40, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇬🇧 https://www.mattkaydiary.com|adi|0422 - 英国 2, server: 185.134.23.40, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 🇬🇧 https://www.mattkaydiary.com|adi|0422 - 英国 3, server: 185.153.150.63, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: https://www.mattkaydiary.com|adi|0422 - 斯洛伐克, server: 37.120.221.5, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: https://www.mattkaydiary.com|adi|0422 - 欧洲, server: 185.242.5.155, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: https://www.mattkaydiary.com|adi|0422 - 欧洲 2, server: 198.147.22.87, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
-  - {name: https://www.mattkaydiary.com|adi|0422 - 欧洲 3, server: 207.244.127.118, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 https://www.mattkaydiary.com|adi|0422 - 美国, server: 143.244.57.91, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: 🇩🇪 https://www.mattkaydiary.com|adi|0422 - 德国, server: 185.134.23.40, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: 🇩🇰 https://www.mattkaydiary.com|adi|0422 - 丹麦, server: 37.120.194.109, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇩🇰 https://www.mattkaydiary.com|adi|0422 - 丹麦 2, server: 2.58.46.3, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇩🇰 https://www.mattkaydiary.com|adi|0422 - 丹麦 3, server: 37.120.194.91, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇩🇰 https://www.mattkaydiary.com|adi|0422 - 丹麦 4, server: 37.120.194.91, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 https://www.mattkaydiary.com|adi|0420 - 美国, server: 84.17.35.78, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 https://www.mattkaydiary.com|adi|0420 - 美国 2, server: 172.98.78.227, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇭🇰 https://www.mattkaydiary.com|Relay_🇭🇰HK-🇺🇸US_2040 | 5.85Mb, server: taowai1.xiaobaiyun.me, port: 817, type: vmess, uuid: 6d04dd65-c0b0-38b0-8d3a-be30a68cb55d, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /hls, ws-headers: {Host: mgalsj.xiaobaiyun.me}}
-  - {name: https://www.mattkaydiary.com|Relay_ |53.67Mb, server: 368.vpn-4.xyz, port: 99, type: vmess, uuid: 5e3078ff-3676-3041-a5e3-4602bd3bc532, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /public, ws-headers: {Host: github.com}}
-  - {name: https://www.mattkaydiary.com|Relay_ |70.88Mb, server: auto.freev2.top, port: 40379, type: vmess, uuid: 524d14bd-a8b4-4ac9-ab5e-0fffed6b719c, alterId: 1, cipher: auto, tls: false}
-  - {name: 🇰🇷 https://www.mattkaydiary.com|🇰🇷KR_2551 |38.72Mb, server: 54.180.97.74, port: 889, type: vmess, uuid: 5e3078ff-3676-3041-a5e3-4602bd3bc532, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /public, ws-headers: {Host: baidu.com}}
+  - {name: 🇨🇦 @SSRSUB-加拿大A1-付费推荐:dlj.tf/ssrsub, server: t1.ssrsub.one, port: 1443, type: trojan, password: dlj.tf/ssrsub, sni: t1.ssrsub.one, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇦 @SSRSUB-加拿大A2-付费推荐:dlj.tf/ssrsub, server: t2.ssrsub.one, port: 1443, type: trojan, password: dlj.tf/ssrsub, sni: t2.ssrsub.one, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇦 @SSRSUB-加拿大A3-付费推荐:dlj.tf/ssrsub, server: t3.ssrsub.one, port: 1443, type: trojan, password: dlj.tf/ssrsub, sni: t3.ssrsub.one, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇦 @SSRSUB-加拿大A4-付费推荐:dlj.tf/ssrsub, server: t4.ssrsub.one, port: 1443, type: trojan, password: dlj.tf/ssrsub, sni: t4.ssrsub.one, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇦 @SSRSUB-加拿大A5-付费推荐:dlj.tf/ssrsub, server: t5.ssrsub.one, port: 1443, type: trojan, password: dlj.tf/ssrsub, sni: t5.ssrsub.one, skip-cert-verify: false, udp: true}
+  - {name: 🇷🇺 @SSRSUB-俄罗斯A6-付费推荐:dlj.tf/ssrsub, server: t6.ssrsub.one, port: 1443, type: trojan, password: dlj.tf/ssrsub, sni: t6.ssrsub.one, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 @SSRSUB-日本A7-付费推荐:dlj.tf/ssrsub, server: t7.ssrsub.one, port: 1443, type: trojan, password: suo.yt/ssrsub, sni: t7.ssrsub.one, skip-cert-verify: false, udp: true}
+  - {name: 🇰🇷 @SSRSUB-韩国A8-付费推荐:dlj.tf/ssrsub, server: t8.ssrsub.one, port: 1443, type: trojan, password: dlj.tf/ssrsub, sni: t8.ssrsub.one, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇦 @SSRSUB-加拿大A9-付费推荐:dlj.tf/ssrsub, server: t9.ssrsub.one, port: 1443, type: trojan, password: dlj.tf/ssrsub, sni: t9.ssrsub.one, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇲 @SSRSUB-美国A10-付费推荐:dlj.tf/ssrsub, server: t10.ssrsub.one, port: 1443, type: trojan, password: dlj.tf/ssrsub, sni: t10.ssrsub.one, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇦 @SSRSUB-加拿大B1-付费推荐:dlj.tf/ssrsub, server: t1.ssrsub.one, port: 443, type: trojan, password: t.me/SSRSUB, sni: t1.ssrsub.one, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇦 @SSRSUB-加拿大B2-付费推荐:dlj.tf/ssrsub, server: t2.ssrsub.one, port: 443, type: trojan, password: t.me/SSRSUB, sni: t2.ssrsub.one, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇦 @SSRSUB-加拿大B3-付费推荐:dlj.tf/ssrsub, server: t3.ssrsub.one, port: 443, type: trojan, password: t.me/SSRSUB, sni: t3.ssrsub.one, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇦 @SSRSUB-加拿大B4-付费推荐:dlj.tf/ssrsub, server: t4.ssrsub.one, port: 443, type: trojan, password: t.me/SSRSUB, sni: t4.ssrsub.one, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇦 @SSRSUB-加拿大B5-付费推荐:dlj.tf/ssrsub, server: t5.ssrsub.one, port: 443, type: trojan, password: t.me/SSRSUB, sni: t5.ssrsub.one, skip-cert-verify: false, udp: true}
+  - {name: 🇷🇺 @SSRSUB-俄罗斯B6-付费推荐:dlj.tf/ssrsub, server: t6.ssrsub.one, port: 443, type: trojan, password: t.me/SSRSUB, sni: t6.ssrsub.one, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 @SSRSUB-日本B7-付费推荐:dlj.tf/ssrsub, server: t7.ssrsub.one, port: 443, type: trojan, password: dlj.tf/ssrsub, sni: t7.ssrsub.one, skip-cert-verify: false, udp: true}
+  - {name: 🇰🇷 @SSRSUB-韩国B8-付费推荐:dlj.tf/ssrsub, server: t8.ssrsub.one, port: 443, type: trojan, password: t.me/SSRSUB, sni: t8.ssrsub.one, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇦 @SSRSUB-加拿大B9-付费推荐:dlj.tf/ssrsub, server: t9.ssrsub.one, port: 443, type: trojan, password: t.me/SSRSUB, sni: t9.ssrsub.one, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇲 @SSRSUB-美国B10-付费推荐:dlj.tf/ssrsub, server: t10.ssrsub.one, port: 443, type: trojan, password: t.me/SSRSUB, sni: t10.ssrsub.one, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇦 @SSRSUB-加拿大C1-付费推荐:dlj.tf/ssrsub, server: t1.ssrsub.one, port: 8443, type: trojan, password: suo.yt/ssrsub, sni: t1.ssrsub.one, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇦 @SSRSUB-加拿大C2-付费推荐:dlj.tf/ssrsub, server: t2.ssrsub.one, port: 8443, type: trojan, password: suo.yt/ssrsub, sni: t2.ssrsub.one, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇦 @SSRSUB-加拿大C3-付费推荐:dlj.tf/ssrsub, server: t3.ssrsub.one, port: 8443, type: trojan, password: suo.yt/ssrsub, sni: t3.ssrsub.one, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇦 @SSRSUB-加拿大C4-付费推荐:dlj.tf/ssrsub, server: t4.ssrsub.one, port: 8443, type: trojan, password: suo.yt/ssrsub, sni: t4.ssrsub.one, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇦 @SSRSUB-加拿大C5-付费推荐:dlj.tf/ssrsub, server: t5.ssrsub.one, port: 8443, type: trojan, password: suo.yt/ssrsub, sni: t5.ssrsub.one, skip-cert-verify: false, udp: true}
+  - {name: 🇷🇺 @SSRSUB-俄罗斯C6-付费推荐:dlj.tf/ssrsub, server: t6.ssrsub.one, port: 8443, type: trojan, password: suo.yt/ssrsub, sni: t6.ssrsub.one, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 @SSRSUB-日本C7-付费推荐:dlj.tf/ssrsub, server: t7.ssrsub.one, port: 8443, type: trojan, password: t.me/SSRSUB, sni: t7.ssrsub.one, skip-cert-verify: false, udp: true}
+  - {name: 🇰🇷 @SSRSUB-韩国C8-付费推荐:dlj.tf/ssrsub, server: t8.ssrsub.one, port: 8443, type: trojan, password: suo.yt/ssrsub, sni: t8.ssrsub.one, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇦 @SSRSUB-加拿大C9-付费推荐:dlj.tf/ssrsub, server: t9.ssrsub.one, port: 8443, type: trojan, password: suo.yt/ssrsub, sni: t9.ssrsub.one, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇲 @SSRSUB-美国C10-付费推荐:dlj.tf/ssrsub, server: t10.ssrsub.one, port: 8443, type: trojan, password: suo.yt/ssrsub, sni: t10.ssrsub.one, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇦 @SSRSUB-加拿大ss01-付费推荐:dlj.tf/ssrsub, server: ss-01.ssrsub.one, port: 1443, type: ss, cipher: aes-128-gcm, password: dlj.tf/ssrsub, plugin: obfs, plugin-opts: {mode: tls, host: n46hm52773.wns.windows.com}, udp: true}
+  - {name: 🇨🇦 @SSRSUB-加拿大ss02-付费推荐:dlj.tf/ssrsub, server: ss-02.ssrsub.one, port: 152, type: ss, cipher: aes-128-gcm, password: t.me/SSRSUB, plugin: obfs, plugin-opts: {mode: tls, host: n46hm52773.wns.windows.com}, udp: true}
+  - {name: 🇨🇦 @SSRSUB-加拿大ss03-付费推荐:dlj.tf/ssrsub, server: ss-03.ssrsub.one, port: 1443, type: ss, cipher: aes-128-gcm, password: dlj.tf/ssrsub, plugin: obfs, plugin-opts: {mode: tls, host: n46hm52773.wns.windows.com}, udp: true}
+  - {name: 🇨🇦 @SSRSUB-加拿大ss04-付费推荐:dlj.tf/ssrsub, server: ss-04.ssrsub.one, port: 152, type: ss, cipher: aes-128-gcm, password: t.me/SSRSUB, plugin: obfs, plugin-opts: {mode: tls, host: n46hm52773.wns.windows.com}, udp: true}
+  - {name: 🇨🇦 @SSRSUB-加拿大ss05-付费推荐:dlj.tf/ssrsub, server: ss-05.ssrsub.one, port: 1443, type: ss, cipher: aes-128-gcm, password: dlj.tf/ssrsub, plugin: obfs, plugin-opts: {mode: tls, host: n46hm52773.wns.windows.com}, udp: true}
+  - {name: 🇨🇦 @SSRSUB-加拿大ss06-付费推荐:dlj.tf/ssrsub, server: ss-06.ssrsub.one, port: 152, type: ss, cipher: aes-128-gcm, password: t.me/SSRSUB, plugin: obfs, plugin-opts: {mode: tls, host: n46hm52773.wns.windows.com}, udp: true}
+  - {name: 🇨🇦 @SSRSUB-加拿大ss07-付费推荐:dlj.tf/ssrsub, server: ss-07.ssrsub.one, port: 1443, type: ss, cipher: aes-128-gcm, password: dlj.tf/ssrsub, plugin: obfs, plugin-opts: {mode: tls, host: n46hm52773.wns.windows.com}, udp: true}
+  - {name: 🇨🇦 @SSRSUB-加拿大ss08-付费推荐:dlj.tf/ssrsub, server: ss-08.ssrsub.one, port: 152, type: ss, cipher: aes-128-gcm, password: t.me/SSRSUB, plugin: obfs, plugin-opts: {mode: tls, host: n46hm52773.wns.windows.com}, udp: true}
+  - {name: 🇨🇦 @SSRSUB-加拿大ss09-付费推荐:dlj.tf/ssrsub, server: ss-09.ssrsub.one, port: 1443, type: ss, cipher: aes-128-gcm, password: dlj.tf/ssrsub, plugin: obfs, plugin-opts: {mode: tls, host: n46hm52773.wns.windows.com}, udp: true}
+  - {name: 🇨🇦 @SSRSUB-加拿大ss10-付费推荐:dlj.tf/ssrsub, server: ss-10.ssrsub.one, port: 152, type: ss, cipher: aes-128-gcm, password: t.me/SSRSUB, plugin: obfs, plugin-opts: {mode: tls, host: n46hm52773.wns.windows.com}, udp: true}
+  - {name: 🇷🇺 @SSRSUB-俄罗斯ss11-付费推荐:dlj.tf/ssrsub, server: ss-11.ssrsub.one, port: 1443, type: ss, cipher: aes-128-gcm, password: dlj.tf/ssrsub, plugin: obfs, plugin-opts: {mode: tls, host: n46hm52773.wns.windows.com}, udp: true}
+  - {name: 🇷🇺 @SSRSUB-俄罗斯ss12-付费推荐:dlj.tf/ssrsub, server: ss-12.ssrsub.one, port: 152, type: ss, cipher: aes-128-gcm, password: t.me/SSRSUB, plugin: obfs, plugin-opts: {mode: tls, host: n46hm52773.wns.windows.com}, udp: true}
+  - {name: 🇷🇺 @SSRSUB-俄罗斯ss13-付费推荐:dlj.tf/ssrsub, server: ss-13.ssrsub.one, port: 1443, type: ss, cipher: aes-128-gcm, password: dlj.tf/ssrsub, plugin: obfs, plugin-opts: {mode: tls, host: n46hm52773.wns.windows.com}, udp: true}
+  - {name: 🇷🇺 @SSRSUB-俄罗斯ss14-付费推荐:dlj.tf/ssrsub, server: ss-14.ssrsub.one, port: 152, type: ss, cipher: aes-128-gcm, password: t.me/SSRSUB, plugin: obfs, plugin-opts: {mode: tls, host: n46hm52773.wns.windows.com}, udp: true}
+  - {name: 🇦🇺 @SSRSUB-澳大利亚ss15-付费推荐:dlj.tf/ssrsub, server: ss.au.sshmax.net, port: 1443, type: ss, cipher: chacha20-ietf-poly1305, password: kRAxb8hPUxS0, udp: true}
+  - {name: 🇨🇦 @SSRSUB-加拿大ss16-付费推荐:dlj.tf/ssrsub, server: ss.ca.sshmax.net, port: 1443, type: ss, cipher: chacha20-ietf-poly1305, password: r4TeEt5bK0UD, udp: true}
+  - {name: 🇺🇲 @SSRSUB-美国ss17-付费推荐:dlj.tf/ssrsub, server: ss.us.sshmax.net, port: 1443, type: ss, cipher: chacha20-ietf-poly1305, password: T3j6elRwEuA4, udp: true}
+  - {name: 🇬🇧 @SSRSUB-英国ss18-付费推荐:dlj.tf/ssrsub, server: ss.uk.sshmax.net, port: 1443, type: ss, cipher: chacha20-ietf-poly1305, password: JSvsHhHYIuVG, udp: true}
+  - {name: 🇷🇺 @SSRSUB-俄罗斯ss19-付费推荐:dlj.tf/ssrsub, server: ss.ru.sshmax.net, port: 1443, type: ss, cipher: chacha20-ietf-poly1305, password: KACUGSkPS3FG, udp: true}
+  - {name: "@SSRSUB-波兰ss20-付费推荐:dlj.tf/ssrsub", server: ss.pl.sshmax.net, port: 1443, type: ss, cipher: chacha20-ietf-poly1305, password: M1LCZAlfz1bV, udp: true}
+  - {name: 🇫🇷 @SSRSUB-法国ss21-付费推荐:dlj.tf/ssrsub, server: ss.fr.sshmax.net, port: 1443, type: ss, cipher: chacha20-ietf-poly1305, password: 6nhHHuGHw2D5, udp: true}
+  - {name: 🇩🇪 @SSRSUB-德国ss22-付费推荐:dlj.tf/ssrsub, server: ss.de.sshmax.net, port: 21474, type: ss, cipher: chacha20-ietf-poly1305, password: HgCMlgbtQMxl, udp: true}
+  - {name: 🇺🇲 @SSRSUB-美国ss23-付费推荐:dlj.tf/ssrsub, server: ss.us.sshmax.net, port: 57478, type: ss, cipher: chacha20-ietf-poly1305, password: syCiJl3nb8OD, udp: true}
+  - {name: 🇬🇧 @SSRSUB-英国ss24-付费推荐:dlj.tf/ssrsub, server: ss.uk.sshmax.net, port: 57478, type: ss, cipher: chacha20-ietf-poly1305, password: HgVDIN05O6bH, udp: true}
+  - {name: 🇩🇪 @SSRSUB-德国ss25-付费推荐:dlj.tf/ssrsub, server: ss.de.sshmax.net, port: 21474, type: ss, cipher: chacha20-ietf-poly1305, password: cWv8FcJk0VpS, udp: true}
+  - {name: 🇮🇳 @SSRSUB-印度ss26-付费推荐:dlj.tf/ssrsub, server: ss.id.sshmax.net, port: 57478, type: ss, cipher: chacha20-ietf-poly1305, password: ku382YXK8cLE, udp: true}
+  - {name: 🇸🇬 @SSRSUB-新加坡ss27-付费推荐:dlj.tf/ssrsub, server: ss.sg.sshmax.net, port: 1443, type: ss, cipher: chacha20-ietf-poly1305, password: grtvkkHAinCf, udp: true}
+  - {name: 🇸🇬 @SSRSUB-新加坡ss28-付费推荐:dlj.tf/ssrsub, server: ss.sg.sshmax.net, port: 57478, type: ss, cipher: chacha20-ietf-poly1305, password: o4qygNrXw7cE, udp: true}
+  - {name: 🇸🇬 @SSRSUB-新加坡ss29-付费推荐:dlj.tf/ssrsub, server: ss.sg.sshmax.net, port: 8139, type: ss, cipher: chacha20-ietf-poly1305, password: qyzhBfoKRzXl, udp: true}
+  - {name: 🇭🇰 东莞电信-香港, server: 119.147.144.250, port: 18834, type: ss, cipher: aes-256-gcm, password: daCxNwo600NW, udp: true}
+  - {name: 🇭🇰 香港线路 1 - NETFLIX, server: 119.147.144.250, port: 18834, type: ss, cipher: aes-256-gcm, password: daCxNwo600NW, udp: true}
+  - {name: 🇷🇺 美国 俄勒冈州AWS2, server: 52.34.165.6, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 🇯🇵 美国xerox-日本 东京, server: 13.212.113.145, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 🇯🇵 日本 东京 AWS1, server: 13.231.173.43, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 🇺🇲 美国IT7 洛杉矶8, server: 176.122.166.159, port: 666, type: ss, cipher: aes-256-cfb, password: bwhskrskr01, udp: true}
+  - {name: 🇷🇺 美国 俄勒冈州AWS3, server: 34.217.68.45, port: 444, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 🇷🇴 罗马尼亚1, server: 91.90.123.189, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA, udp: true}
+  - {name: 🇳🇱 荷兰 阿姆斯特丹, server: 143.244.42.71, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA, udp: true}
+  - {name: 苏格兰1, server: 185.108.105.186, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA, udp: true}
+  - {name: 🇺🇲 美国 芝加哥, server: 138.199.42.163, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA, udp: true}
+  - {name: 🇺🇲 美国 丹佛, server: 212.102.44.86, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA, udp: true}
+  - {name: 🇩🇰 丹麦 哥本哈根, server: 193.29.107.187, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA, udp: true}
+  - {name: 🇺🇲 美国 圣何塞, server: 107.181.166.55, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6, udp: true}
+  - {name: 🇨🇦 @SSRSUB-加拿大ssr01-付费推荐:suo.yt/ssrsub, server: ssr-01.ssrsub.one, port: 57478, type: ss, cipher: aes-256-cfb, password: https://suo.yt/ssrsub, udp: true}
+  - {name: 🇨🇦 @SSRSUB-加拿大ssr02-付费推荐:suo.yt/ssrsub, server: ssr-02.ssrsub.one, port: 8897, type: ss, cipher: aes-256-cfb, password: t.me/SSRSUB, udp: true}
+  - {name: 🇨🇦 @SSRSUB-加拿大ssr03-付费推荐:suo.yt/ssrsub, server: ssr-03.ssrsub.one, port: 57478, type: ss, cipher: aes-256-cfb, password: https://suo.yt/ssrsub, udp: true}
+  - {name: 🇨🇦 @SSRSUB-加拿大ssr04-付费推荐:suo.yt/ssrsub, server: ssr-04.ssrsub.one, port: 8897, type: ss, cipher: aes-256-cfb, password: t.me/SSRSUB, udp: true}
+  - {name: 🇨🇦 @SSRSUB-加拿大ssr05-付费推荐:suo.yt/ssrsub, server: ssr-05.ssrsub.one, port: 57478, type: ss, cipher: aes-256-cfb, password: https://suo.yt/ssrsub, udp: true}
+  - {name: 🇨🇦 @SSRSUB-加拿大ssr06-付费推荐:suo.yt/ssrsub, server: ssr-06.ssrsub.one, port: 8897, type: ss, cipher: aes-256-cfb, password: t.me/SSRSUB, udp: true}
+  - {name: 🇨🇦 @SSRSUB-加拿大ssr07-付费推荐:suo.yt/ssrsub, server: ssr-07.ssrsub.one, port: 57478, type: ss, cipher: aes-256-cfb, password: https://suo.yt/ssrsub, udp: true}
+  - {name: 🇨🇦 @SSRSUB-加拿大ssr08-付费推荐:suo.yt/ssrsub, server: ssr-08.ssrsub.one, port: 8897, type: ss, cipher: aes-256-cfb, password: t.me/SSRSUB, udp: true}
+  - {name: 🇨🇦 @SSRSUB-加拿大ssr09-付费推荐:suo.yt/ssrsub, server: ssr-09.ssrsub.one, port: 57478, type: ss, cipher: aes-256-cfb, password: https://suo.yt/ssrsub, udp: true}
+  - {name: 🇨🇦 @SSRSUB-加拿大ssr10-付费推荐:suo.yt/ssrsub, server: ssr-10.ssrsub.one, port: 8897, type: ss, cipher: aes-256-cfb, password: t.me/SSRSUB, udp: true}
+  - {name: 🇷🇺 @SSRSUB-俄罗斯ssr11-付费推荐:suo.yt/ssrsub, server: ssr-11.ssrsub.one, port: 57478, type: ss, cipher: aes-256-cfb, password: https://suo.yt/ssrsub, udp: true}
+  - {name: 🇷🇺 @SSRSUB-俄罗斯ssr12-付费推荐:suo.yt/ssrsub, server: ssr-12.ssrsub.one, port: 8897, type: ss, cipher: aes-256-cfb, password: t.me/SSRSUB, udp: true}
+  - {name: 🇷🇺 @SSRSUB-俄罗斯ssr13-付费推荐:suo.yt/ssrsub, server: ssr-13.ssrsub.one, port: 57478, type: ss, cipher: aes-256-cfb, password: https://suo.yt/ssrsub, udp: true}
+  - {name: 🇷🇺 @SSRSUB-俄罗斯ssr14-付费推荐:suo.yt/ssrsub, server: ssr-14.ssrsub.one, port: 8897, type: ss, cipher: aes-256-cfb, password: t.me/SSRSUB, udp: true}
+  - {name: "@SSRSUB-V1-付费推荐:suo.yt/ssrsub", server: gzyd-zz.tsutsu.top, port: 56224, type: vmess, uuid: b3a32dba-55b5-405d-b173-28d1d4b539c1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: gzyd-zz.tsutsu.top}, udp: true}
+  - {name: "@SSRSUB-V2-付费推荐:suo.yt/ssrsub", server: 23.225.213.242, port: 443, type: vmess, uuid: 11c703a8-f3eb-4b3a-bc9b-2539c6ac6796, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/160317342506, ws-headers: {Host: 23.225.213.242}, udp: true}
+  - {name: "@SSRSUB-V3-付费推荐:suo.yt/ssrsub", server: 172.67.186.204, port: 443, type: vmess, uuid: f299184b-19e0-41a4-9b4b-65fa8f0e691c, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /jj, ws-headers: {Host: c-jp1.ooxc.cc}, udp: true}
+  - {name: "@SSRSUB-V4-付费推荐:suo.yt/ssrsub", server: 23.224.31.202, port: 443, type: vmess, uuid: 28a84b69-e118-47a0-9869-f397bcc9fbbd, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/160317342506, ws-headers: {Host: 23.224.31.202}, udp: true}
+  - {name: "@SSRSUB-V5-付费推荐:suo.yt/ssrsub", server: 23.225.165.242, port: 443, type: vmess, uuid: 34f8dd2e-55f0-4d95-bfda-714f50b6c0e1, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/160317342506, ws-headers: {Host: 23.225.165.242}, udp: true}
+  - {name: "@SSRSUB-V6-付费推荐:suo.yt/ssrsub", server: 23.224.164.100, port: 443, type: vmess, uuid: d25a6583-52ca-496f-87ae-f2275b3b0ddd, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/160317342506, ws-headers: {Host: 23.224.164.100}, udp: true}
+  - {name: "@SSRSUB-V7-付费推荐:suo.yt/ssrsub", server: 104.18.6.138, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}, udp: true}
+  - {name: "@SSRSUB-V8-付费推荐:suo.yt/ssrsub", server: 173.82.240.245, port: 443, type: vmess, uuid: 219be2f9-573d-4507-9e9b-74b385ba1c9c, alterId: 10, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /0574a110e138dd/, ws-headers: {Host: cc.hciahciphcie.club}, udp: true}
+  - {name: "@SSRSUB-V9-付费推荐:suo.yt/ssrsub", server: zhongzhuangazhk2.xiaobaiyun.me, port: 800, type: vmess, uuid: 6d04dd65-c0b0-38b0-8d3a-be30a68cb55d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /hls, ws-headers: {Host: els.xiaobaiyun.me}, udp: true}
+  - {name: "@SSRSUB-V10-付费推荐:suo.yt/ssrsub", server: 23.225.165.242, port: 443, type: vmess, uuid: 34f8dd2e-55f0-4d95-bfda-714f50b6c0e1, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/160317342506, ws-headers: {Host: 23.225.165.242}, udp: true}
+  - {name: "@SSRSUB-V11-付费推荐:suo.yt/ssrsub", server: 23.224.164.100, port: 443, type: vmess, uuid: d25a6583-52ca-496f-87ae-f2275b3b0ddd, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/160317342506, ws-headers: {Host: 23.224.164.100}, udp: true}
+  - {name: "@SSRSUB-V12-付费推荐:suo.yt/ssrsub", server: in1-relay.kejibearnode.cf, port: 10015, type: vmess, uuid: 3647ebdb-fa25-385f-a78b-f137811e586f, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /video, ws-headers: {Host: in1-relay.kejibearnode.cf}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 https://www.mattkaydiary.com|Best!Transit*Shanghai-HK*CN2-GIA05
-      - 🇭🇰 https://www.mattkaydiary.com|Best!Transit*Shanghai-HKT*05
-      - 🇭🇰 https://www.mattkaydiary.com|Low Latency!Transit*Guangzhou-HK03
-      - 🇸🇬 https://www.mattkaydiary.com|Transit*Guangzhou-Singapore03
-      - https://www.mattkaydiary.com|Transit*Guangzhou-Taipei03
-      - https://www.mattkaydiary.com|Best!*Shanghai-Taipei*21
-      - 🇬🇧 https://www.mattkaydiary.com|adi|0422 - 英国
-      - 🇬🇧 https://www.mattkaydiary.com|adi|0422 - 英国 2
-      - 🇬🇧 https://www.mattkaydiary.com|adi|0422 - 英国 3
-      - https://www.mattkaydiary.com|adi|0422 - 斯洛伐克
-      - https://www.mattkaydiary.com|adi|0422 - 欧洲
-      - https://www.mattkaydiary.com|adi|0422 - 欧洲 2
-      - https://www.mattkaydiary.com|adi|0422 - 欧洲 3
-      - 🇺🇸 https://www.mattkaydiary.com|adi|0422 - 美国
-      - 🇩🇪 https://www.mattkaydiary.com|adi|0422 - 德国
-      - 🇩🇰 https://www.mattkaydiary.com|adi|0422 - 丹麦
-      - 🇩🇰 https://www.mattkaydiary.com|adi|0422 - 丹麦 2
-      - 🇩🇰 https://www.mattkaydiary.com|adi|0422 - 丹麦 3
-      - 🇩🇰 https://www.mattkaydiary.com|adi|0422 - 丹麦 4
-      - 🇺🇸 https://www.mattkaydiary.com|adi|0420 - 美国
-      - 🇺🇸 https://www.mattkaydiary.com|adi|0420 - 美国 2
-      - 🇭🇰 https://www.mattkaydiary.com|Relay_🇭🇰HK-🇺🇸US_2040 | 5.85Mb
-      - https://www.mattkaydiary.com|Relay_ |53.67Mb
-      - https://www.mattkaydiary.com|Relay_ |70.88Mb
-      - 🇰🇷 https://www.mattkaydiary.com|🇰🇷KR_2551 |38.72Mb
+      - 🇨🇦 @SSRSUB-加拿大A1-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大A2-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大A3-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大A4-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大A5-付费推荐:dlj.tf/ssrsub
+      - 🇷🇺 @SSRSUB-俄罗斯A6-付费推荐:dlj.tf/ssrsub
+      - 🇯🇵 @SSRSUB-日本A7-付费推荐:dlj.tf/ssrsub
+      - 🇰🇷 @SSRSUB-韩国A8-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大A9-付费推荐:dlj.tf/ssrsub
+      - 🇺🇲 @SSRSUB-美国A10-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大B1-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大B2-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大B3-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大B4-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大B5-付费推荐:dlj.tf/ssrsub
+      - 🇷🇺 @SSRSUB-俄罗斯B6-付费推荐:dlj.tf/ssrsub
+      - 🇯🇵 @SSRSUB-日本B7-付费推荐:dlj.tf/ssrsub
+      - 🇰🇷 @SSRSUB-韩国B8-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大B9-付费推荐:dlj.tf/ssrsub
+      - 🇺🇲 @SSRSUB-美国B10-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大C1-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大C2-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大C3-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大C4-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大C5-付费推荐:dlj.tf/ssrsub
+      - 🇷🇺 @SSRSUB-俄罗斯C6-付费推荐:dlj.tf/ssrsub
+      - 🇯🇵 @SSRSUB-日本C7-付费推荐:dlj.tf/ssrsub
+      - 🇰🇷 @SSRSUB-韩国C8-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大C9-付费推荐:dlj.tf/ssrsub
+      - 🇺🇲 @SSRSUB-美国C10-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ss01-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ss02-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ss03-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ss04-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ss05-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ss06-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ss07-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ss08-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ss09-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ss10-付费推荐:dlj.tf/ssrsub
+      - 🇷🇺 @SSRSUB-俄罗斯ss11-付费推荐:dlj.tf/ssrsub
+      - 🇷🇺 @SSRSUB-俄罗斯ss12-付费推荐:dlj.tf/ssrsub
+      - 🇷🇺 @SSRSUB-俄罗斯ss13-付费推荐:dlj.tf/ssrsub
+      - 🇷🇺 @SSRSUB-俄罗斯ss14-付费推荐:dlj.tf/ssrsub
+      - 🇦🇺 @SSRSUB-澳大利亚ss15-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ss16-付费推荐:dlj.tf/ssrsub
+      - 🇺🇲 @SSRSUB-美国ss17-付费推荐:dlj.tf/ssrsub
+      - 🇬🇧 @SSRSUB-英国ss18-付费推荐:dlj.tf/ssrsub
+      - 🇷🇺 @SSRSUB-俄罗斯ss19-付费推荐:dlj.tf/ssrsub
+      - "@SSRSUB-波兰ss20-付费推荐:dlj.tf/ssrsub"
+      - 🇫🇷 @SSRSUB-法国ss21-付费推荐:dlj.tf/ssrsub
+      - 🇩🇪 @SSRSUB-德国ss22-付费推荐:dlj.tf/ssrsub
+      - 🇺🇲 @SSRSUB-美国ss23-付费推荐:dlj.tf/ssrsub
+      - 🇬🇧 @SSRSUB-英国ss24-付费推荐:dlj.tf/ssrsub
+      - 🇩🇪 @SSRSUB-德国ss25-付费推荐:dlj.tf/ssrsub
+      - 🇮🇳 @SSRSUB-印度ss26-付费推荐:dlj.tf/ssrsub
+      - 🇸🇬 @SSRSUB-新加坡ss27-付费推荐:dlj.tf/ssrsub
+      - 🇸🇬 @SSRSUB-新加坡ss28-付费推荐:dlj.tf/ssrsub
+      - 🇸🇬 @SSRSUB-新加坡ss29-付费推荐:dlj.tf/ssrsub
+      - 🇭🇰 东莞电信-香港
+      - 🇭🇰 香港线路 1 - NETFLIX
+      - 🇷🇺 美国 俄勒冈州AWS2
+      - 🇯🇵 美国xerox-日本 东京
+      - 🇯🇵 日本 东京 AWS1
+      - 🇺🇲 美国IT7 洛杉矶8
+      - 🇷🇺 美国 俄勒冈州AWS3
+      - 🇷🇴 罗马尼亚1
+      - 🇳🇱 荷兰 阿姆斯特丹
+      - 苏格兰1
+      - 🇺🇲 美国 芝加哥
+      - 🇺🇲 美国 丹佛
+      - 🇩🇰 丹麦 哥本哈根
+      - 🇺🇲 美国 圣何塞
+      - 🇨🇦 @SSRSUB-加拿大ssr01-付费推荐:suo.yt/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ssr02-付费推荐:suo.yt/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ssr03-付费推荐:suo.yt/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ssr04-付费推荐:suo.yt/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ssr05-付费推荐:suo.yt/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ssr06-付费推荐:suo.yt/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ssr07-付费推荐:suo.yt/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ssr08-付费推荐:suo.yt/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ssr09-付费推荐:suo.yt/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ssr10-付费推荐:suo.yt/ssrsub
+      - 🇷🇺 @SSRSUB-俄罗斯ssr11-付费推荐:suo.yt/ssrsub
+      - 🇷🇺 @SSRSUB-俄罗斯ssr12-付费推荐:suo.yt/ssrsub
+      - 🇷🇺 @SSRSUB-俄罗斯ssr13-付费推荐:suo.yt/ssrsub
+      - 🇷🇺 @SSRSUB-俄罗斯ssr14-付费推荐:suo.yt/ssrsub
+      - "@SSRSUB-V1-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V2-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V3-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V4-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V5-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V6-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V7-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V8-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V9-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V10-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V11-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V12-付费推荐:suo.yt/ssrsub"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇭🇰 https://www.mattkaydiary.com|Best!Transit*Shanghai-HK*CN2-GIA05
-      - 🇭🇰 https://www.mattkaydiary.com|Best!Transit*Shanghai-HKT*05
-      - 🇭🇰 https://www.mattkaydiary.com|Low Latency!Transit*Guangzhou-HK03
-      - 🇸🇬 https://www.mattkaydiary.com|Transit*Guangzhou-Singapore03
-      - https://www.mattkaydiary.com|Transit*Guangzhou-Taipei03
-      - https://www.mattkaydiary.com|Best!*Shanghai-Taipei*21
-      - 🇬🇧 https://www.mattkaydiary.com|adi|0422 - 英国
-      - 🇬🇧 https://www.mattkaydiary.com|adi|0422 - 英国 2
-      - 🇬🇧 https://www.mattkaydiary.com|adi|0422 - 英国 3
-      - https://www.mattkaydiary.com|adi|0422 - 斯洛伐克
-      - https://www.mattkaydiary.com|adi|0422 - 欧洲
-      - https://www.mattkaydiary.com|adi|0422 - 欧洲 2
-      - https://www.mattkaydiary.com|adi|0422 - 欧洲 3
-      - 🇺🇸 https://www.mattkaydiary.com|adi|0422 - 美国
-      - 🇩🇪 https://www.mattkaydiary.com|adi|0422 - 德国
-      - 🇩🇰 https://www.mattkaydiary.com|adi|0422 - 丹麦
-      - 🇩🇰 https://www.mattkaydiary.com|adi|0422 - 丹麦 2
-      - 🇩🇰 https://www.mattkaydiary.com|adi|0422 - 丹麦 3
-      - 🇩🇰 https://www.mattkaydiary.com|adi|0422 - 丹麦 4
-      - 🇺🇸 https://www.mattkaydiary.com|adi|0420 - 美国
-      - 🇺🇸 https://www.mattkaydiary.com|adi|0420 - 美国 2
-      - 🇭🇰 https://www.mattkaydiary.com|Relay_🇭🇰HK-🇺🇸US_2040 | 5.85Mb
-      - https://www.mattkaydiary.com|Relay_ |53.67Mb
-      - https://www.mattkaydiary.com|Relay_ |70.88Mb
-      - 🇰🇷 https://www.mattkaydiary.com|🇰🇷KR_2551 |38.72Mb
+      - 🇨🇦 @SSRSUB-加拿大A1-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大A2-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大A3-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大A4-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大A5-付费推荐:dlj.tf/ssrsub
+      - 🇷🇺 @SSRSUB-俄罗斯A6-付费推荐:dlj.tf/ssrsub
+      - 🇯🇵 @SSRSUB-日本A7-付费推荐:dlj.tf/ssrsub
+      - 🇰🇷 @SSRSUB-韩国A8-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大A9-付费推荐:dlj.tf/ssrsub
+      - 🇺🇲 @SSRSUB-美国A10-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大B1-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大B2-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大B3-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大B4-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大B5-付费推荐:dlj.tf/ssrsub
+      - 🇷🇺 @SSRSUB-俄罗斯B6-付费推荐:dlj.tf/ssrsub
+      - 🇯🇵 @SSRSUB-日本B7-付费推荐:dlj.tf/ssrsub
+      - 🇰🇷 @SSRSUB-韩国B8-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大B9-付费推荐:dlj.tf/ssrsub
+      - 🇺🇲 @SSRSUB-美国B10-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大C1-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大C2-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大C3-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大C4-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大C5-付费推荐:dlj.tf/ssrsub
+      - 🇷🇺 @SSRSUB-俄罗斯C6-付费推荐:dlj.tf/ssrsub
+      - 🇯🇵 @SSRSUB-日本C7-付费推荐:dlj.tf/ssrsub
+      - 🇰🇷 @SSRSUB-韩国C8-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大C9-付费推荐:dlj.tf/ssrsub
+      - 🇺🇲 @SSRSUB-美国C10-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ss01-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ss02-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ss03-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ss04-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ss05-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ss06-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ss07-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ss08-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ss09-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ss10-付费推荐:dlj.tf/ssrsub
+      - 🇷🇺 @SSRSUB-俄罗斯ss11-付费推荐:dlj.tf/ssrsub
+      - 🇷🇺 @SSRSUB-俄罗斯ss12-付费推荐:dlj.tf/ssrsub
+      - 🇷🇺 @SSRSUB-俄罗斯ss13-付费推荐:dlj.tf/ssrsub
+      - 🇷🇺 @SSRSUB-俄罗斯ss14-付费推荐:dlj.tf/ssrsub
+      - 🇦🇺 @SSRSUB-澳大利亚ss15-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ss16-付费推荐:dlj.tf/ssrsub
+      - 🇺🇲 @SSRSUB-美国ss17-付费推荐:dlj.tf/ssrsub
+      - 🇬🇧 @SSRSUB-英国ss18-付费推荐:dlj.tf/ssrsub
+      - 🇷🇺 @SSRSUB-俄罗斯ss19-付费推荐:dlj.tf/ssrsub
+      - "@SSRSUB-波兰ss20-付费推荐:dlj.tf/ssrsub"
+      - 🇫🇷 @SSRSUB-法国ss21-付费推荐:dlj.tf/ssrsub
+      - 🇩🇪 @SSRSUB-德国ss22-付费推荐:dlj.tf/ssrsub
+      - 🇺🇲 @SSRSUB-美国ss23-付费推荐:dlj.tf/ssrsub
+      - 🇬🇧 @SSRSUB-英国ss24-付费推荐:dlj.tf/ssrsub
+      - 🇩🇪 @SSRSUB-德国ss25-付费推荐:dlj.tf/ssrsub
+      - 🇮🇳 @SSRSUB-印度ss26-付费推荐:dlj.tf/ssrsub
+      - 🇸🇬 @SSRSUB-新加坡ss27-付费推荐:dlj.tf/ssrsub
+      - 🇸🇬 @SSRSUB-新加坡ss28-付费推荐:dlj.tf/ssrsub
+      - 🇸🇬 @SSRSUB-新加坡ss29-付费推荐:dlj.tf/ssrsub
+      - 🇭🇰 东莞电信-香港
+      - 🇭🇰 香港线路 1 - NETFLIX
+      - 🇷🇺 美国 俄勒冈州AWS2
+      - 🇯🇵 美国xerox-日本 东京
+      - 🇯🇵 日本 东京 AWS1
+      - 🇺🇲 美国IT7 洛杉矶8
+      - 🇷🇺 美国 俄勒冈州AWS3
+      - 🇷🇴 罗马尼亚1
+      - 🇳🇱 荷兰 阿姆斯特丹
+      - 苏格兰1
+      - 🇺🇲 美国 芝加哥
+      - 🇺🇲 美国 丹佛
+      - 🇩🇰 丹麦 哥本哈根
+      - 🇺🇲 美国 圣何塞
+      - 🇨🇦 @SSRSUB-加拿大ssr01-付费推荐:suo.yt/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ssr02-付费推荐:suo.yt/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ssr03-付费推荐:suo.yt/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ssr04-付费推荐:suo.yt/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ssr05-付费推荐:suo.yt/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ssr06-付费推荐:suo.yt/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ssr07-付费推荐:suo.yt/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ssr08-付费推荐:suo.yt/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ssr09-付费推荐:suo.yt/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ssr10-付费推荐:suo.yt/ssrsub
+      - 🇷🇺 @SSRSUB-俄罗斯ssr11-付费推荐:suo.yt/ssrsub
+      - 🇷🇺 @SSRSUB-俄罗斯ssr12-付费推荐:suo.yt/ssrsub
+      - 🇷🇺 @SSRSUB-俄罗斯ssr13-付费推荐:suo.yt/ssrsub
+      - 🇷🇺 @SSRSUB-俄罗斯ssr14-付费推荐:suo.yt/ssrsub
+      - "@SSRSUB-V1-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V2-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V3-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V4-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V5-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V6-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V7-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V8-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V9-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V10-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V11-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V12-付费推荐:suo.yt/ssrsub"
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 https://www.mattkaydiary.com|Best!Transit*Shanghai-HK*CN2-GIA05
-      - 🇭🇰 https://www.mattkaydiary.com|Best!Transit*Shanghai-HKT*05
-      - 🇭🇰 https://www.mattkaydiary.com|Low Latency!Transit*Guangzhou-HK03
-      - 🇸🇬 https://www.mattkaydiary.com|Transit*Guangzhou-Singapore03
-      - https://www.mattkaydiary.com|Transit*Guangzhou-Taipei03
-      - https://www.mattkaydiary.com|Best!*Shanghai-Taipei*21
-      - 🇬🇧 https://www.mattkaydiary.com|adi|0422 - 英国
-      - 🇬🇧 https://www.mattkaydiary.com|adi|0422 - 英国 2
-      - 🇬🇧 https://www.mattkaydiary.com|adi|0422 - 英国 3
-      - https://www.mattkaydiary.com|adi|0422 - 斯洛伐克
-      - https://www.mattkaydiary.com|adi|0422 - 欧洲
-      - https://www.mattkaydiary.com|adi|0422 - 欧洲 2
-      - https://www.mattkaydiary.com|adi|0422 - 欧洲 3
-      - 🇺🇸 https://www.mattkaydiary.com|adi|0422 - 美国
-      - 🇩🇪 https://www.mattkaydiary.com|adi|0422 - 德国
-      - 🇩🇰 https://www.mattkaydiary.com|adi|0422 - 丹麦
-      - 🇩🇰 https://www.mattkaydiary.com|adi|0422 - 丹麦 2
-      - 🇩🇰 https://www.mattkaydiary.com|adi|0422 - 丹麦 3
-      - 🇩🇰 https://www.mattkaydiary.com|adi|0422 - 丹麦 4
-      - 🇺🇸 https://www.mattkaydiary.com|adi|0420 - 美国
-      - 🇺🇸 https://www.mattkaydiary.com|adi|0420 - 美国 2
-      - 🇭🇰 https://www.mattkaydiary.com|Relay_🇭🇰HK-🇺🇸US_2040 | 5.85Mb
-      - https://www.mattkaydiary.com|Relay_ |53.67Mb
-      - https://www.mattkaydiary.com|Relay_ |70.88Mb
-      - 🇰🇷 https://www.mattkaydiary.com|🇰🇷KR_2551 |38.72Mb
+      - 🇨🇦 @SSRSUB-加拿大A1-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大A2-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大A3-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大A4-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大A5-付费推荐:dlj.tf/ssrsub
+      - 🇷🇺 @SSRSUB-俄罗斯A6-付费推荐:dlj.tf/ssrsub
+      - 🇯🇵 @SSRSUB-日本A7-付费推荐:dlj.tf/ssrsub
+      - 🇰🇷 @SSRSUB-韩国A8-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大A9-付费推荐:dlj.tf/ssrsub
+      - 🇺🇲 @SSRSUB-美国A10-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大B1-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大B2-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大B3-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大B4-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大B5-付费推荐:dlj.tf/ssrsub
+      - 🇷🇺 @SSRSUB-俄罗斯B6-付费推荐:dlj.tf/ssrsub
+      - 🇯🇵 @SSRSUB-日本B7-付费推荐:dlj.tf/ssrsub
+      - 🇰🇷 @SSRSUB-韩国B8-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大B9-付费推荐:dlj.tf/ssrsub
+      - 🇺🇲 @SSRSUB-美国B10-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大C1-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大C2-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大C3-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大C4-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大C5-付费推荐:dlj.tf/ssrsub
+      - 🇷🇺 @SSRSUB-俄罗斯C6-付费推荐:dlj.tf/ssrsub
+      - 🇯🇵 @SSRSUB-日本C7-付费推荐:dlj.tf/ssrsub
+      - 🇰🇷 @SSRSUB-韩国C8-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大C9-付费推荐:dlj.tf/ssrsub
+      - 🇺🇲 @SSRSUB-美国C10-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ss01-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ss02-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ss03-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ss04-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ss05-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ss06-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ss07-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ss08-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ss09-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ss10-付费推荐:dlj.tf/ssrsub
+      - 🇷🇺 @SSRSUB-俄罗斯ss11-付费推荐:dlj.tf/ssrsub
+      - 🇷🇺 @SSRSUB-俄罗斯ss12-付费推荐:dlj.tf/ssrsub
+      - 🇷🇺 @SSRSUB-俄罗斯ss13-付费推荐:dlj.tf/ssrsub
+      - 🇷🇺 @SSRSUB-俄罗斯ss14-付费推荐:dlj.tf/ssrsub
+      - 🇦🇺 @SSRSUB-澳大利亚ss15-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ss16-付费推荐:dlj.tf/ssrsub
+      - 🇺🇲 @SSRSUB-美国ss17-付费推荐:dlj.tf/ssrsub
+      - 🇬🇧 @SSRSUB-英国ss18-付费推荐:dlj.tf/ssrsub
+      - 🇷🇺 @SSRSUB-俄罗斯ss19-付费推荐:dlj.tf/ssrsub
+      - "@SSRSUB-波兰ss20-付费推荐:dlj.tf/ssrsub"
+      - 🇫🇷 @SSRSUB-法国ss21-付费推荐:dlj.tf/ssrsub
+      - 🇩🇪 @SSRSUB-德国ss22-付费推荐:dlj.tf/ssrsub
+      - 🇺🇲 @SSRSUB-美国ss23-付费推荐:dlj.tf/ssrsub
+      - 🇬🇧 @SSRSUB-英国ss24-付费推荐:dlj.tf/ssrsub
+      - 🇩🇪 @SSRSUB-德国ss25-付费推荐:dlj.tf/ssrsub
+      - 🇮🇳 @SSRSUB-印度ss26-付费推荐:dlj.tf/ssrsub
+      - 🇸🇬 @SSRSUB-新加坡ss27-付费推荐:dlj.tf/ssrsub
+      - 🇸🇬 @SSRSUB-新加坡ss28-付费推荐:dlj.tf/ssrsub
+      - 🇸🇬 @SSRSUB-新加坡ss29-付费推荐:dlj.tf/ssrsub
+      - 🇭🇰 东莞电信-香港
+      - 🇭🇰 香港线路 1 - NETFLIX
+      - 🇷🇺 美国 俄勒冈州AWS2
+      - 🇯🇵 美国xerox-日本 东京
+      - 🇯🇵 日本 东京 AWS1
+      - 🇺🇲 美国IT7 洛杉矶8
+      - 🇷🇺 美国 俄勒冈州AWS3
+      - 🇷🇴 罗马尼亚1
+      - 🇳🇱 荷兰 阿姆斯特丹
+      - 苏格兰1
+      - 🇺🇲 美国 芝加哥
+      - 🇺🇲 美国 丹佛
+      - 🇩🇰 丹麦 哥本哈根
+      - 🇺🇲 美国 圣何塞
+      - 🇨🇦 @SSRSUB-加拿大ssr01-付费推荐:suo.yt/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ssr02-付费推荐:suo.yt/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ssr03-付费推荐:suo.yt/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ssr04-付费推荐:suo.yt/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ssr05-付费推荐:suo.yt/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ssr06-付费推荐:suo.yt/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ssr07-付费推荐:suo.yt/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ssr08-付费推荐:suo.yt/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ssr09-付费推荐:suo.yt/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ssr10-付费推荐:suo.yt/ssrsub
+      - 🇷🇺 @SSRSUB-俄罗斯ssr11-付费推荐:suo.yt/ssrsub
+      - 🇷🇺 @SSRSUB-俄罗斯ssr12-付费推荐:suo.yt/ssrsub
+      - 🇷🇺 @SSRSUB-俄罗斯ssr13-付费推荐:suo.yt/ssrsub
+      - 🇷🇺 @SSRSUB-俄罗斯ssr14-付费推荐:suo.yt/ssrsub
+      - "@SSRSUB-V1-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V2-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V3-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V4-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V5-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V6-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V7-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V8-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V9-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V10-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V11-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V12-付费推荐:suo.yt/ssrsub"
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 https://www.mattkaydiary.com|Best!Transit*Shanghai-HKT*05
       - 🔰 节点选择
+      - 🇭🇰 东莞电信-香港
+      - 🇭🇰 香港线路 1 - NETFLIX
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇭🇰 https://www.mattkaydiary.com|Best!Transit*Shanghai-HK*CN2-GIA05
-      - 🇭🇰 https://www.mattkaydiary.com|Best!Transit*Shanghai-HKT*05
-      - 🇭🇰 https://www.mattkaydiary.com|Low Latency!Transit*Guangzhou-HK03
-      - 🇸🇬 https://www.mattkaydiary.com|Transit*Guangzhou-Singapore03
-      - https://www.mattkaydiary.com|Transit*Guangzhou-Taipei03
-      - https://www.mattkaydiary.com|Best!*Shanghai-Taipei*21
-      - 🇬🇧 https://www.mattkaydiary.com|adi|0422 - 英国
-      - 🇬🇧 https://www.mattkaydiary.com|adi|0422 - 英国 2
-      - 🇬🇧 https://www.mattkaydiary.com|adi|0422 - 英国 3
-      - https://www.mattkaydiary.com|adi|0422 - 斯洛伐克
-      - https://www.mattkaydiary.com|adi|0422 - 欧洲
-      - https://www.mattkaydiary.com|adi|0422 - 欧洲 2
-      - https://www.mattkaydiary.com|adi|0422 - 欧洲 3
-      - 🇺🇸 https://www.mattkaydiary.com|adi|0422 - 美国
-      - 🇩🇪 https://www.mattkaydiary.com|adi|0422 - 德国
-      - 🇩🇰 https://www.mattkaydiary.com|adi|0422 - 丹麦
-      - 🇩🇰 https://www.mattkaydiary.com|adi|0422 - 丹麦 2
-      - 🇩🇰 https://www.mattkaydiary.com|adi|0422 - 丹麦 3
-      - 🇩🇰 https://www.mattkaydiary.com|adi|0422 - 丹麦 4
-      - 🇺🇸 https://www.mattkaydiary.com|adi|0420 - 美国
-      - 🇺🇸 https://www.mattkaydiary.com|adi|0420 - 美国 2
-      - 🇭🇰 https://www.mattkaydiary.com|Relay_🇭🇰HK-🇺🇸US_2040 | 5.85Mb
-      - https://www.mattkaydiary.com|Relay_ |53.67Mb
-      - https://www.mattkaydiary.com|Relay_ |70.88Mb
-      - 🇰🇷 https://www.mattkaydiary.com|🇰🇷KR_2551 |38.72Mb
+      - 🇨🇦 @SSRSUB-加拿大A1-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大A2-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大A3-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大A4-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大A5-付费推荐:dlj.tf/ssrsub
+      - 🇷🇺 @SSRSUB-俄罗斯A6-付费推荐:dlj.tf/ssrsub
+      - 🇯🇵 @SSRSUB-日本A7-付费推荐:dlj.tf/ssrsub
+      - 🇰🇷 @SSRSUB-韩国A8-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大A9-付费推荐:dlj.tf/ssrsub
+      - 🇺🇲 @SSRSUB-美国A10-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大B1-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大B2-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大B3-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大B4-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大B5-付费推荐:dlj.tf/ssrsub
+      - 🇷🇺 @SSRSUB-俄罗斯B6-付费推荐:dlj.tf/ssrsub
+      - 🇯🇵 @SSRSUB-日本B7-付费推荐:dlj.tf/ssrsub
+      - 🇰🇷 @SSRSUB-韩国B8-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大B9-付费推荐:dlj.tf/ssrsub
+      - 🇺🇲 @SSRSUB-美国B10-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大C1-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大C2-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大C3-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大C4-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大C5-付费推荐:dlj.tf/ssrsub
+      - 🇷🇺 @SSRSUB-俄罗斯C6-付费推荐:dlj.tf/ssrsub
+      - 🇯🇵 @SSRSUB-日本C7-付费推荐:dlj.tf/ssrsub
+      - 🇰🇷 @SSRSUB-韩国C8-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大C9-付费推荐:dlj.tf/ssrsub
+      - 🇺🇲 @SSRSUB-美国C10-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ss01-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ss02-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ss03-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ss04-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ss05-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ss06-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ss07-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ss08-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ss09-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ss10-付费推荐:dlj.tf/ssrsub
+      - 🇷🇺 @SSRSUB-俄罗斯ss11-付费推荐:dlj.tf/ssrsub
+      - 🇷🇺 @SSRSUB-俄罗斯ss12-付费推荐:dlj.tf/ssrsub
+      - 🇷🇺 @SSRSUB-俄罗斯ss13-付费推荐:dlj.tf/ssrsub
+      - 🇷🇺 @SSRSUB-俄罗斯ss14-付费推荐:dlj.tf/ssrsub
+      - 🇦🇺 @SSRSUB-澳大利亚ss15-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ss16-付费推荐:dlj.tf/ssrsub
+      - 🇺🇲 @SSRSUB-美国ss17-付费推荐:dlj.tf/ssrsub
+      - 🇬🇧 @SSRSUB-英国ss18-付费推荐:dlj.tf/ssrsub
+      - 🇷🇺 @SSRSUB-俄罗斯ss19-付费推荐:dlj.tf/ssrsub
+      - "@SSRSUB-波兰ss20-付费推荐:dlj.tf/ssrsub"
+      - 🇫🇷 @SSRSUB-法国ss21-付费推荐:dlj.tf/ssrsub
+      - 🇩🇪 @SSRSUB-德国ss22-付费推荐:dlj.tf/ssrsub
+      - 🇺🇲 @SSRSUB-美国ss23-付费推荐:dlj.tf/ssrsub
+      - 🇬🇧 @SSRSUB-英国ss24-付费推荐:dlj.tf/ssrsub
+      - 🇩🇪 @SSRSUB-德国ss25-付费推荐:dlj.tf/ssrsub
+      - 🇮🇳 @SSRSUB-印度ss26-付费推荐:dlj.tf/ssrsub
+      - 🇸🇬 @SSRSUB-新加坡ss27-付费推荐:dlj.tf/ssrsub
+      - 🇸🇬 @SSRSUB-新加坡ss28-付费推荐:dlj.tf/ssrsub
+      - 🇸🇬 @SSRSUB-新加坡ss29-付费推荐:dlj.tf/ssrsub
+      - 🇭🇰 东莞电信-香港
+      - 🇭🇰 香港线路 1 - NETFLIX
+      - 🇷🇺 美国 俄勒冈州AWS2
+      - 🇯🇵 美国xerox-日本 东京
+      - 🇯🇵 日本 东京 AWS1
+      - 🇺🇲 美国IT7 洛杉矶8
+      - 🇷🇺 美国 俄勒冈州AWS3
+      - 🇷🇴 罗马尼亚1
+      - 🇳🇱 荷兰 阿姆斯特丹
+      - 苏格兰1
+      - 🇺🇲 美国 芝加哥
+      - 🇺🇲 美国 丹佛
+      - 🇩🇰 丹麦 哥本哈根
+      - 🇺🇲 美国 圣何塞
+      - 🇨🇦 @SSRSUB-加拿大ssr01-付费推荐:suo.yt/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ssr02-付费推荐:suo.yt/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ssr03-付费推荐:suo.yt/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ssr04-付费推荐:suo.yt/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ssr05-付费推荐:suo.yt/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ssr06-付费推荐:suo.yt/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ssr07-付费推荐:suo.yt/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ssr08-付费推荐:suo.yt/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ssr09-付费推荐:suo.yt/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ssr10-付费推荐:suo.yt/ssrsub
+      - 🇷🇺 @SSRSUB-俄罗斯ssr11-付费推荐:suo.yt/ssrsub
+      - 🇷🇺 @SSRSUB-俄罗斯ssr12-付费推荐:suo.yt/ssrsub
+      - 🇷🇺 @SSRSUB-俄罗斯ssr13-付费推荐:suo.yt/ssrsub
+      - 🇷🇺 @SSRSUB-俄罗斯ssr14-付费推荐:suo.yt/ssrsub
+      - "@SSRSUB-V1-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V2-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V3-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V4-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V5-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V6-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V7-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V8-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V9-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V10-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V11-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V12-付费推荐:suo.yt/ssrsub"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
+      - 🇨🇦 @SSRSUB-加拿大A1-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大A2-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大A3-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大A4-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大A5-付费推荐:dlj.tf/ssrsub
+      - 🇷🇺 @SSRSUB-俄罗斯A6-付费推荐:dlj.tf/ssrsub
+      - 🇯🇵 @SSRSUB-日本A7-付费推荐:dlj.tf/ssrsub
+      - 🇰🇷 @SSRSUB-韩国A8-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大A9-付费推荐:dlj.tf/ssrsub
+      - 🇺🇲 @SSRSUB-美国A10-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大B1-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大B2-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大B3-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大B4-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大B5-付费推荐:dlj.tf/ssrsub
+      - 🇷🇺 @SSRSUB-俄罗斯B6-付费推荐:dlj.tf/ssrsub
+      - 🇯🇵 @SSRSUB-日本B7-付费推荐:dlj.tf/ssrsub
+      - 🇰🇷 @SSRSUB-韩国B8-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大B9-付费推荐:dlj.tf/ssrsub
+      - 🇺🇲 @SSRSUB-美国B10-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大C1-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大C2-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大C3-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大C4-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大C5-付费推荐:dlj.tf/ssrsub
+      - 🇷🇺 @SSRSUB-俄罗斯C6-付费推荐:dlj.tf/ssrsub
+      - 🇯🇵 @SSRSUB-日本C7-付费推荐:dlj.tf/ssrsub
+      - 🇰🇷 @SSRSUB-韩国C8-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大C9-付费推荐:dlj.tf/ssrsub
+      - 🇺🇲 @SSRSUB-美国C10-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ss01-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ss02-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ss03-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ss04-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ss05-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ss06-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ss07-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ss08-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ss09-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ss10-付费推荐:dlj.tf/ssrsub
+      - 🇷🇺 @SSRSUB-俄罗斯ss11-付费推荐:dlj.tf/ssrsub
+      - 🇷🇺 @SSRSUB-俄罗斯ss12-付费推荐:dlj.tf/ssrsub
+      - 🇷🇺 @SSRSUB-俄罗斯ss13-付费推荐:dlj.tf/ssrsub
+      - 🇷🇺 @SSRSUB-俄罗斯ss14-付费推荐:dlj.tf/ssrsub
+      - 🇦🇺 @SSRSUB-澳大利亚ss15-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ss16-付费推荐:dlj.tf/ssrsub
+      - 🇺🇲 @SSRSUB-美国ss17-付费推荐:dlj.tf/ssrsub
+      - 🇬🇧 @SSRSUB-英国ss18-付费推荐:dlj.tf/ssrsub
+      - 🇷🇺 @SSRSUB-俄罗斯ss19-付费推荐:dlj.tf/ssrsub
+      - "@SSRSUB-波兰ss20-付费推荐:dlj.tf/ssrsub"
+      - 🇫🇷 @SSRSUB-法国ss21-付费推荐:dlj.tf/ssrsub
+      - 🇩🇪 @SSRSUB-德国ss22-付费推荐:dlj.tf/ssrsub
+      - 🇺🇲 @SSRSUB-美国ss23-付费推荐:dlj.tf/ssrsub
+      - 🇬🇧 @SSRSUB-英国ss24-付费推荐:dlj.tf/ssrsub
+      - 🇩🇪 @SSRSUB-德国ss25-付费推荐:dlj.tf/ssrsub
+      - 🇮🇳 @SSRSUB-印度ss26-付费推荐:dlj.tf/ssrsub
+      - 🇸🇬 @SSRSUB-新加坡ss27-付费推荐:dlj.tf/ssrsub
+      - 🇸🇬 @SSRSUB-新加坡ss28-付费推荐:dlj.tf/ssrsub
+      - 🇸🇬 @SSRSUB-新加坡ss29-付费推荐:dlj.tf/ssrsub
+      - 🇭🇰 东莞电信-香港
+      - 🇭🇰 香港线路 1 - NETFLIX
+      - 🇷🇺 美国 俄勒冈州AWS2
+      - 🇯🇵 美国xerox-日本 东京
+      - 🇯🇵 日本 东京 AWS1
+      - 🇺🇲 美国IT7 洛杉矶8
+      - 🇷🇺 美国 俄勒冈州AWS3
+      - 🇷🇴 罗马尼亚1
+      - 🇳🇱 荷兰 阿姆斯特丹
+      - 苏格兰1
+      - 🇺🇲 美国 芝加哥
+      - 🇺🇲 美国 丹佛
+      - 🇩🇰 丹麦 哥本哈根
+      - 🇺🇲 美国 圣何塞
+      - 🇨🇦 @SSRSUB-加拿大ssr01-付费推荐:suo.yt/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ssr02-付费推荐:suo.yt/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ssr03-付费推荐:suo.yt/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ssr04-付费推荐:suo.yt/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ssr05-付费推荐:suo.yt/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ssr06-付费推荐:suo.yt/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ssr07-付费推荐:suo.yt/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ssr08-付费推荐:suo.yt/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ssr09-付费推荐:suo.yt/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ssr10-付费推荐:suo.yt/ssrsub
+      - 🇷🇺 @SSRSUB-俄罗斯ssr11-付费推荐:suo.yt/ssrsub
+      - 🇷🇺 @SSRSUB-俄罗斯ssr12-付费推荐:suo.yt/ssrsub
+      - 🇷🇺 @SSRSUB-俄罗斯ssr13-付费推荐:suo.yt/ssrsub
+      - 🇷🇺 @SSRSUB-俄罗斯ssr14-付费推荐:suo.yt/ssrsub
+      - "@SSRSUB-V1-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V2-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V3-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V4-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V5-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V6-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V7-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V8-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V9-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V10-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V11-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V12-付费推荐:suo.yt/ssrsub"
       - 🎯 全球直连
-      - 🇭🇰 https://www.mattkaydiary.com|Best!Transit*Shanghai-HK*CN2-GIA05
-      - 🇭🇰 https://www.mattkaydiary.com|Best!Transit*Shanghai-HKT*05
-      - 🇭🇰 https://www.mattkaydiary.com|Low Latency!Transit*Guangzhou-HK03
-      - 🇸🇬 https://www.mattkaydiary.com|Transit*Guangzhou-Singapore03
-      - https://www.mattkaydiary.com|Transit*Guangzhou-Taipei03
-      - https://www.mattkaydiary.com|Best!*Shanghai-Taipei*21
-      - 🇬🇧 https://www.mattkaydiary.com|adi|0422 - 英国
-      - 🇬🇧 https://www.mattkaydiary.com|adi|0422 - 英国 2
-      - 🇬🇧 https://www.mattkaydiary.com|adi|0422 - 英国 3
-      - https://www.mattkaydiary.com|adi|0422 - 斯洛伐克
-      - https://www.mattkaydiary.com|adi|0422 - 欧洲
-      - https://www.mattkaydiary.com|adi|0422 - 欧洲 2
-      - https://www.mattkaydiary.com|adi|0422 - 欧洲 3
-      - 🇺🇸 https://www.mattkaydiary.com|adi|0422 - 美国
-      - 🇩🇪 https://www.mattkaydiary.com|adi|0422 - 德国
-      - 🇩🇰 https://www.mattkaydiary.com|adi|0422 - 丹麦
-      - 🇩🇰 https://www.mattkaydiary.com|adi|0422 - 丹麦 2
-      - 🇩🇰 https://www.mattkaydiary.com|adi|0422 - 丹麦 3
-      - 🇩🇰 https://www.mattkaydiary.com|adi|0422 - 丹麦 4
-      - 🇺🇸 https://www.mattkaydiary.com|adi|0420 - 美国
-      - 🇺🇸 https://www.mattkaydiary.com|adi|0420 - 美国 2
-      - 🇭🇰 https://www.mattkaydiary.com|Relay_🇭🇰HK-🇺🇸US_2040 | 5.85Mb
-      - https://www.mattkaydiary.com|Relay_ |53.67Mb
-      - https://www.mattkaydiary.com|Relay_ |70.88Mb
-      - 🇰🇷 https://www.mattkaydiary.com|🇰🇷KR_2551 |38.72Mb
   - name: 🍎 苹果服务
     type: select
     proxies:
-      - 🔰 节点选择
       - 🎯 全球直连
+      - 🔰 节点选择
       - ♻️ 自动选择
-      - 🇭🇰 https://www.mattkaydiary.com|Best!Transit*Shanghai-HK*CN2-GIA05
-      - 🇭🇰 https://www.mattkaydiary.com|Best!Transit*Shanghai-HKT*05
-      - 🇭🇰 https://www.mattkaydiary.com|Low Latency!Transit*Guangzhou-HK03
-      - 🇸🇬 https://www.mattkaydiary.com|Transit*Guangzhou-Singapore03
-      - https://www.mattkaydiary.com|Transit*Guangzhou-Taipei03
-      - https://www.mattkaydiary.com|Best!*Shanghai-Taipei*21
-      - 🇬🇧 https://www.mattkaydiary.com|adi|0422 - 英国
-      - 🇬🇧 https://www.mattkaydiary.com|adi|0422 - 英国 2
-      - 🇬🇧 https://www.mattkaydiary.com|adi|0422 - 英国 3
-      - https://www.mattkaydiary.com|adi|0422 - 斯洛伐克
-      - https://www.mattkaydiary.com|adi|0422 - 欧洲
-      - https://www.mattkaydiary.com|adi|0422 - 欧洲 2
-      - https://www.mattkaydiary.com|adi|0422 - 欧洲 3
-      - 🇺🇸 https://www.mattkaydiary.com|adi|0422 - 美国
-      - 🇩🇪 https://www.mattkaydiary.com|adi|0422 - 德国
-      - 🇩🇰 https://www.mattkaydiary.com|adi|0422 - 丹麦
-      - 🇩🇰 https://www.mattkaydiary.com|adi|0422 - 丹麦 2
-      - 🇩🇰 https://www.mattkaydiary.com|adi|0422 - 丹麦 3
-      - 🇩🇰 https://www.mattkaydiary.com|adi|0422 - 丹麦 4
-      - 🇺🇸 https://www.mattkaydiary.com|adi|0420 - 美国
-      - 🇺🇸 https://www.mattkaydiary.com|adi|0420 - 美国 2
-      - 🇭🇰 https://www.mattkaydiary.com|Relay_🇭🇰HK-🇺🇸US_2040 | 5.85Mb
-      - https://www.mattkaydiary.com|Relay_ |53.67Mb
-      - https://www.mattkaydiary.com|Relay_ |70.88Mb
-      - 🇰🇷 https://www.mattkaydiary.com|🇰🇷KR_2551 |38.72Mb
+      - 🇨🇦 @SSRSUB-加拿大A1-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大A2-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大A3-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大A4-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大A5-付费推荐:dlj.tf/ssrsub
+      - 🇷🇺 @SSRSUB-俄罗斯A6-付费推荐:dlj.tf/ssrsub
+      - 🇯🇵 @SSRSUB-日本A7-付费推荐:dlj.tf/ssrsub
+      - 🇰🇷 @SSRSUB-韩国A8-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大A9-付费推荐:dlj.tf/ssrsub
+      - 🇺🇲 @SSRSUB-美国A10-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大B1-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大B2-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大B3-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大B4-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大B5-付费推荐:dlj.tf/ssrsub
+      - 🇷🇺 @SSRSUB-俄罗斯B6-付费推荐:dlj.tf/ssrsub
+      - 🇯🇵 @SSRSUB-日本B7-付费推荐:dlj.tf/ssrsub
+      - 🇰🇷 @SSRSUB-韩国B8-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大B9-付费推荐:dlj.tf/ssrsub
+      - 🇺🇲 @SSRSUB-美国B10-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大C1-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大C2-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大C3-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大C4-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大C5-付费推荐:dlj.tf/ssrsub
+      - 🇷🇺 @SSRSUB-俄罗斯C6-付费推荐:dlj.tf/ssrsub
+      - 🇯🇵 @SSRSUB-日本C7-付费推荐:dlj.tf/ssrsub
+      - 🇰🇷 @SSRSUB-韩国C8-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大C9-付费推荐:dlj.tf/ssrsub
+      - 🇺🇲 @SSRSUB-美国C10-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ss01-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ss02-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ss03-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ss04-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ss05-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ss06-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ss07-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ss08-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ss09-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ss10-付费推荐:dlj.tf/ssrsub
+      - 🇷🇺 @SSRSUB-俄罗斯ss11-付费推荐:dlj.tf/ssrsub
+      - 🇷🇺 @SSRSUB-俄罗斯ss12-付费推荐:dlj.tf/ssrsub
+      - 🇷🇺 @SSRSUB-俄罗斯ss13-付费推荐:dlj.tf/ssrsub
+      - 🇷🇺 @SSRSUB-俄罗斯ss14-付费推荐:dlj.tf/ssrsub
+      - 🇦🇺 @SSRSUB-澳大利亚ss15-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ss16-付费推荐:dlj.tf/ssrsub
+      - 🇺🇲 @SSRSUB-美国ss17-付费推荐:dlj.tf/ssrsub
+      - 🇬🇧 @SSRSUB-英国ss18-付费推荐:dlj.tf/ssrsub
+      - 🇷🇺 @SSRSUB-俄罗斯ss19-付费推荐:dlj.tf/ssrsub
+      - "@SSRSUB-波兰ss20-付费推荐:dlj.tf/ssrsub"
+      - 🇫🇷 @SSRSUB-法国ss21-付费推荐:dlj.tf/ssrsub
+      - 🇩🇪 @SSRSUB-德国ss22-付费推荐:dlj.tf/ssrsub
+      - 🇺🇲 @SSRSUB-美国ss23-付费推荐:dlj.tf/ssrsub
+      - 🇬🇧 @SSRSUB-英国ss24-付费推荐:dlj.tf/ssrsub
+      - 🇩🇪 @SSRSUB-德国ss25-付费推荐:dlj.tf/ssrsub
+      - 🇮🇳 @SSRSUB-印度ss26-付费推荐:dlj.tf/ssrsub
+      - 🇸🇬 @SSRSUB-新加坡ss27-付费推荐:dlj.tf/ssrsub
+      - 🇸🇬 @SSRSUB-新加坡ss28-付费推荐:dlj.tf/ssrsub
+      - 🇸🇬 @SSRSUB-新加坡ss29-付费推荐:dlj.tf/ssrsub
+      - 🇭🇰 东莞电信-香港
+      - 🇭🇰 香港线路 1 - NETFLIX
+      - 🇷🇺 美国 俄勒冈州AWS2
+      - 🇯🇵 美国xerox-日本 东京
+      - 🇯🇵 日本 东京 AWS1
+      - 🇺🇲 美国IT7 洛杉矶8
+      - 🇷🇺 美国 俄勒冈州AWS3
+      - 🇷🇴 罗马尼亚1
+      - 🇳🇱 荷兰 阿姆斯特丹
+      - 苏格兰1
+      - 🇺🇲 美国 芝加哥
+      - 🇺🇲 美国 丹佛
+      - 🇩🇰 丹麦 哥本哈根
+      - 🇺🇲 美国 圣何塞
+      - 🇨🇦 @SSRSUB-加拿大ssr01-付费推荐:suo.yt/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ssr02-付费推荐:suo.yt/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ssr03-付费推荐:suo.yt/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ssr04-付费推荐:suo.yt/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ssr05-付费推荐:suo.yt/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ssr06-付费推荐:suo.yt/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ssr07-付费推荐:suo.yt/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ssr08-付费推荐:suo.yt/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ssr09-付费推荐:suo.yt/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ssr10-付费推荐:suo.yt/ssrsub
+      - 🇷🇺 @SSRSUB-俄罗斯ssr11-付费推荐:suo.yt/ssrsub
+      - 🇷🇺 @SSRSUB-俄罗斯ssr12-付费推荐:suo.yt/ssrsub
+      - 🇷🇺 @SSRSUB-俄罗斯ssr13-付费推荐:suo.yt/ssrsub
+      - 🇷🇺 @SSRSUB-俄罗斯ssr14-付费推荐:suo.yt/ssrsub
+      - "@SSRSUB-V1-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V2-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V3-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V4-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V5-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V6-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V7-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V8-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V9-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V10-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V11-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V12-付费推荐:suo.yt/ssrsub"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -234,31 +753,105 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 https://www.mattkaydiary.com|Best!Transit*Shanghai-HK*CN2-GIA05
-      - 🇭🇰 https://www.mattkaydiary.com|Best!Transit*Shanghai-HKT*05
-      - 🇭🇰 https://www.mattkaydiary.com|Low Latency!Transit*Guangzhou-HK03
-      - 🇸🇬 https://www.mattkaydiary.com|Transit*Guangzhou-Singapore03
-      - https://www.mattkaydiary.com|Transit*Guangzhou-Taipei03
-      - https://www.mattkaydiary.com|Best!*Shanghai-Taipei*21
-      - 🇬🇧 https://www.mattkaydiary.com|adi|0422 - 英国
-      - 🇬🇧 https://www.mattkaydiary.com|adi|0422 - 英国 2
-      - 🇬🇧 https://www.mattkaydiary.com|adi|0422 - 英国 3
-      - https://www.mattkaydiary.com|adi|0422 - 斯洛伐克
-      - https://www.mattkaydiary.com|adi|0422 - 欧洲
-      - https://www.mattkaydiary.com|adi|0422 - 欧洲 2
-      - https://www.mattkaydiary.com|adi|0422 - 欧洲 3
-      - 🇺🇸 https://www.mattkaydiary.com|adi|0422 - 美国
-      - 🇩🇪 https://www.mattkaydiary.com|adi|0422 - 德国
-      - 🇩🇰 https://www.mattkaydiary.com|adi|0422 - 丹麦
-      - 🇩🇰 https://www.mattkaydiary.com|adi|0422 - 丹麦 2
-      - 🇩🇰 https://www.mattkaydiary.com|adi|0422 - 丹麦 3
-      - 🇩🇰 https://www.mattkaydiary.com|adi|0422 - 丹麦 4
-      - 🇺🇸 https://www.mattkaydiary.com|adi|0420 - 美国
-      - 🇺🇸 https://www.mattkaydiary.com|adi|0420 - 美国 2
-      - 🇭🇰 https://www.mattkaydiary.com|Relay_🇭🇰HK-🇺🇸US_2040 | 5.85Mb
-      - https://www.mattkaydiary.com|Relay_ |53.67Mb
-      - https://www.mattkaydiary.com|Relay_ |70.88Mb
-      - 🇰🇷 https://www.mattkaydiary.com|🇰🇷KR_2551 |38.72Mb
+      - 🇨🇦 @SSRSUB-加拿大A1-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大A2-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大A3-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大A4-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大A5-付费推荐:dlj.tf/ssrsub
+      - 🇷🇺 @SSRSUB-俄罗斯A6-付费推荐:dlj.tf/ssrsub
+      - 🇯🇵 @SSRSUB-日本A7-付费推荐:dlj.tf/ssrsub
+      - 🇰🇷 @SSRSUB-韩国A8-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大A9-付费推荐:dlj.tf/ssrsub
+      - 🇺🇲 @SSRSUB-美国A10-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大B1-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大B2-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大B3-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大B4-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大B5-付费推荐:dlj.tf/ssrsub
+      - 🇷🇺 @SSRSUB-俄罗斯B6-付费推荐:dlj.tf/ssrsub
+      - 🇯🇵 @SSRSUB-日本B7-付费推荐:dlj.tf/ssrsub
+      - 🇰🇷 @SSRSUB-韩国B8-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大B9-付费推荐:dlj.tf/ssrsub
+      - 🇺🇲 @SSRSUB-美国B10-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大C1-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大C2-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大C3-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大C4-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大C5-付费推荐:dlj.tf/ssrsub
+      - 🇷🇺 @SSRSUB-俄罗斯C6-付费推荐:dlj.tf/ssrsub
+      - 🇯🇵 @SSRSUB-日本C7-付费推荐:dlj.tf/ssrsub
+      - 🇰🇷 @SSRSUB-韩国C8-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大C9-付费推荐:dlj.tf/ssrsub
+      - 🇺🇲 @SSRSUB-美国C10-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ss01-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ss02-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ss03-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ss04-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ss05-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ss06-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ss07-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ss08-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ss09-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ss10-付费推荐:dlj.tf/ssrsub
+      - 🇷🇺 @SSRSUB-俄罗斯ss11-付费推荐:dlj.tf/ssrsub
+      - 🇷🇺 @SSRSUB-俄罗斯ss12-付费推荐:dlj.tf/ssrsub
+      - 🇷🇺 @SSRSUB-俄罗斯ss13-付费推荐:dlj.tf/ssrsub
+      - 🇷🇺 @SSRSUB-俄罗斯ss14-付费推荐:dlj.tf/ssrsub
+      - 🇦🇺 @SSRSUB-澳大利亚ss15-付费推荐:dlj.tf/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ss16-付费推荐:dlj.tf/ssrsub
+      - 🇺🇲 @SSRSUB-美国ss17-付费推荐:dlj.tf/ssrsub
+      - 🇬🇧 @SSRSUB-英国ss18-付费推荐:dlj.tf/ssrsub
+      - 🇷🇺 @SSRSUB-俄罗斯ss19-付费推荐:dlj.tf/ssrsub
+      - "@SSRSUB-波兰ss20-付费推荐:dlj.tf/ssrsub"
+      - 🇫🇷 @SSRSUB-法国ss21-付费推荐:dlj.tf/ssrsub
+      - 🇩🇪 @SSRSUB-德国ss22-付费推荐:dlj.tf/ssrsub
+      - 🇺🇲 @SSRSUB-美国ss23-付费推荐:dlj.tf/ssrsub
+      - 🇬🇧 @SSRSUB-英国ss24-付费推荐:dlj.tf/ssrsub
+      - 🇩🇪 @SSRSUB-德国ss25-付费推荐:dlj.tf/ssrsub
+      - 🇮🇳 @SSRSUB-印度ss26-付费推荐:dlj.tf/ssrsub
+      - 🇸🇬 @SSRSUB-新加坡ss27-付费推荐:dlj.tf/ssrsub
+      - 🇸🇬 @SSRSUB-新加坡ss28-付费推荐:dlj.tf/ssrsub
+      - 🇸🇬 @SSRSUB-新加坡ss29-付费推荐:dlj.tf/ssrsub
+      - 🇭🇰 东莞电信-香港
+      - 🇭🇰 香港线路 1 - NETFLIX
+      - 🇷🇺 美国 俄勒冈州AWS2
+      - 🇯🇵 美国xerox-日本 东京
+      - 🇯🇵 日本 东京 AWS1
+      - 🇺🇲 美国IT7 洛杉矶8
+      - 🇷🇺 美国 俄勒冈州AWS3
+      - 🇷🇴 罗马尼亚1
+      - 🇳🇱 荷兰 阿姆斯特丹
+      - 苏格兰1
+      - 🇺🇲 美国 芝加哥
+      - 🇺🇲 美国 丹佛
+      - 🇩🇰 丹麦 哥本哈根
+      - 🇺🇲 美国 圣何塞
+      - 🇨🇦 @SSRSUB-加拿大ssr01-付费推荐:suo.yt/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ssr02-付费推荐:suo.yt/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ssr03-付费推荐:suo.yt/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ssr04-付费推荐:suo.yt/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ssr05-付费推荐:suo.yt/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ssr06-付费推荐:suo.yt/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ssr07-付费推荐:suo.yt/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ssr08-付费推荐:suo.yt/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ssr09-付费推荐:suo.yt/ssrsub
+      - 🇨🇦 @SSRSUB-加拿大ssr10-付费推荐:suo.yt/ssrsub
+      - 🇷🇺 @SSRSUB-俄罗斯ssr11-付费推荐:suo.yt/ssrsub
+      - 🇷🇺 @SSRSUB-俄罗斯ssr12-付费推荐:suo.yt/ssrsub
+      - 🇷🇺 @SSRSUB-俄罗斯ssr13-付费推荐:suo.yt/ssrsub
+      - 🇷🇺 @SSRSUB-俄罗斯ssr14-付费推荐:suo.yt/ssrsub
+      - "@SSRSUB-V1-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V2-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V3-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V4-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V5-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V6-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V7-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V8-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V9-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V10-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V11-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V12-付费推荐:suo.yt/ssrsub"
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
@@ -270,6 +863,17 @@ rules:
  - IP-CIDR6,fc00::/7,🎯 全球直连,no-resolve
  - IP-CIDR6,fe80::/10,🎯 全球直连,no-resolve
  - IP-CIDR6,fd00::/8,🎯 全球直连,no-resolve
+ - PROCESS-NAME,v2ray,🎯 全球直连,DIRECT
+ - PROCESS-NAME,ss-local,🎯 全球直连,DIRECT
+ - PROCESS-NAME,aria2c,🎯 全球直连,DIRECT
+ - PROCESS-NAME,fdm,🎯 全球直连,DIRECT
+ - PROCESS-NAME,Folx,🎯 全球直连,DIRECT
+ - PROCESS-NAME,NetTransport,🎯 全球直连,DIRECT
+ - PROCESS-NAME,Thunder,🎯 全球直连,DIRECT
+ - PROCESS-NAME,Transmission,🎯 全球直连,DIRECT
+ - PROCESS-NAME,uTorrent,🎯 全球直连,DIRECT
+ - PROCESS-NAME,WebTorrent,🎯 全球直连,DIRECT
+ - PROCESS-NAME,WebTorrent Helper,🎯 全球直连,DIRECT
  - DOMAIN-KEYWORD,1drv,Ⓜ️ 微软服务
  - DOMAIN-KEYWORD,microsoft,Ⓜ️ 微软服务
  - DOMAIN-SUFFIX,aadrm.com,Ⓜ️ 微软服务
@@ -349,14 +953,32 @@ rules:
  - DOMAIN,bdtj.tagtic.cn,🎯 全球直连
  - DOMAIN,log.mmstat.com,🎯 全球直连
  - DOMAIN,sycm.mmstat.com,🎯 全球直连
- - DOMAIN-SUFFIX,googletraveladservices.com,🎯 全球直连
+ - DOMAIN-SUFFIX,blog.google // Google Blog,🎯 全球直连
+ - DOMAIN-SUFFIX,googletraveladservices.com // Google Flights,🎯 全球直连
+ - DOMAIN,clientservices.googleapis.com,🎯 全球直连
  - DOMAIN,dl.google.com,🎯 全球直连
+ - DOMAIN,dl.l.google.com,🎯 全球直连
+ - DOMAIN,update.googleapis.com,🎯 全球直连
+ - DOMAIN,translate.googleapis.com,🎯 全球直连
+ - DOMAIN,fonts.googleapis.com,🎯 全球直连
+ - DOMAIN,fonts.gstatic.com,🎯 全球直连
  - DOMAIN,mtalk.google.com,🎯 全球直连
+ - DOMAIN,alt1-mtalk.google.com,🎯 全球直连
+ - DOMAIN,alt2-mtalk.google.com,🎯 全球直连
+ - DOMAIN,alt3-mtalk.google.com,🎯 全球直连
+ - DOMAIN,alt4-mtalk.google.com,🎯 全球直连
+ - DOMAIN,alt5-mtalk.google.com,🎯 全球直连
+ - DOMAIN,alt6-mtalk.google.com,🎯 全球直连
+ - DOMAIN,alt7-mtalk.google.com,🎯 全球直连
+ - DOMAIN,alt8-mtalk.google.com,🎯 全球直连
+ - DOMAIN,pubads.g.doubleclick.net,🎯 全球直连
+ - DOMAIN,fairplay.l.qq.com,🎯 全球直连
  - DOMAIN,livew.l.qq.com,🎯 全球直连
  - DOMAIN,vd.l.qq.com,🎯 全球直连
  - DOMAIN,analytics.strava.com,🎯 全球直连
  - DOMAIN,msg.umeng.com,🎯 全球直连
  - DOMAIN,msg.umengcloud.com,🎯 全球直连
+ - DOMAIN-SUFFIX,api-access.pangolin-sdk-toutiao-b.com,🛑 全球拦截
  - DOMAIN-SUFFIX,mcupdate.gstarcad.com,🛑 全球拦截
  - DOMAIN-SUFFIX,adx.open-adx.com,🛑 全球拦截
  - DOMAIN-SUFFIX,adservice.sigmob.cn,🛑 全球拦截
@@ -6737,7 +7359,6 @@ rules:
  - DOMAIN-SUFFIX,searchswapper.com,🛑 全球拦截
  - DOMAIN-SUFFIX,seavideo-ak.espn.go.com,🛑 全球拦截
  - DOMAIN-SUFFIX,sebar.thand.info,🛑 全球拦截
- - DOMAIN-SUFFIX,sec.resource.xiaomi.net,🛑 全球拦截
  - DOMAIN-SUFFIX,secpay.wostore.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,secretmedia.s3.amazonaws.com,🛑 全球拦截
  - DOMAIN-SUFFIX,secure.dsp.com,🛑 全球拦截
@@ -9160,6 +9781,7 @@ rules:
  - IP-CIDR,124.14.21.151/32,🛑 全球拦截,no-resolve
  - IP-CIDR,180.166.52.24/32,🛑 全球拦截,no-resolve
  - IP-CIDR,211.161.101.106/32,🛑 全球拦截,no-resolve
+ - IP-CIDR,211.161.101.110/32,🛑 全球拦截,no-resolve
  - IP-CIDR,220.115.251.25/32,🛑 全球拦截,no-resolve
  - IP-CIDR,222.73.156.235/32,🛑 全球拦截,no-resolve
  - IP-CIDR,114.119.160.0/21,🛑 全球拦截,no-resolve
@@ -9255,16 +9877,18 @@ rules:
  - DOMAIN-SUFFIX,aiv-delivery.net,🌍 国外媒体
  - DOMAIN-SUFFIX,amazonvideo.com,🌍 国外媒体
  - DOMAIN-SUFFIX,primevideo.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,media-amazon.com,🌍 国外媒体
+ - DOMAIN,atv-ps.amazon.com,🌍 国外媒体
+ - DOMAIN,fls-na.amazon.com,🌍 国外媒体
  - DOMAIN,avodmp4s3ww-a.akamaihd.net,🌍 国外媒体
  - DOMAIN,d25xi40x97liuc.cloudfront.net,🌍 国外媒体
  - DOMAIN,dmqdd6hw24ucf.cloudfront.net,🌍 国外媒体
  - DOMAIN,dmqdd6hw24ucf.cloudfront.net,🌍 国外媒体
  - DOMAIN,d22qjgkvxw22r6.cloudfront.net,🌍 国外媒体
  - DOMAIN,d1v5ir2lpwr8os.cloudfront.net,🌍 国外媒体
+ - DOMAIN,d27xxe7juh1us6.cloudfront.net,🌍 国外媒体
  - DOMAIN-KEYWORD,avoddashs,🌍 国外媒体
- - DOMAIN-SUFFIX,tv.apple.com,🌍 国外媒体
- - DOMAIN,hls.itunes.apple.com,🌍 国外媒体
- - DOMAIN,hls-amt.itunes.apple.com,🌍 国外媒体
+ - DOMAIN,linear.tv.apple.com,🌍 国外媒体
  - DOMAIN,play-edge.itunes.apple.com,🌍 国外媒体
  - DOMAIN-SUFFIX,bahamut.com.tw,🌍 国外媒体
  - DOMAIN-SUFFIX,gamer.com.tw,🌍 国外媒体
@@ -9278,11 +9902,12 @@ rules:
  - DOMAIN-SUFFIX,dazn-api.com,🌍 国外媒体
  - DOMAIN,d151l6v8er5bdm.cloudfront.net,🌍 国外媒体
  - DOMAIN-KEYWORD,voddazn,🌍 国外媒体
- - DOMAIN-SUFFIX,disney-plus.net,🌍 国外媒体
+ - DOMAIN-SUFFIX,bamgrid.com,🌍 国外媒体
  - DOMAIN-SUFFIX,disneyplus.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,disney-plus.net,🌍 国外媒体
+ - DOMAIN-SUFFIX,disneystreaming.com,🌍 国外媒体
  - DOMAIN-SUFFIX,dssott.com,🌍 国外媒体
  - DOMAIN,cdn.registerdisney.go.com,🌍 国外媒体
- - DOMAIN,global.edge.bamgrid.com,🌍 国外媒体
  - DOMAIN-SUFFIX,dmm.co.jp,🌍 国外媒体
  - DOMAIN-SUFFIX,dmm.com,🌍 国外媒体
  - DOMAIN-SUFFIX,dmm-extension.com,🌍 国外媒体
@@ -9304,6 +9929,7 @@ rules:
  - DOMAIN-SUFFIX,hbogo.com,🌍 国外媒体
  - DOMAIN-SUFFIX,hbonow.com,🌍 国外媒体
  - DOMAIN-SUFFIX,hbomax.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,hbomaxcdn.com,🌍 国外媒体
  - DOMAIN-SUFFIX,hbogoasia.com,🌍 国外媒体
  - DOMAIN-SUFFIX,hbogoasia.hk,🌍 国外媒体
  - DOMAIN,bcbolthboa-a.akamaihd.net,🌍 国外媒体
@@ -9340,6 +9966,8 @@ rules:
  - DOMAIN,d349g9zuie06uo.cloudfront.net,🌍 国外媒体
  - DOMAIN-SUFFIX,mytvsuper.com,🌍 国外媒体
  - DOMAIN-SUFFIX,tvb.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,naver.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,smartmediarep.com,🌍 国外媒体
  - DOMAIN-SUFFIX,netflix.com,🌍 国外媒体
  - DOMAIN-SUFFIX,netflix.net,🌍 国外媒体
  - DOMAIN-SUFFIX,nflxext.com,🌍 国外媒体
@@ -9357,6 +9985,8 @@ rules:
  - DOMAIN-SUFFIX,netflixdnstest7.com,🌍 国外媒体
  - DOMAIN-SUFFIX,netflixdnstest8.com,🌍 国外媒体
  - DOMAIN-SUFFIX,netflixdnstest9.com,🌍 国外媒体
+ - DOMAIN-KEYWORD,dualstack.apiproxy-,🌍 国外媒体
+ - DOMAIN-KEYWORD,dualstack.ichnaea-web-,🌍 国外媒体
  - IP-CIDR,23.246.0.0/18,🌍 国外媒体,no-resolve
  - IP-CIDR,37.77.184.0/21,🌍 国外媒体,no-resolve
  - IP-CIDR,45.57.0.0/17,🌍 国外媒体,no-resolve
@@ -9372,9 +10002,16 @@ rules:
  - DOMAIN-SUFFIX,dmc.nico,🌍 国外媒体
  - DOMAIN-SUFFIX,nicovideo.jp,🌍 国外媒体
  - DOMAIN-SUFFIX,nimg.jp,🌍 国外媒体
- - DOMAIN-SUFFIX,socdm.com,🌍 国外媒体
  - DOMAIN-SUFFIX,nowe.com,🌍 国外媒体
  - DOMAIN-SUFFIX,nowestatic.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,cbsi.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,cbsaavideo.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,cbsivideo.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,paramountplus.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,pplusstatic.com,🌍 国外媒体
+ - DOMAIN,cbsi.live.ott.irdeto.com,🌍 国外媒体
+ - DOMAIN,cbsplaylistserver.aws.syncbak.com,🌍 国外媒体
+ - DOMAIN,cbsservice.aws.syncbak.com,🌍 国外媒体
  - DOMAIN-SUFFIX,pbs.org,🌍 国外媒体
  - DOMAIN-SUFFIX,phncdn.com,🌍 国外媒体
  - DOMAIN-SUFFIX,phprcdn.com,🌍 国外媒体
@@ -9384,13 +10021,15 @@ rules:
  - DOMAIN,hamifans.emome.net,🌍 国外媒体
  - DOMAIN-SUFFIX,byteoversea.com,🌍 国外媒体
  - DOMAIN-SUFFIX,ibytedtos.com,🌍 国外媒体
- - DOMAIN-SUFFIX,ipstatp.com,🌍 国外媒体
  - DOMAIN-SUFFIX,muscdn.com,🌍 国外媒体
  - DOMAIN-SUFFIX,musical.ly,🌍 国外媒体
  - DOMAIN-SUFFIX,tiktok.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,tik-tokapi.com,🌍 国外媒体
  - DOMAIN-SUFFIX,tiktokcdn.com,🌍 国外媒体
  - DOMAIN-SUFFIX,tiktokv.com,🌍 国外媒体
  - DOMAIN-KEYWORD,-tiktokcdn-com,🌍 国外媒体
+ - DOMAIN-SUFFIX,tver.jp,🌍 国外媒体
+ - DOMAIN,edge.api.brightcove.com,🌍 国外媒体
  - DOMAIN-SUFFIX,jtvnw.net,🌍 国外媒体
  - DOMAIN-SUFFIX,ttvnw.net,🌍 国外媒体
  - DOMAIN-SUFFIX,twitch.tv,🌍 国外媒体
@@ -9403,28 +10042,277 @@ rules:
  - DOMAIN,dfp6rglgjqszk.cloudfront.net,🌍 国外媒体
  - DOMAIN-SUFFIX,googlevideo.com,🌍 国外媒体
  - DOMAIN-SUFFIX,youtube.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,ytimg.com,🌍 国外媒体
  - DOMAIN,youtubei.googleapis.com,🌍 国外媒体
- - DOMAIN-SUFFIX,acg.tv,🌏 国内媒体
- - DOMAIN-SUFFIX,acgvideo.com,🌏 国内媒体
- - DOMAIN-SUFFIX,b23.tv,🌏 国内媒体
- - DOMAIN-SUFFIX,biliapi.com,🌏 国内媒体
- - DOMAIN-SUFFIX,biliapi.net,🌏 国内媒体
- - DOMAIN-SUFFIX,bilibili.com,🌏 国内媒体
- - DOMAIN-SUFFIX,biligame.com,🌏 国内媒体
- - DOMAIN-SUFFIX,biligame.net,🌏 国内媒体
- - DOMAIN-SUFFIX,bilivideo.com,🌏 国内媒体
- - DOMAIN-SUFFIX,hdslb.com,🌏 国内媒体
- - DOMAIN-SUFFIX,im9.com,🌏 国内媒体
- - DOMAIN-SUFFIX,smtcdns.net,🌏 国内媒体
- - DOMAIN-KEYWORD,qiyi,🌏 国内媒体
- - DOMAIN-SUFFIX,qy.net,🌏 国内媒体
- - IP-CIDR,101.227.0.0/16,🌏 国内媒体
- - IP-CIDR,101.224.0.0/13,🌏 国内媒体
- - IP-CIDR,119.176.0.0/12,🌏 国内媒体
- - DOMAIN-SUFFIX,api.mob.app.letv.com,🌏 国内媒体
- - DOMAIN-SUFFIX,v.smtcdns.com,🌏 国内媒体
- - DOMAIN-SUFFIX,vv.video.qq.com,🌏 国内媒体
- - IP-CIDR,106.11.0.0/16,🌏 国内媒体,no-resolve
+ - DOMAIN,yt3.ggpht.com,🌍 国外媒体
+ - DOMAIN-KEYWORD,beplay,🌏 国内媒体
+ - DOMAIN,cdp.cloud.unity3d.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,battle.net,🌏 国内媒体
+ - DOMAIN-SUFFIX,battlenet.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,blizzard.com,🌏 国内媒体
+ - DOMAIN,client.amplifi.com,🌏 国内媒体
+ - DOMAIN,ip.bjango.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,alphassl.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,edu.cn,🌏 国内媒体
+ - DOMAIN-SUFFIX,p4pfile.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,zmzfile.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,playstation.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,playstation.net,🌏 国内媒体
+ - DOMAIN-SUFFIX,playstationnetwork.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,sony.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,sonyentertainmentnetwork.com,🌏 国内媒体
+ - IP-CIDR,185.188.32.0/24,🌏 国内媒体,no-resolve
+ - IP-CIDR,185.188.33.0/24,🌏 国内媒体,no-resolve
+ - IP-CIDR,185.188.34.0/24,🌏 国内媒体,no-resolve
+ - IP-CIDR,185.188.35.0/24,🌏 国内媒体,no-resolve
+ - IP-CIDR6,2a0b:b580::/48,🌏 国内媒体,no-resolve
+ - IP-CIDR6,2a0b:b581::/48,🌏 国内媒体,no-resolve
+ - IP-CIDR6,2a0b:b582::/48,🌏 国内媒体,no-resolve
+ - IP-CIDR6,2a0b:b583::/48,🌏 国内媒体,no-resolve
+ - IP-CIDR,182.254.116.0/24,🌏 国内媒体,no-resolve
+ - DOMAIN-SUFFIX,12306.cn,🌏 国内媒体
+ - DOMAIN-SUFFIX,12306.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,126.net,🌏 国内媒体
+ - DOMAIN-SUFFIX,163.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,360.cn,🌏 国内媒体
+ - DOMAIN-SUFFIX,360.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,360buy.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,360buyimg.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,36kr.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,51ym.me,🌏 国内媒体
+ - DOMAIN-SUFFIX,58.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,8686c.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,abercrombie.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,acfun.tv,🌏 国内媒体
+ - DOMAIN-SUFFIX,adobesc.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,air-matters.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,air-matters.io,🌏 国内媒体
+ - DOMAIN-SUFFIX,aixifan.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,akadns.net,🌏 国内媒体
+ - DOMAIN-SUFFIX,alibabacloud.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,alicdn.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,alipay.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,alipayobjects.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,aliyun.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,aliyuncs.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,amap.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,appshike.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,appstore.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,autonavi.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,aweme.snssdk.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,bababian.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,baidu.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,baidupcs.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,bdimg.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,bdstatic.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,beatsbydre.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,bet365.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,broadcasthe.net,🌏 国内媒体
+ - DOMAIN-SUFFIX,caiyunapp.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,ccgslb.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,ccgslb.net,🌏 国内媒体
+ - DOMAIN-SUFFIX,chinacache.net,🌏 国内媒体
+ - DOMAIN-SUFFIX,chunbo.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,chunboimg.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,clashroyaleapp.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,clouddn.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,cloudsigma.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,cloudxns.net,🌏 国内媒体
+ - DOMAIN-SUFFIX,cmct.tv,🌏 国内媒体
+ - DOMAIN-SUFFIX,cmfu.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,cnbeta.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,cnbetacdn.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,chdbits.co,🌏 国内媒体
+ - DOMAIN-SUFFIX,cnlang.org,🌏 国内媒体
+ - DOMAIN-SUFFIX,cz88.net,🌏 国内媒体
+ - DOMAIN-SUFFIX,dct-cloud.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,didialift.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,digicert.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,douban.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,doubanio.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,douyin.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,douyu.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,douyu.tv,🌏 国内媒体
+ - DOMAIN-SUFFIX,douyutv.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,duokan.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,duoshuo.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,dytt8.net,🌏 国内媒体
+ - DOMAIN-SUFFIX,easou.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,ecitic.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,ecitic.net,🌏 国内媒体
+ - DOMAIN-SUFFIX,eclipse.org,🌏 国内媒体
+ - DOMAIN-SUFFIX,eudic.net,🌏 国内媒体
+ - DOMAIN-SUFFIX,ewqcxz.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,feng.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,fir.im,🌏 国内媒体
+ - DOMAIN-SUFFIX,firefox.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,frdic.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,fresh-ideas.cc,🌏 国内媒体
+ - DOMAIN-SUFFIX,gameloft.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,geetest.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,godic.net,🌏 国内媒体
+ - DOMAIN-SUFFIX,goodread.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,gtimg.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,haibian.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,hao123.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,haosou.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,hdchina.org,🌏 国内媒体
+ - DOMAIN-SUFFIX,hdcmct.org,🌏 国内媒体
+ - DOMAIN-SUFFIX,hkserversolution.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,hollisterco.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,hongxiu.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,hxcdn.net,🌏 国内媒体
+ - DOMAIN-SUFFIX,icedropper.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,iciba.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,ifeng.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,ifengimg.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,images-amazon.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,img4me.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,ithome.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,ixdzs.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,jd.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,jd.hk,🌏 国内媒体
+ - DOMAIN-SUFFIX,jianshu.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,jianshu.io,🌏 国内媒体
+ - DOMAIN-SUFFIX,jianshuapi.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,jiathis.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,jomodns.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,jsboxbbs.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,knewone.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,kuaidi100.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,kugou.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,lecloud.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,lemicp.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,letv.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,letvcloud.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,liyuans.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,lizhi.io,🌏 国内媒体
+ - DOMAIN-SUFFIX,localizecdn.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,lucifr.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,luoo.net,🌏 国内媒体
+ - DOMAIN-SUFFIX,lxdns.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,mai.tn,🌏 国内媒体
+ - DOMAIN-SUFFIX,meizu.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,metatrader4.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,metatrader5.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,mi.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,miaopai.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,miui.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,miwifi.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,mob.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,moji.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,moke.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,mxhichina.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,myqcloud.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,myunlu.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,ngabbs.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,netease.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,nfoservers.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,nssurge.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,nuomi.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,ourbits.club,🌏 国内媒体
+ - DOMAIN-SUFFIX,ourdvs.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,passthepopcorn.me,🌏 国内媒体
+ - DOMAIN-SUFFIX,pgyer.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,pniao.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,privatehd.to,🌏 国内媒体
+ - DOMAIN-SUFFIX,pstatp.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,qbox.me,🌏 国内媒体
+ - DOMAIN-SUFFIX,qcloud.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,qdaily.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,qdmm.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,qhimg.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,qidian.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,qihucdn.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,qin.io,🌏 国内媒体
+ - DOMAIN-SUFFIX,qingmang.me,🌏 国内媒体
+ - DOMAIN-SUFFIX,qingmang.mobi,🌏 国内媒体
+ - DOMAIN-SUFFIX,qiniucdn.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,qiniudn.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,qq.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,qqurl.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,rarbg.to,🌏 国内媒体
+ - DOMAIN-SUFFIX,redacted.ch,🌏 国内媒体
+ - DOMAIN-SUFFIX,rrmj.tv,🌏 国内媒体
+ - DOMAIN-SUFFIX,ruguoapp.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,sandai.net,🌏 国内媒体
+ - DOMAIN-SUFFIX,sf-express.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,sinaapp.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,sinaimg.cn,🌏 国内媒体
+ - DOMAIN-SUFFIX,sinaimg.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,sm.ms,🌏 国内媒体
+ - DOMAIN-SUFFIX,smzdm.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,snssdk.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,snwx.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,so.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,sogou.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,sogoucdn.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,sohu.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,soku.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,soso.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,sspai.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,startssl.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,store.steampowered.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,suning.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,symcd.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,taobao.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,tawk.link,🌏 国内媒体
+ - DOMAIN-SUFFIX,tawk.to,🌏 国内媒体
+ - DOMAIN-SUFFIX,tenpay.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,tietuku.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,tmall.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,tmzvps.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,trello.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,trellocdn.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,totheglory.im,🌏 国内媒体
+ - DOMAIN-SUFFIX,ttmeiju.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,tudou.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,udache.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,umengcloud.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,upaiyun.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,upyun.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,uxengine.net,🌏 国内媒体
+ - DOMAIN-SUFFIX,wandoujia.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,weather.bjango.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,weather.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,webqxs.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,weibo.cn,🌏 国内媒体
+ - DOMAIN-SUFFIX,weibo.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,weico.cc,🌏 国内媒体
+ - DOMAIN-SUFFIX,weiphone.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,weiphone.net,🌏 国内媒体
+ - DOMAIN-SUFFIX,wenku8.net,🌏 国内媒体
+ - DOMAIN-SUFFIX,werewolf.53site.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,wkcdn.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,xdrig.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,xhostfire.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,xiami.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,xiami.net,🌏 国内媒体
+ - DOMAIN-SUFFIX,xiaojukeji.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,xiaomi.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,xiaomi.net,🌏 国内媒体
+ - DOMAIN-SUFFIX,xiaomicp.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,ximalaya.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,xitek.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,xmcdn.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,xslb.net,🌏 国内媒体
+ - DOMAIN-SUFFIX,yach.me,🌏 国内媒体
+ - DOMAIN-SUFFIX,yeepay.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,yhd.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,yinxiang.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,yixia.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,ykimg.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,youdao.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,youku.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,yunjiasu-cdn.net,🌏 国内媒体
+ - DOMAIN-SUFFIX,zealer.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,zgslb.net,🌏 国内媒体
+ - DOMAIN-SUFFIX,zhihu.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,zhimg.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,zimuzu.tv,🌏 国内媒体
+ - DOMAIN-SUFFIX,zmz002.com,🌏 国内媒体
+ - IP-CIDR,1.255.62.0/24,🌏 国内媒体,no-resolve
+ - DOMAIN-SUFFIX,cn,🌏 国内媒体
  - DOMAIN-SUFFIX,t.me,📲 电报信息
  - DOMAIN-SUFFIX,tdesktop.com,📲 电报信息
  - DOMAIN-SUFFIX,telegra.ph,📲 电报信息
@@ -9435,524 +10323,12 @@ rules:
  - IP-CIDR,91.108.8.0/22,📲 电报信息,no-resolve
  - IP-CIDR,91.108.12.0/22,📲 电报信息,no-resolve
  - IP-CIDR,91.108.16.0/22,📲 电报信息,no-resolve
+ - IP-CIDR,91.108.20.0/22,📲 电报信息,no-resolve
  - IP-CIDR,91.108.56.0/22,📲 电报信息,no-resolve
  - IP-CIDR,149.154.160.0/20,📲 电报信息,no-resolve
  - IP-CIDR6,2001:b28:f23d::/48,📲 电报信息,no-resolve
  - IP-CIDR6,2001:b28:f23f::/48,📲 电报信息,no-resolve
  - IP-CIDR6,2001:67c:4e8::/48,📲 电报信息,no-resolve
- - DOMAIN,testflight.apple.com,🔰 节点选择
- - DOMAIN-SUFFIX,appspot.com,🔰 节点选择
- - DOMAIN-SUFFIX,blogger.com,🔰 节点选择
- - DOMAIN-SUFFIX,getoutline.org,🔰 节点选择
- - DOMAIN-SUFFIX,gvt0.com,🔰 节点选择
- - DOMAIN-SUFFIX,gvt1.com,🔰 节点选择
- - DOMAIN-SUFFIX,gvt3.com,🔰 节点选择
- - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🔰 节点选择
- - DOMAIN-KEYWORD,google,🔰 节点选择
- - DOMAIN-KEYWORD,blogspot,🔰 节点选择
- - DOMAIN-SUFFIX,onedrive.live.com,🔰 节点选择
- - DOMAIN,az416426.vo.msecnd.net,🔰 节点选择
- - DOMAIN,az668014.vo.msecnd.net,🔰 节点选择
- - DOMAIN-SUFFIX,cdninstagram.com,🔰 节点选择
- - DOMAIN-SUFFIX,facebook.com,🔰 节点选择
- - DOMAIN-SUFFIX,facebook.net,🔰 节点选择
- - DOMAIN-SUFFIX,fb.com,🔰 节点选择
- - DOMAIN-SUFFIX,fb.me,🔰 节点选择
- - DOMAIN-SUFFIX,fbaddins.com,🔰 节点选择
- - DOMAIN-SUFFIX,fbcdn.net,🔰 节点选择
- - DOMAIN-SUFFIX,fbsbx.com,🔰 节点选择
- - DOMAIN-SUFFIX,fbworkmail.com,🔰 节点选择
- - DOMAIN-SUFFIX,instagram.com,🔰 节点选择
- - DOMAIN-SUFFIX,m.me,🔰 节点选择
- - DOMAIN-SUFFIX,messenger.com,🔰 节点选择
- - DOMAIN-SUFFIX,oculus.com,🔰 节点选择
- - DOMAIN-SUFFIX,oculuscdn.com,🔰 节点选择
- - DOMAIN-SUFFIX,rocksdb.org,🔰 节点选择
- - DOMAIN-SUFFIX,whatsapp.com,🔰 节点选择
- - DOMAIN-SUFFIX,whatsapp.net,🔰 节点选择
- - DOMAIN-SUFFIX,pscp.tv,🔰 节点选择
- - DOMAIN-SUFFIX,periscope.tv,🔰 节点选择
- - DOMAIN-SUFFIX,t.co,🔰 节点选择
- - DOMAIN-SUFFIX,twimg.co,🔰 节点选择
- - DOMAIN-SUFFIX,twimg.com,🔰 节点选择
- - DOMAIN-SUFFIX,twitpic.com,🔰 节点选择
- - DOMAIN-SUFFIX,twitter.com,🔰 节点选择
- - DOMAIN-SUFFIX,vine.co,🔰 节点选择
- - DOMAIN-SUFFIX,telegra.ph,🔰 节点选择
- - DOMAIN-SUFFIX,telegram.org,🔰 节点选择
- - IP-CIDR,91.108.4.0/22,🔰 节点选择,no-resolve
- - IP-CIDR,91.108.8.0/22,🔰 节点选择,no-resolve
- - IP-CIDR,91.108.12.0/22,🔰 节点选择,no-resolve
- - IP-CIDR,91.108.16.0/22,🔰 节点选择,no-resolve
- - IP-CIDR,91.108.56.0/22,🔰 节点选择,no-resolve
- - IP-CIDR,149.154.160.0/20,🔰 节点选择,no-resolve
- - IP-CIDR6,2001:b28:f23d::/48,🔰 节点选择,no-resolve
- - IP-CIDR6,2001:b28:f23f::/48,🔰 节点选择,no-resolve
- - IP-CIDR6,2001:67c:4e8::/48,🔰 节点选择,no-resolve
- - DOMAIN-SUFFIX,line.me,🔰 节点选择
- - DOMAIN-SUFFIX,line-apps.com,🔰 节点选择
- - DOMAIN-SUFFIX,line-scdn.net,🔰 节点选择
- - DOMAIN-SUFFIX,naver.jp,🔰 节点选择
- - IP-CIDR,103.2.30.0/23,🔰 节点选择,no-resolve
- - IP-CIDR,125.209.208.0/20,🔰 节点选择,no-resolve
- - IP-CIDR,147.92.128.0/17,🔰 节点选择,no-resolve
- - IP-CIDR,203.104.144.0/21,🔰 节点选择,no-resolve
- - DOMAIN,a248.e.akamai.net,🔰 节点选择
- - DOMAIN,a771.dscq.akamai.net,🔰 节点选择
- - DOMAIN,d3c33hcgiwev3.cloudfront.net,🔰 节点选择
- - DOMAIN-SUFFIX,4shared.com,🔰 节点选择
- - DOMAIN-SUFFIX,9cache.com,🔰 节点选择
- - DOMAIN-SUFFIX,9gag.com,🔰 节点选择
- - DOMAIN-SUFFIX,abc.com,🔰 节点选择
- - DOMAIN-SUFFIX,abc.net.au,🔰 节点选择
- - DOMAIN-SUFFIX,abebooks.com,🔰 节点选择
- - DOMAIN-SUFFIX,amazon.co.jp,🔰 节点选择
- - DOMAIN-SUFFIX,ao3.org,🔰 节点选择
- - DOMAIN-SUFFIX,apigee.com,🔰 节点选择
- - DOMAIN-SUFFIX,apkcombo.com,🔰 节点选择
- - DOMAIN-SUFFIX,apk-dl.com,🔰 节点选择
- - DOMAIN-SUFFIX,apkfind.com,🔰 节点选择
- - DOMAIN-SUFFIX,apkmirror.com,🔰 节点选择
- - DOMAIN-SUFFIX,apkmonk.com,🔰 节点选择
- - DOMAIN-SUFFIX,apkpure.com,🔰 节点选择
- - DOMAIN-SUFFIX,aptoide.com,🔰 节点选择
- - DOMAIN-SUFFIX,archive.is,🔰 节点选择
- - DOMAIN-SUFFIX,archive.org,🔰 节点选择
- - DOMAIN-SUFFIX,archiveofourown.com,🔰 节点选择
- - DOMAIN-SUFFIX,archiveofourown.org,🔰 节点选择
- - DOMAIN-SUFFIX,arte.tv,🔰 节点选择
- - DOMAIN-SUFFIX,artstation.com,🔰 节点选择
- - DOMAIN-SUFFIX,arukas.io,🔰 节点选择
- - DOMAIN-SUFFIX,ask.com,🔰 节点选择
- - DOMAIN-SUFFIX,avg.com,🔰 节点选择
- - DOMAIN-SUFFIX,avgle.com,🔰 节点选择
- - DOMAIN-SUFFIX,badoo.com,🔰 节点选择
- - DOMAIN-SUFFIX,bandwagonhost.com,🔰 节点选择
- - DOMAIN-SUFFIX,bangkokpost.com,🔰 节点选择
- - DOMAIN-SUFFIX,bbc.com,🔰 节点选择
- - DOMAIN-SUFFIX,behance.net,🔰 节点选择
- - DOMAIN-SUFFIX,bibox.com,🔰 节点选择
- - DOMAIN-SUFFIX,biggo.com.tw,🔰 节点选择
- - DOMAIN-SUFFIX,binance.com,🔰 节点选择
- - DOMAIN-SUFFIX,bit.ly,🔰 节点选择
- - DOMAIN-SUFFIX,bitcointalk.org,🔰 节点选择
- - DOMAIN-SUFFIX,bitfinex.com,🔰 节点选择
- - DOMAIN-SUFFIX,bitmex.com,🔰 节点选择
- - DOMAIN-SUFFIX,bit-z.com,🔰 节点选择
- - DOMAIN-SUFFIX,bloglovin.com,🔰 节点选择
- - DOMAIN-SUFFIX,bloomberg.cn,🔰 节点选择
- - DOMAIN-SUFFIX,bloomberg.com,🔰 节点选择
- - DOMAIN-SUFFIX,blubrry.com,🔰 节点选择
- - DOMAIN-SUFFIX,book.com.tw,🔰 节点选择
- - DOMAIN-SUFFIX,booklive.jp,🔰 节点选择
- - DOMAIN-SUFFIX,books.com.tw,🔰 节点选择
- - DOMAIN-SUFFIX,boslife.net,🔰 节点选择
- - DOMAIN-SUFFIX,box.com,🔰 节点选择
- - DOMAIN-SUFFIX,brave.com,🔰 节点选择
- - DOMAIN-SUFFIX,businessinsider.com,🔰 节点选择
- - DOMAIN-SUFFIX,buzzfeed.com,🔰 节点选择
- - DOMAIN-SUFFIX,bwh1.net,🔰 节点选择
- - DOMAIN-SUFFIX,castbox.fm,🔰 节点选择
- - DOMAIN-SUFFIX,cbc.ca,🔰 节点选择
- - DOMAIN-SUFFIX,cdw.com,🔰 节点选择
- - DOMAIN-SUFFIX,change.org,🔰 节点选择
- - DOMAIN-SUFFIX,channelnewsasia.com,🔰 节点选择
- - DOMAIN-SUFFIX,ck101.com,🔰 节点选择
- - DOMAIN-SUFFIX,clarionproject.org,🔰 节点选择
- - DOMAIN-SUFFIX,cloudcone.com,🔰 节点选择
- - DOMAIN-SUFFIX,clyp.it,🔰 节点选择
- - DOMAIN-SUFFIX,cna.com.tw,🔰 节点选择
- - DOMAIN-SUFFIX,comparitech.com,🔰 节点选择
- - DOMAIN-SUFFIX,conoha.jp,🔰 节点选择
- - DOMAIN-SUFFIX,crucial.com,🔰 节点选择
- - DOMAIN-SUFFIX,cts.com.tw,🔰 节点选择
- - DOMAIN-SUFFIX,cw.com.tw,🔰 节点选择
- - DOMAIN-SUFFIX,cyberctm.com,🔰 节点选择
- - DOMAIN-SUFFIX,dailymotion.com,🔰 节点选择
- - DOMAIN-SUFFIX,dailyview.tw,🔰 节点选择
- - DOMAIN-SUFFIX,daum.net,🔰 节点选择
- - DOMAIN-SUFFIX,daumcdn.net,🔰 节点选择
- - DOMAIN-SUFFIX,dcard.tw,🔰 节点选择
- - DOMAIN-SUFFIX,deadline.com,🔰 节点选择
- - DOMAIN-SUFFIX,deepdiscount.com,🔰 节点选择
- - DOMAIN-SUFFIX,depositphotos.com,🔰 节点选择
- - DOMAIN-SUFFIX,deviantart.com,🔰 节点选择
- - DOMAIN-SUFFIX,disconnect.me,🔰 节点选择
- - DOMAIN-SUFFIX,discordapp.com,🔰 节点选择
- - DOMAIN-SUFFIX,discordapp.net,🔰 节点选择
- - DOMAIN-SUFFIX,disqus.com,🔰 节点选择
- - DOMAIN-SUFFIX,dlercloud.com,🔰 节点选择
- - DOMAIN-SUFFIX,dmhy.org,🔰 节点选择
- - DOMAIN-SUFFIX,dns2go.com,🔰 节点选择
- - DOMAIN-SUFFIX,dowjones.com,🔰 节点选择
- - DOMAIN-SUFFIX,dropbox.com,🔰 节点选择
- - DOMAIN-SUFFIX,dropboxapi.com,🔰 节点选择
- - DOMAIN-SUFFIX,dropboxusercontent.com,🔰 节点选择
- - DOMAIN-SUFFIX,duckduckgo.com,🔰 节点选择
- - DOMAIN-SUFFIX,duyaoss.com,🔰 节点选择
- - DOMAIN-SUFFIX,dw.com,🔰 节点选择
- - DOMAIN-SUFFIX,dynu.com,🔰 节点选择
- - DOMAIN-SUFFIX,earthcam.com,🔰 节点选择
- - DOMAIN-SUFFIX,ebookservice.tw,🔰 节点选择
- - DOMAIN-SUFFIX,economist.com,🔰 节点选择
- - DOMAIN-SUFFIX,edgecastcdn.net,🔰 节点选择
- - DOMAIN-SUFFIX,edu,🔰 节点选择
- - DOMAIN-SUFFIX,edx-cdn.org,🔰 节点选择
- - DOMAIN-SUFFIX,elpais.com,🔰 节点选择
- - DOMAIN-SUFFIX,enanyang.my,🔰 节点选择
- - DOMAIN-SUFFIX,encyclopedia.com,🔰 节点选择
- - DOMAIN-SUFFIX,esoir.be,🔰 节点选择
- - DOMAIN-SUFFIX,etherscan.io,🔰 节点选择
- - DOMAIN-SUFFIX,euronews.com,🔰 节点选择
- - DOMAIN-SUFFIX,evozi.com,🔰 节点选择
- - DOMAIN-SUFFIX,exblog.jp,🔰 节点选择
- - DOMAIN-SUFFIX,feeder.co,🔰 节点选择
- - DOMAIN-SUFFIX,feedly.com,🔰 节点选择
- - DOMAIN-SUFFIX,feedx.net,🔰 节点选择
- - DOMAIN-SUFFIX,firech.at,🔰 节点选择
- - DOMAIN-SUFFIX,flickr.com,🔰 节点选择
- - DOMAIN-SUFFIX,flipboard.com,🔰 节点选择
- - DOMAIN-SUFFIX,flitto.com,🔰 节点选择
- - DOMAIN-SUFFIX,foreignpolicy.com,🔰 节点选择
- - DOMAIN-SUFFIX,fortawesome.com,🔰 节点选择
- - DOMAIN-SUFFIX,freetls.fastly.net,🔰 节点选择
- - DOMAIN-SUFFIX,friday.tw,🔰 节点选择
- - DOMAIN-SUFFIX,ft.com,🔰 节点选择
- - DOMAIN-SUFFIX,ftchinese.com,🔰 节点选择
- - DOMAIN-SUFFIX,ftimg.net,🔰 节点选择
- - DOMAIN-SUFFIX,gate.io,🔰 节点选择
- - DOMAIN-SUFFIX,getlantern.org,🔰 节点选择
- - DOMAIN-SUFFIX,getsync.com,🔰 节点选择
- - DOMAIN-SUFFIX,github.com,🔰 节点选择
- - DOMAIN-SUFFIX,github.io,🔰 节点选择
- - DOMAIN-SUFFIX,githubusercontent.com,🔰 节点选择
- - DOMAIN-SUFFIX,globalvoices.org,🔰 节点选择
- - DOMAIN-SUFFIX,goo.ne.jp,🔰 节点选择
- - DOMAIN-SUFFIX,goodreads.com,🔰 节点选择
- - DOMAIN-SUFFIX,gov,🔰 节点选择
- - DOMAIN-SUFFIX,gov.tw,🔰 节点选择
- - DOMAIN-SUFFIX,greatfire.org,🔰 节点选择
- - DOMAIN-SUFFIX,gumroad.com,🔰 节点选择
- - DOMAIN-SUFFIX,hbg.com,🔰 节点选择
- - DOMAIN-SUFFIX,heroku.com,🔰 节点选择
- - DOMAIN-SUFFIX,hightail.com,🔰 节点选择
- - DOMAIN-SUFFIX,hk01.com,🔰 节点选择
- - DOMAIN-SUFFIX,hkbf.org,🔰 节点选择
- - DOMAIN-SUFFIX,hkbookcity.com,🔰 节点选择
- - DOMAIN-SUFFIX,hkej.com,🔰 节点选择
- - DOMAIN-SUFFIX,hket.com,🔰 节点选择
- - DOMAIN-SUFFIX,hootsuite.com,🔰 节点选择
- - DOMAIN-SUFFIX,hudson.org,🔰 节点选择
- - DOMAIN-SUFFIX,huffpost.com,🔰 节点选择
- - DOMAIN-SUFFIX,hyread.com.tw,🔰 节点选择
- - DOMAIN-SUFFIX,ibtimes.com,🔰 节点选择
- - DOMAIN-SUFFIX,i-cable.com,🔰 节点选择
- - DOMAIN-SUFFIX,icij.org,🔰 节点选择
- - DOMAIN-SUFFIX,icoco.com,🔰 节点选择
- - DOMAIN-SUFFIX,imgur.com,🔰 节点选择
- - DOMAIN-SUFFIX,independent.co.uk,🔰 节点选择
- - DOMAIN-SUFFIX,initiummall.com,🔰 节点选择
- - DOMAIN-SUFFIX,inoreader.com,🔰 节点选择
- - DOMAIN-SUFFIX,insecam.org,🔰 节点选择
- - DOMAIN-SUFFIX,ipfs.io,🔰 节点选择
- - DOMAIN-SUFFIX,issuu.com,🔰 节点选择
- - DOMAIN-SUFFIX,istockphoto.com,🔰 节点选择
- - DOMAIN-SUFFIX,japantimes.co.jp,🔰 节点选择
- - DOMAIN-SUFFIX,jiji.com,🔰 节点选择
- - DOMAIN-SUFFIX,jinx.com,🔰 节点选择
- - DOMAIN-SUFFIX,jkforum.net,🔰 节点选择
- - DOMAIN-SUFFIX,joinmastodon.org,🔰 节点选择
- - DOMAIN-SUFFIX,justmysocks.net,🔰 节点选择
- - DOMAIN-SUFFIX,justpaste.it,🔰 节点选择
- - DOMAIN-SUFFIX,kadokawa.co.jp,🔰 节点选择
- - DOMAIN-SUFFIX,kakao.com,🔰 节点选择
- - DOMAIN-SUFFIX,kakaocorp.com,🔰 节点选择
- - DOMAIN-SUFFIX,kik.com,🔰 节点选择
- - DOMAIN-SUFFIX,kingkong.com.tw,🔰 节点选择
- - DOMAIN-SUFFIX,knowyourmeme.com,🔰 节点选择
- - DOMAIN-SUFFIX,kobo.com,🔰 节点选择
- - DOMAIN-SUFFIX,kobobooks.com,🔰 节点选择
- - DOMAIN-SUFFIX,kodingen.com,🔰 节点选择
- - DOMAIN-SUFFIX,lemonde.fr,🔰 节点选择
- - DOMAIN-SUFFIX,lepoint.fr,🔰 节点选择
- - DOMAIN-SUFFIX,lihkg.com,🔰 节点选择
- - DOMAIN-SUFFIX,limbopro.xyz,🔰 节点选择
- - DOMAIN-SUFFIX,listennotes.com,🔰 节点选择
- - DOMAIN-SUFFIX,livestream.com,🔰 节点选择
- - DOMAIN-SUFFIX,logimg.jp,🔰 节点选择
- - DOMAIN-SUFFIX,logmein.com,🔰 节点选择
- - DOMAIN-SUFFIX,mail.ru,🔰 节点选择
- - DOMAIN-SUFFIX,mailchimp.com,🔰 节点选择
- - DOMAIN-SUFFIX,marc.info,🔰 节点选择
- - DOMAIN-SUFFIX,matters.news,🔰 节点选择
- - DOMAIN-SUFFIX,maying.co,🔰 节点选择
- - DOMAIN-SUFFIX,medium.com,🔰 节点选择
- - DOMAIN-SUFFIX,mega.nz,🔰 节点选择
- - DOMAIN-SUFFIX,mergersandinquisitions.com,🔰 节点选择
- - DOMAIN-SUFFIX,mil,🔰 节点选择
- - DOMAIN-SUFFIX,mingpao.com,🔰 节点选择
- - DOMAIN-SUFFIX,mixi.jp,🔰 节点选择
- - DOMAIN-SUFFIX,mobile01.com,🔰 节点选择
- - DOMAIN-SUFFIX,mubi.com,🔰 节点选择
- - DOMAIN-SUFFIX,myspace.com,🔰 节点选择
- - DOMAIN-SUFFIX,myspacecdn.com,🔰 节点选择
- - DOMAIN-SUFFIX,nanyang.com,🔰 节点选择
- - DOMAIN-SUFFIX,nationalinterest.org,🔰 节点选择
- - DOMAIN-SUFFIX,naver.com,🔰 节点选择
- - DOMAIN-SUFFIX,nbcnews.com,🔰 节点选择
- - DOMAIN-SUFFIX,ndr.de,🔰 节点选择
- - DOMAIN-SUFFIX,neowin.net,🔰 节点选择
- - DOMAIN-SUFFIX,newstapa.org,🔰 节点选择
- - DOMAIN-SUFFIX,nexitally.com,🔰 节点选择
- - DOMAIN-SUFFIX,nhk.or.jp,🔰 节点选择
- - DOMAIN-SUFFIX,nii.ac.jp,🔰 节点选择
- - DOMAIN-SUFFIX,nikkei.com,🔰 节点选择
- - DOMAIN-SUFFIX,nitter.net,🔰 节点选择
- - DOMAIN-SUFFIX,nofile.io,🔰 节点选择
- - DOMAIN-SUFFIX,notion.so,🔰 节点选择
- - DOMAIN-SUFFIX,now.com,🔰 节点选择
- - DOMAIN-SUFFIX,nrk.no,🔰 节点选择
- - DOMAIN-SUFFIX,nuget.org,🔰 节点选择
- - DOMAIN-SUFFIX,nyaa.si,🔰 节点选择
- - DOMAIN-SUFFIX,nyt.com,🔰 节点选择
- - DOMAIN-SUFFIX,nytchina.com,🔰 节点选择
- - DOMAIN-SUFFIX,nytcn.me,🔰 节点选择
- - DOMAIN-SUFFIX,nytco.com,🔰 节点选择
- - DOMAIN-SUFFIX,nytimes.com,🔰 节点选择
- - DOMAIN-SUFFIX,nytimg.com,🔰 节点选择
- - DOMAIN-SUFFIX,nytlog.com,🔰 节点选择
- - DOMAIN-SUFFIX,nytstyle.com,🔰 节点选择
- - DOMAIN-SUFFIX,ok.ru,🔰 节点选择
- - DOMAIN-SUFFIX,okex.com,🔰 节点选择
- - DOMAIN-SUFFIX,on.cc,🔰 节点选择
- - DOMAIN-SUFFIX,orientaldaily.com.my,🔰 节点选择
- - DOMAIN-SUFFIX,overcast.fm,🔰 节点选择
- - DOMAIN-SUFFIX,paltalk.com,🔰 节点选择
- - DOMAIN-SUFFIX,parsevideo.com,🔰 节点选择
- - DOMAIN-SUFFIX,pawoo.net,🔰 节点选择
- - DOMAIN-SUFFIX,pbxes.com,🔰 节点选择
- - DOMAIN-SUFFIX,pcdvd.com.tw,🔰 节点选择
- - DOMAIN-SUFFIX,pchome.com.tw,🔰 节点选择
- - DOMAIN-SUFFIX,pcloud.com,🔰 节点选择
- - DOMAIN-SUFFIX,peing.net,🔰 节点选择
- - DOMAIN-SUFFIX,picacomic.com,🔰 节点选择
- - DOMAIN-SUFFIX,pinimg.com,🔰 节点选择
- - DOMAIN-SUFFIX,pixiv.net,🔰 节点选择
- - DOMAIN-SUFFIX,player.fm,🔰 节点选择
- - DOMAIN-SUFFIX,plurk.com,🔰 节点选择
- - DOMAIN-SUFFIX,po18.tw,🔰 节点选择
- - DOMAIN-SUFFIX,potato.im,🔰 节点选择
- - DOMAIN-SUFFIX,potatso.com,🔰 节点选择
- - DOMAIN-SUFFIX,prism-break.org,🔰 节点选择
- - DOMAIN-SUFFIX,proxifier.com,🔰 节点选择
- - DOMAIN-SUFFIX,pt.im,🔰 节点选择
- - DOMAIN-SUFFIX,pts.org.tw,🔰 节点选择
- - DOMAIN-SUFFIX,pubu.com.tw,🔰 节点选择
- - DOMAIN-SUFFIX,pubu.tw,🔰 节点选择
- - DOMAIN-SUFFIX,pureapk.com,🔰 节点选择
- - DOMAIN-SUFFIX,quora.com,🔰 节点选择
- - DOMAIN-SUFFIX,quoracdn.net,🔰 节点选择
- - DOMAIN-SUFFIX,qz.com,🔰 节点选择
- - DOMAIN-SUFFIX,radio.garden,🔰 节点选择
- - DOMAIN-SUFFIX,rakuten.co.jp,🔰 节点选择
- - DOMAIN-SUFFIX,rarbgprx.org,🔰 节点选择
- - DOMAIN-SUFFIX,reabble.com,🔰 节点选择
- - DOMAIN-SUFFIX,readingtimes.com.tw,🔰 节点选择
- - DOMAIN-SUFFIX,readmoo.com,🔰 节点选择
- - DOMAIN-SUFFIX,redbubble.com,🔰 节点选择
- - DOMAIN-SUFFIX,redd.it,🔰 节点选择
- - DOMAIN-SUFFIX,reddit.com,🔰 节点选择
- - DOMAIN-SUFFIX,redditmedia.com,🔰 节点选择
- - DOMAIN-SUFFIX,resilio.com,🔰 节点选择
- - DOMAIN-SUFFIX,reuters.com,🔰 节点选择
- - DOMAIN-SUFFIX,reutersmedia.net,🔰 节点选择
- - DOMAIN-SUFFIX,rfi.fr,🔰 节点选择
- - DOMAIN-SUFFIX,rixcloud.com,🔰 节点选择
- - DOMAIN-SUFFIX,roadshow.hk,🔰 节点选择
- - DOMAIN-SUFFIX,rsshub.app,🔰 节点选择
- - DOMAIN-SUFFIX,scmp.com,🔰 节点选择
- - DOMAIN-SUFFIX,scribd.com,🔰 节点选择
- - DOMAIN-SUFFIX,seatguru.com,🔰 节点选择
- - DOMAIN-SUFFIX,shadowsocks.org,🔰 节点选择
- - DOMAIN-SUFFIX,shindanmaker.com,🔰 节点选择
- - DOMAIN-SUFFIX,shopee.tw,🔰 节点选择
- - DOMAIN-SUFFIX,sina.com.hk,🔰 节点选择
- - DOMAIN-SUFFIX,slideshare.net,🔰 节点选择
- - DOMAIN-SUFFIX,softfamous.com,🔰 节点选择
- - DOMAIN-SUFFIX,spiegel.de,🔰 节点选择
- - DOMAIN-SUFFIX,ssrcloud.org,🔰 节点选择
- - DOMAIN-SUFFIX,startpage.com,🔰 节点选择
- - DOMAIN-SUFFIX,steamcommunity.com,🔰 节点选择
- - DOMAIN-SUFFIX,steemit.com,🔰 节点选择
- - DOMAIN-SUFFIX,steemitwallet.com,🔰 节点选择
- - DOMAIN-SUFFIX,straitstimes.com,🔰 节点选择
- - DOMAIN-SUFFIX,streema.com,🔰 节点选择
- - DOMAIN-SUFFIX,t66y.com,🔰 节点选择
- - DOMAIN-SUFFIX,tapatalk.com,🔰 节点选择
- - DOMAIN-SUFFIX,teco-hk.org,🔰 节点选择
- - DOMAIN-SUFFIX,teco-mo.org,🔰 节点选择
- - DOMAIN-SUFFIX,teddysun.com,🔰 节点选择
- - DOMAIN-SUFFIX,textnow.me,🔰 节点选择
- - DOMAIN-SUFFIX,theguardian.com,🔰 节点选择
- - DOMAIN-SUFFIX,theinitium.com,🔰 节点选择
- - DOMAIN-SUFFIX,themoviedb.org,🔰 节点选择
- - DOMAIN-SUFFIX,thetvdb.com,🔰 节点选择
- - DOMAIN-SUFFIX,time.com,🔰 节点选择
- - DOMAIN-SUFFIX,tineye.com,🔰 节点选择
- - DOMAIN-SUFFIX,tiny.cc,🔰 节点选择
- - DOMAIN-SUFFIX,tinyurl.com,🔰 节点选择
- - DOMAIN-SUFFIX,torproject.org,🔰 节点选择
- - DOMAIN-SUFFIX,tumblr.com,🔰 节点选择
- - DOMAIN-SUFFIX,turbobit.net,🔰 节点选择
- - DOMAIN-SUFFIX,tutanota.com,🔰 节点选择
- - DOMAIN-SUFFIX,tvboxnow.com,🔰 节点选择
- - DOMAIN-SUFFIX,udn.com,🔰 节点选择
- - DOMAIN-SUFFIX,unseen.is,🔰 节点选择
- - DOMAIN-SUFFIX,upmedia.mg,🔰 节点选择
- - DOMAIN-SUFFIX,uptodown.com,🔰 节点选择
- - DOMAIN-SUFFIX,urbandictionary.com,🔰 节点选择
- - DOMAIN-SUFFIX,ustream.tv,🔰 节点选择
- - DOMAIN-SUFFIX,uwants.com,🔰 节点选择
- - DOMAIN-SUFFIX,v2fly.org,🔰 节点选择
- - DOMAIN-SUFFIX,v2ray.com,🔰 节点选择
- - DOMAIN-SUFFIX,viber.com,🔰 节点选择
- - DOMAIN-SUFFIX,videopress.com,🔰 节点选择
- - DOMAIN-SUFFIX,vimeo.com,🔰 节点选择
- - DOMAIN-SUFFIX,voachinese.com,🔰 节点选择
- - DOMAIN-SUFFIX,voanews.com,🔰 节点选择
- - DOMAIN-SUFFIX,voxer.com,🔰 节点选择
- - DOMAIN-SUFFIX,vzw.com,🔰 节点选择
- - DOMAIN-SUFFIX,w3schools.com,🔰 节点选择
- - DOMAIN-SUFFIX,washingtonpost.com,🔰 节点选择
- - DOMAIN-SUFFIX,wattpad.com,🔰 节点选择
- - DOMAIN-SUFFIX,whoer.net,🔰 节点选择
- - DOMAIN-SUFFIX,wikileaks.org,🔰 节点选择
- - DOMAIN-SUFFIX,wikimapia.org,🔰 节点选择
- - DOMAIN-SUFFIX,wikimedia.org,🔰 节点选择
- - DOMAIN-SUFFIX,wikinews.org,🔰 节点选择
- - DOMAIN-SUFFIX,wikipedia.org,🔰 节点选择
- - DOMAIN-SUFFIX,wikiquote.org,🔰 节点选择
- - DOMAIN-SUFFIX,wikiwand.com,🔰 节点选择
- - DOMAIN-SUFFIX,winudf.com,🔰 节点选择
- - DOMAIN-SUFFIX,wire.com,🔰 节点选择
- - DOMAIN-SUFFIX,wn.com,🔰 节点选择
- - DOMAIN-SUFFIX,wordpress.com,🔰 节点选择
- - DOMAIN-SUFFIX,workflow.is,🔰 节点选择
- - DOMAIN-SUFFIX,worldcat.org,🔰 节点选择
- - DOMAIN-SUFFIX,wsj.com,🔰 节点选择
- - DOMAIN-SUFFIX,wsj.net,🔰 节点选择
- - DOMAIN-SUFFIX,xhamster.com,🔰 节点选择
- - DOMAIN-SUFFIX,xn--90wwvt03e.com,🔰 节点选择
- - DOMAIN-SUFFIX,xn--i2ru8q2qg.com,🔰 节点选择
- - DOMAIN-SUFFIX,xnxx.com,🔰 节点选择
- - DOMAIN-SUFFIX,xvideos.com,🔰 节点选择
- - DOMAIN-SUFFIX,yahoo.com,🔰 节点选择
- - DOMAIN-SUFFIX,yandex.ru,🔰 节点选择
- - DOMAIN-SUFFIX,ycombinator.com,🔰 节点选择
- - DOMAIN-SUFFIX,yesasia.com,🔰 节点选择
- - DOMAIN-SUFFIX,yes-news.com,🔰 节点选择
- - DOMAIN-SUFFIX,yomiuri.co.jp,🔰 节点选择
- - DOMAIN-SUFFIX,you-get.org,🔰 节点选择
- - DOMAIN-SUFFIX,zaobao.com,🔰 节点选择
- - DOMAIN-SUFFIX,zb.com,🔰 节点选择
- - DOMAIN-SUFFIX,zello.com,🔰 节点选择
- - DOMAIN-SUFFIX,zeronet.io,🔰 节点选择
- - DOMAIN-SUFFIX,zoom.us,🔰 节点选择
- - DOMAIN,cc.tvbs.com.tw,🔰 节点选择
- - DOMAIN,ocsp.int-x3.letsencrypt.org,🔰 节点选择
- - DOMAIN,payments-jp.amazon.com,🔰 节点选择
- - DOMAIN,s3-ap-northeast-1.amazonaws.com,🔰 节点选择
- - DOMAIN,s3-ap-southeast-2.amazonaws.com,🔰 节点选择
- - DOMAIN,search.avira.com,🔰 节点选择
- - DOMAIN,us.weibo.com,🔰 节点选择
- - DOMAIN-KEYWORD,jav,🔰 节点选择
- - DOMAIN-KEYWORD,pinterest,🔰 节点选择
- - DOMAIN-KEYWORD,porn,🔰 节点选择
- - DOMAIN-SUFFIX,abc.xyz,🔰 节点选择
- - DOMAIN-SUFFIX,advertisercommunity.com,🔰 节点选择
- - DOMAIN-SUFFIX,ampproject.org,🔰 节点选择
- - DOMAIN-SUFFIX,android.com,🔰 节点选择
- - DOMAIN-SUFFIX,androidify.com,🔰 节点选择
- - DOMAIN-SUFFIX,dialogflow.com,🔰 节点选择
- - DOMAIN-SUFFIX,autodraw.com,🔰 节点选择
- - DOMAIN-SUFFIX,capitalg.com,🔰 节点选择
- - DOMAIN-SUFFIX,certificate-transparency.org,🔰 节点选择
- - DOMAIN-SUFFIX,chrome.com,🔰 节点选择
- - DOMAIN-SUFFIX,chromeexperiments.com,🔰 节点选择
- - DOMAIN-SUFFIX,chromestatus.com,🔰 节点选择
- - DOMAIN-SUFFIX,chromium.org,🔰 节点选择
- - DOMAIN-SUFFIX,creativelab5.com,🔰 节点选择
- - DOMAIN-SUFFIX,debug.com,🔰 节点选择
- - DOMAIN-SUFFIX,deepmind.com,🔰 节点选择
- - DOMAIN-SUFFIX,firebaseio.com,🔰 节点选择
- - DOMAIN-SUFFIX,getmdl.io,🔰 节点选择
- - DOMAIN-SUFFIX,ggpht.com,🔰 节点选择
- - DOMAIN-SUFFIX,gmail.com,🔰 节点选择
- - DOMAIN-SUFFIX,gmodules.com,🔰 节点选择
- - DOMAIN-SUFFIX,godoc.org,🔰 节点选择
- - DOMAIN-SUFFIX,golang.org,🔰 节点选择
- - DOMAIN-SUFFIX,gstatic.com,🔰 节点选择
- - DOMAIN-SUFFIX,gv.com,🔰 节点选择
- - DOMAIN-SUFFIX,gwtproject.org,🔰 节点选择
- - DOMAIN-SUFFIX,itasoftware.com,🔰 节点选择
- - DOMAIN-SUFFIX,madewithcode.com,🔰 节点选择
- - DOMAIN-SUFFIX,material.io,🔰 节点选择
- - DOMAIN-SUFFIX,page.link,🔰 节点选择
- - DOMAIN-SUFFIX,polymer-project.org,🔰 节点选择
- - DOMAIN-SUFFIX,admin.recaptcha.net,🔰 节点选择
- - DOMAIN-SUFFIX,recaptcha.net,🔰 节点选择
- - DOMAIN-SUFFIX,shattered.io,🔰 节点选择
- - DOMAIN-SUFFIX,synergyse.com,🔰 节点选择
- - DOMAIN-SUFFIX,telephony.goog,🔰 节点选择
- - DOMAIN-SUFFIX,tensorflow.org,🔰 节点选择
- - DOMAIN-SUFFIX,tfhub.dev,🔰 节点选择
- - DOMAIN-SUFFIX,tiltbrush.com,🔰 节点选择
- - DOMAIN-SUFFIX,waveprotocol.org,🔰 节点选择
- - DOMAIN-SUFFIX,waymo.com,🔰 节点选择
- - DOMAIN-SUFFIX,webmproject.org,🔰 节点选择
- - DOMAIN-SUFFIX,webrtc.org,🔰 节点选择
- - DOMAIN-SUFFIX,whatbrowser.org,🔰 节点选择
- - DOMAIN-SUFFIX,widevine.com,🔰 节点选择
- - DOMAIN-SUFFIX,x.company,🔰 节点选择
- - DOMAIN-SUFFIX,youtu.be,🔰 节点选择
- - DOMAIN-SUFFIX,yt.be,🔰 节点选择
- - DOMAIN-SUFFIX,ytimg.com,🔰 节点选择
- - DOMAIN-SUFFIX,t.me,🔰 节点选择
- - DOMAIN-SUFFIX,tdesktop.com,🔰 节点选择
- - DOMAIN-SUFFIX,telegram.me,🔰 节点选择
- - DOMAIN-SUFFIX,telesco.pe,🔰 节点选择
- - DOMAIN-SUFFIX,facebook.br,🔰 节点选择
- - DOMAIN-SUFFIX,facebook.design,🔰 节点选择
- - DOMAIN-SUFFIX,facebook.hu,🔰 节点选择
- - DOMAIN-SUFFIX,facebook.in,🔰 节点选择
- - DOMAIN-SUFFIX,facebook.nl,🔰 节点选择
- - DOMAIN-SUFFIX,facebook.se,🔰 节点选择
- - DOMAIN-SUFFIX,facebookmail.com,🔰 节点选择
- - DOMAIN-SUFFIX,noxinfluencer.com,🔰 节点选择
- - DOMAIN-SUFFIX,smartmailcloud.com,🔰 节点选择
- - DOMAIN-SUFFIX,weebly.com,🔰 节点选择
- - DOMAIN-SUFFIX,twitter.jp,🔰 节点选择
- - DOMAIN-SUFFIX,appsto.re,🔰 节点选择
- - DOMAIN,books.itunes.apple.com,🔰 节点选择
- - DOMAIN,apps.apple.com,🔰 节点选择
- - DOMAIN,itunes.apple.com,🔰 节点选择
- - DOMAIN,api-glb-sea.smoot.apple.com,🔰 节点选择
- - DOMAIN,lookup-api.apple.com,🔰 节点选择
- - DOMAIN-SUFFIX,smoot.apple.com,🔰 节点选择
- - DOMAIN,beta.music.apple.com,🔰 节点选择
- - DOMAIN-SUFFIX,bing.com,🔰 节点选择
- - DOMAIN-SUFFIX,cccat.io,🔰 节点选择
- - DOMAIN-SUFFIX,dubox.com,🔰 节点选择
- - DOMAIN-SUFFIX,duboxcdn.com,🔰 节点选择
- - DOMAIN-SUFFIX,ifixit.com,🔰 节点选择
- - DOMAIN-SUFFIX,mangakakalot.com,🔰 节点选择
- - DOMAIN-SUFFIX,shopeemobile.com,🔰 节点选择
- - DOMAIN-KEYWORD,buy.itunes.apple.com,🔰 节点选择
- - DOMAIN-SUFFIX,cloudcone.com.cn,🔰 节点选择
- - DOMAIN-SUFFIX,inkbunny.net,🔰 节点选择
- - DOMAIN-SUFFIX,metapix.net,🔰 节点选择
- - DOMAIN-SUFFIX,s3.amazonaws.com,🔰 节点选择
- - DOMAIN-SUFFIX,zaobao.com.sg,🔰 节点选择
  - DOMAIN-SUFFIX,aaplimg.com,🍎 苹果服务
  - DOMAIN-SUFFIX,apple.co,🍎 苹果服务
  - DOMAIN-SUFFIX,apple.com,🍎 苹果服务
@@ -9975,6 +10351,14 @@ rules:
  - IP-CIDR,192.35.50.0/24,🍎 苹果服务,no-resolve
  - IP-CIDR,198.183.17.0/24,🍎 苹果服务,no-resolve
  - IP-CIDR,205.180.175.0/24,🍎 苹果服务,no-resolve
+ - DOMAIN,gspe1-ssl.ls.apple.com // 必要，但会导致「地图」使用「TOMTOM」版本数据,🍎 苹果服务
+ - PROCESS-NAME,News,🍎 苹果服务
+ - DOMAIN-SUFFIX,apple.news,🍎 苹果服务
+ - DOMAIN,news-assets.apple.com,🍎 苹果服务
+ - DOMAIN,news-client.apple.com,🍎 苹果服务
+ - DOMAIN,news-edge.apple.com,🍎 苹果服务
+ - DOMAIN,news-events.apple.com,🍎 苹果服务
+ - DOMAIN,apple.comscoreresearch.com,🍎 苹果服务
  - DOMAIN-SUFFIX,qhres.com,🎯 全球直连
  - DOMAIN-SUFFIX,qhimg.com,🎯 全球直连
  - DOMAIN-SUFFIX,alibaba.com,🎯 全球直连
@@ -10004,14 +10388,15 @@ rules:
  - DOMAIN-SUFFIX,icloud-content.com,🎯 全球直连
  - DOMAIN-SUFFIX,me.com,🎯 全球直连
  - DOMAIN-SUFFIX,mzstatic.com,🎯 全球直连
- - DOMAIN-KEYWORD,apple.com.akadns.net,🎯 全球直连
- - DOMAIN-KEYWORD,icloud.com.akadns.net,🎯 全球直连
  - DOMAIN-SUFFIX,baidu.com,🎯 全球直连
  - DOMAIN-SUFFIX,baidubcr.com,🎯 全球直连
  - DOMAIN-SUFFIX,baidupan.com,🎯 全球直连
  - DOMAIN-SUFFIX,baidupcs.com,🎯 全球直连
+ - DOMAIN-SUFFIX,bdimg.com,🎯 全球直连
  - DOMAIN-SUFFIX,bdstatic.com,🎯 全球直连
  - DOMAIN-SUFFIX,yunjiasu-cdn.net,🎯 全球直连
+ - DOMAIN-SUFFIX,battle.net,🎯 全球直连
+ - DOMAIN-SUFFIX,blizzard.com,🎯 全球直连
  - DOMAIN-SUFFIX,acgvideo.com,🎯 全球直连
  - DOMAIN-SUFFIX,biliapi.com,🎯 全球直连
  - DOMAIN-SUFFIX,biliapi.net,🎯 全球直连
@@ -10026,10 +10411,10 @@ rules:
  - DOMAIN-SUFFIX,cctv.com,🎯 全球直连
  - DOMAIN-SUFFIX,cctvpic.com,🎯 全球直连
  - DOMAIN-SUFFIX,livechina.com,🎯 全球直连
+ - DOMAIN-SUFFIX,21cn.com,🎯 全球直连
  - DOMAIN-SUFFIX,didialift.com,🎯 全球直连
  - DOMAIN-SUFFIX,didiglobal.com,🎯 全球直连
  - DOMAIN-SUFFIX,udache.com,🎯 全球直连
- - DOMAIN-SUFFIX,21cn.com,🎯 全球直连
  - DOMAIN-SUFFIX,hitv.com,🎯 全球直连
  - DOMAIN-SUFFIX,mgtv.com,🎯 全球直连
  - DOMAIN-SUFFIX,iqiyi.com,🎯 全球直连
@@ -10045,6 +10430,10 @@ rules:
  - DOMAIN-SUFFIX,meitudata.com,🎯 全球直连
  - DOMAIN-SUFFIX,meitustat.com,🎯 全球直连
  - DOMAIN-SUFFIX,meipai.com,🎯 全球直连
+ - DOMAIN-SUFFIX,dianping.com,🎯 全球直连
+ - DOMAIN-SUFFIX,dpfile.com,🎯 全球直连
+ - DOMAIN-SUFFIX,meituan.com,🎯 全球直连
+ - DOMAIN-SUFFIX,meituan.net,🎯 全球直连
  - DOMAIN-SUFFIX,duokan.com,🎯 全球直连
  - DOMAIN-SUFFIX,mi.com,🎯 全球直连
  - DOMAIN-SUFFIX,mi-img.com,🎯 全球直连
@@ -10052,15 +10441,17 @@ rules:
  - DOMAIN-SUFFIX,miwifi.com,🎯 全球直连
  - DOMAIN-SUFFIX,xiaomi.com,🎯 全球直连
  - DOMAIN-SUFFIX,xiaomi.net,🎯 全球直连
- - DOMAIN-SUFFIX,hotmail.com,🎯 全球直连
- - DOMAIN-SUFFIX,microsoft.com,🎯 全球直连
- - DOMAIN-SUFFIX,msecnd.net,🎯 全球直连
- - DOMAIN-SUFFIX,office365.com,🎯 全球直连
- - DOMAIN-SUFFIX,outlook.com,🎯 全球直连
- - DOMAIN-SUFFIX,s-microsoft.com,🎯 全球直连
  - DOMAIN-SUFFIX,visualstudio.com,🎯 全球直连
- - DOMAIN-SUFFIX,windows.com,🎯 全球直连
+ - DOMAIN-SUFFIX,hotmail.com,🎯 全球直连
+ - DOMAIN-SUFFIX,outlook.com,🎯 全球直连
+ - DOMAIN,outlook.office365.com,🎯 全球直连
+ - DOMAIN,smtp.office365.com,🎯 全球直连
+ - DOMAIN-SUFFIX,windowsupdate.microsoft.com,🎯 全球直连
+ - DOMAIN-SUFFIX,update.microsoft.com,🎯 全球直连
  - DOMAIN-SUFFIX,windowsupdate.com,🎯 全球直连
+ - DOMAIN,download.microsoft.com,🎯 全球直连
+ - DOMAIN,wustat.windows.com,🎯 全球直连
+ - DOMAIN,ntservicepack.microsoft.com,🎯 全球直连
  - DOMAIN-SUFFIX,163.com,🎯 全球直连
  - DOMAIN-SUFFIX,126.com,🎯 全球直连
  - DOMAIN-SUFFIX,126.net,🎯 全球直连
@@ -10110,9 +10501,11 @@ rules:
  - DOMAIN-SUFFIX,ip.sb,🎯 全球直连
  - DOMAIN-SUFFIX,ip-cdn.com,🎯 全球直连
  - DOMAIN-SUFFIX,ipv6-test.com,🎯 全球直连
+ - DOMAIN-SUFFIX,myip.la,🎯 全球直连
  - DOMAIN-SUFFIX,test-ipv6.com,🎯 全球直连
  - DOMAIN-SUFFIX,whatismyip.com,🎯 全球直连
  - DOMAIN,ip.istatmenus.app,🎯 全球直连
+ - DOMAIN,sms.imagetasks.com,🎯 全球直连
  - DOMAIN-SUFFIX,netspeedtestmaster.com,🎯 全球直连
  - DOMAIN,speedtest.macpaw.com,🎯 全球直连
  - DOMAIN-SUFFIX,acg.rip,🎯 全球直连
@@ -10147,20 +10540,6 @@ rules:
  - DOMAIN-SUFFIX,springsunday.net,🎯 全球直连
  - DOMAIN-SUFFIX,tjupt.org,🎯 全球直连
  - DOMAIN-SUFFIX,totheglory.im,🎯 全球直连
- - DOMAIN-SUFFIX,343480.com,🎯 全球直连
- - DOMAIN-SUFFIX,agefans.tv,🎯 全球直连
- - DOMAIN-SUFFIX,baduziyuan.com,🎯 全球直连
- - DOMAIN-SUFFIX,cdn9-okzy.com,🎯 全球直连
- - DOMAIN-SUFFIX,com-hs-hkdy.com,🎯 全球直连
- - DOMAIN-SUFFIX,czybjz.com,🎯 全球直连
- - DOMAIN-SUFFIX,dandanzan.com,🎯 全球直连
- - DOMAIN-SUFFIX,fjhps.com,🎯 全球直连
- - DOMAIN-SUFFIX,kuyunbo.club,🎯 全球直连
- - DOMAIN-SUFFIX,nfmovies.com,🎯 全球直连
- - DOMAIN-SUFFIX,okokbo.com,🎯 全球直连
- - DOMAIN-SUFFIX,sd-dykj.com,🎯 全球直连
- - DOMAIN-SUFFIX,yhdm.tv,🎯 全球直连
- - DOMAIN-SUFFIX,youkutv.cc,🎯 全球直连
  - DOMAIN-SUFFIX,cn,🎯 全球直连
  - DOMAIN-SUFFIX,115.com,🎯 全球直连
  - DOMAIN-SUFFIX,360in.com,🎯 全球直连
@@ -10169,6 +10548,7 @@ rules:
  - DOMAIN-SUFFIX,99.com,🎯 全球直连
  - DOMAIN-SUFFIX,abchina.com,🎯 全球直连
  - DOMAIN-SUFFIX,accuweather.com,🎯 全球直连
+ - DOMAIN-SUFFIX,agora.io,🎯 全球直连
  - DOMAIN-SUFFIX,aicoinstorge.com,🎯 全球直连
  - DOMAIN-SUFFIX,air-matters.com,🎯 全球直连
  - DOMAIN-SUFFIX,air-matters.io,🎯 全球直连
@@ -10177,7 +10557,6 @@ rules:
  - DOMAIN-SUFFIX,b612.net,🎯 全球直连
  - DOMAIN-SUFFIX,bdatu.com,🎯 全球直连
  - DOMAIN-SUFFIX,beitaichufang.com,🎯 全球直连
- - DOMAIN-SUFFIX,bjango.com,🎯 全球直连
  - DOMAIN-SUFFIX,booking.com,🎯 全球直连
  - DOMAIN-SUFFIX,bstatic.com,🎯 全球直连
  - DOMAIN-SUFFIX,cailianpress.com,🎯 全球直连
@@ -10189,8 +10568,10 @@ rules:
  - DOMAIN-SUFFIX,chunyu.mobi,🎯 全球直连
  - DOMAIN-SUFFIX,cmbchina.com,🎯 全球直连
  - DOMAIN-SUFFIX,cmbimg.com,🎯 全球直连
+ - DOMAIN-SUFFIX,coolapk.com,🎯 全球直连
  - DOMAIN-SUFFIX,ctrip.com,🎯 全球直连
  - DOMAIN-SUFFIX,dfcfw.com,🎯 全球直连
+ - DOMAIN-SUFFIX,dji.net,🎯 全球直连
  - DOMAIN-SUFFIX,docschina.org,🎯 全球直连
  - DOMAIN-SUFFIX,douban.com,🎯 全球直连
  - DOMAIN-SUFFIX,doubanio.com,🎯 全球直连
@@ -10230,20 +10611,19 @@ rules:
  - DOMAIN-SUFFIX,lanzous.com,🎯 全球直连
  - DOMAIN-SUFFIX,licdn.com,🎯 全球直连
  - DOMAIN-SUFFIX,linkedin.com,🎯 全球直连
- - DOMAIN-SUFFIX,loli.net,🎯 全球直连
  - DOMAIN-SUFFIX,luojilab.com,🎯 全球直连
  - DOMAIN-SUFFIX,maoyan.com,🎯 全球直连
  - DOMAIN-SUFFIX,maoyun.tv,🎯 全球直连
- - DOMAIN-SUFFIX,meituan.com,🎯 全球直连
- - DOMAIN-SUFFIX,meituan.net,🎯 全球直连
  - DOMAIN-SUFFIX,mls-cdn.com,🎯 全球直连
  - DOMAIN-SUFFIX,mobike.com,🎯 全球直连
  - DOMAIN-SUFFIX,moke.com,🎯 全球直连
  - DOMAIN-SUFFIX,mubu.com,🎯 全球直连
  - DOMAIN-SUFFIX,myzaker.com,🎯 全球直连
  - DOMAIN-SUFFIX,nim-lang-cn.org,🎯 全球直连
+ - DOMAIN-SUFFIX,ntp.org,🎯 全球直连
  - DOMAIN-SUFFIX,nvidia.com,🎯 全球直连
  - DOMAIN-SUFFIX,oracle.com,🎯 全球直连
+ - DOMAIN-SUFFIX,pcbeta.com,🎯 全球直连
  - DOMAIN-SUFFIX,plex.tv,🎯 全球直连
  - DOMAIN-SUFFIX,qdaily.com,🎯 全球直连
  - DOMAIN-SUFFIX,qidian.com,🎯 全球直连
@@ -10285,8 +10665,532 @@ rules:
  - DOMAIN-SUFFIX,zhuihd.com,🎯 全球直连
  - DOMAIN,download.jetbrains.com,🎯 全球直连
  - DOMAIN,images-cn.ssl-images-amazon.com,🎯 全球直连
- - IP-CIDR,119.28.28.28/32,🎯 全球直连,no-resolve
- - IP-CIDR,182.254.116.0/24,🎯 全球直连,no-resolve
+ - DOMAIN-SUFFIX,amazon.co.jp,🔰 节点选择
+ - DOMAIN,d3c33hcgiwev3.cloudfront.net,🔰 节点选择
+ - DOMAIN,payments-jp.amazon.com,🔰 节点选择
+ - DOMAIN,s3-ap-northeast-1.amazonaws.com,🔰 节点选择
+ - DOMAIN,s3-ap-southeast-2.amazonaws.com,🔰 节点选择
+ - DOMAIN,a248.e.akamai.net,🔰 节点选择
+ - DOMAIN,a771.dscq.akamai.net,🔰 节点选择
+ - DOMAIN,testflight.apple.com,🔰 节点选择
+ - DOMAIN-SUFFIX,aex.com,🔰 节点选择
+ - DOMAIN-SUFFIX,bibox.com,🔰 节点选择
+ - DOMAIN-SUFFIX,binance.com,🔰 节点选择
+ - DOMAIN-SUFFIX,bitcointalk.org,🔰 节点选择
+ - DOMAIN-SUFFIX,bitfinex.com,🔰 节点选择
+ - DOMAIN-SUFFIX,bitmex.com,🔰 节点选择
+ - DOMAIN-SUFFIX,gate.io,🔰 节点选择
+ - DOMAIN-SUFFIX,huobi.com,🔰 节点选择
+ - DOMAIN-SUFFIX,okex.com,🔰 节点选择
+ - DOMAIN-SUFFIX,zb.com,🔰 节点选择
+ - DOMAIN-SUFFIX,discordapp.com,🔰 节点选择
+ - DOMAIN-SUFFIX,discordapp.net,🔰 节点选择
+ - DOMAIN-SUFFIX,dropbox.com,🔰 节点选择
+ - DOMAIN-SUFFIX,dropboxapi.com,🔰 节点选择
+ - DOMAIN-SUFFIX,dropboxusercontent.com,🔰 节点选择
+ - DOMAIN-SUFFIX,cdninstagram.com,🔰 节点选择
+ - DOMAIN-SUFFIX,facebook.com,🔰 节点选择
+ - DOMAIN-SUFFIX,facebook.net,🔰 节点选择
+ - DOMAIN-SUFFIX,fb.com,🔰 节点选择
+ - DOMAIN-SUFFIX,fb.me,🔰 节点选择
+ - DOMAIN-SUFFIX,fbaddins.com,🔰 节点选择
+ - DOMAIN-SUFFIX,fbcdn.net,🔰 节点选择
+ - DOMAIN-SUFFIX,fbsbx.com,🔰 节点选择
+ - DOMAIN-SUFFIX,fbworkmail.com,🔰 节点选择
+ - DOMAIN-SUFFIX,instagram.com,🔰 节点选择
+ - DOMAIN-SUFFIX,m.me,🔰 节点选择
+ - DOMAIN-SUFFIX,messenger.com,🔰 节点选择
+ - DOMAIN-SUFFIX,oculus.com,🔰 节点选择
+ - DOMAIN-SUFFIX,oculuscdn.com,🔰 节点选择
+ - DOMAIN-SUFFIX,rocksdb.org,🔰 节点选择
+ - DOMAIN-SUFFIX,whatsapp.com,🔰 节点选择
+ - DOMAIN-SUFFIX,whatsapp.net,🔰 节点选择
+ - DOMAIN-SUFFIX,github.com,🔰 节点选择
+ - DOMAIN-SUFFIX,github.io,🔰 节点选择
+ - DOMAIN-SUFFIX,githubusercontent.com,🔰 节点选择
+ - DOMAIN-SUFFIX,appspot.com,🔰 节点选择
+ - DOMAIN-SUFFIX,blogger.com,🔰 节点选择
+ - DOMAIN-SUFFIX,getoutline.org,🔰 节点选择
+ - DOMAIN-SUFFIX,gvt0.com,🔰 节点选择
+ - DOMAIN-SUFFIX,gvt3.com,🔰 节点选择
+ - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🔰 节点选择
+ - DOMAIN-SUFFIX,ytimg.com,🔰 节点选择
+ - DOMAIN-KEYWORD,google,🔰 节点选择
+ - DOMAIN-KEYWORD,.blogspot.,🔰 节点选择
+ - DOMAIN-SUFFIX,line.me,🔰 节点选择
+ - DOMAIN-SUFFIX,line-apps.com,🔰 节点选择
+ - DOMAIN-SUFFIX,line-scdn.net,🔰 节点选择
+ - DOMAIN-SUFFIX,naver.jp,🔰 节点选择
+ - IP-CIDR,103.2.30.0/23,🔰 节点选择,no-resolve
+ - IP-CIDR,125.209.208.0/20,🔰 节点选择,no-resolve
+ - IP-CIDR,147.92.128.0/17,🔰 节点选择,no-resolve
+ - IP-CIDR,203.104.144.0/21,🔰 节点选择,no-resolve
+ - DOMAIN-SUFFIX,aka.ms,🔰 节点选择
+ - DOMAIN-SUFFIX,onedrive.live.com,🔰 节点选择
+ - DOMAIN-SUFFIX,streaming.mediaservices.windows.net,🔰 节点选择
+ - DOMAIN,assets1.xboxlive.com,🔰 节点选择
+ - DOMAIN,assets2.xboxlive.com,🔰 节点选择
+ - DOMAIN,az416426.vo.msecnd.net,🔰 节点选择
+ - DOMAIN,az668014.vo.msecnd.net,🔰 节点选择
+ - DOMAIN-SUFFIX,nyt.com,🔰 节点选择
+ - DOMAIN-SUFFIX,nytchina.com,🔰 节点选择
+ - DOMAIN-SUFFIX,nytcn.me,🔰 节点选择
+ - DOMAIN-SUFFIX,nytco.com,🔰 节点选择
+ - DOMAIN-SUFFIX,nytimes.com,🔰 节点选择
+ - DOMAIN-SUFFIX,nytimg.com,🔰 节点选择
+ - DOMAIN-SUFFIX,nytlog.com,🔰 节点选择
+ - DOMAIN-SUFFIX,nytstyle.com,🔰 节点选择
+ - DOMAIN-SUFFIX,pixiv.net,🔰 节点选择
+ - DOMAIN-SUFFIX,pixiv.org,🔰 节点选择
+ - DOMAIN-SUFFIX,pximg.net,🔰 节点选择
+ - DOMAIN-SUFFIX,redd.it,🔰 节点选择
+ - DOMAIN-SUFFIX,reddit.com,🔰 节点选择
+ - DOMAIN-SUFFIX,redditmedia.com,🔰 节点选择
+ - DOMAIN-SUFFIX,telegra.ph,🔰 节点选择
+ - DOMAIN-SUFFIX,telegram.org,🔰 节点选择
+ - IP-CIDR,91.108.4.0/22,🔰 节点选择,no-resolve
+ - IP-CIDR,91.108.8.0/22,🔰 节点选择,no-resolve
+ - IP-CIDR,91.108.12.0/22,🔰 节点选择,no-resolve
+ - IP-CIDR,91.108.16.0/22,🔰 节点选择,no-resolve
+ - IP-CIDR,91.108.20.0/22,🔰 节点选择,no-resolve
+ - IP-CIDR,91.108.56.0/22,🔰 节点选择,no-resolve
+ - IP-CIDR,149.154.160.0/20,🔰 节点选择,no-resolve
+ - IP-CIDR6,2001:b28:f23d::/48,🔰 节点选择,no-resolve
+ - IP-CIDR6,2001:b28:f23f::/48,🔰 节点选择,no-resolve
+ - IP-CIDR6,2001:67c:4e8::/48,🔰 节点选择,no-resolve
+ - DOMAIN-SUFFIX,pscp.tv,🔰 节点选择
+ - DOMAIN-SUFFIX,periscope.tv,🔰 节点选择
+ - DOMAIN-SUFFIX,t.co,🔰 节点选择
+ - DOMAIN-SUFFIX,twimg.co,🔰 节点选择
+ - DOMAIN-SUFFIX,twimg.com,🔰 节点选择
+ - DOMAIN-SUFFIX,twitpic.com,🔰 节点选择
+ - DOMAIN-SUFFIX,twitter.com,🔰 节点选择
+ - DOMAIN-SUFFIX,vine.co,🔰 节点选择
+ - DOMAIN-SUFFIX,wikileaks.org,🔰 节点选择
+ - DOMAIN-SUFFIX,wikimapia.org,🔰 节点选择
+ - DOMAIN-SUFFIX,wikimedia.org,🔰 节点选择
+ - DOMAIN-SUFFIX,wikinews.org,🔰 节点选择
+ - DOMAIN-SUFFIX,wikipedia.org,🔰 节点选择
+ - DOMAIN-SUFFIX,wikiquote.org,🔰 节点选择
+ - DOMAIN-SUFFIX,4shared.com,🔰 节点选择
+ - DOMAIN-SUFFIX,9cache.com,🔰 节点选择
+ - DOMAIN-SUFFIX,9gag.com,🔰 节点选择
+ - DOMAIN-SUFFIX,abc.com,🔰 节点选择
+ - DOMAIN-SUFFIX,abc.net.au,🔰 节点选择
+ - DOMAIN-SUFFIX,abebooks.com,🔰 节点选择
+ - DOMAIN-SUFFIX,ao3.org,🔰 节点选择
+ - DOMAIN-SUFFIX,apigee.com,🔰 节点选择
+ - DOMAIN-SUFFIX,apkcombo.com,🔰 节点选择
+ - DOMAIN-SUFFIX,apk-dl.com,🔰 节点选择
+ - DOMAIN-SUFFIX,apkfind.com,🔰 节点选择
+ - DOMAIN-SUFFIX,apkmirror.com,🔰 节点选择
+ - DOMAIN-SUFFIX,apkmonk.com,🔰 节点选择
+ - DOMAIN-SUFFIX,apkpure.com,🔰 节点选择
+ - DOMAIN-SUFFIX,aptoide.com,🔰 节点选择
+ - DOMAIN-SUFFIX,archive.is,🔰 节点选择
+ - DOMAIN-SUFFIX,archive.org,🔰 节点选择
+ - DOMAIN-SUFFIX,archiveofourown.com,🔰 节点选择
+ - DOMAIN-SUFFIX,archiveofourown.org,🔰 节点选择
+ - DOMAIN-SUFFIX,arte.tv,🔰 节点选择
+ - DOMAIN-SUFFIX,artstation.com,🔰 节点选择
+ - DOMAIN-SUFFIX,arukas.io,🔰 节点选择
+ - DOMAIN-SUFFIX,ask.com,🔰 节点选择
+ - DOMAIN-SUFFIX,avg.com,🔰 节点选择
+ - DOMAIN-SUFFIX,avgle.com,🔰 节点选择
+ - DOMAIN-SUFFIX,badoo.com,🔰 节点选择
+ - DOMAIN-SUFFIX,bandcamp.com,🔰 节点选择
+ - DOMAIN-SUFFIX,bandwagonhost.com,🔰 节点选择
+ - DOMAIN-SUFFIX,bangkokpost.com,🔰 节点选择
+ - DOMAIN-SUFFIX,bbc.com,🔰 节点选择
+ - DOMAIN-SUFFIX,behance.net,🔰 节点选择
+ - DOMAIN-SUFFIX,biggo.com.tw,🔰 节点选择
+ - DOMAIN-SUFFIX,bit.ly,🔰 节点选择
+ - DOMAIN-SUFFIX,bloglovin.com,🔰 节点选择
+ - DOMAIN-SUFFIX,bloomberg.cn,🔰 节点选择
+ - DOMAIN-SUFFIX,bloomberg.com,🔰 节点选择
+ - DOMAIN-SUFFIX,blubrry.com,🔰 节点选择
+ - DOMAIN-SUFFIX,book.com.tw,🔰 节点选择
+ - DOMAIN-SUFFIX,booklive.jp,🔰 节点选择
+ - DOMAIN-SUFFIX,books.com.tw,🔰 节点选择
+ - DOMAIN-SUFFIX,boslife.net,🔰 节点选择
+ - DOMAIN-SUFFIX,box.com,🔰 节点选择
+ - DOMAIN-SUFFIX,brave.com,🔰 节点选择
+ - DOMAIN-SUFFIX,businessinsider.com,🔰 节点选择
+ - DOMAIN-SUFFIX,buzzfeed.com,🔰 节点选择
+ - DOMAIN-SUFFIX,bwh1.net,🔰 节点选择
+ - DOMAIN-SUFFIX,castbox.fm,🔰 节点选择
+ - DOMAIN-SUFFIX,cbc.ca,🔰 节点选择
+ - DOMAIN-SUFFIX,cdw.com,🔰 节点选择
+ - DOMAIN-SUFFIX,change.org,🔰 节点选择
+ - DOMAIN-SUFFIX,channelnewsasia.com,🔰 节点选择
+ - DOMAIN-SUFFIX,ck101.com,🔰 节点选择
+ - DOMAIN-SUFFIX,clarionproject.org,🔰 节点选择
+ - DOMAIN-SUFFIX,cloudcone.com,🔰 节点选择
+ - DOMAIN-SUFFIX,clubhouseapi.com,🔰 节点选择
+ - DOMAIN-SUFFIX,clyp.it,🔰 节点选择
+ - DOMAIN-SUFFIX,cna.com.tw,🔰 节点选择
+ - DOMAIN-SUFFIX,comparitech.com,🔰 节点选择
+ - DOMAIN-SUFFIX,conoha.jp,🔰 节点选择
+ - DOMAIN-SUFFIX,crucial.com,🔰 节点选择
+ - DOMAIN-SUFFIX,cts.com.tw,🔰 节点选择
+ - DOMAIN-SUFFIX,cw.com.tw,🔰 节点选择
+ - DOMAIN-SUFFIX,cyberctm.com,🔰 节点选择
+ - DOMAIN-SUFFIX,dailymotion.com,🔰 节点选择
+ - DOMAIN-SUFFIX,dailyview.tw,🔰 节点选择
+ - DOMAIN-SUFFIX,daum.net,🔰 节点选择
+ - DOMAIN-SUFFIX,daumcdn.net,🔰 节点选择
+ - DOMAIN-SUFFIX,dcard.tw,🔰 节点选择
+ - DOMAIN-SUFFIX,deadline.com,🔰 节点选择
+ - DOMAIN-SUFFIX,deepdiscount.com,🔰 节点选择
+ - DOMAIN-SUFFIX,depositphotos.com,🔰 节点选择
+ - DOMAIN-SUFFIX,deviantart.com,🔰 节点选择
+ - DOMAIN-SUFFIX,disconnect.me,🔰 节点选择
+ - DOMAIN-SUFFIX,disqus.com,🔰 节点选择
+ - DOMAIN-SUFFIX,dlercloud.com,🔰 节点选择
+ - DOMAIN-SUFFIX,dmhy.org,🔰 节点选择
+ - DOMAIN-SUFFIX,dns2go.com,🔰 节点选择
+ - DOMAIN-SUFFIX,dowjones.com,🔰 节点选择
+ - DOMAIN-SUFFIX,duckduckgo.com,🔰 节点选择
+ - DOMAIN-SUFFIX,duyaoss.com,🔰 节点选择
+ - DOMAIN-SUFFIX,dw.com,🔰 节点选择
+ - DOMAIN-SUFFIX,dynu.com,🔰 节点选择
+ - DOMAIN-SUFFIX,earthcam.com,🔰 节点选择
+ - DOMAIN-SUFFIX,ebookservice.tw,🔰 节点选择
+ - DOMAIN-SUFFIX,economist.com,🔰 节点选择
+ - DOMAIN-SUFFIX,edgecastcdn.net,🔰 节点选择
+ - DOMAIN-SUFFIX,edx-cdn.org,🔰 节点选择
+ - DOMAIN-SUFFIX,elpais.com,🔰 节点选择
+ - DOMAIN-SUFFIX,enanyang.my,🔰 节点选择
+ - DOMAIN-SUFFIX,encyclopedia.com,🔰 节点选择
+ - DOMAIN-SUFFIX,esoir.be,🔰 节点选择
+ - DOMAIN-SUFFIX,etherscan.io,🔰 节点选择
+ - DOMAIN-SUFFIX,euronews.com,🔰 节点选择
+ - DOMAIN-SUFFIX,evozi.com,🔰 节点选择
+ - DOMAIN-SUFFIX,exblog.jp,🔰 节点选择
+ - DOMAIN-SUFFIX,feeder.co,🔰 节点选择
+ - DOMAIN-SUFFIX,feedly.com,🔰 节点选择
+ - DOMAIN-SUFFIX,feedx.net,🔰 节点选择
+ - DOMAIN-SUFFIX,firech.at,🔰 节点选择
+ - DOMAIN-SUFFIX,flickr.com,🔰 节点选择
+ - DOMAIN-SUFFIX,flipboard.com,🔰 节点选择
+ - DOMAIN-SUFFIX,flitto.com,🔰 节点选择
+ - DOMAIN-SUFFIX,foreignpolicy.com,🔰 节点选择
+ - DOMAIN-SUFFIX,fortawesome.com,🔰 节点选择
+ - DOMAIN-SUFFIX,freetls.fastly.net,🔰 节点选择
+ - DOMAIN-SUFFIX,friday.tw,🔰 节点选择
+ - DOMAIN-SUFFIX,ft.com,🔰 节点选择
+ - DOMAIN-SUFFIX,ftchinese.com,🔰 节点选择
+ - DOMAIN-SUFFIX,ftimg.net,🔰 节点选择
+ - DOMAIN-SUFFIX,genius.com,🔰 节点选择
+ - DOMAIN-SUFFIX,getlantern.org,🔰 节点选择
+ - DOMAIN-SUFFIX,getsync.com,🔰 节点选择
+ - DOMAIN-SUFFIX,globalvoices.org,🔰 节点选择
+ - DOMAIN-SUFFIX,goo.ne.jp,🔰 节点选择
+ - DOMAIN-SUFFIX,goodreads.com,🔰 节点选择
+ - DOMAIN-SUFFIX,gov.tw,🔰 节点选择
+ - DOMAIN-SUFFIX,gravatar.com,🔰 节点选择
+ - DOMAIN-SUFFIX,greatfire.org,🔰 节点选择
+ - DOMAIN-SUFFIX,gumroad.com,🔰 节点选择
+ - DOMAIN-SUFFIX,heroku.com,🔰 节点选择
+ - DOMAIN-SUFFIX,hightail.com,🔰 节点选择
+ - DOMAIN-SUFFIX,hk01.com,🔰 节点选择
+ - DOMAIN-SUFFIX,hkbf.org,🔰 节点选择
+ - DOMAIN-SUFFIX,hkbookcity.com,🔰 节点选择
+ - DOMAIN-SUFFIX,hkej.com,🔰 节点选择
+ - DOMAIN-SUFFIX,hket.com,🔰 节点选择
+ - DOMAIN-SUFFIX,hootsuite.com,🔰 节点选择
+ - DOMAIN-SUFFIX,hudson.org,🔰 节点选择
+ - DOMAIN-SUFFIX,huffpost.com,🔰 节点选择
+ - DOMAIN-SUFFIX,hyread.com.tw,🔰 节点选择
+ - DOMAIN-SUFFIX,ibtimes.com,🔰 节点选择
+ - DOMAIN-SUFFIX,i-cable.com,🔰 节点选择
+ - DOMAIN-SUFFIX,icij.org,🔰 节点选择
+ - DOMAIN-SUFFIX,icoco.com,🔰 节点选择
+ - DOMAIN-SUFFIX,imgur.com,🔰 节点选择
+ - DOMAIN-SUFFIX,independent.co.uk,🔰 节点选择
+ - DOMAIN-SUFFIX,initiummall.com,🔰 节点选择
+ - DOMAIN-SUFFIX,inoreader.com,🔰 节点选择
+ - DOMAIN-SUFFIX,insecam.org,🔰 节点选择
+ - DOMAIN-SUFFIX,ipfs.io,🔰 节点选择
+ - DOMAIN-SUFFIX,issuu.com,🔰 节点选择
+ - DOMAIN-SUFFIX,istockphoto.com,🔰 节点选择
+ - DOMAIN-SUFFIX,japantimes.co.jp,🔰 节点选择
+ - DOMAIN-SUFFIX,jiji.com,🔰 节点选择
+ - DOMAIN-SUFFIX,jinx.com,🔰 节点选择
+ - DOMAIN-SUFFIX,jkforum.net,🔰 节点选择
+ - DOMAIN-SUFFIX,joinclubhouse.com,🔰 节点选择
+ - DOMAIN-SUFFIX,joinmastodon.org,🔰 节点选择
+ - DOMAIN-SUFFIX,justmysocks.net,🔰 节点选择
+ - DOMAIN-SUFFIX,justpaste.it,🔰 节点选择
+ - DOMAIN-SUFFIX,kadokawa.co.jp,🔰 节点选择
+ - DOMAIN-SUFFIX,kakao.com,🔰 节点选择
+ - DOMAIN-SUFFIX,kakaocorp.com,🔰 节点选择
+ - DOMAIN-SUFFIX,kik.com,🔰 节点选择
+ - DOMAIN-SUFFIX,kingkong.com.tw,🔰 节点选择
+ - DOMAIN-SUFFIX,knowyourmeme.com,🔰 节点选择
+ - DOMAIN-SUFFIX,kobo.com,🔰 节点选择
+ - DOMAIN-SUFFIX,kobobooks.com,🔰 节点选择
+ - DOMAIN-SUFFIX,kodingen.com,🔰 节点选择
+ - DOMAIN-SUFFIX,lemonde.fr,🔰 节点选择
+ - DOMAIN-SUFFIX,lepoint.fr,🔰 节点选择
+ - DOMAIN-SUFFIX,lihkg.com,🔰 节点选择
+ - DOMAIN-SUFFIX,limbopro.xyz,🔰 节点选择
+ - DOMAIN-SUFFIX,listennotes.com,🔰 节点选择
+ - DOMAIN-SUFFIX,livestream.com,🔰 节点选择
+ - DOMAIN-SUFFIX,logimg.jp,🔰 节点选择
+ - DOMAIN-SUFFIX,logmein.com,🔰 节点选择
+ - DOMAIN-SUFFIX,mail.ru,🔰 节点选择
+ - DOMAIN-SUFFIX,mailchimp.com,🔰 节点选择
+ - DOMAIN-SUFFIX,marc.info,🔰 节点选择
+ - DOMAIN-SUFFIX,matters.news,🔰 节点选择
+ - DOMAIN-SUFFIX,maying.co,🔰 节点选择
+ - DOMAIN-SUFFIX,medium.com,🔰 节点选择
+ - DOMAIN-SUFFIX,mega.nz,🔰 节点选择
+ - DOMAIN-SUFFIX,mergersandinquisitions.com,🔰 节点选择
+ - DOMAIN-SUFFIX,mingpao.com,🔰 节点选择
+ - DOMAIN-SUFFIX,mixi.jp,🔰 节点选择
+ - DOMAIN-SUFFIX,mobile01.com,🔰 节点选择
+ - DOMAIN-SUFFIX,mubi.com,🔰 节点选择
+ - DOMAIN-SUFFIX,myspace.com,🔰 节点选择
+ - DOMAIN-SUFFIX,myspacecdn.com,🔰 节点选择
+ - DOMAIN-SUFFIX,nanyang.com,🔰 节点选择
+ - DOMAIN-SUFFIX,nationalinterest.org,🔰 节点选择
+ - DOMAIN-SUFFIX,naver.com,🔰 节点选择
+ - DOMAIN-SUFFIX,nbcnews.com,🔰 节点选择
+ - DOMAIN-SUFFIX,ndr.de,🔰 节点选择
+ - DOMAIN-SUFFIX,neowin.net,🔰 节点选择
+ - DOMAIN-SUFFIX,newstapa.org,🔰 节点选择
+ - DOMAIN-SUFFIX,nexitally.com,🔰 节点选择
+ - DOMAIN-SUFFIX,nhk.or.jp,🔰 节点选择
+ - DOMAIN-SUFFIX,nii.ac.jp,🔰 节点选择
+ - DOMAIN-SUFFIX,nikkei.com,🔰 节点选择
+ - DOMAIN-SUFFIX,nitter.net,🔰 节点选择
+ - DOMAIN-SUFFIX,nofile.io,🔰 节点选择
+ - DOMAIN-SUFFIX,notion.so,🔰 节点选择
+ - DOMAIN-SUFFIX,now.com,🔰 节点选择
+ - DOMAIN-SUFFIX,nrk.no,🔰 节点选择
+ - DOMAIN-SUFFIX,nuget.org,🔰 节点选择
+ - DOMAIN-SUFFIX,nyaa.si,🔰 节点选择
+ - DOMAIN-SUFFIX,ok.ru,🔰 节点选择
+ - DOMAIN-SUFFIX,on.cc,🔰 节点选择
+ - DOMAIN-SUFFIX,orientaldaily.com.my,🔰 节点选择
+ - DOMAIN-SUFFIX,overcast.fm,🔰 节点选择
+ - DOMAIN-SUFFIX,paltalk.com,🔰 节点选择
+ - DOMAIN-SUFFIX,parsevideo.com,🔰 节点选择
+ - DOMAIN-SUFFIX,pawoo.net,🔰 节点选择
+ - DOMAIN-SUFFIX,pbxes.com,🔰 节点选择
+ - DOMAIN-SUFFIX,pcdvd.com.tw,🔰 节点选择
+ - DOMAIN-SUFFIX,pchome.com.tw,🔰 节点选择
+ - DOMAIN-SUFFIX,pcloud.com,🔰 节点选择
+ - DOMAIN-SUFFIX,peing.net,🔰 节点选择
+ - DOMAIN-SUFFIX,picacomic.com,🔰 节点选择
+ - DOMAIN-SUFFIX,pinimg.com,🔰 节点选择
+ - DOMAIN-SUFFIX,player.fm,🔰 节点选择
+ - DOMAIN-SUFFIX,plurk.com,🔰 节点选择
+ - DOMAIN-SUFFIX,po18.tw,🔰 节点选择
+ - DOMAIN-SUFFIX,potato.im,🔰 节点选择
+ - DOMAIN-SUFFIX,potatso.com,🔰 节点选择
+ - DOMAIN-SUFFIX,prism-break.org,🔰 节点选择
+ - DOMAIN-SUFFIX,proxifier.com,🔰 节点选择
+ - DOMAIN-SUFFIX,pt.im,🔰 节点选择
+ - DOMAIN-SUFFIX,pts.org.tw,🔰 节点选择
+ - DOMAIN-SUFFIX,pubu.com.tw,🔰 节点选择
+ - DOMAIN-SUFFIX,pubu.tw,🔰 节点选择
+ - DOMAIN-SUFFIX,pureapk.com,🔰 节点选择
+ - DOMAIN-SUFFIX,quora.com,🔰 节点选择
+ - DOMAIN-SUFFIX,quoracdn.net,🔰 节点选择
+ - DOMAIN-SUFFIX,qz.com,🔰 节点选择
+ - DOMAIN-SUFFIX,radio.garden,🔰 节点选择
+ - DOMAIN-SUFFIX,rakuten.co.jp,🔰 节点选择
+ - DOMAIN-SUFFIX,rarbgprx.org,🔰 节点选择
+ - DOMAIN-SUFFIX,reabble.com,🔰 节点选择
+ - DOMAIN-SUFFIX,readingtimes.com.tw,🔰 节点选择
+ - DOMAIN-SUFFIX,readmoo.com,🔰 节点选择
+ - DOMAIN-SUFFIX,redbubble.com,🔰 节点选择
+ - DOMAIN-SUFFIX,resilio.com,🔰 节点选择
+ - DOMAIN-SUFFIX,reuters.com,🔰 节点选择
+ - DOMAIN-SUFFIX,reutersmedia.net,🔰 节点选择
+ - DOMAIN-SUFFIX,rfi.fr,🔰 节点选择
+ - DOMAIN-SUFFIX,roadshow.hk,🔰 节点选择
+ - DOMAIN-SUFFIX,rsshub.app,🔰 节点选择
+ - DOMAIN-SUFFIX,scmp.com,🔰 节点选择
+ - DOMAIN-SUFFIX,scribd.com,🔰 节点选择
+ - DOMAIN-SUFFIX,seatguru.com,🔰 节点选择
+ - DOMAIN-SUFFIX,shadowsocks.org,🔰 节点选择
+ - DOMAIN-SUFFIX,shindanmaker.com,🔰 节点选择
+ - DOMAIN-SUFFIX,shopee.tw,🔰 节点选择
+ - DOMAIN-SUFFIX,signal.org,🔰 节点选择
+ - DOMAIN-SUFFIX,sina.com.hk,🔰 节点选择
+ - DOMAIN-SUFFIX,slideshare.net,🔰 节点选择
+ - DOMAIN-SUFFIX,softfamous.com,🔰 节点选择
+ - DOMAIN-SUFFIX,spiegel.de,🔰 节点选择
+ - DOMAIN-SUFFIX,startpage.com,🔰 节点选择
+ - DOMAIN-SUFFIX,steamcommunity.com,🔰 节点选择
+ - DOMAIN-SUFFIX,steemit.com,🔰 节点选择
+ - DOMAIN-SUFFIX,steemitwallet.com,🔰 节点选择
+ - DOMAIN-SUFFIX,straitstimes.com,🔰 节点选择
+ - DOMAIN-SUFFIX,streamable.com,🔰 节点选择
+ - DOMAIN-SUFFIX,streema.com,🔰 节点选择
+ - DOMAIN-SUFFIX,t66y.com,🔰 节点选择
+ - DOMAIN-SUFFIX,tapatalk.com,🔰 节点选择
+ - DOMAIN-SUFFIX,teco-hk.org,🔰 节点选择
+ - DOMAIN-SUFFIX,teco-mo.org,🔰 节点选择
+ - DOMAIN-SUFFIX,teddysun.com,🔰 节点选择
+ - DOMAIN-SUFFIX,textnow.me,🔰 节点选择
+ - DOMAIN-SUFFIX,theguardian.com,🔰 节点选择
+ - DOMAIN-SUFFIX,theinitium.com,🔰 节点选择
+ - DOMAIN-SUFFIX,themoviedb.org,🔰 节点选择
+ - DOMAIN-SUFFIX,thetvdb.com,🔰 节点选择
+ - DOMAIN-SUFFIX,time.com,🔰 节点选择
+ - DOMAIN-SUFFIX,tineye.com,🔰 节点选择
+ - DOMAIN-SUFFIX,tiny.cc,🔰 节点选择
+ - DOMAIN-SUFFIX,tinyurl.com,🔰 节点选择
+ - DOMAIN-SUFFIX,torproject.org,🔰 节点选择
+ - DOMAIN-SUFFIX,tumblr.com,🔰 节点选择
+ - DOMAIN-SUFFIX,turbobit.net,🔰 节点选择
+ - DOMAIN-SUFFIX,tutanota.com,🔰 节点选择
+ - DOMAIN-SUFFIX,tvboxnow.com,🔰 节点选择
+ - DOMAIN-SUFFIX,udn.com,🔰 节点选择
+ - DOMAIN-SUFFIX,unseen.is,🔰 节点选择
+ - DOMAIN-SUFFIX,upmedia.mg,🔰 节点选择
+ - DOMAIN-SUFFIX,uptodown.com,🔰 节点选择
+ - DOMAIN-SUFFIX,urbandictionary.com,🔰 节点选择
+ - DOMAIN-SUFFIX,ustream.tv,🔰 节点选择
+ - DOMAIN-SUFFIX,uwants.com,🔰 节点选择
+ - DOMAIN-SUFFIX,v2fly.org,🔰 节点选择
+ - DOMAIN-SUFFIX,v2ray.com,🔰 节点选择
+ - DOMAIN-SUFFIX,viber.com,🔰 节点选择
+ - DOMAIN-SUFFIX,videopress.com,🔰 节点选择
+ - DOMAIN-SUFFIX,vimeo.com,🔰 节点选择
+ - DOMAIN-SUFFIX,voachinese.com,🔰 节点选择
+ - DOMAIN-SUFFIX,voanews.com,🔰 节点选择
+ - DOMAIN-SUFFIX,voxer.com,🔰 节点选择
+ - DOMAIN-SUFFIX,vzw.com,🔰 节点选择
+ - DOMAIN-SUFFIX,w3schools.com,🔰 节点选择
+ - DOMAIN-SUFFIX,washingtonpost.com,🔰 节点选择
+ - DOMAIN-SUFFIX,wattpad.com,🔰 节点选择
+ - DOMAIN-SUFFIX,whoer.net,🔰 节点选择
+ - DOMAIN-SUFFIX,wikiwand.com,🔰 节点选择
+ - DOMAIN-SUFFIX,winudf.com,🔰 节点选择
+ - DOMAIN-SUFFIX,wire.com,🔰 节点选择
+ - DOMAIN-SUFFIX,wn.com,🔰 节点选择
+ - DOMAIN-SUFFIX,wordpress.com,🔰 节点选择
+ - DOMAIN-SUFFIX,worldcat.org,🔰 节点选择
+ - DOMAIN-SUFFIX,wsj.com,🔰 节点选择
+ - DOMAIN-SUFFIX,wsj.net,🔰 节点选择
+ - DOMAIN-SUFFIX,xhamster.com,🔰 节点选择
+ - DOMAIN-SUFFIX,xn--90wwvt03e.com,🔰 节点选择
+ - DOMAIN-SUFFIX,xn--i2ru8q2qg.com,🔰 节点选择
+ - DOMAIN-SUFFIX,xnxx.com,🔰 节点选择
+ - DOMAIN-SUFFIX,xvideos.com,🔰 节点选择
+ - DOMAIN-SUFFIX,yahoo.com,🔰 节点选择
+ - DOMAIN-SUFFIX,yandex.ru,🔰 节点选择
+ - DOMAIN-SUFFIX,ycombinator.com,🔰 节点选择
+ - DOMAIN-SUFFIX,yesasia.com,🔰 节点选择
+ - DOMAIN-SUFFIX,yes-news.com,🔰 节点选择
+ - DOMAIN-SUFFIX,yomiuri.co.jp,🔰 节点选择
+ - DOMAIN-SUFFIX,you-get.org,🔰 节点选择
+ - DOMAIN-SUFFIX,zaobao.com,🔰 节点选择
+ - DOMAIN-SUFFIX,zello.com,🔰 节点选择
+ - DOMAIN-SUFFIX,zeronet.io,🔰 节点选择
+ - DOMAIN-SUFFIX,zoom.us,🔰 节点选择
+ - DOMAIN,cc.tvbs.com.tw,🔰 节点选择
+ - DOMAIN,ocsp.int-x3.letsencrypt.org,🔰 节点选择
+ - DOMAIN,search.avira.com,🔰 节点选择
+ - DOMAIN,us.weibo.com,🔰 节点选择
+ - DOMAIN-KEYWORD,.pinterest.,🔰 节点选择
+ - DOMAIN-SUFFIX,edu,🔰 节点选择
+ - DOMAIN-SUFFIX,gov,🔰 节点选择
+ - DOMAIN-SUFFIX,mil,🔰 节点选择
+ - DOMAIN-SUFFIX,abc.xyz,🔰 节点选择
+ - DOMAIN-SUFFIX,advertisercommunity.com,🔰 节点选择
+ - DOMAIN-SUFFIX,ampproject.org,🔰 节点选择
+ - DOMAIN-SUFFIX,android.com,🔰 节点选择
+ - DOMAIN-SUFFIX,androidify.com,🔰 节点选择
+ - DOMAIN-SUFFIX,autodraw.com,🔰 节点选择
+ - DOMAIN-SUFFIX,capitalg.com,🔰 节点选择
+ - DOMAIN-SUFFIX,certificate-transparency.org,🔰 节点选择
+ - DOMAIN-SUFFIX,chrome.com,🔰 节点选择
+ - DOMAIN-SUFFIX,chromeexperiments.com,🔰 节点选择
+ - DOMAIN-SUFFIX,chromestatus.com,🔰 节点选择
+ - DOMAIN-SUFFIX,chromium.org,🔰 节点选择
+ - DOMAIN-SUFFIX,creativelab5.com,🔰 节点选择
+ - DOMAIN-SUFFIX,debug.com,🔰 节点选择
+ - DOMAIN-SUFFIX,deepmind.com,🔰 节点选择
+ - DOMAIN-SUFFIX,dialogflow.com,🔰 节点选择
+ - DOMAIN-SUFFIX,firebaseio.com,🔰 节点选择
+ - DOMAIN-SUFFIX,getmdl.io,🔰 节点选择
+ - DOMAIN-SUFFIX,ggpht.com,🔰 节点选择
+ - DOMAIN-SUFFIX,gmail.com,🔰 节点选择
+ - DOMAIN-SUFFIX,gmodules.com,🔰 节点选择
+ - DOMAIN-SUFFIX,godoc.org,🔰 节点选择
+ - DOMAIN-SUFFIX,golang.org,🔰 节点选择
+ - DOMAIN-SUFFIX,gstatic.com,🔰 节点选择
+ - DOMAIN-SUFFIX,gv.com,🔰 节点选择
+ - DOMAIN-SUFFIX,gwtproject.org,🔰 节点选择
+ - DOMAIN-SUFFIX,itasoftware.com,🔰 节点选择
+ - DOMAIN-SUFFIX,madewithcode.com,🔰 节点选择
+ - DOMAIN-SUFFIX,material.io,🔰 节点选择
+ - DOMAIN-SUFFIX,page.link,🔰 节点选择
+ - DOMAIN-SUFFIX,polymer-project.org,🔰 节点选择
+ - DOMAIN-SUFFIX,recaptcha.net,🔰 节点选择
+ - DOMAIN-SUFFIX,shattered.io,🔰 节点选择
+ - DOMAIN-SUFFIX,synergyse.com,🔰 节点选择
+ - DOMAIN-SUFFIX,telephony.goog,🔰 节点选择
+ - DOMAIN-SUFFIX,tensorflow.org,🔰 节点选择
+ - DOMAIN-SUFFIX,tfhub.dev,🔰 节点选择
+ - DOMAIN-SUFFIX,tiltbrush.com,🔰 节点选择
+ - DOMAIN-SUFFIX,waveprotocol.org,🔰 节点选择
+ - DOMAIN-SUFFIX,waymo.com,🔰 节点选择
+ - DOMAIN-SUFFIX,webmproject.org,🔰 节点选择
+ - DOMAIN-SUFFIX,webrtc.org,🔰 节点选择
+ - DOMAIN-SUFFIX,whatbrowser.org,🔰 节点选择
+ - DOMAIN-SUFFIX,widevine.com,🔰 节点选择
+ - DOMAIN-SUFFIX,x.company,🔰 节点选择
+ - DOMAIN-SUFFIX,youtu.be,🔰 节点选择
+ - DOMAIN-SUFFIX,yt.be,🔰 节点选择
+ - DOMAIN-SUFFIX,ytimg.com,🔰 节点选择
+ - DOMAIN-SUFFIX,t.me,🔰 节点选择
+ - DOMAIN-SUFFIX,tdesktop.com,🔰 节点选择
+ - DOMAIN-SUFFIX,telegram.me,🔰 节点选择
+ - DOMAIN-SUFFIX,telesco.pe,🔰 节点选择
+ - DOMAIN-KEYWORD,.facebook.,🔰 节点选择
+ - DOMAIN-SUFFIX,facebookmail.com,🔰 节点选择
+ - DOMAIN-SUFFIX,noxinfluencer.com,🔰 节点选择
+ - DOMAIN-SUFFIX,smartmailcloud.com,🔰 节点选择
+ - DOMAIN-SUFFIX,weebly.com,🔰 节点选择
+ - DOMAIN-SUFFIX,twitter.jp,🔰 节点选择
+ - DOMAIN-SUFFIX,appsto.re,🔰 节点选择
+ - DOMAIN,books.itunes.apple.com,🔰 节点选择
+ - DOMAIN,apps.apple.com,🔰 节点选择
+ - DOMAIN,itunes.apple.com,🔰 节点选择
+ - DOMAIN,api-glb-sea.smoot.apple.com,🔰 节点选择
+ - DOMAIN-SUFFIX,smoot.apple.com,🔰 节点选择
+ - DOMAIN,lookup-api.apple.com,🔰 节点选择
+ - DOMAIN,beta.music.apple.com,🔰 节点选择
+ - DOMAIN-SUFFIX,bing.com,🔰 节点选择
+ - DOMAIN-SUFFIX,cccat.io,🔰 节点选择
+ - DOMAIN-SUFFIX,dubox.com,🔰 节点选择
+ - DOMAIN-SUFFIX,duboxcdn.com,🔰 节点选择
+ - DOMAIN-SUFFIX,ifixit.com,🔰 节点选择
+ - DOMAIN-SUFFIX,mangakakalot.com,🔰 节点选择
+ - DOMAIN-SUFFIX,shopeemobile.com,🔰 节点选择
+ - DOMAIN,appleid.apple.com,🔰 节点选择
+ - DOMAIN,developer.apple.com,🔰 节点选择
+ - DOMAIN,www.icloud.com,🔰 节点选择
+ - DOMAIN,ocsp.apple.com,🔰 节点选择
+ - DOMAIN,xp.apple.com,🔰 节点选择
+ - DOMAIN,cacerts.digicert.com,🔰 节点选择
+ - DOMAIN,crl3.digicert.com,🔰 节点选择
+ - DOMAIN,crl4.digicert.com,🔰 节点选择
+ - DOMAIN,ocsp.digicert.com,🔰 节点选择
+ - DOMAIN-SUFFIX,cloudcone.com.cn,🔰 节点选择
+ - DOMAIN-SUFFIX,inkbunny.net,🔰 节点选择
+ - DOMAIN-SUFFIX,metapix.net,🔰 节点选择
+ - DOMAIN-SUFFIX,s3.amazonaws.com,🔰 节点选择
+ - DOMAIN-SUFFIX,zaobao.com.sg,🔰 节点选择
+ - DOMAIN,international-gfe.download.nvidia.com,🔰 节点选择
+ - DOMAIN,store-images.s-microsoft.com,🔰 节点选择
  - PROCESS-NAME,aria2c,🎯 全球直连
  - PROCESS-NAME,fdm,🎯 全球直连
  - PROCESS-NAME,Folx,🎯 全球直连
@@ -10304,4 +11208,4 @@ rules:
  - DOMAIN-KEYWORD,Thunder,🎯 全球直连
  - DOMAIN-KEYWORD,XLLiveUD,🎯 全球直连
  - GEOIP,CN,🎯 全球直连
- - MATCH,🐟 漏网之鱼
+ - MATCH,,🐟 漏网之鱼,dns-failed
