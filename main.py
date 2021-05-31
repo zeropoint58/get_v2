@@ -12,13 +12,14 @@ if __name__ == '__main__':
     data = requests.get(url, proxies=proxies)
     text = data.text
     soup = BeautifulSoup(text, 'lxml')
-    div_list = soup.select('h2.post-title > a')
+    # div_list = soup.select('h2.post-title > a')
+    div_list = soup.findAll(name='a',attrs={"href":re.compile(r'https?:\/\/www\.mattkaydiary\.com\S+?free-v2ray-clash-link.html')})
     new_v2ray_url = div_list[0].get('href')
     new_v2ray_data = requests.get(new_v2ray_url, proxies=proxies)
     new_v2ray_data_html = new_v2ray_data.text
     doc = PyQuery(new_v2ray_data_html)
     s = re.findall('https?://drive.google.com/uc\Sexport=download&id=\S+', doc.text())
-    file_list = ['https://raw.fastgit.org/ssrsub/ssr/master/v2ray', 'https://raw.fastgit.org/ssrsub/ssr/master/Clash.yml']
+    file_list = ['https://raw.fastgit.org/ssrsub/ssr/master/v2ray', 'https://raw.fastgit.org/ssrsub/ssr/master/Clash.yml','https://jiang.netlify.app/', 'https://api.dler.io/sub?target=clash&new_name=true&url=https://jiang.netlify.app&insert=false&config=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online.ini']
     s.extend(file_list)
     print(s)
     for i, val in enumerate(s):
