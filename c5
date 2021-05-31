@@ -5,477 +5,197 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 生命不息，战斗不止, server: 104.19.23.12, port: 443, type: vmess, uuid: b47f1d5c-a228-4b24-809e-626852910b1a, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /xrayvws, ws-headers: {Host: luba.1808.cf}}
-  - {name: 二爷一直都在, server: 104.19.16.125, port: 443, type: vmess, uuid: b47f1d5c-a228-4b24-809e-626852910b1a, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /xrayvws, ws-headers: {Host: luba.1808.cf}}
-  - {name: 不要感恩那些种水稻的。, server: 104.19.27.26, port: 443, type: vmess, uuid: b47f1d5c-a228-4b24-809e-626852910b1a, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /xrayvws, ws-headers: {Host: luba.1808.cf}}
-  - {name: luba.1808.cf_vmess_ws, server: luba.1808.cf, port: 443, type: vmess, uuid: b47f1d5c-a228-4b24-809e-626852910b1a, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: "/xrayvws?ed=2048", ws-headers: {Host: luba.1808.cf}}
-  - {name: 还有开放的市场经济, server: luba.1808.cf, port: 443, type: vmess, uuid: b47f1d5c-a228-4b24-809e-626852910b1a, alterId: 1, cipher: auto, tls: true}
-  - {name: 有饭吃，是因为你的劳动, server: luba.1808.cf, port: 443, type: vmess, uuid: b47f1d5c-a228-4b24-809e-626852910b1a, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: "/xrayvws?ed=2048", ws-headers: {Host: luba.1808.cf}}
-  - {name: MF01, server: winter-moon-868f.mianfei0101.workers.dev, port: 443, type: vmess, uuid: cd806887-2d26-7654-98b6-ac85cc8521f7, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: winter-moon-868f.mianfei0101.workers.dev}}
-  - {name: vmess@kyc4kangzhou.herokuapp.com:443, server: mail2my.herokuapp.com, port: 443, type: vmess, uuid: 386affd2-1fbc-4995-acc9-2de6c1abfee4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /386affd2-1fbc-4995-acc9-2de6c1abfee4-vmess, ws-headers: {Host: mail2my.herokuapp.com}}
-  - {name: cc.1808.cf_vmess_tcp, server: cc.1808.cf, port: 443, type: vmess, uuid: 0e80e964-8734-4c71-b097-5346d9c5de7a, alterId: 1, cipher: auto, tls: true}
-  - {name: trojan/cc.1808.cf:443-lbmfn, server: cc.1808.cf, port: 443, type: trojan, password: 0e80e964-8734-4c71-b097-5346d9c5de7a, sni: cc.1808.cf}
-  - {name: trojan/cc.1808.cf:443-hjkru, server: cc.1808.cf, port: 443, type: trojan, password: 9d7294a7-04b4-4b78-82fb-e844c687ca3c, sni: cc.1808.cf}
+  - {name: buy.1808.cf_vmess_ws3, server: 104.19.64.83, port: 443, type: vmess, uuid: e1934f6e-ae2c-41e7-8877-844152137c1e, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /xrayvws, ws-headers: {Host: buy.1808.cf}}
   - {name: cc.1808.cf_6e2b9037-7093-42eb-ad42-60ad985b50db, server: cc.1808.cf, port: 443, type: vmess, uuid: 6e2b9037-7093-42eb-ad42-60ad985b50db, alterId: 1, cipher: auto, tls: true}
   - {name: cc.1808.cf_trojan_ws, server: cc.1808.cf, port: 443, type: trojan, password: 0e80e964-8734-4c71-b097-5346d9c5de7a, sni: cc.1808.cf}
-  - {name: 🇰🇷 韩国 AWS EC2, server: 13.125.210.77, port: 16762, type: vmess, uuid: 9c2777c5-8530-4cfe-abb6-c1734d220602, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国01, server: vip345.xyz, port: 39014, type: vmess, uuid: 1ae6b7f7-69d4-366c-903f-a1d6b317164e, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /sn, ws-headers: {Host: vip345.xyz}}
-  - {name: 🇺🇸 美国02, server: vip345.xyz, port: 39015, type: vmess, uuid: 1ae6b7f7-69d4-366c-903f-a1d6b317164e, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /sn, ws-headers: {Host: vip345.xyz}}
-  - {name: 🇺🇸 美国03, server: vip345.xyz, port: 39016, type: vmess, uuid: 1ae6b7f7-69d4-366c-903f-a1d6b317164e, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /sn, ws-headers: {Host: vip345.xyz}}
-  - {name: 🇺🇸 美国04, server: vip345.xyz, port: 39017, type: vmess, uuid: 1ae6b7f7-69d4-366c-903f-a1d6b317164e, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /sn, ws-headers: {Host: vip345.xyz}}
-  - {name: 🇺🇸 美国05, server: vip345.xyz, port: 39018, type: vmess, uuid: 1ae6b7f7-69d4-366c-903f-a1d6b317164e, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /sn, ws-headers: {Host: vip345.xyz}}
-  - {name: 🇭🇰 香港01 三网优化 80免流节点, server: 52.229.157.67, port: 80, type: vmess, uuid: 1ae6b7f7-69d4-366c-903f-a1d6b317164e, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /ny, ws-headers: {Host: 52.229.157.67}}
-  - {name: 🇭🇰 香港06 三网优化 解锁流媒体奈飞, server: 40.83.101.225, port: 25001, type: vmess, uuid: 1ae6b7f7-69d4-366c-903f-a1d6b317164e, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /ny, ws-headers: {Host: 149.129.56.249}}
-  - {name: 🇭🇰 香港08 三网优化 解锁流媒体 奈飞, server: 40.83.101.225, port: 25003, type: vmess, uuid: 1ae6b7f7-69d4-366c-903f-a1d6b317164e, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /ny, ws-headers: {Host: 40.83.101.225}}
-  - {name: 134141, server: cn2.relay.iplc.pro, port: 52005, type: vmess, uuid: a72e2f68-e7cb-447b-86e9-98a207e53c5d, alterId: 1, cipher: auto, tls: false}
-  - {name: 1341, server: cn2.relay.iplc.pro, port: 52002, type: vmess, uuid: a72e2f68-e7cb-447b-86e9-98a207e53c5d, alterId: 1, cipher: auto, tls: false}
-  - {name: 1341 2, server: 185.195.26.193, port: 22526, type: vmess, uuid: 99ab7ff1-147d-341f-b422-010392b589a6, alterId: 16, cipher: auto, tls: false}
-  - {name: 13431, server: t3.ssrsub.one, port: 443, type: trojan, password: OphX58kC, sni: t3.ssrsub.one}
-  - {name: E14, server: t3.ssrsub.one, port: 8443, type: trojan, password: 1PVhDs6Z, sni: t3.ssrsub.one}
-  - {name: 334, server: t1.ssrsub.one, port: 443, type: trojan, password: ErcILMD9, sni: t1.ssrsub.one}
-  - {name: 3333, server: t1.ssrsub.one, port: 8443, type: trojan, password: tgJX9TkN, sni: t1.ssrsub.one}
-  - {name: 333, server: 52.80.96.133, port: 8000, type: vmess, uuid: 0821b208-8675-43e8-bbed-8afac1e391a1, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: baidu.com}}
-  - {name: 33, server: cn1.relay.iplc.pro, port: 52001, type: vmess, uuid: a72e2f68-e7cb-447b-86e9-98a207e53c5d, alterId: 1, cipher: auto, tls: false}
-  - {name: 11, server: 13v1sg02.airlanding.xyz, port: 18011, type: vmess, uuid: 500914a7-1ede-3a31-aa4e-fd33e305d6aa, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: 13v1sg02.airlanding.xyz}}
-  - {name: 1, server: 14v1hk06.airlanding.xyz, port: 18012, type: vmess, uuid: 500914a7-1ede-3a31-aa4e-fd33e305d6aa, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: 14v1hk06.airlanding.xyz}}
-  - {name: 司CDN节点 22, server: 104.18.7.138, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: CDN节点 24, server: 104.18.6.138, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: CDN节点 25, server: 104.19.1.168, port: 443, type: vmess, uuid: f299184b-19e0-41a4-9b4b-65fa8f0e691c, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /jj, ws-headers: {Host: c-jp1.ooxc.cc}}
-  - {name: CDN节点 26, server: 104.21.48.161, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇺🇸 美国CloudFlare节点 23, server: 172.67.154.85, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: Microsoft公司 1, server: az1.keaiyun.xyz, port: 55101, type: vmess, uuid: c2fe97c7-2ace-3b20-b40f-46edb61def64, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
-  - {name: Microsoft公司 10, server: az1.keaiyun.xyz, port: 55105, type: vmess, uuid: c2fe97c7-2ace-3b20-b40f-46edb61def64, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
-  - {name: Microsoft公司 16, server: az1.keaiyun.xyz, port: 31102, type: vmess, uuid: c2fe97c7-2ace-3b20-b40f-46edb61def64, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
-  - {name: Microsoft公司 2, server: az1.keaiyun.xyz, port: 55100, type: vmess, uuid: c2fe97c7-2ace-3b20-b40f-46edb61def64, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
-  - {name: 🇺🇸 美国加利福尼亚州圣克拉拉Microsoft公司 5, server: az1.keaiyun.xyz, port: 55102, type: vmess, uuid: c2fe97c7-2ace-3b20-b40f-46edb61def64, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
-  - {name: Amazon数据中心 30, server: 52.53.154.161, port: 13275, type: vmess, uuid: efbe7912-be81-44e3-870f-222c5fb053e4, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇰🇷 韩国首尔Amazon数据中心 17, server: 52.79.228.10, port: 36597, type: vmess, uuid: 25b4eb9e-647c-4440-98b3-d21958e24577, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港Amazon数据中心 14, server: 18.162.96.154, port: 80, type: vmess, uuid: 119f999c-2cf9-36cd-bf7b-08fdf66dbd45, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /hk, ws-headers: {Host: 18.162.96.154}}
-  - {name: 🇭🇰 香港Microsoft公司 19, server: vip345.xyz, port: 39020, type: vmess, uuid: 772ebcbc-d60a-3fa7-b46c-b151c9f92122, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /xgr, ws-headers: {Host: vip345.xyz}}
-  - {name: 🇭🇰 香港Microsoft公司 3, server: vip345.xyz, port: 39009, type: vmess, uuid: 772ebcbc-d60a-3fa7-b46c-b151c9f92122, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /xgr, ws-headers: {Host: vip345.xyz}}
-  - {name: 🇭🇰 香港Microsoft公司 6, server: vip345.xyz, port: 39006, type: vmess, uuid: 772ebcbc-d60a-3fa7-b46c-b151c9f92122, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /xgr, ws-headers: {Host: vip345.xyz}}
-  - {name: 🇭🇰 香港城市电讯有限公司 12, server: hk4.direct.iplc.pro, port: 52000, type: vmess, uuid: a72e2f68-e7cb-447b-86e9-98a207e53c5d, alterId: 1, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港城市电讯有限公司 4, server: hk3.direct.iplc.pro, port: 52000, type: vmess, uuid: a72e2f68-e7cb-447b-86e9-98a207e53c5d, alterId: 1, cipher: auto, tls: false}
-  - {name: buy.1808.cf_vmess_ws3, server: 104.19.64.83, port: 443, type: vmess, uuid: e1934f6e-ae2c-41e7-8877-844152137c1e, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /xrayvws, ws-headers: {Host: buy.1808.cf}}
+  - {name: cc.1808.cf_vmess_tcp, server: cc.1808.cf, port: 443, type: vmess, uuid: 0e80e964-8734-4c71-b097-5346d9c5de7a, alterId: 1, cipher: auto, tls: true}
+  - {name: luba.1808.cf_vmess_ws, server: luba.1808.cf, port: 443, type: vmess, uuid: b47f1d5c-a228-4b24-809e-626852910b1a, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: "/xrayvws?ed=2048", ws-headers: {Host: luba.1808.cf}}
+  - {name: trojan/cc.1808.cf:443-hjkru, server: cc.1808.cf, port: 443, type: trojan, password: 9d7294a7-04b4-4b78-82fb-e844c687ca3c, sni: cc.1808.cf}
+  - {name: cc.1808.cf_trojan_ws 2, server: cc.1808.cf, port: 443, type: trojan, password: 0e80e964-8734-4c71-b097-5346d9c5de7a, sni: cc.1808.cf}
+  - {name: vmess@kyc4kangzhou.herokuapp.com:443, server: mail2my.herokuapp.com, port: 443, type: vmess, uuid: 386affd2-1fbc-4995-acc9-2de6c1abfee4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /386affd2-1fbc-4995-acc9-2de6c1abfee4-vmess, ws-headers: {Host: mail2my.herokuapp.com}}
+  - {name: 不要感恩那些种水稻的。, server: 104.19.27.26, port: 443, type: vmess, uuid: b47f1d5c-a228-4b24-809e-626852910b1a, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /xrayvws, ws-headers: {Host: luba.1808.cf}}
+  - {name: 二爷一直都在, server: 104.19.16.125, port: 443, type: vmess, uuid: b47f1d5c-a228-4b24-809e-626852910b1a, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /xrayvws, ws-headers: {Host: luba.1808.cf}}
   - {name: 可kyc-NO.1, server: lulu0528.herokuapp.com, port: 443, type: vmess, uuid: c0fc8428-034f-414b-9dfb-52b5cf7d25bb, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /c0fc8428-034f-414b-9dfb-52b5cf7d25bb-vmess, ws-headers: {Host: lulu0528.herokuapp.com}}
   - {name: 可kyc-NO.2, server: huluwa0528.herokuapp.com, port: 443, type: vmess, uuid: c0fc8428-034f-414b-9dfb-52b5cf7d25bb, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /c0fc8428-034f-414b-9dfb-52b5cf7d25bb-vmess, ws-headers: {Host: huluwa0528.herokuapp.com}}
+  - {name: 司CDN节点 22, server: 104.18.7.138, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: luba.1808.cf_vmess_ws 2, server: luba.1808.cf, port: 443, type: vmess, uuid: b47f1d5c-a228-4b24-809e-626852910b1a, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: "/xrayvws?ed=2048", ws-headers: {Host: luba.1808.cf}}
+  - {name: 生命不息，战斗不止, server: 104.19.23.12, port: 443, type: vmess, uuid: b47f1d5c-a228-4b24-809e-626852910b1a, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /xrayvws, ws-headers: {Host: luba.1808.cf}}
+  - {name: buy11, server: 104.19.10.101, port: 443, type: vmess, uuid: e1934f6e-ae2c-41e7-8877-844152137c1e, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /xrayvws, ws-headers: {Host: buy.1808.cf}}
+  - {name: 可kyc-NO.2 cdn, server: 104.19.10.101, port: 443, type: vmess, uuid: c0fc8428-034f-414b-9dfb-52b5cf7d25bb, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /c0fc8428-034f-414b-9dfb-52b5cf7d25bb-vmess, ws-headers: {Host: throbbing-sun-15ac.2ye.workers.dev}}
+  - {name: 可kyc-NO.2 cdn 2, server: 104.19.98.185, port: 443, type: vmess, uuid: c0fc8428-034f-414b-9dfb-52b5cf7d25bb, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /c0fc8428-034f-414b-9dfb-52b5cf7d25bb-vmess, ws-headers: {Host: throbbing-sun-15ac.2ye.workers.dev}}
+  - {name: 可kyc-NO.2 cdn （副本）, server: 104.19.12.23, port: 443, type: vmess, uuid: c0fc8428-034f-414b-9dfb-52b5cf7d25bb, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /c0fc8428-034f-414b-9dfb-52b5cf7d25bb-vmess, ws-headers: {Host: throbbing-sun-15ac.2ye.workers.dev}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 生命不息，战斗不止
-      - 二爷一直都在
-      - 不要感恩那些种水稻的。
-      - luba.1808.cf_vmess_ws
-      - 还有开放的市场经济
-      - 有饭吃，是因为你的劳动
-      - MF01
-      - vmess@kyc4kangzhou.herokuapp.com:443
-      - cc.1808.cf_vmess_tcp
-      - trojan/cc.1808.cf:443-lbmfn
-      - trojan/cc.1808.cf:443-hjkru
+      - buy.1808.cf_vmess_ws3
       - cc.1808.cf_6e2b9037-7093-42eb-ad42-60ad985b50db
       - cc.1808.cf_trojan_ws
-      - 🇰🇷 韩国 AWS EC2
-      - 🇺🇸 美国01
-      - 🇺🇸 美国02
-      - 🇺🇸 美国03
-      - 🇺🇸 美国04
-      - 🇺🇸 美国05
-      - 🇭🇰 香港01 三网优化 80免流节点
-      - 🇭🇰 香港06 三网优化 解锁流媒体奈飞
-      - 🇭🇰 香港08 三网优化 解锁流媒体 奈飞
-      - 134141
-      - 1341
-      - 1341 2
-      - 13431
-      - E14
-      - 334
-      - 3333
-      - 333
-      - 33
-      - 11
-      - 1
-      - 司CDN节点 22
-      - CDN节点 24
-      - CDN节点 25
-      - CDN节点 26
-      - 🇺🇸 美国CloudFlare节点 23
-      - Microsoft公司 1
-      - Microsoft公司 10
-      - Microsoft公司 16
-      - Microsoft公司 2
-      - 🇺🇸 美国加利福尼亚州圣克拉拉Microsoft公司 5
-      - Amazon数据中心 30
-      - 🇰🇷 韩国首尔Amazon数据中心 17
-      - 🇭🇰 香港Amazon数据中心 14
-      - 🇭🇰 香港Microsoft公司 19
-      - 🇭🇰 香港Microsoft公司 3
-      - 🇭🇰 香港Microsoft公司 6
-      - 🇭🇰 香港城市电讯有限公司 12
-      - 🇭🇰 香港城市电讯有限公司 4
-      - buy.1808.cf_vmess_ws3
+      - cc.1808.cf_vmess_tcp
+      - luba.1808.cf_vmess_ws
+      - trojan/cc.1808.cf:443-hjkru
+      - cc.1808.cf_trojan_ws 2
+      - vmess@kyc4kangzhou.herokuapp.com:443
+      - 不要感恩那些种水稻的。
+      - 二爷一直都在
       - 可kyc-NO.1
       - 可kyc-NO.2
+      - 司CDN节点 22
+      - luba.1808.cf_vmess_ws 2
+      - 生命不息，战斗不止
+      - buy11
+      - 可kyc-NO.2 cdn
+      - 可kyc-NO.2 cdn 2
+      - 可kyc-NO.2 cdn （副本）
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 生命不息，战斗不止
-      - 二爷一直都在
-      - 不要感恩那些种水稻的。
-      - luba.1808.cf_vmess_ws
-      - 还有开放的市场经济
-      - 有饭吃，是因为你的劳动
-      - MF01
-      - vmess@kyc4kangzhou.herokuapp.com:443
-      - cc.1808.cf_vmess_tcp
-      - trojan/cc.1808.cf:443-lbmfn
-      - trojan/cc.1808.cf:443-hjkru
+      - buy.1808.cf_vmess_ws3
       - cc.1808.cf_6e2b9037-7093-42eb-ad42-60ad985b50db
       - cc.1808.cf_trojan_ws
-      - 🇰🇷 韩国 AWS EC2
-      - 🇺🇸 美国01
-      - 🇺🇸 美国02
-      - 🇺🇸 美国03
-      - 🇺🇸 美国04
-      - 🇺🇸 美国05
-      - 🇭🇰 香港01 三网优化 80免流节点
-      - 🇭🇰 香港06 三网优化 解锁流媒体奈飞
-      - 🇭🇰 香港08 三网优化 解锁流媒体 奈飞
-      - 134141
-      - 1341
-      - 1341 2
-      - 13431
-      - E14
-      - 334
-      - 3333
-      - 333
-      - 33
-      - 11
-      - 1
-      - 司CDN节点 22
-      - CDN节点 24
-      - CDN节点 25
-      - CDN节点 26
-      - 🇺🇸 美国CloudFlare节点 23
-      - Microsoft公司 1
-      - Microsoft公司 10
-      - Microsoft公司 16
-      - Microsoft公司 2
-      - 🇺🇸 美国加利福尼亚州圣克拉拉Microsoft公司 5
-      - Amazon数据中心 30
-      - 🇰🇷 韩国首尔Amazon数据中心 17
-      - 🇭🇰 香港Amazon数据中心 14
-      - 🇭🇰 香港Microsoft公司 19
-      - 🇭🇰 香港Microsoft公司 3
-      - 🇭🇰 香港Microsoft公司 6
-      - 🇭🇰 香港城市电讯有限公司 12
-      - 🇭🇰 香港城市电讯有限公司 4
-      - buy.1808.cf_vmess_ws3
+      - cc.1808.cf_vmess_tcp
+      - luba.1808.cf_vmess_ws
+      - trojan/cc.1808.cf:443-hjkru
+      - cc.1808.cf_trojan_ws 2
+      - vmess@kyc4kangzhou.herokuapp.com:443
+      - 不要感恩那些种水稻的。
+      - 二爷一直都在
       - 可kyc-NO.1
       - 可kyc-NO.2
+      - 司CDN节点 22
+      - luba.1808.cf_vmess_ws 2
+      - 生命不息，战斗不止
+      - buy11
+      - 可kyc-NO.2 cdn
+      - 可kyc-NO.2 cdn 2
+      - 可kyc-NO.2 cdn （副本）
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 生命不息，战斗不止
-      - 二爷一直都在
-      - 不要感恩那些种水稻的。
-      - luba.1808.cf_vmess_ws
-      - 还有开放的市场经济
-      - 有饭吃，是因为你的劳动
-      - MF01
-      - vmess@kyc4kangzhou.herokuapp.com:443
-      - cc.1808.cf_vmess_tcp
-      - trojan/cc.1808.cf:443-lbmfn
-      - trojan/cc.1808.cf:443-hjkru
+      - buy.1808.cf_vmess_ws3
       - cc.1808.cf_6e2b9037-7093-42eb-ad42-60ad985b50db
       - cc.1808.cf_trojan_ws
-      - 🇰🇷 韩国 AWS EC2
-      - 🇺🇸 美国01
-      - 🇺🇸 美国02
-      - 🇺🇸 美国03
-      - 🇺🇸 美国04
-      - 🇺🇸 美国05
-      - 🇭🇰 香港01 三网优化 80免流节点
-      - 🇭🇰 香港06 三网优化 解锁流媒体奈飞
-      - 🇭🇰 香港08 三网优化 解锁流媒体 奈飞
-      - 134141
-      - 1341
-      - 1341 2
-      - 13431
-      - E14
-      - 334
-      - 3333
-      - 333
-      - 33
-      - 11
-      - 1
-      - 司CDN节点 22
-      - CDN节点 24
-      - CDN节点 25
-      - CDN节点 26
-      - 🇺🇸 美国CloudFlare节点 23
-      - Microsoft公司 1
-      - Microsoft公司 10
-      - Microsoft公司 16
-      - Microsoft公司 2
-      - 🇺🇸 美国加利福尼亚州圣克拉拉Microsoft公司 5
-      - Amazon数据中心 30
-      - 🇰🇷 韩国首尔Amazon数据中心 17
-      - 🇭🇰 香港Amazon数据中心 14
-      - 🇭🇰 香港Microsoft公司 19
-      - 🇭🇰 香港Microsoft公司 3
-      - 🇭🇰 香港Microsoft公司 6
-      - 🇭🇰 香港城市电讯有限公司 12
-      - 🇭🇰 香港城市电讯有限公司 4
-      - buy.1808.cf_vmess_ws3
+      - cc.1808.cf_vmess_tcp
+      - luba.1808.cf_vmess_ws
+      - trojan/cc.1808.cf:443-hjkru
+      - cc.1808.cf_trojan_ws 2
+      - vmess@kyc4kangzhou.herokuapp.com:443
+      - 不要感恩那些种水稻的。
+      - 二爷一直都在
       - 可kyc-NO.1
       - 可kyc-NO.2
+      - 司CDN节点 22
+      - luba.1808.cf_vmess_ws 2
+      - 生命不息，战斗不止
+      - buy11
+      - 可kyc-NO.2 cdn
+      - 可kyc-NO.2 cdn 2
+      - 可kyc-NO.2 cdn （副本）
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 生命不息，战斗不止
-      - 二爷一直都在
-      - 不要感恩那些种水稻的。
-      - luba.1808.cf_vmess_ws
-      - 还有开放的市场经济
-      - 有饭吃，是因为你的劳动
-      - MF01
-      - vmess@kyc4kangzhou.herokuapp.com:443
-      - cc.1808.cf_vmess_tcp
-      - trojan/cc.1808.cf:443-lbmfn
-      - trojan/cc.1808.cf:443-hjkru
+      - buy.1808.cf_vmess_ws3
       - cc.1808.cf_6e2b9037-7093-42eb-ad42-60ad985b50db
       - cc.1808.cf_trojan_ws
-      - 🇰🇷 韩国 AWS EC2
-      - 🇺🇸 美国01
-      - 🇺🇸 美国02
-      - 🇺🇸 美国03
-      - 🇺🇸 美国04
-      - 🇺🇸 美国05
-      - 🇭🇰 香港01 三网优化 80免流节点
-      - 🇭🇰 香港06 三网优化 解锁流媒体奈飞
-      - 🇭🇰 香港08 三网优化 解锁流媒体 奈飞
-      - 134141
-      - 1341
-      - 1341 2
-      - 13431
-      - E14
-      - 334
-      - 3333
-      - 333
-      - 33
-      - 11
-      - 1
-      - 司CDN节点 22
-      - CDN节点 24
-      - CDN节点 25
-      - CDN节点 26
-      - 🇺🇸 美国CloudFlare节点 23
-      - Microsoft公司 1
-      - Microsoft公司 10
-      - Microsoft公司 16
-      - Microsoft公司 2
-      - 🇺🇸 美国加利福尼亚州圣克拉拉Microsoft公司 5
-      - Amazon数据中心 30
-      - 🇰🇷 韩国首尔Amazon数据中心 17
-      - 🇭🇰 香港Amazon数据中心 14
-      - 🇭🇰 香港Microsoft公司 19
-      - 🇭🇰 香港Microsoft公司 3
-      - 🇭🇰 香港Microsoft公司 6
-      - 🇭🇰 香港城市电讯有限公司 12
-      - 🇭🇰 香港城市电讯有限公司 4
-      - buy.1808.cf_vmess_ws3
+      - cc.1808.cf_vmess_tcp
+      - luba.1808.cf_vmess_ws
+      - trojan/cc.1808.cf:443-hjkru
+      - cc.1808.cf_trojan_ws 2
+      - vmess@kyc4kangzhou.herokuapp.com:443
+      - 不要感恩那些种水稻的。
+      - 二爷一直都在
       - 可kyc-NO.1
       - 可kyc-NO.2
+      - 司CDN节点 22
+      - luba.1808.cf_vmess_ws 2
+      - 生命不息，战斗不止
+      - buy11
+      - 可kyc-NO.2 cdn
+      - 可kyc-NO.2 cdn 2
+      - 可kyc-NO.2 cdn （副本）
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 生命不息，战斗不止
-      - 二爷一直都在
-      - 不要感恩那些种水稻的。
-      - luba.1808.cf_vmess_ws
-      - 还有开放的市场经济
-      - 有饭吃，是因为你的劳动
-      - MF01
-      - vmess@kyc4kangzhou.herokuapp.com:443
-      - cc.1808.cf_vmess_tcp
-      - trojan/cc.1808.cf:443-lbmfn
-      - trojan/cc.1808.cf:443-hjkru
+      - buy.1808.cf_vmess_ws3
       - cc.1808.cf_6e2b9037-7093-42eb-ad42-60ad985b50db
       - cc.1808.cf_trojan_ws
-      - 🇰🇷 韩国 AWS EC2
-      - 🇺🇸 美国01
-      - 🇺🇸 美国02
-      - 🇺🇸 美国03
-      - 🇺🇸 美国04
-      - 🇺🇸 美国05
-      - 🇭🇰 香港01 三网优化 80免流节点
-      - 🇭🇰 香港06 三网优化 解锁流媒体奈飞
-      - 🇭🇰 香港08 三网优化 解锁流媒体 奈飞
-      - 134141
-      - 1341
-      - 1341 2
-      - 13431
-      - E14
-      - 334
-      - 3333
-      - 333
-      - 33
-      - 11
-      - 1
-      - 司CDN节点 22
-      - CDN节点 24
-      - CDN节点 25
-      - CDN节点 26
-      - 🇺🇸 美国CloudFlare节点 23
-      - Microsoft公司 1
-      - Microsoft公司 10
-      - Microsoft公司 16
-      - Microsoft公司 2
-      - 🇺🇸 美国加利福尼亚州圣克拉拉Microsoft公司 5
-      - Amazon数据中心 30
-      - 🇰🇷 韩国首尔Amazon数据中心 17
-      - 🇭🇰 香港Amazon数据中心 14
-      - 🇭🇰 香港Microsoft公司 19
-      - 🇭🇰 香港Microsoft公司 3
-      - 🇭🇰 香港Microsoft公司 6
-      - 🇭🇰 香港城市电讯有限公司 12
-      - 🇭🇰 香港城市电讯有限公司 4
-      - buy.1808.cf_vmess_ws3
+      - cc.1808.cf_vmess_tcp
+      - luba.1808.cf_vmess_ws
+      - trojan/cc.1808.cf:443-hjkru
+      - cc.1808.cf_trojan_ws 2
+      - vmess@kyc4kangzhou.herokuapp.com:443
+      - 不要感恩那些种水稻的。
+      - 二爷一直都在
       - 可kyc-NO.1
       - 可kyc-NO.2
+      - 司CDN节点 22
+      - luba.1808.cf_vmess_ws 2
+      - 生命不息，战斗不止
+      - buy11
+      - 可kyc-NO.2 cdn
+      - 可kyc-NO.2 cdn 2
+      - 可kyc-NO.2 cdn （副本）
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 生命不息，战斗不止
-      - 二爷一直都在
-      - 不要感恩那些种水稻的。
-      - luba.1808.cf_vmess_ws
-      - 还有开放的市场经济
-      - 有饭吃，是因为你的劳动
-      - MF01
-      - vmess@kyc4kangzhou.herokuapp.com:443
-      - cc.1808.cf_vmess_tcp
-      - trojan/cc.1808.cf:443-lbmfn
-      - trojan/cc.1808.cf:443-hjkru
+      - buy.1808.cf_vmess_ws3
       - cc.1808.cf_6e2b9037-7093-42eb-ad42-60ad985b50db
       - cc.1808.cf_trojan_ws
-      - 🇰🇷 韩国 AWS EC2
-      - 🇺🇸 美国01
-      - 🇺🇸 美国02
-      - 🇺🇸 美国03
-      - 🇺🇸 美国04
-      - 🇺🇸 美国05
-      - 🇭🇰 香港01 三网优化 80免流节点
-      - 🇭🇰 香港06 三网优化 解锁流媒体奈飞
-      - 🇭🇰 香港08 三网优化 解锁流媒体 奈飞
-      - 134141
-      - 1341
-      - 1341 2
-      - 13431
-      - E14
-      - 334
-      - 3333
-      - 333
-      - 33
-      - 11
-      - 1
-      - 司CDN节点 22
-      - CDN节点 24
-      - CDN节点 25
-      - CDN节点 26
-      - 🇺🇸 美国CloudFlare节点 23
-      - Microsoft公司 1
-      - Microsoft公司 10
-      - Microsoft公司 16
-      - Microsoft公司 2
-      - 🇺🇸 美国加利福尼亚州圣克拉拉Microsoft公司 5
-      - Amazon数据中心 30
-      - 🇰🇷 韩国首尔Amazon数据中心 17
-      - 🇭🇰 香港Amazon数据中心 14
-      - 🇭🇰 香港Microsoft公司 19
-      - 🇭🇰 香港Microsoft公司 3
-      - 🇭🇰 香港Microsoft公司 6
-      - 🇭🇰 香港城市电讯有限公司 12
-      - 🇭🇰 香港城市电讯有限公司 4
-      - buy.1808.cf_vmess_ws3
+      - cc.1808.cf_vmess_tcp
+      - luba.1808.cf_vmess_ws
+      - trojan/cc.1808.cf:443-hjkru
+      - cc.1808.cf_trojan_ws 2
+      - vmess@kyc4kangzhou.herokuapp.com:443
+      - 不要感恩那些种水稻的。
+      - 二爷一直都在
       - 可kyc-NO.1
       - 可kyc-NO.2
+      - 司CDN节点 22
+      - luba.1808.cf_vmess_ws 2
+      - 生命不息，战斗不止
+      - buy11
+      - 可kyc-NO.2 cdn
+      - 可kyc-NO.2 cdn 2
+      - 可kyc-NO.2 cdn （副本）
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 生命不息，战斗不止
-      - 二爷一直都在
-      - 不要感恩那些种水稻的。
-      - luba.1808.cf_vmess_ws
-      - 还有开放的市场经济
-      - 有饭吃，是因为你的劳动
-      - MF01
-      - vmess@kyc4kangzhou.herokuapp.com:443
-      - cc.1808.cf_vmess_tcp
-      - trojan/cc.1808.cf:443-lbmfn
-      - trojan/cc.1808.cf:443-hjkru
+      - buy.1808.cf_vmess_ws3
       - cc.1808.cf_6e2b9037-7093-42eb-ad42-60ad985b50db
       - cc.1808.cf_trojan_ws
-      - 🇰🇷 韩国 AWS EC2
-      - 🇺🇸 美国01
-      - 🇺🇸 美国02
-      - 🇺🇸 美国03
-      - 🇺🇸 美国04
-      - 🇺🇸 美国05
-      - 🇭🇰 香港01 三网优化 80免流节点
-      - 🇭🇰 香港06 三网优化 解锁流媒体奈飞
-      - 🇭🇰 香港08 三网优化 解锁流媒体 奈飞
-      - 134141
-      - 1341
-      - 1341 2
-      - 13431
-      - E14
-      - 334
-      - 3333
-      - 333
-      - 33
-      - 11
-      - 1
-      - 司CDN节点 22
-      - CDN节点 24
-      - CDN节点 25
-      - CDN节点 26
-      - 🇺🇸 美国CloudFlare节点 23
-      - Microsoft公司 1
-      - Microsoft公司 10
-      - Microsoft公司 16
-      - Microsoft公司 2
-      - 🇺🇸 美国加利福尼亚州圣克拉拉Microsoft公司 5
-      - Amazon数据中心 30
-      - 🇰🇷 韩国首尔Amazon数据中心 17
-      - 🇭🇰 香港Amazon数据中心 14
-      - 🇭🇰 香港Microsoft公司 19
-      - 🇭🇰 香港Microsoft公司 3
-      - 🇭🇰 香港Microsoft公司 6
-      - 🇭🇰 香港城市电讯有限公司 12
-      - 🇭🇰 香港城市电讯有限公司 4
-      - buy.1808.cf_vmess_ws3
+      - cc.1808.cf_vmess_tcp
+      - luba.1808.cf_vmess_ws
+      - trojan/cc.1808.cf:443-hjkru
+      - cc.1808.cf_trojan_ws 2
+      - vmess@kyc4kangzhou.herokuapp.com:443
+      - 不要感恩那些种水稻的。
+      - 二爷一直都在
       - 可kyc-NO.1
       - 可kyc-NO.2
+      - 司CDN节点 22
+      - luba.1808.cf_vmess_ws 2
+      - 生命不息，战斗不止
+      - buy11
+      - 可kyc-NO.2 cdn
+      - 可kyc-NO.2 cdn 2
+      - 可kyc-NO.2 cdn （副本）
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -498,60 +218,25 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 生命不息，战斗不止
-      - 二爷一直都在
-      - 不要感恩那些种水稻的。
-      - luba.1808.cf_vmess_ws
-      - 还有开放的市场经济
-      - 有饭吃，是因为你的劳动
-      - MF01
-      - vmess@kyc4kangzhou.herokuapp.com:443
-      - cc.1808.cf_vmess_tcp
-      - trojan/cc.1808.cf:443-lbmfn
-      - trojan/cc.1808.cf:443-hjkru
+      - buy.1808.cf_vmess_ws3
       - cc.1808.cf_6e2b9037-7093-42eb-ad42-60ad985b50db
       - cc.1808.cf_trojan_ws
-      - 🇰🇷 韩国 AWS EC2
-      - 🇺🇸 美国01
-      - 🇺🇸 美国02
-      - 🇺🇸 美国03
-      - 🇺🇸 美国04
-      - 🇺🇸 美国05
-      - 🇭🇰 香港01 三网优化 80免流节点
-      - 🇭🇰 香港06 三网优化 解锁流媒体奈飞
-      - 🇭🇰 香港08 三网优化 解锁流媒体 奈飞
-      - 134141
-      - 1341
-      - 1341 2
-      - 13431
-      - E14
-      - 334
-      - 3333
-      - 333
-      - 33
-      - 11
-      - 1
-      - 司CDN节点 22
-      - CDN节点 24
-      - CDN节点 25
-      - CDN节点 26
-      - 🇺🇸 美国CloudFlare节点 23
-      - Microsoft公司 1
-      - Microsoft公司 10
-      - Microsoft公司 16
-      - Microsoft公司 2
-      - 🇺🇸 美国加利福尼亚州圣克拉拉Microsoft公司 5
-      - Amazon数据中心 30
-      - 🇰🇷 韩国首尔Amazon数据中心 17
-      - 🇭🇰 香港Amazon数据中心 14
-      - 🇭🇰 香港Microsoft公司 19
-      - 🇭🇰 香港Microsoft公司 3
-      - 🇭🇰 香港Microsoft公司 6
-      - 🇭🇰 香港城市电讯有限公司 12
-      - 🇭🇰 香港城市电讯有限公司 4
-      - buy.1808.cf_vmess_ws3
+      - cc.1808.cf_vmess_tcp
+      - luba.1808.cf_vmess_ws
+      - trojan/cc.1808.cf:443-hjkru
+      - cc.1808.cf_trojan_ws 2
+      - vmess@kyc4kangzhou.herokuapp.com:443
+      - 不要感恩那些种水稻的。
+      - 二爷一直都在
       - 可kyc-NO.1
       - 可kyc-NO.2
+      - 司CDN节点 22
+      - luba.1808.cf_vmess_ws 2
+      - 生命不息，战斗不止
+      - buy11
+      - 可kyc-NO.2 cdn
+      - 可kyc-NO.2 cdn 2
+      - 可kyc-NO.2 cdn （副本）
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
