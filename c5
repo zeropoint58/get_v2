@@ -49,6 +49,24 @@ proxies:
   - {name: 🏳️‍🌈 buyvm无限流量-5, server: 104.19.161.200, port: 443, type: vmess, uuid: e4ca631c-6eda-427a-9800-f886b04468e5, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /nxyavws, ws-headers: {Host: buyvm.1808.cf}}
   - {name: Azure-东南亚, server: 52.148.85.160, port: 25172, type: vmess, uuid: 3097986e-8a34-422e-8577-ef20ce0eafc5, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 52.148.85.160}}
   - {name: 🇷🇺 俄罗斯, server: awsbj1.pf.2021.gq, port: 26171, type: vmess, uuid: 98118c6b-7ecb-3507-97c4-74eb7da0e6ed, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /fanfanyun, ws-headers: {Host: pull.free.video.10010.com}}
+  - {name: 🇭🇰 @ShareCentre 🇭🇰 HK-🇭🇰HK_3382, server: game-hk.june628.ml, port: 10163, type: vmess, uuid: 9b9955c9-3562-48b8-a0f7-98ef8258e51f, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /By:June-@CloudLinkGroup, ws-headers: {Host: game-hk.june628.ml}}
+  - {name: 🇭🇰 @ShareCentre 🇭🇰HK-🇭🇰HK_3431, server: hk1.xyttk.vip, port: 80, type: vmess, uuid: bb135747-a260-429b-826c-d686d739eaa8, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: hk1.xyttk.vip}}
+  - {name: 🇭🇰 @ShareCentre 🇭🇰HK-🇭🇰HK_3432, server: 65.52.164.219, port: 20022, type: vmess, uuid: e9a058c8-4960-4b05-8699-0c526058d345, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /f932c3d98981b, ws-headers: {Host: 65.52.164.219}}
+  - {name: 🇭🇰 @ShareCentre 🇭🇰HK-🇭🇰HK_3438, server: hk6.xyttk.vip, port: 80, type: vmess, uuid: bb135747-a260-429b-826c-d686d739eaa8, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: hk6.xyttk.vip}}
+  - {name: 🇭🇰 @ShareCentre 🇭🇰HK-🇸🇬SG_3433, server: 65.52.164.219, port: 10010, type: vmess, uuid: 2c6c0162-3236-477e-8ebb-cc48fa7290f1, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /index, ws-headers: {Host: 65.52.164.219}}
+  - {name: 🇭🇰 @ShareCentre 🇭🇰HK-🇸🇬SG_3434, server: 65.52.164.219, port: 10008, type: vmess, uuid: 2c6c0162-3236-477e-8ebb-cc48fa7290f1, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /ws, ws-headers: {Host: 65.52.164.219}}
+  - {name: 🇭🇰 @ShareCentre 🇭🇰HK-🇸🇬SG_3436, server: 65.52.164.219, port: 10010, type: vmess, uuid: e9a058c8-4960-4b05-8699-0c526058d345, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /index, ws-headers: {Host: 65.52.164.219}}
+  - {name: 🇭🇰 @ShareCentre 🇭🇰HK-🇸🇬SG_3437, server: 65.52.164.219, port: 10008, type: vmess, uuid: e9a058c8-4960-4b05-8699-0c526058d345, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /ws, ws-headers: {Host: 65.52.164.219}}
+  - {name: 🇭🇰 @ShareCentre 🇭🇰HK_1583, server: 12.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: bb511347-6ed5-475c-9ffe-ac7268fdf351, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 12.HKG.ASIA.BIGAIRPORT.NET}}
+  - {name: 🇭🇰 @ShareCentre 🇭🇰HK_1615, server: 06.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: bb511347-6ed5-475c-9ffe-ac7268fdf351, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 06.HKG.ASIA.BIGAIRPORT.NET}}
+  - {name: 🇨🇳 @ShareCentre 🇹🇼TW-🇹🇼TW_4986, server: twn02.ip4.ddns.acg.photos, port: 80, type: vmess, uuid: e5c04139-0d1b-4d09-8718-78feeeaaa057, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: twn02.ip4.ddns.acg.photos}}
+  - {name: 🇭🇰 @ShareCentre 🇺🇸US-🇭🇰HK_6305, server: 02.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: b212c27f-5a69-42f6-8b66-b1ebd63d800f, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 02.HKG.ASIA.BIGAIRPORT.NET}}
+  - {name: 🇸🇬 V1 新加坡, server: 54.179.90.251, port: 29455, type: vmess, uuid: 3f5ffe22-3bad-3353-b988-a9bae7b4bf79, alterId: 16, cipher: auto, tls: false}
+  - {name: 🇸🇬 V2 新加坡, server: 54.223.64.224, port: 10002, type: vmess, uuid: 3f5ffe22-3bad-3353-b988-a9bae7b4bf79, alterId: 16, cipher: auto, tls: false}
+  - {name: 🇰🇷 V2 首尔C, server: 54.223.64.224, port: 10004, type: vmess, uuid: 3f5ffe22-3bad-3353-b988-a9bae7b4bf79, alterId: 16, cipher: auto, tls: false}
+  - {name: 🇭🇰 V2 香港A NF/BILI*YT*, server: 54.223.64.224, port: 10010, type: vmess, uuid: 3f5ffe22-3bad-3353-b988-a9bae7b4bf79, alterId: 16, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本 JP x1.0 03中转 2, server: jpaz1.biteb.club, port: 51022, type: vmess, uuid: c0f9b25d-1802-33e1-85fd-0e3584684ab0, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: jpaz1.biteb.club}}
+  - {name: 🇺🇸 美国 US x1.0 01直连, server: usin1.biteb.club, port: 51009, type: vmess, uuid: c0f9b25d-1802-33e1-85fd-0e3584684ab0, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: usin1.biteb.club}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -99,6 +117,24 @@ proxy-groups:
       - 🏳️‍🌈 buyvm无限流量-5
       - Azure-东南亚
       - 🇷🇺 俄罗斯
+      - 🇭🇰 @ShareCentre 🇭🇰 HK-🇭🇰HK_3382
+      - 🇭🇰 @ShareCentre 🇭🇰HK-🇭🇰HK_3431
+      - 🇭🇰 @ShareCentre 🇭🇰HK-🇭🇰HK_3432
+      - 🇭🇰 @ShareCentre 🇭🇰HK-🇭🇰HK_3438
+      - 🇭🇰 @ShareCentre 🇭🇰HK-🇸🇬SG_3433
+      - 🇭🇰 @ShareCentre 🇭🇰HK-🇸🇬SG_3434
+      - 🇭🇰 @ShareCentre 🇭🇰HK-🇸🇬SG_3436
+      - 🇭🇰 @ShareCentre 🇭🇰HK-🇸🇬SG_3437
+      - 🇭🇰 @ShareCentre 🇭🇰HK_1583
+      - 🇭🇰 @ShareCentre 🇭🇰HK_1615
+      - 🇨🇳 @ShareCentre 🇹🇼TW-🇹🇼TW_4986
+      - 🇭🇰 @ShareCentre 🇺🇸US-🇭🇰HK_6305
+      - 🇸🇬 V1 新加坡
+      - 🇸🇬 V2 新加坡
+      - 🇰🇷 V2 首尔C
+      - 🇭🇰 V2 香港A NF/BILI*YT*
+      - 🇯🇵 日本 JP x1.0 03中转 2
+      - 🇺🇸 美国 US x1.0 01直连
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -149,6 +185,24 @@ proxy-groups:
       - 🏳️‍🌈 buyvm无限流量-5
       - Azure-东南亚
       - 🇷🇺 俄罗斯
+      - 🇭🇰 @ShareCentre 🇭🇰 HK-🇭🇰HK_3382
+      - 🇭🇰 @ShareCentre 🇭🇰HK-🇭🇰HK_3431
+      - 🇭🇰 @ShareCentre 🇭🇰HK-🇭🇰HK_3432
+      - 🇭🇰 @ShareCentre 🇭🇰HK-🇭🇰HK_3438
+      - 🇭🇰 @ShareCentre 🇭🇰HK-🇸🇬SG_3433
+      - 🇭🇰 @ShareCentre 🇭🇰HK-🇸🇬SG_3434
+      - 🇭🇰 @ShareCentre 🇭🇰HK-🇸🇬SG_3436
+      - 🇭🇰 @ShareCentre 🇭🇰HK-🇸🇬SG_3437
+      - 🇭🇰 @ShareCentre 🇭🇰HK_1583
+      - 🇭🇰 @ShareCentre 🇭🇰HK_1615
+      - 🇨🇳 @ShareCentre 🇹🇼TW-🇹🇼TW_4986
+      - 🇭🇰 @ShareCentre 🇺🇸US-🇭🇰HK_6305
+      - 🇸🇬 V1 新加坡
+      - 🇸🇬 V2 新加坡
+      - 🇰🇷 V2 首尔C
+      - 🇭🇰 V2 香港A NF/BILI*YT*
+      - 🇯🇵 日本 JP x1.0 03中转 2
+      - 🇺🇸 美国 US x1.0 01直连
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -199,6 +253,24 @@ proxy-groups:
       - 🏳️‍🌈 buyvm无限流量-5
       - Azure-东南亚
       - 🇷🇺 俄罗斯
+      - 🇭🇰 @ShareCentre 🇭🇰 HK-🇭🇰HK_3382
+      - 🇭🇰 @ShareCentre 🇭🇰HK-🇭🇰HK_3431
+      - 🇭🇰 @ShareCentre 🇭🇰HK-🇭🇰HK_3432
+      - 🇭🇰 @ShareCentre 🇭🇰HK-🇭🇰HK_3438
+      - 🇭🇰 @ShareCentre 🇭🇰HK-🇸🇬SG_3433
+      - 🇭🇰 @ShareCentre 🇭🇰HK-🇸🇬SG_3434
+      - 🇭🇰 @ShareCentre 🇭🇰HK-🇸🇬SG_3436
+      - 🇭🇰 @ShareCentre 🇭🇰HK-🇸🇬SG_3437
+      - 🇭🇰 @ShareCentre 🇭🇰HK_1583
+      - 🇭🇰 @ShareCentre 🇭🇰HK_1615
+      - 🇨🇳 @ShareCentre 🇹🇼TW-🇹🇼TW_4986
+      - 🇭🇰 @ShareCentre 🇺🇸US-🇭🇰HK_6305
+      - 🇸🇬 V1 新加坡
+      - 🇸🇬 V2 新加坡
+      - 🇰🇷 V2 首尔C
+      - 🇭🇰 V2 香港A NF/BILI*YT*
+      - 🇯🇵 日本 JP x1.0 03中转 2
+      - 🇺🇸 美国 US x1.0 01直连
   - name: 📲 电报信息
     type: select
     proxies:
@@ -248,6 +320,24 @@ proxy-groups:
       - 🏳️‍🌈 buyvm无限流量-5
       - Azure-东南亚
       - 🇷🇺 俄罗斯
+      - 🇭🇰 @ShareCentre 🇭🇰 HK-🇭🇰HK_3382
+      - 🇭🇰 @ShareCentre 🇭🇰HK-🇭🇰HK_3431
+      - 🇭🇰 @ShareCentre 🇭🇰HK-🇭🇰HK_3432
+      - 🇭🇰 @ShareCentre 🇭🇰HK-🇭🇰HK_3438
+      - 🇭🇰 @ShareCentre 🇭🇰HK-🇸🇬SG_3433
+      - 🇭🇰 @ShareCentre 🇭🇰HK-🇸🇬SG_3434
+      - 🇭🇰 @ShareCentre 🇭🇰HK-🇸🇬SG_3436
+      - 🇭🇰 @ShareCentre 🇭🇰HK-🇸🇬SG_3437
+      - 🇭🇰 @ShareCentre 🇭🇰HK_1583
+      - 🇭🇰 @ShareCentre 🇭🇰HK_1615
+      - 🇨🇳 @ShareCentre 🇹🇼TW-🇹🇼TW_4986
+      - 🇭🇰 @ShareCentre 🇺🇸US-🇭🇰HK_6305
+      - 🇸🇬 V1 新加坡
+      - 🇸🇬 V2 新加坡
+      - 🇰🇷 V2 首尔C
+      - 🇭🇰 V2 香港A NF/BILI*YT*
+      - 🇯🇵 日本 JP x1.0 03中转 2
+      - 🇺🇸 美国 US x1.0 01直连
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -297,6 +387,24 @@ proxy-groups:
       - 🏳️‍🌈 buyvm无限流量-5
       - Azure-东南亚
       - 🇷🇺 俄罗斯
+      - 🇭🇰 @ShareCentre 🇭🇰 HK-🇭🇰HK_3382
+      - 🇭🇰 @ShareCentre 🇭🇰HK-🇭🇰HK_3431
+      - 🇭🇰 @ShareCentre 🇭🇰HK-🇭🇰HK_3432
+      - 🇭🇰 @ShareCentre 🇭🇰HK-🇭🇰HK_3438
+      - 🇭🇰 @ShareCentre 🇭🇰HK-🇸🇬SG_3433
+      - 🇭🇰 @ShareCentre 🇭🇰HK-🇸🇬SG_3434
+      - 🇭🇰 @ShareCentre 🇭🇰HK-🇸🇬SG_3436
+      - 🇭🇰 @ShareCentre 🇭🇰HK-🇸🇬SG_3437
+      - 🇭🇰 @ShareCentre 🇭🇰HK_1583
+      - 🇭🇰 @ShareCentre 🇭🇰HK_1615
+      - 🇨🇳 @ShareCentre 🇹🇼TW-🇹🇼TW_4986
+      - 🇭🇰 @ShareCentre 🇺🇸US-🇭🇰HK_6305
+      - 🇸🇬 V1 新加坡
+      - 🇸🇬 V2 新加坡
+      - 🇰🇷 V2 首尔C
+      - 🇭🇰 V2 香港A NF/BILI*YT*
+      - 🇯🇵 日本 JP x1.0 03中转 2
+      - 🇺🇸 美国 US x1.0 01直连
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -346,6 +454,24 @@ proxy-groups:
       - 🏳️‍🌈 buyvm无限流量-5
       - Azure-东南亚
       - 🇷🇺 俄罗斯
+      - 🇭🇰 @ShareCentre 🇭🇰 HK-🇭🇰HK_3382
+      - 🇭🇰 @ShareCentre 🇭🇰HK-🇭🇰HK_3431
+      - 🇭🇰 @ShareCentre 🇭🇰HK-🇭🇰HK_3432
+      - 🇭🇰 @ShareCentre 🇭🇰HK-🇭🇰HK_3438
+      - 🇭🇰 @ShareCentre 🇭🇰HK-🇸🇬SG_3433
+      - 🇭🇰 @ShareCentre 🇭🇰HK-🇸🇬SG_3434
+      - 🇭🇰 @ShareCentre 🇭🇰HK-🇸🇬SG_3436
+      - 🇭🇰 @ShareCentre 🇭🇰HK-🇸🇬SG_3437
+      - 🇭🇰 @ShareCentre 🇭🇰HK_1583
+      - 🇭🇰 @ShareCentre 🇭🇰HK_1615
+      - 🇨🇳 @ShareCentre 🇹🇼TW-🇹🇼TW_4986
+      - 🇭🇰 @ShareCentre 🇺🇸US-🇭🇰HK_6305
+      - 🇸🇬 V1 新加坡
+      - 🇸🇬 V2 新加坡
+      - 🇰🇷 V2 首尔C
+      - 🇭🇰 V2 香港A NF/BILI*YT*
+      - 🇯🇵 日本 JP x1.0 03中转 2
+      - 🇺🇸 美国 US x1.0 01直连
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -396,6 +522,24 @@ proxy-groups:
       - 🏳️‍🌈 buyvm无限流量-5
       - Azure-东南亚
       - 🇷🇺 俄罗斯
+      - 🇭🇰 @ShareCentre 🇭🇰 HK-🇭🇰HK_3382
+      - 🇭🇰 @ShareCentre 🇭🇰HK-🇭🇰HK_3431
+      - 🇭🇰 @ShareCentre 🇭🇰HK-🇭🇰HK_3432
+      - 🇭🇰 @ShareCentre 🇭🇰HK-🇭🇰HK_3438
+      - 🇭🇰 @ShareCentre 🇭🇰HK-🇸🇬SG_3433
+      - 🇭🇰 @ShareCentre 🇭🇰HK-🇸🇬SG_3434
+      - 🇭🇰 @ShareCentre 🇭🇰HK-🇸🇬SG_3436
+      - 🇭🇰 @ShareCentre 🇭🇰HK-🇸🇬SG_3437
+      - 🇭🇰 @ShareCentre 🇭🇰HK_1583
+      - 🇭🇰 @ShareCentre 🇭🇰HK_1615
+      - 🇨🇳 @ShareCentre 🇹🇼TW-🇹🇼TW_4986
+      - 🇭🇰 @ShareCentre 🇺🇸US-🇭🇰HK_6305
+      - 🇸🇬 V1 新加坡
+      - 🇸🇬 V2 新加坡
+      - 🇰🇷 V2 首尔C
+      - 🇭🇰 V2 香港A NF/BILI*YT*
+      - 🇯🇵 日本 JP x1.0 03中转 2
+      - 🇺🇸 美国 US x1.0 01直连
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -462,6 +606,24 @@ proxy-groups:
       - 🏳️‍🌈 buyvm无限流量-5
       - Azure-东南亚
       - 🇷🇺 俄罗斯
+      - 🇭🇰 @ShareCentre 🇭🇰 HK-🇭🇰HK_3382
+      - 🇭🇰 @ShareCentre 🇭🇰HK-🇭🇰HK_3431
+      - 🇭🇰 @ShareCentre 🇭🇰HK-🇭🇰HK_3432
+      - 🇭🇰 @ShareCentre 🇭🇰HK-🇭🇰HK_3438
+      - 🇭🇰 @ShareCentre 🇭🇰HK-🇸🇬SG_3433
+      - 🇭🇰 @ShareCentre 🇭🇰HK-🇸🇬SG_3434
+      - 🇭🇰 @ShareCentre 🇭🇰HK-🇸🇬SG_3436
+      - 🇭🇰 @ShareCentre 🇭🇰HK-🇸🇬SG_3437
+      - 🇭🇰 @ShareCentre 🇭🇰HK_1583
+      - 🇭🇰 @ShareCentre 🇭🇰HK_1615
+      - 🇨🇳 @ShareCentre 🇹🇼TW-🇹🇼TW_4986
+      - 🇭🇰 @ShareCentre 🇺🇸US-🇭🇰HK_6305
+      - 🇸🇬 V1 新加坡
+      - 🇸🇬 V2 新加坡
+      - 🇰🇷 V2 首尔C
+      - 🇭🇰 V2 香港A NF/BILI*YT*
+      - 🇯🇵 日本 JP x1.0 03中转 2
+      - 🇺🇸 美国 US x1.0 01直连
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
