@@ -5,373 +5,533 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 二爷翻墙 https://1808.ga, server: 104.19.40.9, port: 443, type: vmess, uuid: bfc6607d-7aa7-4baf-9c22-bf9fb97b573e, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /2yevws, ws-headers: {Host: ccc.1808.cf}}
-  - {name: 二爷翻墙 https://1808.ga 2, server: 23.101.11.40, port: 10008, type: vmess, uuid: 2c6c0162-3236-477e-8ebb-cc48fa7290f1, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /ws, ws-headers: {Host: 23.101.11.40}}
-  - {name: 二爷翻墙 https://1808.ga 3, server: vip345.xyz, port: 39018, type: vmess, uuid: ccf613d6-ce0f-355d-b1ba-c246b9b5a27e, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /sn, ws-headers: {Host: vip345.xyz}}
-  - {name: 🇭🇰 香港Microsoft数据中心 1, server: 23.101.11.40, port: 20022, type: vmess, uuid: 2c6c0162-3236-477e-8ebb-cc48fa7290f1, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /f932c3d98981b, ws-headers: {Host: f932c3d98981b.download.microsoft.com}}
-  - {name: 🇺🇸 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 2, server: 23.224.149.254, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.88904794.xyz}}
-  - {name: 🇭🇰 香港Microsoft数据中心 3, server: 23.101.11.40, port: 10010, type: vmess, uuid: 2c6c0162-3236-477e-8ebb-cc48fa7290f1, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /index, ws-headers: {Host: sg1.xxl123.fun}}
-  - {name: 🇭🇰 香港Microsoft数据中心 4, server: 23.101.11.40, port: 20021, type: vmess, uuid: 2c6c0162-3236-477e-8ebb-cc48fa7290f1, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /ws, ws-headers: {Host: 23.101.11.40}}
-  - {name: 🇨🇳 广东省广州市移动 5, server: gzyd.iganfan.store, port: 10130, type: vmess, uuid: 2c6c0162-3236-477e-8ebb-cc48fa7290f1, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: sg3.xxl123.fun}}
-  - {name: 广东省揭阳市移动 6, server: cm-jm.okvpn.xyz, port: 20015, type: vmess, uuid: 940e2252-f723-4816-9535-87b209de80fc, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
-  - {name: 🇭🇰 香港Microsoft数据中心 7, server: 23.101.11.40, port: 10003, type: vmess, uuid: 2c6c0162-3236-477e-8ebb-cc48fa7290f1, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /f932c3d98981b, ws-headers: {Host: f932c3d98981b.download.microsoft.com}}
-  - {name: 🇯🇵 日本东京M247网络 8, server: 5.183.176.117, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.80482495.xyz}}
-  - {name: 🇷🇺 俄罗斯莫斯科JustHost 9, server: 45.135.135.93, port: 8080, type: vmess, uuid: 884688eb-d63b-4186-961d-f3b5deac45de, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: m.t.17186.cn}}
-  - {name: 🇷🇺 俄罗斯  10, server: t8.ssrsub.one, port: 2096, type: trojan, password: 8fYXtJON, sni: t8.ssrsub.one}
-  - {name: 🇺🇸 美国内华达州拉斯维加斯BuyVM 11, server: t7.ssrsub.one, port: 2096, type: trojan, password: 7v49wZXS, sni: t7.ssrsub.one}
-  - {name: 🇺🇸 美国加利福尼亚州洛杉矶市Coperation Coloction数据中心 12, server: 23.224.8.91, port: 443, type: vmess, uuid: 116dbc8a-ec13-49a5-b954-d49f65630ba4, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.10925848.xyz}}
-  - {name: 🇺🇸 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 13, server: 23.225.28.173, port: 443, type: vmess, uuid: da31df4d-3477-4064-884b-e6ff947ac117, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.10855945.xyz}}
-  - {name: 🇨🇦 加拿大安大略省基奇纳DataCity数据中心 14, server: t3.ssrsub.one, port: 2096, type: trojan, password: rvAjK7R2, sni: t3.ssrsub.one}
-  - {name: 🇨🇦 加拿大  15, server: t4.ssrsub.one, port: 2096, type: trojan, password: KTxHfpze, sni: t4.ssrsub.one}
-  - {name: 🇨🇦 加拿大安大略省基奇纳DataCity数据中心 16, server: t1.ssrsub.one, port: 2096, type: trojan, password: upfdQ5t4, sni: t1.ssrsub.one}
-  - {name: 🇨🇦 加拿大安大略省基奇纳DataCity数据中心 17, server: t5.ssrsub.one, port: 2096, type: trojan, password: JIwQySqZ, sni: t5.ssrsub.one}
-  - {name: 🇳🇱 荷兰  18, server: 46.182.107.147, port: 443, type: vmess, uuid: 77a48930-1e67-4a72-96be-3e584858ea4f, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.73207635.xyz}}
-  - {name: 🇳🇱 荷兰  19, server: 46.182.107.44, port: 443, type: vmess, uuid: 33b1f366-4537-437f-b3f6-20b0e0046828, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.27430248.xyz}}
-  - {name: 🇷🇺 俄罗斯新西伯利亚JustHost 20, server: t6.ssrsub.one, port: 2096, type: trojan, password: GUulsP45, sni: t6.ssrsub.one}
-  - {name: 🇺🇸 美国Cloudinnovation数据中心 21, server: 154.84.1.146, port: 443, type: vmess, uuid: 3268727a-7556-4211-8a49-2cf5c5096da4, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.79570456.xyz}}
-  - {name: 🇺🇸 美国Cloudinnovation数据中心 22, server: 154.84.1.116, port: 443, type: vmess, uuid: b349f65b-4b19-4255-9ee2-b679990540e7, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.25936911.xyz}}
-  - {name: 🇺🇸 美国Cloudinnovation数据中心 23, server: 154.84.1.215, port: 443, type: vmess, uuid: 756f5f10-6bda-4dd0-bf07-5c4d61773611, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.61020861.xyz}}
-  - {name: 🇺🇸 美国Cloudinnovation数据中心 24, server: 154.84.1.214, port: 443, type: vmess, uuid: 756f5f10-6bda-4dd0-bf07-5c4d61773611, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.61020861.xyz}}
-  - {name: 🇺🇸 美国Cloudinnovation数据中心 25, server: 154.84.1.217, port: 443, type: vmess, uuid: d03a8fbf-7d51-46c3-b02d-17ff0b32e4c5, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.53103739.xyz}}
-  - {name: 🇳🇱 荷兰  26, server: 46.182.107.3, port: 443, type: vmess, uuid: b2aa7a8a-ab88-4c0f-a310-0b9456c69420, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.33960870.xyz}}
+  - {name: 二爷翻墙网https://1808.ga, server: 141.101.115.45, port: 443, type: vmess, uuid: bfc6607d-7aa7-4baf-9c22-bf9fb97b573e, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: "/2yevws?ed=2048", ws-headers: {Host: ccc.1808.cf}}
+  - {name: 二爷翻墙网https://1808.ga 2, server: 104.19.34.189, port: 443, type: vmess, uuid: bfc6607d-7aa7-4baf-9c22-bf9fb97b573e, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /2yevws, ws-headers: {Host: ccc.1808.cf}}
+  - {name: 二爷翻墙网https://1808.ga 3, server: 104.17.97.230, port: 443, type: vmess, uuid: bfc6607d-7aa7-4baf-9c22-bf9fb97b573e, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: "/2yevws?ed=2048", ws-headers: {Host: ccc.1808.cf}}
+  - {name: 🇭🇰 香港3 原生|华南移动|V3, server: gmgm.xlanfly.xyz, port: 34001, type: vmess, uuid: 55b85b35-5390-462d-9ff9-c864fb59a4bb, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: gmgm.xlanfly.xyz}}
+  - {name: 🇭🇰 香港9 原生|华南移动|V2, server: gmgm.xlanfly.xyz, port: 34000, type: vmess, uuid: 55b85b35-5390-462d-9ff9-c864fb59a4bb, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: hk1ut.gin.udauda.tech}}
+  - {name: 🇭🇰 香港6 原生|华南移动|V3, server: gmgm.xlanfly.xyz, port: 34011, type: vmess, uuid: 55b85b35-5390-462d-9ff9-c864fb59a4bb, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: gmgm.xlanfly.xyz}}
+  - {name: 🇭🇰 HK-Azure | V2 | 广移中转, server: ngzyd.okex-tradebot.xyz, port: 30002, type: vmess, uuid: a799bedc-4eb3-4ea7-a239-21ab43d65a03, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: ngzyd.okex-tradebot.xyz}}
+  - {name: 🇭🇰 HK-HKBN | V2 | 广移中转, server: ngzyd.okex-tradebot.xyz, port: 30000, type: vmess, uuid: a799bedc-4eb3-4ea7-a239-21ab43d65a03, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: ngzyd.okex-tradebot.xyz}}
+  - {name: 🇨🇳 台湾6 原生|华南移动|V2, server: gmgm.xlanfly.xyz, port: 34004, type: vmess, uuid: 55b85b35-5390-462d-9ff9-c864fb59a4bb, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: hinetddns.qiqifamily.top}}
+  - {name: 🇭🇰 中转|香港CMHK03|华南隧道, server: cm-jm.okvpn.cloud, port: 20001, type: vmess, uuid: b6fef7a3-00d3-4cef-961a-dcadb69975fa, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.cloud}}
+  - {name: 🇭🇰 中转|香港CMHK02|华南隧道, server: cm-jm.okvpn.cloud, port: 20001, type: vmess, uuid: b6fef7a3-00d3-4cef-961a-dcadb69975fa, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.cloud}}
+  - {name: 🇨🇳 【中转】TWN/台湾 A - 苏州电信, server: 58.211.137.1, port: 80, type: vmess, uuid: 197a81f2-fd2c-4d26-88db-72170a8df6a7, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 004.cdn.8x.cx.hit.edu.cn}}
+  - {name: 🇭🇰 中转|香港CMHK04|华南隧道, server: cm-jm.okvpn.cloud, port: 20001, type: vmess, uuid: b6fef7a3-00d3-4cef-961a-dcadb69975fa, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.cloud}}
+  - {name: 🇸🇬 新加坡6 NF|广州移动|V3, server: jmmj.xlanfly.xyz, port: 40005, type: vmess, uuid: 55b85b35-5390-462d-9ff9-c864fb59a4bb, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: jmmj.xlanfly.xyz}}
+  - {name: 🇯🇵 【中转】JPN/日本 A - 天津电信, server: 42.81.8.1, port: 80, type: vmess, uuid: 197a81f2-fd2c-4d26-88db-72170a8df6a7, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 006.cdn.8x.cx.hit.edu.cn}}
+  - {name: 🇯🇵 超级节点|日本Alibaba07|三网优化, server: superaga.okvpn.cloud, port: 12000, type: vmess, uuid: b6fef7a3-00d3-4cef-961a-dcadb69975fa, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: super-hk.smdynet.com}}
+  - {name: 🇺🇸 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 1, server: 23.224.149.254, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.88904794.xyz}}
+  - {name: 🇺🇸 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 2, server: 23.224.191.30, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.16397120.xyz}}
+  - {name: 🇯🇵 日本东京Linode数据中心 3, server: auto.freev2.top, port: 16041, type: vmess, uuid: 9bba52a8-152c-45f9-a7f8-e0cd5710bdbf, alterId: 1, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本东京M247网络 4, server: 5.183.176.117, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.80482495.xyz}}
+  - {name: 🇺🇸 北美地区  5, server: 104.200.131.165, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇺🇸 美国3COM公司企业网 6, server: 152.67.225.114, port: 23456, type: vmess, uuid: 86e46276-7b5a-445e-8a66-1f3ec592fc8f, alterId: 32, cipher: auto, tls: false, network: ws, ws-path: /cs, ws-headers: {Host: 152.67.225.114}}
+  - {name: 🇺🇸 美国内华达州拉斯维加斯BuyVM数据中心 7, server: 209.141.32.238, port: 32917, type: vmess, uuid: 552f62be-f7ca-465d-b18e-e081e8241ca2, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇩🇪 美国科罗拉多州布隆菲尔德市Level 3通信股份有限公司 8, server: vip345.xyz, port: 39017, type: vmess, uuid: ccf613d6-ce0f-355d-b1ba-c246b9b5a27e, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /sn, ws-headers: {Host: vip345.xyz}}
+  - {name: 欧盟  9, server: 45.88.179.35, port: 44657, type: vmess, uuid: 085e6815-e476-411a-a9a6-4e5306a1b875, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国内华达州拉斯维加斯BuyVM 10, server: t7.ssrsub.one, port: 2096, type: trojan, password: 7v49wZXS, sni: t7.ssrsub.one}
+  - {name: 🇬🇧 英国伦敦Amazon数据中心 11, server: 35.178.68.152, port: 47611, type: vmess, uuid: 97a4d167-b361-48b8-b004-8bc45669e334, alterId: 0, cipher: auto, tls: false}
+  - {name: 乌克兰  12, server: 5.183.179.94, port: 47148, type: vmess, uuid: 730cb94d-012a-4bfc-aa2a-1573f63e5905, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国内华达州拉斯维加斯BuyVM 13, server: 205.185.122.222, port: 2087, type: vmess, uuid: 30e03d66-cb5b-11eb-b078-001683f0971e, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /UOjlVRpk/, ws-headers: {Host: a7.ssrsub.one}}
+  - {name: 🇺🇸 美国CloudFlare公司CDN节点 14, server: 104.19.40.9, port: 443, type: vmess, uuid: bfc6607d-7aa7-4baf-9c22-bf9fb97b573e, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /2yevws, ws-headers: {Host: ccc.1808.cf}}
+  - {name: 🇺🇸 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 15, server: 23.225.28.173, port: 443, type: vmess, uuid: da31df4d-3477-4064-884b-e6ff947ac117, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.10855945.xyz}}
+  - {name: 🇺🇸 美国加利福尼亚州洛杉矶市Coperation Coloction数据中心 16, server: 23.224.8.91, port: 443, type: vmess, uuid: 116dbc8a-ec13-49a5-b954-d49f65630ba4, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.10925848.xyz}}
+  - {name: 🇷🇴 罗马尼亚  17, server: 91.90.121.163, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇨🇦 加拿大安大略省基奇纳DataCity数据中心 18, server: t3.ssrsub.one, port: 2096, type: trojan, password: rvAjK7R2, sni: t3.ssrsub.one}
+  - {name: 🇨🇦 加拿大安大略省基奇纳DataCity数据中心 19, server: t5.ssrsub.one, port: 2096, type: trojan, password: JIwQySqZ, sni: t5.ssrsub.one}
+  - {name: 🇩🇰 丹麦哥本哈根Digital VM 20, server: 5.183.101.200, port: 35374, type: vmess, uuid: 62836733-0014-4014-e0e3-908eea2f3063, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇨🇦 加拿大安大略省基奇纳DataCity数据中心 21, server: t1.ssrsub.one, port: 2096, type: trojan, password: upfdQ5t4, sni: t1.ssrsub.one}
+  - {name: 🇺🇸 美国CloudFlare公司CDN节点 22, server: cfcn.9sep.org, port: 80, type: vmess, uuid: f22a80af-a9c9-3360-841e-25610688f353, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /w421x2bx2za, ws-headers: {Host: nj.sb-cloud.cf}}
+  - {name: 🇷🇺 俄罗斯  23, server: 80.85.156.31, port: 37705, type: ss, cipher: chacha20-ietf-poly1305, password: xiaodongyoutuber}
+  - {name: 🇨🇦 加拿大安大略省基奇纳DataCity数据中心 24, server: t2.ssrsub.one, port: 2096, type: trojan, password: CNd95TWH, sni: t2.ssrsub.one}
+  - {name: 🇺🇸 美国Amazon EC2服务器 25, server: 3.66.221.175, port: 31186, type: vmess, uuid: 3ebad99a-4470-4998-94be-43046d0b4986, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国Cloudinnovation数据中心 26, server: 154.84.1.199, port: 443, type: vmess, uuid: 3268727a-7556-4211-8a49-2cf5c5096da4, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.79570456.xyz}}
   - {name: 🇺🇸 美国Cloudinnovation数据中心 27, server: 154.84.1.106, port: 443, type: vmess, uuid: a8089885-9602-4052-b1a3-1c9e02df635d, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.63681459.xyz}}
-  - {name: 🇨🇦 加拿大安大略省基奇纳DataCity数据中心 28, server: t2.ssrsub.one, port: 2096, type: trojan, password: CNd95TWH, sni: t2.ssrsub.one}
-  - {name: 🇺🇸 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 29, server: 23.224.191.2, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.09149731.xyz}}
-  - {name: 🇺🇸 美国Cloudinnovation数据中心 30, server: 154.84.1.199, port: 443, type: vmess, uuid: 3268727a-7556-4211-8a49-2cf5c5096da4, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.79570456.xyz}}
-  - {name: 🇬🇧 英国伦敦Amazon数据中心 31, server: 35.178.68.152, port: 47611, type: vmess, uuid: 97a4d167-b361-48b8-b004-8bc45669e334, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇳🇱 荷兰  32, server: 46.182.107.150, port: 443, type: vmess, uuid: d3243794-6fe7-437d-862f-0a6392d00f70, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.06321530.xyz}}
-  - {name: 欧盟  33, server: 45.88.179.35, port: 44657, type: vmess, uuid: 085e6815-e476-411a-a9a6-4e5306a1b875, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 34, server: 23.224.191.30, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.16397120.xyz}}
-  - {name: 🇺🇸 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 35, server: 23.224.191.13, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.64212792.xyz}}
-  - {name: 波兰  36, server: 95.214.55.119, port: 16408, type: vmess, uuid: 4e49e7c6-b7cd-4c74-c022-2add80a19556, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国加利福尼亚州旧金山Amazon数据中心 37, server: us.linn.ink, port: 80, type: ss, cipher: chacha20-ietf-poly1305, password: 39341fe7-b8b7-4605-a811-af1f1d46d4fb}
-  - {name: 🇺🇸 美国Amazon EC2服务器 38, server: 3.66.221.175, port: 31186, type: vmess, uuid: 3ebad99a-4470-4998-94be-43046d0b4986, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国Cloudinnovation数据中心, server: 154.84.1.116, port: 443, type: vmess, uuid: b349f65b-4b19-4255-9ee2-b679990540e7, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.25936911.xyz}}
+  - {name: 🇳🇱 荷兰  29, server: 46.182.107.44, port: 443, type: vmess, uuid: 33b1f366-4537-437f-b3f6-20b0e0046828, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.27430248.xyz}}
+  - {name: 🇳🇱 荷兰  30, server: 46.182.107.3, port: 443, type: vmess, uuid: b2aa7a8a-ab88-4c0f-a310-0b9456c69420, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.33960870.xyz}}
+  - {name: 🇺🇸 美国Cloudinnovation数据中心 31, server: 154.84.1.146, port: 443, type: vmess, uuid: 3268727a-7556-4211-8a49-2cf5c5096da4, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.79570456.xyz}}
+  - {name: 🇺🇸 美国Cloudinnovation数据中心 32, server: 154.84.1.215, port: 443, type: vmess, uuid: 756f5f10-6bda-4dd0-bf07-5c4d61773611, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.61020861.xyz}}
+  - {name: 🇳🇱 荷兰  33, server: 46.182.107.147, port: 443, type: vmess, uuid: 77a48930-1e67-4a72-96be-3e584858ea4f, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.73207635.xyz}}
+  - {name: 🇺🇸 美国Cloudinnovation数据中心 34, server: 154.84.1.214, port: 443, type: vmess, uuid: 756f5f10-6bda-4dd0-bf07-5c4d61773611, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.61020861.xyz}}
+  - {name: 🇳🇱 荷兰  35, server: 46.182.107.150, port: 443, type: vmess, uuid: d3243794-6fe7-437d-862f-0a6392d00f70, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.06321530.xyz}}
+  - {name: 🇺🇸 美国Cloudinnovation数据中心 36, server: 154.84.1.217, port: 443, type: vmess, uuid: d03a8fbf-7d51-46c3-b02d-17ff0b32e4c5, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.53103739.xyz}}
+  - {name: 🇺🇸 美国弗吉尼亚州阿什本Amazon数据中心 37, server: ac2088.herokuapp.com, port: 443, type: vmess, uuid: d1babe08-f8ac-490b-b66f-9be27467f3cc, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /d1babe08-f8ac-490b-b66f-9be27467f3cc-vmess, ws-headers: {Host: ac2088.herokuapp.com}}
+  - {name: 🇺🇸 美国CloudFlare节点 38, server: 172.67.154.85, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇺🇸 美国CloudFlare公司CDN节点 39, server: 104.18.6.138, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 波兰  40, server: 95.214.55.119, port: 16408, type: vmess, uuid: 4e49e7c6-b7cd-4c74-c022-2add80a19556, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国CloudFlare公司CDN节点 41, server: 104.18.7.138, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇺🇸 美国CloudFlare公司CDN节点 42, server: 104.21.48.161, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇷🇺 俄罗斯  43, server: 80.85.156.31, port: 40331, type: vmess, uuid: f3dc16e3-715c-4839-abd3-8e0c6df46064, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇷🇺 俄罗斯  44, server: 213.59.118.168, port: 2087, type: vmess, uuid: 3622a9e4-cb5b-11eb-9cac-97a1c60690e1, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /4UTY85mc/, ws-headers: {Host: a8.ssrsub.one}}
+  - {name: 🇺🇸 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 45, server: 23.224.191.2, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.09149731.xyz}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 二爷翻墙 https://1808.ga
-      - 二爷翻墙 https://1808.ga 2
-      - 二爷翻墙 https://1808.ga 3
-      - 🇭🇰 香港Microsoft数据中心 1
+      - 二爷翻墙网https://1808.ga
+      - 二爷翻墙网https://1808.ga 2
+      - 二爷翻墙网https://1808.ga 3
+      - 🇭🇰 香港3 原生|华南移动|V3
+      - 🇭🇰 香港9 原生|华南移动|V2
+      - 🇭🇰 香港6 原生|华南移动|V3
+      - 🇭🇰 HK-Azure | V2 | 广移中转
+      - 🇭🇰 HK-HKBN | V2 | 广移中转
+      - 🇨🇳 台湾6 原生|华南移动|V2
+      - 🇭🇰 中转|香港CMHK03|华南隧道
+      - 🇭🇰 中转|香港CMHK02|华南隧道
+      - 🇨🇳 【中转】TWN/台湾 A - 苏州电信
+      - 🇭🇰 中转|香港CMHK04|华南隧道
+      - 🇸🇬 新加坡6 NF|广州移动|V3
+      - 🇯🇵 【中转】JPN/日本 A - 天津电信
+      - 🇯🇵 超级节点|日本Alibaba07|三网优化
+      - 🇺🇸 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 1
       - 🇺🇸 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 2
-      - 🇭🇰 香港Microsoft数据中心 3
-      - 🇭🇰 香港Microsoft数据中心 4
-      - 🇨🇳 广东省广州市移动 5
-      - 广东省揭阳市移动 6
-      - 🇭🇰 香港Microsoft数据中心 7
-      - 🇯🇵 日本东京M247网络 8
-      - 🇷🇺 俄罗斯莫斯科JustHost 9
-      - 🇷🇺 俄罗斯  10
-      - 🇺🇸 美国内华达州拉斯维加斯BuyVM 11
-      - 🇺🇸 美国加利福尼亚州洛杉矶市Coperation Coloction数据中心 12
-      - 🇺🇸 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 13
-      - 🇨🇦 加拿大安大略省基奇纳DataCity数据中心 14
-      - 🇨🇦 加拿大  15
-      - 🇨🇦 加拿大安大略省基奇纳DataCity数据中心 16
-      - 🇨🇦 加拿大安大略省基奇纳DataCity数据中心 17
-      - 🇳🇱 荷兰  18
-      - 🇳🇱 荷兰  19
-      - 🇷🇺 俄罗斯新西伯利亚JustHost 20
-      - 🇺🇸 美国Cloudinnovation数据中心 21
-      - 🇺🇸 美国Cloudinnovation数据中心 22
-      - 🇺🇸 美国Cloudinnovation数据中心 23
-      - 🇺🇸 美国Cloudinnovation数据中心 24
-      - 🇺🇸 美国Cloudinnovation数据中心 25
-      - 🇳🇱 荷兰  26
+      - 🇯🇵 日本东京Linode数据中心 3
+      - 🇯🇵 日本东京M247网络 4
+      - 🇺🇸 北美地区  5
+      - 🇺🇸 美国3COM公司企业网 6
+      - 🇺🇸 美国内华达州拉斯维加斯BuyVM数据中心 7
+      - 🇩🇪 美国科罗拉多州布隆菲尔德市Level 3通信股份有限公司 8
+      - 欧盟  9
+      - 🇺🇸 美国内华达州拉斯维加斯BuyVM 10
+      - 🇬🇧 英国伦敦Amazon数据中心 11
+      - 乌克兰  12
+      - 🇺🇸 美国内华达州拉斯维加斯BuyVM 13
+      - 🇺🇸 美国CloudFlare公司CDN节点 14
+      - 🇺🇸 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 15
+      - 🇺🇸 美国加利福尼亚州洛杉矶市Coperation Coloction数据中心 16
+      - 🇷🇴 罗马尼亚  17
+      - 🇨🇦 加拿大安大略省基奇纳DataCity数据中心 18
+      - 🇨🇦 加拿大安大略省基奇纳DataCity数据中心 19
+      - 🇩🇰 丹麦哥本哈根Digital VM 20
+      - 🇨🇦 加拿大安大略省基奇纳DataCity数据中心 21
+      - 🇺🇸 美国CloudFlare公司CDN节点 22
+      - 🇷🇺 俄罗斯  23
+      - 🇨🇦 加拿大安大略省基奇纳DataCity数据中心 24
+      - 🇺🇸 美国Amazon EC2服务器 25
+      - 🇺🇸 美国Cloudinnovation数据中心 26
       - 🇺🇸 美国Cloudinnovation数据中心 27
-      - 🇨🇦 加拿大安大略省基奇纳DataCity数据中心 28
-      - 🇺🇸 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 29
-      - 🇺🇸 美国Cloudinnovation数据中心 30
-      - 🇬🇧 英国伦敦Amazon数据中心 31
-      - 🇳🇱 荷兰  32
-      - 欧盟  33
-      - 🇺🇸 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 34
-      - 🇺🇸 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 35
-      - 波兰  36
-      - 🇺🇸 美国加利福尼亚州旧金山Amazon数据中心 37
-      - 🇺🇸 美国Amazon EC2服务器 38
+      - 🇺🇸 美国Cloudinnovation数据中心
+      - 🇳🇱 荷兰  29
+      - 🇳🇱 荷兰  30
+      - 🇺🇸 美国Cloudinnovation数据中心 31
+      - 🇺🇸 美国Cloudinnovation数据中心 32
+      - 🇳🇱 荷兰  33
+      - 🇺🇸 美国Cloudinnovation数据中心 34
+      - 🇳🇱 荷兰  35
+      - 🇺🇸 美国Cloudinnovation数据中心 36
+      - 🇺🇸 美国弗吉尼亚州阿什本Amazon数据中心 37
+      - 🇺🇸 美国CloudFlare节点 38
+      - 🇺🇸 美国CloudFlare公司CDN节点 39
+      - 波兰  40
+      - 🇺🇸 美国CloudFlare公司CDN节点 41
+      - 🇺🇸 美国CloudFlare公司CDN节点 42
+      - 🇷🇺 俄罗斯  43
+      - 🇷🇺 俄罗斯  44
+      - 🇺🇸 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 45
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 二爷翻墙 https://1808.ga
-      - 二爷翻墙 https://1808.ga 2
-      - 二爷翻墙 https://1808.ga 3
-      - 🇭🇰 香港Microsoft数据中心 1
+      - 二爷翻墙网https://1808.ga
+      - 二爷翻墙网https://1808.ga 2
+      - 二爷翻墙网https://1808.ga 3
+      - 🇭🇰 香港3 原生|华南移动|V3
+      - 🇭🇰 香港9 原生|华南移动|V2
+      - 🇭🇰 香港6 原生|华南移动|V3
+      - 🇭🇰 HK-Azure | V2 | 广移中转
+      - 🇭🇰 HK-HKBN | V2 | 广移中转
+      - 🇨🇳 台湾6 原生|华南移动|V2
+      - 🇭🇰 中转|香港CMHK03|华南隧道
+      - 🇭🇰 中转|香港CMHK02|华南隧道
+      - 🇨🇳 【中转】TWN/台湾 A - 苏州电信
+      - 🇭🇰 中转|香港CMHK04|华南隧道
+      - 🇸🇬 新加坡6 NF|广州移动|V3
+      - 🇯🇵 【中转】JPN/日本 A - 天津电信
+      - 🇯🇵 超级节点|日本Alibaba07|三网优化
+      - 🇺🇸 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 1
       - 🇺🇸 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 2
-      - 🇭🇰 香港Microsoft数据中心 3
-      - 🇭🇰 香港Microsoft数据中心 4
-      - 🇨🇳 广东省广州市移动 5
-      - 广东省揭阳市移动 6
-      - 🇭🇰 香港Microsoft数据中心 7
-      - 🇯🇵 日本东京M247网络 8
-      - 🇷🇺 俄罗斯莫斯科JustHost 9
-      - 🇷🇺 俄罗斯  10
-      - 🇺🇸 美国内华达州拉斯维加斯BuyVM 11
-      - 🇺🇸 美国加利福尼亚州洛杉矶市Coperation Coloction数据中心 12
-      - 🇺🇸 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 13
-      - 🇨🇦 加拿大安大略省基奇纳DataCity数据中心 14
-      - 🇨🇦 加拿大  15
-      - 🇨🇦 加拿大安大略省基奇纳DataCity数据中心 16
-      - 🇨🇦 加拿大安大略省基奇纳DataCity数据中心 17
-      - 🇳🇱 荷兰  18
-      - 🇳🇱 荷兰  19
-      - 🇷🇺 俄罗斯新西伯利亚JustHost 20
-      - 🇺🇸 美国Cloudinnovation数据中心 21
-      - 🇺🇸 美国Cloudinnovation数据中心 22
-      - 🇺🇸 美国Cloudinnovation数据中心 23
-      - 🇺🇸 美国Cloudinnovation数据中心 24
-      - 🇺🇸 美国Cloudinnovation数据中心 25
-      - 🇳🇱 荷兰  26
+      - 🇯🇵 日本东京Linode数据中心 3
+      - 🇯🇵 日本东京M247网络 4
+      - 🇺🇸 北美地区  5
+      - 🇺🇸 美国3COM公司企业网 6
+      - 🇺🇸 美国内华达州拉斯维加斯BuyVM数据中心 7
+      - 🇩🇪 美国科罗拉多州布隆菲尔德市Level 3通信股份有限公司 8
+      - 欧盟  9
+      - 🇺🇸 美国内华达州拉斯维加斯BuyVM 10
+      - 🇬🇧 英国伦敦Amazon数据中心 11
+      - 乌克兰  12
+      - 🇺🇸 美国内华达州拉斯维加斯BuyVM 13
+      - 🇺🇸 美国CloudFlare公司CDN节点 14
+      - 🇺🇸 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 15
+      - 🇺🇸 美国加利福尼亚州洛杉矶市Coperation Coloction数据中心 16
+      - 🇷🇴 罗马尼亚  17
+      - 🇨🇦 加拿大安大略省基奇纳DataCity数据中心 18
+      - 🇨🇦 加拿大安大略省基奇纳DataCity数据中心 19
+      - 🇩🇰 丹麦哥本哈根Digital VM 20
+      - 🇨🇦 加拿大安大略省基奇纳DataCity数据中心 21
+      - 🇺🇸 美国CloudFlare公司CDN节点 22
+      - 🇷🇺 俄罗斯  23
+      - 🇨🇦 加拿大安大略省基奇纳DataCity数据中心 24
+      - 🇺🇸 美国Amazon EC2服务器 25
+      - 🇺🇸 美国Cloudinnovation数据中心 26
       - 🇺🇸 美国Cloudinnovation数据中心 27
-      - 🇨🇦 加拿大安大略省基奇纳DataCity数据中心 28
-      - 🇺🇸 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 29
-      - 🇺🇸 美国Cloudinnovation数据中心 30
-      - 🇬🇧 英国伦敦Amazon数据中心 31
-      - 🇳🇱 荷兰  32
-      - 欧盟  33
-      - 🇺🇸 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 34
-      - 🇺🇸 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 35
-      - 波兰  36
-      - 🇺🇸 美国加利福尼亚州旧金山Amazon数据中心 37
-      - 🇺🇸 美国Amazon EC2服务器 38
+      - 🇺🇸 美国Cloudinnovation数据中心
+      - 🇳🇱 荷兰  29
+      - 🇳🇱 荷兰  30
+      - 🇺🇸 美国Cloudinnovation数据中心 31
+      - 🇺🇸 美国Cloudinnovation数据中心 32
+      - 🇳🇱 荷兰  33
+      - 🇺🇸 美国Cloudinnovation数据中心 34
+      - 🇳🇱 荷兰  35
+      - 🇺🇸 美国Cloudinnovation数据中心 36
+      - 🇺🇸 美国弗吉尼亚州阿什本Amazon数据中心 37
+      - 🇺🇸 美国CloudFlare节点 38
+      - 🇺🇸 美国CloudFlare公司CDN节点 39
+      - 波兰  40
+      - 🇺🇸 美国CloudFlare公司CDN节点 41
+      - 🇺🇸 美国CloudFlare公司CDN节点 42
+      - 🇷🇺 俄罗斯  43
+      - 🇷🇺 俄罗斯  44
+      - 🇺🇸 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 45
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 二爷翻墙 https://1808.ga
-      - 二爷翻墙 https://1808.ga 2
-      - 二爷翻墙 https://1808.ga 3
-      - 🇭🇰 香港Microsoft数据中心 1
+      - 二爷翻墙网https://1808.ga
+      - 二爷翻墙网https://1808.ga 2
+      - 二爷翻墙网https://1808.ga 3
+      - 🇭🇰 香港3 原生|华南移动|V3
+      - 🇭🇰 香港9 原生|华南移动|V2
+      - 🇭🇰 香港6 原生|华南移动|V3
+      - 🇭🇰 HK-Azure | V2 | 广移中转
+      - 🇭🇰 HK-HKBN | V2 | 广移中转
+      - 🇨🇳 台湾6 原生|华南移动|V2
+      - 🇭🇰 中转|香港CMHK03|华南隧道
+      - 🇭🇰 中转|香港CMHK02|华南隧道
+      - 🇨🇳 【中转】TWN/台湾 A - 苏州电信
+      - 🇭🇰 中转|香港CMHK04|华南隧道
+      - 🇸🇬 新加坡6 NF|广州移动|V3
+      - 🇯🇵 【中转】JPN/日本 A - 天津电信
+      - 🇯🇵 超级节点|日本Alibaba07|三网优化
+      - 🇺🇸 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 1
       - 🇺🇸 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 2
-      - 🇭🇰 香港Microsoft数据中心 3
-      - 🇭🇰 香港Microsoft数据中心 4
-      - 🇨🇳 广东省广州市移动 5
-      - 广东省揭阳市移动 6
-      - 🇭🇰 香港Microsoft数据中心 7
-      - 🇯🇵 日本东京M247网络 8
-      - 🇷🇺 俄罗斯莫斯科JustHost 9
-      - 🇷🇺 俄罗斯  10
-      - 🇺🇸 美国内华达州拉斯维加斯BuyVM 11
-      - 🇺🇸 美国加利福尼亚州洛杉矶市Coperation Coloction数据中心 12
-      - 🇺🇸 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 13
-      - 🇨🇦 加拿大安大略省基奇纳DataCity数据中心 14
-      - 🇨🇦 加拿大  15
-      - 🇨🇦 加拿大安大略省基奇纳DataCity数据中心 16
-      - 🇨🇦 加拿大安大略省基奇纳DataCity数据中心 17
-      - 🇳🇱 荷兰  18
-      - 🇳🇱 荷兰  19
-      - 🇷🇺 俄罗斯新西伯利亚JustHost 20
-      - 🇺🇸 美国Cloudinnovation数据中心 21
-      - 🇺🇸 美国Cloudinnovation数据中心 22
-      - 🇺🇸 美国Cloudinnovation数据中心 23
-      - 🇺🇸 美国Cloudinnovation数据中心 24
-      - 🇺🇸 美国Cloudinnovation数据中心 25
-      - 🇳🇱 荷兰  26
+      - 🇯🇵 日本东京Linode数据中心 3
+      - 🇯🇵 日本东京M247网络 4
+      - 🇺🇸 北美地区  5
+      - 🇺🇸 美国3COM公司企业网 6
+      - 🇺🇸 美国内华达州拉斯维加斯BuyVM数据中心 7
+      - 🇩🇪 美国科罗拉多州布隆菲尔德市Level 3通信股份有限公司 8
+      - 欧盟  9
+      - 🇺🇸 美国内华达州拉斯维加斯BuyVM 10
+      - 🇬🇧 英国伦敦Amazon数据中心 11
+      - 乌克兰  12
+      - 🇺🇸 美国内华达州拉斯维加斯BuyVM 13
+      - 🇺🇸 美国CloudFlare公司CDN节点 14
+      - 🇺🇸 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 15
+      - 🇺🇸 美国加利福尼亚州洛杉矶市Coperation Coloction数据中心 16
+      - 🇷🇴 罗马尼亚  17
+      - 🇨🇦 加拿大安大略省基奇纳DataCity数据中心 18
+      - 🇨🇦 加拿大安大略省基奇纳DataCity数据中心 19
+      - 🇩🇰 丹麦哥本哈根Digital VM 20
+      - 🇨🇦 加拿大安大略省基奇纳DataCity数据中心 21
+      - 🇺🇸 美国CloudFlare公司CDN节点 22
+      - 🇷🇺 俄罗斯  23
+      - 🇨🇦 加拿大安大略省基奇纳DataCity数据中心 24
+      - 🇺🇸 美国Amazon EC2服务器 25
+      - 🇺🇸 美国Cloudinnovation数据中心 26
       - 🇺🇸 美国Cloudinnovation数据中心 27
-      - 🇨🇦 加拿大安大略省基奇纳DataCity数据中心 28
-      - 🇺🇸 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 29
-      - 🇺🇸 美国Cloudinnovation数据中心 30
-      - 🇬🇧 英国伦敦Amazon数据中心 31
-      - 🇳🇱 荷兰  32
-      - 欧盟  33
-      - 🇺🇸 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 34
-      - 🇺🇸 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 35
-      - 波兰  36
-      - 🇺🇸 美国加利福尼亚州旧金山Amazon数据中心 37
-      - 🇺🇸 美国Amazon EC2服务器 38
+      - 🇺🇸 美国Cloudinnovation数据中心
+      - 🇳🇱 荷兰  29
+      - 🇳🇱 荷兰  30
+      - 🇺🇸 美国Cloudinnovation数据中心 31
+      - 🇺🇸 美国Cloudinnovation数据中心 32
+      - 🇳🇱 荷兰  33
+      - 🇺🇸 美国Cloudinnovation数据中心 34
+      - 🇳🇱 荷兰  35
+      - 🇺🇸 美国Cloudinnovation数据中心 36
+      - 🇺🇸 美国弗吉尼亚州阿什本Amazon数据中心 37
+      - 🇺🇸 美国CloudFlare节点 38
+      - 🇺🇸 美国CloudFlare公司CDN节点 39
+      - 波兰  40
+      - 🇺🇸 美国CloudFlare公司CDN节点 41
+      - 🇺🇸 美国CloudFlare公司CDN节点 42
+      - 🇷🇺 俄罗斯  43
+      - 🇷🇺 俄罗斯  44
+      - 🇺🇸 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 45
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 二爷翻墙 https://1808.ga
-      - 二爷翻墙 https://1808.ga 2
-      - 二爷翻墙 https://1808.ga 3
-      - 🇭🇰 香港Microsoft数据中心 1
+      - 二爷翻墙网https://1808.ga
+      - 二爷翻墙网https://1808.ga 2
+      - 二爷翻墙网https://1808.ga 3
+      - 🇭🇰 香港3 原生|华南移动|V3
+      - 🇭🇰 香港9 原生|华南移动|V2
+      - 🇭🇰 香港6 原生|华南移动|V3
+      - 🇭🇰 HK-Azure | V2 | 广移中转
+      - 🇭🇰 HK-HKBN | V2 | 广移中转
+      - 🇨🇳 台湾6 原生|华南移动|V2
+      - 🇭🇰 中转|香港CMHK03|华南隧道
+      - 🇭🇰 中转|香港CMHK02|华南隧道
+      - 🇨🇳 【中转】TWN/台湾 A - 苏州电信
+      - 🇭🇰 中转|香港CMHK04|华南隧道
+      - 🇸🇬 新加坡6 NF|广州移动|V3
+      - 🇯🇵 【中转】JPN/日本 A - 天津电信
+      - 🇯🇵 超级节点|日本Alibaba07|三网优化
+      - 🇺🇸 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 1
       - 🇺🇸 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 2
-      - 🇭🇰 香港Microsoft数据中心 3
-      - 🇭🇰 香港Microsoft数据中心 4
-      - 🇨🇳 广东省广州市移动 5
-      - 广东省揭阳市移动 6
-      - 🇭🇰 香港Microsoft数据中心 7
-      - 🇯🇵 日本东京M247网络 8
-      - 🇷🇺 俄罗斯莫斯科JustHost 9
-      - 🇷🇺 俄罗斯  10
-      - 🇺🇸 美国内华达州拉斯维加斯BuyVM 11
-      - 🇺🇸 美国加利福尼亚州洛杉矶市Coperation Coloction数据中心 12
-      - 🇺🇸 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 13
-      - 🇨🇦 加拿大安大略省基奇纳DataCity数据中心 14
-      - 🇨🇦 加拿大  15
-      - 🇨🇦 加拿大安大略省基奇纳DataCity数据中心 16
-      - 🇨🇦 加拿大安大略省基奇纳DataCity数据中心 17
-      - 🇳🇱 荷兰  18
-      - 🇳🇱 荷兰  19
-      - 🇷🇺 俄罗斯新西伯利亚JustHost 20
-      - 🇺🇸 美国Cloudinnovation数据中心 21
-      - 🇺🇸 美国Cloudinnovation数据中心 22
-      - 🇺🇸 美国Cloudinnovation数据中心 23
-      - 🇺🇸 美国Cloudinnovation数据中心 24
-      - 🇺🇸 美国Cloudinnovation数据中心 25
-      - 🇳🇱 荷兰  26
+      - 🇯🇵 日本东京Linode数据中心 3
+      - 🇯🇵 日本东京M247网络 4
+      - 🇺🇸 北美地区  5
+      - 🇺🇸 美国3COM公司企业网 6
+      - 🇺🇸 美国内华达州拉斯维加斯BuyVM数据中心 7
+      - 🇩🇪 美国科罗拉多州布隆菲尔德市Level 3通信股份有限公司 8
+      - 欧盟  9
+      - 🇺🇸 美国内华达州拉斯维加斯BuyVM 10
+      - 🇬🇧 英国伦敦Amazon数据中心 11
+      - 乌克兰  12
+      - 🇺🇸 美国内华达州拉斯维加斯BuyVM 13
+      - 🇺🇸 美国CloudFlare公司CDN节点 14
+      - 🇺🇸 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 15
+      - 🇺🇸 美国加利福尼亚州洛杉矶市Coperation Coloction数据中心 16
+      - 🇷🇴 罗马尼亚  17
+      - 🇨🇦 加拿大安大略省基奇纳DataCity数据中心 18
+      - 🇨🇦 加拿大安大略省基奇纳DataCity数据中心 19
+      - 🇩🇰 丹麦哥本哈根Digital VM 20
+      - 🇨🇦 加拿大安大略省基奇纳DataCity数据中心 21
+      - 🇺🇸 美国CloudFlare公司CDN节点 22
+      - 🇷🇺 俄罗斯  23
+      - 🇨🇦 加拿大安大略省基奇纳DataCity数据中心 24
+      - 🇺🇸 美国Amazon EC2服务器 25
+      - 🇺🇸 美国Cloudinnovation数据中心 26
       - 🇺🇸 美国Cloudinnovation数据中心 27
-      - 🇨🇦 加拿大安大略省基奇纳DataCity数据中心 28
-      - 🇺🇸 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 29
-      - 🇺🇸 美国Cloudinnovation数据中心 30
-      - 🇬🇧 英国伦敦Amazon数据中心 31
-      - 🇳🇱 荷兰  32
-      - 欧盟  33
-      - 🇺🇸 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 34
-      - 🇺🇸 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 35
-      - 波兰  36
-      - 🇺🇸 美国加利福尼亚州旧金山Amazon数据中心 37
-      - 🇺🇸 美国Amazon EC2服务器 38
+      - 🇺🇸 美国Cloudinnovation数据中心
+      - 🇳🇱 荷兰  29
+      - 🇳🇱 荷兰  30
+      - 🇺🇸 美国Cloudinnovation数据中心 31
+      - 🇺🇸 美国Cloudinnovation数据中心 32
+      - 🇳🇱 荷兰  33
+      - 🇺🇸 美国Cloudinnovation数据中心 34
+      - 🇳🇱 荷兰  35
+      - 🇺🇸 美国Cloudinnovation数据中心 36
+      - 🇺🇸 美国弗吉尼亚州阿什本Amazon数据中心 37
+      - 🇺🇸 美国CloudFlare节点 38
+      - 🇺🇸 美国CloudFlare公司CDN节点 39
+      - 波兰  40
+      - 🇺🇸 美国CloudFlare公司CDN节点 41
+      - 🇺🇸 美国CloudFlare公司CDN节点 42
+      - 🇷🇺 俄罗斯  43
+      - 🇷🇺 俄罗斯  44
+      - 🇺🇸 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 45
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 二爷翻墙 https://1808.ga
-      - 二爷翻墙 https://1808.ga 2
-      - 二爷翻墙 https://1808.ga 3
-      - 🇭🇰 香港Microsoft数据中心 1
+      - 二爷翻墙网https://1808.ga
+      - 二爷翻墙网https://1808.ga 2
+      - 二爷翻墙网https://1808.ga 3
+      - 🇭🇰 香港3 原生|华南移动|V3
+      - 🇭🇰 香港9 原生|华南移动|V2
+      - 🇭🇰 香港6 原生|华南移动|V3
+      - 🇭🇰 HK-Azure | V2 | 广移中转
+      - 🇭🇰 HK-HKBN | V2 | 广移中转
+      - 🇨🇳 台湾6 原生|华南移动|V2
+      - 🇭🇰 中转|香港CMHK03|华南隧道
+      - 🇭🇰 中转|香港CMHK02|华南隧道
+      - 🇨🇳 【中转】TWN/台湾 A - 苏州电信
+      - 🇭🇰 中转|香港CMHK04|华南隧道
+      - 🇸🇬 新加坡6 NF|广州移动|V3
+      - 🇯🇵 【中转】JPN/日本 A - 天津电信
+      - 🇯🇵 超级节点|日本Alibaba07|三网优化
+      - 🇺🇸 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 1
       - 🇺🇸 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 2
-      - 🇭🇰 香港Microsoft数据中心 3
-      - 🇭🇰 香港Microsoft数据中心 4
-      - 🇨🇳 广东省广州市移动 5
-      - 广东省揭阳市移动 6
-      - 🇭🇰 香港Microsoft数据中心 7
-      - 🇯🇵 日本东京M247网络 8
-      - 🇷🇺 俄罗斯莫斯科JustHost 9
-      - 🇷🇺 俄罗斯  10
-      - 🇺🇸 美国内华达州拉斯维加斯BuyVM 11
-      - 🇺🇸 美国加利福尼亚州洛杉矶市Coperation Coloction数据中心 12
-      - 🇺🇸 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 13
-      - 🇨🇦 加拿大安大略省基奇纳DataCity数据中心 14
-      - 🇨🇦 加拿大  15
-      - 🇨🇦 加拿大安大略省基奇纳DataCity数据中心 16
-      - 🇨🇦 加拿大安大略省基奇纳DataCity数据中心 17
-      - 🇳🇱 荷兰  18
-      - 🇳🇱 荷兰  19
-      - 🇷🇺 俄罗斯新西伯利亚JustHost 20
-      - 🇺🇸 美国Cloudinnovation数据中心 21
-      - 🇺🇸 美国Cloudinnovation数据中心 22
-      - 🇺🇸 美国Cloudinnovation数据中心 23
-      - 🇺🇸 美国Cloudinnovation数据中心 24
-      - 🇺🇸 美国Cloudinnovation数据中心 25
-      - 🇳🇱 荷兰  26
+      - 🇯🇵 日本东京Linode数据中心 3
+      - 🇯🇵 日本东京M247网络 4
+      - 🇺🇸 北美地区  5
+      - 🇺🇸 美国3COM公司企业网 6
+      - 🇺🇸 美国内华达州拉斯维加斯BuyVM数据中心 7
+      - 🇩🇪 美国科罗拉多州布隆菲尔德市Level 3通信股份有限公司 8
+      - 欧盟  9
+      - 🇺🇸 美国内华达州拉斯维加斯BuyVM 10
+      - 🇬🇧 英国伦敦Amazon数据中心 11
+      - 乌克兰  12
+      - 🇺🇸 美国内华达州拉斯维加斯BuyVM 13
+      - 🇺🇸 美国CloudFlare公司CDN节点 14
+      - 🇺🇸 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 15
+      - 🇺🇸 美国加利福尼亚州洛杉矶市Coperation Coloction数据中心 16
+      - 🇷🇴 罗马尼亚  17
+      - 🇨🇦 加拿大安大略省基奇纳DataCity数据中心 18
+      - 🇨🇦 加拿大安大略省基奇纳DataCity数据中心 19
+      - 🇩🇰 丹麦哥本哈根Digital VM 20
+      - 🇨🇦 加拿大安大略省基奇纳DataCity数据中心 21
+      - 🇺🇸 美国CloudFlare公司CDN节点 22
+      - 🇷🇺 俄罗斯  23
+      - 🇨🇦 加拿大安大略省基奇纳DataCity数据中心 24
+      - 🇺🇸 美国Amazon EC2服务器 25
+      - 🇺🇸 美国Cloudinnovation数据中心 26
       - 🇺🇸 美国Cloudinnovation数据中心 27
-      - 🇨🇦 加拿大安大略省基奇纳DataCity数据中心 28
-      - 🇺🇸 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 29
-      - 🇺🇸 美国Cloudinnovation数据中心 30
-      - 🇬🇧 英国伦敦Amazon数据中心 31
-      - 🇳🇱 荷兰  32
-      - 欧盟  33
-      - 🇺🇸 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 34
-      - 🇺🇸 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 35
-      - 波兰  36
-      - 🇺🇸 美国加利福尼亚州旧金山Amazon数据中心 37
-      - 🇺🇸 美国Amazon EC2服务器 38
+      - 🇺🇸 美国Cloudinnovation数据中心
+      - 🇳🇱 荷兰  29
+      - 🇳🇱 荷兰  30
+      - 🇺🇸 美国Cloudinnovation数据中心 31
+      - 🇺🇸 美国Cloudinnovation数据中心 32
+      - 🇳🇱 荷兰  33
+      - 🇺🇸 美国Cloudinnovation数据中心 34
+      - 🇳🇱 荷兰  35
+      - 🇺🇸 美国Cloudinnovation数据中心 36
+      - 🇺🇸 美国弗吉尼亚州阿什本Amazon数据中心 37
+      - 🇺🇸 美国CloudFlare节点 38
+      - 🇺🇸 美国CloudFlare公司CDN节点 39
+      - 波兰  40
+      - 🇺🇸 美国CloudFlare公司CDN节点 41
+      - 🇺🇸 美国CloudFlare公司CDN节点 42
+      - 🇷🇺 俄罗斯  43
+      - 🇷🇺 俄罗斯  44
+      - 🇺🇸 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 45
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 二爷翻墙 https://1808.ga
-      - 二爷翻墙 https://1808.ga 2
-      - 二爷翻墙 https://1808.ga 3
-      - 🇭🇰 香港Microsoft数据中心 1
+      - 二爷翻墙网https://1808.ga
+      - 二爷翻墙网https://1808.ga 2
+      - 二爷翻墙网https://1808.ga 3
+      - 🇭🇰 香港3 原生|华南移动|V3
+      - 🇭🇰 香港9 原生|华南移动|V2
+      - 🇭🇰 香港6 原生|华南移动|V3
+      - 🇭🇰 HK-Azure | V2 | 广移中转
+      - 🇭🇰 HK-HKBN | V2 | 广移中转
+      - 🇨🇳 台湾6 原生|华南移动|V2
+      - 🇭🇰 中转|香港CMHK03|华南隧道
+      - 🇭🇰 中转|香港CMHK02|华南隧道
+      - 🇨🇳 【中转】TWN/台湾 A - 苏州电信
+      - 🇭🇰 中转|香港CMHK04|华南隧道
+      - 🇸🇬 新加坡6 NF|广州移动|V3
+      - 🇯🇵 【中转】JPN/日本 A - 天津电信
+      - 🇯🇵 超级节点|日本Alibaba07|三网优化
+      - 🇺🇸 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 1
       - 🇺🇸 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 2
-      - 🇭🇰 香港Microsoft数据中心 3
-      - 🇭🇰 香港Microsoft数据中心 4
-      - 🇨🇳 广东省广州市移动 5
-      - 广东省揭阳市移动 6
-      - 🇭🇰 香港Microsoft数据中心 7
-      - 🇯🇵 日本东京M247网络 8
-      - 🇷🇺 俄罗斯莫斯科JustHost 9
-      - 🇷🇺 俄罗斯  10
-      - 🇺🇸 美国内华达州拉斯维加斯BuyVM 11
-      - 🇺🇸 美国加利福尼亚州洛杉矶市Coperation Coloction数据中心 12
-      - 🇺🇸 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 13
-      - 🇨🇦 加拿大安大略省基奇纳DataCity数据中心 14
-      - 🇨🇦 加拿大  15
-      - 🇨🇦 加拿大安大略省基奇纳DataCity数据中心 16
-      - 🇨🇦 加拿大安大略省基奇纳DataCity数据中心 17
-      - 🇳🇱 荷兰  18
-      - 🇳🇱 荷兰  19
-      - 🇷🇺 俄罗斯新西伯利亚JustHost 20
-      - 🇺🇸 美国Cloudinnovation数据中心 21
-      - 🇺🇸 美国Cloudinnovation数据中心 22
-      - 🇺🇸 美国Cloudinnovation数据中心 23
-      - 🇺🇸 美国Cloudinnovation数据中心 24
-      - 🇺🇸 美国Cloudinnovation数据中心 25
-      - 🇳🇱 荷兰  26
+      - 🇯🇵 日本东京Linode数据中心 3
+      - 🇯🇵 日本东京M247网络 4
+      - 🇺🇸 北美地区  5
+      - 🇺🇸 美国3COM公司企业网 6
+      - 🇺🇸 美国内华达州拉斯维加斯BuyVM数据中心 7
+      - 🇩🇪 美国科罗拉多州布隆菲尔德市Level 3通信股份有限公司 8
+      - 欧盟  9
+      - 🇺🇸 美国内华达州拉斯维加斯BuyVM 10
+      - 🇬🇧 英国伦敦Amazon数据中心 11
+      - 乌克兰  12
+      - 🇺🇸 美国内华达州拉斯维加斯BuyVM 13
+      - 🇺🇸 美国CloudFlare公司CDN节点 14
+      - 🇺🇸 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 15
+      - 🇺🇸 美国加利福尼亚州洛杉矶市Coperation Coloction数据中心 16
+      - 🇷🇴 罗马尼亚  17
+      - 🇨🇦 加拿大安大略省基奇纳DataCity数据中心 18
+      - 🇨🇦 加拿大安大略省基奇纳DataCity数据中心 19
+      - 🇩🇰 丹麦哥本哈根Digital VM 20
+      - 🇨🇦 加拿大安大略省基奇纳DataCity数据中心 21
+      - 🇺🇸 美国CloudFlare公司CDN节点 22
+      - 🇷🇺 俄罗斯  23
+      - 🇨🇦 加拿大安大略省基奇纳DataCity数据中心 24
+      - 🇺🇸 美国Amazon EC2服务器 25
+      - 🇺🇸 美国Cloudinnovation数据中心 26
       - 🇺🇸 美国Cloudinnovation数据中心 27
-      - 🇨🇦 加拿大安大略省基奇纳DataCity数据中心 28
-      - 🇺🇸 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 29
-      - 🇺🇸 美国Cloudinnovation数据中心 30
-      - 🇬🇧 英国伦敦Amazon数据中心 31
-      - 🇳🇱 荷兰  32
-      - 欧盟  33
-      - 🇺🇸 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 34
-      - 🇺🇸 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 35
-      - 波兰  36
-      - 🇺🇸 美国加利福尼亚州旧金山Amazon数据中心 37
-      - 🇺🇸 美国Amazon EC2服务器 38
+      - 🇺🇸 美国Cloudinnovation数据中心
+      - 🇳🇱 荷兰  29
+      - 🇳🇱 荷兰  30
+      - 🇺🇸 美国Cloudinnovation数据中心 31
+      - 🇺🇸 美国Cloudinnovation数据中心 32
+      - 🇳🇱 荷兰  33
+      - 🇺🇸 美国Cloudinnovation数据中心 34
+      - 🇳🇱 荷兰  35
+      - 🇺🇸 美国Cloudinnovation数据中心 36
+      - 🇺🇸 美国弗吉尼亚州阿什本Amazon数据中心 37
+      - 🇺🇸 美国CloudFlare节点 38
+      - 🇺🇸 美国CloudFlare公司CDN节点 39
+      - 波兰  40
+      - 🇺🇸 美国CloudFlare公司CDN节点 41
+      - 🇺🇸 美国CloudFlare公司CDN节点 42
+      - 🇷🇺 俄罗斯  43
+      - 🇷🇺 俄罗斯  44
+      - 🇺🇸 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 45
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 二爷翻墙 https://1808.ga
-      - 二爷翻墙 https://1808.ga 2
-      - 二爷翻墙 https://1808.ga 3
-      - 🇭🇰 香港Microsoft数据中心 1
+      - 二爷翻墙网https://1808.ga
+      - 二爷翻墙网https://1808.ga 2
+      - 二爷翻墙网https://1808.ga 3
+      - 🇭🇰 香港3 原生|华南移动|V3
+      - 🇭🇰 香港9 原生|华南移动|V2
+      - 🇭🇰 香港6 原生|华南移动|V3
+      - 🇭🇰 HK-Azure | V2 | 广移中转
+      - 🇭🇰 HK-HKBN | V2 | 广移中转
+      - 🇨🇳 台湾6 原生|华南移动|V2
+      - 🇭🇰 中转|香港CMHK03|华南隧道
+      - 🇭🇰 中转|香港CMHK02|华南隧道
+      - 🇨🇳 【中转】TWN/台湾 A - 苏州电信
+      - 🇭🇰 中转|香港CMHK04|华南隧道
+      - 🇸🇬 新加坡6 NF|广州移动|V3
+      - 🇯🇵 【中转】JPN/日本 A - 天津电信
+      - 🇯🇵 超级节点|日本Alibaba07|三网优化
+      - 🇺🇸 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 1
       - 🇺🇸 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 2
-      - 🇭🇰 香港Microsoft数据中心 3
-      - 🇭🇰 香港Microsoft数据中心 4
-      - 🇨🇳 广东省广州市移动 5
-      - 广东省揭阳市移动 6
-      - 🇭🇰 香港Microsoft数据中心 7
-      - 🇯🇵 日本东京M247网络 8
-      - 🇷🇺 俄罗斯莫斯科JustHost 9
-      - 🇷🇺 俄罗斯  10
-      - 🇺🇸 美国内华达州拉斯维加斯BuyVM 11
-      - 🇺🇸 美国加利福尼亚州洛杉矶市Coperation Coloction数据中心 12
-      - 🇺🇸 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 13
-      - 🇨🇦 加拿大安大略省基奇纳DataCity数据中心 14
-      - 🇨🇦 加拿大  15
-      - 🇨🇦 加拿大安大略省基奇纳DataCity数据中心 16
-      - 🇨🇦 加拿大安大略省基奇纳DataCity数据中心 17
-      - 🇳🇱 荷兰  18
-      - 🇳🇱 荷兰  19
-      - 🇷🇺 俄罗斯新西伯利亚JustHost 20
-      - 🇺🇸 美国Cloudinnovation数据中心 21
-      - 🇺🇸 美国Cloudinnovation数据中心 22
-      - 🇺🇸 美国Cloudinnovation数据中心 23
-      - 🇺🇸 美国Cloudinnovation数据中心 24
-      - 🇺🇸 美国Cloudinnovation数据中心 25
-      - 🇳🇱 荷兰  26
+      - 🇯🇵 日本东京Linode数据中心 3
+      - 🇯🇵 日本东京M247网络 4
+      - 🇺🇸 北美地区  5
+      - 🇺🇸 美国3COM公司企业网 6
+      - 🇺🇸 美国内华达州拉斯维加斯BuyVM数据中心 7
+      - 🇩🇪 美国科罗拉多州布隆菲尔德市Level 3通信股份有限公司 8
+      - 欧盟  9
+      - 🇺🇸 美国内华达州拉斯维加斯BuyVM 10
+      - 🇬🇧 英国伦敦Amazon数据中心 11
+      - 乌克兰  12
+      - 🇺🇸 美国内华达州拉斯维加斯BuyVM 13
+      - 🇺🇸 美国CloudFlare公司CDN节点 14
+      - 🇺🇸 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 15
+      - 🇺🇸 美国加利福尼亚州洛杉矶市Coperation Coloction数据中心 16
+      - 🇷🇴 罗马尼亚  17
+      - 🇨🇦 加拿大安大略省基奇纳DataCity数据中心 18
+      - 🇨🇦 加拿大安大略省基奇纳DataCity数据中心 19
+      - 🇩🇰 丹麦哥本哈根Digital VM 20
+      - 🇨🇦 加拿大安大略省基奇纳DataCity数据中心 21
+      - 🇺🇸 美国CloudFlare公司CDN节点 22
+      - 🇷🇺 俄罗斯  23
+      - 🇨🇦 加拿大安大略省基奇纳DataCity数据中心 24
+      - 🇺🇸 美国Amazon EC2服务器 25
+      - 🇺🇸 美国Cloudinnovation数据中心 26
       - 🇺🇸 美国Cloudinnovation数据中心 27
-      - 🇨🇦 加拿大安大略省基奇纳DataCity数据中心 28
-      - 🇺🇸 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 29
-      - 🇺🇸 美国Cloudinnovation数据中心 30
-      - 🇬🇧 英国伦敦Amazon数据中心 31
-      - 🇳🇱 荷兰  32
-      - 欧盟  33
-      - 🇺🇸 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 34
-      - 🇺🇸 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 35
-      - 波兰  36
-      - 🇺🇸 美国加利福尼亚州旧金山Amazon数据中心 37
-      - 🇺🇸 美国Amazon EC2服务器 38
+      - 🇺🇸 美国Cloudinnovation数据中心
+      - 🇳🇱 荷兰  29
+      - 🇳🇱 荷兰  30
+      - 🇺🇸 美国Cloudinnovation数据中心 31
+      - 🇺🇸 美国Cloudinnovation数据中心 32
+      - 🇳🇱 荷兰  33
+      - 🇺🇸 美国Cloudinnovation数据中心 34
+      - 🇳🇱 荷兰  35
+      - 🇺🇸 美国Cloudinnovation数据中心 36
+      - 🇺🇸 美国弗吉尼亚州阿什本Amazon数据中心 37
+      - 🇺🇸 美国CloudFlare节点 38
+      - 🇺🇸 美国CloudFlare公司CDN节点 39
+      - 波兰  40
+      - 🇺🇸 美国CloudFlare公司CDN节点 41
+      - 🇺🇸 美国CloudFlare公司CDN节点 42
+      - 🇷🇺 俄罗斯  43
+      - 🇷🇺 俄罗斯  44
+      - 🇺🇸 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 45
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -394,47 +554,67 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 二爷翻墙 https://1808.ga
-      - 二爷翻墙 https://1808.ga 2
-      - 二爷翻墙 https://1808.ga 3
-      - 🇭🇰 香港Microsoft数据中心 1
+      - 二爷翻墙网https://1808.ga
+      - 二爷翻墙网https://1808.ga 2
+      - 二爷翻墙网https://1808.ga 3
+      - 🇭🇰 香港3 原生|华南移动|V3
+      - 🇭🇰 香港9 原生|华南移动|V2
+      - 🇭🇰 香港6 原生|华南移动|V3
+      - 🇭🇰 HK-Azure | V2 | 广移中转
+      - 🇭🇰 HK-HKBN | V2 | 广移中转
+      - 🇨🇳 台湾6 原生|华南移动|V2
+      - 🇭🇰 中转|香港CMHK03|华南隧道
+      - 🇭🇰 中转|香港CMHK02|华南隧道
+      - 🇨🇳 【中转】TWN/台湾 A - 苏州电信
+      - 🇭🇰 中转|香港CMHK04|华南隧道
+      - 🇸🇬 新加坡6 NF|广州移动|V3
+      - 🇯🇵 【中转】JPN/日本 A - 天津电信
+      - 🇯🇵 超级节点|日本Alibaba07|三网优化
+      - 🇺🇸 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 1
       - 🇺🇸 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 2
-      - 🇭🇰 香港Microsoft数据中心 3
-      - 🇭🇰 香港Microsoft数据中心 4
-      - 🇨🇳 广东省广州市移动 5
-      - 广东省揭阳市移动 6
-      - 🇭🇰 香港Microsoft数据中心 7
-      - 🇯🇵 日本东京M247网络 8
-      - 🇷🇺 俄罗斯莫斯科JustHost 9
-      - 🇷🇺 俄罗斯  10
-      - 🇺🇸 美国内华达州拉斯维加斯BuyVM 11
-      - 🇺🇸 美国加利福尼亚州洛杉矶市Coperation Coloction数据中心 12
-      - 🇺🇸 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 13
-      - 🇨🇦 加拿大安大略省基奇纳DataCity数据中心 14
-      - 🇨🇦 加拿大  15
-      - 🇨🇦 加拿大安大略省基奇纳DataCity数据中心 16
-      - 🇨🇦 加拿大安大略省基奇纳DataCity数据中心 17
-      - 🇳🇱 荷兰  18
-      - 🇳🇱 荷兰  19
-      - 🇷🇺 俄罗斯新西伯利亚JustHost 20
-      - 🇺🇸 美国Cloudinnovation数据中心 21
-      - 🇺🇸 美国Cloudinnovation数据中心 22
-      - 🇺🇸 美国Cloudinnovation数据中心 23
-      - 🇺🇸 美国Cloudinnovation数据中心 24
-      - 🇺🇸 美国Cloudinnovation数据中心 25
-      - 🇳🇱 荷兰  26
+      - 🇯🇵 日本东京Linode数据中心 3
+      - 🇯🇵 日本东京M247网络 4
+      - 🇺🇸 北美地区  5
+      - 🇺🇸 美国3COM公司企业网 6
+      - 🇺🇸 美国内华达州拉斯维加斯BuyVM数据中心 7
+      - 🇩🇪 美国科罗拉多州布隆菲尔德市Level 3通信股份有限公司 8
+      - 欧盟  9
+      - 🇺🇸 美国内华达州拉斯维加斯BuyVM 10
+      - 🇬🇧 英国伦敦Amazon数据中心 11
+      - 乌克兰  12
+      - 🇺🇸 美国内华达州拉斯维加斯BuyVM 13
+      - 🇺🇸 美国CloudFlare公司CDN节点 14
+      - 🇺🇸 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 15
+      - 🇺🇸 美国加利福尼亚州洛杉矶市Coperation Coloction数据中心 16
+      - 🇷🇴 罗马尼亚  17
+      - 🇨🇦 加拿大安大略省基奇纳DataCity数据中心 18
+      - 🇨🇦 加拿大安大略省基奇纳DataCity数据中心 19
+      - 🇩🇰 丹麦哥本哈根Digital VM 20
+      - 🇨🇦 加拿大安大略省基奇纳DataCity数据中心 21
+      - 🇺🇸 美国CloudFlare公司CDN节点 22
+      - 🇷🇺 俄罗斯  23
+      - 🇨🇦 加拿大安大略省基奇纳DataCity数据中心 24
+      - 🇺🇸 美国Amazon EC2服务器 25
+      - 🇺🇸 美国Cloudinnovation数据中心 26
       - 🇺🇸 美国Cloudinnovation数据中心 27
-      - 🇨🇦 加拿大安大略省基奇纳DataCity数据中心 28
-      - 🇺🇸 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 29
-      - 🇺🇸 美国Cloudinnovation数据中心 30
-      - 🇬🇧 英国伦敦Amazon数据中心 31
-      - 🇳🇱 荷兰  32
-      - 欧盟  33
-      - 🇺🇸 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 34
-      - 🇺🇸 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 35
-      - 波兰  36
-      - 🇺🇸 美国加利福尼亚州旧金山Amazon数据中心 37
-      - 🇺🇸 美国Amazon EC2服务器 38
+      - 🇺🇸 美国Cloudinnovation数据中心
+      - 🇳🇱 荷兰  29
+      - 🇳🇱 荷兰  30
+      - 🇺🇸 美国Cloudinnovation数据中心 31
+      - 🇺🇸 美国Cloudinnovation数据中心 32
+      - 🇳🇱 荷兰  33
+      - 🇺🇸 美国Cloudinnovation数据中心 34
+      - 🇳🇱 荷兰  35
+      - 🇺🇸 美国Cloudinnovation数据中心 36
+      - 🇺🇸 美国弗吉尼亚州阿什本Amazon数据中心 37
+      - 🇺🇸 美国CloudFlare节点 38
+      - 🇺🇸 美国CloudFlare公司CDN节点 39
+      - 波兰  40
+      - 🇺🇸 美国CloudFlare公司CDN节点 41
+      - 🇺🇸 美国CloudFlare公司CDN节点 42
+      - 🇷🇺 俄罗斯  43
+      - 🇷🇺 俄罗斯  44
+      - 🇺🇸 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 45
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
