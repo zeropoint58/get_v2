@@ -5,461 +5,221 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 二爷翻墙网https://1808.ga, server: 104.19.12.47, port: 443, type: vmess, uuid: aa209e52-9bfa-4c05-96b0-e962da2cb457, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /xrayvws, ws-headers: {Host: c.1808.cf}}
-  - {name: 二爷翻墙网https://1808.ga 2, server: 104.19.88.77, port: 443, type: vmess, uuid: aa209e52-9bfa-4c05-96b0-e962da2cb457, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /xrayvws, ws-headers: {Host: c.1808.cf}}
-  - {name: 二爷翻墙网https://1808.ga 3, server: 104.19.51.244, port: 443, type: vmess, uuid: aa209e52-9bfa-4c05-96b0-e962da2cb457, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /xrayvws, ws-headers: {Host: c.1808.cf}}
-  - {name: 二爷翻墙网https://1808.ga 4, server: 172.67.12.182, port: 443, type: vmess, uuid: aa209e52-9bfa-4c05-96b0-e962da2cb457, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /xrayvws, ws-headers: {Host: c.1808.cf}}
-  - {name: 二爷翻墙网https://1808.ga 5, server: 104.27.123.78, port: 443, type: vmess, uuid: aa209e52-9bfa-4c05-96b0-e962da2cb457, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /xrayvws, ws-headers: {Host: c.1808.cf}}
-  - {name: 二爷翻墙网https://1808.ga 6, server: 104.19.18.117, port: 443, type: vmess, uuid: aa209e52-9bfa-4c05-96b0-e962da2cb457, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /xrayvws, ws-headers: {Host: c.1808.cf}}
-  - {name: 二爷翻墙网https://1808.ga 7, server: 104.19.111.163, port: 443, type: vmess, uuid: aa209e52-9bfa-4c05-96b0-e962da2cb457, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /xrayvws, ws-headers: {Host: c.1808.cf}}
-  - {name: 🇨🇳 - 台湾省中华电信(HiNet)数据中心 3, server: 60.251.50.20, port: 443, type: vmess, uuid: 5ba738e7-0abf-4935-b67e-d404a083d6a6, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.92809472.xyz}}
-  - {name: 2222, server: 138.199.16.147, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 二爷翻墙网 https://1808.ga, server: 138.199.16.140, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: "- 欧洲  24", server: 138.199.16.137, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇳🇱 - 荷兰  26, server: 46.182.107.151, port: 443, type: vmess, uuid: f5250c4e-f855-4eff-b73c-a02226d42fe7, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.06321530.xyz}}
-  - {name: 🇨🇳 - 北京市Amazon数据中心 1, server: 52.81.94.63, port: 30030, type: vmess, uuid: 39341fe7-b8b7-4605-a811-af1f1d46d4fb, alterId: 100, cipher: auto, tls: false}
-  - {name: 🇺🇸 - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 2, server: 23.82.11.49, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 3, server: 23.82.11.49, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 二爷翻墙网 https://1808.ga 2, server: 143.244.60.164, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: "- 欧洲  5", server: 138.199.42.135, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇭🇰 - 香港CDN77节点 6, server: 84.17.58.134, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇳🇱 - 荷兰  7, server: 46.182.107.151, port: 443, type: vmess, uuid: f5250c4e-f855-4eff-b73c-a02226d42fe7, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.06321530.xyz}}
-  - {name: 🇳🇱 - 荷兰  8, server: 46.182.107.37, port: 443, type: vmess, uuid: 65ea6727-4461-47a7-a5c4-fef2c67f2f68, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.32811341.xyz}}
-  - {name: 🇺🇸 - 美国Cloudinnovation数据中心 9, server: 154.84.1.156, port: 443, type: vmess, uuid: 21155efd-8e29-43d2-95bc-fe3190ecb1c6, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.51334583.xyz}}
-  - {name: 🇳🇱 - 荷兰  10, server: 46.182.107.144, port: 443, type: vmess, uuid: acedd8e0-e654-4a40-935d-5594c6c114bd, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.61020861.xyz}}
-  - {name: 二爷翻墙网 https://1808.ga 3, server: 46.182.107.93, port: 443, type: vmess, uuid: 743bdc87-1dea-41bf-aa0b-96dfbbfec8aa, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.79570456.xyz}}
-  - {name: 🇳🇱 - 荷兰  12, server: 46.182.107.94, port: 443, type: vmess, uuid: 743bdc87-1dea-41bf-aa0b-96dfbbfec8aa, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.79570456.xyz}}
-  - {name: 🇳🇱 - 荷兰  13, server: 46.182.107.157, port: 443, type: vmess, uuid: 20b30916-e203-412e-8ec0-900f3acd3588, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.25936911.xyz}}
-  - {name: 二爷翻墙网 https://1808.ga 4, server: 46.182.107.154, port: 443, type: vmess, uuid: 130c9f2e-42b1-4ebf-b345-e26111a061f9, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.53103739.xyz}}
-  - {name: 🇳🇱 - 荷兰  15, server: 46.182.107.145, port: 443, type: vmess, uuid: acedd8e0-e654-4a40-935d-5594c6c114bd, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.61020861.xyz}}
-  - {name: 🇳🇱 - 荷兰  16, server: 46.182.107.148, port: 443, type: vmess, uuid: 1d474f0b-e78d-4af9-bc4a-a539467bc7a7, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.73207635.xyz}}
-  - {name: 🇬🇧 - 英国社会保险安全部 17, server: 51.195.217.20, port: 80, type: vmess, uuid: 6c0cb6a9-2389-4b5d-8bec-b14b076f4a4e, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /sshocean, ws-headers: {Host: 51.195.217.20}}
-  - {name: 🇺🇸 - 北美地区  18, server: 104.200.131.165, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇮🇳 - 印度  19, server: 137.59.52.107, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇨🇳 【直连】TWN/台湾 B, server: twn01.ip4.ddns.acg.photos, port: 80, type: vmess, uuid: 848667cc-9fe4-4343-afc5-90089a8b7ad0, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: twn01.ip4.ddns.acg.photos}}
-  - {name: 二爷翻墙网 https://1808.ga 5, server: sgaws2.biteb.xyz, port: 51087, type: vmess, uuid: e20a6091-496b-305c-b134-9449f1c05473, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: sgaws2.biteb.xyz}}
-  - {name: 二爷翻墙网 https://1808.ga 6, server: 20.205.226.243, port: 80, type: vmess, uuid: c14a0bb4-8bd2-4264-8dc6-1ad028994d8f, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 20.205.226.243}}
-  - {name: "🇯🇵 中转|日本GMO06|华南隧道[流媒体解锁]", server: cm-jm.okvpn.cc, port: 20015, type: vmess, uuid: 18b61e56-ecc2-41fb-b7f0-a13507d59487, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.cc}}
-  - {name: 🇨🇳 【中转】TWN/台湾 B - 重庆联通, server: 113.207.102.1, port: 80, type: vmess, uuid: 848667cc-9fe4-4343-afc5-90089a8b7ad0, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 007.cdn.8x.cx.hit.edu.cn}}
-  - {name: 🇨🇳 【中转】TWN/台湾 B - 郑州联通, server: 42.236.94.1, port: 80, type: vmess, uuid: 848667cc-9fe4-4343-afc5-90089a8b7ad0, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 007.cdn.8x.cx.hit.edu.cn}}
-  - {name: 🇸🇬 【中转】SIN/狮城 A - 宁波电信, server: 115.231.187.1, port: 80, type: vmess, uuid: 848667cc-9fe4-4343-afc5-90089a8b7ad0, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 003.cdn.8x.cx.hit.edu.cn}}
-  - {name: 二爷翻墙网 https://1808.ga 7, server: azhk2.pengui.tools, port: 10090, type: vmess, uuid: c14a0bb4-8bd2-4264-8dc6-1ad028994d8f, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: azhk2.pengui.tools}}
-  - {name: 二爷翻墙网 https://1808.ga 8, server: aws-beijing.navdy.me, port: 57575, type: vmess, uuid: c14a0bb4-8bd2-4264-8dc6-1ad028994d8f, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: aws-beijing.navdy.me}}
-  - {name: 🇨🇳 【中转】TWN/台湾 B - 天津联通, server: 125.39.174.1, port: 80, type: vmess, uuid: 848667cc-9fe4-4343-afc5-90089a8b7ad0, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 007.cdn.8x.cx.hit.edu.cn}}
-  - {name: 🇸🇬 【中转】SIN/狮城 A - 天津电信, server: 42.81.8.1, port: 80, type: vmess, uuid: 848667cc-9fe4-4343-afc5-90089a8b7ad0, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 003.cdn.8x.cx.hit.edu.cn}}
-  - {name: 🇯🇵 直连 | 日本 SCLOUD 01, server: 165.154.231.73, port: 80, type: vmess, uuid: c14a0bb4-8bd2-4264-8dc6-1ad028994d8f, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 165.154.231.73}}
-  - {name: 二爷翻墙网 https://1808.ga 9, server: 46.182.107.94, port: 443, type: vmess, uuid: 743bdc87-1dea-41bf-aa0b-96dfbbfec8aa, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.79570456.xyz}}
-  - {name: 二爷翻墙网 https://1808.ga 10, server: aws-beijing.navdy.me, port: 52523, type: vmess, uuid: c14a0bb4-8bd2-4264-8dc6-1ad028994d8f, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: aws-beijing.navdy.me}}
-  - {name: 二爷翻墙网 https://1808.ga 11, server: 46.182.107.154, port: 443, type: vmess, uuid: 130c9f2e-42b1-4ebf-b345-e26111a061f9, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.53103739.xyz}}
-  - {name: 二爷翻墙网 https://1808.ga 12, server: 46.182.107.37, port: 443, type: vmess, uuid: 65ea6727-4461-47a7-a5c4-fef2c67f2f68, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.32811341.xyz}}
-  - {name: 二爷翻墙网 https://1808.ga 13, server: 154.84.1.156, port: 443, type: vmess, uuid: 21155efd-8e29-43d2-95bc-fe3190ecb1c6, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.51334583.xyz}}
-  - {name: 二爷翻墙网 https://1808.ga 14, server: 46.182.107.151, port: 443, type: vmess, uuid: f5250c4e-f855-4eff-b73c-a02226d42fe7, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.06321530.xyz}}
-  - {name: 二爷翻墙网 https://1808.ga 15, server: 172.67.12.182, port: 443, type: vmess, uuid: aa209e52-9bfa-4c05-96b0-e962da2cb457, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /xrayvws, ws-headers: {Host: c.1808.cf}}
-  - {name: 二爷免费翻墙网, server: www.kernels.bid, port: 443, type: vmess, uuid: 15c3a844-3acd-087e-abd7-f7b5036506dc, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: www.kernels.bid}}
-  - {name: 二爷免费翻墙网 2, server: www.kernels.bid, port: 80, type: vmess, uuid: 5a958091-0639-8346-6371-bcafbe1c3b3e, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /ws, ws-headers: {Host: www.kernels.bid}}
+  - {name: 🇺🇸 linode美西电信, server: 45.56.92.143, port: 8080, type: vmess, uuid: 5c1c6cbe-133d-461d-bfcc-657db21aea4f, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 45.56.92.143}}
+  - {name: 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_15, server: 52.81.94.63, port: 30030, type: vmess, uuid: 39341fe7-b8b7-4605-a811-af1f1d46d4fb, alterId: 100, cipher: auto, tls: false}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_59, server: euserv17p.ezddns.tk, port: 80, type: vmess, uuid: 4a6cc4a6-491f-4a58-fb45-bf888f0b381f, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /video, ws-headers: {Host: euserv17p.ezddns.tk}}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_60, server: euserv9p.ezddns.tk, port: 80, type: vmess, uuid: ca870483-fa7d-4f64-983a-6ed455143aca, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /live, ws-headers: {Host: euserv9p.ezddns.tk}}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_62, server: euserv11p.ezddns.tk, port: 80, type: vmess, uuid: ffab7ea6-596d-4f88-daa5-4ec177f314a5, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /download.rar, ws-headers: {Host: euserv11p.ezddns.tk}}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_63, server: euserv12p.ezddns.tk, port: 80, type: vmess, uuid: c0304bc1-f8ff-4108-9bc6-3415d16ae5e3, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /video, ws-headers: {Host: euserv12p.ezddns.tk}}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_64, server: euserv13p.ezddns.tk, port: 80, type: vmess, uuid: ced80260-a5b1-427b-db09-5a46b69ac9e2, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /audio.wav, ws-headers: {Host: euserv13p.ezddns.tk}}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_66, server: euserv18p.ezddns.tk, port: 80, type: vmess, uuid: 344c0b7d-2c35-4c95-8481-e2fc3c456a06, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /audio.mp3, ws-headers: {Host: euserv18p.ezddns.tk}}
+  - {name: 🇯🇵 日本 tg频道:@ripaojiedian, server: v2-rba-v3.cl123.xyz, port: 80, type: vmess, uuid: 6d3faf56-93b6-33ca-a57d-673bb6ab696f, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: v2-rba-v3.cl123.xyz}}
+  - {name: 🇯🇵 日本 tg频道:@ripaojiedian 2, server: v2-rbb-v5.cl123.xyz, port: 80, type: vmess, uuid: 6d3faf56-93b6-33ca-a57d-673bb6ab696f, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: v2-rbb-v5.cl123.xyz}}
+  - {name: 🇯🇵 日本 微信公众号:Club or Group, server: v2-rba-v5.cl123.xyz, port: 80, type: vmess, uuid: 6d3faf56-93b6-33ca-a57d-673bb6ab696f, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: v2-rba-v5.cl123.xyz}}
+  - {name: 🇺🇸 美国1, server: ac2088.herokuapp.com, port: 443, type: vmess, uuid: d1babe08-f8ac-490b-b66f-9be27467f3cc, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /d1babe08-f8ac-490b-b66f-9be27467f3cc-vmess, ws-headers: {Host: ac2088.herokuapp.com}}
+  - {name: 🇺🇸 美国2, server: ac2088.herokuapp.com, port: 443, type: vmess, uuid: d1babe08-f8ac-490b-b66f-9be27467f3cc, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /d1babe08-f8ac-490b-b66f-9be27467f3cc-vmess, ws-headers: {Host: ac2088.herokuapp.com}}
+  - {name: 🇺🇸 美国1 2, server: ac2088.herokuapp.com, port: 443, type: vmess, uuid: d1babe08-f8ac-490b-b66f-9be27467f3cc, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /d1babe08-f8ac-490b-b66f-9be27467f3cc-vmess, ws-headers: {Host: ac2088.herokuapp.com}}
+  - {name: 1, server: v2-xgb-v9.cl123.xyz, port: 80, type: vmess, uuid: 6d3faf56-93b6-33ca-a57d-673bb6ab696f, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: v2-xgb-v9.cl123.xyz}}
+  - {name: 1 2, server: v2-xgb-v5.cl123.xyz, port: 80, type: vmess, uuid: 6d3faf56-93b6-33ca-a57d-673bb6ab696f, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: v2-xgb-v5.cl123.xyz}}
+  - {name: 2, server: v2-xgb-v3.cl123.xyz, port: 80, type: vmess, uuid: 6d3faf56-93b6-33ca-a57d-673bb6ab696f, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: v2-xgb-v3.cl123.xyz}}
+  - {name: 23, server: v2-xgb.cl123.xyz, port: 80, type: vmess, uuid: 6d3faf56-93b6-33ca-a57d-673bb6ab696f, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: v2-xgb.cl123.xyz}}
+  - {name: 33, server: v2-xgc.cl123.xyz, port: 80, type: vmess, uuid: 6d3faf56-93b6-33ca-a57d-673bb6ab696f, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: v2-xgc.cl123.xyz}}
+  - {name: 333, server: v2-xgc-v5.cl123.xyz, port: 80, type: vmess, uuid: 6d3faf56-93b6-33ca-a57d-673bb6ab696f, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: v2-xgc-v5.cl123.xyz}}
+  - {name: 🇺🇸 US_61, server: 135.125.207.34, port: 80, type: vmess, uuid: e2816152-6326-4cf9-aa95-34b0f9a8c666, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /sshocean, ws-headers: {Host: 135.125.207.34}}
+  - {name: 🇭🇰 香港 tg频道:@ripaojiedian （副本）, server: v2-xgc.cl123.xyz, port: 80, type: vmess, uuid: 6d3faf56-93b6-33ca-a57d-673bb6ab696f, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: v2-xgc.cl123.xyz}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 二爷翻墙网https://1808.ga
-      - 二爷翻墙网https://1808.ga 2
-      - 二爷翻墙网https://1808.ga 3
-      - 二爷翻墙网https://1808.ga 4
-      - 二爷翻墙网https://1808.ga 5
-      - 二爷翻墙网https://1808.ga 6
-      - 二爷翻墙网https://1808.ga 7
-      - 🇨🇳 - 台湾省中华电信(HiNet)数据中心 3
-      - 2222
-      - 二爷翻墙网 https://1808.ga
-      - "- 欧洲  24"
-      - 🇳🇱 - 荷兰  26
-      - 🇨🇳 - 北京市Amazon数据中心 1
-      - 🇺🇸 - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 2
-      - 🇺🇸 - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 3
-      - 二爷翻墙网 https://1808.ga 2
-      - "- 欧洲  5"
-      - 🇭🇰 - 香港CDN77节点 6
-      - 🇳🇱 - 荷兰  7
-      - 🇳🇱 - 荷兰  8
-      - 🇺🇸 - 美国Cloudinnovation数据中心 9
-      - 🇳🇱 - 荷兰  10
-      - 二爷翻墙网 https://1808.ga 3
-      - 🇳🇱 - 荷兰  12
-      - 🇳🇱 - 荷兰  13
-      - 二爷翻墙网 https://1808.ga 4
-      - 🇳🇱 - 荷兰  15
-      - 🇳🇱 - 荷兰  16
-      - 🇬🇧 - 英国社会保险安全部 17
-      - 🇺🇸 - 北美地区  18
-      - 🇮🇳 - 印度  19
-      - 🇨🇳 【直连】TWN/台湾 B
-      - 二爷翻墙网 https://1808.ga 5
-      - 二爷翻墙网 https://1808.ga 6
-      - 🇯🇵 中转|日本GMO06|华南隧道[流媒体解锁]
-      - 🇨🇳 【中转】TWN/台湾 B - 重庆联通
-      - 🇨🇳 【中转】TWN/台湾 B - 郑州联通
-      - 🇸🇬 【中转】SIN/狮城 A - 宁波电信
-      - 二爷翻墙网 https://1808.ga 7
-      - 二爷翻墙网 https://1808.ga 8
-      - 🇨🇳 【中转】TWN/台湾 B - 天津联通
-      - 🇸🇬 【中转】SIN/狮城 A - 天津电信
-      - 🇯🇵 直连 | 日本 SCLOUD 01
-      - 二爷翻墙网 https://1808.ga 9
-      - 二爷翻墙网 https://1808.ga 10
-      - 二爷翻墙网 https://1808.ga 11
-      - 二爷翻墙网 https://1808.ga 12
-      - 二爷翻墙网 https://1808.ga 13
-      - 二爷翻墙网 https://1808.ga 14
-      - 二爷翻墙网 https://1808.ga 15
-      - 二爷免费翻墙网
-      - 二爷免费翻墙网 2
+      - 🇺🇸 linode美西电信
+      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_15
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_59
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_60
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_62
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_63
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_64
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_66
+      - 🇯🇵 日本 tg频道:@ripaojiedian
+      - 🇯🇵 日本 tg频道:@ripaojiedian 2
+      - 🇯🇵 日本 微信公众号:Club or Group
+      - 🇺🇸 美国1
+      - 🇺🇸 美国2
+      - 🇺🇸 美国1 2
+      - 1
+      - 1 2
+      - 2
+      - 23
+      - 33
+      - 333
+      - 🇺🇸 US_61
+      - 🇭🇰 香港 tg频道:@ripaojiedian （副本）
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 二爷翻墙网https://1808.ga
-      - 二爷翻墙网https://1808.ga 2
-      - 二爷翻墙网https://1808.ga 3
-      - 二爷翻墙网https://1808.ga 4
-      - 二爷翻墙网https://1808.ga 5
-      - 二爷翻墙网https://1808.ga 6
-      - 二爷翻墙网https://1808.ga 7
-      - 🇨🇳 - 台湾省中华电信(HiNet)数据中心 3
-      - 2222
-      - 二爷翻墙网 https://1808.ga
-      - "- 欧洲  24"
-      - 🇳🇱 - 荷兰  26
-      - 🇨🇳 - 北京市Amazon数据中心 1
-      - 🇺🇸 - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 2
-      - 🇺🇸 - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 3
-      - 二爷翻墙网 https://1808.ga 2
-      - "- 欧洲  5"
-      - 🇭🇰 - 香港CDN77节点 6
-      - 🇳🇱 - 荷兰  7
-      - 🇳🇱 - 荷兰  8
-      - 🇺🇸 - 美国Cloudinnovation数据中心 9
-      - 🇳🇱 - 荷兰  10
-      - 二爷翻墙网 https://1808.ga 3
-      - 🇳🇱 - 荷兰  12
-      - 🇳🇱 - 荷兰  13
-      - 二爷翻墙网 https://1808.ga 4
-      - 🇳🇱 - 荷兰  15
-      - 🇳🇱 - 荷兰  16
-      - 🇬🇧 - 英国社会保险安全部 17
-      - 🇺🇸 - 北美地区  18
-      - 🇮🇳 - 印度  19
-      - 🇨🇳 【直连】TWN/台湾 B
-      - 二爷翻墙网 https://1808.ga 5
-      - 二爷翻墙网 https://1808.ga 6
-      - 🇯🇵 中转|日本GMO06|华南隧道[流媒体解锁]
-      - 🇨🇳 【中转】TWN/台湾 B - 重庆联通
-      - 🇨🇳 【中转】TWN/台湾 B - 郑州联通
-      - 🇸🇬 【中转】SIN/狮城 A - 宁波电信
-      - 二爷翻墙网 https://1808.ga 7
-      - 二爷翻墙网 https://1808.ga 8
-      - 🇨🇳 【中转】TWN/台湾 B - 天津联通
-      - 🇸🇬 【中转】SIN/狮城 A - 天津电信
-      - 🇯🇵 直连 | 日本 SCLOUD 01
-      - 二爷翻墙网 https://1808.ga 9
-      - 二爷翻墙网 https://1808.ga 10
-      - 二爷翻墙网 https://1808.ga 11
-      - 二爷翻墙网 https://1808.ga 12
-      - 二爷翻墙网 https://1808.ga 13
-      - 二爷翻墙网 https://1808.ga 14
-      - 二爷翻墙网 https://1808.ga 15
-      - 二爷免费翻墙网
-      - 二爷免费翻墙网 2
+      - 🇺🇸 linode美西电信
+      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_15
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_59
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_60
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_62
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_63
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_64
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_66
+      - 🇯🇵 日本 tg频道:@ripaojiedian
+      - 🇯🇵 日本 tg频道:@ripaojiedian 2
+      - 🇯🇵 日本 微信公众号:Club or Group
+      - 🇺🇸 美国1
+      - 🇺🇸 美国2
+      - 🇺🇸 美国1 2
+      - 1
+      - 1 2
+      - 2
+      - 23
+      - 33
+      - 333
+      - 🇺🇸 US_61
+      - 🇭🇰 香港 tg频道:@ripaojiedian （副本）
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 二爷翻墙网https://1808.ga
-      - 二爷翻墙网https://1808.ga 2
-      - 二爷翻墙网https://1808.ga 3
-      - 二爷翻墙网https://1808.ga 4
-      - 二爷翻墙网https://1808.ga 5
-      - 二爷翻墙网https://1808.ga 6
-      - 二爷翻墙网https://1808.ga 7
-      - 🇨🇳 - 台湾省中华电信(HiNet)数据中心 3
-      - 2222
-      - 二爷翻墙网 https://1808.ga
-      - "- 欧洲  24"
-      - 🇳🇱 - 荷兰  26
-      - 🇨🇳 - 北京市Amazon数据中心 1
-      - 🇺🇸 - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 2
-      - 🇺🇸 - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 3
-      - 二爷翻墙网 https://1808.ga 2
-      - "- 欧洲  5"
-      - 🇭🇰 - 香港CDN77节点 6
-      - 🇳🇱 - 荷兰  7
-      - 🇳🇱 - 荷兰  8
-      - 🇺🇸 - 美国Cloudinnovation数据中心 9
-      - 🇳🇱 - 荷兰  10
-      - 二爷翻墙网 https://1808.ga 3
-      - 🇳🇱 - 荷兰  12
-      - 🇳🇱 - 荷兰  13
-      - 二爷翻墙网 https://1808.ga 4
-      - 🇳🇱 - 荷兰  15
-      - 🇳🇱 - 荷兰  16
-      - 🇬🇧 - 英国社会保险安全部 17
-      - 🇺🇸 - 北美地区  18
-      - 🇮🇳 - 印度  19
-      - 🇨🇳 【直连】TWN/台湾 B
-      - 二爷翻墙网 https://1808.ga 5
-      - 二爷翻墙网 https://1808.ga 6
-      - 🇯🇵 中转|日本GMO06|华南隧道[流媒体解锁]
-      - 🇨🇳 【中转】TWN/台湾 B - 重庆联通
-      - 🇨🇳 【中转】TWN/台湾 B - 郑州联通
-      - 🇸🇬 【中转】SIN/狮城 A - 宁波电信
-      - 二爷翻墙网 https://1808.ga 7
-      - 二爷翻墙网 https://1808.ga 8
-      - 🇨🇳 【中转】TWN/台湾 B - 天津联通
-      - 🇸🇬 【中转】SIN/狮城 A - 天津电信
-      - 🇯🇵 直连 | 日本 SCLOUD 01
-      - 二爷翻墙网 https://1808.ga 9
-      - 二爷翻墙网 https://1808.ga 10
-      - 二爷翻墙网 https://1808.ga 11
-      - 二爷翻墙网 https://1808.ga 12
-      - 二爷翻墙网 https://1808.ga 13
-      - 二爷翻墙网 https://1808.ga 14
-      - 二爷翻墙网 https://1808.ga 15
-      - 二爷免费翻墙网
-      - 二爷免费翻墙网 2
+      - 🇺🇸 linode美西电信
+      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_15
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_59
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_60
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_62
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_63
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_64
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_66
+      - 🇯🇵 日本 tg频道:@ripaojiedian
+      - 🇯🇵 日本 tg频道:@ripaojiedian 2
+      - 🇯🇵 日本 微信公众号:Club or Group
+      - 🇺🇸 美国1
+      - 🇺🇸 美国2
+      - 🇺🇸 美国1 2
+      - 1
+      - 1 2
+      - 2
+      - 23
+      - 33
+      - 333
+      - 🇺🇸 US_61
+      - 🇭🇰 香港 tg频道:@ripaojiedian （副本）
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 二爷翻墙网https://1808.ga
-      - 二爷翻墙网https://1808.ga 2
-      - 二爷翻墙网https://1808.ga 3
-      - 二爷翻墙网https://1808.ga 4
-      - 二爷翻墙网https://1808.ga 5
-      - 二爷翻墙网https://1808.ga 6
-      - 二爷翻墙网https://1808.ga 7
-      - 🇨🇳 - 台湾省中华电信(HiNet)数据中心 3
-      - 2222
-      - 二爷翻墙网 https://1808.ga
-      - "- 欧洲  24"
-      - 🇳🇱 - 荷兰  26
-      - 🇨🇳 - 北京市Amazon数据中心 1
-      - 🇺🇸 - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 2
-      - 🇺🇸 - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 3
-      - 二爷翻墙网 https://1808.ga 2
-      - "- 欧洲  5"
-      - 🇭🇰 - 香港CDN77节点 6
-      - 🇳🇱 - 荷兰  7
-      - 🇳🇱 - 荷兰  8
-      - 🇺🇸 - 美国Cloudinnovation数据中心 9
-      - 🇳🇱 - 荷兰  10
-      - 二爷翻墙网 https://1808.ga 3
-      - 🇳🇱 - 荷兰  12
-      - 🇳🇱 - 荷兰  13
-      - 二爷翻墙网 https://1808.ga 4
-      - 🇳🇱 - 荷兰  15
-      - 🇳🇱 - 荷兰  16
-      - 🇬🇧 - 英国社会保险安全部 17
-      - 🇺🇸 - 北美地区  18
-      - 🇮🇳 - 印度  19
-      - 🇨🇳 【直连】TWN/台湾 B
-      - 二爷翻墙网 https://1808.ga 5
-      - 二爷翻墙网 https://1808.ga 6
-      - 🇯🇵 中转|日本GMO06|华南隧道[流媒体解锁]
-      - 🇨🇳 【中转】TWN/台湾 B - 重庆联通
-      - 🇨🇳 【中转】TWN/台湾 B - 郑州联通
-      - 🇸🇬 【中转】SIN/狮城 A - 宁波电信
-      - 二爷翻墙网 https://1808.ga 7
-      - 二爷翻墙网 https://1808.ga 8
-      - 🇨🇳 【中转】TWN/台湾 B - 天津联通
-      - 🇸🇬 【中转】SIN/狮城 A - 天津电信
-      - 🇯🇵 直连 | 日本 SCLOUD 01
-      - 二爷翻墙网 https://1808.ga 9
-      - 二爷翻墙网 https://1808.ga 10
-      - 二爷翻墙网 https://1808.ga 11
-      - 二爷翻墙网 https://1808.ga 12
-      - 二爷翻墙网 https://1808.ga 13
-      - 二爷翻墙网 https://1808.ga 14
-      - 二爷翻墙网 https://1808.ga 15
-      - 二爷免费翻墙网
-      - 二爷免费翻墙网 2
+      - 🇺🇸 linode美西电信
+      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_15
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_59
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_60
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_62
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_63
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_64
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_66
+      - 🇯🇵 日本 tg频道:@ripaojiedian
+      - 🇯🇵 日本 tg频道:@ripaojiedian 2
+      - 🇯🇵 日本 微信公众号:Club or Group
+      - 🇺🇸 美国1
+      - 🇺🇸 美国2
+      - 🇺🇸 美国1 2
+      - 1
+      - 1 2
+      - 2
+      - 23
+      - 33
+      - 333
+      - 🇺🇸 US_61
+      - 🇭🇰 香港 tg频道:@ripaojiedian （副本）
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 二爷翻墙网https://1808.ga
-      - 二爷翻墙网https://1808.ga 2
-      - 二爷翻墙网https://1808.ga 3
-      - 二爷翻墙网https://1808.ga 4
-      - 二爷翻墙网https://1808.ga 5
-      - 二爷翻墙网https://1808.ga 6
-      - 二爷翻墙网https://1808.ga 7
-      - 🇨🇳 - 台湾省中华电信(HiNet)数据中心 3
-      - 2222
-      - 二爷翻墙网 https://1808.ga
-      - "- 欧洲  24"
-      - 🇳🇱 - 荷兰  26
-      - 🇨🇳 - 北京市Amazon数据中心 1
-      - 🇺🇸 - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 2
-      - 🇺🇸 - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 3
-      - 二爷翻墙网 https://1808.ga 2
-      - "- 欧洲  5"
-      - 🇭🇰 - 香港CDN77节点 6
-      - 🇳🇱 - 荷兰  7
-      - 🇳🇱 - 荷兰  8
-      - 🇺🇸 - 美国Cloudinnovation数据中心 9
-      - 🇳🇱 - 荷兰  10
-      - 二爷翻墙网 https://1808.ga 3
-      - 🇳🇱 - 荷兰  12
-      - 🇳🇱 - 荷兰  13
-      - 二爷翻墙网 https://1808.ga 4
-      - 🇳🇱 - 荷兰  15
-      - 🇳🇱 - 荷兰  16
-      - 🇬🇧 - 英国社会保险安全部 17
-      - 🇺🇸 - 北美地区  18
-      - 🇮🇳 - 印度  19
-      - 🇨🇳 【直连】TWN/台湾 B
-      - 二爷翻墙网 https://1808.ga 5
-      - 二爷翻墙网 https://1808.ga 6
-      - 🇯🇵 中转|日本GMO06|华南隧道[流媒体解锁]
-      - 🇨🇳 【中转】TWN/台湾 B - 重庆联通
-      - 🇨🇳 【中转】TWN/台湾 B - 郑州联通
-      - 🇸🇬 【中转】SIN/狮城 A - 宁波电信
-      - 二爷翻墙网 https://1808.ga 7
-      - 二爷翻墙网 https://1808.ga 8
-      - 🇨🇳 【中转】TWN/台湾 B - 天津联通
-      - 🇸🇬 【中转】SIN/狮城 A - 天津电信
-      - 🇯🇵 直连 | 日本 SCLOUD 01
-      - 二爷翻墙网 https://1808.ga 9
-      - 二爷翻墙网 https://1808.ga 10
-      - 二爷翻墙网 https://1808.ga 11
-      - 二爷翻墙网 https://1808.ga 12
-      - 二爷翻墙网 https://1808.ga 13
-      - 二爷翻墙网 https://1808.ga 14
-      - 二爷翻墙网 https://1808.ga 15
-      - 二爷免费翻墙网
-      - 二爷免费翻墙网 2
+      - 🇺🇸 linode美西电信
+      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_15
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_59
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_60
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_62
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_63
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_64
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_66
+      - 🇯🇵 日本 tg频道:@ripaojiedian
+      - 🇯🇵 日本 tg频道:@ripaojiedian 2
+      - 🇯🇵 日本 微信公众号:Club or Group
+      - 🇺🇸 美国1
+      - 🇺🇸 美国2
+      - 🇺🇸 美国1 2
+      - 1
+      - 1 2
+      - 2
+      - 23
+      - 33
+      - 333
+      - 🇺🇸 US_61
+      - 🇭🇰 香港 tg频道:@ripaojiedian （副本）
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 二爷翻墙网https://1808.ga
-      - 二爷翻墙网https://1808.ga 2
-      - 二爷翻墙网https://1808.ga 3
-      - 二爷翻墙网https://1808.ga 4
-      - 二爷翻墙网https://1808.ga 5
-      - 二爷翻墙网https://1808.ga 6
-      - 二爷翻墙网https://1808.ga 7
-      - 🇨🇳 - 台湾省中华电信(HiNet)数据中心 3
-      - 2222
-      - 二爷翻墙网 https://1808.ga
-      - "- 欧洲  24"
-      - 🇳🇱 - 荷兰  26
-      - 🇨🇳 - 北京市Amazon数据中心 1
-      - 🇺🇸 - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 2
-      - 🇺🇸 - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 3
-      - 二爷翻墙网 https://1808.ga 2
-      - "- 欧洲  5"
-      - 🇭🇰 - 香港CDN77节点 6
-      - 🇳🇱 - 荷兰  7
-      - 🇳🇱 - 荷兰  8
-      - 🇺🇸 - 美国Cloudinnovation数据中心 9
-      - 🇳🇱 - 荷兰  10
-      - 二爷翻墙网 https://1808.ga 3
-      - 🇳🇱 - 荷兰  12
-      - 🇳🇱 - 荷兰  13
-      - 二爷翻墙网 https://1808.ga 4
-      - 🇳🇱 - 荷兰  15
-      - 🇳🇱 - 荷兰  16
-      - 🇬🇧 - 英国社会保险安全部 17
-      - 🇺🇸 - 北美地区  18
-      - 🇮🇳 - 印度  19
-      - 🇨🇳 【直连】TWN/台湾 B
-      - 二爷翻墙网 https://1808.ga 5
-      - 二爷翻墙网 https://1808.ga 6
-      - 🇯🇵 中转|日本GMO06|华南隧道[流媒体解锁]
-      - 🇨🇳 【中转】TWN/台湾 B - 重庆联通
-      - 🇨🇳 【中转】TWN/台湾 B - 郑州联通
-      - 🇸🇬 【中转】SIN/狮城 A - 宁波电信
-      - 二爷翻墙网 https://1808.ga 7
-      - 二爷翻墙网 https://1808.ga 8
-      - 🇨🇳 【中转】TWN/台湾 B - 天津联通
-      - 🇸🇬 【中转】SIN/狮城 A - 天津电信
-      - 🇯🇵 直连 | 日本 SCLOUD 01
-      - 二爷翻墙网 https://1808.ga 9
-      - 二爷翻墙网 https://1808.ga 10
-      - 二爷翻墙网 https://1808.ga 11
-      - 二爷翻墙网 https://1808.ga 12
-      - 二爷翻墙网 https://1808.ga 13
-      - 二爷翻墙网 https://1808.ga 14
-      - 二爷翻墙网 https://1808.ga 15
-      - 二爷免费翻墙网
-      - 二爷免费翻墙网 2
+      - 🇺🇸 linode美西电信
+      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_15
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_59
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_60
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_62
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_63
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_64
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_66
+      - 🇯🇵 日本 tg频道:@ripaojiedian
+      - 🇯🇵 日本 tg频道:@ripaojiedian 2
+      - 🇯🇵 日本 微信公众号:Club or Group
+      - 🇺🇸 美国1
+      - 🇺🇸 美国2
+      - 🇺🇸 美国1 2
+      - 1
+      - 1 2
+      - 2
+      - 23
+      - 33
+      - 333
+      - 🇺🇸 US_61
+      - 🇭🇰 香港 tg频道:@ripaojiedian （副本）
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 二爷翻墙网https://1808.ga
-      - 二爷翻墙网https://1808.ga 2
-      - 二爷翻墙网https://1808.ga 3
-      - 二爷翻墙网https://1808.ga 4
-      - 二爷翻墙网https://1808.ga 5
-      - 二爷翻墙网https://1808.ga 6
-      - 二爷翻墙网https://1808.ga 7
-      - 🇨🇳 - 台湾省中华电信(HiNet)数据中心 3
-      - 2222
-      - 二爷翻墙网 https://1808.ga
-      - "- 欧洲  24"
-      - 🇳🇱 - 荷兰  26
-      - 🇨🇳 - 北京市Amazon数据中心 1
-      - 🇺🇸 - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 2
-      - 🇺🇸 - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 3
-      - 二爷翻墙网 https://1808.ga 2
-      - "- 欧洲  5"
-      - 🇭🇰 - 香港CDN77节点 6
-      - 🇳🇱 - 荷兰  7
-      - 🇳🇱 - 荷兰  8
-      - 🇺🇸 - 美国Cloudinnovation数据中心 9
-      - 🇳🇱 - 荷兰  10
-      - 二爷翻墙网 https://1808.ga 3
-      - 🇳🇱 - 荷兰  12
-      - 🇳🇱 - 荷兰  13
-      - 二爷翻墙网 https://1808.ga 4
-      - 🇳🇱 - 荷兰  15
-      - 🇳🇱 - 荷兰  16
-      - 🇬🇧 - 英国社会保险安全部 17
-      - 🇺🇸 - 北美地区  18
-      - 🇮🇳 - 印度  19
-      - 🇨🇳 【直连】TWN/台湾 B
-      - 二爷翻墙网 https://1808.ga 5
-      - 二爷翻墙网 https://1808.ga 6
-      - 🇯🇵 中转|日本GMO06|华南隧道[流媒体解锁]
-      - 🇨🇳 【中转】TWN/台湾 B - 重庆联通
-      - 🇨🇳 【中转】TWN/台湾 B - 郑州联通
-      - 🇸🇬 【中转】SIN/狮城 A - 宁波电信
-      - 二爷翻墙网 https://1808.ga 7
-      - 二爷翻墙网 https://1808.ga 8
-      - 🇨🇳 【中转】TWN/台湾 B - 天津联通
-      - 🇸🇬 【中转】SIN/狮城 A - 天津电信
-      - 🇯🇵 直连 | 日本 SCLOUD 01
-      - 二爷翻墙网 https://1808.ga 9
-      - 二爷翻墙网 https://1808.ga 10
-      - 二爷翻墙网 https://1808.ga 11
-      - 二爷翻墙网 https://1808.ga 12
-      - 二爷翻墙网 https://1808.ga 13
-      - 二爷翻墙网 https://1808.ga 14
-      - 二爷翻墙网 https://1808.ga 15
-      - 二爷免费翻墙网
-      - 二爷免费翻墙网 2
+      - 🇺🇸 linode美西电信
+      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_15
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_59
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_60
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_62
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_63
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_64
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_66
+      - 🇯🇵 日本 tg频道:@ripaojiedian
+      - 🇯🇵 日本 tg频道:@ripaojiedian 2
+      - 🇯🇵 日本 微信公众号:Club or Group
+      - 🇺🇸 美国1
+      - 🇺🇸 美国2
+      - 🇺🇸 美国1 2
+      - 1
+      - 1 2
+      - 2
+      - 23
+      - 33
+      - 333
+      - 🇺🇸 US_61
+      - 🇭🇰 香港 tg频道:@ripaojiedian （副本）
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -482,58 +242,28 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 二爷翻墙网https://1808.ga
-      - 二爷翻墙网https://1808.ga 2
-      - 二爷翻墙网https://1808.ga 3
-      - 二爷翻墙网https://1808.ga 4
-      - 二爷翻墙网https://1808.ga 5
-      - 二爷翻墙网https://1808.ga 6
-      - 二爷翻墙网https://1808.ga 7
-      - 🇨🇳 - 台湾省中华电信(HiNet)数据中心 3
-      - 2222
-      - 二爷翻墙网 https://1808.ga
-      - "- 欧洲  24"
-      - 🇳🇱 - 荷兰  26
-      - 🇨🇳 - 北京市Amazon数据中心 1
-      - 🇺🇸 - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 2
-      - 🇺🇸 - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 3
-      - 二爷翻墙网 https://1808.ga 2
-      - "- 欧洲  5"
-      - 🇭🇰 - 香港CDN77节点 6
-      - 🇳🇱 - 荷兰  7
-      - 🇳🇱 - 荷兰  8
-      - 🇺🇸 - 美国Cloudinnovation数据中心 9
-      - 🇳🇱 - 荷兰  10
-      - 二爷翻墙网 https://1808.ga 3
-      - 🇳🇱 - 荷兰  12
-      - 🇳🇱 - 荷兰  13
-      - 二爷翻墙网 https://1808.ga 4
-      - 🇳🇱 - 荷兰  15
-      - 🇳🇱 - 荷兰  16
-      - 🇬🇧 - 英国社会保险安全部 17
-      - 🇺🇸 - 北美地区  18
-      - 🇮🇳 - 印度  19
-      - 🇨🇳 【直连】TWN/台湾 B
-      - 二爷翻墙网 https://1808.ga 5
-      - 二爷翻墙网 https://1808.ga 6
-      - 🇯🇵 中转|日本GMO06|华南隧道[流媒体解锁]
-      - 🇨🇳 【中转】TWN/台湾 B - 重庆联通
-      - 🇨🇳 【中转】TWN/台湾 B - 郑州联通
-      - 🇸🇬 【中转】SIN/狮城 A - 宁波电信
-      - 二爷翻墙网 https://1808.ga 7
-      - 二爷翻墙网 https://1808.ga 8
-      - 🇨🇳 【中转】TWN/台湾 B - 天津联通
-      - 🇸🇬 【中转】SIN/狮城 A - 天津电信
-      - 🇯🇵 直连 | 日本 SCLOUD 01
-      - 二爷翻墙网 https://1808.ga 9
-      - 二爷翻墙网 https://1808.ga 10
-      - 二爷翻墙网 https://1808.ga 11
-      - 二爷翻墙网 https://1808.ga 12
-      - 二爷翻墙网 https://1808.ga 13
-      - 二爷翻墙网 https://1808.ga 14
-      - 二爷翻墙网 https://1808.ga 15
-      - 二爷免费翻墙网
-      - 二爷免费翻墙网 2
+      - 🇺🇸 linode美西电信
+      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_15
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_59
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_60
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_62
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_63
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_64
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_66
+      - 🇯🇵 日本 tg频道:@ripaojiedian
+      - 🇯🇵 日本 tg频道:@ripaojiedian 2
+      - 🇯🇵 日本 微信公众号:Club or Group
+      - 🇺🇸 美国1
+      - 🇺🇸 美国2
+      - 🇺🇸 美国1 2
+      - 1
+      - 1 2
+      - 2
+      - 23
+      - 33
+      - 333
+      - 🇺🇸 US_61
+      - 🇭🇰 香港 tg频道:@ripaojiedian （副本）
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
