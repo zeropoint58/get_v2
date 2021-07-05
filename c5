@@ -32,9 +32,7 @@ proxies:
   - {name: 🇺🇸 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶DMIT数据中心 15, server: 154.17.1.245, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
   - {name: 🇺🇸 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶DMIT数据中心 16, server: 154.17.2.217, port: 18333, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
   - {name: 🇺🇸 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶DMIT数据中心 18, server: 154.17.2.135, port: 18333, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
-  - {name: 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 19, server: chru1.node.duoduo.fit, port: 52231, type: vmess, uuid: 56b272dd-ab52-428e-aeff-49dd7934d9c0, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: chru1.node.duoduo.fit}}
   - {name: 🇺🇸 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶DMIT数据中心 20, server: 154.17.2.109, port: 18335, type: ss, cipher: chacha20-ietf-poly1305, password: l3Y9yKCBaT5SnpFFOe834yqIaXwSpRxz3l7D3Aua82ZgcSNZDCO6AexYDCE0Rj}
-  - {name: 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 21, server: spde1.node.duoduo.fit, port: 52201, type: vmess, uuid: 56b272dd-ab52-428e-aeff-49dd7934d9c0, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: spde1.node.duoduo.fit}}
   - {name: 🇳🇱 二爷翻墙网 https://1808.ga荷兰  22, server: 46.182.107.46, port: 443, type: vmess, uuid: fe5f69e7-e183-439b-950b-8221ef0651f2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.27430248.xyz}}
   - {name: 🇳🇱 二爷翻墙网 https://1808.ga荷兰  23, server: 46.182.107.39, port: 443, type: vmess, uuid: d3133484-f2bf-4b0c-8d38-f8e645b67947, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.49696760.xyz}}
   - {name: 🇦🇨 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶MULTACOM数据中心 24, server: 96.43.91.60, port: 443, type: vmess, uuid: 3bfb43e2-7dfe-4757-86ee-1ce9fb9fd13a, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.45218443.xyz}}
@@ -47,7 +45,6 @@ proxies:
   - {name: 🇷🇴 二爷翻墙网 https://1808.ga罗马尼亚  34, server: 91.90.123.115, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
   - {name: 🇩🇰 github.com/freefq - 丹麦哥本哈根Digital VM 16, server: 5.183.101.204, port: 59857, type: vmess, uuid: 4c35d374-dbf2-4e5f-c731-dfa49191825a, alterId: 64, cipher: auto, tls: false}
   - {name: 🇩🇰 github.com/freefq - 丹麦哥本哈根Digital VM 17, server: 5.183.101.200, port: 35374, type: vmess, uuid: 62836733-0014-4014-e0e3-908eea2f3063, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 github.com/freefq - 北美地区  3, server: 104.200.131.165, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
   - {name: 🇨🇳 github.com/freefq - 台湾省中华电信(HiNet)数据中心 4, server: 211.23.132.124, port: 9233, type: vmess, uuid: be58f4e4-894a-47ee-8836-cf75e74fa9c9, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 211.23.132.124}}
   - {name: github.com/freefq - 波兰  14, server: 95.214.55.119, port: 16408, type: vmess, uuid: 4e49e7c6-b7cd-4c74-c022-2add80a19556, alterId: 64, cipher: auto, tls: false}
   - {name: 🇺🇸 github.com/freefq - 美国  11, server: 135.125.207.34, port: 80, type: vmess, uuid: e2816152-6326-4cf9-aa95-34b0f9a8c666, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /sshocean, ws-headers: {Host: 135.125.207.34}}
@@ -64,6 +61,19 @@ proxies:
   - {name: 🇬🇧 github.com/freefq - 英国伦敦Amazon数据中心 19, server: 35.178.68.152, port: 47611, type: vmess, uuid: 97a4d167-b361-48b8-b004-8bc45669e334, alterId: 0, cipher: auto, tls: false}
   - {name: 🇳🇱 github.com/freefq - 荷兰  7, server: 46.182.107.39, port: 443, type: vmess, uuid: d3133484-f2bf-4b0c-8d38-f8e645b67947, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.49696760.xyz}}
   - {name: 🇳🇱 github.com/freefq - 荷兰  8, server: 46.182.107.46, port: 443, type: vmess, uuid: fe5f69e7-e183-439b-950b-8221ef0651f2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.27430248.xyz}}
+  - {name: 🇯🇵 【中转】JPN/日本 A - 济南联通, server: 119.188.97.1, port: 80, type: vmess, uuid: f2abcc85-9b93-4a10-9dbf-965f146eb11a, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 006.cdn.8x.cx.hit.edu.cn}}
+  - {name: 🇯🇵 【中转】JPN/日本 A - 郑州联通, server: 42.236.94.1, port: 80, type: vmess, uuid: f2abcc85-9b93-4a10-9dbf-965f146eb11a, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 006.cdn.8x.cx.hit.edu.cn}}
+  - {name: 🇯🇵 【中转】JPN/日本 A - 重庆联通 2, server: 113.207.102.1, port: 80, type: vmess, uuid: f2abcc85-9b93-4a10-9dbf-965f146eb11a, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 006.cdn.8x.cx.hit.edu.cn}}
+  - {name: 🇸🇬 【中转】SIN/狮城 A - 天津电信, server: 42.81.8.1, port: 80, type: vmess, uuid: f2abcc85-9b93-4a10-9dbf-965f146eb11a, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 003.cdn.8x.cx.hit.edu.cn}}
+  - {name: 🇸🇬 【中转】SIN/狮城 A - 西安电信, server: 117.34.14.1, port: 80, type: vmess, uuid: f2abcc85-9b93-4a10-9dbf-965f146eb11a, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 003.cdn.8x.cx.hit.edu.cn}}
+  - {name: 🇺🇸 【中转】USA/美国 A - 济南联通, server: 119.188.97.1, port: 80, type: vmess, uuid: f2abcc85-9b93-4a10-9dbf-965f146eb11a, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 005.cdn.8x.cx.hit.edu.cn}}
+  - {name: 🇺🇸 【中转】USA/美国 A - 苏州电信, server: 58.211.137.1, port: 80, type: vmess, uuid: f2abcc85-9b93-4a10-9dbf-965f146eb11a, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 005.cdn.8x.cx.hit.edu.cn}}
+  - {name: 🇺🇸 【中转】USA/美国 A - 郑州联通, server: 42.236.94.1, port: 80, type: vmess, uuid: f2abcc85-9b93-4a10-9dbf-965f146eb11a, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 005.cdn.8x.cx.hit.edu.cn}}
+  - {name: 🇺🇸 免流 | 美国 DO 01, server: 143.198.148.189, port: 80, type: vmess, uuid: 5d0598bc-fc06-473d-aa04-3c5be0e3ce50, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 143.198.148.189}}
+  - {name: 🇸🇬 免流| 新加坡 DO 01, server: 165.22.103.3, port: 80, type: vmess, uuid: 5d0598bc-fc06-473d-aa04-3c5be0e3ce50, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 165.22.103.3}}
+  - {name: 🇯🇵 免流| 日本 SCLOUD 01, server: 165.154.231.73, port: 80, type: vmess, uuid: 5d0598bc-fc06-473d-aa04-3c5be0e3ce50, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 165.154.231.73}}
+  - {name: 🇸🇬 免流| 新加坡 DO 01 2, server: 165.22.103.3, port: 80, type: vmess, uuid: 5d0598bc-fc06-473d-aa04-3c5be0e3ce50, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 165.22.103.3}}
+  - {name: 🇺🇸 免流 | 美国 DO 01 2, server: 143.198.148.189, port: 80, type: vmess, uuid: 5d0598bc-fc06-473d-aa04-3c5be0e3ce50, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 143.198.148.189}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -97,9 +107,7 @@ proxy-groups:
       - 🇺🇸 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶DMIT数据中心 15
       - 🇺🇸 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶DMIT数据中心 16
       - 🇺🇸 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶DMIT数据中心 18
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 19
       - 🇺🇸 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶DMIT数据中心 20
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 21
       - 🇳🇱 二爷翻墙网 https://1808.ga荷兰  22
       - 🇳🇱 二爷翻墙网 https://1808.ga荷兰  23
       - 🇦🇨 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶MULTACOM数据中心 24
@@ -112,7 +120,6 @@ proxy-groups:
       - 🇷🇴 二爷翻墙网 https://1808.ga罗马尼亚  34
       - 🇩🇰 github.com/freefq - 丹麦哥本哈根Digital VM 16
       - 🇩🇰 github.com/freefq - 丹麦哥本哈根Digital VM 17
-      - 🇺🇸 github.com/freefq - 北美地区  3
       - 🇨🇳 github.com/freefq - 台湾省中华电信(HiNet)数据中心 4
       - github.com/freefq - 波兰  14
       - 🇺🇸 github.com/freefq - 美国  11
@@ -129,6 +136,19 @@ proxy-groups:
       - 🇬🇧 github.com/freefq - 英国伦敦Amazon数据中心 19
       - 🇳🇱 github.com/freefq - 荷兰  7
       - 🇳🇱 github.com/freefq - 荷兰  8
+      - 🇯🇵 【中转】JPN/日本 A - 济南联通
+      - 🇯🇵 【中转】JPN/日本 A - 郑州联通
+      - 🇯🇵 【中转】JPN/日本 A - 重庆联通 2
+      - 🇸🇬 【中转】SIN/狮城 A - 天津电信
+      - 🇸🇬 【中转】SIN/狮城 A - 西安电信
+      - 🇺🇸 【中转】USA/美国 A - 济南联通
+      - 🇺🇸 【中转】USA/美国 A - 苏州电信
+      - 🇺🇸 【中转】USA/美国 A - 郑州联通
+      - 🇺🇸 免流 | 美国 DO 01
+      - 🇸🇬 免流| 新加坡 DO 01
+      - 🇯🇵 免流| 日本 SCLOUD 01
+      - 🇸🇬 免流| 新加坡 DO 01 2
+      - 🇺🇸 免流 | 美国 DO 01 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -162,9 +182,7 @@ proxy-groups:
       - 🇺🇸 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶DMIT数据中心 15
       - 🇺🇸 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶DMIT数据中心 16
       - 🇺🇸 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶DMIT数据中心 18
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 19
       - 🇺🇸 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶DMIT数据中心 20
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 21
       - 🇳🇱 二爷翻墙网 https://1808.ga荷兰  22
       - 🇳🇱 二爷翻墙网 https://1808.ga荷兰  23
       - 🇦🇨 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶MULTACOM数据中心 24
@@ -177,7 +195,6 @@ proxy-groups:
       - 🇷🇴 二爷翻墙网 https://1808.ga罗马尼亚  34
       - 🇩🇰 github.com/freefq - 丹麦哥本哈根Digital VM 16
       - 🇩🇰 github.com/freefq - 丹麦哥本哈根Digital VM 17
-      - 🇺🇸 github.com/freefq - 北美地区  3
       - 🇨🇳 github.com/freefq - 台湾省中华电信(HiNet)数据中心 4
       - github.com/freefq - 波兰  14
       - 🇺🇸 github.com/freefq - 美国  11
@@ -194,6 +211,19 @@ proxy-groups:
       - 🇬🇧 github.com/freefq - 英国伦敦Amazon数据中心 19
       - 🇳🇱 github.com/freefq - 荷兰  7
       - 🇳🇱 github.com/freefq - 荷兰  8
+      - 🇯🇵 【中转】JPN/日本 A - 济南联通
+      - 🇯🇵 【中转】JPN/日本 A - 郑州联通
+      - 🇯🇵 【中转】JPN/日本 A - 重庆联通 2
+      - 🇸🇬 【中转】SIN/狮城 A - 天津电信
+      - 🇸🇬 【中转】SIN/狮城 A - 西安电信
+      - 🇺🇸 【中转】USA/美国 A - 济南联通
+      - 🇺🇸 【中转】USA/美国 A - 苏州电信
+      - 🇺🇸 【中转】USA/美国 A - 郑州联通
+      - 🇺🇸 免流 | 美国 DO 01
+      - 🇸🇬 免流| 新加坡 DO 01
+      - 🇯🇵 免流| 日本 SCLOUD 01
+      - 🇸🇬 免流| 新加坡 DO 01 2
+      - 🇺🇸 免流 | 美国 DO 01 2
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -227,9 +257,7 @@ proxy-groups:
       - 🇺🇸 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶DMIT数据中心 15
       - 🇺🇸 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶DMIT数据中心 16
       - 🇺🇸 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶DMIT数据中心 18
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 19
       - 🇺🇸 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶DMIT数据中心 20
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 21
       - 🇳🇱 二爷翻墙网 https://1808.ga荷兰  22
       - 🇳🇱 二爷翻墙网 https://1808.ga荷兰  23
       - 🇦🇨 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶MULTACOM数据中心 24
@@ -242,7 +270,6 @@ proxy-groups:
       - 🇷🇴 二爷翻墙网 https://1808.ga罗马尼亚  34
       - 🇩🇰 github.com/freefq - 丹麦哥本哈根Digital VM 16
       - 🇩🇰 github.com/freefq - 丹麦哥本哈根Digital VM 17
-      - 🇺🇸 github.com/freefq - 北美地区  3
       - 🇨🇳 github.com/freefq - 台湾省中华电信(HiNet)数据中心 4
       - github.com/freefq - 波兰  14
       - 🇺🇸 github.com/freefq - 美国  11
@@ -259,6 +286,19 @@ proxy-groups:
       - 🇬🇧 github.com/freefq - 英国伦敦Amazon数据中心 19
       - 🇳🇱 github.com/freefq - 荷兰  7
       - 🇳🇱 github.com/freefq - 荷兰  8
+      - 🇯🇵 【中转】JPN/日本 A - 济南联通
+      - 🇯🇵 【中转】JPN/日本 A - 郑州联通
+      - 🇯🇵 【中转】JPN/日本 A - 重庆联通 2
+      - 🇸🇬 【中转】SIN/狮城 A - 天津电信
+      - 🇸🇬 【中转】SIN/狮城 A - 西安电信
+      - 🇺🇸 【中转】USA/美国 A - 济南联通
+      - 🇺🇸 【中转】USA/美国 A - 苏州电信
+      - 🇺🇸 【中转】USA/美国 A - 郑州联通
+      - 🇺🇸 免流 | 美国 DO 01
+      - 🇸🇬 免流| 新加坡 DO 01
+      - 🇯🇵 免流| 日本 SCLOUD 01
+      - 🇸🇬 免流| 新加坡 DO 01 2
+      - 🇺🇸 免流 | 美国 DO 01 2
   - name: 📲 电报信息
     type: select
     proxies:
@@ -291,9 +331,7 @@ proxy-groups:
       - 🇺🇸 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶DMIT数据中心 15
       - 🇺🇸 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶DMIT数据中心 16
       - 🇺🇸 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶DMIT数据中心 18
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 19
       - 🇺🇸 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶DMIT数据中心 20
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 21
       - 🇳🇱 二爷翻墙网 https://1808.ga荷兰  22
       - 🇳🇱 二爷翻墙网 https://1808.ga荷兰  23
       - 🇦🇨 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶MULTACOM数据中心 24
@@ -306,7 +344,6 @@ proxy-groups:
       - 🇷🇴 二爷翻墙网 https://1808.ga罗马尼亚  34
       - 🇩🇰 github.com/freefq - 丹麦哥本哈根Digital VM 16
       - 🇩🇰 github.com/freefq - 丹麦哥本哈根Digital VM 17
-      - 🇺🇸 github.com/freefq - 北美地区  3
       - 🇨🇳 github.com/freefq - 台湾省中华电信(HiNet)数据中心 4
       - github.com/freefq - 波兰  14
       - 🇺🇸 github.com/freefq - 美国  11
@@ -323,6 +360,19 @@ proxy-groups:
       - 🇬🇧 github.com/freefq - 英国伦敦Amazon数据中心 19
       - 🇳🇱 github.com/freefq - 荷兰  7
       - 🇳🇱 github.com/freefq - 荷兰  8
+      - 🇯🇵 【中转】JPN/日本 A - 济南联通
+      - 🇯🇵 【中转】JPN/日本 A - 郑州联通
+      - 🇯🇵 【中转】JPN/日本 A - 重庆联通 2
+      - 🇸🇬 【中转】SIN/狮城 A - 天津电信
+      - 🇸🇬 【中转】SIN/狮城 A - 西安电信
+      - 🇺🇸 【中转】USA/美国 A - 济南联通
+      - 🇺🇸 【中转】USA/美国 A - 苏州电信
+      - 🇺🇸 【中转】USA/美国 A - 郑州联通
+      - 🇺🇸 免流 | 美国 DO 01
+      - 🇸🇬 免流| 新加坡 DO 01
+      - 🇯🇵 免流| 日本 SCLOUD 01
+      - 🇸🇬 免流| 新加坡 DO 01 2
+      - 🇺🇸 免流 | 美国 DO 01 2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -355,9 +405,7 @@ proxy-groups:
       - 🇺🇸 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶DMIT数据中心 15
       - 🇺🇸 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶DMIT数据中心 16
       - 🇺🇸 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶DMIT数据中心 18
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 19
       - 🇺🇸 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶DMIT数据中心 20
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 21
       - 🇳🇱 二爷翻墙网 https://1808.ga荷兰  22
       - 🇳🇱 二爷翻墙网 https://1808.ga荷兰  23
       - 🇦🇨 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶MULTACOM数据中心 24
@@ -370,7 +418,6 @@ proxy-groups:
       - 🇷🇴 二爷翻墙网 https://1808.ga罗马尼亚  34
       - 🇩🇰 github.com/freefq - 丹麦哥本哈根Digital VM 16
       - 🇩🇰 github.com/freefq - 丹麦哥本哈根Digital VM 17
-      - 🇺🇸 github.com/freefq - 北美地区  3
       - 🇨🇳 github.com/freefq - 台湾省中华电信(HiNet)数据中心 4
       - github.com/freefq - 波兰  14
       - 🇺🇸 github.com/freefq - 美国  11
@@ -387,6 +434,19 @@ proxy-groups:
       - 🇬🇧 github.com/freefq - 英国伦敦Amazon数据中心 19
       - 🇳🇱 github.com/freefq - 荷兰  7
       - 🇳🇱 github.com/freefq - 荷兰  8
+      - 🇯🇵 【中转】JPN/日本 A - 济南联通
+      - 🇯🇵 【中转】JPN/日本 A - 郑州联通
+      - 🇯🇵 【中转】JPN/日本 A - 重庆联通 2
+      - 🇸🇬 【中转】SIN/狮城 A - 天津电信
+      - 🇸🇬 【中转】SIN/狮城 A - 西安电信
+      - 🇺🇸 【中转】USA/美国 A - 济南联通
+      - 🇺🇸 【中转】USA/美国 A - 苏州电信
+      - 🇺🇸 【中转】USA/美国 A - 郑州联通
+      - 🇺🇸 免流 | 美国 DO 01
+      - 🇸🇬 免流| 新加坡 DO 01
+      - 🇯🇵 免流| 日本 SCLOUD 01
+      - 🇸🇬 免流| 新加坡 DO 01 2
+      - 🇺🇸 免流 | 美国 DO 01 2
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -419,9 +479,7 @@ proxy-groups:
       - 🇺🇸 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶DMIT数据中心 15
       - 🇺🇸 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶DMIT数据中心 16
       - 🇺🇸 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶DMIT数据中心 18
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 19
       - 🇺🇸 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶DMIT数据中心 20
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 21
       - 🇳🇱 二爷翻墙网 https://1808.ga荷兰  22
       - 🇳🇱 二爷翻墙网 https://1808.ga荷兰  23
       - 🇦🇨 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶MULTACOM数据中心 24
@@ -434,7 +492,6 @@ proxy-groups:
       - 🇷🇴 二爷翻墙网 https://1808.ga罗马尼亚  34
       - 🇩🇰 github.com/freefq - 丹麦哥本哈根Digital VM 16
       - 🇩🇰 github.com/freefq - 丹麦哥本哈根Digital VM 17
-      - 🇺🇸 github.com/freefq - 北美地区  3
       - 🇨🇳 github.com/freefq - 台湾省中华电信(HiNet)数据中心 4
       - github.com/freefq - 波兰  14
       - 🇺🇸 github.com/freefq - 美国  11
@@ -451,6 +508,19 @@ proxy-groups:
       - 🇬🇧 github.com/freefq - 英国伦敦Amazon数据中心 19
       - 🇳🇱 github.com/freefq - 荷兰  7
       - 🇳🇱 github.com/freefq - 荷兰  8
+      - 🇯🇵 【中转】JPN/日本 A - 济南联通
+      - 🇯🇵 【中转】JPN/日本 A - 郑州联通
+      - 🇯🇵 【中转】JPN/日本 A - 重庆联通 2
+      - 🇸🇬 【中转】SIN/狮城 A - 天津电信
+      - 🇸🇬 【中转】SIN/狮城 A - 西安电信
+      - 🇺🇸 【中转】USA/美国 A - 济南联通
+      - 🇺🇸 【中转】USA/美国 A - 苏州电信
+      - 🇺🇸 【中转】USA/美国 A - 郑州联通
+      - 🇺🇸 免流 | 美国 DO 01
+      - 🇸🇬 免流| 新加坡 DO 01
+      - 🇯🇵 免流| 日本 SCLOUD 01
+      - 🇸🇬 免流| 新加坡 DO 01 2
+      - 🇺🇸 免流 | 美国 DO 01 2
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -484,9 +554,7 @@ proxy-groups:
       - 🇺🇸 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶DMIT数据中心 15
       - 🇺🇸 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶DMIT数据中心 16
       - 🇺🇸 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶DMIT数据中心 18
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 19
       - 🇺🇸 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶DMIT数据中心 20
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 21
       - 🇳🇱 二爷翻墙网 https://1808.ga荷兰  22
       - 🇳🇱 二爷翻墙网 https://1808.ga荷兰  23
       - 🇦🇨 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶MULTACOM数据中心 24
@@ -499,7 +567,6 @@ proxy-groups:
       - 🇷🇴 二爷翻墙网 https://1808.ga罗马尼亚  34
       - 🇩🇰 github.com/freefq - 丹麦哥本哈根Digital VM 16
       - 🇩🇰 github.com/freefq - 丹麦哥本哈根Digital VM 17
-      - 🇺🇸 github.com/freefq - 北美地区  3
       - 🇨🇳 github.com/freefq - 台湾省中华电信(HiNet)数据中心 4
       - github.com/freefq - 波兰  14
       - 🇺🇸 github.com/freefq - 美国  11
@@ -516,6 +583,19 @@ proxy-groups:
       - 🇬🇧 github.com/freefq - 英国伦敦Amazon数据中心 19
       - 🇳🇱 github.com/freefq - 荷兰  7
       - 🇳🇱 github.com/freefq - 荷兰  8
+      - 🇯🇵 【中转】JPN/日本 A - 济南联通
+      - 🇯🇵 【中转】JPN/日本 A - 郑州联通
+      - 🇯🇵 【中转】JPN/日本 A - 重庆联通 2
+      - 🇸🇬 【中转】SIN/狮城 A - 天津电信
+      - 🇸🇬 【中转】SIN/狮城 A - 西安电信
+      - 🇺🇸 【中转】USA/美国 A - 济南联通
+      - 🇺🇸 【中转】USA/美国 A - 苏州电信
+      - 🇺🇸 【中转】USA/美国 A - 郑州联通
+      - 🇺🇸 免流 | 美国 DO 01
+      - 🇸🇬 免流| 新加坡 DO 01
+      - 🇯🇵 免流| 日本 SCLOUD 01
+      - 🇸🇬 免流| 新加坡 DO 01 2
+      - 🇺🇸 免流 | 美国 DO 01 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -565,9 +645,7 @@ proxy-groups:
       - 🇺🇸 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶DMIT数据中心 15
       - 🇺🇸 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶DMIT数据中心 16
       - 🇺🇸 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶DMIT数据中心 18
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 19
       - 🇺🇸 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶DMIT数据中心 20
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 21
       - 🇳🇱 二爷翻墙网 https://1808.ga荷兰  22
       - 🇳🇱 二爷翻墙网 https://1808.ga荷兰  23
       - 🇦🇨 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶MULTACOM数据中心 24
@@ -580,7 +658,6 @@ proxy-groups:
       - 🇷🇴 二爷翻墙网 https://1808.ga罗马尼亚  34
       - 🇩🇰 github.com/freefq - 丹麦哥本哈根Digital VM 16
       - 🇩🇰 github.com/freefq - 丹麦哥本哈根Digital VM 17
-      - 🇺🇸 github.com/freefq - 北美地区  3
       - 🇨🇳 github.com/freefq - 台湾省中华电信(HiNet)数据中心 4
       - github.com/freefq - 波兰  14
       - 🇺🇸 github.com/freefq - 美国  11
@@ -597,6 +674,19 @@ proxy-groups:
       - 🇬🇧 github.com/freefq - 英国伦敦Amazon数据中心 19
       - 🇳🇱 github.com/freefq - 荷兰  7
       - 🇳🇱 github.com/freefq - 荷兰  8
+      - 🇯🇵 【中转】JPN/日本 A - 济南联通
+      - 🇯🇵 【中转】JPN/日本 A - 郑州联通
+      - 🇯🇵 【中转】JPN/日本 A - 重庆联通 2
+      - 🇸🇬 【中转】SIN/狮城 A - 天津电信
+      - 🇸🇬 【中转】SIN/狮城 A - 西安电信
+      - 🇺🇸 【中转】USA/美国 A - 济南联通
+      - 🇺🇸 【中转】USA/美国 A - 苏州电信
+      - 🇺🇸 【中转】USA/美国 A - 郑州联通
+      - 🇺🇸 免流 | 美国 DO 01
+      - 🇸🇬 免流| 新加坡 DO 01
+      - 🇯🇵 免流| 日本 SCLOUD 01
+      - 🇸🇬 免流| 新加坡 DO 01 2
+      - 🇺🇸 免流 | 美国 DO 01 2
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
