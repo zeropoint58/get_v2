@@ -13,8 +13,14 @@ if __name__ == '__main__':
     text = data.text
     soup = BeautifulSoup(text, 'lxml')
     # div_list = soup.select('h2.post-title > a')
-    div_list = soup.findAll(name='a',attrs={"href":re.compile(r'https?:\/\/www\.mattkaydiary\.com\S+?free-v2ray-clash-link.html')})
-    new_v2ray_url = div_list[0].get('href')
+    # div_list = soup.findAll(name='a',attrs={"href":re.compile(r'https?:\/\/www\.mattkaydiary\.com\S+?free-v2ray-clash-link.html')})
+    div_list = soup.findAll(name='a', attrs={"href": re.compile(r'https?:\/\/www\.mattkaydiary\.com\S+?\.html')})
+    a_list = []
+    p = re.compile(r'\d{4}年\d{2}月\d{2}日更新')
+    for i, val in enumerate(div_list[:10]):
+        if p.search(val.text):
+            a_list.append(val.get('href'))
+    new_v2ray_url = a_list[0]
     new_v2ray_data = requests.get(new_v2ray_url, proxies=proxies)
     new_v2ray_data_html = new_v2ray_data.text
     doc = PyQuery(new_v2ray_data_html)
