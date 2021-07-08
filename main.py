@@ -25,7 +25,14 @@ if __name__ == '__main__':
     new_v2ray_data_html = new_v2ray_data.text
     doc = PyQuery(new_v2ray_data_html)
     s = re.findall('https?://drive.google.com/uc\Sexport=download&id=\S+', doc.text())
-    file_list = ['https://raw.githubusercontent.com/ssrsub/ssr/master/V2Ray', 'https://raw.githubusercontent.com/ssrsub/ssr/master/Clash.yml','https://jiang.netlify.app/', 'https://api.dler.io/sub?target=clash&new_name=true&url=https://jiang.netlify.app&insert=false&config=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online.ini']
+    file_list = [
+        'https://raw.githubusercontent.com/ssrsub/ssr/master/V2Ray',
+        'https://raw.githubusercontent.com/ssrsub/ssr/master/Clash.yml',
+        'https://jiang.netlify.app/',
+        'https://api.dler.io/sub?target=clash&new_name=true&url=https://jiang.netlify.app&insert=false&config=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online.ini',
+        'https://raw.githubusercontent.com/adiwzx/freenode/main/adispeed.txt',
+        'https://raw.githubusercontent.com/adiwzx/freenode/main/adispeed.yml'
+    ]
     s.extend(file_list)
     print(s)
     for i, val in enumerate(s):
