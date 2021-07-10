@@ -49,6 +49,42 @@ proxies:
   - {name: 🇯🇵 日本 AZURE 1 2, server: 20.46.166.193, port: 80, type: vmess, uuid: d05c145f-d1c3-4170-9386-3b568eb4a992, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 20.46.166.193}}
   - {name: 🇰🇷 直连 | 韩国 AZURE 01, server: 52.141.16.34, port: 80, type: vmess, uuid: d05c145f-d1c3-4170-9386-3b568eb4a992, alterId: 1, cipher: auto, tls: false}
   - {name: 🇭🇰 香港 AZURE 3, server: 13.75.104.71, port: 80, type: vmess, uuid: d05c145f-d1c3-4170-9386-3b568eb4a992, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 13.75.104.71}}
+  - {name: 🇭🇰 GLaDOS-GEOIP-HK-01, server: d0a8692.ga.gladns.com, port: 3204, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 32, cipher: auto, tls: false, network: ws, ws-path: /s/d0a8692.fm.apple.com:32667, ws-headers: {Host: api.skype.com}}
+  - {name: 🇭🇰 GLaDOS-GEOIP-HK-02, server: d0a8692.gb.gladns.com, port: 3204, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 32, cipher: auto, tls: false, network: ws, ws-path: /s/d0a8692.fm.apple.com:32667, ws-headers: {Host: api.skype.com}}
+  - {name: 🇭🇰 GLaDOS-GEOIP-HK-03, server: d0a8692.gd.gladns.com, port: 3204, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 32, cipher: auto, tls: false, network: ws, ws-path: /s/d0a8692.fm.apple.com:32667, ws-headers: {Host: api.skype.com}}
+  - {name: 🇯🇵 GLaDOS-GEOIP-JP-01, server: d0a8692.ga.gladns.com, port: 3202, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 32, cipher: auto, tls: false, network: ws, ws-path: /s/d0a8692.fm.apple.com:32667, ws-headers: {Host: api.skype.com}}
+  - {name: 🇯🇵 GLaDOS-GEOIP-JP-02, server: d0a8692.gb.gladns.com, port: 3202, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 32, cipher: auto, tls: false, network: ws, ws-path: /s/d0a8692.fm.apple.com:32667, ws-headers: {Host: api.skype.com}}
+  - {name: 🇯🇵 GLaDOS-GEOIP-JP-03, server: d0a8692.gd.gladns.com, port: 3202, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 32, cipher: auto, tls: false, network: ws, ws-path: /s/d0a8692.fm.apple.com:32667, ws-headers: {Host: api.skype.com}}
+  - {name: 🇸🇬 GLaDOS-GEOIP-SG-01, server: d0a8692.ga.gladns.com, port: 3205, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 32, cipher: auto, tls: false, network: ws, ws-path: /s/d0a8692.fm.apple.com:32667, ws-headers: {Host: api.skype.com}}
+  - {name: 🇸🇬 GLaDOS-GEOIP-SG-02, server: d0a8692.gb.gladns.com, port: 3205, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 32, cipher: auto, tls: false, network: ws, ws-path: /s/d0a8692.fm.apple.com:32667, ws-headers: {Host: api.skype.com}}
+  - {name: 🇸🇬 GLaDOS-GEOIP-SG-03, server: d0a8692.gd.gladns.com, port: 3205, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 32, cipher: auto, tls: false, network: ws, ws-path: /s/d0a8692.fm.apple.com:32667, ws-headers: {Host: api.skype.com}}
+  - {name: 🇨🇳 GLaDOS-GEOIP-TW-01, server: d0a8692.ga.gladns.com, port: 3203, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 32, cipher: auto, tls: false, network: ws, ws-path: /s/d0a8692.fm.apple.com:32667, ws-headers: {Host: api.skype.com}}
+  - {name: 🇨🇳 GLaDOS-GEOIP-TW-02, server: d0a8692.gb.gladns.com, port: 3203, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 32, cipher: auto, tls: false, network: ws, ws-path: /s/d0a8692.fm.apple.com:32667, ws-headers: {Host: api.skype.com}}
+  - {name: 🇨🇳 GLaDOS-GEOIP-TW-03, server: d0a8692.gd.gladns.com, port: 3203, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 32, cipher: auto, tls: false, network: ws, ws-path: /s/d0a8692.fm.apple.com:32667, ws-headers: {Host: api.skype.com}}
+  - {name: 🇺🇸 GLaDOS-GEOIP-US-01, server: d0a8692.ga.gladns.com, port: 3201, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 32, cipher: auto, tls: false, network: ws, ws-path: /s/d0a8692.fm.apple.com:32667, ws-headers: {Host: api.skype.com}}
+  - {name: 🇺🇸 GLaDOS-GEOIP-US-02, server: d0a8692.gb.gladns.com, port: 3201, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 32, cipher: auto, tls: false, network: ws, ws-path: /s/d0a8692.fm.apple.com:32667, ws-headers: {Host: api.skype.com}}
+  - {name: 🇺🇸 GLaDOS-GEOIP-US-03, server: d0a8692.gd.gladns.com, port: 3201, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 32, cipher: auto, tls: false, network: ws, ws-path: /s/d0a8692.fm.apple.com:32667, ws-headers: {Host: api.skype.com}}
+  - {name: 🇭🇰 GLaDOS-HK-Netflix, server: d0a8692.t3.gladns.com, port: 3306, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 32, cipher: auto, tls: false, network: ws, ws-path: /s/d0a8692.fm.apple.com:32667, ws-headers: {Host: hk.moss.network}}
+  - {name: GLaDOS-N2-00, server: d0a8692.na.gladns.com, port: 3389, type: trojan, password: f6f2072a2e4cfc91, sni: d0a8692.na.gladns.com}
+  - {name: GLaDOS-N2-01, server: d0a8692.nb.gladns.com, port: 3389, type: trojan, password: f6f2072a2e4cfc91, sni: d0a8692.nb.gladns.com}
+  - {name: GLaDOS-N2-02, server: d0a8692.nc.gladns.com, port: 3389, type: trojan, password: f6f2072a2e4cfc91, sni: d0a8692.nc.gladns.com}
+  - {name: GLaDOS-N2-03, server: d0a8692.nd.gladns.com, port: 3389, type: trojan, password: f6f2072a2e4cfc91, sni: d0a8692.nd.gladns.com}
+  - {name: GLaDOS-N2-04, server: d0a8692.ne.gladns.com, port: 3389, type: trojan, password: f6f2072a2e4cfc91, sni: d0a8692.ne.gladns.com}
+  - {name: GLaDOS-N2-05, server: d0a8692.nf.gladns.com, port: 3389, type: trojan, password: f6f2072a2e4cfc91, sni: d0a8692.nf.gladns.com}
+  - {name: GLaDOS-Portalgun-01, server: d0a8692.ha.gladns.com, port: 3306, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 32, cipher: auto, tls: false, network: ws, ws-path: /s/d0a8692.fm.apple.com:32667, ws-headers: {Host: api.apple.com}}
+  - {name: GLaDOS-Portalgun-02, server: d0a8692.hb.gladns.com, port: 3306, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 32, cipher: auto, tls: false, network: ws, ws-path: /s/d0a8692.fm.apple.com:32667, ws-headers: {Host: api.qq.com}}
+  - {name: GLaDOS-Portalgun-03, server: d0a8692.hc.gladns.com, port: 3306, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 32, cipher: auto, tls: false, network: ws, ws-path: /s/d0a8692.fm.apple.com:32667, ws-headers: {Host: api.skype.com}}
+  - {name: GLaDOS-Portalgun-04, server: d0a8692.hd.gladns.com, port: 3306, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 32, cipher: auto, tls: false, network: ws, ws-path: /s/d0a8692.fm.apple.com:32667, ws-headers: {Host: api.apple.com}}
+  - {name: GLaDOS-Portalgun-05, server: d0a8692.he.gladns.com, port: 3306, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 32, cipher: auto, tls: false, network: ws, ws-path: /s/d0a8692.fm.apple.com:32667, ws-headers: {Host: stmp.163.com}}
+  - {name: GLaDOS-Portalgun-06, server: d0a8692.hf.gladns.com, port: 3306, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 32, cipher: auto, tls: false, network: ws, ws-path: /s/d0a8692.fm.apple.com:32667, ws-headers: {Host: api.icloud.com}}
+  - {name: GLaDOS-Railgun-00, server: d0a8692.ra.gladns.com, port: 80, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 32, cipher: auto, tls: false, network: ws, ws-path: /s/d0a8692.fm.apple.com:32667, ws-headers: {Host: rx.moss.network}}
+  - {name: GLaDOS-Railgun-01, server: d0a8692.rb.gladns.com, port: 80, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 32, cipher: auto, tls: false, network: ws, ws-path: /s/d0a8692.fm.apple.com:32667, ws-headers: {Host: rx.moss.network}}
+  - {name: GLaDOS-Railgun-02, server: d0a8692.rc.gladns.com, port: 80, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 32, cipher: auto, tls: false, network: ws, ws-path: /s/d0a8692.fm.apple.com:32667, ws-headers: {Host: rx.moss.network}}
+  - {name: GLaDOS-Railgun-03, server: d0a8692.rd.gladns.com, port: 80, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 32, cipher: auto, tls: false, network: ws, ws-path: /s/d0a8692.fm.apple.com:32667, ws-headers: {Host: rx.moss.network}}
+  - {name: GLaDOS-Railgun-04, server: d0a8692.re.gladns.com, port: 80, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 32, cipher: auto, tls: false, network: ws, ws-path: /s/d0a8692.fm.apple.com:32667, ws-headers: {Host: rx.moss.network}}
+  - {name: GLaDOS-Railgun-05, server: d0a8692.rf.gladns.com, port: 80, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 32, cipher: auto, tls: false, network: ws, ws-path: /s/d0a8692.fm.apple.com:32667, ws-headers: {Host: rx.moss.network}}
+  - {name: 🇨🇳 GLaDOS-TW-Netflix, server: d0a8692.t2.gladns.com, port: 3306, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 32, cipher: auto, tls: false, network: ws, ws-path: /s/d0a8692.fm.apple.com:32667, ws-headers: {Host: test.moss.network}}
+  - {name: 🇺🇸 GLaDOS-US-Netflix, server: d0a8692.t1.gladns.com, port: 3306, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 32, cipher: auto, tls: false, network: ws, ws-path: /s/d0a8692.fm.apple.com:32667, ws-headers: {Host: trump.moss.network}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -99,6 +135,42 @@ proxy-groups:
       - 🇯🇵 日本 AZURE 1 2
       - 🇰🇷 直连 | 韩国 AZURE 01
       - 🇭🇰 香港 AZURE 3
+      - 🇭🇰 GLaDOS-GEOIP-HK-01
+      - 🇭🇰 GLaDOS-GEOIP-HK-02
+      - 🇭🇰 GLaDOS-GEOIP-HK-03
+      - 🇯🇵 GLaDOS-GEOIP-JP-01
+      - 🇯🇵 GLaDOS-GEOIP-JP-02
+      - 🇯🇵 GLaDOS-GEOIP-JP-03
+      - 🇸🇬 GLaDOS-GEOIP-SG-01
+      - 🇸🇬 GLaDOS-GEOIP-SG-02
+      - 🇸🇬 GLaDOS-GEOIP-SG-03
+      - 🇨🇳 GLaDOS-GEOIP-TW-01
+      - 🇨🇳 GLaDOS-GEOIP-TW-02
+      - 🇨🇳 GLaDOS-GEOIP-TW-03
+      - 🇺🇸 GLaDOS-GEOIP-US-01
+      - 🇺🇸 GLaDOS-GEOIP-US-02
+      - 🇺🇸 GLaDOS-GEOIP-US-03
+      - 🇭🇰 GLaDOS-HK-Netflix
+      - GLaDOS-N2-00
+      - GLaDOS-N2-01
+      - GLaDOS-N2-02
+      - GLaDOS-N2-03
+      - GLaDOS-N2-04
+      - GLaDOS-N2-05
+      - GLaDOS-Portalgun-01
+      - GLaDOS-Portalgun-02
+      - GLaDOS-Portalgun-03
+      - GLaDOS-Portalgun-04
+      - GLaDOS-Portalgun-05
+      - GLaDOS-Portalgun-06
+      - GLaDOS-Railgun-00
+      - GLaDOS-Railgun-01
+      - GLaDOS-Railgun-02
+      - GLaDOS-Railgun-03
+      - GLaDOS-Railgun-04
+      - GLaDOS-Railgun-05
+      - 🇨🇳 GLaDOS-TW-Netflix
+      - 🇺🇸 GLaDOS-US-Netflix
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -149,6 +221,42 @@ proxy-groups:
       - 🇯🇵 日本 AZURE 1 2
       - 🇰🇷 直连 | 韩国 AZURE 01
       - 🇭🇰 香港 AZURE 3
+      - 🇭🇰 GLaDOS-GEOIP-HK-01
+      - 🇭🇰 GLaDOS-GEOIP-HK-02
+      - 🇭🇰 GLaDOS-GEOIP-HK-03
+      - 🇯🇵 GLaDOS-GEOIP-JP-01
+      - 🇯🇵 GLaDOS-GEOIP-JP-02
+      - 🇯🇵 GLaDOS-GEOIP-JP-03
+      - 🇸🇬 GLaDOS-GEOIP-SG-01
+      - 🇸🇬 GLaDOS-GEOIP-SG-02
+      - 🇸🇬 GLaDOS-GEOIP-SG-03
+      - 🇨🇳 GLaDOS-GEOIP-TW-01
+      - 🇨🇳 GLaDOS-GEOIP-TW-02
+      - 🇨🇳 GLaDOS-GEOIP-TW-03
+      - 🇺🇸 GLaDOS-GEOIP-US-01
+      - 🇺🇸 GLaDOS-GEOIP-US-02
+      - 🇺🇸 GLaDOS-GEOIP-US-03
+      - 🇭🇰 GLaDOS-HK-Netflix
+      - GLaDOS-N2-00
+      - GLaDOS-N2-01
+      - GLaDOS-N2-02
+      - GLaDOS-N2-03
+      - GLaDOS-N2-04
+      - GLaDOS-N2-05
+      - GLaDOS-Portalgun-01
+      - GLaDOS-Portalgun-02
+      - GLaDOS-Portalgun-03
+      - GLaDOS-Portalgun-04
+      - GLaDOS-Portalgun-05
+      - GLaDOS-Portalgun-06
+      - GLaDOS-Railgun-00
+      - GLaDOS-Railgun-01
+      - GLaDOS-Railgun-02
+      - GLaDOS-Railgun-03
+      - GLaDOS-Railgun-04
+      - GLaDOS-Railgun-05
+      - 🇨🇳 GLaDOS-TW-Netflix
+      - 🇺🇸 GLaDOS-US-Netflix
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -199,6 +307,42 @@ proxy-groups:
       - 🇯🇵 日本 AZURE 1 2
       - 🇰🇷 直连 | 韩国 AZURE 01
       - 🇭🇰 香港 AZURE 3
+      - 🇭🇰 GLaDOS-GEOIP-HK-01
+      - 🇭🇰 GLaDOS-GEOIP-HK-02
+      - 🇭🇰 GLaDOS-GEOIP-HK-03
+      - 🇯🇵 GLaDOS-GEOIP-JP-01
+      - 🇯🇵 GLaDOS-GEOIP-JP-02
+      - 🇯🇵 GLaDOS-GEOIP-JP-03
+      - 🇸🇬 GLaDOS-GEOIP-SG-01
+      - 🇸🇬 GLaDOS-GEOIP-SG-02
+      - 🇸🇬 GLaDOS-GEOIP-SG-03
+      - 🇨🇳 GLaDOS-GEOIP-TW-01
+      - 🇨🇳 GLaDOS-GEOIP-TW-02
+      - 🇨🇳 GLaDOS-GEOIP-TW-03
+      - 🇺🇸 GLaDOS-GEOIP-US-01
+      - 🇺🇸 GLaDOS-GEOIP-US-02
+      - 🇺🇸 GLaDOS-GEOIP-US-03
+      - 🇭🇰 GLaDOS-HK-Netflix
+      - GLaDOS-N2-00
+      - GLaDOS-N2-01
+      - GLaDOS-N2-02
+      - GLaDOS-N2-03
+      - GLaDOS-N2-04
+      - GLaDOS-N2-05
+      - GLaDOS-Portalgun-01
+      - GLaDOS-Portalgun-02
+      - GLaDOS-Portalgun-03
+      - GLaDOS-Portalgun-04
+      - GLaDOS-Portalgun-05
+      - GLaDOS-Portalgun-06
+      - GLaDOS-Railgun-00
+      - GLaDOS-Railgun-01
+      - GLaDOS-Railgun-02
+      - GLaDOS-Railgun-03
+      - GLaDOS-Railgun-04
+      - GLaDOS-Railgun-05
+      - 🇨🇳 GLaDOS-TW-Netflix
+      - 🇺🇸 GLaDOS-US-Netflix
   - name: 📲 电报信息
     type: select
     proxies:
@@ -248,6 +392,42 @@ proxy-groups:
       - 🇯🇵 日本 AZURE 1 2
       - 🇰🇷 直连 | 韩国 AZURE 01
       - 🇭🇰 香港 AZURE 3
+      - 🇭🇰 GLaDOS-GEOIP-HK-01
+      - 🇭🇰 GLaDOS-GEOIP-HK-02
+      - 🇭🇰 GLaDOS-GEOIP-HK-03
+      - 🇯🇵 GLaDOS-GEOIP-JP-01
+      - 🇯🇵 GLaDOS-GEOIP-JP-02
+      - 🇯🇵 GLaDOS-GEOIP-JP-03
+      - 🇸🇬 GLaDOS-GEOIP-SG-01
+      - 🇸🇬 GLaDOS-GEOIP-SG-02
+      - 🇸🇬 GLaDOS-GEOIP-SG-03
+      - 🇨🇳 GLaDOS-GEOIP-TW-01
+      - 🇨🇳 GLaDOS-GEOIP-TW-02
+      - 🇨🇳 GLaDOS-GEOIP-TW-03
+      - 🇺🇸 GLaDOS-GEOIP-US-01
+      - 🇺🇸 GLaDOS-GEOIP-US-02
+      - 🇺🇸 GLaDOS-GEOIP-US-03
+      - 🇭🇰 GLaDOS-HK-Netflix
+      - GLaDOS-N2-00
+      - GLaDOS-N2-01
+      - GLaDOS-N2-02
+      - GLaDOS-N2-03
+      - GLaDOS-N2-04
+      - GLaDOS-N2-05
+      - GLaDOS-Portalgun-01
+      - GLaDOS-Portalgun-02
+      - GLaDOS-Portalgun-03
+      - GLaDOS-Portalgun-04
+      - GLaDOS-Portalgun-05
+      - GLaDOS-Portalgun-06
+      - GLaDOS-Railgun-00
+      - GLaDOS-Railgun-01
+      - GLaDOS-Railgun-02
+      - GLaDOS-Railgun-03
+      - GLaDOS-Railgun-04
+      - GLaDOS-Railgun-05
+      - 🇨🇳 GLaDOS-TW-Netflix
+      - 🇺🇸 GLaDOS-US-Netflix
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -297,6 +477,42 @@ proxy-groups:
       - 🇯🇵 日本 AZURE 1 2
       - 🇰🇷 直连 | 韩国 AZURE 01
       - 🇭🇰 香港 AZURE 3
+      - 🇭🇰 GLaDOS-GEOIP-HK-01
+      - 🇭🇰 GLaDOS-GEOIP-HK-02
+      - 🇭🇰 GLaDOS-GEOIP-HK-03
+      - 🇯🇵 GLaDOS-GEOIP-JP-01
+      - 🇯🇵 GLaDOS-GEOIP-JP-02
+      - 🇯🇵 GLaDOS-GEOIP-JP-03
+      - 🇸🇬 GLaDOS-GEOIP-SG-01
+      - 🇸🇬 GLaDOS-GEOIP-SG-02
+      - 🇸🇬 GLaDOS-GEOIP-SG-03
+      - 🇨🇳 GLaDOS-GEOIP-TW-01
+      - 🇨🇳 GLaDOS-GEOIP-TW-02
+      - 🇨🇳 GLaDOS-GEOIP-TW-03
+      - 🇺🇸 GLaDOS-GEOIP-US-01
+      - 🇺🇸 GLaDOS-GEOIP-US-02
+      - 🇺🇸 GLaDOS-GEOIP-US-03
+      - 🇭🇰 GLaDOS-HK-Netflix
+      - GLaDOS-N2-00
+      - GLaDOS-N2-01
+      - GLaDOS-N2-02
+      - GLaDOS-N2-03
+      - GLaDOS-N2-04
+      - GLaDOS-N2-05
+      - GLaDOS-Portalgun-01
+      - GLaDOS-Portalgun-02
+      - GLaDOS-Portalgun-03
+      - GLaDOS-Portalgun-04
+      - GLaDOS-Portalgun-05
+      - GLaDOS-Portalgun-06
+      - GLaDOS-Railgun-00
+      - GLaDOS-Railgun-01
+      - GLaDOS-Railgun-02
+      - GLaDOS-Railgun-03
+      - GLaDOS-Railgun-04
+      - GLaDOS-Railgun-05
+      - 🇨🇳 GLaDOS-TW-Netflix
+      - 🇺🇸 GLaDOS-US-Netflix
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -346,6 +562,42 @@ proxy-groups:
       - 🇯🇵 日本 AZURE 1 2
       - 🇰🇷 直连 | 韩国 AZURE 01
       - 🇭🇰 香港 AZURE 3
+      - 🇭🇰 GLaDOS-GEOIP-HK-01
+      - 🇭🇰 GLaDOS-GEOIP-HK-02
+      - 🇭🇰 GLaDOS-GEOIP-HK-03
+      - 🇯🇵 GLaDOS-GEOIP-JP-01
+      - 🇯🇵 GLaDOS-GEOIP-JP-02
+      - 🇯🇵 GLaDOS-GEOIP-JP-03
+      - 🇸🇬 GLaDOS-GEOIP-SG-01
+      - 🇸🇬 GLaDOS-GEOIP-SG-02
+      - 🇸🇬 GLaDOS-GEOIP-SG-03
+      - 🇨🇳 GLaDOS-GEOIP-TW-01
+      - 🇨🇳 GLaDOS-GEOIP-TW-02
+      - 🇨🇳 GLaDOS-GEOIP-TW-03
+      - 🇺🇸 GLaDOS-GEOIP-US-01
+      - 🇺🇸 GLaDOS-GEOIP-US-02
+      - 🇺🇸 GLaDOS-GEOIP-US-03
+      - 🇭🇰 GLaDOS-HK-Netflix
+      - GLaDOS-N2-00
+      - GLaDOS-N2-01
+      - GLaDOS-N2-02
+      - GLaDOS-N2-03
+      - GLaDOS-N2-04
+      - GLaDOS-N2-05
+      - GLaDOS-Portalgun-01
+      - GLaDOS-Portalgun-02
+      - GLaDOS-Portalgun-03
+      - GLaDOS-Portalgun-04
+      - GLaDOS-Portalgun-05
+      - GLaDOS-Portalgun-06
+      - GLaDOS-Railgun-00
+      - GLaDOS-Railgun-01
+      - GLaDOS-Railgun-02
+      - GLaDOS-Railgun-03
+      - GLaDOS-Railgun-04
+      - GLaDOS-Railgun-05
+      - 🇨🇳 GLaDOS-TW-Netflix
+      - 🇺🇸 GLaDOS-US-Netflix
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -396,6 +648,42 @@ proxy-groups:
       - 🇯🇵 日本 AZURE 1 2
       - 🇰🇷 直连 | 韩国 AZURE 01
       - 🇭🇰 香港 AZURE 3
+      - 🇭🇰 GLaDOS-GEOIP-HK-01
+      - 🇭🇰 GLaDOS-GEOIP-HK-02
+      - 🇭🇰 GLaDOS-GEOIP-HK-03
+      - 🇯🇵 GLaDOS-GEOIP-JP-01
+      - 🇯🇵 GLaDOS-GEOIP-JP-02
+      - 🇯🇵 GLaDOS-GEOIP-JP-03
+      - 🇸🇬 GLaDOS-GEOIP-SG-01
+      - 🇸🇬 GLaDOS-GEOIP-SG-02
+      - 🇸🇬 GLaDOS-GEOIP-SG-03
+      - 🇨🇳 GLaDOS-GEOIP-TW-01
+      - 🇨🇳 GLaDOS-GEOIP-TW-02
+      - 🇨🇳 GLaDOS-GEOIP-TW-03
+      - 🇺🇸 GLaDOS-GEOIP-US-01
+      - 🇺🇸 GLaDOS-GEOIP-US-02
+      - 🇺🇸 GLaDOS-GEOIP-US-03
+      - 🇭🇰 GLaDOS-HK-Netflix
+      - GLaDOS-N2-00
+      - GLaDOS-N2-01
+      - GLaDOS-N2-02
+      - GLaDOS-N2-03
+      - GLaDOS-N2-04
+      - GLaDOS-N2-05
+      - GLaDOS-Portalgun-01
+      - GLaDOS-Portalgun-02
+      - GLaDOS-Portalgun-03
+      - GLaDOS-Portalgun-04
+      - GLaDOS-Portalgun-05
+      - GLaDOS-Portalgun-06
+      - GLaDOS-Railgun-00
+      - GLaDOS-Railgun-01
+      - GLaDOS-Railgun-02
+      - GLaDOS-Railgun-03
+      - GLaDOS-Railgun-04
+      - GLaDOS-Railgun-05
+      - 🇨🇳 GLaDOS-TW-Netflix
+      - 🇺🇸 GLaDOS-US-Netflix
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -462,6 +750,42 @@ proxy-groups:
       - 🇯🇵 日本 AZURE 1 2
       - 🇰🇷 直连 | 韩国 AZURE 01
       - 🇭🇰 香港 AZURE 3
+      - 🇭🇰 GLaDOS-GEOIP-HK-01
+      - 🇭🇰 GLaDOS-GEOIP-HK-02
+      - 🇭🇰 GLaDOS-GEOIP-HK-03
+      - 🇯🇵 GLaDOS-GEOIP-JP-01
+      - 🇯🇵 GLaDOS-GEOIP-JP-02
+      - 🇯🇵 GLaDOS-GEOIP-JP-03
+      - 🇸🇬 GLaDOS-GEOIP-SG-01
+      - 🇸🇬 GLaDOS-GEOIP-SG-02
+      - 🇸🇬 GLaDOS-GEOIP-SG-03
+      - 🇨🇳 GLaDOS-GEOIP-TW-01
+      - 🇨🇳 GLaDOS-GEOIP-TW-02
+      - 🇨🇳 GLaDOS-GEOIP-TW-03
+      - 🇺🇸 GLaDOS-GEOIP-US-01
+      - 🇺🇸 GLaDOS-GEOIP-US-02
+      - 🇺🇸 GLaDOS-GEOIP-US-03
+      - 🇭🇰 GLaDOS-HK-Netflix
+      - GLaDOS-N2-00
+      - GLaDOS-N2-01
+      - GLaDOS-N2-02
+      - GLaDOS-N2-03
+      - GLaDOS-N2-04
+      - GLaDOS-N2-05
+      - GLaDOS-Portalgun-01
+      - GLaDOS-Portalgun-02
+      - GLaDOS-Portalgun-03
+      - GLaDOS-Portalgun-04
+      - GLaDOS-Portalgun-05
+      - GLaDOS-Portalgun-06
+      - GLaDOS-Railgun-00
+      - GLaDOS-Railgun-01
+      - GLaDOS-Railgun-02
+      - GLaDOS-Railgun-03
+      - GLaDOS-Railgun-04
+      - GLaDOS-Railgun-05
+      - 🇨🇳 GLaDOS-TW-Netflix
+      - 🇺🇸 GLaDOS-US-Netflix
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
