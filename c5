@@ -5,509 +5,581 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇯🇵 二爷翻墙网 https://1808.ga日本东京Linode数据中心 1, server: auto.freev2.top, port: 15482, type: vmess, uuid: 354e4f20-7a3b-4ee1-b6a7-3c34d1eb1da9, alterId: 1, cipher: auto, tls: false}
-  - {name: 🇺🇸 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶Sharktech数据中心 2, server: 170.178.165.233, port: 443, type: vmess, uuid: ee954308-5990-4914-b74f-b7be76963fde, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.55916573.xyz}}
-  - {name: 🇺🇸 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶Cloudinnovation数据中心 3, server: 156.233.249.200, port: 12443, type: vmess, uuid: 5472bbae-9953-4f48-85c6-af3683247bbe, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /kdriderr, ws-headers: {Host: pygia.imonline.xyz}}
-  - {name: 🇺🇸 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶Sharktech数据中心 4, server: 170.178.165.253, port: 443, type: vmess, uuid: ee954308-5990-4914-b74f-b7be76963fde, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.55916573.xyz}}
-  - {name: 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 5, server: ip.codeforces.live, port: 443, type: vmess, uuid: e6397eda-dd27-4832-a693-b3fb156ec0f3, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /233blog, ws-headers: {Host: rn.ddns1312.top}}
-  - {name: 🇺🇸 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶市SharkTech数据中心 6, server: 107.167.9.124, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.17080100.xyz}}
-  - {name: 🇯🇵 二爷翻墙网 https://1808.ga日本东京Amazon数据中心 7, server: 54.199.6.184, port: 65432, type: vmess, uuid: d13634e2-9cd3-4947-ac45-10652da4d147, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 54.199.6.184}}
-  - {name: 🇳🇱 二爷翻墙网 https://1808.ga荷兰  8, server: 46.182.107.94, port: 443, type: vmess, uuid: 743bdc87-1dea-41bf-aa0b-51dfbbfec8aa, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.54872833.xyz}}
-  - {name: 🇳🇱 二爷翻墙网 https://1808.ga荷兰  9, server: 46.182.107.37, port: 443, type: vmess, uuid: 65ea6727-4461-47a7-a5c4-fef2c67f2f79, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.09462550.xyz}}
-  - {name: 🇳🇱 二爷翻墙网 https://1808.ga荷兰  10, server: 46.182.107.93, port: 443, type: vmess, uuid: 743bdc87-1dea-41bf-aa0b-51dfbbfec8aa, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.54872833.xyz}}
-  - {name: 🇳🇱 二爷翻墙网 https://1808.ga荷兰  11, server: 46.182.107.157, port: 443, type: vmess, uuid: 20b30916-e203-412e-8ec0-900f3acd5128, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.73345741.xyz}}
-  - {name: 🇳🇱 二爷翻墙网 https://1808.ga荷兰  12, server: 46.182.107.146, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca4690dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.44590130.xyz}}
-  - {name: 🇺🇸 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶Coperation Coloction数据中心 13, server: 23.224.30.37, port: 443, type: vmess, uuid: e4494518-74e8-4d6b-942a-6b332cce09ef, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.01902367.xyz}}
-  - {name: 🇨🇳 二爷翻墙网 https://1808.ga台湾省中华电信(HiNet)数据中心 14, server: 211.23.132.124, port: 9233, type: vmess, uuid: be58f4e4-894a-47ee-8836-cf75e74fa9c9, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 211.23.132.124}}
-  - {name: 🇳🇱 二爷翻墙网 https://1808.ga荷兰  15, server: 46.182.107.39, port: 443, type: vmess, uuid: d3133484-f2bf-4b0c-8d38-f8e645b65687, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.07890885.xyz}}
-  - {name: 🇳🇱 二爷翻墙网 https://1808.ga荷兰  16, server: 46.182.107.154, port: 443, type: vmess, uuid: 130c9f2e-42b1-4ebf-b345-e26456a061f9, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.05222027.xyz}}
-  - {name: 🇳🇱 二爷翻墙网 https://1808.ga荷兰  17, server: 46.182.107.25, port: 443, type: vmess, uuid: 0a1ab3bd-0431-4da8-ad8a-238367ce4efc, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.11300814.xyz}}
-  - {name: 🇺🇸 二爷翻墙网 https://1808.ga美国加利福尼亚州旧金山Amazon数据中心 18, server: us-01.yinriver.top, port: 80, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: us-01.yinriver.top}}
-  - {name: 🇺🇸 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶Coperation Coloction数据中心 19, server: 23.224.30.36, port: 443, type: vmess, uuid: e4494518-74e8-4d6b-942a-6b332cce09ef, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.01902367.xyz}}
-  - {name: 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 20, server: euserv10p.ezddns.tk, port: 80, type: vmess, uuid: 4323a38e-29dc-4c6d-f436-b15114e57a75, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /download.zip, ws-headers: {Host: euserv10p.ezddns.tk}}
-  - {name: 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 21, server: 104.18.7.138, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇺🇸 二爷翻墙网 https://1808.ga美国  22, server: 135.125.207.34, port: 80, type: vmess, uuid: e2816152-6326-4cf9-aa95-34b0f9a8c666, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /sshocean, ws-headers: {Host: 135.125.207.34}}
-  - {name: 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 23, server: 104.21.48.161, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 24, server: 104.19.45.117, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 25, server: euserv18p.ezddns.tk, port: 80, type: vmess, uuid: 344c0b7d-2c35-4c95-8481-e2fc3c456a06, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /audio.mp3, ws-headers: {Host: euserv18p.ezddns.tk}}
-  - {name: 🇦🇨 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶MULTACOM数据中心 26, server: 96.43.91.60, port: 443, type: vmess, uuid: 3bfb43e2-7dfe-4757-86ee-1ce9fb9fd13a, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.45218443.xyz}}
-  - {name: 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 27, server: 104.18.6.138, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare节点 28, server: euserv5p.ezddns.tk, port: 80, type: vmess, uuid: 60b738e2-3aa4-4cde-c270-20f8cc1ab16a, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /audio.wav, ws-headers: {Host: euserv5p.ezddns.tk}}
-  - {name: 🇸🇬 二爷翻墙网 https://1808.ga美国新泽西州皮斯卡特维Choopa数据中心 29, server: qq1-cloud13.feiclouddd.me, port: 443, type: vmess, uuid: 478055cc-fdb8-404e-b730-c32faa2c7ca1, alterId: 60, cipher: auto, tls: true, network: ws, ws-path: /asdfasdf, ws-headers: {Host: qq1-cloud13.feiclouddd.me}}
-  - {name: 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 30, server: lv.gfw.click, port: 443, type: vmess, uuid: 34b42096-3723-4d0b-8067-423a1cc960f4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /user, ws-headers: {Host: lv.gfw.click}}
-  - {name: 🇦🇨 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶MULTACOM数据中心 31, server: 96.43.91.58, port: 443, type: vmess, uuid: 3bfb43e2-7dfe-4757-86ee-1ce9fb9fd13a, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.45218443.xyz}}
-  - {name: 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 32, server: 104.19.181.164, port: 443, type: vmess, uuid: 9bddd3b6-7b24-4575-ae3e-63fe8b30ed26, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /tggonghai, ws-headers: {Host: g23.newword.site}}
-  - {name: 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 33, server: euserv9p.ezddns.tk, port: 80, type: vmess, uuid: ca870483-fa7d-4f64-983a-6ed455143aca, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /live, ws-headers: {Host: euserv9p.ezddns.tk}}
-  - {name: 二爷翻墙网 https://1808.ga葡萄牙  34, server: 82.102.26.117, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
-  - {name: 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare节点 35, server: t6.ssrsub.one, port: 443, type: vmess, uuid: 97018aac-0985-4d4b-8283-f774c9fe9418, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /v2ray/fc671c24/, ws-headers: {Host: t6.ssrsub.one}}
-  - {name: 🇩🇪 二爷翻墙网 https://1808.ga德国Hetzner 36, server: 138.201.150.52, port: 33957, type: vmess, uuid: 89cee221-b06c-46c5-f0d7-4fd3f4740b97, alterId: 64, cipher: auto, tls: false}
-  - {name: 二爷翻墙网 https://1808.ga欧洲  37, server: 138.199.9.202, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 🇩🇰 二爷翻墙网 https://1808.ga丹麦哥本哈根Digital VM 38, server: 5.183.101.204, port: 59857, type: vmess, uuid: 4c35d374-dbf2-4e5f-c731-dfa49191825a, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 39, server: cdnde.irteyz.today, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇺🇸 二爷翻墙网 https://1808.ga美国内华达州拉斯维加斯BuyVM数据中心 40, server: a7.ssrsub.one, port: 443, type: vmess, uuid: f802a64c-e152-11eb-9adc-0016909b35da, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /Bnmt9OqM/, ws-headers: {Host: a7.ssrsub.one}}
-  - {name: 二爷翻墙网 https://1808.ga匈牙利  41, server: 185.225.69.134, port: 45081, type: vmess, uuid: 3c3bfd75-dc30-4e76-8940-47e1137e21f9, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇷🇺 二爷翻墙网 https://1808.ga俄罗斯  42, server: 194.87.48.252, port: 23348, type: vmess, uuid: 3dac3771-247b-4088-8a98-499a79ddef47, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 二爷翻墙网 https://1808.ga香港CDN77节点 43, server: 84.17.35.78, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇨🇳 二爷翻墙网 https://1808.gaTWN/台湾 B - 苏州电信, server: 58.211.137.1, port: 80, type: vmess, uuid: dd390688-1fe8-42c2-a951-33ab9c773f49, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 007.cdn.8x.cx.hit.edu.cn}}
-  - {name: 🇭🇰 二爷翻墙网 https://1808.gaHK/香港 B - 郑州联通, server: 42.236.94.1, port: 80, type: vmess, uuid: dd390688-1fe8-42c2-a951-33ab9c773f49, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 002.cdn.8x.cx.hit.edu.cn}}
-  - {name: 🇨🇳 二爷翻墙网 https://1808.gaTWN/台湾 B - 东莞电信, server: 119.147.134.1, port: 80, type: vmess, uuid: dd390688-1fe8-42c2-a951-33ab9c773f49, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 007.cdn.8x.cx.hit.edu.cn}}
-  - {name: 🇨🇳 二爷翻墙网 https://1808.gaTWN/台湾 A - 郑州联通, server: 42.236.94.1, port: 80, type: vmess, uuid: dd390688-1fe8-42c2-a951-33ab9c773f49, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 004.cdn.8x.cx.hit.edu.cn}}
-  - {name: 🇨🇳 二爷翻墙网 https://1808.gaTWN/台湾 A - 宁波电信, server: 115.231.187.1, port: 80, type: vmess, uuid: dd390688-1fe8-42c2-a951-33ab9c773f49, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 004.cdn.8x.cx.hit.edu.cn}}
-  - {name: 🇨🇳 二爷翻墙网 https://1808.gaTWN/台湾 A - 天津电信, server: 42.81.8.1, port: 80, type: vmess, uuid: dd390688-1fe8-42c2-a951-33ab9c773f49, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 004.cdn.8x.cx.hit.edu.cn}}
-  - {name: 🇨🇳 二爷翻墙网 https://1808.gaTWN/台湾 B - 郑州联通, server: 42.236.94.1, port: 80, type: vmess, uuid: dd390688-1fe8-42c2-a951-33ab9c773f49, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 007.cdn.8x.cx.hit.edu.cn}}
-  - {name: 🇸🇬 二爷翻墙网 https://1808.gaSIN/狮城 A - 天津移动, server: 111.32.136.1, port: 80, type: vmess, uuid: dd390688-1fe8-42c2-a951-33ab9c773f49, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 003.cdn.8x.cx.hit.edu.cn}}
-  - {name: 🇨🇳 二爷翻墙网 https://1808.gaTWN/台湾 B - 重庆联通, server: 113.207.102.1, port: 80, type: vmess, uuid: dd390688-1fe8-42c2-a951-33ab9c773f49, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 007.cdn.8x.cx.hit.edu.cn}}
-  - {name: 🇯🇵 二爷翻墙网 https://1808.gaJPN/日本 A - 天津移动, server: 111.32.136.1, port: 80, type: vmess, uuid: dd390688-1fe8-42c2-a951-33ab9c773f49, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 006.cdn.8x.cx.hit.edu.cn}}
-  - {name: 🇺🇸 二爷翻墙网 https://1808.gaUSA/美国 A - 郑州联通, server: 42.236.94.1, port: 80, type: vmess, uuid: dd390688-1fe8-42c2-a951-33ab9c773f49, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 005.cdn.8x.cx.hit.edu.cn}}
-  - {name: 🇺🇸 二爷翻墙网 https://1808.gaUSA/美国 A - 重庆联通, server: 113.207.102.1, port: 80, type: vmess, uuid: dd390688-1fe8-42c2-a951-33ab9c773f49, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 005.cdn.8x.cx.hit.edu.cn}}
-  - {name: 🇯🇵 二爷翻墙网 https://1808.gaJPN/日本 A - 西安电信, server: 117.34.14.1, port: 80, type: vmess, uuid: dd390688-1fe8-42c2-a951-33ab9c773f49, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 006.cdn.8x.cx.hit.edu.cn}}
-  - {name: 🇯🇵 二爷翻墙网 https://1808.gaJPN/日本 A - 重庆联通, server: 113.207.102.1, port: 80, type: vmess, uuid: dd390688-1fe8-42c2-a951-33ab9c773f49, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 006.cdn.8x.cx.hit.edu.cn}}
-  - {name: 🇨🇳 二爷翻墙网 https://1808.gaTWN/台湾 B - 天津电信, server: 42.81.8.1, port: 80, type: vmess, uuid: dd390688-1fe8-42c2-a951-33ab9c773f49, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 007.cdn.8x.cx.hit.edu.cn}}
+  - {name: 二爷免费翻墙网 https://1808.ga, server: t8.ssrsub.one, port: 8443, type: trojan, password: e892ZE4O, sni: t8.ssrsub.one}
+  - {name: 二爷免费翻墙网 https://1808.ga 2, server: 194.87.48.252, port: 38673, type: vmess, uuid: f0da4655-f438-4008-a9e0-6c7f0c4cfaa5, alterId: 0, cipher: auto, tls: false}
+  - {name: 二爷免费翻墙网 https://1808.ga 3, server: t9.ssrsub.one, port: 8443, type: trojan, password: B0HDVyan, sni: t9.ssrsub.one}
+  - {name: 二爷免费翻墙网 https://1808.ga 4, server: a9.ssrsub.one, port: 443, type: trojan, password: Wy10jznY, sni: a9.ssrsub.one}
+  - {name: 二爷免费翻墙网 https://1808.ga 5, server: 185.225.69.134, port: 45081, type: vmess, uuid: 3c3bfd75-dc30-4e76-8940-47e1137e21f9, alterId: 64, cipher: auto, tls: false}
+  - {name: 二爷免费翻墙网 https://1808.ga 6, server: 211.23.132.124, port: 9233, type: vmess, uuid: be58f4e4-894a-47ee-8836-cf75e74fa9c9, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 211.23.132.124}}
+  - {name: 二爷免费翻墙网 https://1808.ga 7, server: 138.201.150.52, port: 33957, type: vmess, uuid: 89cee221-b06c-46c5-f0d7-4fd3f4740b97, alterId: 64, cipher: auto, tls: false}
+  - {name: 二爷免费翻墙网 https://1808.ga 8, server: 54.199.6.184, port: 65432, type: vmess, uuid: d13634e2-9cd3-4947-ac45-10652da4d147, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 54.199.6.184}}
+  - {name: 二爷免费翻墙网 https://1808.ga 9, server: auto.freev2.top, port: 57222, type: vmess, uuid: 1858f387-b641-4583-b868-34f0e8f93fe9, alterId: 1, cipher: auto, tls: false}
+  - {name: 二爷免费翻墙网 https://1808.ga 10, server: 135.125.207.34, port: 80, type: vmess, uuid: e2816152-6326-4cf9-aa95-34b0f9a8c666, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /sshocean, ws-headers: {Host: 135.125.207.34}}
+  - {name: 二爷免费翻墙网 https://1808.ga 11, server: 198.8.92.84, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: 二爷免费翻墙网 https://1808.ga 12, server: 198.8.92.84, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
+  - {name: 二爷免费翻墙网 https://1808.ga 13, server: 104.19.45.117, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 二爷免费翻墙网 https://1808.ga 14, server: 104.21.48.161, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 二爷免费翻墙网 https://1808.ga 15, server: 104.18.6.138, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 二爷免费翻墙网 https://1808.ga 16, server: lovfree.comb.yigeweizhuang.com, port: 443, type: vmess, uuid: 6fd9c7fe-d7bd-4277-85fc-f206de51ab3b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /lovfree.com, ws-headers: {Host: lovfree.comb.yigeweizhuang.com}}
+  - {name: 二爷免费翻墙网 https://1808.ga 17, server: lovfree.coma.yigeweizhuang.com, port: 443, type: vmess, uuid: dca7cafb-0828-465c-b6e7-812b241ad538, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /lovfree.com, ws-headers: {Host: lovfree.coma.yigeweizhuang.com}}
+  - {name: 二爷免费翻墙网 https://1808.ga 18, server: 104.19.181.164, port: 443, type: vmess, uuid: 9bddd3b6-7b24-4575-ae3e-63fe8b30ed26, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /tggonghai, ws-headers: {Host: g23.newword.site}}
+  - {name: 二爷免费翻墙网 https://1808.ga 19, server: 104.18.7.138, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 二爷免费翻墙网 https://1808.ga 20, server: presidency.eg, port: 443, type: vmess, uuid: d96e0bc9-e1d9-4715-ae3f-39dac55b9e44, alterId: 34, cipher: auto, tls: true, network: ws, ws-path: /9e1cb04e/, ws-headers: {Host: edozvpn.xyz}}
+  - {name: 二爷免费翻墙网 https://1808.ga 21, server: ip.codeforces.live, port: 443, type: vmess, uuid: e6397eda-dd27-4832-a693-b3fb156ec0f3, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /233blog, ws-headers: {Host: rn.ddns1312.top}}
+  - {name: 二爷免费翻墙网 https://1808.ga 22, server: t6.ssrsub.one, port: 443, type: vmess, uuid: 97018aac-0985-4d4b-8283-f774c9fe9418, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /v2ray/fc671c24/, ws-headers: {Host: t6.ssrsub.one}}
+  - {name: 二爷免费翻墙网 https://1808.ga 23, server: lovfree.comc.yigeweizhuang.com, port: 443, type: vmess, uuid: 4c842f71-039e-42f1-bcf6-7e48be4e129e, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /lovfree.com, ws-headers: {Host: lovfree.comc.yigeweizhuang.com}}
+  - {name: 二爷免费翻墙网 https://1808.ga 24, server: cdnde.irteyz.today, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 二爷免费翻墙网 https://1808.ga 25, server: lv.gfw.click, port: 443, type: vmess, uuid: 34b42096-3723-4d0b-8067-423a1cc960f4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /user, ws-headers: {Host: lv.gfw.click}}
+  - {name: 二爷免费翻墙网 https://1808.ga 26, server: a7.ssrsub.one, port: 443, type: trojan, password: A24HRtle, sni: a7.ssrsub.one}
+  - {name: 二爷免费翻墙网 https://1808.ga 27, server: t7.ssrsub.one, port: 8443, type: trojan, password: QjnLGqRz, sni: t7.ssrsub.one}
+  - {name: 二爷免费翻墙网 https://1808.ga 28, server: us-01.yinriver.top, port: 80, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: us-01.yinriver.top}}
+  - {name: 二爷免费翻墙网 https://1808.ga 29, server: 23.224.30.37, port: 443, type: vmess, uuid: e4494518-74e8-4d6b-942a-6b332cce09ef, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.01902367.xyz}}
+  - {name: 二爷免费翻墙网 https://1808.ga 30, server: 23.224.30.36, port: 443, type: vmess, uuid: e4494518-74e8-4d6b-942a-6b332cce09ef, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.01902367.xyz}}
+  - {name: 二爷免费翻墙网 https://1808.ga 31, server: 96.43.91.58, port: 443, type: vmess, uuid: 3bfb43e2-7dfe-4757-86ee-1ce9fb9fd13a, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.45218443.xyz}}
+  - {name: 二爷免费翻墙网 https://1808.ga 32, server: 96.43.91.60, port: 443, type: vmess, uuid: 3bfb43e2-7dfe-4757-86ee-1ce9fb9fd13a, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.45218443.xyz}}
+  - {name: 二爷免费翻墙网 https://1808.ga 33, server: 170.178.165.233, port: 443, type: vmess, uuid: ee954308-5990-4914-b74f-b7be76963fde, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.55916573.xyz}}
+  - {name: 二爷免费翻墙网 https://1808.ga 34, server: 170.178.165.253, port: 443, type: vmess, uuid: ee954308-5990-4914-b74f-b7be76963fde, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.55916573.xyz}}
+  - {name: 二爷免费翻墙网 https://1808.ga 35, server: 107.167.9.124, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.17080100.xyz}}
+  - {name: 二爷免费翻墙网 https://1808.ga 36, server: qq1-cloud13.feiclouddd.me, port: 443, type: vmess, uuid: 478055cc-fdb8-404e-b730-c32faa2c7ca1, alterId: 60, cipher: auto, tls: true, network: ws, ws-path: /asdfasdf, ws-headers: {Host: qq1-cloud13.feiclouddd.me}}
+  - {name: 二爷免费翻墙网 https://1808.ga 37, server: 198.147.22.87, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 二爷免费翻墙网 https://1808.ga 38, server: 46.182.107.94, port: 443, type: vmess, uuid: 743bdc87-1dea-41bf-aa0b-51dfbbfec8aa, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.54872833.xyz}}
+  - {name: 二爷免费翻墙网 https://1808.ga 39, server: 46.182.107.37, port: 443, type: vmess, uuid: 65ea6727-4461-47a7-a5c4-fef2c67f2f79, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.09462550.xyz}}
+  - {name: 二爷免费翻墙网 https://1808.ga 40, server: 46.182.107.93, port: 443, type: vmess, uuid: 743bdc87-1dea-41bf-aa0b-51dfbbfec8aa, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.54872833.xyz}}
+  - {name: 二爷免费翻墙网 https://1808.ga 41, server: 46.182.107.157, port: 443, type: vmess, uuid: 20b30916-e203-412e-8ec0-900f3acd5128, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.73345741.xyz}}
+  - {name: 二爷免费翻墙网 https://1808.ga 42, server: 46.182.107.39, port: 443, type: vmess, uuid: d3133484-f2bf-4b0c-8d38-f8e645b65687, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.07890885.xyz}}
+  - {name: 二爷免费翻墙网 https://1808.ga 43, server: 46.182.107.154, port: 443, type: vmess, uuid: 130c9f2e-42b1-4ebf-b345-e26456a061f9, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.05222027.xyz}}
+  - {name: 二爷免费翻墙网 https://1808.ga 44, server: 46.182.107.146, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca4690dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.44590130.xyz}}
+  - {name: 二爷免费翻墙网 https://1808.ga 45, server: 46.182.107.25, port: 443, type: vmess, uuid: 0a1ab3bd-0431-4da8-ad8a-238367ce4efc, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.11300814.xyz}}
+  - {name: 二爷免费翻墙网 https://1808.ga 46, server: 132.226.169.93, port: 45623, type: vmess, uuid: 0453154b-db51-4a66-8f7c-0887878cb9a3, alterId: 0, cipher: auto, tls: false}
+  - {name: 二爷免费翻墙网 https://1808.ga 47, server: 84.17.35.78, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇸🇬 AZ|新加坡01, server: anycast.cn-c.eqi.me, port: 37899, type: vmess, uuid: 6c06c9e9-1b51-46b4-be22-b1833715a066, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: anycast.cn-c.eqi.me}}
+  - {name: 🇸🇬 AZ|新加坡02, server: anycast.cn-c.eqi.me, port: 39017, type: vmess, uuid: 6c06c9e9-1b51-46b4-be22-b1833715a066, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: anycast.cn-c.eqi.me}}
+  - {name: 🇯🇵 AZ|日本03, server: anycast.cn-c.eqi.me, port: 49989, type: vmess, uuid: 6c06c9e9-1b51-46b4-be22-b1833715a066, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: anycast.cn-c.eqi.me}}
+  - {name: 🇭🇰 AZ|香港06 NF, server: anycast.cn-c.eqi.me, port: 57931, type: vmess, uuid: 6c06c9e9-1b51-46b4-be22-b1833715a066, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: anycast.cn-c.eqi.me}}
+  - {name: 🇭🇰 CM|香港03, server: anycast.live-fi.eqi.me, port: 8012, type: vmess, uuid: 6c06c9e9-1b51-46b4-be22-b1833715a066, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: anycast.live-fi.eqi.me}}
+  - {name: 🇭🇰 CM|香港06 NF, server: anycast.live-fi.eqi.me, port: 8015, type: vmess, uuid: 6c06c9e9-1b51-46b4-be22-b1833715a066, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: anycast.live-fi.eqi.me}}
+  - {name: 🇭🇰 Q102 BGP | 香港 Microsoft, server: 52.81.181.78, port: 21824, type: vmess, uuid: 9cea87a9-07d8-42ef-990a-0cbd5992371d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 52.81.181.78}}
+  - {name: 🇭🇰 Q105 BGP | 香港 NeroCloud | NF, server: 52.81.181.78, port: 21825, type: vmess, uuid: 9cea87a9-07d8-42ef-990a-0cbd5992371d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 52.81.181.78}}
+  - {name: 🇸🇬 Q401 BGP | 新加坡 Hivelocity, server: 52.81.181.78, port: 21827, type: vmess, uuid: 9cea87a9-07d8-42ef-990a-0cbd5992371d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 52.81.181.78}}
+  - {name: 🇸🇬 SG-AWS | V2 | 广移中转, server: ngzyd-1.okex-tradebot.xyz, port: 30004, type: vmess, uuid: bfcd0463-2f1e-4945-9d90-50037230a372, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: ngzyd-1.okex-tradebot.xyz}}
+  - {name: 🇦🇨 中转 | 韩国 ORACLE 01·NF, server: azjp.pengui.tools, port: 50000, type: vmess, uuid: fa77a1da-32ee-4b4c-b62c-05d0d3426f4b, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: azjp.pengui.tools}}
+  - {name: 🇭🇰 中转 | 香港 AGA 01, server: azhk2.pengui.tools, port: 50000, type: vmess, uuid: fa77a1da-32ee-4b4c-b62c-05d0d3426f4b, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: azhk2.pengui.tools}}
+  - {name: 🇭🇰 中转 | 香港 AWS 02, server: azhk2.pengui.tools, port: 50007, type: vmess, uuid: fa77a1da-32ee-4b4c-b62c-05d0d3426f4b, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: azhk2.pengui.tools}}
+  - {name: "🇨🇳 中转|台湾HiNet01|华南隧道[流媒体解锁]", server: cm-jm.okvpn.xyz, port: 20000, type: vmess, uuid: 14be65c6-d2cc-4e6f-b529-4186ed6c326e, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
+  - {name: "🇸🇬 中转|新加坡Singtel01|华南隧道[流媒体解锁]", server: cm-jm.okvpn.cc, port: 20049, type: vmess, uuid: 14be65c6-d2cc-4e6f-b529-4186ed6c326e, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.cc}}
+  - {name: "🇯🇵 中转|日本GMO06|华南隧道[流媒体解锁]", server: cm-jm.okvpn.cc, port: 20015, type: vmess, uuid: 14be65c6-d2cc-4e6f-b529-4186ed6c326e, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.cc}}
+  - {name: "🇺🇸 中转|美国NTT07|华南隧道[流媒体解锁]", server: cm-jm.okvpn.cc, port: 20004, type: vmess, uuid: 14be65c6-d2cc-4e6f-b529-4186ed6c326e, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.cc}}
+  - {name: "🇭🇰 中转|香港CMHK02|华南隧道[流媒体解锁]", server: cm-jm.okvpn.cc, port: 20001, type: vmess, uuid: 14be65c6-d2cc-4e6f-b529-4186ed6c326e, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.cc}}
+  - {name: "🇭🇰 中转|香港HKBN11|华南隧道[流媒体解锁]", server: cm-jm.okvpn.cc, port: 20002, type: vmess, uuid: 14be65c6-d2cc-4e6f-b529-4186ed6c326e, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.cc}}
+  - {name: "🇭🇰 中转|香港HKBN11|华南隧道[流媒体解锁] 2", server: cm-jm.okvpn.cc, port: 20002, type: vmess, uuid: 14be65c6-d2cc-4e6f-b529-4186ed6c326e, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.cc}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇯🇵 二爷翻墙网 https://1808.ga日本东京Linode数据中心 1
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶Sharktech数据中心 2
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶Cloudinnovation数据中心 3
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶Sharktech数据中心 4
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 5
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶市SharkTech数据中心 6
-      - 🇯🇵 二爷翻墙网 https://1808.ga日本东京Amazon数据中心 7
-      - 🇳🇱 二爷翻墙网 https://1808.ga荷兰  8
-      - 🇳🇱 二爷翻墙网 https://1808.ga荷兰  9
-      - 🇳🇱 二爷翻墙网 https://1808.ga荷兰  10
-      - 🇳🇱 二爷翻墙网 https://1808.ga荷兰  11
-      - 🇳🇱 二爷翻墙网 https://1808.ga荷兰  12
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶Coperation Coloction数据中心 13
-      - 🇨🇳 二爷翻墙网 https://1808.ga台湾省中华电信(HiNet)数据中心 14
-      - 🇳🇱 二爷翻墙网 https://1808.ga荷兰  15
-      - 🇳🇱 二爷翻墙网 https://1808.ga荷兰  16
-      - 🇳🇱 二爷翻墙网 https://1808.ga荷兰  17
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国加利福尼亚州旧金山Amazon数据中心 18
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶Coperation Coloction数据中心 19
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 20
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 21
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国  22
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 23
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 24
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 25
-      - 🇦🇨 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶MULTACOM数据中心 26
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 27
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare节点 28
-      - 🇸🇬 二爷翻墙网 https://1808.ga美国新泽西州皮斯卡特维Choopa数据中心 29
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 30
-      - 🇦🇨 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶MULTACOM数据中心 31
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 32
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 33
-      - 二爷翻墙网 https://1808.ga葡萄牙  34
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare节点 35
-      - 🇩🇪 二爷翻墙网 https://1808.ga德国Hetzner 36
-      - 二爷翻墙网 https://1808.ga欧洲  37
-      - 🇩🇰 二爷翻墙网 https://1808.ga丹麦哥本哈根Digital VM 38
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 39
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国内华达州拉斯维加斯BuyVM数据中心 40
-      - 二爷翻墙网 https://1808.ga匈牙利  41
-      - 🇷🇺 二爷翻墙网 https://1808.ga俄罗斯  42
-      - 🇭🇰 二爷翻墙网 https://1808.ga香港CDN77节点 43
-      - 🇨🇳 二爷翻墙网 https://1808.gaTWN/台湾 B - 苏州电信
-      - 🇭🇰 二爷翻墙网 https://1808.gaHK/香港 B - 郑州联通
-      - 🇨🇳 二爷翻墙网 https://1808.gaTWN/台湾 B - 东莞电信
-      - 🇨🇳 二爷翻墙网 https://1808.gaTWN/台湾 A - 郑州联通
-      - 🇨🇳 二爷翻墙网 https://1808.gaTWN/台湾 A - 宁波电信
-      - 🇨🇳 二爷翻墙网 https://1808.gaTWN/台湾 A - 天津电信
-      - 🇨🇳 二爷翻墙网 https://1808.gaTWN/台湾 B - 郑州联通
-      - 🇸🇬 二爷翻墙网 https://1808.gaSIN/狮城 A - 天津移动
-      - 🇨🇳 二爷翻墙网 https://1808.gaTWN/台湾 B - 重庆联通
-      - 🇯🇵 二爷翻墙网 https://1808.gaJPN/日本 A - 天津移动
-      - 🇺🇸 二爷翻墙网 https://1808.gaUSA/美国 A - 郑州联通
-      - 🇺🇸 二爷翻墙网 https://1808.gaUSA/美国 A - 重庆联通
-      - 🇯🇵 二爷翻墙网 https://1808.gaJPN/日本 A - 西安电信
-      - 🇯🇵 二爷翻墙网 https://1808.gaJPN/日本 A - 重庆联通
-      - 🇨🇳 二爷翻墙网 https://1808.gaTWN/台湾 B - 天津电信
+      - 二爷免费翻墙网 https://1808.ga
+      - 二爷免费翻墙网 https://1808.ga 2
+      - 二爷免费翻墙网 https://1808.ga 3
+      - 二爷免费翻墙网 https://1808.ga 4
+      - 二爷免费翻墙网 https://1808.ga 5
+      - 二爷免费翻墙网 https://1808.ga 6
+      - 二爷免费翻墙网 https://1808.ga 7
+      - 二爷免费翻墙网 https://1808.ga 8
+      - 二爷免费翻墙网 https://1808.ga 9
+      - 二爷免费翻墙网 https://1808.ga 10
+      - 二爷免费翻墙网 https://1808.ga 11
+      - 二爷免费翻墙网 https://1808.ga 12
+      - 二爷免费翻墙网 https://1808.ga 13
+      - 二爷免费翻墙网 https://1808.ga 14
+      - 二爷免费翻墙网 https://1808.ga 15
+      - 二爷免费翻墙网 https://1808.ga 16
+      - 二爷免费翻墙网 https://1808.ga 17
+      - 二爷免费翻墙网 https://1808.ga 18
+      - 二爷免费翻墙网 https://1808.ga 19
+      - 二爷免费翻墙网 https://1808.ga 20
+      - 二爷免费翻墙网 https://1808.ga 21
+      - 二爷免费翻墙网 https://1808.ga 22
+      - 二爷免费翻墙网 https://1808.ga 23
+      - 二爷免费翻墙网 https://1808.ga 24
+      - 二爷免费翻墙网 https://1808.ga 25
+      - 二爷免费翻墙网 https://1808.ga 26
+      - 二爷免费翻墙网 https://1808.ga 27
+      - 二爷免费翻墙网 https://1808.ga 28
+      - 二爷免费翻墙网 https://1808.ga 29
+      - 二爷免费翻墙网 https://1808.ga 30
+      - 二爷免费翻墙网 https://1808.ga 31
+      - 二爷免费翻墙网 https://1808.ga 32
+      - 二爷免费翻墙网 https://1808.ga 33
+      - 二爷免费翻墙网 https://1808.ga 34
+      - 二爷免费翻墙网 https://1808.ga 35
+      - 二爷免费翻墙网 https://1808.ga 36
+      - 二爷免费翻墙网 https://1808.ga 37
+      - 二爷免费翻墙网 https://1808.ga 38
+      - 二爷免费翻墙网 https://1808.ga 39
+      - 二爷免费翻墙网 https://1808.ga 40
+      - 二爷免费翻墙网 https://1808.ga 41
+      - 二爷免费翻墙网 https://1808.ga 42
+      - 二爷免费翻墙网 https://1808.ga 43
+      - 二爷免费翻墙网 https://1808.ga 44
+      - 二爷免费翻墙网 https://1808.ga 45
+      - 二爷免费翻墙网 https://1808.ga 46
+      - 二爷免费翻墙网 https://1808.ga 47
+      - 🇸🇬 AZ|新加坡01
+      - 🇸🇬 AZ|新加坡02
+      - 🇯🇵 AZ|日本03
+      - 🇭🇰 AZ|香港06 NF
+      - 🇭🇰 CM|香港03
+      - 🇭🇰 CM|香港06 NF
+      - 🇭🇰 Q102 BGP | 香港 Microsoft
+      - 🇭🇰 Q105 BGP | 香港 NeroCloud | NF
+      - 🇸🇬 Q401 BGP | 新加坡 Hivelocity
+      - 🇸🇬 SG-AWS | V2 | 广移中转
+      - 🇦🇨 中转 | 韩国 ORACLE 01·NF
+      - 🇭🇰 中转 | 香港 AGA 01
+      - 🇭🇰 中转 | 香港 AWS 02
+      - 🇨🇳 中转|台湾HiNet01|华南隧道[流媒体解锁]
+      - 🇸🇬 中转|新加坡Singtel01|华南隧道[流媒体解锁]
+      - 🇯🇵 中转|日本GMO06|华南隧道[流媒体解锁]
+      - 🇺🇸 中转|美国NTT07|华南隧道[流媒体解锁]
+      - 🇭🇰 中转|香港CMHK02|华南隧道[流媒体解锁]
+      - 🇭🇰 中转|香港HKBN11|华南隧道[流媒体解锁]
+      - 🇭🇰 中转|香港HKBN11|华南隧道[流媒体解锁] 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇯🇵 二爷翻墙网 https://1808.ga日本东京Linode数据中心 1
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶Sharktech数据中心 2
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶Cloudinnovation数据中心 3
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶Sharktech数据中心 4
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 5
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶市SharkTech数据中心 6
-      - 🇯🇵 二爷翻墙网 https://1808.ga日本东京Amazon数据中心 7
-      - 🇳🇱 二爷翻墙网 https://1808.ga荷兰  8
-      - 🇳🇱 二爷翻墙网 https://1808.ga荷兰  9
-      - 🇳🇱 二爷翻墙网 https://1808.ga荷兰  10
-      - 🇳🇱 二爷翻墙网 https://1808.ga荷兰  11
-      - 🇳🇱 二爷翻墙网 https://1808.ga荷兰  12
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶Coperation Coloction数据中心 13
-      - 🇨🇳 二爷翻墙网 https://1808.ga台湾省中华电信(HiNet)数据中心 14
-      - 🇳🇱 二爷翻墙网 https://1808.ga荷兰  15
-      - 🇳🇱 二爷翻墙网 https://1808.ga荷兰  16
-      - 🇳🇱 二爷翻墙网 https://1808.ga荷兰  17
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国加利福尼亚州旧金山Amazon数据中心 18
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶Coperation Coloction数据中心 19
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 20
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 21
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国  22
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 23
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 24
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 25
-      - 🇦🇨 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶MULTACOM数据中心 26
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 27
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare节点 28
-      - 🇸🇬 二爷翻墙网 https://1808.ga美国新泽西州皮斯卡特维Choopa数据中心 29
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 30
-      - 🇦🇨 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶MULTACOM数据中心 31
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 32
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 33
-      - 二爷翻墙网 https://1808.ga葡萄牙  34
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare节点 35
-      - 🇩🇪 二爷翻墙网 https://1808.ga德国Hetzner 36
-      - 二爷翻墙网 https://1808.ga欧洲  37
-      - 🇩🇰 二爷翻墙网 https://1808.ga丹麦哥本哈根Digital VM 38
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 39
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国内华达州拉斯维加斯BuyVM数据中心 40
-      - 二爷翻墙网 https://1808.ga匈牙利  41
-      - 🇷🇺 二爷翻墙网 https://1808.ga俄罗斯  42
-      - 🇭🇰 二爷翻墙网 https://1808.ga香港CDN77节点 43
-      - 🇨🇳 二爷翻墙网 https://1808.gaTWN/台湾 B - 苏州电信
-      - 🇭🇰 二爷翻墙网 https://1808.gaHK/香港 B - 郑州联通
-      - 🇨🇳 二爷翻墙网 https://1808.gaTWN/台湾 B - 东莞电信
-      - 🇨🇳 二爷翻墙网 https://1808.gaTWN/台湾 A - 郑州联通
-      - 🇨🇳 二爷翻墙网 https://1808.gaTWN/台湾 A - 宁波电信
-      - 🇨🇳 二爷翻墙网 https://1808.gaTWN/台湾 A - 天津电信
-      - 🇨🇳 二爷翻墙网 https://1808.gaTWN/台湾 B - 郑州联通
-      - 🇸🇬 二爷翻墙网 https://1808.gaSIN/狮城 A - 天津移动
-      - 🇨🇳 二爷翻墙网 https://1808.gaTWN/台湾 B - 重庆联通
-      - 🇯🇵 二爷翻墙网 https://1808.gaJPN/日本 A - 天津移动
-      - 🇺🇸 二爷翻墙网 https://1808.gaUSA/美国 A - 郑州联通
-      - 🇺🇸 二爷翻墙网 https://1808.gaUSA/美国 A - 重庆联通
-      - 🇯🇵 二爷翻墙网 https://1808.gaJPN/日本 A - 西安电信
-      - 🇯🇵 二爷翻墙网 https://1808.gaJPN/日本 A - 重庆联通
-      - 🇨🇳 二爷翻墙网 https://1808.gaTWN/台湾 B - 天津电信
+      - 二爷免费翻墙网 https://1808.ga
+      - 二爷免费翻墙网 https://1808.ga 2
+      - 二爷免费翻墙网 https://1808.ga 3
+      - 二爷免费翻墙网 https://1808.ga 4
+      - 二爷免费翻墙网 https://1808.ga 5
+      - 二爷免费翻墙网 https://1808.ga 6
+      - 二爷免费翻墙网 https://1808.ga 7
+      - 二爷免费翻墙网 https://1808.ga 8
+      - 二爷免费翻墙网 https://1808.ga 9
+      - 二爷免费翻墙网 https://1808.ga 10
+      - 二爷免费翻墙网 https://1808.ga 11
+      - 二爷免费翻墙网 https://1808.ga 12
+      - 二爷免费翻墙网 https://1808.ga 13
+      - 二爷免费翻墙网 https://1808.ga 14
+      - 二爷免费翻墙网 https://1808.ga 15
+      - 二爷免费翻墙网 https://1808.ga 16
+      - 二爷免费翻墙网 https://1808.ga 17
+      - 二爷免费翻墙网 https://1808.ga 18
+      - 二爷免费翻墙网 https://1808.ga 19
+      - 二爷免费翻墙网 https://1808.ga 20
+      - 二爷免费翻墙网 https://1808.ga 21
+      - 二爷免费翻墙网 https://1808.ga 22
+      - 二爷免费翻墙网 https://1808.ga 23
+      - 二爷免费翻墙网 https://1808.ga 24
+      - 二爷免费翻墙网 https://1808.ga 25
+      - 二爷免费翻墙网 https://1808.ga 26
+      - 二爷免费翻墙网 https://1808.ga 27
+      - 二爷免费翻墙网 https://1808.ga 28
+      - 二爷免费翻墙网 https://1808.ga 29
+      - 二爷免费翻墙网 https://1808.ga 30
+      - 二爷免费翻墙网 https://1808.ga 31
+      - 二爷免费翻墙网 https://1808.ga 32
+      - 二爷免费翻墙网 https://1808.ga 33
+      - 二爷免费翻墙网 https://1808.ga 34
+      - 二爷免费翻墙网 https://1808.ga 35
+      - 二爷免费翻墙网 https://1808.ga 36
+      - 二爷免费翻墙网 https://1808.ga 37
+      - 二爷免费翻墙网 https://1808.ga 38
+      - 二爷免费翻墙网 https://1808.ga 39
+      - 二爷免费翻墙网 https://1808.ga 40
+      - 二爷免费翻墙网 https://1808.ga 41
+      - 二爷免费翻墙网 https://1808.ga 42
+      - 二爷免费翻墙网 https://1808.ga 43
+      - 二爷免费翻墙网 https://1808.ga 44
+      - 二爷免费翻墙网 https://1808.ga 45
+      - 二爷免费翻墙网 https://1808.ga 46
+      - 二爷免费翻墙网 https://1808.ga 47
+      - 🇸🇬 AZ|新加坡01
+      - 🇸🇬 AZ|新加坡02
+      - 🇯🇵 AZ|日本03
+      - 🇭🇰 AZ|香港06 NF
+      - 🇭🇰 CM|香港03
+      - 🇭🇰 CM|香港06 NF
+      - 🇭🇰 Q102 BGP | 香港 Microsoft
+      - 🇭🇰 Q105 BGP | 香港 NeroCloud | NF
+      - 🇸🇬 Q401 BGP | 新加坡 Hivelocity
+      - 🇸🇬 SG-AWS | V2 | 广移中转
+      - 🇦🇨 中转 | 韩国 ORACLE 01·NF
+      - 🇭🇰 中转 | 香港 AGA 01
+      - 🇭🇰 中转 | 香港 AWS 02
+      - 🇨🇳 中转|台湾HiNet01|华南隧道[流媒体解锁]
+      - 🇸🇬 中转|新加坡Singtel01|华南隧道[流媒体解锁]
+      - 🇯🇵 中转|日本GMO06|华南隧道[流媒体解锁]
+      - 🇺🇸 中转|美国NTT07|华南隧道[流媒体解锁]
+      - 🇭🇰 中转|香港CMHK02|华南隧道[流媒体解锁]
+      - 🇭🇰 中转|香港HKBN11|华南隧道[流媒体解锁]
+      - 🇭🇰 中转|香港HKBN11|华南隧道[流媒体解锁] 2
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇯🇵 二爷翻墙网 https://1808.ga日本东京Linode数据中心 1
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶Sharktech数据中心 2
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶Cloudinnovation数据中心 3
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶Sharktech数据中心 4
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 5
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶市SharkTech数据中心 6
-      - 🇯🇵 二爷翻墙网 https://1808.ga日本东京Amazon数据中心 7
-      - 🇳🇱 二爷翻墙网 https://1808.ga荷兰  8
-      - 🇳🇱 二爷翻墙网 https://1808.ga荷兰  9
-      - 🇳🇱 二爷翻墙网 https://1808.ga荷兰  10
-      - 🇳🇱 二爷翻墙网 https://1808.ga荷兰  11
-      - 🇳🇱 二爷翻墙网 https://1808.ga荷兰  12
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶Coperation Coloction数据中心 13
-      - 🇨🇳 二爷翻墙网 https://1808.ga台湾省中华电信(HiNet)数据中心 14
-      - 🇳🇱 二爷翻墙网 https://1808.ga荷兰  15
-      - 🇳🇱 二爷翻墙网 https://1808.ga荷兰  16
-      - 🇳🇱 二爷翻墙网 https://1808.ga荷兰  17
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国加利福尼亚州旧金山Amazon数据中心 18
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶Coperation Coloction数据中心 19
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 20
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 21
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国  22
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 23
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 24
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 25
-      - 🇦🇨 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶MULTACOM数据中心 26
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 27
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare节点 28
-      - 🇸🇬 二爷翻墙网 https://1808.ga美国新泽西州皮斯卡特维Choopa数据中心 29
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 30
-      - 🇦🇨 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶MULTACOM数据中心 31
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 32
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 33
-      - 二爷翻墙网 https://1808.ga葡萄牙  34
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare节点 35
-      - 🇩🇪 二爷翻墙网 https://1808.ga德国Hetzner 36
-      - 二爷翻墙网 https://1808.ga欧洲  37
-      - 🇩🇰 二爷翻墙网 https://1808.ga丹麦哥本哈根Digital VM 38
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 39
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国内华达州拉斯维加斯BuyVM数据中心 40
-      - 二爷翻墙网 https://1808.ga匈牙利  41
-      - 🇷🇺 二爷翻墙网 https://1808.ga俄罗斯  42
-      - 🇭🇰 二爷翻墙网 https://1808.ga香港CDN77节点 43
-      - 🇨🇳 二爷翻墙网 https://1808.gaTWN/台湾 B - 苏州电信
-      - 🇭🇰 二爷翻墙网 https://1808.gaHK/香港 B - 郑州联通
-      - 🇨🇳 二爷翻墙网 https://1808.gaTWN/台湾 B - 东莞电信
-      - 🇨🇳 二爷翻墙网 https://1808.gaTWN/台湾 A - 郑州联通
-      - 🇨🇳 二爷翻墙网 https://1808.gaTWN/台湾 A - 宁波电信
-      - 🇨🇳 二爷翻墙网 https://1808.gaTWN/台湾 A - 天津电信
-      - 🇨🇳 二爷翻墙网 https://1808.gaTWN/台湾 B - 郑州联通
-      - 🇸🇬 二爷翻墙网 https://1808.gaSIN/狮城 A - 天津移动
-      - 🇨🇳 二爷翻墙网 https://1808.gaTWN/台湾 B - 重庆联通
-      - 🇯🇵 二爷翻墙网 https://1808.gaJPN/日本 A - 天津移动
-      - 🇺🇸 二爷翻墙网 https://1808.gaUSA/美国 A - 郑州联通
-      - 🇺🇸 二爷翻墙网 https://1808.gaUSA/美国 A - 重庆联通
-      - 🇯🇵 二爷翻墙网 https://1808.gaJPN/日本 A - 西安电信
-      - 🇯🇵 二爷翻墙网 https://1808.gaJPN/日本 A - 重庆联通
-      - 🇨🇳 二爷翻墙网 https://1808.gaTWN/台湾 B - 天津电信
+      - 二爷免费翻墙网 https://1808.ga
+      - 二爷免费翻墙网 https://1808.ga 2
+      - 二爷免费翻墙网 https://1808.ga 3
+      - 二爷免费翻墙网 https://1808.ga 4
+      - 二爷免费翻墙网 https://1808.ga 5
+      - 二爷免费翻墙网 https://1808.ga 6
+      - 二爷免费翻墙网 https://1808.ga 7
+      - 二爷免费翻墙网 https://1808.ga 8
+      - 二爷免费翻墙网 https://1808.ga 9
+      - 二爷免费翻墙网 https://1808.ga 10
+      - 二爷免费翻墙网 https://1808.ga 11
+      - 二爷免费翻墙网 https://1808.ga 12
+      - 二爷免费翻墙网 https://1808.ga 13
+      - 二爷免费翻墙网 https://1808.ga 14
+      - 二爷免费翻墙网 https://1808.ga 15
+      - 二爷免费翻墙网 https://1808.ga 16
+      - 二爷免费翻墙网 https://1808.ga 17
+      - 二爷免费翻墙网 https://1808.ga 18
+      - 二爷免费翻墙网 https://1808.ga 19
+      - 二爷免费翻墙网 https://1808.ga 20
+      - 二爷免费翻墙网 https://1808.ga 21
+      - 二爷免费翻墙网 https://1808.ga 22
+      - 二爷免费翻墙网 https://1808.ga 23
+      - 二爷免费翻墙网 https://1808.ga 24
+      - 二爷免费翻墙网 https://1808.ga 25
+      - 二爷免费翻墙网 https://1808.ga 26
+      - 二爷免费翻墙网 https://1808.ga 27
+      - 二爷免费翻墙网 https://1808.ga 28
+      - 二爷免费翻墙网 https://1808.ga 29
+      - 二爷免费翻墙网 https://1808.ga 30
+      - 二爷免费翻墙网 https://1808.ga 31
+      - 二爷免费翻墙网 https://1808.ga 32
+      - 二爷免费翻墙网 https://1808.ga 33
+      - 二爷免费翻墙网 https://1808.ga 34
+      - 二爷免费翻墙网 https://1808.ga 35
+      - 二爷免费翻墙网 https://1808.ga 36
+      - 二爷免费翻墙网 https://1808.ga 37
+      - 二爷免费翻墙网 https://1808.ga 38
+      - 二爷免费翻墙网 https://1808.ga 39
+      - 二爷免费翻墙网 https://1808.ga 40
+      - 二爷免费翻墙网 https://1808.ga 41
+      - 二爷免费翻墙网 https://1808.ga 42
+      - 二爷免费翻墙网 https://1808.ga 43
+      - 二爷免费翻墙网 https://1808.ga 44
+      - 二爷免费翻墙网 https://1808.ga 45
+      - 二爷免费翻墙网 https://1808.ga 46
+      - 二爷免费翻墙网 https://1808.ga 47
+      - 🇸🇬 AZ|新加坡01
+      - 🇸🇬 AZ|新加坡02
+      - 🇯🇵 AZ|日本03
+      - 🇭🇰 AZ|香港06 NF
+      - 🇭🇰 CM|香港03
+      - 🇭🇰 CM|香港06 NF
+      - 🇭🇰 Q102 BGP | 香港 Microsoft
+      - 🇭🇰 Q105 BGP | 香港 NeroCloud | NF
+      - 🇸🇬 Q401 BGP | 新加坡 Hivelocity
+      - 🇸🇬 SG-AWS | V2 | 广移中转
+      - 🇦🇨 中转 | 韩国 ORACLE 01·NF
+      - 🇭🇰 中转 | 香港 AGA 01
+      - 🇭🇰 中转 | 香港 AWS 02
+      - 🇨🇳 中转|台湾HiNet01|华南隧道[流媒体解锁]
+      - 🇸🇬 中转|新加坡Singtel01|华南隧道[流媒体解锁]
+      - 🇯🇵 中转|日本GMO06|华南隧道[流媒体解锁]
+      - 🇺🇸 中转|美国NTT07|华南隧道[流媒体解锁]
+      - 🇭🇰 中转|香港CMHK02|华南隧道[流媒体解锁]
+      - 🇭🇰 中转|香港HKBN11|华南隧道[流媒体解锁]
+      - 🇭🇰 中转|香港HKBN11|华南隧道[流媒体解锁] 2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇯🇵 二爷翻墙网 https://1808.ga日本东京Linode数据中心 1
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶Sharktech数据中心 2
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶Cloudinnovation数据中心 3
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶Sharktech数据中心 4
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 5
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶市SharkTech数据中心 6
-      - 🇯🇵 二爷翻墙网 https://1808.ga日本东京Amazon数据中心 7
-      - 🇳🇱 二爷翻墙网 https://1808.ga荷兰  8
-      - 🇳🇱 二爷翻墙网 https://1808.ga荷兰  9
-      - 🇳🇱 二爷翻墙网 https://1808.ga荷兰  10
-      - 🇳🇱 二爷翻墙网 https://1808.ga荷兰  11
-      - 🇳🇱 二爷翻墙网 https://1808.ga荷兰  12
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶Coperation Coloction数据中心 13
-      - 🇨🇳 二爷翻墙网 https://1808.ga台湾省中华电信(HiNet)数据中心 14
-      - 🇳🇱 二爷翻墙网 https://1808.ga荷兰  15
-      - 🇳🇱 二爷翻墙网 https://1808.ga荷兰  16
-      - 🇳🇱 二爷翻墙网 https://1808.ga荷兰  17
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国加利福尼亚州旧金山Amazon数据中心 18
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶Coperation Coloction数据中心 19
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 20
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 21
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国  22
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 23
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 24
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 25
-      - 🇦🇨 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶MULTACOM数据中心 26
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 27
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare节点 28
-      - 🇸🇬 二爷翻墙网 https://1808.ga美国新泽西州皮斯卡特维Choopa数据中心 29
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 30
-      - 🇦🇨 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶MULTACOM数据中心 31
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 32
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 33
-      - 二爷翻墙网 https://1808.ga葡萄牙  34
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare节点 35
-      - 🇩🇪 二爷翻墙网 https://1808.ga德国Hetzner 36
-      - 二爷翻墙网 https://1808.ga欧洲  37
-      - 🇩🇰 二爷翻墙网 https://1808.ga丹麦哥本哈根Digital VM 38
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 39
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国内华达州拉斯维加斯BuyVM数据中心 40
-      - 二爷翻墙网 https://1808.ga匈牙利  41
-      - 🇷🇺 二爷翻墙网 https://1808.ga俄罗斯  42
-      - 🇭🇰 二爷翻墙网 https://1808.ga香港CDN77节点 43
-      - 🇨🇳 二爷翻墙网 https://1808.gaTWN/台湾 B - 苏州电信
-      - 🇭🇰 二爷翻墙网 https://1808.gaHK/香港 B - 郑州联通
-      - 🇨🇳 二爷翻墙网 https://1808.gaTWN/台湾 B - 东莞电信
-      - 🇨🇳 二爷翻墙网 https://1808.gaTWN/台湾 A - 郑州联通
-      - 🇨🇳 二爷翻墙网 https://1808.gaTWN/台湾 A - 宁波电信
-      - 🇨🇳 二爷翻墙网 https://1808.gaTWN/台湾 A - 天津电信
-      - 🇨🇳 二爷翻墙网 https://1808.gaTWN/台湾 B - 郑州联通
-      - 🇸🇬 二爷翻墙网 https://1808.gaSIN/狮城 A - 天津移动
-      - 🇨🇳 二爷翻墙网 https://1808.gaTWN/台湾 B - 重庆联通
-      - 🇯🇵 二爷翻墙网 https://1808.gaJPN/日本 A - 天津移动
-      - 🇺🇸 二爷翻墙网 https://1808.gaUSA/美国 A - 郑州联通
-      - 🇺🇸 二爷翻墙网 https://1808.gaUSA/美国 A - 重庆联通
-      - 🇯🇵 二爷翻墙网 https://1808.gaJPN/日本 A - 西安电信
-      - 🇯🇵 二爷翻墙网 https://1808.gaJPN/日本 A - 重庆联通
-      - 🇨🇳 二爷翻墙网 https://1808.gaTWN/台湾 B - 天津电信
+      - 二爷免费翻墙网 https://1808.ga
+      - 二爷免费翻墙网 https://1808.ga 2
+      - 二爷免费翻墙网 https://1808.ga 3
+      - 二爷免费翻墙网 https://1808.ga 4
+      - 二爷免费翻墙网 https://1808.ga 5
+      - 二爷免费翻墙网 https://1808.ga 6
+      - 二爷免费翻墙网 https://1808.ga 7
+      - 二爷免费翻墙网 https://1808.ga 8
+      - 二爷免费翻墙网 https://1808.ga 9
+      - 二爷免费翻墙网 https://1808.ga 10
+      - 二爷免费翻墙网 https://1808.ga 11
+      - 二爷免费翻墙网 https://1808.ga 12
+      - 二爷免费翻墙网 https://1808.ga 13
+      - 二爷免费翻墙网 https://1808.ga 14
+      - 二爷免费翻墙网 https://1808.ga 15
+      - 二爷免费翻墙网 https://1808.ga 16
+      - 二爷免费翻墙网 https://1808.ga 17
+      - 二爷免费翻墙网 https://1808.ga 18
+      - 二爷免费翻墙网 https://1808.ga 19
+      - 二爷免费翻墙网 https://1808.ga 20
+      - 二爷免费翻墙网 https://1808.ga 21
+      - 二爷免费翻墙网 https://1808.ga 22
+      - 二爷免费翻墙网 https://1808.ga 23
+      - 二爷免费翻墙网 https://1808.ga 24
+      - 二爷免费翻墙网 https://1808.ga 25
+      - 二爷免费翻墙网 https://1808.ga 26
+      - 二爷免费翻墙网 https://1808.ga 27
+      - 二爷免费翻墙网 https://1808.ga 28
+      - 二爷免费翻墙网 https://1808.ga 29
+      - 二爷免费翻墙网 https://1808.ga 30
+      - 二爷免费翻墙网 https://1808.ga 31
+      - 二爷免费翻墙网 https://1808.ga 32
+      - 二爷免费翻墙网 https://1808.ga 33
+      - 二爷免费翻墙网 https://1808.ga 34
+      - 二爷免费翻墙网 https://1808.ga 35
+      - 二爷免费翻墙网 https://1808.ga 36
+      - 二爷免费翻墙网 https://1808.ga 37
+      - 二爷免费翻墙网 https://1808.ga 38
+      - 二爷免费翻墙网 https://1808.ga 39
+      - 二爷免费翻墙网 https://1808.ga 40
+      - 二爷免费翻墙网 https://1808.ga 41
+      - 二爷免费翻墙网 https://1808.ga 42
+      - 二爷免费翻墙网 https://1808.ga 43
+      - 二爷免费翻墙网 https://1808.ga 44
+      - 二爷免费翻墙网 https://1808.ga 45
+      - 二爷免费翻墙网 https://1808.ga 46
+      - 二爷免费翻墙网 https://1808.ga 47
+      - 🇸🇬 AZ|新加坡01
+      - 🇸🇬 AZ|新加坡02
+      - 🇯🇵 AZ|日本03
+      - 🇭🇰 AZ|香港06 NF
+      - 🇭🇰 CM|香港03
+      - 🇭🇰 CM|香港06 NF
+      - 🇭🇰 Q102 BGP | 香港 Microsoft
+      - 🇭🇰 Q105 BGP | 香港 NeroCloud | NF
+      - 🇸🇬 Q401 BGP | 新加坡 Hivelocity
+      - 🇸🇬 SG-AWS | V2 | 广移中转
+      - 🇦🇨 中转 | 韩国 ORACLE 01·NF
+      - 🇭🇰 中转 | 香港 AGA 01
+      - 🇭🇰 中转 | 香港 AWS 02
+      - 🇨🇳 中转|台湾HiNet01|华南隧道[流媒体解锁]
+      - 🇸🇬 中转|新加坡Singtel01|华南隧道[流媒体解锁]
+      - 🇯🇵 中转|日本GMO06|华南隧道[流媒体解锁]
+      - 🇺🇸 中转|美国NTT07|华南隧道[流媒体解锁]
+      - 🇭🇰 中转|香港CMHK02|华南隧道[流媒体解锁]
+      - 🇭🇰 中转|香港HKBN11|华南隧道[流媒体解锁]
+      - 🇭🇰 中转|香港HKBN11|华南隧道[流媒体解锁] 2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇯🇵 二爷翻墙网 https://1808.ga日本东京Linode数据中心 1
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶Sharktech数据中心 2
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶Cloudinnovation数据中心 3
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶Sharktech数据中心 4
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 5
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶市SharkTech数据中心 6
-      - 🇯🇵 二爷翻墙网 https://1808.ga日本东京Amazon数据中心 7
-      - 🇳🇱 二爷翻墙网 https://1808.ga荷兰  8
-      - 🇳🇱 二爷翻墙网 https://1808.ga荷兰  9
-      - 🇳🇱 二爷翻墙网 https://1808.ga荷兰  10
-      - 🇳🇱 二爷翻墙网 https://1808.ga荷兰  11
-      - 🇳🇱 二爷翻墙网 https://1808.ga荷兰  12
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶Coperation Coloction数据中心 13
-      - 🇨🇳 二爷翻墙网 https://1808.ga台湾省中华电信(HiNet)数据中心 14
-      - 🇳🇱 二爷翻墙网 https://1808.ga荷兰  15
-      - 🇳🇱 二爷翻墙网 https://1808.ga荷兰  16
-      - 🇳🇱 二爷翻墙网 https://1808.ga荷兰  17
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国加利福尼亚州旧金山Amazon数据中心 18
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶Coperation Coloction数据中心 19
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 20
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 21
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国  22
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 23
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 24
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 25
-      - 🇦🇨 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶MULTACOM数据中心 26
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 27
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare节点 28
-      - 🇸🇬 二爷翻墙网 https://1808.ga美国新泽西州皮斯卡特维Choopa数据中心 29
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 30
-      - 🇦🇨 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶MULTACOM数据中心 31
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 32
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 33
-      - 二爷翻墙网 https://1808.ga葡萄牙  34
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare节点 35
-      - 🇩🇪 二爷翻墙网 https://1808.ga德国Hetzner 36
-      - 二爷翻墙网 https://1808.ga欧洲  37
-      - 🇩🇰 二爷翻墙网 https://1808.ga丹麦哥本哈根Digital VM 38
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 39
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国内华达州拉斯维加斯BuyVM数据中心 40
-      - 二爷翻墙网 https://1808.ga匈牙利  41
-      - 🇷🇺 二爷翻墙网 https://1808.ga俄罗斯  42
-      - 🇭🇰 二爷翻墙网 https://1808.ga香港CDN77节点 43
-      - 🇨🇳 二爷翻墙网 https://1808.gaTWN/台湾 B - 苏州电信
-      - 🇭🇰 二爷翻墙网 https://1808.gaHK/香港 B - 郑州联通
-      - 🇨🇳 二爷翻墙网 https://1808.gaTWN/台湾 B - 东莞电信
-      - 🇨🇳 二爷翻墙网 https://1808.gaTWN/台湾 A - 郑州联通
-      - 🇨🇳 二爷翻墙网 https://1808.gaTWN/台湾 A - 宁波电信
-      - 🇨🇳 二爷翻墙网 https://1808.gaTWN/台湾 A - 天津电信
-      - 🇨🇳 二爷翻墙网 https://1808.gaTWN/台湾 B - 郑州联通
-      - 🇸🇬 二爷翻墙网 https://1808.gaSIN/狮城 A - 天津移动
-      - 🇨🇳 二爷翻墙网 https://1808.gaTWN/台湾 B - 重庆联通
-      - 🇯🇵 二爷翻墙网 https://1808.gaJPN/日本 A - 天津移动
-      - 🇺🇸 二爷翻墙网 https://1808.gaUSA/美国 A - 郑州联通
-      - 🇺🇸 二爷翻墙网 https://1808.gaUSA/美国 A - 重庆联通
-      - 🇯🇵 二爷翻墙网 https://1808.gaJPN/日本 A - 西安电信
-      - 🇯🇵 二爷翻墙网 https://1808.gaJPN/日本 A - 重庆联通
-      - 🇨🇳 二爷翻墙网 https://1808.gaTWN/台湾 B - 天津电信
+      - 二爷免费翻墙网 https://1808.ga
+      - 二爷免费翻墙网 https://1808.ga 2
+      - 二爷免费翻墙网 https://1808.ga 3
+      - 二爷免费翻墙网 https://1808.ga 4
+      - 二爷免费翻墙网 https://1808.ga 5
+      - 二爷免费翻墙网 https://1808.ga 6
+      - 二爷免费翻墙网 https://1808.ga 7
+      - 二爷免费翻墙网 https://1808.ga 8
+      - 二爷免费翻墙网 https://1808.ga 9
+      - 二爷免费翻墙网 https://1808.ga 10
+      - 二爷免费翻墙网 https://1808.ga 11
+      - 二爷免费翻墙网 https://1808.ga 12
+      - 二爷免费翻墙网 https://1808.ga 13
+      - 二爷免费翻墙网 https://1808.ga 14
+      - 二爷免费翻墙网 https://1808.ga 15
+      - 二爷免费翻墙网 https://1808.ga 16
+      - 二爷免费翻墙网 https://1808.ga 17
+      - 二爷免费翻墙网 https://1808.ga 18
+      - 二爷免费翻墙网 https://1808.ga 19
+      - 二爷免费翻墙网 https://1808.ga 20
+      - 二爷免费翻墙网 https://1808.ga 21
+      - 二爷免费翻墙网 https://1808.ga 22
+      - 二爷免费翻墙网 https://1808.ga 23
+      - 二爷免费翻墙网 https://1808.ga 24
+      - 二爷免费翻墙网 https://1808.ga 25
+      - 二爷免费翻墙网 https://1808.ga 26
+      - 二爷免费翻墙网 https://1808.ga 27
+      - 二爷免费翻墙网 https://1808.ga 28
+      - 二爷免费翻墙网 https://1808.ga 29
+      - 二爷免费翻墙网 https://1808.ga 30
+      - 二爷免费翻墙网 https://1808.ga 31
+      - 二爷免费翻墙网 https://1808.ga 32
+      - 二爷免费翻墙网 https://1808.ga 33
+      - 二爷免费翻墙网 https://1808.ga 34
+      - 二爷免费翻墙网 https://1808.ga 35
+      - 二爷免费翻墙网 https://1808.ga 36
+      - 二爷免费翻墙网 https://1808.ga 37
+      - 二爷免费翻墙网 https://1808.ga 38
+      - 二爷免费翻墙网 https://1808.ga 39
+      - 二爷免费翻墙网 https://1808.ga 40
+      - 二爷免费翻墙网 https://1808.ga 41
+      - 二爷免费翻墙网 https://1808.ga 42
+      - 二爷免费翻墙网 https://1808.ga 43
+      - 二爷免费翻墙网 https://1808.ga 44
+      - 二爷免费翻墙网 https://1808.ga 45
+      - 二爷免费翻墙网 https://1808.ga 46
+      - 二爷免费翻墙网 https://1808.ga 47
+      - 🇸🇬 AZ|新加坡01
+      - 🇸🇬 AZ|新加坡02
+      - 🇯🇵 AZ|日本03
+      - 🇭🇰 AZ|香港06 NF
+      - 🇭🇰 CM|香港03
+      - 🇭🇰 CM|香港06 NF
+      - 🇭🇰 Q102 BGP | 香港 Microsoft
+      - 🇭🇰 Q105 BGP | 香港 NeroCloud | NF
+      - 🇸🇬 Q401 BGP | 新加坡 Hivelocity
+      - 🇸🇬 SG-AWS | V2 | 广移中转
+      - 🇦🇨 中转 | 韩国 ORACLE 01·NF
+      - 🇭🇰 中转 | 香港 AGA 01
+      - 🇭🇰 中转 | 香港 AWS 02
+      - 🇨🇳 中转|台湾HiNet01|华南隧道[流媒体解锁]
+      - 🇸🇬 中转|新加坡Singtel01|华南隧道[流媒体解锁]
+      - 🇯🇵 中转|日本GMO06|华南隧道[流媒体解锁]
+      - 🇺🇸 中转|美国NTT07|华南隧道[流媒体解锁]
+      - 🇭🇰 中转|香港CMHK02|华南隧道[流媒体解锁]
+      - 🇭🇰 中转|香港HKBN11|华南隧道[流媒体解锁]
+      - 🇭🇰 中转|香港HKBN11|华南隧道[流媒体解锁] 2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇯🇵 二爷翻墙网 https://1808.ga日本东京Linode数据中心 1
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶Sharktech数据中心 2
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶Cloudinnovation数据中心 3
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶Sharktech数据中心 4
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 5
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶市SharkTech数据中心 6
-      - 🇯🇵 二爷翻墙网 https://1808.ga日本东京Amazon数据中心 7
-      - 🇳🇱 二爷翻墙网 https://1808.ga荷兰  8
-      - 🇳🇱 二爷翻墙网 https://1808.ga荷兰  9
-      - 🇳🇱 二爷翻墙网 https://1808.ga荷兰  10
-      - 🇳🇱 二爷翻墙网 https://1808.ga荷兰  11
-      - 🇳🇱 二爷翻墙网 https://1808.ga荷兰  12
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶Coperation Coloction数据中心 13
-      - 🇨🇳 二爷翻墙网 https://1808.ga台湾省中华电信(HiNet)数据中心 14
-      - 🇳🇱 二爷翻墙网 https://1808.ga荷兰  15
-      - 🇳🇱 二爷翻墙网 https://1808.ga荷兰  16
-      - 🇳🇱 二爷翻墙网 https://1808.ga荷兰  17
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国加利福尼亚州旧金山Amazon数据中心 18
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶Coperation Coloction数据中心 19
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 20
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 21
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国  22
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 23
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 24
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 25
-      - 🇦🇨 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶MULTACOM数据中心 26
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 27
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare节点 28
-      - 🇸🇬 二爷翻墙网 https://1808.ga美国新泽西州皮斯卡特维Choopa数据中心 29
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 30
-      - 🇦🇨 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶MULTACOM数据中心 31
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 32
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 33
-      - 二爷翻墙网 https://1808.ga葡萄牙  34
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare节点 35
-      - 🇩🇪 二爷翻墙网 https://1808.ga德国Hetzner 36
-      - 二爷翻墙网 https://1808.ga欧洲  37
-      - 🇩🇰 二爷翻墙网 https://1808.ga丹麦哥本哈根Digital VM 38
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 39
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国内华达州拉斯维加斯BuyVM数据中心 40
-      - 二爷翻墙网 https://1808.ga匈牙利  41
-      - 🇷🇺 二爷翻墙网 https://1808.ga俄罗斯  42
-      - 🇭🇰 二爷翻墙网 https://1808.ga香港CDN77节点 43
-      - 🇨🇳 二爷翻墙网 https://1808.gaTWN/台湾 B - 苏州电信
-      - 🇭🇰 二爷翻墙网 https://1808.gaHK/香港 B - 郑州联通
-      - 🇨🇳 二爷翻墙网 https://1808.gaTWN/台湾 B - 东莞电信
-      - 🇨🇳 二爷翻墙网 https://1808.gaTWN/台湾 A - 郑州联通
-      - 🇨🇳 二爷翻墙网 https://1808.gaTWN/台湾 A - 宁波电信
-      - 🇨🇳 二爷翻墙网 https://1808.gaTWN/台湾 A - 天津电信
-      - 🇨🇳 二爷翻墙网 https://1808.gaTWN/台湾 B - 郑州联通
-      - 🇸🇬 二爷翻墙网 https://1808.gaSIN/狮城 A - 天津移动
-      - 🇨🇳 二爷翻墙网 https://1808.gaTWN/台湾 B - 重庆联通
-      - 🇯🇵 二爷翻墙网 https://1808.gaJPN/日本 A - 天津移动
-      - 🇺🇸 二爷翻墙网 https://1808.gaUSA/美国 A - 郑州联通
-      - 🇺🇸 二爷翻墙网 https://1808.gaUSA/美国 A - 重庆联通
-      - 🇯🇵 二爷翻墙网 https://1808.gaJPN/日本 A - 西安电信
-      - 🇯🇵 二爷翻墙网 https://1808.gaJPN/日本 A - 重庆联通
-      - 🇨🇳 二爷翻墙网 https://1808.gaTWN/台湾 B - 天津电信
+      - 二爷免费翻墙网 https://1808.ga
+      - 二爷免费翻墙网 https://1808.ga 2
+      - 二爷免费翻墙网 https://1808.ga 3
+      - 二爷免费翻墙网 https://1808.ga 4
+      - 二爷免费翻墙网 https://1808.ga 5
+      - 二爷免费翻墙网 https://1808.ga 6
+      - 二爷免费翻墙网 https://1808.ga 7
+      - 二爷免费翻墙网 https://1808.ga 8
+      - 二爷免费翻墙网 https://1808.ga 9
+      - 二爷免费翻墙网 https://1808.ga 10
+      - 二爷免费翻墙网 https://1808.ga 11
+      - 二爷免费翻墙网 https://1808.ga 12
+      - 二爷免费翻墙网 https://1808.ga 13
+      - 二爷免费翻墙网 https://1808.ga 14
+      - 二爷免费翻墙网 https://1808.ga 15
+      - 二爷免费翻墙网 https://1808.ga 16
+      - 二爷免费翻墙网 https://1808.ga 17
+      - 二爷免费翻墙网 https://1808.ga 18
+      - 二爷免费翻墙网 https://1808.ga 19
+      - 二爷免费翻墙网 https://1808.ga 20
+      - 二爷免费翻墙网 https://1808.ga 21
+      - 二爷免费翻墙网 https://1808.ga 22
+      - 二爷免费翻墙网 https://1808.ga 23
+      - 二爷免费翻墙网 https://1808.ga 24
+      - 二爷免费翻墙网 https://1808.ga 25
+      - 二爷免费翻墙网 https://1808.ga 26
+      - 二爷免费翻墙网 https://1808.ga 27
+      - 二爷免费翻墙网 https://1808.ga 28
+      - 二爷免费翻墙网 https://1808.ga 29
+      - 二爷免费翻墙网 https://1808.ga 30
+      - 二爷免费翻墙网 https://1808.ga 31
+      - 二爷免费翻墙网 https://1808.ga 32
+      - 二爷免费翻墙网 https://1808.ga 33
+      - 二爷免费翻墙网 https://1808.ga 34
+      - 二爷免费翻墙网 https://1808.ga 35
+      - 二爷免费翻墙网 https://1808.ga 36
+      - 二爷免费翻墙网 https://1808.ga 37
+      - 二爷免费翻墙网 https://1808.ga 38
+      - 二爷免费翻墙网 https://1808.ga 39
+      - 二爷免费翻墙网 https://1808.ga 40
+      - 二爷免费翻墙网 https://1808.ga 41
+      - 二爷免费翻墙网 https://1808.ga 42
+      - 二爷免费翻墙网 https://1808.ga 43
+      - 二爷免费翻墙网 https://1808.ga 44
+      - 二爷免费翻墙网 https://1808.ga 45
+      - 二爷免费翻墙网 https://1808.ga 46
+      - 二爷免费翻墙网 https://1808.ga 47
+      - 🇸🇬 AZ|新加坡01
+      - 🇸🇬 AZ|新加坡02
+      - 🇯🇵 AZ|日本03
+      - 🇭🇰 AZ|香港06 NF
+      - 🇭🇰 CM|香港03
+      - 🇭🇰 CM|香港06 NF
+      - 🇭🇰 Q102 BGP | 香港 Microsoft
+      - 🇭🇰 Q105 BGP | 香港 NeroCloud | NF
+      - 🇸🇬 Q401 BGP | 新加坡 Hivelocity
+      - 🇸🇬 SG-AWS | V2 | 广移中转
+      - 🇦🇨 中转 | 韩国 ORACLE 01·NF
+      - 🇭🇰 中转 | 香港 AGA 01
+      - 🇭🇰 中转 | 香港 AWS 02
+      - 🇨🇳 中转|台湾HiNet01|华南隧道[流媒体解锁]
+      - 🇸🇬 中转|新加坡Singtel01|华南隧道[流媒体解锁]
+      - 🇯🇵 中转|日本GMO06|华南隧道[流媒体解锁]
+      - 🇺🇸 中转|美国NTT07|华南隧道[流媒体解锁]
+      - 🇭🇰 中转|香港CMHK02|华南隧道[流媒体解锁]
+      - 🇭🇰 中转|香港HKBN11|华南隧道[流媒体解锁]
+      - 🇭🇰 中转|香港HKBN11|华南隧道[流媒体解锁] 2
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇯🇵 二爷翻墙网 https://1808.ga日本东京Linode数据中心 1
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶Sharktech数据中心 2
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶Cloudinnovation数据中心 3
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶Sharktech数据中心 4
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 5
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶市SharkTech数据中心 6
-      - 🇯🇵 二爷翻墙网 https://1808.ga日本东京Amazon数据中心 7
-      - 🇳🇱 二爷翻墙网 https://1808.ga荷兰  8
-      - 🇳🇱 二爷翻墙网 https://1808.ga荷兰  9
-      - 🇳🇱 二爷翻墙网 https://1808.ga荷兰  10
-      - 🇳🇱 二爷翻墙网 https://1808.ga荷兰  11
-      - 🇳🇱 二爷翻墙网 https://1808.ga荷兰  12
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶Coperation Coloction数据中心 13
-      - 🇨🇳 二爷翻墙网 https://1808.ga台湾省中华电信(HiNet)数据中心 14
-      - 🇳🇱 二爷翻墙网 https://1808.ga荷兰  15
-      - 🇳🇱 二爷翻墙网 https://1808.ga荷兰  16
-      - 🇳🇱 二爷翻墙网 https://1808.ga荷兰  17
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国加利福尼亚州旧金山Amazon数据中心 18
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶Coperation Coloction数据中心 19
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 20
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 21
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国  22
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 23
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 24
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 25
-      - 🇦🇨 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶MULTACOM数据中心 26
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 27
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare节点 28
-      - 🇸🇬 二爷翻墙网 https://1808.ga美国新泽西州皮斯卡特维Choopa数据中心 29
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 30
-      - 🇦🇨 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶MULTACOM数据中心 31
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 32
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 33
-      - 二爷翻墙网 https://1808.ga葡萄牙  34
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare节点 35
-      - 🇩🇪 二爷翻墙网 https://1808.ga德国Hetzner 36
-      - 二爷翻墙网 https://1808.ga欧洲  37
-      - 🇩🇰 二爷翻墙网 https://1808.ga丹麦哥本哈根Digital VM 38
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 39
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国内华达州拉斯维加斯BuyVM数据中心 40
-      - 二爷翻墙网 https://1808.ga匈牙利  41
-      - 🇷🇺 二爷翻墙网 https://1808.ga俄罗斯  42
-      - 🇭🇰 二爷翻墙网 https://1808.ga香港CDN77节点 43
-      - 🇨🇳 二爷翻墙网 https://1808.gaTWN/台湾 B - 苏州电信
-      - 🇭🇰 二爷翻墙网 https://1808.gaHK/香港 B - 郑州联通
-      - 🇨🇳 二爷翻墙网 https://1808.gaTWN/台湾 B - 东莞电信
-      - 🇨🇳 二爷翻墙网 https://1808.gaTWN/台湾 A - 郑州联通
-      - 🇨🇳 二爷翻墙网 https://1808.gaTWN/台湾 A - 宁波电信
-      - 🇨🇳 二爷翻墙网 https://1808.gaTWN/台湾 A - 天津电信
-      - 🇨🇳 二爷翻墙网 https://1808.gaTWN/台湾 B - 郑州联通
-      - 🇸🇬 二爷翻墙网 https://1808.gaSIN/狮城 A - 天津移动
-      - 🇨🇳 二爷翻墙网 https://1808.gaTWN/台湾 B - 重庆联通
-      - 🇯🇵 二爷翻墙网 https://1808.gaJPN/日本 A - 天津移动
-      - 🇺🇸 二爷翻墙网 https://1808.gaUSA/美国 A - 郑州联通
-      - 🇺🇸 二爷翻墙网 https://1808.gaUSA/美国 A - 重庆联通
-      - 🇯🇵 二爷翻墙网 https://1808.gaJPN/日本 A - 西安电信
-      - 🇯🇵 二爷翻墙网 https://1808.gaJPN/日本 A - 重庆联通
-      - 🇨🇳 二爷翻墙网 https://1808.gaTWN/台湾 B - 天津电信
+      - 二爷免费翻墙网 https://1808.ga
+      - 二爷免费翻墙网 https://1808.ga 2
+      - 二爷免费翻墙网 https://1808.ga 3
+      - 二爷免费翻墙网 https://1808.ga 4
+      - 二爷免费翻墙网 https://1808.ga 5
+      - 二爷免费翻墙网 https://1808.ga 6
+      - 二爷免费翻墙网 https://1808.ga 7
+      - 二爷免费翻墙网 https://1808.ga 8
+      - 二爷免费翻墙网 https://1808.ga 9
+      - 二爷免费翻墙网 https://1808.ga 10
+      - 二爷免费翻墙网 https://1808.ga 11
+      - 二爷免费翻墙网 https://1808.ga 12
+      - 二爷免费翻墙网 https://1808.ga 13
+      - 二爷免费翻墙网 https://1808.ga 14
+      - 二爷免费翻墙网 https://1808.ga 15
+      - 二爷免费翻墙网 https://1808.ga 16
+      - 二爷免费翻墙网 https://1808.ga 17
+      - 二爷免费翻墙网 https://1808.ga 18
+      - 二爷免费翻墙网 https://1808.ga 19
+      - 二爷免费翻墙网 https://1808.ga 20
+      - 二爷免费翻墙网 https://1808.ga 21
+      - 二爷免费翻墙网 https://1808.ga 22
+      - 二爷免费翻墙网 https://1808.ga 23
+      - 二爷免费翻墙网 https://1808.ga 24
+      - 二爷免费翻墙网 https://1808.ga 25
+      - 二爷免费翻墙网 https://1808.ga 26
+      - 二爷免费翻墙网 https://1808.ga 27
+      - 二爷免费翻墙网 https://1808.ga 28
+      - 二爷免费翻墙网 https://1808.ga 29
+      - 二爷免费翻墙网 https://1808.ga 30
+      - 二爷免费翻墙网 https://1808.ga 31
+      - 二爷免费翻墙网 https://1808.ga 32
+      - 二爷免费翻墙网 https://1808.ga 33
+      - 二爷免费翻墙网 https://1808.ga 34
+      - 二爷免费翻墙网 https://1808.ga 35
+      - 二爷免费翻墙网 https://1808.ga 36
+      - 二爷免费翻墙网 https://1808.ga 37
+      - 二爷免费翻墙网 https://1808.ga 38
+      - 二爷免费翻墙网 https://1808.ga 39
+      - 二爷免费翻墙网 https://1808.ga 40
+      - 二爷免费翻墙网 https://1808.ga 41
+      - 二爷免费翻墙网 https://1808.ga 42
+      - 二爷免费翻墙网 https://1808.ga 43
+      - 二爷免费翻墙网 https://1808.ga 44
+      - 二爷免费翻墙网 https://1808.ga 45
+      - 二爷免费翻墙网 https://1808.ga 46
+      - 二爷免费翻墙网 https://1808.ga 47
+      - 🇸🇬 AZ|新加坡01
+      - 🇸🇬 AZ|新加坡02
+      - 🇯🇵 AZ|日本03
+      - 🇭🇰 AZ|香港06 NF
+      - 🇭🇰 CM|香港03
+      - 🇭🇰 CM|香港06 NF
+      - 🇭🇰 Q102 BGP | 香港 Microsoft
+      - 🇭🇰 Q105 BGP | 香港 NeroCloud | NF
+      - 🇸🇬 Q401 BGP | 新加坡 Hivelocity
+      - 🇸🇬 SG-AWS | V2 | 广移中转
+      - 🇦🇨 中转 | 韩国 ORACLE 01·NF
+      - 🇭🇰 中转 | 香港 AGA 01
+      - 🇭🇰 中转 | 香港 AWS 02
+      - 🇨🇳 中转|台湾HiNet01|华南隧道[流媒体解锁]
+      - 🇸🇬 中转|新加坡Singtel01|华南隧道[流媒体解锁]
+      - 🇯🇵 中转|日本GMO06|华南隧道[流媒体解锁]
+      - 🇺🇸 中转|美国NTT07|华南隧道[流媒体解锁]
+      - 🇭🇰 中转|香港CMHK02|华南隧道[流媒体解锁]
+      - 🇭🇰 中转|香港HKBN11|华南隧道[流媒体解锁]
+      - 🇭🇰 中转|香港HKBN11|华南隧道[流媒体解锁] 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -530,64 +602,73 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇯🇵 二爷翻墙网 https://1808.ga日本东京Linode数据中心 1
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶Sharktech数据中心 2
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶Cloudinnovation数据中心 3
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶Sharktech数据中心 4
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 5
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶市SharkTech数据中心 6
-      - 🇯🇵 二爷翻墙网 https://1808.ga日本东京Amazon数据中心 7
-      - 🇳🇱 二爷翻墙网 https://1808.ga荷兰  8
-      - 🇳🇱 二爷翻墙网 https://1808.ga荷兰  9
-      - 🇳🇱 二爷翻墙网 https://1808.ga荷兰  10
-      - 🇳🇱 二爷翻墙网 https://1808.ga荷兰  11
-      - 🇳🇱 二爷翻墙网 https://1808.ga荷兰  12
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶Coperation Coloction数据中心 13
-      - 🇨🇳 二爷翻墙网 https://1808.ga台湾省中华电信(HiNet)数据中心 14
-      - 🇳🇱 二爷翻墙网 https://1808.ga荷兰  15
-      - 🇳🇱 二爷翻墙网 https://1808.ga荷兰  16
-      - 🇳🇱 二爷翻墙网 https://1808.ga荷兰  17
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国加利福尼亚州旧金山Amazon数据中心 18
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶Coperation Coloction数据中心 19
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 20
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 21
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国  22
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 23
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 24
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 25
-      - 🇦🇨 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶MULTACOM数据中心 26
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 27
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare节点 28
-      - 🇸🇬 二爷翻墙网 https://1808.ga美国新泽西州皮斯卡特维Choopa数据中心 29
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 30
-      - 🇦🇨 二爷翻墙网 https://1808.ga美国加利福尼亚州洛杉矶MULTACOM数据中心 31
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 32
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 33
-      - 二爷翻墙网 https://1808.ga葡萄牙  34
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare节点 35
-      - 🇩🇪 二爷翻墙网 https://1808.ga德国Hetzner 36
-      - 二爷翻墙网 https://1808.ga欧洲  37
-      - 🇩🇰 二爷翻墙网 https://1808.ga丹麦哥本哈根Digital VM 38
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 39
-      - 🇺🇸 二爷翻墙网 https://1808.ga美国内华达州拉斯维加斯BuyVM数据中心 40
-      - 二爷翻墙网 https://1808.ga匈牙利  41
-      - 🇷🇺 二爷翻墙网 https://1808.ga俄罗斯  42
-      - 🇭🇰 二爷翻墙网 https://1808.ga香港CDN77节点 43
-      - 🇨🇳 二爷翻墙网 https://1808.gaTWN/台湾 B - 苏州电信
-      - 🇭🇰 二爷翻墙网 https://1808.gaHK/香港 B - 郑州联通
-      - 🇨🇳 二爷翻墙网 https://1808.gaTWN/台湾 B - 东莞电信
-      - 🇨🇳 二爷翻墙网 https://1808.gaTWN/台湾 A - 郑州联通
-      - 🇨🇳 二爷翻墙网 https://1808.gaTWN/台湾 A - 宁波电信
-      - 🇨🇳 二爷翻墙网 https://1808.gaTWN/台湾 A - 天津电信
-      - 🇨🇳 二爷翻墙网 https://1808.gaTWN/台湾 B - 郑州联通
-      - 🇸🇬 二爷翻墙网 https://1808.gaSIN/狮城 A - 天津移动
-      - 🇨🇳 二爷翻墙网 https://1808.gaTWN/台湾 B - 重庆联通
-      - 🇯🇵 二爷翻墙网 https://1808.gaJPN/日本 A - 天津移动
-      - 🇺🇸 二爷翻墙网 https://1808.gaUSA/美国 A - 郑州联通
-      - 🇺🇸 二爷翻墙网 https://1808.gaUSA/美国 A - 重庆联通
-      - 🇯🇵 二爷翻墙网 https://1808.gaJPN/日本 A - 西安电信
-      - 🇯🇵 二爷翻墙网 https://1808.gaJPN/日本 A - 重庆联通
-      - 🇨🇳 二爷翻墙网 https://1808.gaTWN/台湾 B - 天津电信
+      - 二爷免费翻墙网 https://1808.ga
+      - 二爷免费翻墙网 https://1808.ga 2
+      - 二爷免费翻墙网 https://1808.ga 3
+      - 二爷免费翻墙网 https://1808.ga 4
+      - 二爷免费翻墙网 https://1808.ga 5
+      - 二爷免费翻墙网 https://1808.ga 6
+      - 二爷免费翻墙网 https://1808.ga 7
+      - 二爷免费翻墙网 https://1808.ga 8
+      - 二爷免费翻墙网 https://1808.ga 9
+      - 二爷免费翻墙网 https://1808.ga 10
+      - 二爷免费翻墙网 https://1808.ga 11
+      - 二爷免费翻墙网 https://1808.ga 12
+      - 二爷免费翻墙网 https://1808.ga 13
+      - 二爷免费翻墙网 https://1808.ga 14
+      - 二爷免费翻墙网 https://1808.ga 15
+      - 二爷免费翻墙网 https://1808.ga 16
+      - 二爷免费翻墙网 https://1808.ga 17
+      - 二爷免费翻墙网 https://1808.ga 18
+      - 二爷免费翻墙网 https://1808.ga 19
+      - 二爷免费翻墙网 https://1808.ga 20
+      - 二爷免费翻墙网 https://1808.ga 21
+      - 二爷免费翻墙网 https://1808.ga 22
+      - 二爷免费翻墙网 https://1808.ga 23
+      - 二爷免费翻墙网 https://1808.ga 24
+      - 二爷免费翻墙网 https://1808.ga 25
+      - 二爷免费翻墙网 https://1808.ga 26
+      - 二爷免费翻墙网 https://1808.ga 27
+      - 二爷免费翻墙网 https://1808.ga 28
+      - 二爷免费翻墙网 https://1808.ga 29
+      - 二爷免费翻墙网 https://1808.ga 30
+      - 二爷免费翻墙网 https://1808.ga 31
+      - 二爷免费翻墙网 https://1808.ga 32
+      - 二爷免费翻墙网 https://1808.ga 33
+      - 二爷免费翻墙网 https://1808.ga 34
+      - 二爷免费翻墙网 https://1808.ga 35
+      - 二爷免费翻墙网 https://1808.ga 36
+      - 二爷免费翻墙网 https://1808.ga 37
+      - 二爷免费翻墙网 https://1808.ga 38
+      - 二爷免费翻墙网 https://1808.ga 39
+      - 二爷免费翻墙网 https://1808.ga 40
+      - 二爷免费翻墙网 https://1808.ga 41
+      - 二爷免费翻墙网 https://1808.ga 42
+      - 二爷免费翻墙网 https://1808.ga 43
+      - 二爷免费翻墙网 https://1808.ga 44
+      - 二爷免费翻墙网 https://1808.ga 45
+      - 二爷免费翻墙网 https://1808.ga 46
+      - 二爷免费翻墙网 https://1808.ga 47
+      - 🇸🇬 AZ|新加坡01
+      - 🇸🇬 AZ|新加坡02
+      - 🇯🇵 AZ|日本03
+      - 🇭🇰 AZ|香港06 NF
+      - 🇭🇰 CM|香港03
+      - 🇭🇰 CM|香港06 NF
+      - 🇭🇰 Q102 BGP | 香港 Microsoft
+      - 🇭🇰 Q105 BGP | 香港 NeroCloud | NF
+      - 🇸🇬 Q401 BGP | 新加坡 Hivelocity
+      - 🇸🇬 SG-AWS | V2 | 广移中转
+      - 🇦🇨 中转 | 韩国 ORACLE 01·NF
+      - 🇭🇰 中转 | 香港 AGA 01
+      - 🇭🇰 中转 | 香港 AWS 02
+      - 🇨🇳 中转|台湾HiNet01|华南隧道[流媒体解锁]
+      - 🇸🇬 中转|新加坡Singtel01|华南隧道[流媒体解锁]
+      - 🇯🇵 中转|日本GMO06|华南隧道[流媒体解锁]
+      - 🇺🇸 中转|美国NTT07|华南隧道[流媒体解锁]
+      - 🇭🇰 中转|香港CMHK02|华南隧道[流媒体解锁]
+      - 🇭🇰 中转|香港HKBN11|华南隧道[流媒体解锁]
+      - 🇭🇰 中转|香港HKBN11|华南隧道[流媒体解锁] 2
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
