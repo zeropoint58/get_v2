@@ -5,749 +5,429 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 为河南祈福, server: 5.183.101.204, port: 59857, type: vmess, uuid: 4c35d374-dbf2-4e5f-c731-dfa49191825a, alterId: 64, cipher: auto, tls: false}
-  - {name: 二爷翻墙https://1808.ga, server: 185.225.69.134, port: 45081, type: vmess, uuid: 3c3bfd75-dc30-4e76-8940-47e1137e21f9, alterId: 64, cipher: auto, tls: false}
-  - {name: 为河南祈福 2, server: 211.23.132.124, port: 9233, type: vmess, uuid: be58f4e4-894a-47ee-8836-cf75e74fa9c9, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 211.23.132.124}}
-  - {name: 为河南祈福 3, server: 54.199.6.184, port: 65432, type: vmess, uuid: d13634e2-9cd3-4947-ac45-10652da4d147, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 54.199.6.184}}
-  - {name: 为河南祈福 4, server: auto.freev2.top, port: 38456, type: vmess, uuid: 2eda8942-5262-475a-8f07-08ddc02630f0, alterId: 1, cipher: auto, tls: false}
-  - {name: 二爷翻墙https://1808.ga 2, server: 138.199.9.202, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 二爷翻墙https://1808.ga 3, server: 135.125.207.34, port: 80, type: vmess, uuid: e2816152-6326-4cf9-aa95-34b0f9a8c666, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /sshocean, ws-headers: {Host: 135.125.207.34}}
-  - {name: 为河南祈福 5, server: 198.8.92.84, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
-  - {name: 为河南祈福 6, server: 198.8.92.84, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
-  - {name: 为河南祈福 7, server: presidency.eg, port: 443, type: vmess, uuid: d96e0bc9-e1d9-4715-ae3f-39dac55b9e44, alterId: 34, cipher: auto, tls: true, network: ws, ws-path: /9e1cb04e/, ws-headers: {Host: edozvpn.xyz}}
-  - {name: 为河南祈福 8, server: t7.ssrsub.one, port: 8443, type: trojan, password: QjnLGqRz, sni: t7.ssrsub.one}
-  - {name: 为河南祈福 9, server: a7.ssrsub.one, port: 443, type: trojan, password: A24HRtle, sni: a7.ssrsub.one}
-  - {name: 为河南祈福 10, server: 23.224.30.36, port: 443, type: vmess, uuid: e4494518-74e8-4d6b-942a-6b332cce09ef, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.01902367.xyz}}
-  - {name: 为河南祈福 11, server: 23.224.30.37, port: 443, type: vmess, uuid: e4494518-74e8-4d6b-942a-6b332cce09ef, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.01902367.xyz}}
-  - {name: 为河南祈福 12, server: 170.178.165.253, port: 443, type: vmess, uuid: ee954308-5990-4914-b74f-b7be76963fde, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.55916573.xyz}}
-  - {name: 为河南祈福 13, server: 170.178.165.233, port: 443, type: vmess, uuid: ee954308-5990-4914-b74f-b7be76963fde, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.55916573.xyz}}
-  - {name: 为河南祈福 14, server: 104.160.186.54, port: 443, type: vmess, uuid: d3cbe556-8db3-47e0-8ef1-06b2cce00411, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.92726054.xyz}}
-  - {name: 为河南祈福 15, server: 107.167.9.124, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.17080100.xyz}}
-  - {name: 为河南祈福 16, server: 198.147.22.87, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 为河南祈福 17, server: 46.182.107.154, port: 443, type: vmess, uuid: 130c9f2e-42b1-4ebf-b345-e26456a061f9, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.05222027.xyz}}
-  - {name: 为河南祈福 18, server: 46.182.107.93, port: 443, type: vmess, uuid: 743bdc87-1dea-41bf-aa0b-51dfbbfec8aa, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.54872833.xyz}}
-  - {name: 为河南祈福 19, server: 46.182.107.94, port: 443, type: vmess, uuid: 743bdc87-1dea-41bf-aa0b-51dfbbfec8aa, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.54872833.xyz}}
-  - {name: 为河南祈福 20, server: 46.182.107.39, port: 443, type: vmess, uuid: d3133484-f2bf-4b0c-8d38-f8e645b65687, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.07890885.xyz}}
-  - {name: 为河南祈福 21, server: 46.182.107.37, port: 443, type: vmess, uuid: 65ea6727-4461-47a7-a5c4-fef2c67f2f79, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.09462550.xyz}}
-  - {name: 为河南祈福 22, server: 46.182.107.157, port: 443, type: vmess, uuid: 20b30916-e203-412e-8ec0-900f3acd5128, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.73345741.xyz}}
-  - {name: 为河南祈福 23, server: 46.182.107.146, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca4690dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.44590130.xyz}}
-  - {name: 为河南祈福 24, server: 132.226.169.93, port: 45623, type: vmess, uuid: 0453154b-db51-4a66-8f7c-0887878cb9a3, alterId: 0, cipher: auto, tls: false}
-  - {name: 为河南祈福 25, server: 84.17.35.78, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 为河南祈福 26, server: 117.28.243.187, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!}
-  - {name: 为河南祈福 27, server: 117.28.243.169, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!}
-  - {name: 为河南祈福 28, server: nanoportsb.1145141919810.xn--9kq12xdq7a.com, port: 8128, type: vmess, uuid: 3e546191-0784-4c44-8849-01f06f942a5f, alterId: 1, cipher: auto, tls: false}
-  - {name: 为河南祈福 29, server: nanoportsb.1145141919810.xn--9kq12xdq7a.com, port: 8124, type: vmess, uuid: 3e546191-0784-4c44-8849-01f06f942a5f, alterId: 1, cipher: auto, tls: false}
-  - {name: 为河南祈福 30, server: zzlt.flyss.link, port: 10015, type: ss, cipher: aes-256-gcm, password: 5b7e05ad-862d-498e-803f-ed2759f52884}
-  - {name: 为河南祈福 31, server: zzlt.flyss.link, port: 10015, type: ss, cipher: aes-256-gcm, password: bcaedf30-f8eb-4a6a-99cb-0430b31aa5fe}
-  - {name: 为河南祈福 32, server: zzlt.flyss.link, port: 10012, type: ss, cipher: aes-256-gcm, password: bcaedf30-f8eb-4a6a-99cb-0430b31aa5fe}
-  - {name: 为河南祈福 33, server: zzlt.flyss.link, port: 10017, type: ss, cipher: aes-256-gcm, password: 5b7e05ad-862d-498e-803f-ed2759f52884}
-  - {name: 为河南祈福 34, server: zzlt.flyss.link, port: 10013, type: ss, cipher: aes-256-gcm, password: 5b7e05ad-862d-498e-803f-ed2759f52884}
-  - {name: 为河南祈福 35, server: zzlt.flyss.link, port: 10011, type: ss, cipher: aes-256-gcm, password: bcaedf30-f8eb-4a6a-99cb-0430b31aa5fe}
-  - {name: 为河南祈福 36, server: zzlt.flyss.link, port: 10013, type: ss, cipher: aes-256-gcm, password: bcaedf30-f8eb-4a6a-99cb-0430b31aa5fe}
-  - {name: 为河南祈福 37, server: zzlt.flyss.link, port: 10018, type: ss, cipher: aes-256-gcm, password: bcaedf30-f8eb-4a6a-99cb-0430b31aa5fe}
-  - {name: 为河南祈福 38, server: zzlt.flyss.link, port: 10018, type: ss, cipher: aes-256-gcm, password: bcaedf30-f8eb-4a6a-99cb-0430b31aa5fe}
-  - {name: 为河南祈福 39, server: zzlt.flyss.link, port: 10018, type: ss, cipher: aes-256-gcm, password: bcaedf30-f8eb-4a6a-99cb-0430b31aa5fe}
-  - {name: 为河南祈福 40, server: zzlt.flyss.link, port: 10018, type: ss, cipher: aes-256-gcm, password: bcaedf30-f8eb-4a6a-99cb-0430b31aa5fe}
-  - {name: 为河南祈福 41, server: zzlt.flyss.link, port: 10018, type: ss, cipher: aes-256-gcm, password: bcaedf30-f8eb-4a6a-99cb-0430b31aa5fe}
-  - {name: 为河南祈福 42, server: zzlt.flyss.link, port: 10025, type: ss, cipher: aes-256-gcm, password: 5b7e05ad-862d-498e-803f-ed2759f52884}
-  - {name: 为河南祈福 43, server: 117.28.243.246, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!}
-  - {name: 为河南祈福 44, server: zzlt.flyss.link, port: 10019, type: ss, cipher: aes-256-gcm, password: bcaedf30-f8eb-4a6a-99cb-0430b31aa5fe}
-  - {name: 为河南祈福 45, server: zzlt.flyss.link, port: 10020, type: ss, cipher: aes-256-gcm, password: bcaedf30-f8eb-4a6a-99cb-0430b31aa5fe}
-  - {name: 为河南祈福 46, server: zzlt.flyss.link, port: 10023, type: ss, cipher: aes-256-gcm, password: 5b7e05ad-862d-498e-803f-ed2759f52884}
-  - {name: 为河南祈福 47, server: p5.22332e.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!}
-  - {name: 为河南祈福 48, server: 117.28.243.187, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!}
-  - {name: 为河南祈福 49, server: 117.28.243.187, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!}
-  - {name: 为河南祈福 50, server: p5.22332e.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!}
-  - {name: 为河南祈福 51, server: 117.28.243.187, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!}
-  - {name: 为河南祈福 52, server: 117.28.243.248, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!}
-  - {name: 为河南祈福 53, server: zzlt.flyss.link, port: 10022, type: ss, cipher: aes-256-gcm, password: 5b7e05ad-862d-498e-803f-ed2759f52884}
-  - {name: 为河南祈福 54, server: zzlt.flyss.link, port: 10021, type: ss, cipher: aes-256-gcm, password: 5b7e05ad-862d-498e-803f-ed2759f52884}
-  - {name: 为河南祈福 55, server: p8.22332e.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!}
-  - {name: 为河南祈福 56, server: 117.28.243.248, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!}
-  - {name: 为河南祈福 57, server: p7.22332e.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!}
-  - {name: 为河南祈福 58, server: p7.22332e.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!}
-  - {name: 为河南祈福 59, server: p7.22332e.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!}
-  - {name: 为河南祈福 60, server: p7.22332e.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!}
-  - {name: 为河南祈福 61, server: p7.22332e.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!}
-  - {name: 为河南祈福 62, server: p7.22332e.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!}
-  - {name: 为河南祈福 63, server: 117.28.243.248, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!}
-  - {name: 为河南祈福 64, server: 117.28.243.248, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!}
-  - {name: 为河南祈福 65, server: 117.28.243.248, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!}
-  - {name: 为河南祈福 66, server: 117.28.243.248, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!}
-  - {name: 为河南祈福 67, server: p2.22332e.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!}
-  - {name: 为河南祈福 68, server: p2.22332e.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!}
-  - {name: 为河南祈福 69, server: kaizen-hk-2.cn0.me, port: 443, type: trojan, password: 18e513fe-f7f4-353d-84ca-bc9646fb2528mielink, sni: kaizen-hk-2.cn0.me}
-  - {name: 为河南祈福 70, server: kaizen-hk-4.cn0.me, port: 443, type: trojan, password: 18e513fe-f7f4-353d-84ca-bc9646fb2528mielink, sni: kaizen-hk-4.cn0.me}
-  - {name: 为河南祈福 71, server: superstar.srayx.xyz, port: 27003, type: vmess, uuid: b228ba77-a950-47ff-bc2c-5d0fce481647, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: superstar.srayx.xyz}}
-  - {name: 🇨🇳 CN_2779, server: xbz1145141919810.xn--9kq12xdq7a.com, port: 1452, type: vmess, uuid: 3e546191-0784-4c44-8849-01f06f942a5f, alterId: 1, cipher: auto, tls: false}
-  - {name: 🇨🇳 CN_2782, server: music.desperadoj.com, port: 30003, type: ss, cipher: aes-128-gcm, password: desperadoj.com_free_proxy_d39m}
-  - {name: 🇨🇳 CN_2784, server: 101.132.192.212, port: 30003, type: ss, cipher: aes-128-gcm, password: desperadoj.com_free_proxy_d39m}
-  - {name: 🇭🇰 HK_4091, server: 47.240.46.71, port: 444, type: ss, cipher: aes-256-cfb, password: aliskrskr}
-  - {name: 🇭🇰 HK_4096, server: hk31.ssgnode.ga, port: 443, type: trojan, password: 41742_920c8caa, sni: hk31.ssgnode.ga}
-  - {name: 🇨🇳 TW_5632, server: 2.58.242.158, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
-  - {name: 🇨🇳 TW_5639, server: 2.58.241.46, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
-  - {name: 🇨🇳 TW_5659, server: 2.58.241.4, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
-  - {name: 🇨🇳 TW_5668, server: 59.125.11.158, port: 8158, type: ss, cipher: rc4-md5, password: passinfo123}
-  - {name: 🇨🇳 TW_5668 2, server: 59.125.11.158, port: 8158, type: ss, cipher: rc4-md5, password: passinfo123}
-  - {name: 🇨🇳 TW_5671, server: 2.58.242.43, port: 443, type: trojan, password: YWVzLTI1Ni1nY206eHBRd3lWNFc1RmRBNk5NQU5KSng3M1VT}
-  - {name: 🇨🇳 TW_5672, server: 2.58.242.43, port: 443, type: trojan, password: 7a9a3bb7-43b4YWVzLTI1Ni1nY206eHBRd3lWNFc1RmRBNk5NQU5KSng3M1VT}
-  - {name: 🇨🇳 @ShareCentre 🇨🇳 CN-🇹🇼TW_2776 （副本）, server: 117.28.243.187, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!}
-  - {name: 🇺🇸 @ShareCentre 🇨🇳CN-🇺🇸US_2783 （副本）, server: 117.28.243.248, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!}
+  - {name: 互联网是有记忆的, server: 139.180.169.69, port: 37390, type: vmess, uuid: 208bc0c8-a6ed-4625-9700-124f824bbe5c, alterId: 0, cipher: auto, tls: false}
+  - {name: 郑州同胞加油, server: 216.128.181.160, port: 50109, type: vmess, uuid: 737a9170-debb-4638-9924-9f55f35717f2, alterId: 0, cipher: auto, tls: false}
+  - {name: 二爷翻墙网https://1808.ga, server: 80.240.24.124, port: 33146, type: vmess, uuid: e263b82d-2196-4b2c-92f0-c5533c75e745, alterId: 0, cipher: auto, tls: false}
+  - {name: 二爷翻墙网https://1808.ga 2, server: 95.179.222.187, port: 39536, type: vmess, uuid: 664b7607-e962-4e67-8cee-3aa2202ea44f, alterId: 0, cipher: auto, tls: false}
+  - {name: 二爷翻墙网https://1808.ga 3, server: 136.244.69.48, port: 42759, type: vmess, uuid: 15b52ffd-712a-4af0-a404-a167cfb56f5c, alterId: 0, cipher: auto, tls: false}
+  - {name: 二爷翻墙网https://1808.ga 4, server: 54.249.53.46, port: 35156, type: vmess, uuid: 4c842f71-039e-42f1-bcf6-7e48be4e129e, alterId: 0, cipher: auto, tls: false}
+  - {name: 二爷翻墙网https://1808.ga 5, server: 13.209.43.110, port: 56531, type: vmess, uuid: dca7cafb-0828-465c-b6e7-812b241ad538, alterId: 0, cipher: auto, tls: false}
+  - {name: 二爷翻墙网https://1808.ga 6, server: 108.61.199.250, port: 37889, type: vmess, uuid: 025ccdd9-9b9d-4ebf-8c39-725c3f438637, alterId: 0, cipher: auto, tls: false}
+  - {name: 二爷翻墙网https://1808.ga 7, server: lovfree.comb.yigeweizhuang.com, port: 443, type: vmess, uuid: 6fd9c7fe-d7bd-4277-85fc-f206de51ab3b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /lovfree.com, ws-headers: {Host: lovfree.comb.yigeweizhuang.com}}
+  - {name: 二爷翻墙网https://1808.ga 8, server: 104.207.155.119, port: 24589, type: vmess, uuid: e9636bc0-1e53-4281-bcda-7ad14ab519cd, alterId: 0, cipher: auto, tls: false}
+  - {name: 二爷翻墙网https://1808.ga 9, server: 45.63.84.173, port: 20511, type: vmess, uuid: c37d2866-4e07-45cf-ba78-2ef59c13630f, alterId: 0, cipher: auto, tls: false}
+  - {name: 二爷翻墙网https://1808.ga 10, server: 13.52.103.232, port: 36666, type: vmess, uuid: e2917e2f-5575-498b-9816-0a3bdbd7b138, alterId: 0, cipher: auto, tls: false}
+  - {name: 二爷翻墙网https://1808.ga 11, server: 45.32.228.81, port: 31991, type: vmess, uuid: 34a625d5-c34e-4187-b20f-9cdfced22e3b, alterId: 0, cipher: auto, tls: false}
+  - {name: 二爷翻墙网https://1808.ga 12, server: 5.183.101.204, port: 59857, type: vmess, uuid: 4c35d374-dbf2-4e5f-c731-dfa49191825a, alterId: 64, cipher: auto, tls: false}
+  - {name: 二爷翻墙网https://1808.ga 13, server: 46.17.43.179, port: 43829, type: vmess, uuid: 9c10617c-464d-4bb1-8b97-bbdec6ebc7d1, alterId: 0, cipher: auto, tls: false}
+  - {name: 二爷翻墙网https://1808.ga 14, server: 185.225.69.134, port: 45081, type: vmess, uuid: 3c3bfd75-dc30-4e76-8940-47e1137e21f9, alterId: 64, cipher: auto, tls: false}
+  - {name: 二爷翻墙网https://1808.ga 15, server: 211.23.132.124, port: 9233, type: vmess, uuid: be58f4e4-894a-47ee-8836-cf75e74fa9c9, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 211.23.132.124}}
+  - {name: 二爷翻墙网https://1808.ga 16, server: 80.240.24.124, port: 33146, type: vmess, uuid: e263b82d-2196-4b2c-92f0-c5533c75e745, alterId: 0, cipher: auto, tls: false}
+  - {name: 二爷翻墙网https://1808.ga 17, server: auto.freev2.top, port: 24000, type: vmess, uuid: 04d4f96f-1c16-4eb6-a4bb-c573eb0b6ec9, alterId: 1, cipher: auto, tls: false}
+  - {name: 二爷翻墙网https://1808.ga 18, server: 95.179.222.187, port: 39536, type: vmess, uuid: 664b7607-e962-4e67-8cee-3aa2202ea44f, alterId: 0, cipher: auto, tls: false}
+  - {name: 二爷翻墙网https://1808.ga 19, server: 198.8.92.84, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
+  - {name: 二爷翻墙网https://1808.ga 20, server: 18.157.179.71, port: 443, type: vmess, uuid: 81dd574d-8d47-4b31-9f5a-3f638b427842, alterId: 64, cipher: auto, tls: false}
+  - {name: 二爷翻墙网https://1808.ga 21, server: 104.22.44.50, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 二爷翻墙网https://1808.ga 22, server: presidency.eg, port: 443, type: vmess, uuid: d96e0bc9-e1d9-4715-ae3f-39dac55b9e44, alterId: 34, cipher: auto, tls: true, network: ws, ws-path: /9e1cb04e/, ws-headers: {Host: edozvpn.xyz}}
+  - {name: 二爷翻墙网https://1808.ga 23, server: azjp.pengui.tools, port: 50000, type: vmess, uuid: fa77a1da-32ee-4b4c-b62c-05d0d3426f4b, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: azjp.pengui.tools}}
+  - {name: 二爷翻墙网https://1808.ga 24, server: t7.ssrsub.one, port: 8443, type: trojan, password: MEw2QWie, sni: t7.ssrsub.one}
+  - {name: 二爷翻墙网https://1808.ga 25, server: a7.ssrsub.one, port: 443, type: trojan, password: BFJYOPsk, sni: a7.ssrsub.one}
+  - {name: 二爷翻墙网https://1808.ga 26, server: 23.224.30.37, port: 443, type: vmess, uuid: e4494518-74e8-4d6b-942a-6b332cce09ef, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.01902367.xyz}}
+  - {name: 二爷翻墙网https://1808.ga 27, server: 23.224.30.36, port: 443, type: vmess, uuid: e4494518-74e8-4d6b-942a-6b332cce09ef, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.01902367.xyz}}
+  - {name: 二爷翻墙网https://1808.ga 28, server: 170.178.165.253, port: 443, type: vmess, uuid: ee954308-5990-4914-b74f-b7be76963fde, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.55916573.xyz}}
+  - {name: 二爷翻墙网https://1808.ga 29, server: 104.160.186.54, port: 443, type: vmess, uuid: d3cbe556-8db3-47e0-8ef1-06b2cce00411, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.92726054.xyz}}
+  - {name: 二爷翻墙网https://1808.ga 30, server: 170.178.165.233, port: 443, type: vmess, uuid: ee954308-5990-4914-b74f-b7be76963fde, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.55916573.xyz}}
+  - {name: 二爷翻墙网https://1808.ga 31, server: 107.167.9.124, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.17080100.xyz}}
+  - {name: 二爷翻墙网https://1808.ga 32, server: 15.152.54.67, port: 28192, type: vmess, uuid: f89a7139-3da6-43a4-8af6-129243ba3c0e, alterId: 64, cipher: auto, tls: false}
+  - {name: 二爷翻墙网https://1808.ga 33, server: 46.182.107.154, port: 443, type: vmess, uuid: 130c9f2e-42b1-4ebf-b345-e26456a061f9, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.05222027.xyz}}
+  - {name: 二爷翻墙网https://1808.ga 34, server: 46.182.107.146, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca4690dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.44590130.xyz}}
+  - {name: 郑州同胞加油 2, server: 46.182.107.157, port: 443, type: vmess, uuid: 20b30916-e203-412e-8ec0-900f3acd5128, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.73345741.xyz}}
+  - {name: 郑州同胞加油 3, server: 46.182.107.37, port: 443, type: vmess, uuid: 65ea6727-4461-47a7-a5c4-fef2c67f2f79, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.09462550.xyz}}
+  - {name: 郑州同胞加油 4, server: 46.182.107.44, port: 443, type: vmess, uuid: fe5f69e7-e183-439b-950b-9661ef0651f2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.68737987.xyz}}
+  - {name: 天会亮的, server: 46.182.107.94, port: 443, type: vmess, uuid: 743bdc87-1dea-41bf-aa0b-51dfbbfec8aa, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.54872833.xyz}}
+  - {name: 天会亮的 2, server: 46.182.107.93, port: 443, type: vmess, uuid: 743bdc87-1dea-41bf-aa0b-51dfbbfec8aa, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.54872833.xyz}}
+  - {name: 天会亮的 3, server: 46.182.107.39, port: 443, type: vmess, uuid: d3133484-f2bf-4b0c-8d38-f8e645b65687, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.07890885.xyz}}
+  - {name: 天会亮的 4, server: 13.124.66.77, port: 26571, type: vmess, uuid: 9c0a9f28-f9db-4b18-cd76-c14d0755e5b2, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇭🇰 【中转】HK/香港 B - 郑州联通, server: 42.236.94.1, port: 80, type: vmess, uuid: 5ea5360d-d5c7-48b3-81b7-f062da1d79f3, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 002.cdn.8x.cx.hit.edu.cn}}
+  - {name: 🇯🇵 【中转】JPN/日本 A - 宁波电信, server: 115.231.187.1, port: 80, type: vmess, uuid: 5ea5360d-d5c7-48b3-81b7-f062da1d79f3, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 006.cdn.8x.cx.hit.edu.cn}}
+  - {name: 🇺🇸 【中转】USA/美国 A - 宁波电信, server: 115.231.187.1, port: 80, type: vmess, uuid: 5ea5360d-d5c7-48b3-81b7-f062da1d79f3, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 005.cdn.8x.cx.hit.edu.cn}}
+  - {name: 🇨🇳 【直连】TWN/台湾 B, server: twn01.ip4.ddns.acg.photos, port: 80, type: vmess, uuid: 5ea5360d-d5c7-48b3-81b7-f062da1d79f3, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: twn01.ip4.ddns.acg.photos}}
+  - {name: 🇨🇳 【直连】TWN/台湾 C, server: twn04.ip4.ddns.acg.photos, port: 80, type: vmess, uuid: 5ea5360d-d5c7-48b3-81b7-f062da1d79f3, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: twn04.ip4.ddns.acg.photos}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 为河南祈福
-      - 二爷翻墙https://1808.ga
-      - 为河南祈福 2
-      - 为河南祈福 3
-      - 为河南祈福 4
-      - 二爷翻墙https://1808.ga 2
-      - 二爷翻墙https://1808.ga 3
-      - 为河南祈福 5
-      - 为河南祈福 6
-      - 为河南祈福 7
-      - 为河南祈福 8
-      - 为河南祈福 9
-      - 为河南祈福 10
-      - 为河南祈福 11
-      - 为河南祈福 12
-      - 为河南祈福 13
-      - 为河南祈福 14
-      - 为河南祈福 15
-      - 为河南祈福 16
-      - 为河南祈福 17
-      - 为河南祈福 18
-      - 为河南祈福 19
-      - 为河南祈福 20
-      - 为河南祈福 21
-      - 为河南祈福 22
-      - 为河南祈福 23
-      - 为河南祈福 24
-      - 为河南祈福 25
-      - 为河南祈福 26
-      - 为河南祈福 27
-      - 为河南祈福 28
-      - 为河南祈福 29
-      - 为河南祈福 30
-      - 为河南祈福 31
-      - 为河南祈福 32
-      - 为河南祈福 33
-      - 为河南祈福 34
-      - 为河南祈福 35
-      - 为河南祈福 36
-      - 为河南祈福 37
-      - 为河南祈福 38
-      - 为河南祈福 39
-      - 为河南祈福 40
-      - 为河南祈福 41
-      - 为河南祈福 42
-      - 为河南祈福 43
-      - 为河南祈福 44
-      - 为河南祈福 45
-      - 为河南祈福 46
-      - 为河南祈福 47
-      - 为河南祈福 48
-      - 为河南祈福 49
-      - 为河南祈福 50
-      - 为河南祈福 51
-      - 为河南祈福 52
-      - 为河南祈福 53
-      - 为河南祈福 54
-      - 为河南祈福 55
-      - 为河南祈福 56
-      - 为河南祈福 57
-      - 为河南祈福 58
-      - 为河南祈福 59
-      - 为河南祈福 60
-      - 为河南祈福 61
-      - 为河南祈福 62
-      - 为河南祈福 63
-      - 为河南祈福 64
-      - 为河南祈福 65
-      - 为河南祈福 66
-      - 为河南祈福 67
-      - 为河南祈福 68
-      - 为河南祈福 69
-      - 为河南祈福 70
-      - 为河南祈福 71
-      - 🇨🇳 CN_2779
-      - 🇨🇳 CN_2782
-      - 🇨🇳 CN_2784
-      - 🇭🇰 HK_4091
-      - 🇭🇰 HK_4096
-      - 🇨🇳 TW_5632
-      - 🇨🇳 TW_5639
-      - 🇨🇳 TW_5659
-      - 🇨🇳 TW_5668
-      - 🇨🇳 TW_5668 2
-      - 🇨🇳 TW_5671
-      - 🇨🇳 TW_5672
-      - 🇨🇳 @ShareCentre 🇨🇳 CN-🇹🇼TW_2776 （副本）
-      - 🇺🇸 @ShareCentre 🇨🇳CN-🇺🇸US_2783 （副本）
+      - 互联网是有记忆的
+      - 郑州同胞加油
+      - 二爷翻墙网https://1808.ga
+      - 二爷翻墙网https://1808.ga 2
+      - 二爷翻墙网https://1808.ga 3
+      - 二爷翻墙网https://1808.ga 4
+      - 二爷翻墙网https://1808.ga 5
+      - 二爷翻墙网https://1808.ga 6
+      - 二爷翻墙网https://1808.ga 7
+      - 二爷翻墙网https://1808.ga 8
+      - 二爷翻墙网https://1808.ga 9
+      - 二爷翻墙网https://1808.ga 10
+      - 二爷翻墙网https://1808.ga 11
+      - 二爷翻墙网https://1808.ga 12
+      - 二爷翻墙网https://1808.ga 13
+      - 二爷翻墙网https://1808.ga 14
+      - 二爷翻墙网https://1808.ga 15
+      - 二爷翻墙网https://1808.ga 16
+      - 二爷翻墙网https://1808.ga 17
+      - 二爷翻墙网https://1808.ga 18
+      - 二爷翻墙网https://1808.ga 19
+      - 二爷翻墙网https://1808.ga 20
+      - 二爷翻墙网https://1808.ga 21
+      - 二爷翻墙网https://1808.ga 22
+      - 二爷翻墙网https://1808.ga 23
+      - 二爷翻墙网https://1808.ga 24
+      - 二爷翻墙网https://1808.ga 25
+      - 二爷翻墙网https://1808.ga 26
+      - 二爷翻墙网https://1808.ga 27
+      - 二爷翻墙网https://1808.ga 28
+      - 二爷翻墙网https://1808.ga 29
+      - 二爷翻墙网https://1808.ga 30
+      - 二爷翻墙网https://1808.ga 31
+      - 二爷翻墙网https://1808.ga 32
+      - 二爷翻墙网https://1808.ga 33
+      - 二爷翻墙网https://1808.ga 34
+      - 郑州同胞加油 2
+      - 郑州同胞加油 3
+      - 郑州同胞加油 4
+      - 天会亮的
+      - 天会亮的 2
+      - 天会亮的 3
+      - 天会亮的 4
+      - 🇭🇰 【中转】HK/香港 B - 郑州联通
+      - 🇯🇵 【中转】JPN/日本 A - 宁波电信
+      - 🇺🇸 【中转】USA/美国 A - 宁波电信
+      - 🇨🇳 【直连】TWN/台湾 B
+      - 🇨🇳 【直连】TWN/台湾 C
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 为河南祈福
-      - 二爷翻墙https://1808.ga
-      - 为河南祈福 2
-      - 为河南祈福 3
-      - 为河南祈福 4
-      - 二爷翻墙https://1808.ga 2
-      - 二爷翻墙https://1808.ga 3
-      - 为河南祈福 5
-      - 为河南祈福 6
-      - 为河南祈福 7
-      - 为河南祈福 8
-      - 为河南祈福 9
-      - 为河南祈福 10
-      - 为河南祈福 11
-      - 为河南祈福 12
-      - 为河南祈福 13
-      - 为河南祈福 14
-      - 为河南祈福 15
-      - 为河南祈福 16
-      - 为河南祈福 17
-      - 为河南祈福 18
-      - 为河南祈福 19
-      - 为河南祈福 20
-      - 为河南祈福 21
-      - 为河南祈福 22
-      - 为河南祈福 23
-      - 为河南祈福 24
-      - 为河南祈福 25
-      - 为河南祈福 26
-      - 为河南祈福 27
-      - 为河南祈福 28
-      - 为河南祈福 29
-      - 为河南祈福 30
-      - 为河南祈福 31
-      - 为河南祈福 32
-      - 为河南祈福 33
-      - 为河南祈福 34
-      - 为河南祈福 35
-      - 为河南祈福 36
-      - 为河南祈福 37
-      - 为河南祈福 38
-      - 为河南祈福 39
-      - 为河南祈福 40
-      - 为河南祈福 41
-      - 为河南祈福 42
-      - 为河南祈福 43
-      - 为河南祈福 44
-      - 为河南祈福 45
-      - 为河南祈福 46
-      - 为河南祈福 47
-      - 为河南祈福 48
-      - 为河南祈福 49
-      - 为河南祈福 50
-      - 为河南祈福 51
-      - 为河南祈福 52
-      - 为河南祈福 53
-      - 为河南祈福 54
-      - 为河南祈福 55
-      - 为河南祈福 56
-      - 为河南祈福 57
-      - 为河南祈福 58
-      - 为河南祈福 59
-      - 为河南祈福 60
-      - 为河南祈福 61
-      - 为河南祈福 62
-      - 为河南祈福 63
-      - 为河南祈福 64
-      - 为河南祈福 65
-      - 为河南祈福 66
-      - 为河南祈福 67
-      - 为河南祈福 68
-      - 为河南祈福 69
-      - 为河南祈福 70
-      - 为河南祈福 71
-      - 🇨🇳 CN_2779
-      - 🇨🇳 CN_2782
-      - 🇨🇳 CN_2784
-      - 🇭🇰 HK_4091
-      - 🇭🇰 HK_4096
-      - 🇨🇳 TW_5632
-      - 🇨🇳 TW_5639
-      - 🇨🇳 TW_5659
-      - 🇨🇳 TW_5668
-      - 🇨🇳 TW_5668 2
-      - 🇨🇳 TW_5671
-      - 🇨🇳 TW_5672
-      - 🇨🇳 @ShareCentre 🇨🇳 CN-🇹🇼TW_2776 （副本）
-      - 🇺🇸 @ShareCentre 🇨🇳CN-🇺🇸US_2783 （副本）
+      - 互联网是有记忆的
+      - 郑州同胞加油
+      - 二爷翻墙网https://1808.ga
+      - 二爷翻墙网https://1808.ga 2
+      - 二爷翻墙网https://1808.ga 3
+      - 二爷翻墙网https://1808.ga 4
+      - 二爷翻墙网https://1808.ga 5
+      - 二爷翻墙网https://1808.ga 6
+      - 二爷翻墙网https://1808.ga 7
+      - 二爷翻墙网https://1808.ga 8
+      - 二爷翻墙网https://1808.ga 9
+      - 二爷翻墙网https://1808.ga 10
+      - 二爷翻墙网https://1808.ga 11
+      - 二爷翻墙网https://1808.ga 12
+      - 二爷翻墙网https://1808.ga 13
+      - 二爷翻墙网https://1808.ga 14
+      - 二爷翻墙网https://1808.ga 15
+      - 二爷翻墙网https://1808.ga 16
+      - 二爷翻墙网https://1808.ga 17
+      - 二爷翻墙网https://1808.ga 18
+      - 二爷翻墙网https://1808.ga 19
+      - 二爷翻墙网https://1808.ga 20
+      - 二爷翻墙网https://1808.ga 21
+      - 二爷翻墙网https://1808.ga 22
+      - 二爷翻墙网https://1808.ga 23
+      - 二爷翻墙网https://1808.ga 24
+      - 二爷翻墙网https://1808.ga 25
+      - 二爷翻墙网https://1808.ga 26
+      - 二爷翻墙网https://1808.ga 27
+      - 二爷翻墙网https://1808.ga 28
+      - 二爷翻墙网https://1808.ga 29
+      - 二爷翻墙网https://1808.ga 30
+      - 二爷翻墙网https://1808.ga 31
+      - 二爷翻墙网https://1808.ga 32
+      - 二爷翻墙网https://1808.ga 33
+      - 二爷翻墙网https://1808.ga 34
+      - 郑州同胞加油 2
+      - 郑州同胞加油 3
+      - 郑州同胞加油 4
+      - 天会亮的
+      - 天会亮的 2
+      - 天会亮的 3
+      - 天会亮的 4
+      - 🇭🇰 【中转】HK/香港 B - 郑州联通
+      - 🇯🇵 【中转】JPN/日本 A - 宁波电信
+      - 🇺🇸 【中转】USA/美国 A - 宁波电信
+      - 🇨🇳 【直连】TWN/台湾 B
+      - 🇨🇳 【直连】TWN/台湾 C
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 为河南祈福
-      - 二爷翻墙https://1808.ga
-      - 为河南祈福 2
-      - 为河南祈福 3
-      - 为河南祈福 4
-      - 二爷翻墙https://1808.ga 2
-      - 二爷翻墙https://1808.ga 3
-      - 为河南祈福 5
-      - 为河南祈福 6
-      - 为河南祈福 7
-      - 为河南祈福 8
-      - 为河南祈福 9
-      - 为河南祈福 10
-      - 为河南祈福 11
-      - 为河南祈福 12
-      - 为河南祈福 13
-      - 为河南祈福 14
-      - 为河南祈福 15
-      - 为河南祈福 16
-      - 为河南祈福 17
-      - 为河南祈福 18
-      - 为河南祈福 19
-      - 为河南祈福 20
-      - 为河南祈福 21
-      - 为河南祈福 22
-      - 为河南祈福 23
-      - 为河南祈福 24
-      - 为河南祈福 25
-      - 为河南祈福 26
-      - 为河南祈福 27
-      - 为河南祈福 28
-      - 为河南祈福 29
-      - 为河南祈福 30
-      - 为河南祈福 31
-      - 为河南祈福 32
-      - 为河南祈福 33
-      - 为河南祈福 34
-      - 为河南祈福 35
-      - 为河南祈福 36
-      - 为河南祈福 37
-      - 为河南祈福 38
-      - 为河南祈福 39
-      - 为河南祈福 40
-      - 为河南祈福 41
-      - 为河南祈福 42
-      - 为河南祈福 43
-      - 为河南祈福 44
-      - 为河南祈福 45
-      - 为河南祈福 46
-      - 为河南祈福 47
-      - 为河南祈福 48
-      - 为河南祈福 49
-      - 为河南祈福 50
-      - 为河南祈福 51
-      - 为河南祈福 52
-      - 为河南祈福 53
-      - 为河南祈福 54
-      - 为河南祈福 55
-      - 为河南祈福 56
-      - 为河南祈福 57
-      - 为河南祈福 58
-      - 为河南祈福 59
-      - 为河南祈福 60
-      - 为河南祈福 61
-      - 为河南祈福 62
-      - 为河南祈福 63
-      - 为河南祈福 64
-      - 为河南祈福 65
-      - 为河南祈福 66
-      - 为河南祈福 67
-      - 为河南祈福 68
-      - 为河南祈福 69
-      - 为河南祈福 70
-      - 为河南祈福 71
-      - 🇨🇳 CN_2779
-      - 🇨🇳 CN_2782
-      - 🇨🇳 CN_2784
-      - 🇭🇰 HK_4091
-      - 🇭🇰 HK_4096
-      - 🇨🇳 TW_5632
-      - 🇨🇳 TW_5639
-      - 🇨🇳 TW_5659
-      - 🇨🇳 TW_5668
-      - 🇨🇳 TW_5668 2
-      - 🇨🇳 TW_5671
-      - 🇨🇳 TW_5672
-      - 🇨🇳 @ShareCentre 🇨🇳 CN-🇹🇼TW_2776 （副本）
-      - 🇺🇸 @ShareCentre 🇨🇳CN-🇺🇸US_2783 （副本）
+      - 互联网是有记忆的
+      - 郑州同胞加油
+      - 二爷翻墙网https://1808.ga
+      - 二爷翻墙网https://1808.ga 2
+      - 二爷翻墙网https://1808.ga 3
+      - 二爷翻墙网https://1808.ga 4
+      - 二爷翻墙网https://1808.ga 5
+      - 二爷翻墙网https://1808.ga 6
+      - 二爷翻墙网https://1808.ga 7
+      - 二爷翻墙网https://1808.ga 8
+      - 二爷翻墙网https://1808.ga 9
+      - 二爷翻墙网https://1808.ga 10
+      - 二爷翻墙网https://1808.ga 11
+      - 二爷翻墙网https://1808.ga 12
+      - 二爷翻墙网https://1808.ga 13
+      - 二爷翻墙网https://1808.ga 14
+      - 二爷翻墙网https://1808.ga 15
+      - 二爷翻墙网https://1808.ga 16
+      - 二爷翻墙网https://1808.ga 17
+      - 二爷翻墙网https://1808.ga 18
+      - 二爷翻墙网https://1808.ga 19
+      - 二爷翻墙网https://1808.ga 20
+      - 二爷翻墙网https://1808.ga 21
+      - 二爷翻墙网https://1808.ga 22
+      - 二爷翻墙网https://1808.ga 23
+      - 二爷翻墙网https://1808.ga 24
+      - 二爷翻墙网https://1808.ga 25
+      - 二爷翻墙网https://1808.ga 26
+      - 二爷翻墙网https://1808.ga 27
+      - 二爷翻墙网https://1808.ga 28
+      - 二爷翻墙网https://1808.ga 29
+      - 二爷翻墙网https://1808.ga 30
+      - 二爷翻墙网https://1808.ga 31
+      - 二爷翻墙网https://1808.ga 32
+      - 二爷翻墙网https://1808.ga 33
+      - 二爷翻墙网https://1808.ga 34
+      - 郑州同胞加油 2
+      - 郑州同胞加油 3
+      - 郑州同胞加油 4
+      - 天会亮的
+      - 天会亮的 2
+      - 天会亮的 3
+      - 天会亮的 4
+      - 🇭🇰 【中转】HK/香港 B - 郑州联通
+      - 🇯🇵 【中转】JPN/日本 A - 宁波电信
+      - 🇺🇸 【中转】USA/美国 A - 宁波电信
+      - 🇨🇳 【直连】TWN/台湾 B
+      - 🇨🇳 【直连】TWN/台湾 C
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 为河南祈福
-      - 二爷翻墙https://1808.ga
-      - 为河南祈福 2
-      - 为河南祈福 3
-      - 为河南祈福 4
-      - 二爷翻墙https://1808.ga 2
-      - 二爷翻墙https://1808.ga 3
-      - 为河南祈福 5
-      - 为河南祈福 6
-      - 为河南祈福 7
-      - 为河南祈福 8
-      - 为河南祈福 9
-      - 为河南祈福 10
-      - 为河南祈福 11
-      - 为河南祈福 12
-      - 为河南祈福 13
-      - 为河南祈福 14
-      - 为河南祈福 15
-      - 为河南祈福 16
-      - 为河南祈福 17
-      - 为河南祈福 18
-      - 为河南祈福 19
-      - 为河南祈福 20
-      - 为河南祈福 21
-      - 为河南祈福 22
-      - 为河南祈福 23
-      - 为河南祈福 24
-      - 为河南祈福 25
-      - 为河南祈福 26
-      - 为河南祈福 27
-      - 为河南祈福 28
-      - 为河南祈福 29
-      - 为河南祈福 30
-      - 为河南祈福 31
-      - 为河南祈福 32
-      - 为河南祈福 33
-      - 为河南祈福 34
-      - 为河南祈福 35
-      - 为河南祈福 36
-      - 为河南祈福 37
-      - 为河南祈福 38
-      - 为河南祈福 39
-      - 为河南祈福 40
-      - 为河南祈福 41
-      - 为河南祈福 42
-      - 为河南祈福 43
-      - 为河南祈福 44
-      - 为河南祈福 45
-      - 为河南祈福 46
-      - 为河南祈福 47
-      - 为河南祈福 48
-      - 为河南祈福 49
-      - 为河南祈福 50
-      - 为河南祈福 51
-      - 为河南祈福 52
-      - 为河南祈福 53
-      - 为河南祈福 54
-      - 为河南祈福 55
-      - 为河南祈福 56
-      - 为河南祈福 57
-      - 为河南祈福 58
-      - 为河南祈福 59
-      - 为河南祈福 60
-      - 为河南祈福 61
-      - 为河南祈福 62
-      - 为河南祈福 63
-      - 为河南祈福 64
-      - 为河南祈福 65
-      - 为河南祈福 66
-      - 为河南祈福 67
-      - 为河南祈福 68
-      - 为河南祈福 69
-      - 为河南祈福 70
-      - 为河南祈福 71
-      - 🇨🇳 CN_2779
-      - 🇨🇳 CN_2782
-      - 🇨🇳 CN_2784
-      - 🇭🇰 HK_4091
-      - 🇭🇰 HK_4096
-      - 🇨🇳 TW_5632
-      - 🇨🇳 TW_5639
-      - 🇨🇳 TW_5659
-      - 🇨🇳 TW_5668
-      - 🇨🇳 TW_5668 2
-      - 🇨🇳 TW_5671
-      - 🇨🇳 TW_5672
-      - 🇨🇳 @ShareCentre 🇨🇳 CN-🇹🇼TW_2776 （副本）
-      - 🇺🇸 @ShareCentre 🇨🇳CN-🇺🇸US_2783 （副本）
+      - 互联网是有记忆的
+      - 郑州同胞加油
+      - 二爷翻墙网https://1808.ga
+      - 二爷翻墙网https://1808.ga 2
+      - 二爷翻墙网https://1808.ga 3
+      - 二爷翻墙网https://1808.ga 4
+      - 二爷翻墙网https://1808.ga 5
+      - 二爷翻墙网https://1808.ga 6
+      - 二爷翻墙网https://1808.ga 7
+      - 二爷翻墙网https://1808.ga 8
+      - 二爷翻墙网https://1808.ga 9
+      - 二爷翻墙网https://1808.ga 10
+      - 二爷翻墙网https://1808.ga 11
+      - 二爷翻墙网https://1808.ga 12
+      - 二爷翻墙网https://1808.ga 13
+      - 二爷翻墙网https://1808.ga 14
+      - 二爷翻墙网https://1808.ga 15
+      - 二爷翻墙网https://1808.ga 16
+      - 二爷翻墙网https://1808.ga 17
+      - 二爷翻墙网https://1808.ga 18
+      - 二爷翻墙网https://1808.ga 19
+      - 二爷翻墙网https://1808.ga 20
+      - 二爷翻墙网https://1808.ga 21
+      - 二爷翻墙网https://1808.ga 22
+      - 二爷翻墙网https://1808.ga 23
+      - 二爷翻墙网https://1808.ga 24
+      - 二爷翻墙网https://1808.ga 25
+      - 二爷翻墙网https://1808.ga 26
+      - 二爷翻墙网https://1808.ga 27
+      - 二爷翻墙网https://1808.ga 28
+      - 二爷翻墙网https://1808.ga 29
+      - 二爷翻墙网https://1808.ga 30
+      - 二爷翻墙网https://1808.ga 31
+      - 二爷翻墙网https://1808.ga 32
+      - 二爷翻墙网https://1808.ga 33
+      - 二爷翻墙网https://1808.ga 34
+      - 郑州同胞加油 2
+      - 郑州同胞加油 3
+      - 郑州同胞加油 4
+      - 天会亮的
+      - 天会亮的 2
+      - 天会亮的 3
+      - 天会亮的 4
+      - 🇭🇰 【中转】HK/香港 B - 郑州联通
+      - 🇯🇵 【中转】JPN/日本 A - 宁波电信
+      - 🇺🇸 【中转】USA/美国 A - 宁波电信
+      - 🇨🇳 【直连】TWN/台湾 B
+      - 🇨🇳 【直连】TWN/台湾 C
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 为河南祈福
-      - 二爷翻墙https://1808.ga
-      - 为河南祈福 2
-      - 为河南祈福 3
-      - 为河南祈福 4
-      - 二爷翻墙https://1808.ga 2
-      - 二爷翻墙https://1808.ga 3
-      - 为河南祈福 5
-      - 为河南祈福 6
-      - 为河南祈福 7
-      - 为河南祈福 8
-      - 为河南祈福 9
-      - 为河南祈福 10
-      - 为河南祈福 11
-      - 为河南祈福 12
-      - 为河南祈福 13
-      - 为河南祈福 14
-      - 为河南祈福 15
-      - 为河南祈福 16
-      - 为河南祈福 17
-      - 为河南祈福 18
-      - 为河南祈福 19
-      - 为河南祈福 20
-      - 为河南祈福 21
-      - 为河南祈福 22
-      - 为河南祈福 23
-      - 为河南祈福 24
-      - 为河南祈福 25
-      - 为河南祈福 26
-      - 为河南祈福 27
-      - 为河南祈福 28
-      - 为河南祈福 29
-      - 为河南祈福 30
-      - 为河南祈福 31
-      - 为河南祈福 32
-      - 为河南祈福 33
-      - 为河南祈福 34
-      - 为河南祈福 35
-      - 为河南祈福 36
-      - 为河南祈福 37
-      - 为河南祈福 38
-      - 为河南祈福 39
-      - 为河南祈福 40
-      - 为河南祈福 41
-      - 为河南祈福 42
-      - 为河南祈福 43
-      - 为河南祈福 44
-      - 为河南祈福 45
-      - 为河南祈福 46
-      - 为河南祈福 47
-      - 为河南祈福 48
-      - 为河南祈福 49
-      - 为河南祈福 50
-      - 为河南祈福 51
-      - 为河南祈福 52
-      - 为河南祈福 53
-      - 为河南祈福 54
-      - 为河南祈福 55
-      - 为河南祈福 56
-      - 为河南祈福 57
-      - 为河南祈福 58
-      - 为河南祈福 59
-      - 为河南祈福 60
-      - 为河南祈福 61
-      - 为河南祈福 62
-      - 为河南祈福 63
-      - 为河南祈福 64
-      - 为河南祈福 65
-      - 为河南祈福 66
-      - 为河南祈福 67
-      - 为河南祈福 68
-      - 为河南祈福 69
-      - 为河南祈福 70
-      - 为河南祈福 71
-      - 🇨🇳 CN_2779
-      - 🇨🇳 CN_2782
-      - 🇨🇳 CN_2784
-      - 🇭🇰 HK_4091
-      - 🇭🇰 HK_4096
-      - 🇨🇳 TW_5632
-      - 🇨🇳 TW_5639
-      - 🇨🇳 TW_5659
-      - 🇨🇳 TW_5668
-      - 🇨🇳 TW_5668 2
-      - 🇨🇳 TW_5671
-      - 🇨🇳 TW_5672
-      - 🇨🇳 @ShareCentre 🇨🇳 CN-🇹🇼TW_2776 （副本）
-      - 🇺🇸 @ShareCentre 🇨🇳CN-🇺🇸US_2783 （副本）
+      - 互联网是有记忆的
+      - 郑州同胞加油
+      - 二爷翻墙网https://1808.ga
+      - 二爷翻墙网https://1808.ga 2
+      - 二爷翻墙网https://1808.ga 3
+      - 二爷翻墙网https://1808.ga 4
+      - 二爷翻墙网https://1808.ga 5
+      - 二爷翻墙网https://1808.ga 6
+      - 二爷翻墙网https://1808.ga 7
+      - 二爷翻墙网https://1808.ga 8
+      - 二爷翻墙网https://1808.ga 9
+      - 二爷翻墙网https://1808.ga 10
+      - 二爷翻墙网https://1808.ga 11
+      - 二爷翻墙网https://1808.ga 12
+      - 二爷翻墙网https://1808.ga 13
+      - 二爷翻墙网https://1808.ga 14
+      - 二爷翻墙网https://1808.ga 15
+      - 二爷翻墙网https://1808.ga 16
+      - 二爷翻墙网https://1808.ga 17
+      - 二爷翻墙网https://1808.ga 18
+      - 二爷翻墙网https://1808.ga 19
+      - 二爷翻墙网https://1808.ga 20
+      - 二爷翻墙网https://1808.ga 21
+      - 二爷翻墙网https://1808.ga 22
+      - 二爷翻墙网https://1808.ga 23
+      - 二爷翻墙网https://1808.ga 24
+      - 二爷翻墙网https://1808.ga 25
+      - 二爷翻墙网https://1808.ga 26
+      - 二爷翻墙网https://1808.ga 27
+      - 二爷翻墙网https://1808.ga 28
+      - 二爷翻墙网https://1808.ga 29
+      - 二爷翻墙网https://1808.ga 30
+      - 二爷翻墙网https://1808.ga 31
+      - 二爷翻墙网https://1808.ga 32
+      - 二爷翻墙网https://1808.ga 33
+      - 二爷翻墙网https://1808.ga 34
+      - 郑州同胞加油 2
+      - 郑州同胞加油 3
+      - 郑州同胞加油 4
+      - 天会亮的
+      - 天会亮的 2
+      - 天会亮的 3
+      - 天会亮的 4
+      - 🇭🇰 【中转】HK/香港 B - 郑州联通
+      - 🇯🇵 【中转】JPN/日本 A - 宁波电信
+      - 🇺🇸 【中转】USA/美国 A - 宁波电信
+      - 🇨🇳 【直连】TWN/台湾 B
+      - 🇨🇳 【直连】TWN/台湾 C
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 为河南祈福
-      - 二爷翻墙https://1808.ga
-      - 为河南祈福 2
-      - 为河南祈福 3
-      - 为河南祈福 4
-      - 二爷翻墙https://1808.ga 2
-      - 二爷翻墙https://1808.ga 3
-      - 为河南祈福 5
-      - 为河南祈福 6
-      - 为河南祈福 7
-      - 为河南祈福 8
-      - 为河南祈福 9
-      - 为河南祈福 10
-      - 为河南祈福 11
-      - 为河南祈福 12
-      - 为河南祈福 13
-      - 为河南祈福 14
-      - 为河南祈福 15
-      - 为河南祈福 16
-      - 为河南祈福 17
-      - 为河南祈福 18
-      - 为河南祈福 19
-      - 为河南祈福 20
-      - 为河南祈福 21
-      - 为河南祈福 22
-      - 为河南祈福 23
-      - 为河南祈福 24
-      - 为河南祈福 25
-      - 为河南祈福 26
-      - 为河南祈福 27
-      - 为河南祈福 28
-      - 为河南祈福 29
-      - 为河南祈福 30
-      - 为河南祈福 31
-      - 为河南祈福 32
-      - 为河南祈福 33
-      - 为河南祈福 34
-      - 为河南祈福 35
-      - 为河南祈福 36
-      - 为河南祈福 37
-      - 为河南祈福 38
-      - 为河南祈福 39
-      - 为河南祈福 40
-      - 为河南祈福 41
-      - 为河南祈福 42
-      - 为河南祈福 43
-      - 为河南祈福 44
-      - 为河南祈福 45
-      - 为河南祈福 46
-      - 为河南祈福 47
-      - 为河南祈福 48
-      - 为河南祈福 49
-      - 为河南祈福 50
-      - 为河南祈福 51
-      - 为河南祈福 52
-      - 为河南祈福 53
-      - 为河南祈福 54
-      - 为河南祈福 55
-      - 为河南祈福 56
-      - 为河南祈福 57
-      - 为河南祈福 58
-      - 为河南祈福 59
-      - 为河南祈福 60
-      - 为河南祈福 61
-      - 为河南祈福 62
-      - 为河南祈福 63
-      - 为河南祈福 64
-      - 为河南祈福 65
-      - 为河南祈福 66
-      - 为河南祈福 67
-      - 为河南祈福 68
-      - 为河南祈福 69
-      - 为河南祈福 70
-      - 为河南祈福 71
-      - 🇨🇳 CN_2779
-      - 🇨🇳 CN_2782
-      - 🇨🇳 CN_2784
-      - 🇭🇰 HK_4091
-      - 🇭🇰 HK_4096
-      - 🇨🇳 TW_5632
-      - 🇨🇳 TW_5639
-      - 🇨🇳 TW_5659
-      - 🇨🇳 TW_5668
-      - 🇨🇳 TW_5668 2
-      - 🇨🇳 TW_5671
-      - 🇨🇳 TW_5672
-      - 🇨🇳 @ShareCentre 🇨🇳 CN-🇹🇼TW_2776 （副本）
-      - 🇺🇸 @ShareCentre 🇨🇳CN-🇺🇸US_2783 （副本）
+      - 互联网是有记忆的
+      - 郑州同胞加油
+      - 二爷翻墙网https://1808.ga
+      - 二爷翻墙网https://1808.ga 2
+      - 二爷翻墙网https://1808.ga 3
+      - 二爷翻墙网https://1808.ga 4
+      - 二爷翻墙网https://1808.ga 5
+      - 二爷翻墙网https://1808.ga 6
+      - 二爷翻墙网https://1808.ga 7
+      - 二爷翻墙网https://1808.ga 8
+      - 二爷翻墙网https://1808.ga 9
+      - 二爷翻墙网https://1808.ga 10
+      - 二爷翻墙网https://1808.ga 11
+      - 二爷翻墙网https://1808.ga 12
+      - 二爷翻墙网https://1808.ga 13
+      - 二爷翻墙网https://1808.ga 14
+      - 二爷翻墙网https://1808.ga 15
+      - 二爷翻墙网https://1808.ga 16
+      - 二爷翻墙网https://1808.ga 17
+      - 二爷翻墙网https://1808.ga 18
+      - 二爷翻墙网https://1808.ga 19
+      - 二爷翻墙网https://1808.ga 20
+      - 二爷翻墙网https://1808.ga 21
+      - 二爷翻墙网https://1808.ga 22
+      - 二爷翻墙网https://1808.ga 23
+      - 二爷翻墙网https://1808.ga 24
+      - 二爷翻墙网https://1808.ga 25
+      - 二爷翻墙网https://1808.ga 26
+      - 二爷翻墙网https://1808.ga 27
+      - 二爷翻墙网https://1808.ga 28
+      - 二爷翻墙网https://1808.ga 29
+      - 二爷翻墙网https://1808.ga 30
+      - 二爷翻墙网https://1808.ga 31
+      - 二爷翻墙网https://1808.ga 32
+      - 二爷翻墙网https://1808.ga 33
+      - 二爷翻墙网https://1808.ga 34
+      - 郑州同胞加油 2
+      - 郑州同胞加油 3
+      - 郑州同胞加油 4
+      - 天会亮的
+      - 天会亮的 2
+      - 天会亮的 3
+      - 天会亮的 4
+      - 🇭🇰 【中转】HK/香港 B - 郑州联通
+      - 🇯🇵 【中转】JPN/日本 A - 宁波电信
+      - 🇺🇸 【中转】USA/美国 A - 宁波电信
+      - 🇨🇳 【直连】TWN/台湾 B
+      - 🇨🇳 【直连】TWN/台湾 C
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 为河南祈福
-      - 二爷翻墙https://1808.ga
-      - 为河南祈福 2
-      - 为河南祈福 3
-      - 为河南祈福 4
-      - 二爷翻墙https://1808.ga 2
-      - 二爷翻墙https://1808.ga 3
-      - 为河南祈福 5
-      - 为河南祈福 6
-      - 为河南祈福 7
-      - 为河南祈福 8
-      - 为河南祈福 9
-      - 为河南祈福 10
-      - 为河南祈福 11
-      - 为河南祈福 12
-      - 为河南祈福 13
-      - 为河南祈福 14
-      - 为河南祈福 15
-      - 为河南祈福 16
-      - 为河南祈福 17
-      - 为河南祈福 18
-      - 为河南祈福 19
-      - 为河南祈福 20
-      - 为河南祈福 21
-      - 为河南祈福 22
-      - 为河南祈福 23
-      - 为河南祈福 24
-      - 为河南祈福 25
-      - 为河南祈福 26
-      - 为河南祈福 27
-      - 为河南祈福 28
-      - 为河南祈福 29
-      - 为河南祈福 30
-      - 为河南祈福 31
-      - 为河南祈福 32
-      - 为河南祈福 33
-      - 为河南祈福 34
-      - 为河南祈福 35
-      - 为河南祈福 36
-      - 为河南祈福 37
-      - 为河南祈福 38
-      - 为河南祈福 39
-      - 为河南祈福 40
-      - 为河南祈福 41
-      - 为河南祈福 42
-      - 为河南祈福 43
-      - 为河南祈福 44
-      - 为河南祈福 45
-      - 为河南祈福 46
-      - 为河南祈福 47
-      - 为河南祈福 48
-      - 为河南祈福 49
-      - 为河南祈福 50
-      - 为河南祈福 51
-      - 为河南祈福 52
-      - 为河南祈福 53
-      - 为河南祈福 54
-      - 为河南祈福 55
-      - 为河南祈福 56
-      - 为河南祈福 57
-      - 为河南祈福 58
-      - 为河南祈福 59
-      - 为河南祈福 60
-      - 为河南祈福 61
-      - 为河南祈福 62
-      - 为河南祈福 63
-      - 为河南祈福 64
-      - 为河南祈福 65
-      - 为河南祈福 66
-      - 为河南祈福 67
-      - 为河南祈福 68
-      - 为河南祈福 69
-      - 为河南祈福 70
-      - 为河南祈福 71
-      - 🇨🇳 CN_2779
-      - 🇨🇳 CN_2782
-      - 🇨🇳 CN_2784
-      - 🇭🇰 HK_4091
-      - 🇭🇰 HK_4096
-      - 🇨🇳 TW_5632
-      - 🇨🇳 TW_5639
-      - 🇨🇳 TW_5659
-      - 🇨🇳 TW_5668
-      - 🇨🇳 TW_5668 2
-      - 🇨🇳 TW_5671
-      - 🇨🇳 TW_5672
-      - 🇨🇳 @ShareCentre 🇨🇳 CN-🇹🇼TW_2776 （副本）
-      - 🇺🇸 @ShareCentre 🇨🇳CN-🇺🇸US_2783 （副本）
+      - 互联网是有记忆的
+      - 郑州同胞加油
+      - 二爷翻墙网https://1808.ga
+      - 二爷翻墙网https://1808.ga 2
+      - 二爷翻墙网https://1808.ga 3
+      - 二爷翻墙网https://1808.ga 4
+      - 二爷翻墙网https://1808.ga 5
+      - 二爷翻墙网https://1808.ga 6
+      - 二爷翻墙网https://1808.ga 7
+      - 二爷翻墙网https://1808.ga 8
+      - 二爷翻墙网https://1808.ga 9
+      - 二爷翻墙网https://1808.ga 10
+      - 二爷翻墙网https://1808.ga 11
+      - 二爷翻墙网https://1808.ga 12
+      - 二爷翻墙网https://1808.ga 13
+      - 二爷翻墙网https://1808.ga 14
+      - 二爷翻墙网https://1808.ga 15
+      - 二爷翻墙网https://1808.ga 16
+      - 二爷翻墙网https://1808.ga 17
+      - 二爷翻墙网https://1808.ga 18
+      - 二爷翻墙网https://1808.ga 19
+      - 二爷翻墙网https://1808.ga 20
+      - 二爷翻墙网https://1808.ga 21
+      - 二爷翻墙网https://1808.ga 22
+      - 二爷翻墙网https://1808.ga 23
+      - 二爷翻墙网https://1808.ga 24
+      - 二爷翻墙网https://1808.ga 25
+      - 二爷翻墙网https://1808.ga 26
+      - 二爷翻墙网https://1808.ga 27
+      - 二爷翻墙网https://1808.ga 28
+      - 二爷翻墙网https://1808.ga 29
+      - 二爷翻墙网https://1808.ga 30
+      - 二爷翻墙网https://1808.ga 31
+      - 二爷翻墙网https://1808.ga 32
+      - 二爷翻墙网https://1808.ga 33
+      - 二爷翻墙网https://1808.ga 34
+      - 郑州同胞加油 2
+      - 郑州同胞加油 3
+      - 郑州同胞加油 4
+      - 天会亮的
+      - 天会亮的 2
+      - 天会亮的 3
+      - 天会亮的 4
+      - 🇭🇰 【中转】HK/香港 B - 郑州联通
+      - 🇯🇵 【中转】JPN/日本 A - 宁波电信
+      - 🇺🇸 【中转】USA/美国 A - 宁波电信
+      - 🇨🇳 【直连】TWN/台湾 B
+      - 🇨🇳 【直连】TWN/台湾 C
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -770,94 +450,54 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 为河南祈福
-      - 二爷翻墙https://1808.ga
-      - 为河南祈福 2
-      - 为河南祈福 3
-      - 为河南祈福 4
-      - 二爷翻墙https://1808.ga 2
-      - 二爷翻墙https://1808.ga 3
-      - 为河南祈福 5
-      - 为河南祈福 6
-      - 为河南祈福 7
-      - 为河南祈福 8
-      - 为河南祈福 9
-      - 为河南祈福 10
-      - 为河南祈福 11
-      - 为河南祈福 12
-      - 为河南祈福 13
-      - 为河南祈福 14
-      - 为河南祈福 15
-      - 为河南祈福 16
-      - 为河南祈福 17
-      - 为河南祈福 18
-      - 为河南祈福 19
-      - 为河南祈福 20
-      - 为河南祈福 21
-      - 为河南祈福 22
-      - 为河南祈福 23
-      - 为河南祈福 24
-      - 为河南祈福 25
-      - 为河南祈福 26
-      - 为河南祈福 27
-      - 为河南祈福 28
-      - 为河南祈福 29
-      - 为河南祈福 30
-      - 为河南祈福 31
-      - 为河南祈福 32
-      - 为河南祈福 33
-      - 为河南祈福 34
-      - 为河南祈福 35
-      - 为河南祈福 36
-      - 为河南祈福 37
-      - 为河南祈福 38
-      - 为河南祈福 39
-      - 为河南祈福 40
-      - 为河南祈福 41
-      - 为河南祈福 42
-      - 为河南祈福 43
-      - 为河南祈福 44
-      - 为河南祈福 45
-      - 为河南祈福 46
-      - 为河南祈福 47
-      - 为河南祈福 48
-      - 为河南祈福 49
-      - 为河南祈福 50
-      - 为河南祈福 51
-      - 为河南祈福 52
-      - 为河南祈福 53
-      - 为河南祈福 54
-      - 为河南祈福 55
-      - 为河南祈福 56
-      - 为河南祈福 57
-      - 为河南祈福 58
-      - 为河南祈福 59
-      - 为河南祈福 60
-      - 为河南祈福 61
-      - 为河南祈福 62
-      - 为河南祈福 63
-      - 为河南祈福 64
-      - 为河南祈福 65
-      - 为河南祈福 66
-      - 为河南祈福 67
-      - 为河南祈福 68
-      - 为河南祈福 69
-      - 为河南祈福 70
-      - 为河南祈福 71
-      - 🇨🇳 CN_2779
-      - 🇨🇳 CN_2782
-      - 🇨🇳 CN_2784
-      - 🇭🇰 HK_4091
-      - 🇭🇰 HK_4096
-      - 🇨🇳 TW_5632
-      - 🇨🇳 TW_5639
-      - 🇨🇳 TW_5659
-      - 🇨🇳 TW_5668
-      - 🇨🇳 TW_5668 2
-      - 🇨🇳 TW_5671
-      - 🇨🇳 TW_5672
-      - 🇨🇳 @ShareCentre 🇨🇳 CN-🇹🇼TW_2776 （副本）
-      - 🇺🇸 @ShareCentre 🇨🇳CN-🇺🇸US_2783 （副本）
+      - 互联网是有记忆的
+      - 郑州同胞加油
+      - 二爷翻墙网https://1808.ga
+      - 二爷翻墙网https://1808.ga 2
+      - 二爷翻墙网https://1808.ga 3
+      - 二爷翻墙网https://1808.ga 4
+      - 二爷翻墙网https://1808.ga 5
+      - 二爷翻墙网https://1808.ga 6
+      - 二爷翻墙网https://1808.ga 7
+      - 二爷翻墙网https://1808.ga 8
+      - 二爷翻墙网https://1808.ga 9
+      - 二爷翻墙网https://1808.ga 10
+      - 二爷翻墙网https://1808.ga 11
+      - 二爷翻墙网https://1808.ga 12
+      - 二爷翻墙网https://1808.ga 13
+      - 二爷翻墙网https://1808.ga 14
+      - 二爷翻墙网https://1808.ga 15
+      - 二爷翻墙网https://1808.ga 16
+      - 二爷翻墙网https://1808.ga 17
+      - 二爷翻墙网https://1808.ga 18
+      - 二爷翻墙网https://1808.ga 19
+      - 二爷翻墙网https://1808.ga 20
+      - 二爷翻墙网https://1808.ga 21
+      - 二爷翻墙网https://1808.ga 22
+      - 二爷翻墙网https://1808.ga 23
+      - 二爷翻墙网https://1808.ga 24
+      - 二爷翻墙网https://1808.ga 25
+      - 二爷翻墙网https://1808.ga 26
+      - 二爷翻墙网https://1808.ga 27
+      - 二爷翻墙网https://1808.ga 28
+      - 二爷翻墙网https://1808.ga 29
+      - 二爷翻墙网https://1808.ga 30
+      - 二爷翻墙网https://1808.ga 31
+      - 二爷翻墙网https://1808.ga 32
+      - 二爷翻墙网https://1808.ga 33
+      - 二爷翻墙网https://1808.ga 34
+      - 郑州同胞加油 2
+      - 郑州同胞加油 3
+      - 郑州同胞加油 4
+      - 天会亮的
+      - 天会亮的 2
+      - 天会亮的 3
+      - 天会亮的 4
+      - 🇭🇰 【中转】HK/香港 B - 郑州联通
+      - 🇯🇵 【中转】JPN/日本 A - 宁波电信
+      - 🇺🇸 【中转】USA/美国 A - 宁波电信
+      - 🇨🇳 【直连】TWN/台湾 B
+      - 🇨🇳 【直连】TWN/台湾 C
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
