@@ -8,42 +8,42 @@ proxies:
   - {name: 互联网是有记忆的, server: 139.180.169.69, port: 37390, type: vmess, uuid: 208bc0c8-a6ed-4625-9700-124f824bbe5c, alterId: 0, cipher: auto, tls: false}
   - {name: 郑州同胞加油, server: 216.128.181.160, port: 50109, type: vmess, uuid: 737a9170-debb-4638-9924-9f55f35717f2, alterId: 0, cipher: auto, tls: false}
   - {name: 二爷翻墙网https://1808.ga, server: 80.240.24.124, port: 33146, type: vmess, uuid: e263b82d-2196-4b2c-92f0-c5533c75e745, alterId: 0, cipher: auto, tls: false}
-  - {name: 二爷翻墙网https://1808.ga 2, server: 95.179.222.187, port: 39536, type: vmess, uuid: 664b7607-e962-4e67-8cee-3aa2202ea44f, alterId: 0, cipher: auto, tls: false}
-  - {name: 二爷翻墙网https://1808.ga 3, server: 136.244.69.48, port: 42759, type: vmess, uuid: 15b52ffd-712a-4af0-a404-a167cfb56f5c, alterId: 0, cipher: auto, tls: false}
-  - {name: 二爷翻墙网https://1808.ga 4, server: 54.249.53.46, port: 35156, type: vmess, uuid: 4c842f71-039e-42f1-bcf6-7e48be4e129e, alterId: 0, cipher: auto, tls: false}
-  - {name: 二爷翻墙网https://1808.ga 5, server: 13.209.43.110, port: 56531, type: vmess, uuid: dca7cafb-0828-465c-b6e7-812b241ad538, alterId: 0, cipher: auto, tls: false}
-  - {name: 二爷翻墙网https://1808.ga 6, server: 108.61.199.250, port: 37889, type: vmess, uuid: 025ccdd9-9b9d-4ebf-8c39-725c3f438637, alterId: 0, cipher: auto, tls: false}
-  - {name: 二爷翻墙网https://1808.ga 7, server: lovfree.comb.yigeweizhuang.com, port: 443, type: vmess, uuid: 6fd9c7fe-d7bd-4277-85fc-f206de51ab3b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /lovfree.com, ws-headers: {Host: lovfree.comb.yigeweizhuang.com}}
-  - {name: 二爷翻墙网https://1808.ga 8, server: 104.207.155.119, port: 24589, type: vmess, uuid: e9636bc0-1e53-4281-bcda-7ad14ab519cd, alterId: 0, cipher: auto, tls: false}
-  - {name: 二爷翻墙网https://1808.ga 9, server: 45.63.84.173, port: 20511, type: vmess, uuid: c37d2866-4e07-45cf-ba78-2ef59c13630f, alterId: 0, cipher: auto, tls: false}
-  - {name: 二爷翻墙网https://1808.ga 10, server: 13.52.103.232, port: 36666, type: vmess, uuid: e2917e2f-5575-498b-9816-0a3bdbd7b138, alterId: 0, cipher: auto, tls: false}
-  - {name: 二爷翻墙网https://1808.ga 11, server: 45.32.228.81, port: 31991, type: vmess, uuid: 34a625d5-c34e-4187-b20f-9cdfced22e3b, alterId: 0, cipher: auto, tls: false}
-  - {name: 二爷翻墙网https://1808.ga 12, server: 5.183.101.204, port: 59857, type: vmess, uuid: 4c35d374-dbf2-4e5f-c731-dfa49191825a, alterId: 64, cipher: auto, tls: false}
-  - {name: 二爷翻墙网https://1808.ga 13, server: 46.17.43.179, port: 43829, type: vmess, uuid: 9c10617c-464d-4bb1-8b97-bbdec6ebc7d1, alterId: 0, cipher: auto, tls: false}
-  - {name: 二爷翻墙网https://1808.ga 14, server: 185.225.69.134, port: 45081, type: vmess, uuid: 3c3bfd75-dc30-4e76-8940-47e1137e21f9, alterId: 64, cipher: auto, tls: false}
-  - {name: 二爷翻墙网https://1808.ga 15, server: 211.23.132.124, port: 9233, type: vmess, uuid: be58f4e4-894a-47ee-8836-cf75e74fa9c9, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 211.23.132.124}}
-  - {name: 二爷翻墙网https://1808.ga 16, server: 80.240.24.124, port: 33146, type: vmess, uuid: e263b82d-2196-4b2c-92f0-c5533c75e745, alterId: 0, cipher: auto, tls: false}
-  - {name: 二爷翻墙网https://1808.ga 17, server: auto.freev2.top, port: 24000, type: vmess, uuid: 04d4f96f-1c16-4eb6-a4bb-c573eb0b6ec9, alterId: 1, cipher: auto, tls: false}
-  - {name: 二爷翻墙网https://1808.ga 18, server: 95.179.222.187, port: 39536, type: vmess, uuid: 664b7607-e962-4e67-8cee-3aa2202ea44f, alterId: 0, cipher: auto, tls: false}
-  - {name: 二爷翻墙网https://1808.ga 19, server: 198.8.92.84, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
-  - {name: 二爷翻墙网https://1808.ga 20, server: 18.157.179.71, port: 443, type: vmess, uuid: 81dd574d-8d47-4b31-9f5a-3f638b427842, alterId: 64, cipher: auto, tls: false}
-  - {name: 二爷翻墙网https://1808.ga 21, server: 104.22.44.50, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 二爷翻墙网https://1808.ga 22, server: presidency.eg, port: 443, type: vmess, uuid: d96e0bc9-e1d9-4715-ae3f-39dac55b9e44, alterId: 34, cipher: auto, tls: true, network: ws, ws-path: /9e1cb04e/, ws-headers: {Host: edozvpn.xyz}}
-  - {name: 二爷翻墙网https://1808.ga 23, server: azjp.pengui.tools, port: 50000, type: vmess, uuid: fa77a1da-32ee-4b4c-b62c-05d0d3426f4b, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: azjp.pengui.tools}}
-  - {name: 二爷翻墙网https://1808.ga 24, server: t7.ssrsub.one, port: 8443, type: trojan, password: MEw2QWie, sni: t7.ssrsub.one}
-  - {name: 二爷翻墙网https://1808.ga 25, server: a7.ssrsub.one, port: 443, type: trojan, password: BFJYOPsk, sni: a7.ssrsub.one}
-  - {name: 二爷翻墙网https://1808.ga 26, server: 23.224.30.37, port: 443, type: vmess, uuid: e4494518-74e8-4d6b-942a-6b332cce09ef, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.01902367.xyz}}
-  - {name: 二爷翻墙网https://1808.ga 27, server: 23.224.30.36, port: 443, type: vmess, uuid: e4494518-74e8-4d6b-942a-6b332cce09ef, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.01902367.xyz}}
-  - {name: 二爷翻墙网https://1808.ga 28, server: 170.178.165.253, port: 443, type: vmess, uuid: ee954308-5990-4914-b74f-b7be76963fde, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.55916573.xyz}}
-  - {name: 二爷翻墙网https://1808.ga 29, server: 104.160.186.54, port: 443, type: vmess, uuid: d3cbe556-8db3-47e0-8ef1-06b2cce00411, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.92726054.xyz}}
-  - {name: 二爷翻墙网https://1808.ga 30, server: 170.178.165.233, port: 443, type: vmess, uuid: ee954308-5990-4914-b74f-b7be76963fde, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.55916573.xyz}}
-  - {name: 二爷翻墙网https://1808.ga 31, server: 107.167.9.124, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.17080100.xyz}}
-  - {name: 二爷翻墙网https://1808.ga 32, server: 15.152.54.67, port: 28192, type: vmess, uuid: f89a7139-3da6-43a4-8af6-129243ba3c0e, alterId: 64, cipher: auto, tls: false}
-  - {name: 二爷翻墙网https://1808.ga 33, server: 46.182.107.154, port: 443, type: vmess, uuid: 130c9f2e-42b1-4ebf-b345-e26456a061f9, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.05222027.xyz}}
-  - {name: 二爷翻墙网https://1808.ga 34, server: 46.182.107.146, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca4690dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.44590130.xyz}}
-  - {name: 郑州同胞加油 2, server: 46.182.107.157, port: 443, type: vmess, uuid: 20b30916-e203-412e-8ec0-900f3acd5128, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.73345741.xyz}}
-  - {name: 郑州同胞加油 3, server: 46.182.107.37, port: 443, type: vmess, uuid: 65ea6727-4461-47a7-a5c4-fef2c67f2f79, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.09462550.xyz}}
-  - {name: 郑州同胞加油 4, server: 46.182.107.44, port: 443, type: vmess, uuid: fe5f69e7-e183-439b-950b-9661ef0651f2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.68737987.xyz}}
+  - {name: 真相不会被洗掉, server: 95.179.222.187, port: 39536, type: vmess, uuid: 664b7607-e962-4e67-8cee-3aa2202ea44f, alterId: 0, cipher: auto, tls: false}
+  - {name: 郑州同胞加油 2, server: 136.244.69.48, port: 42759, type: vmess, uuid: 15b52ffd-712a-4af0-a404-a167cfb56f5c, alterId: 0, cipher: auto, tls: false}
+  - {name: 二爷翻墙网https://1808.ga 2, server: 54.249.53.46, port: 35156, type: vmess, uuid: 4c842f71-039e-42f1-bcf6-7e48be4e129e, alterId: 0, cipher: auto, tls: false}
+  - {name: 二爷翻墙网https://1808.ga 3, server: 13.209.43.110, port: 56531, type: vmess, uuid: dca7cafb-0828-465c-b6e7-812b241ad538, alterId: 0, cipher: auto, tls: false}
+  - {name: 二爷翻墙网https://1808.ga 4, server: 108.61.199.250, port: 37889, type: vmess, uuid: 025ccdd9-9b9d-4ebf-8c39-725c3f438637, alterId: 0, cipher: auto, tls: false}
+  - {name: 二爷翻墙网https://1808.ga 5, server: lovfree.comb.yigeweizhuang.com, port: 443, type: vmess, uuid: 6fd9c7fe-d7bd-4277-85fc-f206de51ab3b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /lovfree.com, ws-headers: {Host: lovfree.comb.yigeweizhuang.com}}
+  - {name: 二爷翻墙网https://1808.ga 6, server: 104.207.155.119, port: 24589, type: vmess, uuid: e9636bc0-1e53-4281-bcda-7ad14ab519cd, alterId: 0, cipher: auto, tls: false}
+  - {name: 二爷翻墙网https://1808.ga 7, server: 45.63.84.173, port: 20511, type: vmess, uuid: c37d2866-4e07-45cf-ba78-2ef59c13630f, alterId: 0, cipher: auto, tls: false}
+  - {name: 二爷翻墙网https://1808.ga 8, server: 13.52.103.232, port: 36666, type: vmess, uuid: e2917e2f-5575-498b-9816-0a3bdbd7b138, alterId: 0, cipher: auto, tls: false}
+  - {name: 二爷翻墙网https://1808.ga 9, server: 45.32.228.81, port: 31991, type: vmess, uuid: 34a625d5-c34e-4187-b20f-9cdfced22e3b, alterId: 0, cipher: auto, tls: false}
+  - {name: 二爷翻墙网https://1808.ga 10, server: 5.183.101.204, port: 59857, type: vmess, uuid: 4c35d374-dbf2-4e5f-c731-dfa49191825a, alterId: 64, cipher: auto, tls: false}
+  - {name: 二爷翻墙网https://1808.ga 11, server: 46.17.43.179, port: 43829, type: vmess, uuid: 9c10617c-464d-4bb1-8b97-bbdec6ebc7d1, alterId: 0, cipher: auto, tls: false}
+  - {name: 二爷翻墙网https://1808.ga 12, server: 185.225.69.134, port: 45081, type: vmess, uuid: 3c3bfd75-dc30-4e76-8940-47e1137e21f9, alterId: 64, cipher: auto, tls: false}
+  - {name: 二爷翻墙网https://1808.ga 13, server: 211.23.132.124, port: 9233, type: vmess, uuid: be58f4e4-894a-47ee-8836-cf75e74fa9c9, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 211.23.132.124}}
+  - {name: 二爷翻墙网https://1808.ga 14, server: 80.240.24.124, port: 33146, type: vmess, uuid: e263b82d-2196-4b2c-92f0-c5533c75e745, alterId: 0, cipher: auto, tls: false}
+  - {name: 二爷翻墙网https://1808.ga 15, server: auto.freev2.top, port: 24000, type: vmess, uuid: 04d4f96f-1c16-4eb6-a4bb-c573eb0b6ec9, alterId: 1, cipher: auto, tls: false}
+  - {name: 二爷翻墙网https://1808.ga 16, server: 95.179.222.187, port: 39536, type: vmess, uuid: 664b7607-e962-4e67-8cee-3aa2202ea44f, alterId: 0, cipher: auto, tls: false}
+  - {name: 二爷翻墙网https://1808.ga 17, server: 198.8.92.84, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
+  - {name: 二爷翻墙网https://1808.ga 18, server: 18.157.179.71, port: 443, type: vmess, uuid: 81dd574d-8d47-4b31-9f5a-3f638b427842, alterId: 64, cipher: auto, tls: false}
+  - {name: 二爷翻墙网https://1808.ga 19, server: 104.22.44.50, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 二爷翻墙网https://1808.ga 20, server: presidency.eg, port: 443, type: vmess, uuid: d96e0bc9-e1d9-4715-ae3f-39dac55b9e44, alterId: 34, cipher: auto, tls: true, network: ws, ws-path: /9e1cb04e/, ws-headers: {Host: edozvpn.xyz}}
+  - {name: 二爷翻墙网https://1808.ga 21, server: azjp.pengui.tools, port: 50000, type: vmess, uuid: fa77a1da-32ee-4b4c-b62c-05d0d3426f4b, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: azjp.pengui.tools}}
+  - {name: 二爷翻墙网https://1808.ga 22, server: t7.ssrsub.one, port: 8443, type: trojan, password: MEw2QWie, sni: t7.ssrsub.one}
+  - {name: 二爷翻墙网https://1808.ga 23, server: a7.ssrsub.one, port: 443, type: trojan, password: BFJYOPsk, sni: a7.ssrsub.one}
+  - {name: 二爷翻墙网https://1808.ga 24, server: 23.224.30.37, port: 443, type: vmess, uuid: e4494518-74e8-4d6b-942a-6b332cce09ef, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.01902367.xyz}}
+  - {name: 二爷翻墙网https://1808.ga 25, server: 23.224.30.36, port: 443, type: vmess, uuid: e4494518-74e8-4d6b-942a-6b332cce09ef, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.01902367.xyz}}
+  - {name: 二爷翻墙网https://1808.ga 26, server: 170.178.165.253, port: 443, type: vmess, uuid: ee954308-5990-4914-b74f-b7be76963fde, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.55916573.xyz}}
+  - {name: 二爷翻墙网https://1808.ga 27, server: 104.160.186.54, port: 443, type: vmess, uuid: d3cbe556-8db3-47e0-8ef1-06b2cce00411, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.92726054.xyz}}
+  - {name: 二爷翻墙网https://1808.ga 28, server: 170.178.165.233, port: 443, type: vmess, uuid: ee954308-5990-4914-b74f-b7be76963fde, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.55916573.xyz}}
+  - {name: 二爷翻墙网https://1808.ga 29, server: 107.167.9.124, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.17080100.xyz}}
+  - {name: 二爷翻墙网https://1808.ga 30, server: 15.152.54.67, port: 28192, type: vmess, uuid: f89a7139-3da6-43a4-8af6-129243ba3c0e, alterId: 64, cipher: auto, tls: false}
+  - {name: 二爷翻墙网https://1808.ga 31, server: 46.182.107.154, port: 443, type: vmess, uuid: 130c9f2e-42b1-4ebf-b345-e26456a061f9, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.05222027.xyz}}
+  - {name: 二爷翻墙网https://1808.ga 32, server: 46.182.107.146, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca4690dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.44590130.xyz}}
+  - {name: 郑州同胞加油 3, server: 46.182.107.157, port: 443, type: vmess, uuid: 20b30916-e203-412e-8ec0-900f3acd5128, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.73345741.xyz}}
+  - {name: 郑州同胞加油 4, server: 46.182.107.37, port: 443, type: vmess, uuid: 65ea6727-4461-47a7-a5c4-fef2c67f2f79, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.09462550.xyz}}
+  - {name: 郑州同胞加油 5, server: 46.182.107.44, port: 443, type: vmess, uuid: fe5f69e7-e183-439b-950b-9661ef0651f2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.68737987.xyz}}
   - {name: 天会亮的, server: 46.182.107.94, port: 443, type: vmess, uuid: 743bdc87-1dea-41bf-aa0b-51dfbbfec8aa, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.54872833.xyz}}
   - {name: 天会亮的 2, server: 46.182.107.93, port: 443, type: vmess, uuid: 743bdc87-1dea-41bf-aa0b-51dfbbfec8aa, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.54872833.xyz}}
   - {name: 天会亮的 3, server: 46.182.107.39, port: 443, type: vmess, uuid: d3133484-f2bf-4b0c-8d38-f8e645b65687, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.07890885.xyz}}
@@ -53,6 +53,15 @@ proxies:
   - {name: 🇺🇸 【中转】USA/美国 A - 宁波电信, server: 115.231.187.1, port: 80, type: vmess, uuid: 5ea5360d-d5c7-48b3-81b7-f062da1d79f3, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 005.cdn.8x.cx.hit.edu.cn}}
   - {name: 🇨🇳 【直连】TWN/台湾 B, server: twn01.ip4.ddns.acg.photos, port: 80, type: vmess, uuid: 5ea5360d-d5c7-48b3-81b7-f062da1d79f3, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: twn01.ip4.ddns.acg.photos}}
   - {name: 🇨🇳 【直连】TWN/台湾 C, server: twn04.ip4.ddns.acg.photos, port: 80, type: vmess, uuid: 5ea5360d-d5c7-48b3-81b7-f062da1d79f3, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: twn04.ip4.ddns.acg.photos}}
+  - {name: 🇯🇵 JP-AWS | V2 | 广移中转, server: ngzyd-1.okex-tradebot.xyz, port: 30006, type: vmess, uuid: e9c1a436-7af3-4118-a826-a5373760c8a2, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: ngzyd-1.okex-tradebot.xyz}}
+  - {name: 🇲🇾 MY-TMNET | V2 | 广移中转, server: ngzyd-1.okex-tradebot.xyz, port: 30014, type: vmess, uuid: e9c1a436-7af3-4118-a826-a5373760c8a2, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: ngzyd-1.okex-tradebot.xyz}}
+  - {name: 🇺🇸 US-AWS | V2 | 广移中转, server: ngzyd-1.okex-tradebot.xyz, port: 30008, type: vmess, uuid: e9c1a436-7af3-4118-a826-a5373760c8a2, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: ngzyd-1.okex-tradebot.xyz}}
+  - {name: 🇭🇰 【中转】HK/香港 A - 天津电信, server: 42.81.8.1, port: 80, type: vmess, uuid: 6ce67731-fcfe-43ae-b2e4-b8414db2060e, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 001.cdn.8x.cx.hit.edu.cn}}
+  - {name: 🇭🇰 【中转】HK/香港 A - 济南联通, server: 119.188.97.1, port: 80, type: vmess, uuid: 6ce67731-fcfe-43ae-b2e4-b8414db2060e, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 001.cdn.8x.cx.hit.edu.cn}}
+  - {name: 🇭🇰 【中转】HK/香港 B - 郑州联通 2, server: 42.236.94.1, port: 80, type: vmess, uuid: 6ce67731-fcfe-43ae-b2e4-b8414db2060e, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 002.cdn.8x.cx.hit.edu.cn}}
+  - {name: 🇯🇵 【中转】JPN/日本 A - 济南联通, server: 119.188.97.1, port: 80, type: vmess, uuid: 6ce67731-fcfe-43ae-b2e4-b8414db2060e, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 006.cdn.8x.cx.hit.edu.cn}}
+  - {name: 🇨🇳 【中转】TWN/台湾 A - 济南联通, server: 119.188.97.1, port: 80, type: vmess, uuid: 6ce67731-fcfe-43ae-b2e4-b8414db2060e, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 004.cdn.8x.cx.hit.edu.cn}}
+  - {name: 🇺🇸 【中转】USA/美国 A - 重庆联通, server: 113.207.102.1, port: 80, type: vmess, uuid: 6ce67731-fcfe-43ae-b2e4-b8414db2060e, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 005.cdn.8x.cx.hit.edu.cn}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -62,6 +71,8 @@ proxy-groups:
       - 互联网是有记忆的
       - 郑州同胞加油
       - 二爷翻墙网https://1808.ga
+      - 真相不会被洗掉
+      - 郑州同胞加油 2
       - 二爷翻墙网https://1808.ga 2
       - 二爷翻墙网https://1808.ga 3
       - 二爷翻墙网https://1808.ga 4
@@ -93,11 +104,9 @@ proxy-groups:
       - 二爷翻墙网https://1808.ga 30
       - 二爷翻墙网https://1808.ga 31
       - 二爷翻墙网https://1808.ga 32
-      - 二爷翻墙网https://1808.ga 33
-      - 二爷翻墙网https://1808.ga 34
-      - 郑州同胞加油 2
       - 郑州同胞加油 3
       - 郑州同胞加油 4
+      - 郑州同胞加油 5
       - 天会亮的
       - 天会亮的 2
       - 天会亮的 3
@@ -107,6 +116,15 @@ proxy-groups:
       - 🇺🇸 【中转】USA/美国 A - 宁波电信
       - 🇨🇳 【直连】TWN/台湾 B
       - 🇨🇳 【直连】TWN/台湾 C
+      - 🇯🇵 JP-AWS | V2 | 广移中转
+      - 🇲🇾 MY-TMNET | V2 | 广移中转
+      - 🇺🇸 US-AWS | V2 | 广移中转
+      - 🇭🇰 【中转】HK/香港 A - 天津电信
+      - 🇭🇰 【中转】HK/香港 A - 济南联通
+      - 🇭🇰 【中转】HK/香港 B - 郑州联通 2
+      - 🇯🇵 【中转】JPN/日本 A - 济南联通
+      - 🇨🇳 【中转】TWN/台湾 A - 济南联通
+      - 🇺🇸 【中转】USA/美国 A - 重庆联通
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -116,6 +134,8 @@ proxy-groups:
       - 互联网是有记忆的
       - 郑州同胞加油
       - 二爷翻墙网https://1808.ga
+      - 真相不会被洗掉
+      - 郑州同胞加油 2
       - 二爷翻墙网https://1808.ga 2
       - 二爷翻墙网https://1808.ga 3
       - 二爷翻墙网https://1808.ga 4
@@ -147,11 +167,9 @@ proxy-groups:
       - 二爷翻墙网https://1808.ga 30
       - 二爷翻墙网https://1808.ga 31
       - 二爷翻墙网https://1808.ga 32
-      - 二爷翻墙网https://1808.ga 33
-      - 二爷翻墙网https://1808.ga 34
-      - 郑州同胞加油 2
       - 郑州同胞加油 3
       - 郑州同胞加油 4
+      - 郑州同胞加油 5
       - 天会亮的
       - 天会亮的 2
       - 天会亮的 3
@@ -161,6 +179,15 @@ proxy-groups:
       - 🇺🇸 【中转】USA/美国 A - 宁波电信
       - 🇨🇳 【直连】TWN/台湾 B
       - 🇨🇳 【直连】TWN/台湾 C
+      - 🇯🇵 JP-AWS | V2 | 广移中转
+      - 🇲🇾 MY-TMNET | V2 | 广移中转
+      - 🇺🇸 US-AWS | V2 | 广移中转
+      - 🇭🇰 【中转】HK/香港 A - 天津电信
+      - 🇭🇰 【中转】HK/香港 A - 济南联通
+      - 🇭🇰 【中转】HK/香港 B - 郑州联通 2
+      - 🇯🇵 【中转】JPN/日本 A - 济南联通
+      - 🇨🇳 【中转】TWN/台湾 A - 济南联通
+      - 🇺🇸 【中转】USA/美国 A - 重庆联通
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -170,6 +197,8 @@ proxy-groups:
       - 互联网是有记忆的
       - 郑州同胞加油
       - 二爷翻墙网https://1808.ga
+      - 真相不会被洗掉
+      - 郑州同胞加油 2
       - 二爷翻墙网https://1808.ga 2
       - 二爷翻墙网https://1808.ga 3
       - 二爷翻墙网https://1808.ga 4
@@ -201,11 +230,9 @@ proxy-groups:
       - 二爷翻墙网https://1808.ga 30
       - 二爷翻墙网https://1808.ga 31
       - 二爷翻墙网https://1808.ga 32
-      - 二爷翻墙网https://1808.ga 33
-      - 二爷翻墙网https://1808.ga 34
-      - 郑州同胞加油 2
       - 郑州同胞加油 3
       - 郑州同胞加油 4
+      - 郑州同胞加油 5
       - 天会亮的
       - 天会亮的 2
       - 天会亮的 3
@@ -215,6 +242,15 @@ proxy-groups:
       - 🇺🇸 【中转】USA/美国 A - 宁波电信
       - 🇨🇳 【直连】TWN/台湾 B
       - 🇨🇳 【直连】TWN/台湾 C
+      - 🇯🇵 JP-AWS | V2 | 广移中转
+      - 🇲🇾 MY-TMNET | V2 | 广移中转
+      - 🇺🇸 US-AWS | V2 | 广移中转
+      - 🇭🇰 【中转】HK/香港 A - 天津电信
+      - 🇭🇰 【中转】HK/香港 A - 济南联通
+      - 🇭🇰 【中转】HK/香港 B - 郑州联通 2
+      - 🇯🇵 【中转】JPN/日本 A - 济南联通
+      - 🇨🇳 【中转】TWN/台湾 A - 济南联通
+      - 🇺🇸 【中转】USA/美国 A - 重庆联通
   - name: 📲 电报信息
     type: select
     proxies:
@@ -223,6 +259,8 @@ proxy-groups:
       - 互联网是有记忆的
       - 郑州同胞加油
       - 二爷翻墙网https://1808.ga
+      - 真相不会被洗掉
+      - 郑州同胞加油 2
       - 二爷翻墙网https://1808.ga 2
       - 二爷翻墙网https://1808.ga 3
       - 二爷翻墙网https://1808.ga 4
@@ -254,11 +292,9 @@ proxy-groups:
       - 二爷翻墙网https://1808.ga 30
       - 二爷翻墙网https://1808.ga 31
       - 二爷翻墙网https://1808.ga 32
-      - 二爷翻墙网https://1808.ga 33
-      - 二爷翻墙网https://1808.ga 34
-      - 郑州同胞加油 2
       - 郑州同胞加油 3
       - 郑州同胞加油 4
+      - 郑州同胞加油 5
       - 天会亮的
       - 天会亮的 2
       - 天会亮的 3
@@ -268,6 +304,15 @@ proxy-groups:
       - 🇺🇸 【中转】USA/美国 A - 宁波电信
       - 🇨🇳 【直连】TWN/台湾 B
       - 🇨🇳 【直连】TWN/台湾 C
+      - 🇯🇵 JP-AWS | V2 | 广移中转
+      - 🇲🇾 MY-TMNET | V2 | 广移中转
+      - 🇺🇸 US-AWS | V2 | 广移中转
+      - 🇭🇰 【中转】HK/香港 A - 天津电信
+      - 🇭🇰 【中转】HK/香港 A - 济南联通
+      - 🇭🇰 【中转】HK/香港 B - 郑州联通 2
+      - 🇯🇵 【中转】JPN/日本 A - 济南联通
+      - 🇨🇳 【中转】TWN/台湾 A - 济南联通
+      - 🇺🇸 【中转】USA/美国 A - 重庆联通
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -276,6 +321,8 @@ proxy-groups:
       - 互联网是有记忆的
       - 郑州同胞加油
       - 二爷翻墙网https://1808.ga
+      - 真相不会被洗掉
+      - 郑州同胞加油 2
       - 二爷翻墙网https://1808.ga 2
       - 二爷翻墙网https://1808.ga 3
       - 二爷翻墙网https://1808.ga 4
@@ -307,11 +354,9 @@ proxy-groups:
       - 二爷翻墙网https://1808.ga 30
       - 二爷翻墙网https://1808.ga 31
       - 二爷翻墙网https://1808.ga 32
-      - 二爷翻墙网https://1808.ga 33
-      - 二爷翻墙网https://1808.ga 34
-      - 郑州同胞加油 2
       - 郑州同胞加油 3
       - 郑州同胞加油 4
+      - 郑州同胞加油 5
       - 天会亮的
       - 天会亮的 2
       - 天会亮的 3
@@ -321,6 +366,15 @@ proxy-groups:
       - 🇺🇸 【中转】USA/美国 A - 宁波电信
       - 🇨🇳 【直连】TWN/台湾 B
       - 🇨🇳 【直连】TWN/台湾 C
+      - 🇯🇵 JP-AWS | V2 | 广移中转
+      - 🇲🇾 MY-TMNET | V2 | 广移中转
+      - 🇺🇸 US-AWS | V2 | 广移中转
+      - 🇭🇰 【中转】HK/香港 A - 天津电信
+      - 🇭🇰 【中转】HK/香港 A - 济南联通
+      - 🇭🇰 【中转】HK/香港 B - 郑州联通 2
+      - 🇯🇵 【中转】JPN/日本 A - 济南联通
+      - 🇨🇳 【中转】TWN/台湾 A - 济南联通
+      - 🇺🇸 【中转】USA/美国 A - 重庆联通
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -329,6 +383,8 @@ proxy-groups:
       - 互联网是有记忆的
       - 郑州同胞加油
       - 二爷翻墙网https://1808.ga
+      - 真相不会被洗掉
+      - 郑州同胞加油 2
       - 二爷翻墙网https://1808.ga 2
       - 二爷翻墙网https://1808.ga 3
       - 二爷翻墙网https://1808.ga 4
@@ -360,11 +416,9 @@ proxy-groups:
       - 二爷翻墙网https://1808.ga 30
       - 二爷翻墙网https://1808.ga 31
       - 二爷翻墙网https://1808.ga 32
-      - 二爷翻墙网https://1808.ga 33
-      - 二爷翻墙网https://1808.ga 34
-      - 郑州同胞加油 2
       - 郑州同胞加油 3
       - 郑州同胞加油 4
+      - 郑州同胞加油 5
       - 天会亮的
       - 天会亮的 2
       - 天会亮的 3
@@ -374,6 +428,15 @@ proxy-groups:
       - 🇺🇸 【中转】USA/美国 A - 宁波电信
       - 🇨🇳 【直连】TWN/台湾 B
       - 🇨🇳 【直连】TWN/台湾 C
+      - 🇯🇵 JP-AWS | V2 | 广移中转
+      - 🇲🇾 MY-TMNET | V2 | 广移中转
+      - 🇺🇸 US-AWS | V2 | 广移中转
+      - 🇭🇰 【中转】HK/香港 A - 天津电信
+      - 🇭🇰 【中转】HK/香港 A - 济南联通
+      - 🇭🇰 【中转】HK/香港 B - 郑州联通 2
+      - 🇯🇵 【中转】JPN/日本 A - 济南联通
+      - 🇨🇳 【中转】TWN/台湾 A - 济南联通
+      - 🇺🇸 【中转】USA/美国 A - 重庆联通
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -383,6 +446,8 @@ proxy-groups:
       - 互联网是有记忆的
       - 郑州同胞加油
       - 二爷翻墙网https://1808.ga
+      - 真相不会被洗掉
+      - 郑州同胞加油 2
       - 二爷翻墙网https://1808.ga 2
       - 二爷翻墙网https://1808.ga 3
       - 二爷翻墙网https://1808.ga 4
@@ -414,11 +479,9 @@ proxy-groups:
       - 二爷翻墙网https://1808.ga 30
       - 二爷翻墙网https://1808.ga 31
       - 二爷翻墙网https://1808.ga 32
-      - 二爷翻墙网https://1808.ga 33
-      - 二爷翻墙网https://1808.ga 34
-      - 郑州同胞加油 2
       - 郑州同胞加油 3
       - 郑州同胞加油 4
+      - 郑州同胞加油 5
       - 天会亮的
       - 天会亮的 2
       - 天会亮的 3
@@ -428,6 +491,15 @@ proxy-groups:
       - 🇺🇸 【中转】USA/美国 A - 宁波电信
       - 🇨🇳 【直连】TWN/台湾 B
       - 🇨🇳 【直连】TWN/台湾 C
+      - 🇯🇵 JP-AWS | V2 | 广移中转
+      - 🇲🇾 MY-TMNET | V2 | 广移中转
+      - 🇺🇸 US-AWS | V2 | 广移中转
+      - 🇭🇰 【中转】HK/香港 A - 天津电信
+      - 🇭🇰 【中转】HK/香港 A - 济南联通
+      - 🇭🇰 【中转】HK/香港 B - 郑州联通 2
+      - 🇯🇵 【中转】JPN/日本 A - 济南联通
+      - 🇨🇳 【中转】TWN/台湾 A - 济南联通
+      - 🇺🇸 【中转】USA/美国 A - 重庆联通
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -453,6 +525,8 @@ proxy-groups:
       - 互联网是有记忆的
       - 郑州同胞加油
       - 二爷翻墙网https://1808.ga
+      - 真相不会被洗掉
+      - 郑州同胞加油 2
       - 二爷翻墙网https://1808.ga 2
       - 二爷翻墙网https://1808.ga 3
       - 二爷翻墙网https://1808.ga 4
@@ -484,11 +558,9 @@ proxy-groups:
       - 二爷翻墙网https://1808.ga 30
       - 二爷翻墙网https://1808.ga 31
       - 二爷翻墙网https://1808.ga 32
-      - 二爷翻墙网https://1808.ga 33
-      - 二爷翻墙网https://1808.ga 34
-      - 郑州同胞加油 2
       - 郑州同胞加油 3
       - 郑州同胞加油 4
+      - 郑州同胞加油 5
       - 天会亮的
       - 天会亮的 2
       - 天会亮的 3
@@ -498,6 +570,15 @@ proxy-groups:
       - 🇺🇸 【中转】USA/美国 A - 宁波电信
       - 🇨🇳 【直连】TWN/台湾 B
       - 🇨🇳 【直连】TWN/台湾 C
+      - 🇯🇵 JP-AWS | V2 | 广移中转
+      - 🇲🇾 MY-TMNET | V2 | 广移中转
+      - 🇺🇸 US-AWS | V2 | 广移中转
+      - 🇭🇰 【中转】HK/香港 A - 天津电信
+      - 🇭🇰 【中转】HK/香港 A - 济南联通
+      - 🇭🇰 【中转】HK/香港 B - 郑州联通 2
+      - 🇯🇵 【中转】JPN/日本 A - 济南联通
+      - 🇨🇳 【中转】TWN/台湾 A - 济南联通
+      - 🇺🇸 【中转】USA/美国 A - 重庆联通
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
