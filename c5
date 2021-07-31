@@ -98,6 +98,7 @@ proxies:
   - {name: 🇺🇸 【中转】USA/美国 A - 郑州联通, server: 42.236.94.1, port: 80, type: vmess, uuid: 602c4eda-2c89-4aa3-86f9-198547a814ba, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 005.cdn.8x.cx.hit.edu.cn}}
   - {name: 🇺🇸 【中转】USA/美国 A - 重庆联通, server: 113.207.102.1, port: 80, type: vmess, uuid: 602c4eda-2c89-4aa3-86f9-198547a814ba, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 005.cdn.8x.cx.hit.edu.cn}}
   - {name: 🇨🇳 【直连】TWN/台湾 B, server: twn01.ip4.ddns.acg.photos, port: 80, type: vmess, uuid: 602c4eda-2c89-4aa3-86f9-198547a814ba, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: twn01.ip4.ddns.acg.photos}}
+  - {name: 107.174.204.67, server: 107.174.204.67, port: 80, type: vmess, uuid: 7014b9a6-2f35-407d-89a6-93fcdacc112e, alterId: 0, cipher: auto, tls: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -197,6 +198,7 @@ proxy-groups:
       - 🇺🇸 【中转】USA/美国 A - 郑州联通
       - 🇺🇸 【中转】USA/美国 A - 重庆联通
       - 🇨🇳 【直连】TWN/台湾 B
+      - 107.174.204.67
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -296,6 +298,7 @@ proxy-groups:
       - 🇺🇸 【中转】USA/美国 A - 郑州联通
       - 🇺🇸 【中转】USA/美国 A - 重庆联通
       - 🇨🇳 【直连】TWN/台湾 B
+      - 107.174.204.67
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -395,6 +398,7 @@ proxy-groups:
       - 🇺🇸 【中转】USA/美国 A - 郑州联通
       - 🇺🇸 【中转】USA/美国 A - 重庆联通
       - 🇨🇳 【直连】TWN/台湾 B
+      - 107.174.204.67
   - name: 📲 电报信息
     type: select
     proxies:
@@ -493,6 +497,7 @@ proxy-groups:
       - 🇺🇸 【中转】USA/美国 A - 郑州联通
       - 🇺🇸 【中转】USA/美国 A - 重庆联通
       - 🇨🇳 【直连】TWN/台湾 B
+      - 107.174.204.67
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -591,6 +596,7 @@ proxy-groups:
       - 🇺🇸 【中转】USA/美国 A - 郑州联通
       - 🇺🇸 【中转】USA/美国 A - 重庆联通
       - 🇨🇳 【直连】TWN/台湾 B
+      - 107.174.204.67
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -689,6 +695,7 @@ proxy-groups:
       - 🇺🇸 【中转】USA/美国 A - 郑州联通
       - 🇺🇸 【中转】USA/美国 A - 重庆联通
       - 🇨🇳 【直连】TWN/台湾 B
+      - 107.174.204.67
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -788,6 +795,7 @@ proxy-groups:
       - 🇺🇸 【中转】USA/美国 A - 郑州联通
       - 🇺🇸 【中转】USA/美国 A - 重庆联通
       - 🇨🇳 【直连】TWN/台湾 B
+      - 107.174.204.67
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -903,6 +911,7 @@ proxy-groups:
       - 🇺🇸 【中转】USA/美国 A - 郑州联通
       - 🇺🇸 【中转】USA/美国 A - 重庆联通
       - 🇨🇳 【直连】TWN/台湾 B
+      - 107.174.204.67
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
