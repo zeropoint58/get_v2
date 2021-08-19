@@ -5,35 +5,6 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 二爷翻墙网 https://1808.ga, server: 5.189.202.16, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d}
-  - {name: 二爷翻墙网 https://1808.ga 2, server: 5.189.202.16, port: 44745, type: ss, cipher: aes-256-gcm, password: fyXdw87yCH9SAmFkPvsvLVqC}
-  - {name: 二爷翻墙网 https://1808.ga 3, server: gggz.quickairport.top, port: 21827, type: vmess, uuid: 943c710e-273c-4a48-b52c-8ab43049a08b, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: gggz.quickairport.top}}
-  - {name: 二爷翻墙网 https://1808.ga 4, server: 212.102.40.68, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
-  - {name: 二爷翻墙网 https://1808.ga 5, server: 89.187.163.210, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 二爷翻墙网 https://1808.ga 6, server: 138.199.16.137, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 二爷翻墙网 https://1808.ga 7, server: 138.199.19.162, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 二爷翻墙网 https://1808.ga 8, server: 194.110.115.83, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
-  - {name: 二爷翻墙网 https://1808.ga 9, server: 194.37.98.211, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: 二爷翻墙网 https://1808.ga 10, server: 198.8.92.79, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
-  - {name: 二爷翻墙网 https://1808.ga 11, server: 143.244.57.99, port: 44745, type: ss, cipher: aes-256-gcm, password: fyXdw87yCH9SAmFkPvsvLVqC}
-  - {name: 二爷翻墙网 https://1808.ga 12, server: 143.244.56.230, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 二爷翻墙网 https://1808.ga 13, server: 104.21.67.220, port: 443, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: us-04.yinriver.top}}
-  - {name: 二爷翻墙网 https://1808.ga 14, server: 104.16.237.48, port: 443, type: vmess, uuid: 58f25243-623d-4c8b-9c47-095b4b54257f, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: v2ray.gd1214b.workers.dev}}
-  - {name: 二爷翻墙网 https://1808.ga 15, server: hk-02.yinriver.top, port: 80, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: hk-02.yinriver.top}}
-  - {name: 二爷翻墙网 https://1808.ga 16, server: 23.224.30.37, port: 443, type: vmess, uuid: e4494518-74e8-4d6b-942a-6b332cce09ef, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.01902367.xyz}}
-  - {name: 二爷翻墙网 https://1808.ga 17, server: 96.43.91.58, port: 443, type: vmess, uuid: 3bfb43e2-7dfe-4757-86ee-1ce9fb9fd13a, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.45218443.xyz}}
-  - {name: 二爷翻墙网 https://1808.ga 18, server: www.17080100.xyz, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.17080100.xyz}}
-  - {name: 二爷翻墙网 https://1808.ga 19, server: www.92726054.xyz, port: 443, type: vmess, uuid: d3cbe556-8db3-47e0-8ef1-06b2cce00411, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.92726054.xyz}}
-  - {name: 二爷翻墙网 https://1808.ga 20, server: 104.160.186.54, port: 443, type: vmess, uuid: d3cbe556-8db3-47e0-8ef1-06b2cce00411, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.92726054.xyz}}
-  - {name: 二爷翻墙网 https://1808.ga 21, server: 107.167.9.124, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.17080100.xyz}}
-  - {name: 二爷翻墙网 https://1808.ga 22, server: 107.167.20.186, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.19036987.xyz}}
-  - {name: 二爷翻墙网 https://1808.ga 23, server: sin03.tencentlink.icu, port: 20000, type: trojan, password: 031382af-fafd-47b2-b18d-95dea5dc40bb, sni: sin03.tencentlink.icu}
-  - {name: 二爷翻墙网 https://1808.ga 24, server: 46.182.107.94, port: 443, type: vmess, uuid: 743bdc87-1dea-41bf-aa0b-51dfbbfec8aa, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.54872833.xyz}}
-  - {name: 二爷翻墙网 https://1808.ga 25, server: 46.182.107.154, port: 443, type: vmess, uuid: 130c9f2e-42b1-4ebf-b345-e26456a061f9, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.05222027.xyz}}
-  - {name: 二爷翻墙网 https://1808.ga 26, server: 46.182.107.157, port: 443, type: vmess, uuid: 20b30916-e203-412e-8ec0-900f3acd5128, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.73345741.xyz}}
-  - {name: 二爷翻墙网 https://1808.ga 27, server: 46.182.107.44, port: 443, type: vmess, uuid: fe5f69e7-e183-439b-950b-9661ef0651f2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.68737987.xyz}}
-  - {name: 二爷翻墙网 https://1808.ga 28, server: 132.226.169.93, port: 31876, type: vmess, uuid: 0453154b-db51-4a66-8f7c-0887878cb9a3, alterId: 0, cipher: auto, tls: false}
-  - {name: 二爷翻墙网 https://1808.ga 29, server: 84.17.53.210, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
   - {name: 🇭🇰 【中转】HK/香港 A - 宁波电信, server: 115.231.187.1, port: 80, type: vmess, uuid: 93e7bd11-e39c-4e59-ba45-bcd90f089224, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 001.cdn.8x.cx.hit.edu.cn}}
   - {name: 🇭🇰 【中转】HK/香港 B - 宁波电信, server: 115.231.187.1, port: 80, type: vmess, uuid: 93e7bd11-e39c-4e59-ba45-bcd90f089224, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 002.cdn.8x.cx.hit.edu.cn}}
   - {name: 🇯🇵 【中转】JPN/日本 A - 济南联通, server: 119.188.97.1, port: 80, type: vmess, uuid: 93e7bd11-e39c-4e59-ba45-bcd90f089224, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 006.cdn.8x.cx.hit.edu.cn}}
@@ -57,12 +28,60 @@ proxies:
   - {name: debian-v5, server: v5.coding996.com, port: 443, type: vmess, uuid: 1bb18282-1fa0-41df-a7fe-7f1cd884c61a, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /baidu, ws-headers: {Host: v5.coding996.com}}
   - {name: debian-v6, server: v6.coding996.com, port: 443, type: vmess, uuid: 8d4d6c76-eaa9-4b46-b369-929107fd70f2, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /wechat, ws-headers: {Host: v6.coding996.com}}
   - {name: debian-v7, server: v7.coding996.com, port: 443, type: vmess, uuid: 80eab74a-59e2-4ad7-b6c4-b0b909b7c0f3, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /baidu, ws-headers: {Host: v7.coding996.com}}
+  - {name: 二爷翻墙网 https://1808.ga, server: 5.189.202.16, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d}
+  - {name: 二爷翻墙网 https://1808.ga 2, server: 5.189.202.16, port: 44745, type: ss, cipher: aes-256-gcm, password: fyXdw87yCH9SAmFkPvsvLVqC}
+  - {name: 二爷翻墙网 https://1808.ga 3, server: 212.102.40.68, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: 二爷翻墙网 https://1808.ga 4, server: 89.187.163.210, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 二爷翻墙网 https://1808.ga 5, server: 138.199.16.137, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 二爷翻墙网 https://1808.ga 6, server: 138.199.19.182, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 二爷翻墙网 https://1808.ga 7, server: 138.199.19.162, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 二爷翻墙网 https://1808.ga 8, server: 194.110.115.83, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: 二爷翻墙网 https://1808.ga 9, server: 194.37.98.211, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: 二爷翻墙网 https://1808.ga 10, server: 198.8.92.79, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: 二爷翻墙网 https://1808.ga 11, server: 143.244.56.230, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 二爷翻墙网 https://1808.ga 12, server: 143.244.57.99, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: 二爷翻墙网 https://1808.ga 13, server: 104.21.67.220, port: 443, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: us-04.yinriver.top}}
+  - {name: 二爷翻墙网 https://1808.ga 14, server: hk-02.yinriver.top, port: 80, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: hk-02.yinriver.top}}
+  - {name: 二爷翻墙网 https://1808.ga 15, server: 23.224.30.37, port: 443, type: vmess, uuid: e4494518-74e8-4d6b-942a-6b332cce09ef, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.01902367.xyz}}
+  - {name: 二爷翻墙网 https://1808.ga 16, server: 96.43.91.58, port: 443, type: vmess, uuid: 3bfb43e2-7dfe-4757-86ee-1ce9fb9fd13a, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.45218443.xyz}}
+  - {name: 二爷翻墙网 https://1808.ga 17, server: www.17080100.xyz, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.17080100.xyz}}
+  - {name: 二爷翻墙网 https://1808.ga 18, server: www.92726054.xyz, port: 443, type: vmess, uuid: d3cbe556-8db3-47e0-8ef1-06b2cce00411, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.92726054.xyz}}
+  - {name: 二爷翻墙网 https://1808.ga 19, server: 104.160.186.54, port: 443, type: vmess, uuid: d3cbe556-8db3-47e0-8ef1-06b2cce00411, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.92726054.xyz}}
+  - {name: 二爷翻墙网 https://1808.ga 20, server: 107.167.9.124, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.17080100.xyz}}
+  - {name: 二爷翻墙网 https://1808.ga 21, server: 107.167.20.186, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.19036987.xyz}}
+  - {name: 二爷翻墙网 https://1808.ga 22, server: 46.182.107.157, port: 443, type: vmess, uuid: 20b30916-e203-412e-8ec0-900f3acd5128, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.73345741.xyz}}
+  - {name: 二爷翻墙网 https://1808.ga 23, server: 46.182.107.94, port: 443, type: vmess, uuid: 743bdc87-1dea-41bf-aa0b-51dfbbfec8aa, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.54872833.xyz}}
+  - {name: 二爷翻墙网 https://1808.ga 24, server: 46.182.107.154, port: 443, type: vmess, uuid: 130c9f2e-42b1-4ebf-b345-e26456a061f9, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.05222027.xyz}}
+  - {name: 二爷翻墙网 https://1808.ga 25, server: 46.182.107.44, port: 443, type: vmess, uuid: fe5f69e7-e183-439b-950b-9661ef0651f2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.68737987.xyz}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - 🇭🇰 【中转】HK/香港 A - 宁波电信
+      - 🇭🇰 【中转】HK/香港 B - 宁波电信
+      - 🇯🇵 【中转】JPN/日本 A - 济南联通
+      - 🇯🇵 【中转】JPN/日本 A - 西安电信
+      - 🇯🇵 【中转】JPN/日本 A - 重庆联通
+      - 🇨🇳 【中转】TWN/台湾 A - 宁波电信
+      - 🇨🇳 【中转】TWN/台湾 A - 郑州联通
+      - 🇨🇳 【中转】TWN/台湾 B - 宁波电信
+      - 🇨🇳 【中转】TWN/台湾 B - 郑州联通
+      - 🇨🇳 【中转】TWN/台湾 B - 重庆联通
+      - 🇺🇸 【中转】USA/美国 A - 郑州联通
+      - 🇨🇳 【直连】TWN/台湾 A
+      - 🏳️‍🌈 应急/直连/美国
+      - 🏳️‍🌈 应急/直连/香港
+      - 🏳️‍🌈 应急|直连|新加坡1
+      - 🇯🇵 日本
+      - debian-1
+      - debian-2
+      - debian-v3
+      - debian-v4
+      - debian-v5
+      - debian-v6
+      - debian-v7
       - 二爷翻墙网 https://1808.ga
       - 二爷翻墙网 https://1808.ga 2
       - 二爷翻墙网 https://1808.ga 3
@@ -88,39 +107,35 @@ proxy-groups:
       - 二爷翻墙网 https://1808.ga 23
       - 二爷翻墙网 https://1808.ga 24
       - 二爷翻墙网 https://1808.ga 25
-      - 二爷翻墙网 https://1808.ga 26
-      - 二爷翻墙网 https://1808.ga 27
-      - 二爷翻墙网 https://1808.ga 28
-      - 二爷翻墙网 https://1808.ga 29
-      - 🇭🇰 【中转】HK/香港 A - 宁波电信
-      - 🇭🇰 【中转】HK/香港 B - 宁波电信
-      - 🇯🇵 【中转】JPN/日本 A - 济南联通
-      - 🇯🇵 【中转】JPN/日本 A - 西安电信
-      - 🇯🇵 【中转】JPN/日本 A - 重庆联通
-      - 🇨🇳 【中转】TWN/台湾 A - 宁波电信
-      - 🇨🇳 【中转】TWN/台湾 A - 郑州联通
-      - 🇨🇳 【中转】TWN/台湾 B - 宁波电信
-      - 🇨🇳 【中转】TWN/台湾 B - 郑州联通
-      - 🇨🇳 【中转】TWN/台湾 B - 重庆联通
-      - 🇺🇸 【中转】USA/美国 A - 郑州联通
-      - 🇨🇳 【直连】TWN/台湾 A
-      - 🏳️‍🌈 应急/直连/美国
-      - 🏳️‍🌈 应急/直连/香港
-      - 🏳️‍🌈 应急|直连|新加坡1
-      - 🇯🇵 日本
-      - debian-1
-      - debian-2
-      - debian-v3
-      - debian-v4
-      - debian-v5
-      - debian-v6
-      - debian-v7
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
+      - 🇭🇰 【中转】HK/香港 A - 宁波电信
+      - 🇭🇰 【中转】HK/香港 B - 宁波电信
+      - 🇯🇵 【中转】JPN/日本 A - 济南联通
+      - 🇯🇵 【中转】JPN/日本 A - 西安电信
+      - 🇯🇵 【中转】JPN/日本 A - 重庆联通
+      - 🇨🇳 【中转】TWN/台湾 A - 宁波电信
+      - 🇨🇳 【中转】TWN/台湾 A - 郑州联通
+      - 🇨🇳 【中转】TWN/台湾 B - 宁波电信
+      - 🇨🇳 【中转】TWN/台湾 B - 郑州联通
+      - 🇨🇳 【中转】TWN/台湾 B - 重庆联通
+      - 🇺🇸 【中转】USA/美国 A - 郑州联通
+      - 🇨🇳 【直连】TWN/台湾 A
+      - 🏳️‍🌈 应急/直连/美国
+      - 🏳️‍🌈 应急/直连/香港
+      - 🏳️‍🌈 应急|直连|新加坡1
+      - 🇯🇵 日本
+      - debian-1
+      - debian-2
+      - debian-v3
+      - debian-v4
+      - debian-v5
+      - debian-v6
+      - debian-v7
       - 二爷翻墙网 https://1808.ga
       - 二爷翻墙网 https://1808.ga 2
       - 二爷翻墙网 https://1808.ga 3
@@ -146,39 +161,35 @@ proxy-groups:
       - 二爷翻墙网 https://1808.ga 23
       - 二爷翻墙网 https://1808.ga 24
       - 二爷翻墙网 https://1808.ga 25
-      - 二爷翻墙网 https://1808.ga 26
-      - 二爷翻墙网 https://1808.ga 27
-      - 二爷翻墙网 https://1808.ga 28
-      - 二爷翻墙网 https://1808.ga 29
-      - 🇭🇰 【中转】HK/香港 A - 宁波电信
-      - 🇭🇰 【中转】HK/香港 B - 宁波电信
-      - 🇯🇵 【中转】JPN/日本 A - 济南联通
-      - 🇯🇵 【中转】JPN/日本 A - 西安电信
-      - 🇯🇵 【中转】JPN/日本 A - 重庆联通
-      - 🇨🇳 【中转】TWN/台湾 A - 宁波电信
-      - 🇨🇳 【中转】TWN/台湾 A - 郑州联通
-      - 🇨🇳 【中转】TWN/台湾 B - 宁波电信
-      - 🇨🇳 【中转】TWN/台湾 B - 郑州联通
-      - 🇨🇳 【中转】TWN/台湾 B - 重庆联通
-      - 🇺🇸 【中转】USA/美国 A - 郑州联通
-      - 🇨🇳 【直连】TWN/台湾 A
-      - 🏳️‍🌈 应急/直连/美国
-      - 🏳️‍🌈 应急/直连/香港
-      - 🏳️‍🌈 应急|直连|新加坡1
-      - 🇯🇵 日本
-      - debian-1
-      - debian-2
-      - debian-v3
-      - debian-v4
-      - debian-v5
-      - debian-v6
-      - debian-v7
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇭🇰 【中转】HK/香港 A - 宁波电信
+      - 🇭🇰 【中转】HK/香港 B - 宁波电信
+      - 🇯🇵 【中转】JPN/日本 A - 济南联通
+      - 🇯🇵 【中转】JPN/日本 A - 西安电信
+      - 🇯🇵 【中转】JPN/日本 A - 重庆联通
+      - 🇨🇳 【中转】TWN/台湾 A - 宁波电信
+      - 🇨🇳 【中转】TWN/台湾 A - 郑州联通
+      - 🇨🇳 【中转】TWN/台湾 B - 宁波电信
+      - 🇨🇳 【中转】TWN/台湾 B - 郑州联通
+      - 🇨🇳 【中转】TWN/台湾 B - 重庆联通
+      - 🇺🇸 【中转】USA/美国 A - 郑州联通
+      - 🇨🇳 【直连】TWN/台湾 A
+      - 🏳️‍🌈 应急/直连/美国
+      - 🏳️‍🌈 应急/直连/香港
+      - 🏳️‍🌈 应急|直连|新加坡1
+      - 🇯🇵 日本
+      - debian-1
+      - debian-2
+      - debian-v3
+      - debian-v4
+      - debian-v5
+      - debian-v6
+      - debian-v7
       - 二爷翻墙网 https://1808.ga
       - 二爷翻墙网 https://1808.ga 2
       - 二爷翻墙网 https://1808.ga 3
@@ -204,38 +215,34 @@ proxy-groups:
       - 二爷翻墙网 https://1808.ga 23
       - 二爷翻墙网 https://1808.ga 24
       - 二爷翻墙网 https://1808.ga 25
-      - 二爷翻墙网 https://1808.ga 26
-      - 二爷翻墙网 https://1808.ga 27
-      - 二爷翻墙网 https://1808.ga 28
-      - 二爷翻墙网 https://1808.ga 29
-      - 🇭🇰 【中转】HK/香港 A - 宁波电信
-      - 🇭🇰 【中转】HK/香港 B - 宁波电信
-      - 🇯🇵 【中转】JPN/日本 A - 济南联通
-      - 🇯🇵 【中转】JPN/日本 A - 西安电信
-      - 🇯🇵 【中转】JPN/日本 A - 重庆联通
-      - 🇨🇳 【中转】TWN/台湾 A - 宁波电信
-      - 🇨🇳 【中转】TWN/台湾 A - 郑州联通
-      - 🇨🇳 【中转】TWN/台湾 B - 宁波电信
-      - 🇨🇳 【中转】TWN/台湾 B - 郑州联通
-      - 🇨🇳 【中转】TWN/台湾 B - 重庆联通
-      - 🇺🇸 【中转】USA/美国 A - 郑州联通
-      - 🇨🇳 【直连】TWN/台湾 A
-      - 🏳️‍🌈 应急/直连/美国
-      - 🏳️‍🌈 应急/直连/香港
-      - 🏳️‍🌈 应急|直连|新加坡1
-      - 🇯🇵 日本
-      - debian-1
-      - debian-2
-      - debian-v3
-      - debian-v4
-      - debian-v5
-      - debian-v6
-      - debian-v7
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 🇭🇰 【中转】HK/香港 A - 宁波电信
+      - 🇭🇰 【中转】HK/香港 B - 宁波电信
+      - 🇯🇵 【中转】JPN/日本 A - 济南联通
+      - 🇯🇵 【中转】JPN/日本 A - 西安电信
+      - 🇯🇵 【中转】JPN/日本 A - 重庆联通
+      - 🇨🇳 【中转】TWN/台湾 A - 宁波电信
+      - 🇨🇳 【中转】TWN/台湾 A - 郑州联通
+      - 🇨🇳 【中转】TWN/台湾 B - 宁波电信
+      - 🇨🇳 【中转】TWN/台湾 B - 郑州联通
+      - 🇨🇳 【中转】TWN/台湾 B - 重庆联通
+      - 🇺🇸 【中转】USA/美国 A - 郑州联通
+      - 🇨🇳 【直连】TWN/台湾 A
+      - 🏳️‍🌈 应急/直连/美国
+      - 🏳️‍🌈 应急/直连/香港
+      - 🏳️‍🌈 应急|直连|新加坡1
+      - 🇯🇵 日本
+      - debian-1
+      - debian-2
+      - debian-v3
+      - debian-v4
+      - debian-v5
+      - debian-v6
+      - debian-v7
       - 二爷翻墙网 https://1808.ga
       - 二爷翻墙网 https://1808.ga 2
       - 二爷翻墙网 https://1808.ga 3
@@ -261,38 +268,34 @@ proxy-groups:
       - 二爷翻墙网 https://1808.ga 23
       - 二爷翻墙网 https://1808.ga 24
       - 二爷翻墙网 https://1808.ga 25
-      - 二爷翻墙网 https://1808.ga 26
-      - 二爷翻墙网 https://1808.ga 27
-      - 二爷翻墙网 https://1808.ga 28
-      - 二爷翻墙网 https://1808.ga 29
-      - 🇭🇰 【中转】HK/香港 A - 宁波电信
-      - 🇭🇰 【中转】HK/香港 B - 宁波电信
-      - 🇯🇵 【中转】JPN/日本 A - 济南联通
-      - 🇯🇵 【中转】JPN/日本 A - 西安电信
-      - 🇯🇵 【中转】JPN/日本 A - 重庆联通
-      - 🇨🇳 【中转】TWN/台湾 A - 宁波电信
-      - 🇨🇳 【中转】TWN/台湾 A - 郑州联通
-      - 🇨🇳 【中转】TWN/台湾 B - 宁波电信
-      - 🇨🇳 【中转】TWN/台湾 B - 郑州联通
-      - 🇨🇳 【中转】TWN/台湾 B - 重庆联通
-      - 🇺🇸 【中转】USA/美国 A - 郑州联通
-      - 🇨🇳 【直连】TWN/台湾 A
-      - 🏳️‍🌈 应急/直连/美国
-      - 🏳️‍🌈 应急/直连/香港
-      - 🏳️‍🌈 应急|直连|新加坡1
-      - 🇯🇵 日本
-      - debian-1
-      - debian-2
-      - debian-v3
-      - debian-v4
-      - debian-v5
-      - debian-v6
-      - debian-v7
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - 🇭🇰 【中转】HK/香港 A - 宁波电信
+      - 🇭🇰 【中转】HK/香港 B - 宁波电信
+      - 🇯🇵 【中转】JPN/日本 A - 济南联通
+      - 🇯🇵 【中转】JPN/日本 A - 西安电信
+      - 🇯🇵 【中转】JPN/日本 A - 重庆联通
+      - 🇨🇳 【中转】TWN/台湾 A - 宁波电信
+      - 🇨🇳 【中转】TWN/台湾 A - 郑州联通
+      - 🇨🇳 【中转】TWN/台湾 B - 宁波电信
+      - 🇨🇳 【中转】TWN/台湾 B - 郑州联通
+      - 🇨🇳 【中转】TWN/台湾 B - 重庆联通
+      - 🇺🇸 【中转】USA/美国 A - 郑州联通
+      - 🇨🇳 【直连】TWN/台湾 A
+      - 🏳️‍🌈 应急/直连/美国
+      - 🏳️‍🌈 应急/直连/香港
+      - 🏳️‍🌈 应急|直连|新加坡1
+      - 🇯🇵 日本
+      - debian-1
+      - debian-2
+      - debian-v3
+      - debian-v4
+      - debian-v5
+      - debian-v6
+      - debian-v7
       - 二爷翻墙网 https://1808.ga
       - 二爷翻墙网 https://1808.ga 2
       - 二爷翻墙网 https://1808.ga 3
@@ -318,38 +321,34 @@ proxy-groups:
       - 二爷翻墙网 https://1808.ga 23
       - 二爷翻墙网 https://1808.ga 24
       - 二爷翻墙网 https://1808.ga 25
-      - 二爷翻墙网 https://1808.ga 26
-      - 二爷翻墙网 https://1808.ga 27
-      - 二爷翻墙网 https://1808.ga 28
-      - 二爷翻墙网 https://1808.ga 29
-      - 🇭🇰 【中转】HK/香港 A - 宁波电信
-      - 🇭🇰 【中转】HK/香港 B - 宁波电信
-      - 🇯🇵 【中转】JPN/日本 A - 济南联通
-      - 🇯🇵 【中转】JPN/日本 A - 西安电信
-      - 🇯🇵 【中转】JPN/日本 A - 重庆联通
-      - 🇨🇳 【中转】TWN/台湾 A - 宁波电信
-      - 🇨🇳 【中转】TWN/台湾 A - 郑州联通
-      - 🇨🇳 【中转】TWN/台湾 B - 宁波电信
-      - 🇨🇳 【中转】TWN/台湾 B - 郑州联通
-      - 🇨🇳 【中转】TWN/台湾 B - 重庆联通
-      - 🇺🇸 【中转】USA/美国 A - 郑州联通
-      - 🇨🇳 【直连】TWN/台湾 A
-      - 🏳️‍🌈 应急/直连/美国
-      - 🏳️‍🌈 应急/直连/香港
-      - 🏳️‍🌈 应急|直连|新加坡1
-      - 🇯🇵 日本
-      - debian-1
-      - debian-2
-      - debian-v3
-      - debian-v4
-      - debian-v5
-      - debian-v6
-      - debian-v7
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 🇭🇰 【中转】HK/香港 A - 宁波电信
+      - 🇭🇰 【中转】HK/香港 B - 宁波电信
+      - 🇯🇵 【中转】JPN/日本 A - 济南联通
+      - 🇯🇵 【中转】JPN/日本 A - 西安电信
+      - 🇯🇵 【中转】JPN/日本 A - 重庆联通
+      - 🇨🇳 【中转】TWN/台湾 A - 宁波电信
+      - 🇨🇳 【中转】TWN/台湾 A - 郑州联通
+      - 🇨🇳 【中转】TWN/台湾 B - 宁波电信
+      - 🇨🇳 【中转】TWN/台湾 B - 郑州联通
+      - 🇨🇳 【中转】TWN/台湾 B - 重庆联通
+      - 🇺🇸 【中转】USA/美国 A - 郑州联通
+      - 🇨🇳 【直连】TWN/台湾 A
+      - 🏳️‍🌈 应急/直连/美国
+      - 🏳️‍🌈 应急/直连/香港
+      - 🏳️‍🌈 应急|直连|新加坡1
+      - 🇯🇵 日本
+      - debian-1
+      - debian-2
+      - debian-v3
+      - debian-v4
+      - debian-v5
+      - debian-v6
+      - debian-v7
       - 二爷翻墙网 https://1808.ga
       - 二爷翻墙网 https://1808.ga 2
       - 二爷翻墙网 https://1808.ga 3
@@ -375,39 +374,35 @@ proxy-groups:
       - 二爷翻墙网 https://1808.ga 23
       - 二爷翻墙网 https://1808.ga 24
       - 二爷翻墙网 https://1808.ga 25
-      - 二爷翻墙网 https://1808.ga 26
-      - 二爷翻墙网 https://1808.ga 27
-      - 二爷翻墙网 https://1808.ga 28
-      - 二爷翻墙网 https://1808.ga 29
-      - 🇭🇰 【中转】HK/香港 A - 宁波电信
-      - 🇭🇰 【中转】HK/香港 B - 宁波电信
-      - 🇯🇵 【中转】JPN/日本 A - 济南联通
-      - 🇯🇵 【中转】JPN/日本 A - 西安电信
-      - 🇯🇵 【中转】JPN/日本 A - 重庆联通
-      - 🇨🇳 【中转】TWN/台湾 A - 宁波电信
-      - 🇨🇳 【中转】TWN/台湾 A - 郑州联通
-      - 🇨🇳 【中转】TWN/台湾 B - 宁波电信
-      - 🇨🇳 【中转】TWN/台湾 B - 郑州联通
-      - 🇨🇳 【中转】TWN/台湾 B - 重庆联通
-      - 🇺🇸 【中转】USA/美国 A - 郑州联通
-      - 🇨🇳 【直连】TWN/台湾 A
-      - 🏳️‍🌈 应急/直连/美国
-      - 🏳️‍🌈 应急/直连/香港
-      - 🏳️‍🌈 应急|直连|新加坡1
-      - 🇯🇵 日本
-      - debian-1
-      - debian-2
-      - debian-v3
-      - debian-v4
-      - debian-v5
-      - debian-v6
-      - debian-v7
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇭🇰 【中转】HK/香港 A - 宁波电信
+      - 🇭🇰 【中转】HK/香港 B - 宁波电信
+      - 🇯🇵 【中转】JPN/日本 A - 济南联通
+      - 🇯🇵 【中转】JPN/日本 A - 西安电信
+      - 🇯🇵 【中转】JPN/日本 A - 重庆联通
+      - 🇨🇳 【中转】TWN/台湾 A - 宁波电信
+      - 🇨🇳 【中转】TWN/台湾 A - 郑州联通
+      - 🇨🇳 【中转】TWN/台湾 B - 宁波电信
+      - 🇨🇳 【中转】TWN/台湾 B - 郑州联通
+      - 🇨🇳 【中转】TWN/台湾 B - 重庆联通
+      - 🇺🇸 【中转】USA/美国 A - 郑州联通
+      - 🇨🇳 【直连】TWN/台湾 A
+      - 🏳️‍🌈 应急/直连/美国
+      - 🏳️‍🌈 应急/直连/香港
+      - 🏳️‍🌈 应急|直连|新加坡1
+      - 🇯🇵 日本
+      - debian-1
+      - debian-2
+      - debian-v3
+      - debian-v4
+      - debian-v5
+      - debian-v6
+      - debian-v7
       - 二爷翻墙网 https://1808.ga
       - 二爷翻墙网 https://1808.ga 2
       - 二爷翻墙网 https://1808.ga 3
@@ -433,33 +428,6 @@ proxy-groups:
       - 二爷翻墙网 https://1808.ga 23
       - 二爷翻墙网 https://1808.ga 24
       - 二爷翻墙网 https://1808.ga 25
-      - 二爷翻墙网 https://1808.ga 26
-      - 二爷翻墙网 https://1808.ga 27
-      - 二爷翻墙网 https://1808.ga 28
-      - 二爷翻墙网 https://1808.ga 29
-      - 🇭🇰 【中转】HK/香港 A - 宁波电信
-      - 🇭🇰 【中转】HK/香港 B - 宁波电信
-      - 🇯🇵 【中转】JPN/日本 A - 济南联通
-      - 🇯🇵 【中转】JPN/日本 A - 西安电信
-      - 🇯🇵 【中转】JPN/日本 A - 重庆联通
-      - 🇨🇳 【中转】TWN/台湾 A - 宁波电信
-      - 🇨🇳 【中转】TWN/台湾 A - 郑州联通
-      - 🇨🇳 【中转】TWN/台湾 B - 宁波电信
-      - 🇨🇳 【中转】TWN/台湾 B - 郑州联通
-      - 🇨🇳 【中转】TWN/台湾 B - 重庆联通
-      - 🇺🇸 【中转】USA/美国 A - 郑州联通
-      - 🇨🇳 【直连】TWN/台湾 A
-      - 🏳️‍🌈 应急/直连/美国
-      - 🏳️‍🌈 应急/直连/香港
-      - 🏳️‍🌈 应急|直连|新加坡1
-      - 🇯🇵 日本
-      - debian-1
-      - debian-2
-      - debian-v3
-      - debian-v4
-      - debian-v5
-      - debian-v6
-      - debian-v7
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -482,6 +450,29 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇭🇰 【中转】HK/香港 A - 宁波电信
+      - 🇭🇰 【中转】HK/香港 B - 宁波电信
+      - 🇯🇵 【中转】JPN/日本 A - 济南联通
+      - 🇯🇵 【中转】JPN/日本 A - 西安电信
+      - 🇯🇵 【中转】JPN/日本 A - 重庆联通
+      - 🇨🇳 【中转】TWN/台湾 A - 宁波电信
+      - 🇨🇳 【中转】TWN/台湾 A - 郑州联通
+      - 🇨🇳 【中转】TWN/台湾 B - 宁波电信
+      - 🇨🇳 【中转】TWN/台湾 B - 郑州联通
+      - 🇨🇳 【中转】TWN/台湾 B - 重庆联通
+      - 🇺🇸 【中转】USA/美国 A - 郑州联通
+      - 🇨🇳 【直连】TWN/台湾 A
+      - 🏳️‍🌈 应急/直连/美国
+      - 🏳️‍🌈 应急/直连/香港
+      - 🏳️‍🌈 应急|直连|新加坡1
+      - 🇯🇵 日本
+      - debian-1
+      - debian-2
+      - debian-v3
+      - debian-v4
+      - debian-v5
+      - debian-v6
+      - debian-v7
       - 二爷翻墙网 https://1808.ga
       - 二爷翻墙网 https://1808.ga 2
       - 二爷翻墙网 https://1808.ga 3
@@ -507,33 +498,6 @@ proxy-groups:
       - 二爷翻墙网 https://1808.ga 23
       - 二爷翻墙网 https://1808.ga 24
       - 二爷翻墙网 https://1808.ga 25
-      - 二爷翻墙网 https://1808.ga 26
-      - 二爷翻墙网 https://1808.ga 27
-      - 二爷翻墙网 https://1808.ga 28
-      - 二爷翻墙网 https://1808.ga 29
-      - 🇭🇰 【中转】HK/香港 A - 宁波电信
-      - 🇭🇰 【中转】HK/香港 B - 宁波电信
-      - 🇯🇵 【中转】JPN/日本 A - 济南联通
-      - 🇯🇵 【中转】JPN/日本 A - 西安电信
-      - 🇯🇵 【中转】JPN/日本 A - 重庆联通
-      - 🇨🇳 【中转】TWN/台湾 A - 宁波电信
-      - 🇨🇳 【中转】TWN/台湾 A - 郑州联通
-      - 🇨🇳 【中转】TWN/台湾 B - 宁波电信
-      - 🇨🇳 【中转】TWN/台湾 B - 郑州联通
-      - 🇨🇳 【中转】TWN/台湾 B - 重庆联通
-      - 🇺🇸 【中转】USA/美国 A - 郑州联通
-      - 🇨🇳 【直连】TWN/台湾 A
-      - 🏳️‍🌈 应急/直连/美国
-      - 🏳️‍🌈 应急/直连/香港
-      - 🏳️‍🌈 应急|直连|新加坡1
-      - 🇯🇵 日本
-      - debian-1
-      - debian-2
-      - debian-v3
-      - debian-v4
-      - debian-v5
-      - debian-v6
-      - debian-v7
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
