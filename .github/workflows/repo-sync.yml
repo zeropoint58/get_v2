@@ -1,5 +1,4 @@
-# File: .github/workflows/repo-sync.yml
-name: 自动同步
+name: 同步订阅
 on:
   schedule:
     - cron: "*/30 * * * *"
@@ -33,7 +32,7 @@ jobs:
         run: |
           shopt -s extglob
           git clone -b master https://github.com/pojiezhiyuanjun/freev2.git freev2
-          git clone -b main https://github.com/pojiezhiyuanjun/freev2.git free
+          git clone -b main git@github.com:ronghuaxueleng/get_v2.git free
           cp free/codecheck.sh freev2/
           cd freev2
           bash -x codecheck.sh
