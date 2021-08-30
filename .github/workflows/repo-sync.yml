@@ -1,25 +1,18 @@
-name: 获取V2ray订阅
+# File: .github/workflows/repo-sync.yml
+name: 自动同步
 on:
   schedule:
-    - cron: '0 */2 * * *'
+    - cron: "*/30 * * * *"
   workflow_dispatch:
-    watch:
-      types: started
-    repository_dispatch:
-      types: get_v2ray
+  watch:
+    types: started
+  repository_dispatch:
+    types: repo-sync
 jobs:
-  get_v2ray:
+  repo-sync:
+    name: 创建脚本
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-      - name: 'Set up Python'
-        uses: actions/setup-python@v1
-        with:
-          python-version: 3.7
-      - name: 'Install requests'
-        run: |
-          pip install -r requirements.txt
       - name: 设置githup信息
         env:
           email: ${{ secrets.EMAIL }}
@@ -38,7 +31,15 @@ jobs:
           ssh-add ~/.ssh/id_rsa
       - name: 获取订阅
         run: |
-          python3 main.py
+          shopt -s extglob
+          git clone -b master https://github.com/pojiezhiyuanjun/freev2.git freev2
+          git clone -b main https://github.com/pojiezhiyuanjun/freev2.git free
+          cp free/codecheck.sh freev2/
+          cd freev2
+          bash -x codecheck.sh
+          cp -rf clash.yml ../free/
+          cp -rf v2.txt ../free/
+          cd ../free
           git add .
           git commit --allow-empty -m "up"
           git push
