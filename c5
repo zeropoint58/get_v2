@@ -26,6 +26,26 @@ proxies:
   - {name: 🇭🇰 新加坡1|翻墙|中转→香港|, server: 52.184.34.13, port: 34612, type: vmess, uuid: f1588098-ed63-4e61-b3c4-ddbfa920c0f5, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 52.184.34.13}}
   - {name: 🇭🇰 直连 | AWS香港 | 01, server: 18.163.113.219, port: 80, type: vmess, uuid: f1588098-ed63-4e61-b3c4-ddbfa920c0f5, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /mjp, ws-headers: {Host: 18.163.113.219}}
   - {name: 🇭🇰 直连 | AZHK | 01, server: 65.52.179.0, port: 80, type: vmess, uuid: f1588098-ed63-4e61-b3c4-ddbfa920c0f5, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 65.52.179.0}}
+  - {name: 🇯🇵 【中转】JPN/日本 A - 天津电信, server: 42.81.8.1, port: 80, type: vmess, uuid: 9dc02677-a1e1-496d-bbaf-3b2774b7fab0, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 006.cdn.8x.cx.hit.edu.cn}}
+  - {name: 🇯🇵 【中转】JPN/日本 A - 宁波电信, server: 115.231.187.1, port: 80, type: vmess, uuid: 9dc02677-a1e1-496d-bbaf-3b2774b7fab0, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 006.cdn.8x.cx.hit.edu.cn}}
+  - {name: 🇯🇵 【中转】JPN/日本 A - 西安电信 2, server: 117.34.14.1, port: 80, type: vmess, uuid: 9dc02677-a1e1-496d-bbaf-3b2774b7fab0, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 006.cdn.8x.cx.hit.edu.cn}}
+  - {name: 🇸🇬 【中转】SIN/狮城 A - 西安电信, server: 117.34.14.1, port: 80, type: vmess, uuid: 9dc02677-a1e1-496d-bbaf-3b2774b7fab0, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 003.cdn.8x.cx.hit.edu.cn}}
+  - {name: 🇺🇸 【中转】USA/美国 A - 江苏移动, server: 112.25.91.1, port: 80, type: vmess, uuid: 9dc02677-a1e1-496d-bbaf-3b2774b7fab0, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 005.cdn.8x.cx.hit.edu.cn}}
+  - {name: 🇺🇸 【中转】USA/美国 A - 济南联通 2, server: 119.188.97.1, port: 80, type: vmess, uuid: 9dc02677-a1e1-496d-bbaf-3b2774b7fab0, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 005.cdn.8x.cx.hit.edu.cn}}
+  - {name: 🇯🇵 日本, server: sn1234.xyz, port: 29617, type: vmess, uuid: 425d596a-8266-31d9-9fca-21c267670dfd, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: sn1234.xyz}}
+  - {name: 🇯🇵 -日本JP⑥-AWS-X1, server: awsjp.6.lzjc.xyz, port: 80, type: vmess, uuid: 0a647779-b3ba-41e4-94c3-597f2a28fef0, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: awsjp.6.lzjc.xyz}}
+  - {name: 🇭🇰 -香港HK⑲-AZ-10Gbps, server: azhk.19.lzjc.xyz, port: 443, type: vmess, uuid: 0a647779-b3ba-41e4-94c3-597f2a28fef0, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: azhk.19.lzjc.xyz}}
+  - {name: 🇯🇵 【中转】JPN/日本 A - 天津电信 2, server: 42.81.8.1, port: 80, type: vmess, uuid: fee9864d-a926-49fa-9e5c-81a78506e9c3, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 006.cdn.8x.cx.hit.edu.cn}}
+  - {name: 🇸🇬 【中转】SIN/狮城 A - 济南联通, server: 119.188.97.1, port: 80, type: vmess, uuid: fee9864d-a926-49fa-9e5c-81a78506e9c3, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 003.cdn.8x.cx.hit.edu.cn}}
+  - {name: 🇨🇳 【中转】TWN/台湾 A - 天津电信, server: 42.81.8.1, port: 80, type: vmess, uuid: fee9864d-a926-49fa-9e5c-81a78506e9c3, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 004.cdn.8x.cx.hit.edu.cn}}
+  - {name: 🇨🇳 【中转】TWN/台湾 A - 江苏移动 2, server: 112.25.91.1, port: 80, type: vmess, uuid: fee9864d-a926-49fa-9e5c-81a78506e9c3, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 004.cdn.8x.cx.hit.edu.cn}}
+  - {name: 🇺🇸 【中转】USA/美国 A - 济南联通 3, server: 119.188.97.1, port: 80, type: vmess, uuid: fee9864d-a926-49fa-9e5c-81a78506e9c3, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 005.cdn.8x.cx.hit.edu.cn}}
+  - {name: 🇸🇬 新加坡SG⑦-AWS-X1, server: awssg.7.lzjc.xyz, port: 80, type: vmess, uuid: 0a647779-b3ba-41e4-94c3-597f2a28fef0, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: awssg.7.lzjc.xyz}}
+  - {name: 🇯🇵 日本JP⑤-AWS-X1, server: awsjp.5.lzjc.xyz, port: 80, type: vmess, uuid: 0a647779-b3ba-41e4-94c3-597f2a28fef0, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: awsjp.5.lzjc.xyz}}
+  - {name: 🇭🇰 香港HK②-AWS-X1, server: awshk.2.lzjc.xyz, port: 80, type: vmess, uuid: 0a647779-b3ba-41e4-94c3-597f2a28fef0, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: awshk.2.lzjc.xyz}}
+  - {name: 🇭🇰 香港HK③-AWS-X1, server: awshk.3.lzjc.xyz, port: 80, type: vmess, uuid: 0a647779-b3ba-41e4-94c3-597f2a28fef0, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: awshk.3.lzjc.xyz}}
+  - {name: 🇭🇰 香港HK⑬-AZ-10Gbps, server: azhk.13.lzjc.xyz, port: 443, type: vmess, uuid: 0a647779-b3ba-41e4-94c3-597f2a28fef0, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: azhk.13.lzjc.xyz}}
+  - {name: 🇭🇰 香港HK⑮-AZ-10Gbps, server: azhk.15.lzjc.xyz, port: 443, type: vmess, uuid: 0a647779-b3ba-41e4-94c3-597f2a28fef0, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: azhk.15.lzjc.xyz}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -53,6 +73,26 @@ proxy-groups:
       - 🇭🇰 新加坡1|翻墙|中转→香港|
       - 🇭🇰 直连 | AWS香港 | 01
       - 🇭🇰 直连 | AZHK | 01
+      - 🇯🇵 【中转】JPN/日本 A - 天津电信
+      - 🇯🇵 【中转】JPN/日本 A - 宁波电信
+      - 🇯🇵 【中转】JPN/日本 A - 西安电信 2
+      - 🇸🇬 【中转】SIN/狮城 A - 西安电信
+      - 🇺🇸 【中转】USA/美国 A - 江苏移动
+      - 🇺🇸 【中转】USA/美国 A - 济南联通 2
+      - 🇯🇵 日本
+      - 🇯🇵 -日本JP⑥-AWS-X1
+      - 🇭🇰 -香港HK⑲-AZ-10Gbps
+      - 🇯🇵 【中转】JPN/日本 A - 天津电信 2
+      - 🇸🇬 【中转】SIN/狮城 A - 济南联通
+      - 🇨🇳 【中转】TWN/台湾 A - 天津电信
+      - 🇨🇳 【中转】TWN/台湾 A - 江苏移动 2
+      - 🇺🇸 【中转】USA/美国 A - 济南联通 3
+      - 🇸🇬 新加坡SG⑦-AWS-X1
+      - 🇯🇵 日本JP⑤-AWS-X1
+      - 🇭🇰 香港HK②-AWS-X1
+      - 🇭🇰 香港HK③-AWS-X1
+      - 🇭🇰 香港HK⑬-AZ-10Gbps
+      - 🇭🇰 香港HK⑮-AZ-10Gbps
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -80,6 +120,26 @@ proxy-groups:
       - 🇭🇰 新加坡1|翻墙|中转→香港|
       - 🇭🇰 直连 | AWS香港 | 01
       - 🇭🇰 直连 | AZHK | 01
+      - 🇯🇵 【中转】JPN/日本 A - 天津电信
+      - 🇯🇵 【中转】JPN/日本 A - 宁波电信
+      - 🇯🇵 【中转】JPN/日本 A - 西安电信 2
+      - 🇸🇬 【中转】SIN/狮城 A - 西安电信
+      - 🇺🇸 【中转】USA/美国 A - 江苏移动
+      - 🇺🇸 【中转】USA/美国 A - 济南联通 2
+      - 🇯🇵 日本
+      - 🇯🇵 -日本JP⑥-AWS-X1
+      - 🇭🇰 -香港HK⑲-AZ-10Gbps
+      - 🇯🇵 【中转】JPN/日本 A - 天津电信 2
+      - 🇸🇬 【中转】SIN/狮城 A - 济南联通
+      - 🇨🇳 【中转】TWN/台湾 A - 天津电信
+      - 🇨🇳 【中转】TWN/台湾 A - 江苏移动 2
+      - 🇺🇸 【中转】USA/美国 A - 济南联通 3
+      - 🇸🇬 新加坡SG⑦-AWS-X1
+      - 🇯🇵 日本JP⑤-AWS-X1
+      - 🇭🇰 香港HK②-AWS-X1
+      - 🇭🇰 香港HK③-AWS-X1
+      - 🇭🇰 香港HK⑬-AZ-10Gbps
+      - 🇭🇰 香港HK⑮-AZ-10Gbps
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -107,6 +167,26 @@ proxy-groups:
       - 🇭🇰 新加坡1|翻墙|中转→香港|
       - 🇭🇰 直连 | AWS香港 | 01
       - 🇭🇰 直连 | AZHK | 01
+      - 🇯🇵 【中转】JPN/日本 A - 天津电信
+      - 🇯🇵 【中转】JPN/日本 A - 宁波电信
+      - 🇯🇵 【中转】JPN/日本 A - 西安电信 2
+      - 🇸🇬 【中转】SIN/狮城 A - 西安电信
+      - 🇺🇸 【中转】USA/美国 A - 江苏移动
+      - 🇺🇸 【中转】USA/美国 A - 济南联通 2
+      - 🇯🇵 日本
+      - 🇯🇵 -日本JP⑥-AWS-X1
+      - 🇭🇰 -香港HK⑲-AZ-10Gbps
+      - 🇯🇵 【中转】JPN/日本 A - 天津电信 2
+      - 🇸🇬 【中转】SIN/狮城 A - 济南联通
+      - 🇨🇳 【中转】TWN/台湾 A - 天津电信
+      - 🇨🇳 【中转】TWN/台湾 A - 江苏移动 2
+      - 🇺🇸 【中转】USA/美国 A - 济南联通 3
+      - 🇸🇬 新加坡SG⑦-AWS-X1
+      - 🇯🇵 日本JP⑤-AWS-X1
+      - 🇭🇰 香港HK②-AWS-X1
+      - 🇭🇰 香港HK③-AWS-X1
+      - 🇭🇰 香港HK⑬-AZ-10Gbps
+      - 🇭🇰 香港HK⑮-AZ-10Gbps
   - name: 📲 电报信息
     type: select
     proxies:
@@ -133,6 +213,26 @@ proxy-groups:
       - 🇭🇰 新加坡1|翻墙|中转→香港|
       - 🇭🇰 直连 | AWS香港 | 01
       - 🇭🇰 直连 | AZHK | 01
+      - 🇯🇵 【中转】JPN/日本 A - 天津电信
+      - 🇯🇵 【中转】JPN/日本 A - 宁波电信
+      - 🇯🇵 【中转】JPN/日本 A - 西安电信 2
+      - 🇸🇬 【中转】SIN/狮城 A - 西安电信
+      - 🇺🇸 【中转】USA/美国 A - 江苏移动
+      - 🇺🇸 【中转】USA/美国 A - 济南联通 2
+      - 🇯🇵 日本
+      - 🇯🇵 -日本JP⑥-AWS-X1
+      - 🇭🇰 -香港HK⑲-AZ-10Gbps
+      - 🇯🇵 【中转】JPN/日本 A - 天津电信 2
+      - 🇸🇬 【中转】SIN/狮城 A - 济南联通
+      - 🇨🇳 【中转】TWN/台湾 A - 天津电信
+      - 🇨🇳 【中转】TWN/台湾 A - 江苏移动 2
+      - 🇺🇸 【中转】USA/美国 A - 济南联通 3
+      - 🇸🇬 新加坡SG⑦-AWS-X1
+      - 🇯🇵 日本JP⑤-AWS-X1
+      - 🇭🇰 香港HK②-AWS-X1
+      - 🇭🇰 香港HK③-AWS-X1
+      - 🇭🇰 香港HK⑬-AZ-10Gbps
+      - 🇭🇰 香港HK⑮-AZ-10Gbps
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -159,6 +259,26 @@ proxy-groups:
       - 🇭🇰 新加坡1|翻墙|中转→香港|
       - 🇭🇰 直连 | AWS香港 | 01
       - 🇭🇰 直连 | AZHK | 01
+      - 🇯🇵 【中转】JPN/日本 A - 天津电信
+      - 🇯🇵 【中转】JPN/日本 A - 宁波电信
+      - 🇯🇵 【中转】JPN/日本 A - 西安电信 2
+      - 🇸🇬 【中转】SIN/狮城 A - 西安电信
+      - 🇺🇸 【中转】USA/美国 A - 江苏移动
+      - 🇺🇸 【中转】USA/美国 A - 济南联通 2
+      - 🇯🇵 日本
+      - 🇯🇵 -日本JP⑥-AWS-X1
+      - 🇭🇰 -香港HK⑲-AZ-10Gbps
+      - 🇯🇵 【中转】JPN/日本 A - 天津电信 2
+      - 🇸🇬 【中转】SIN/狮城 A - 济南联通
+      - 🇨🇳 【中转】TWN/台湾 A - 天津电信
+      - 🇨🇳 【中转】TWN/台湾 A - 江苏移动 2
+      - 🇺🇸 【中转】USA/美国 A - 济南联通 3
+      - 🇸🇬 新加坡SG⑦-AWS-X1
+      - 🇯🇵 日本JP⑤-AWS-X1
+      - 🇭🇰 香港HK②-AWS-X1
+      - 🇭🇰 香港HK③-AWS-X1
+      - 🇭🇰 香港HK⑬-AZ-10Gbps
+      - 🇭🇰 香港HK⑮-AZ-10Gbps
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -185,6 +305,26 @@ proxy-groups:
       - 🇭🇰 新加坡1|翻墙|中转→香港|
       - 🇭🇰 直连 | AWS香港 | 01
       - 🇭🇰 直连 | AZHK | 01
+      - 🇯🇵 【中转】JPN/日本 A - 天津电信
+      - 🇯🇵 【中转】JPN/日本 A - 宁波电信
+      - 🇯🇵 【中转】JPN/日本 A - 西安电信 2
+      - 🇸🇬 【中转】SIN/狮城 A - 西安电信
+      - 🇺🇸 【中转】USA/美国 A - 江苏移动
+      - 🇺🇸 【中转】USA/美国 A - 济南联通 2
+      - 🇯🇵 日本
+      - 🇯🇵 -日本JP⑥-AWS-X1
+      - 🇭🇰 -香港HK⑲-AZ-10Gbps
+      - 🇯🇵 【中转】JPN/日本 A - 天津电信 2
+      - 🇸🇬 【中转】SIN/狮城 A - 济南联通
+      - 🇨🇳 【中转】TWN/台湾 A - 天津电信
+      - 🇨🇳 【中转】TWN/台湾 A - 江苏移动 2
+      - 🇺🇸 【中转】USA/美国 A - 济南联通 3
+      - 🇸🇬 新加坡SG⑦-AWS-X1
+      - 🇯🇵 日本JP⑤-AWS-X1
+      - 🇭🇰 香港HK②-AWS-X1
+      - 🇭🇰 香港HK③-AWS-X1
+      - 🇭🇰 香港HK⑬-AZ-10Gbps
+      - 🇭🇰 香港HK⑮-AZ-10Gbps
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -212,6 +352,26 @@ proxy-groups:
       - 🇭🇰 新加坡1|翻墙|中转→香港|
       - 🇭🇰 直连 | AWS香港 | 01
       - 🇭🇰 直连 | AZHK | 01
+      - 🇯🇵 【中转】JPN/日本 A - 天津电信
+      - 🇯🇵 【中转】JPN/日本 A - 宁波电信
+      - 🇯🇵 【中转】JPN/日本 A - 西安电信 2
+      - 🇸🇬 【中转】SIN/狮城 A - 西安电信
+      - 🇺🇸 【中转】USA/美国 A - 江苏移动
+      - 🇺🇸 【中转】USA/美国 A - 济南联通 2
+      - 🇯🇵 日本
+      - 🇯🇵 -日本JP⑥-AWS-X1
+      - 🇭🇰 -香港HK⑲-AZ-10Gbps
+      - 🇯🇵 【中转】JPN/日本 A - 天津电信 2
+      - 🇸🇬 【中转】SIN/狮城 A - 济南联通
+      - 🇨🇳 【中转】TWN/台湾 A - 天津电信
+      - 🇨🇳 【中转】TWN/台湾 A - 江苏移动 2
+      - 🇺🇸 【中转】USA/美国 A - 济南联通 3
+      - 🇸🇬 新加坡SG⑦-AWS-X1
+      - 🇯🇵 日本JP⑤-AWS-X1
+      - 🇭🇰 香港HK②-AWS-X1
+      - 🇭🇰 香港HK③-AWS-X1
+      - 🇭🇰 香港HK⑬-AZ-10Gbps
+      - 🇭🇰 香港HK⑮-AZ-10Gbps
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -255,6 +415,26 @@ proxy-groups:
       - 🇭🇰 新加坡1|翻墙|中转→香港|
       - 🇭🇰 直连 | AWS香港 | 01
       - 🇭🇰 直连 | AZHK | 01
+      - 🇯🇵 【中转】JPN/日本 A - 天津电信
+      - 🇯🇵 【中转】JPN/日本 A - 宁波电信
+      - 🇯🇵 【中转】JPN/日本 A - 西安电信 2
+      - 🇸🇬 【中转】SIN/狮城 A - 西安电信
+      - 🇺🇸 【中转】USA/美国 A - 江苏移动
+      - 🇺🇸 【中转】USA/美国 A - 济南联通 2
+      - 🇯🇵 日本
+      - 🇯🇵 -日本JP⑥-AWS-X1
+      - 🇭🇰 -香港HK⑲-AZ-10Gbps
+      - 🇯🇵 【中转】JPN/日本 A - 天津电信 2
+      - 🇸🇬 【中转】SIN/狮城 A - 济南联通
+      - 🇨🇳 【中转】TWN/台湾 A - 天津电信
+      - 🇨🇳 【中转】TWN/台湾 A - 江苏移动 2
+      - 🇺🇸 【中转】USA/美国 A - 济南联通 3
+      - 🇸🇬 新加坡SG⑦-AWS-X1
+      - 🇯🇵 日本JP⑤-AWS-X1
+      - 🇭🇰 香港HK②-AWS-X1
+      - 🇭🇰 香港HK③-AWS-X1
+      - 🇭🇰 香港HK⑬-AZ-10Gbps
+      - 🇭🇰 香港HK⑮-AZ-10Gbps
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
