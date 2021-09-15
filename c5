@@ -41,6 +41,14 @@ proxies:
   - {name: 🇺🇸 US_2696, server: 192.74.229.4, port: 443, type: vmess, uuid: 9c87cadf-b250-48d9-a5cd-27dd1038bd12, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.45607062.xyz}}
   - {name: 🇺🇸 US_2697, server: 173.82.19.59, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.38705043.xyz}}
   - {name: 🇺🇸 US_2701, server: 198.211.30.163, port: 443, type: vmess, uuid: 6aaa2f9f-7c91-4b51-aa77-05a83a5d6a4d, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.93289686.xyz}}
+  - {name: 🇨🇳 台湾2 原生|华南移动|V3, server: rxzgzq.moox.icu, port: 40025, type: vmess, uuid: e94d3ed5-d94c-49ea-9a6c-830b247a1656, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: rxzgzq.moox.icu}}
+  - {name: 🇨🇳 台湾5 原生|广州移动|V2, server: icajm.moox.icu, port: 34005, type: vmess, uuid: e94d3ed5-d94c-49ea-9a6c-830b247a1656, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: icajm.moox.icu}}
+  - {name: 🇸🇬 新加坡03, server: 157.245.194.176, port: 1111, type: vmess, uuid: 9a15287b-48e4-45ce-8f4e-c1f8f81f9674, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /videos, ws-headers: {Host: 157.245.194.176}}
+  - {name: 🇭🇰 香港1 广州移动|V1, server: icajm.moox.icu, port: 40011, type: vmess, uuid: e94d3ed5-d94c-49ea-9a6c-830b247a1656, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: hkbgp.xlanfly.xyz}}
+  - {name: 🇭🇰 香港11, server: ahyd1.kexueddns.club, port: 27003, type: vmess, uuid: 9a15287b-48e4-45ce-8f4e-c1f8f81f9674, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /videos, ws-headers: {Host: ahyd1.kexueddns.club}}
+  - {name: 🇭🇰 香港2 华南移动|V3, server: rxzgzq.moox.icu, port: 34007, type: vmess, uuid: e94d3ed5-d94c-49ea-9a6c-830b247a1656, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: hkbgp.xlanfly.xyz}}
+  - {name: 🇭🇰 香港6 原生|华南移动|V2 2, server: rxzgzq.moox.icu, port: 34000, type: vmess, uuid: e94d3ed5-d94c-49ea-9a6c-830b247a1656, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: rxzgzq.moox.icu}}
+  - {name: 🇯🇵 日本东京, server: 54.249.185.158, port: 65444, type: vmess, uuid: 92a0be76-c9df-41a8-ba79-fb6310c34b6f, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /7221459a491b48f/, ws-headers: {Host: jp3.piyou.cyou}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -83,6 +91,14 @@ proxy-groups:
       - 🇺🇸 US_2696
       - 🇺🇸 US_2697
       - 🇺🇸 US_2701
+      - 🇨🇳 台湾2 原生|华南移动|V3
+      - 🇨🇳 台湾5 原生|广州移动|V2
+      - 🇸🇬 新加坡03
+      - 🇭🇰 香港1 广州移动|V1
+      - 🇭🇰 香港11
+      - 🇭🇰 香港2 华南移动|V3
+      - 🇭🇰 香港6 原生|华南移动|V2 2
+      - 🇯🇵 日本东京
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -125,6 +141,14 @@ proxy-groups:
       - 🇺🇸 US_2696
       - 🇺🇸 US_2697
       - 🇺🇸 US_2701
+      - 🇨🇳 台湾2 原生|华南移动|V3
+      - 🇨🇳 台湾5 原生|广州移动|V2
+      - 🇸🇬 新加坡03
+      - 🇭🇰 香港1 广州移动|V1
+      - 🇭🇰 香港11
+      - 🇭🇰 香港2 华南移动|V3
+      - 🇭🇰 香港6 原生|华南移动|V2 2
+      - 🇯🇵 日本东京
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -167,6 +191,14 @@ proxy-groups:
       - 🇺🇸 US_2696
       - 🇺🇸 US_2697
       - 🇺🇸 US_2701
+      - 🇨🇳 台湾2 原生|华南移动|V3
+      - 🇨🇳 台湾5 原生|广州移动|V2
+      - 🇸🇬 新加坡03
+      - 🇭🇰 香港1 广州移动|V1
+      - 🇭🇰 香港11
+      - 🇭🇰 香港2 华南移动|V3
+      - 🇭🇰 香港6 原生|华南移动|V2 2
+      - 🇯🇵 日本东京
   - name: 📲 电报信息
     type: select
     proxies:
@@ -208,6 +240,14 @@ proxy-groups:
       - 🇺🇸 US_2696
       - 🇺🇸 US_2697
       - 🇺🇸 US_2701
+      - 🇨🇳 台湾2 原生|华南移动|V3
+      - 🇨🇳 台湾5 原生|广州移动|V2
+      - 🇸🇬 新加坡03
+      - 🇭🇰 香港1 广州移动|V1
+      - 🇭🇰 香港11
+      - 🇭🇰 香港2 华南移动|V3
+      - 🇭🇰 香港6 原生|华南移动|V2 2
+      - 🇯🇵 日本东京
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -249,6 +289,14 @@ proxy-groups:
       - 🇺🇸 US_2696
       - 🇺🇸 US_2697
       - 🇺🇸 US_2701
+      - 🇨🇳 台湾2 原生|华南移动|V3
+      - 🇨🇳 台湾5 原生|广州移动|V2
+      - 🇸🇬 新加坡03
+      - 🇭🇰 香港1 广州移动|V1
+      - 🇭🇰 香港11
+      - 🇭🇰 香港2 华南移动|V3
+      - 🇭🇰 香港6 原生|华南移动|V2 2
+      - 🇯🇵 日本东京
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -290,6 +338,14 @@ proxy-groups:
       - 🇺🇸 US_2696
       - 🇺🇸 US_2697
       - 🇺🇸 US_2701
+      - 🇨🇳 台湾2 原生|华南移动|V3
+      - 🇨🇳 台湾5 原生|广州移动|V2
+      - 🇸🇬 新加坡03
+      - 🇭🇰 香港1 广州移动|V1
+      - 🇭🇰 香港11
+      - 🇭🇰 香港2 华南移动|V3
+      - 🇭🇰 香港6 原生|华南移动|V2 2
+      - 🇯🇵 日本东京
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -332,6 +388,14 @@ proxy-groups:
       - 🇺🇸 US_2696
       - 🇺🇸 US_2697
       - 🇺🇸 US_2701
+      - 🇨🇳 台湾2 原生|华南移动|V3
+      - 🇨🇳 台湾5 原生|广州移动|V2
+      - 🇸🇬 新加坡03
+      - 🇭🇰 香港1 广州移动|V1
+      - 🇭🇰 香港11
+      - 🇭🇰 香港2 华南移动|V3
+      - 🇭🇰 香港6 原生|华南移动|V2 2
+      - 🇯🇵 日本东京
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -390,6 +454,14 @@ proxy-groups:
       - 🇺🇸 US_2696
       - 🇺🇸 US_2697
       - 🇺🇸 US_2701
+      - 🇨🇳 台湾2 原生|华南移动|V3
+      - 🇨🇳 台湾5 原生|广州移动|V2
+      - 🇸🇬 新加坡03
+      - 🇭🇰 香港1 广州移动|V1
+      - 🇭🇰 香港11
+      - 🇭🇰 香港2 华南移动|V3
+      - 🇭🇰 香港6 原生|华南移动|V2 2
+      - 🇯🇵 日本东京
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -2104,6 +2176,7 @@ rules:
  - IP-CIDR,74.125.203.188/32,📢 谷歌FCM,no-resolve
  - IP-CIDR,74.125.204.188/32,📢 谷歌FCM,no-resolve
  - IP-CIDR,74.125.206.188/32,📢 谷歌FCM,no-resolve
+ - IP-CIDR,108.177.97.188/32,📢 谷歌FCM,no-resolve
  - IP-CIDR,108.177.125.188/32,📢 谷歌FCM,no-resolve
  - IP-CIDR,142.250.4.188/32,📢 谷歌FCM,no-resolve
  - IP-CIDR,142.250.10.188/32,📢 谷歌FCM,no-resolve
