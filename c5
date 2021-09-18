@@ -27,6 +27,26 @@ proxies:
   - {name: 🇸🇬 SG-AWS | V2 | 广移中转, server: ngzyd-1.okex-tradebot.xyz, port: 30004, type: vmess, uuid: 49e5e8d2-32f6-48aa-ba75-f243e1db1b31, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: ngzyd-1.okex-tradebot.xyz}}
   - {name: 🇨🇳 TW-HINET | V2 | 广移中转, server: ngzyd-1.okex-tradebot.xyz, port: 30012, type: vmess, uuid: 49e5e8d2-32f6-48aa-ba75-f243e1db1b31, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: ngzyd-1.okex-tradebot.xyz}}
   - {name: 🇭🇰 香港09, server: gzyd1.kexueddns.club, port: 43784, type: vmess, uuid: 9a15287b-48e4-45ce-8f4e-c1f8f81f9674, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /videos, ws-headers: {Host: gzyd1.kexueddns.club}}
+  - {name: 🇳🇱 阿姆斯特丹, server: 192.3.163.94, port: 443, type: vmess, uuid: 48df163b-2201-4048-8c27-ed3252c4491b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: vir.feok.me}}
+  - {name: 🇯🇵 日本东京, server: 54.249.185.158, port: 65444, type: vmess, uuid: 92a0be76-c9df-41a8-ba79-fb6310c34b6f, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /7221459a491b48f/, ws-headers: {Host: jp3.piyou.cyou}}
+  - {name: 🇯🇵 日本东京 2, server: 139.162.123.246, port: 65443, type: vmess, uuid: 9690fd84-9c5c-4cba-8a53-fb30bb8ae5c9, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /2defe1820b908f6/, ws-headers: {Host: jp4.piyou.cyou}}
+  - {name: 🇨🇳 台湾5 原生|广州移动|V2, server: icajm.moox.icu, port: 34005, type: vmess, uuid: e94d3ed5-d94c-49ea-9a6c-830b247a1656, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: icajm.moox.icu}}
+  - {name: 🇸🇬 新加坡2 广州移动|V2, server: icajm.moox.icu, port: 34019, type: vmess, uuid: e94d3ed5-d94c-49ea-9a6c-830b247a1656, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: icajm.moox.icu}}
+  - {name: 🇯🇵 日本2 广州移动|V2, server: icajm.moox.icu, port: 40005, type: vmess, uuid: e94d3ed5-d94c-49ea-9a6c-830b247a1656, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: icajm.moox.icu}}
+  - {name: 🇺🇸 美国2 NF|HBOMAX|广州移动|V2, server: icajm.moox.icu, port: 42111, type: vmess, uuid: e94d3ed5-d94c-49ea-9a6c-830b247a1656, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: icajm.moox.icu}}
+  - {name: 🇭🇰 香港5 原生|广州移动|V3, server: icajm.moox.icu, port: 40001, type: vmess, uuid: e94d3ed5-d94c-49ea-9a6c-830b247a1656, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: icajm.moox.icu}}
+  - {name: 🇨🇳 TW 01 Hinet Azure 1x, server: azure.trass.mwjg.xyz, port: 25533, type: vmess, uuid: aa15ea29-6bda-4466-b6b4-7ce6efc3f50b, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: azure.trass.mwjg.xyz}}
+  - {name: 🇭🇰 HK 10 Azure NTT Stream 1x, server: azure.trass.mwjg.xyz, port: 23233, type: vmess, uuid: aa15ea29-6bda-4466-b6b4-7ce6efc3f50b, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: azure.trass.mwjg.xyz}}
+  - {name: 🇭🇰 HK 11 CN2 GIA 1x, server: 43.129.65.214, port: 2082, type: vmess, uuid: aa15ea29-6bda-4466-b6b4-7ce6efc3f50b, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: hk.terminal.gay}}
+  - {name: 🇯🇵 JP 01 KDDI Direct Stream 1x, server: 18.183.184.29, port: 23333, type: vmess, uuid: aa15ea29-6bda-4466-b6b4-7ce6efc3f50b, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 18.183.184.29}}
+  - {name: 🇯🇵 JP 02 KDDI Azure Stream 1x, server: azure.trass.mwjg.xyz, port: 42555, type: vmess, uuid: aa15ea29-6bda-4466-b6b4-7ce6efc3f50b, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: azure.trass.mwjg.xyz}}
+  - {name: 🇰🇷 KR 01 AWS Direct 1x, server: 3.38.94.127, port: 23333, type: vmess, uuid: aa15ea29-6bda-4466-b6b4-7ce6efc3f50b, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 3.38.94.127}}
+  - {name: 🇰🇷 KR 02 AWS Azure 1x, server: azure.trass.mwjg.xyz, port: 51116, type: vmess, uuid: aa15ea29-6bda-4466-b6b4-7ce6efc3f50b, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: azure.trass.mwjg.xyz}}
+  - {name: 🇸🇬 SG 01 AWS Direct 1x, server: 13.213.72.71, port: 23334, type: vmess, uuid: aa15ea29-6bda-4466-b6b4-7ce6efc3f50b, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 13.213.72.71}}
+  - {name: 🇸🇬 SG 02 AWS Azure 1x, server: azure.trass.mwjg.xyz, port: 51118, type: vmess, uuid: aa15ea29-6bda-4466-b6b4-7ce6efc3f50b, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: azure.trass.mwjg.xyz}}
+  - {name: 🇯🇵 日本, server: 13.78.94.14, port: 12345, type: vmess, uuid: 372d9a41-ef0e-36e1-88bf-a76ce34f20cb, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: 13.78.94.14}}
+  - {name: 🇭🇰 香港01--, server: hk01.zz123.xyz, port: 39000, type: vmess, uuid: 372d9a41-ef0e-36e1-88bf-a76ce34f20cb, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: hk01.zz123.xyz}}
+  - {name: 🇭🇰 香港02|, server: hk02.zz123.xyz, port: 39000, type: vmess, uuid: 372d9a41-ef0e-36e1-88bf-a76ce34f20cb, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: hk02.zz123.xyz}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -55,6 +75,26 @@ proxy-groups:
       - 🇸🇬 SG-AWS | V2 | 广移中转
       - 🇨🇳 TW-HINET | V2 | 广移中转
       - 🇭🇰 香港09
+      - 🇳🇱 阿姆斯特丹
+      - 🇯🇵 日本东京
+      - 🇯🇵 日本东京 2
+      - 🇨🇳 台湾5 原生|广州移动|V2
+      - 🇸🇬 新加坡2 广州移动|V2
+      - 🇯🇵 日本2 广州移动|V2
+      - 🇺🇸 美国2 NF|HBOMAX|广州移动|V2
+      - 🇭🇰 香港5 原生|广州移动|V3
+      - 🇨🇳 TW 01 Hinet Azure 1x
+      - 🇭🇰 HK 10 Azure NTT Stream 1x
+      - 🇭🇰 HK 11 CN2 GIA 1x
+      - 🇯🇵 JP 01 KDDI Direct Stream 1x
+      - 🇯🇵 JP 02 KDDI Azure Stream 1x
+      - 🇰🇷 KR 01 AWS Direct 1x
+      - 🇰🇷 KR 02 AWS Azure 1x
+      - 🇸🇬 SG 01 AWS Direct 1x
+      - 🇸🇬 SG 02 AWS Azure 1x
+      - 🇯🇵 日本
+      - 🇭🇰 香港01--
+      - 🇭🇰 香港02|
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -83,6 +123,26 @@ proxy-groups:
       - 🇸🇬 SG-AWS | V2 | 广移中转
       - 🇨🇳 TW-HINET | V2 | 广移中转
       - 🇭🇰 香港09
+      - 🇳🇱 阿姆斯特丹
+      - 🇯🇵 日本东京
+      - 🇯🇵 日本东京 2
+      - 🇨🇳 台湾5 原生|广州移动|V2
+      - 🇸🇬 新加坡2 广州移动|V2
+      - 🇯🇵 日本2 广州移动|V2
+      - 🇺🇸 美国2 NF|HBOMAX|广州移动|V2
+      - 🇭🇰 香港5 原生|广州移动|V3
+      - 🇨🇳 TW 01 Hinet Azure 1x
+      - 🇭🇰 HK 10 Azure NTT Stream 1x
+      - 🇭🇰 HK 11 CN2 GIA 1x
+      - 🇯🇵 JP 01 KDDI Direct Stream 1x
+      - 🇯🇵 JP 02 KDDI Azure Stream 1x
+      - 🇰🇷 KR 01 AWS Direct 1x
+      - 🇰🇷 KR 02 AWS Azure 1x
+      - 🇸🇬 SG 01 AWS Direct 1x
+      - 🇸🇬 SG 02 AWS Azure 1x
+      - 🇯🇵 日本
+      - 🇭🇰 香港01--
+      - 🇭🇰 香港02|
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -111,6 +171,26 @@ proxy-groups:
       - 🇸🇬 SG-AWS | V2 | 广移中转
       - 🇨🇳 TW-HINET | V2 | 广移中转
       - 🇭🇰 香港09
+      - 🇳🇱 阿姆斯特丹
+      - 🇯🇵 日本东京
+      - 🇯🇵 日本东京 2
+      - 🇨🇳 台湾5 原生|广州移动|V2
+      - 🇸🇬 新加坡2 广州移动|V2
+      - 🇯🇵 日本2 广州移动|V2
+      - 🇺🇸 美国2 NF|HBOMAX|广州移动|V2
+      - 🇭🇰 香港5 原生|广州移动|V3
+      - 🇨🇳 TW 01 Hinet Azure 1x
+      - 🇭🇰 HK 10 Azure NTT Stream 1x
+      - 🇭🇰 HK 11 CN2 GIA 1x
+      - 🇯🇵 JP 01 KDDI Direct Stream 1x
+      - 🇯🇵 JP 02 KDDI Azure Stream 1x
+      - 🇰🇷 KR 01 AWS Direct 1x
+      - 🇰🇷 KR 02 AWS Azure 1x
+      - 🇸🇬 SG 01 AWS Direct 1x
+      - 🇸🇬 SG 02 AWS Azure 1x
+      - 🇯🇵 日本
+      - 🇭🇰 香港01--
+      - 🇭🇰 香港02|
   - name: 📲 电报信息
     type: select
     proxies:
@@ -138,6 +218,26 @@ proxy-groups:
       - 🇸🇬 SG-AWS | V2 | 广移中转
       - 🇨🇳 TW-HINET | V2 | 广移中转
       - 🇭🇰 香港09
+      - 🇳🇱 阿姆斯特丹
+      - 🇯🇵 日本东京
+      - 🇯🇵 日本东京 2
+      - 🇨🇳 台湾5 原生|广州移动|V2
+      - 🇸🇬 新加坡2 广州移动|V2
+      - 🇯🇵 日本2 广州移动|V2
+      - 🇺🇸 美国2 NF|HBOMAX|广州移动|V2
+      - 🇭🇰 香港5 原生|广州移动|V3
+      - 🇨🇳 TW 01 Hinet Azure 1x
+      - 🇭🇰 HK 10 Azure NTT Stream 1x
+      - 🇭🇰 HK 11 CN2 GIA 1x
+      - 🇯🇵 JP 01 KDDI Direct Stream 1x
+      - 🇯🇵 JP 02 KDDI Azure Stream 1x
+      - 🇰🇷 KR 01 AWS Direct 1x
+      - 🇰🇷 KR 02 AWS Azure 1x
+      - 🇸🇬 SG 01 AWS Direct 1x
+      - 🇸🇬 SG 02 AWS Azure 1x
+      - 🇯🇵 日本
+      - 🇭🇰 香港01--
+      - 🇭🇰 香港02|
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -165,6 +265,26 @@ proxy-groups:
       - 🇸🇬 SG-AWS | V2 | 广移中转
       - 🇨🇳 TW-HINET | V2 | 广移中转
       - 🇭🇰 香港09
+      - 🇳🇱 阿姆斯特丹
+      - 🇯🇵 日本东京
+      - 🇯🇵 日本东京 2
+      - 🇨🇳 台湾5 原生|广州移动|V2
+      - 🇸🇬 新加坡2 广州移动|V2
+      - 🇯🇵 日本2 广州移动|V2
+      - 🇺🇸 美国2 NF|HBOMAX|广州移动|V2
+      - 🇭🇰 香港5 原生|广州移动|V3
+      - 🇨🇳 TW 01 Hinet Azure 1x
+      - 🇭🇰 HK 10 Azure NTT Stream 1x
+      - 🇭🇰 HK 11 CN2 GIA 1x
+      - 🇯🇵 JP 01 KDDI Direct Stream 1x
+      - 🇯🇵 JP 02 KDDI Azure Stream 1x
+      - 🇰🇷 KR 01 AWS Direct 1x
+      - 🇰🇷 KR 02 AWS Azure 1x
+      - 🇸🇬 SG 01 AWS Direct 1x
+      - 🇸🇬 SG 02 AWS Azure 1x
+      - 🇯🇵 日本
+      - 🇭🇰 香港01--
+      - 🇭🇰 香港02|
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -192,6 +312,26 @@ proxy-groups:
       - 🇸🇬 SG-AWS | V2 | 广移中转
       - 🇨🇳 TW-HINET | V2 | 广移中转
       - 🇭🇰 香港09
+      - 🇳🇱 阿姆斯特丹
+      - 🇯🇵 日本东京
+      - 🇯🇵 日本东京 2
+      - 🇨🇳 台湾5 原生|广州移动|V2
+      - 🇸🇬 新加坡2 广州移动|V2
+      - 🇯🇵 日本2 广州移动|V2
+      - 🇺🇸 美国2 NF|HBOMAX|广州移动|V2
+      - 🇭🇰 香港5 原生|广州移动|V3
+      - 🇨🇳 TW 01 Hinet Azure 1x
+      - 🇭🇰 HK 10 Azure NTT Stream 1x
+      - 🇭🇰 HK 11 CN2 GIA 1x
+      - 🇯🇵 JP 01 KDDI Direct Stream 1x
+      - 🇯🇵 JP 02 KDDI Azure Stream 1x
+      - 🇰🇷 KR 01 AWS Direct 1x
+      - 🇰🇷 KR 02 AWS Azure 1x
+      - 🇸🇬 SG 01 AWS Direct 1x
+      - 🇸🇬 SG 02 AWS Azure 1x
+      - 🇯🇵 日本
+      - 🇭🇰 香港01--
+      - 🇭🇰 香港02|
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -220,6 +360,26 @@ proxy-groups:
       - 🇸🇬 SG-AWS | V2 | 广移中转
       - 🇨🇳 TW-HINET | V2 | 广移中转
       - 🇭🇰 香港09
+      - 🇳🇱 阿姆斯特丹
+      - 🇯🇵 日本东京
+      - 🇯🇵 日本东京 2
+      - 🇨🇳 台湾5 原生|广州移动|V2
+      - 🇸🇬 新加坡2 广州移动|V2
+      - 🇯🇵 日本2 广州移动|V2
+      - 🇺🇸 美国2 NF|HBOMAX|广州移动|V2
+      - 🇭🇰 香港5 原生|广州移动|V3
+      - 🇨🇳 TW 01 Hinet Azure 1x
+      - 🇭🇰 HK 10 Azure NTT Stream 1x
+      - 🇭🇰 HK 11 CN2 GIA 1x
+      - 🇯🇵 JP 01 KDDI Direct Stream 1x
+      - 🇯🇵 JP 02 KDDI Azure Stream 1x
+      - 🇰🇷 KR 01 AWS Direct 1x
+      - 🇰🇷 KR 02 AWS Azure 1x
+      - 🇸🇬 SG 01 AWS Direct 1x
+      - 🇸🇬 SG 02 AWS Azure 1x
+      - 🇯🇵 日本
+      - 🇭🇰 香港01--
+      - 🇭🇰 香港02|
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -264,6 +424,26 @@ proxy-groups:
       - 🇸🇬 SG-AWS | V2 | 广移中转
       - 🇨🇳 TW-HINET | V2 | 广移中转
       - 🇭🇰 香港09
+      - 🇳🇱 阿姆斯特丹
+      - 🇯🇵 日本东京
+      - 🇯🇵 日本东京 2
+      - 🇨🇳 台湾5 原生|广州移动|V2
+      - 🇸🇬 新加坡2 广州移动|V2
+      - 🇯🇵 日本2 广州移动|V2
+      - 🇺🇸 美国2 NF|HBOMAX|广州移动|V2
+      - 🇭🇰 香港5 原生|广州移动|V3
+      - 🇨🇳 TW 01 Hinet Azure 1x
+      - 🇭🇰 HK 10 Azure NTT Stream 1x
+      - 🇭🇰 HK 11 CN2 GIA 1x
+      - 🇯🇵 JP 01 KDDI Direct Stream 1x
+      - 🇯🇵 JP 02 KDDI Azure Stream 1x
+      - 🇰🇷 KR 01 AWS Direct 1x
+      - 🇰🇷 KR 02 AWS Azure 1x
+      - 🇸🇬 SG 01 AWS Direct 1x
+      - 🇸🇬 SG 02 AWS Azure 1x
+      - 🇯🇵 日本
+      - 🇭🇰 香港01--
+      - 🇭🇰 香港02|
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
