@@ -527,8 +527,6 @@ rules:
  - DOMAIN-SUFFIX,googleadsserving.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,googlecommerce.com,🛑 全球拦截
  - DOMAIN-SUFFIX,googlesyndication.com,🛑 全球拦截
- - DOMAIN-SUFFIX,googletagmanager.com,🛑 全球拦截
- - DOMAIN-SUFFIX,googletagservices.com,🛑 全球拦截
  - DOMAIN-SUFFIX,mobileads.google.com,🛑 全球拦截
  - DOMAIN-SUFFIX,pagead-tpc.l.google.com,🛑 全球拦截
  - DOMAIN-SUFFIX,pagead.google.com,🛑 全球拦截
@@ -2160,7 +2158,6 @@ rules:
  - IP-CIDR,74.125.203.188/32,📢 谷歌FCM,no-resolve
  - IP-CIDR,74.125.204.188/32,📢 谷歌FCM,no-resolve
  - IP-CIDR,74.125.206.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,108.177.97.188/32,📢 谷歌FCM,no-resolve
  - IP-CIDR,108.177.125.188/32,📢 谷歌FCM,no-resolve
  - IP-CIDR,142.250.4.188/32,📢 谷歌FCM,no-resolve
  - IP-CIDR,142.250.10.188/32,📢 谷歌FCM,no-resolve
@@ -2637,6 +2634,7 @@ rules:
  - DOMAIN-SUFFIX,dubox.com,🚀 节点选择
  - DOMAIN-SUFFIX,gameloft.com,🚀 节点选择
  - DOMAIN-SUFFIX,garena.com,🚀 节点选择
+ - DOMAIN-SUFFIX,hoyolab.com,🚀 节点选择
  - DOMAIN-SUFFIX,inoreader.com,🚀 节点选择
  - DOMAIN-SUFFIX,ip138.com,🚀 节点选择
  - DOMAIN-SUFFIX,ping.pe,🚀 节点选择
