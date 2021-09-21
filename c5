@@ -527,6 +527,8 @@ rules:
  - DOMAIN-SUFFIX,googleadsserving.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,googlecommerce.com,🛑 全球拦截
  - DOMAIN-SUFFIX,googlesyndication.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,googletagmanager.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,googletagservices.com,🛑 全球拦截
  - DOMAIN-SUFFIX,mobileads.google.com,🛑 全球拦截
  - DOMAIN-SUFFIX,pagead-tpc.l.google.com,🛑 全球拦截
  - DOMAIN-SUFFIX,pagead.google.com,🛑 全球拦截
