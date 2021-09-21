@@ -5,16 +5,16 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇯🇵 日本东京, server: 13.115.11.87, port: 65443, type: vmess, uuid: 68078def-1393-4cbc-9800-d16f3d7e9c63, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /002c858d032f8/, ws-headers: {Host: jp3.piyou.cyou}}
-  - {name: 中秋快乐, server: 193.29.107.237, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
-  - {name: 🇸🇬 新加坡, server: 157.230.44.51, port: 80, type: vmess, uuid: 74ac1672-ca47-48e4-df3e-513bd1f301b1, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /白嫖节点分享Q群262349039, ws-headers: {Host: 157.230.44.51}}
-  - {name: IN_9359, server: 15.207.86.231, port: 80, type: vmess, uuid: 8240804b-4f9f-4ceb-9adf-ff86ed8413f1, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 15.207.86.231}}
-  - {name: IN_9360, server: 35.200.202.178, port: 31248, type: vmess, uuid: a0dab56c-b270-46db-bcba-5419cd176485, alterId: 64, cipher: auto, tls: false}
-  - {name: Relay_🇮🇳IN-🇮🇳IN_9358, server: in01.v2net.top, port: 443, type: vmess, uuid: 21E593EB-EAC8-0FCC-8A66-9E74C1752F15, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: in01.v2net.top}}
-  - {name: 🇨🇳 CN_4098, server: 192.74.254.112, port: 58719, type: vmess, uuid: ae1048eb-a962-48f6-b15f-013d83d0b6c7, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_14207, server: tw1.v2.qjnodeip.xyz, port: 10086, type: vmess, uuid: 21E593EB-EAC8-0FCC-8A66-9E74C1752F15, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_14209, server: tw2.v2.qjnodeip.xyz, port: 8300, type: vmess, uuid: 21E593EB-EAC8-0FCC-8A66-9E74C1752F15, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 TW_14208, server: 34.81.205.117, port: 6000, type: vmess, uuid: 1cb6ea16-6a40-39cc-a47f-0be12cba9aa9, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /xiaodao, ws-headers: {Host: 34.81.205.117}}
+  - {name: 中秋节快乐, server: 13.115.11.87, port: 65443, type: vmess, uuid: 68078def-1393-4cbc-9800-d16f3d7e9c63, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /002c858d032f8/, ws-headers: {Host: jp3.piyou.cyou}}
+  - {name: 二爷翻墙网 https://1808.ga, server: 193.29.107.237, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: 二爷翻墙网 https://1808.ga 2, server: 157.230.44.51, port: 80, type: vmess, uuid: 74ac1672-ca47-48e4-df3e-513bd1f301b1, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /白嫖节点分享Q群262349039, ws-headers: {Host: 157.230.44.51}}
+  - {name: 二爷翻墙网 https://1808.ga 3, server: 15.207.86.231, port: 80, type: vmess, uuid: 8240804b-4f9f-4ceb-9adf-ff86ed8413f1, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 15.207.86.231}}
+  - {name: 二爷翻墙网 https://1808.ga 4, server: 35.200.202.178, port: 31248, type: vmess, uuid: a0dab56c-b270-46db-bcba-5419cd176485, alterId: 64, cipher: auto, tls: false}
+  - {name: 二爷翻墙网 https://1808.ga 5, server: in01.v2net.top, port: 443, type: vmess, uuid: 21E593EB-EAC8-0FCC-8A66-9E74C1752F15, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: in01.v2net.top}}
+  - {name: 二爷翻墙网 https://1808.ga 6, server: 192.74.254.112, port: 58719, type: vmess, uuid: ae1048eb-a962-48f6-b15f-013d83d0b6c7, alterId: 64, cipher: auto, tls: false}
+  - {name: 二爷翻墙网 https://1808.ga 7, server: tw1.v2.qjnodeip.xyz, port: 10086, type: vmess, uuid: 21E593EB-EAC8-0FCC-8A66-9E74C1752F15, alterId: 0, cipher: auto, tls: false}
+  - {name: 二爷翻墙网 https://1808.ga 8, server: tw2.v2.qjnodeip.xyz, port: 8300, type: vmess, uuid: 21E593EB-EAC8-0FCC-8A66-9E74C1752F15, alterId: 0, cipher: auto, tls: false}
+  - {name: 二爷翻墙网 https://1808.ga 9, server: 34.81.205.117, port: 6000, type: vmess, uuid: 1cb6ea16-6a40-39cc-a47f-0be12cba9aa9, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /xiaodao, ws-headers: {Host: 34.81.205.117}}
   - {name: 🇭🇰 HK_8333, server: 18.167.59.103, port: 80, type: vmess, uuid: 8240804b-4f9f-4ceb-9adf-ff86ed8413f1, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 18.167.59.103}}
   - {name: 🇭🇰 HK_8336, server: 18.167.59.103, port: 80, type: vmess, uuid: 7bd6dedf-8467-4107-97b5-9417fd8af09c, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 18.167.59.103}}
   - {name: 🇭🇰 HK_8339, server: 8.210.55.79, port: 80, type: vmess, uuid: 553529e7-eb6d-4a65-918e-8983d81737c9, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 8.210.55.79}}
@@ -83,7 +83,6 @@ proxies:
   - {name: 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_10480, server: jp.52jjyun.top, port: 88, type: vmess, uuid: 46261109-aa54-47e7-8ad1-8e170af43af1, alterId: 10, cipher: auto, tls: false, network: ws, ws-path: /jjyun, ws-headers: {Host: jp.52jjyun.top}}
   - {name: 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_10483, server: jpy01.quickairport.top, port: 80, type: vmess, uuid: f75c8425-0c87-4df5-a33f-f56e5c278122, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: jpy01.quickairport.top}}
   - {name: 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_10484, server: jpy01.quickairport.top, port: 80, type: vmess, uuid: 5f30f7b8-db85-43f8-a71f-7893c2e08f1e, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: jpy01.quickairport.top}}
-  - {name: 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_10485, server: jpy01.quickairport.top, port: 80, type: vmess, uuid: 60dccac6-b320-43f6-a493-2cdb9dbe83be, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: jpy01.quickairport.top}}
   - {name: 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_10486, server: jp.52jjyun.top, port: 22, type: vmess, uuid: a6bdde94-ee0e-431c-9cda-0fa0ea24231d, alterId: 10, cipher: auto, tls: false, network: ws, ws-path: /jjyun, ws-headers: {Host: jp.52jjyun.top}}
   - {name: 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_10487, server: jpy01.quickairport.top, port: 80, type: vmess, uuid: 3f87392f-cbe6-4aa6-91a7-b36a92e3aac0, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: jpy01.quickairport.top}}
   - {name: 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_10488, server: jp10cf.v2cdn.org, port: 443, type: vmess, uuid: 21E593EB-EAC8-0FCC-8A66-9E74C1752F15, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: jp10cf.v2cdn.org}}
@@ -210,22 +209,31 @@ proxies:
   - {name: debian-v5, server: v5.coding996.com, port: 443, type: vmess, uuid: 37c8deba-9a5b-4502-8fc3-d0536620c7bd, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /baidu, ws-headers: {Host: v5.coding996.com}}
   - {name: debian-v6, server: v6.coding996.com, port: 443, type: vmess, uuid: eda0e3a5-8e3c-4e9e-8540-208fb7c70d06, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /wechat, ws-headers: {Host: v6.coding996.com}}
   - {name: debian-v7, server: v7.coding996.com, port: 443, type: vmess, uuid: 3095ccd7-cb4d-4229-98d3-fde96aa37906, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /baidu, ws-headers: {Host: v7.coding996.com}}
+  - {name: 中秋快乐 （副本）, server: 193.29.107.237, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: 🇸🇬 SG-AWS | V2 | 广移中转, server: ngzyd-1.okex-tradebot.xyz, port: 30004, type: vmess, uuid: 09d2ed29-18b4-43a8-9adb-a5f4b5ce5663, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: ngzyd-1.okex-tradebot.xyz}}
+  - {name: 🇨🇳 TW-HINET | V2 | 广移中转, server: ngzyd-1.okex-tradebot.xyz, port: 30012, type: vmess, uuid: 09d2ed29-18b4-43a8-9adb-a5f4b5ce5663, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: ngzyd-1.okex-tradebot.xyz}}
+  - {name: 🇸🇬 新加坡03, server: 157.245.194.176, port: 1111, type: vmess, uuid: bf59de37-a4e0-4755-97df-d9389e4be8ad, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /videos, ws-headers: {Host: 157.245.194.176}}
+  - {name: 🇸🇬 新加坡1 华南移动|V3*, server: rxzgzq.moox.icu, port: 34015, type: vmess, uuid: fce8e03b-f0b8-49e0-a732-2cc44edb0137, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: rxzgzq.moox.icu}}
+  - {name: 🇯🇵 日本2 广州移动|V2*, server: icajm.moox.icu, port: 40005, type: vmess, uuid: fce8e03b-f0b8-49e0-a732-2cc44edb0137, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: icajm.moox.icu}}
+  - {name: 🇭🇰 香港08, server: ahyd1.kexueddns.club, port: 48072, type: vmess, uuid: bf59de37-a4e0-4755-97df-d9389e4be8ad, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /videos, ws-headers: {Host: ahyd1.kexueddns.club}}
+  - {name: 🇭🇰 香港5 原生|广州移动|V3*, server: icajm.moox.icu, port: 40001, type: vmess, uuid: fce8e03b-f0b8-49e0-a732-2cc44edb0137, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: icajm.moox.icu}}
+  - {name: 🇭🇰 香港7 原生|华南移动|V3*, server: rxzgzq.moox.icu, port: 34025, type: vmess, uuid: fce8e03b-f0b8-49e0-a732-2cc44edb0137, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: rxzgzq.moox.icu}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇯🇵 日本东京
-      - 中秋快乐
-      - 🇸🇬 新加坡
-      - IN_9359
-      - IN_9360
-      - Relay_🇮🇳IN-🇮🇳IN_9358
-      - 🇨🇳 CN_4098
-      - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_14207
-      - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_14209
-      - 🇨🇳 TW_14208
+      - 中秋节快乐
+      - 二爷翻墙网 https://1808.ga
+      - 二爷翻墙网 https://1808.ga 2
+      - 二爷翻墙网 https://1808.ga 3
+      - 二爷翻墙网 https://1808.ga 4
+      - 二爷翻墙网 https://1808.ga 5
+      - 二爷翻墙网 https://1808.ga 6
+      - 二爷翻墙网 https://1808.ga 7
+      - 二爷翻墙网 https://1808.ga 8
+      - 二爷翻墙网 https://1808.ga 9
       - 🇭🇰 HK_8333
       - 🇭🇰 HK_8336
       - 🇭🇰 HK_8339
@@ -294,7 +302,6 @@ proxy-groups:
       - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_10480
       - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_10483
       - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_10484
-      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_10485
       - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_10486
       - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_10487
       - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_10488
@@ -421,22 +428,31 @@ proxy-groups:
       - debian-v5
       - debian-v6
       - debian-v7
+      - 中秋快乐 （副本）
+      - 🇸🇬 SG-AWS | V2 | 广移中转
+      - 🇨🇳 TW-HINET | V2 | 广移中转
+      - 🇸🇬 新加坡03
+      - 🇸🇬 新加坡1 华南移动|V3*
+      - 🇯🇵 日本2 广州移动|V2*
+      - 🇭🇰 香港08
+      - 🇭🇰 香港5 原生|广州移动|V3*
+      - 🇭🇰 香港7 原生|华南移动|V3*
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇯🇵 日本东京
-      - 中秋快乐
-      - 🇸🇬 新加坡
-      - IN_9359
-      - IN_9360
-      - Relay_🇮🇳IN-🇮🇳IN_9358
-      - 🇨🇳 CN_4098
-      - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_14207
-      - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_14209
-      - 🇨🇳 TW_14208
+      - 中秋节快乐
+      - 二爷翻墙网 https://1808.ga
+      - 二爷翻墙网 https://1808.ga 2
+      - 二爷翻墙网 https://1808.ga 3
+      - 二爷翻墙网 https://1808.ga 4
+      - 二爷翻墙网 https://1808.ga 5
+      - 二爷翻墙网 https://1808.ga 6
+      - 二爷翻墙网 https://1808.ga 7
+      - 二爷翻墙网 https://1808.ga 8
+      - 二爷翻墙网 https://1808.ga 9
       - 🇭🇰 HK_8333
       - 🇭🇰 HK_8336
       - 🇭🇰 HK_8339
@@ -505,7 +521,6 @@ proxy-groups:
       - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_10480
       - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_10483
       - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_10484
-      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_10485
       - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_10486
       - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_10487
       - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_10488
@@ -632,22 +647,31 @@ proxy-groups:
       - debian-v5
       - debian-v6
       - debian-v7
+      - 中秋快乐 （副本）
+      - 🇸🇬 SG-AWS | V2 | 广移中转
+      - 🇨🇳 TW-HINET | V2 | 广移中转
+      - 🇸🇬 新加坡03
+      - 🇸🇬 新加坡1 华南移动|V3*
+      - 🇯🇵 日本2 广州移动|V2*
+      - 🇭🇰 香港08
+      - 🇭🇰 香港5 原生|广州移动|V3*
+      - 🇭🇰 香港7 原生|华南移动|V3*
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇯🇵 日本东京
-      - 中秋快乐
-      - 🇸🇬 新加坡
-      - IN_9359
-      - IN_9360
-      - Relay_🇮🇳IN-🇮🇳IN_9358
-      - 🇨🇳 CN_4098
-      - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_14207
-      - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_14209
-      - 🇨🇳 TW_14208
+      - 中秋节快乐
+      - 二爷翻墙网 https://1808.ga
+      - 二爷翻墙网 https://1808.ga 2
+      - 二爷翻墙网 https://1808.ga 3
+      - 二爷翻墙网 https://1808.ga 4
+      - 二爷翻墙网 https://1808.ga 5
+      - 二爷翻墙网 https://1808.ga 6
+      - 二爷翻墙网 https://1808.ga 7
+      - 二爷翻墙网 https://1808.ga 8
+      - 二爷翻墙网 https://1808.ga 9
       - 🇭🇰 HK_8333
       - 🇭🇰 HK_8336
       - 🇭🇰 HK_8339
@@ -716,7 +740,6 @@ proxy-groups:
       - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_10480
       - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_10483
       - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_10484
-      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_10485
       - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_10486
       - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_10487
       - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_10488
@@ -843,21 +866,30 @@ proxy-groups:
       - debian-v5
       - debian-v6
       - debian-v7
+      - 中秋快乐 （副本）
+      - 🇸🇬 SG-AWS | V2 | 广移中转
+      - 🇨🇳 TW-HINET | V2 | 广移中转
+      - 🇸🇬 新加坡03
+      - 🇸🇬 新加坡1 华南移动|V3*
+      - 🇯🇵 日本2 广州移动|V2*
+      - 🇭🇰 香港08
+      - 🇭🇰 香港5 原生|广州移动|V3*
+      - 🇭🇰 香港7 原生|华南移动|V3*
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇯🇵 日本东京
-      - 中秋快乐
-      - 🇸🇬 新加坡
-      - IN_9359
-      - IN_9360
-      - Relay_🇮🇳IN-🇮🇳IN_9358
-      - 🇨🇳 CN_4098
-      - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_14207
-      - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_14209
-      - 🇨🇳 TW_14208
+      - 中秋节快乐
+      - 二爷翻墙网 https://1808.ga
+      - 二爷翻墙网 https://1808.ga 2
+      - 二爷翻墙网 https://1808.ga 3
+      - 二爷翻墙网 https://1808.ga 4
+      - 二爷翻墙网 https://1808.ga 5
+      - 二爷翻墙网 https://1808.ga 6
+      - 二爷翻墙网 https://1808.ga 7
+      - 二爷翻墙网 https://1808.ga 8
+      - 二爷翻墙网 https://1808.ga 9
       - 🇭🇰 HK_8333
       - 🇭🇰 HK_8336
       - 🇭🇰 HK_8339
@@ -926,7 +958,6 @@ proxy-groups:
       - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_10480
       - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_10483
       - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_10484
-      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_10485
       - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_10486
       - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_10487
       - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_10488
@@ -1053,21 +1084,30 @@ proxy-groups:
       - debian-v5
       - debian-v6
       - debian-v7
+      - 中秋快乐 （副本）
+      - 🇸🇬 SG-AWS | V2 | 广移中转
+      - 🇨🇳 TW-HINET | V2 | 广移中转
+      - 🇸🇬 新加坡03
+      - 🇸🇬 新加坡1 华南移动|V3*
+      - 🇯🇵 日本2 广州移动|V2*
+      - 🇭🇰 香港08
+      - 🇭🇰 香港5 原生|广州移动|V3*
+      - 🇭🇰 香港7 原生|华南移动|V3*
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇯🇵 日本东京
-      - 中秋快乐
-      - 🇸🇬 新加坡
-      - IN_9359
-      - IN_9360
-      - Relay_🇮🇳IN-🇮🇳IN_9358
-      - 🇨🇳 CN_4098
-      - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_14207
-      - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_14209
-      - 🇨🇳 TW_14208
+      - 中秋节快乐
+      - 二爷翻墙网 https://1808.ga
+      - 二爷翻墙网 https://1808.ga 2
+      - 二爷翻墙网 https://1808.ga 3
+      - 二爷翻墙网 https://1808.ga 4
+      - 二爷翻墙网 https://1808.ga 5
+      - 二爷翻墙网 https://1808.ga 6
+      - 二爷翻墙网 https://1808.ga 7
+      - 二爷翻墙网 https://1808.ga 8
+      - 二爷翻墙网 https://1808.ga 9
       - 🇭🇰 HK_8333
       - 🇭🇰 HK_8336
       - 🇭🇰 HK_8339
@@ -1136,7 +1176,6 @@ proxy-groups:
       - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_10480
       - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_10483
       - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_10484
-      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_10485
       - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_10486
       - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_10487
       - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_10488
@@ -1263,21 +1302,30 @@ proxy-groups:
       - debian-v5
       - debian-v6
       - debian-v7
+      - 中秋快乐 （副本）
+      - 🇸🇬 SG-AWS | V2 | 广移中转
+      - 🇨🇳 TW-HINET | V2 | 广移中转
+      - 🇸🇬 新加坡03
+      - 🇸🇬 新加坡1 华南移动|V3*
+      - 🇯🇵 日本2 广州移动|V2*
+      - 🇭🇰 香港08
+      - 🇭🇰 香港5 原生|广州移动|V3*
+      - 🇭🇰 香港7 原生|华南移动|V3*
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇯🇵 日本东京
-      - 中秋快乐
-      - 🇸🇬 新加坡
-      - IN_9359
-      - IN_9360
-      - Relay_🇮🇳IN-🇮🇳IN_9358
-      - 🇨🇳 CN_4098
-      - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_14207
-      - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_14209
-      - 🇨🇳 TW_14208
+      - 中秋节快乐
+      - 二爷翻墙网 https://1808.ga
+      - 二爷翻墙网 https://1808.ga 2
+      - 二爷翻墙网 https://1808.ga 3
+      - 二爷翻墙网 https://1808.ga 4
+      - 二爷翻墙网 https://1808.ga 5
+      - 二爷翻墙网 https://1808.ga 6
+      - 二爷翻墙网 https://1808.ga 7
+      - 二爷翻墙网 https://1808.ga 8
+      - 二爷翻墙网 https://1808.ga 9
       - 🇭🇰 HK_8333
       - 🇭🇰 HK_8336
       - 🇭🇰 HK_8339
@@ -1346,7 +1394,6 @@ proxy-groups:
       - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_10480
       - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_10483
       - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_10484
-      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_10485
       - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_10486
       - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_10487
       - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_10488
@@ -1473,22 +1520,31 @@ proxy-groups:
       - debian-v5
       - debian-v6
       - debian-v7
+      - 中秋快乐 （副本）
+      - 🇸🇬 SG-AWS | V2 | 广移中转
+      - 🇨🇳 TW-HINET | V2 | 广移中转
+      - 🇸🇬 新加坡03
+      - 🇸🇬 新加坡1 华南移动|V3*
+      - 🇯🇵 日本2 广州移动|V2*
+      - 🇭🇰 香港08
+      - 🇭🇰 香港5 原生|广州移动|V3*
+      - 🇭🇰 香港7 原生|华南移动|V3*
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇯🇵 日本东京
-      - 中秋快乐
-      - 🇸🇬 新加坡
-      - IN_9359
-      - IN_9360
-      - Relay_🇮🇳IN-🇮🇳IN_9358
-      - 🇨🇳 CN_4098
-      - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_14207
-      - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_14209
-      - 🇨🇳 TW_14208
+      - 中秋节快乐
+      - 二爷翻墙网 https://1808.ga
+      - 二爷翻墙网 https://1808.ga 2
+      - 二爷翻墙网 https://1808.ga 3
+      - 二爷翻墙网 https://1808.ga 4
+      - 二爷翻墙网 https://1808.ga 5
+      - 二爷翻墙网 https://1808.ga 6
+      - 二爷翻墙网 https://1808.ga 7
+      - 二爷翻墙网 https://1808.ga 8
+      - 二爷翻墙网 https://1808.ga 9
       - 🇭🇰 HK_8333
       - 🇭🇰 HK_8336
       - 🇭🇰 HK_8339
@@ -1557,7 +1613,6 @@ proxy-groups:
       - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_10480
       - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_10483
       - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_10484
-      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_10485
       - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_10486
       - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_10487
       - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_10488
@@ -1684,6 +1739,15 @@ proxy-groups:
       - debian-v5
       - debian-v6
       - debian-v7
+      - 中秋快乐 （副本）
+      - 🇸🇬 SG-AWS | V2 | 广移中转
+      - 🇨🇳 TW-HINET | V2 | 广移中转
+      - 🇸🇬 新加坡03
+      - 🇸🇬 新加坡1 华南移动|V3*
+      - 🇯🇵 日本2 广州移动|V2*
+      - 🇭🇰 香港08
+      - 🇭🇰 香港5 原生|广州移动|V3*
+      - 🇭🇰 香港7 原生|华南移动|V3*
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1706,16 +1770,16 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇯🇵 日本东京
-      - 中秋快乐
-      - 🇸🇬 新加坡
-      - IN_9359
-      - IN_9360
-      - Relay_🇮🇳IN-🇮🇳IN_9358
-      - 🇨🇳 CN_4098
-      - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_14207
-      - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_14209
-      - 🇨🇳 TW_14208
+      - 中秋节快乐
+      - 二爷翻墙网 https://1808.ga
+      - 二爷翻墙网 https://1808.ga 2
+      - 二爷翻墙网 https://1808.ga 3
+      - 二爷翻墙网 https://1808.ga 4
+      - 二爷翻墙网 https://1808.ga 5
+      - 二爷翻墙网 https://1808.ga 6
+      - 二爷翻墙网 https://1808.ga 7
+      - 二爷翻墙网 https://1808.ga 8
+      - 二爷翻墙网 https://1808.ga 9
       - 🇭🇰 HK_8333
       - 🇭🇰 HK_8336
       - 🇭🇰 HK_8339
@@ -1784,7 +1848,6 @@ proxy-groups:
       - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_10480
       - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_10483
       - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_10484
-      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_10485
       - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_10486
       - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_10487
       - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_10488
@@ -1911,6 +1974,15 @@ proxy-groups:
       - debian-v5
       - debian-v6
       - debian-v7
+      - 中秋快乐 （副本）
+      - 🇸🇬 SG-AWS | V2 | 广移中转
+      - 🇨🇳 TW-HINET | V2 | 广移中转
+      - 🇸🇬 新加坡03
+      - 🇸🇬 新加坡1 华南移动|V3*
+      - 🇯🇵 日本2 广州移动|V2*
+      - 🇭🇰 香港08
+      - 🇭🇰 香港5 原生|广州移动|V3*
+      - 🇭🇰 香港7 原生|华南移动|V3*
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
