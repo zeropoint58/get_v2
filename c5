@@ -44,6 +44,21 @@ proxies:
   - {name: 🇸🇬 新加坡高级节点1号 2, server: sg1.qtyuncloud.tk, port: 2052, type: vmess, uuid: 985df97c-9eab-3f96-b29b-26bb0f507812, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: sg1.qtyuncloud.tk}}
   - {name: 🇸🇬 新加坡高级节点2号 2, server: sg2.qtyuncloud.tk, port: 2052, type: vmess, uuid: 985df97c-9eab-3f96-b29b-26bb0f507812, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: sg2.qtyuncloud.tk}}
   - {name: 🇯🇵 日本高级节点1号 2, server: jp1.qtyuncloud.tk, port: 2052, type: vmess, uuid: 985df97c-9eab-3f96-b29b-26bb0f507812, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: jp1.qtyuncloud.tk}}
+  - {name: azure.mikahe.xyz_Trojan, server: azure-f4s-hk.transfer-xray.tk, port: 20261, type: trojan, password: 5a9b2bb0-d981-c6c0-779e-d8974dc48009, sni: azure-f4s-hk.transfer-xray.tk}
+  - {name: azure.mikahe.xyz_Trojan 2, server: azure-f4s-hk.transfer-xray.tk, port: 20261, type: trojan, password: 5a9b2bb0-d981-c6c0-779e-d8974dc48009, sni: azure-f4s-hk.transfer-xray.tk}
+  - {name: azure.mikahe.xyz_vmess_ws, server: azure-f4s-hk.transfer-xray.tk, port: 20261, type: vmess, uuid: 5a9b2bb0-d981-c6c0-779e-d8974dc48009, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/kxdkvws?ed=2048", ws-headers: {Host: azure.mikahe.xyz}}
+  - {name: do.19990504.xyz_Trojan, server: azure-f4s-hk.transfer-xray.tk, port: 14407, type: trojan, password: 04fe8b98-8a68-4824-9612-7ed0228d9a76, sni: azure-f4s-hk.transfer-xray.tk}
+  - {name: do.19990504.xyz_Trojan 2, server: azure-f4s-hk.transfer-xray.tk, port: 14407, type: trojan, password: 04fe8b98-8a68-4824-9612-7ed0228d9a76, sni: azure-f4s-hk.transfer-xray.tk}
+  - {name: do.19990504.xyz_vmess_ws, server: azure-f4s-hk.transfer-xray.tk, port: 14407, type: vmess, uuid: 04fe8b98-8a68-4824-9612-7ed0228d9a76, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/vxctvws?ed=2048", ws-headers: {Host: do.19990504.xyz}}
+  - {name: oracle.mikahe.xyz_Trojan, server: azure-f4s-hk.transfer-xray.tk, port: 43032, type: trojan, password: 7374fc72-675e-474d-a0d6-51e8bad14ee2, sni: azure-f4s-hk.transfer-xray.tk}
+  - {name: oracle.mikahe.xyz_Trojan 2, server: azure-f4s-hk.transfer-xray.tk, port: 43032, type: trojan, password: 7374fc72-675e-474d-a0d6-51e8bad14ee2, sni: azure-f4s-hk.transfer-xray.tk}
+  - {name: oracle.mikahe.xyz_vmess_ws, server: azure-f4s-hk.transfer-xray.tk, port: 43032, type: vmess, uuid: 7374fc72-675e-474d-a0d6-51e8bad14ee2, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/bfrqvvws?ed=2048", ws-headers: {Host: oracle.mikahe.xyz}}
+  - {name: sydney1.mikahe.xyz_Trojan, server: azure-f4s-hk.transfer-xray.tk, port: 61370, type: trojan, password: 47de76e0-7a40-4410-acbc-a6dd18f9ffcd, sni: azure-f4s-hk.transfer-xray.tk}
+  - {name: sydney1.mikahe.xyz_Trojan 2, server: azure-f4s-hk.transfer-xray.tk, port: 61370, type: trojan, password: 47de76e0-7a40-4410-acbc-a6dd18f9ffcd, sni: azure-f4s-hk.transfer-xray.tk}
+  - {name: sydney1.mikahe.xyz_vmess_ws, server: azure-f4s-hk.transfer-xray.tk, port: 61370, type: vmess, uuid: 47de76e0-7a40-4410-acbc-a6dd18f9ffcd, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/zlpivws?ed=2048", ws-headers: {Host: sydney1.mikahe.xyz}}
+  - {name: xu.mikahe.xyz_Trojan, server: azure-f4s-hk.transfer-xray.tk, port: 52382, type: trojan, password: a54f2aba-20a5-4f0d-bd6e-43767b473c63, sni: azure-f4s-hk.transfer-xray.tk}
+  - {name: xu.mikahe.xyz_Trojan 2, server: azure-f4s-hk.transfer-xray.tk, port: 52382, type: trojan, password: a54f2aba-20a5-4f0d-bd6e-43767b473c63, sni: azure-f4s-hk.transfer-xray.tk}
+  - {name: xu.mikahe.xyz_vmess_ws, server: azure-f4s-hk.transfer-xray.tk, port: 52382, type: vmess, uuid: a54f2aba-20a5-4f0d-bd6e-43767b473c63, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/optvws?ed=2048", ws-headers: {Host: xu.mikahe.xyz}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -89,6 +104,21 @@ proxy-groups:
       - 🇸🇬 新加坡高级节点1号 2
       - 🇸🇬 新加坡高级节点2号 2
       - 🇯🇵 日本高级节点1号 2
+      - azure.mikahe.xyz_Trojan
+      - azure.mikahe.xyz_Trojan 2
+      - azure.mikahe.xyz_vmess_ws
+      - do.19990504.xyz_Trojan
+      - do.19990504.xyz_Trojan 2
+      - do.19990504.xyz_vmess_ws
+      - oracle.mikahe.xyz_Trojan
+      - oracle.mikahe.xyz_Trojan 2
+      - oracle.mikahe.xyz_vmess_ws
+      - sydney1.mikahe.xyz_Trojan
+      - sydney1.mikahe.xyz_Trojan 2
+      - sydney1.mikahe.xyz_vmess_ws
+      - xu.mikahe.xyz_Trojan
+      - xu.mikahe.xyz_Trojan 2
+      - xu.mikahe.xyz_vmess_ws
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -134,6 +164,21 @@ proxy-groups:
       - 🇸🇬 新加坡高级节点1号 2
       - 🇸🇬 新加坡高级节点2号 2
       - 🇯🇵 日本高级节点1号 2
+      - azure.mikahe.xyz_Trojan
+      - azure.mikahe.xyz_Trojan 2
+      - azure.mikahe.xyz_vmess_ws
+      - do.19990504.xyz_Trojan
+      - do.19990504.xyz_Trojan 2
+      - do.19990504.xyz_vmess_ws
+      - oracle.mikahe.xyz_Trojan
+      - oracle.mikahe.xyz_Trojan 2
+      - oracle.mikahe.xyz_vmess_ws
+      - sydney1.mikahe.xyz_Trojan
+      - sydney1.mikahe.xyz_Trojan 2
+      - sydney1.mikahe.xyz_vmess_ws
+      - xu.mikahe.xyz_Trojan
+      - xu.mikahe.xyz_Trojan 2
+      - xu.mikahe.xyz_vmess_ws
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -179,6 +224,21 @@ proxy-groups:
       - 🇸🇬 新加坡高级节点1号 2
       - 🇸🇬 新加坡高级节点2号 2
       - 🇯🇵 日本高级节点1号 2
+      - azure.mikahe.xyz_Trojan
+      - azure.mikahe.xyz_Trojan 2
+      - azure.mikahe.xyz_vmess_ws
+      - do.19990504.xyz_Trojan
+      - do.19990504.xyz_Trojan 2
+      - do.19990504.xyz_vmess_ws
+      - oracle.mikahe.xyz_Trojan
+      - oracle.mikahe.xyz_Trojan 2
+      - oracle.mikahe.xyz_vmess_ws
+      - sydney1.mikahe.xyz_Trojan
+      - sydney1.mikahe.xyz_Trojan 2
+      - sydney1.mikahe.xyz_vmess_ws
+      - xu.mikahe.xyz_Trojan
+      - xu.mikahe.xyz_Trojan 2
+      - xu.mikahe.xyz_vmess_ws
   - name: 📲 电报信息
     type: select
     proxies:
@@ -223,6 +283,21 @@ proxy-groups:
       - 🇸🇬 新加坡高级节点1号 2
       - 🇸🇬 新加坡高级节点2号 2
       - 🇯🇵 日本高级节点1号 2
+      - azure.mikahe.xyz_Trojan
+      - azure.mikahe.xyz_Trojan 2
+      - azure.mikahe.xyz_vmess_ws
+      - do.19990504.xyz_Trojan
+      - do.19990504.xyz_Trojan 2
+      - do.19990504.xyz_vmess_ws
+      - oracle.mikahe.xyz_Trojan
+      - oracle.mikahe.xyz_Trojan 2
+      - oracle.mikahe.xyz_vmess_ws
+      - sydney1.mikahe.xyz_Trojan
+      - sydney1.mikahe.xyz_Trojan 2
+      - sydney1.mikahe.xyz_vmess_ws
+      - xu.mikahe.xyz_Trojan
+      - xu.mikahe.xyz_Trojan 2
+      - xu.mikahe.xyz_vmess_ws
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -267,6 +342,21 @@ proxy-groups:
       - 🇸🇬 新加坡高级节点1号 2
       - 🇸🇬 新加坡高级节点2号 2
       - 🇯🇵 日本高级节点1号 2
+      - azure.mikahe.xyz_Trojan
+      - azure.mikahe.xyz_Trojan 2
+      - azure.mikahe.xyz_vmess_ws
+      - do.19990504.xyz_Trojan
+      - do.19990504.xyz_Trojan 2
+      - do.19990504.xyz_vmess_ws
+      - oracle.mikahe.xyz_Trojan
+      - oracle.mikahe.xyz_Trojan 2
+      - oracle.mikahe.xyz_vmess_ws
+      - sydney1.mikahe.xyz_Trojan
+      - sydney1.mikahe.xyz_Trojan 2
+      - sydney1.mikahe.xyz_vmess_ws
+      - xu.mikahe.xyz_Trojan
+      - xu.mikahe.xyz_Trojan 2
+      - xu.mikahe.xyz_vmess_ws
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -311,6 +401,21 @@ proxy-groups:
       - 🇸🇬 新加坡高级节点1号 2
       - 🇸🇬 新加坡高级节点2号 2
       - 🇯🇵 日本高级节点1号 2
+      - azure.mikahe.xyz_Trojan
+      - azure.mikahe.xyz_Trojan 2
+      - azure.mikahe.xyz_vmess_ws
+      - do.19990504.xyz_Trojan
+      - do.19990504.xyz_Trojan 2
+      - do.19990504.xyz_vmess_ws
+      - oracle.mikahe.xyz_Trojan
+      - oracle.mikahe.xyz_Trojan 2
+      - oracle.mikahe.xyz_vmess_ws
+      - sydney1.mikahe.xyz_Trojan
+      - sydney1.mikahe.xyz_Trojan 2
+      - sydney1.mikahe.xyz_vmess_ws
+      - xu.mikahe.xyz_Trojan
+      - xu.mikahe.xyz_Trojan 2
+      - xu.mikahe.xyz_vmess_ws
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -356,6 +461,21 @@ proxy-groups:
       - 🇸🇬 新加坡高级节点1号 2
       - 🇸🇬 新加坡高级节点2号 2
       - 🇯🇵 日本高级节点1号 2
+      - azure.mikahe.xyz_Trojan
+      - azure.mikahe.xyz_Trojan 2
+      - azure.mikahe.xyz_vmess_ws
+      - do.19990504.xyz_Trojan
+      - do.19990504.xyz_Trojan 2
+      - do.19990504.xyz_vmess_ws
+      - oracle.mikahe.xyz_Trojan
+      - oracle.mikahe.xyz_Trojan 2
+      - oracle.mikahe.xyz_vmess_ws
+      - sydney1.mikahe.xyz_Trojan
+      - sydney1.mikahe.xyz_Trojan 2
+      - sydney1.mikahe.xyz_vmess_ws
+      - xu.mikahe.xyz_Trojan
+      - xu.mikahe.xyz_Trojan 2
+      - xu.mikahe.xyz_vmess_ws
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -417,6 +537,21 @@ proxy-groups:
       - 🇸🇬 新加坡高级节点1号 2
       - 🇸🇬 新加坡高级节点2号 2
       - 🇯🇵 日本高级节点1号 2
+      - azure.mikahe.xyz_Trojan
+      - azure.mikahe.xyz_Trojan 2
+      - azure.mikahe.xyz_vmess_ws
+      - do.19990504.xyz_Trojan
+      - do.19990504.xyz_Trojan 2
+      - do.19990504.xyz_vmess_ws
+      - oracle.mikahe.xyz_Trojan
+      - oracle.mikahe.xyz_Trojan 2
+      - oracle.mikahe.xyz_vmess_ws
+      - sydney1.mikahe.xyz_Trojan
+      - sydney1.mikahe.xyz_Trojan 2
+      - sydney1.mikahe.xyz_vmess_ws
+      - xu.mikahe.xyz_Trojan
+      - xu.mikahe.xyz_Trojan 2
+      - xu.mikahe.xyz_vmess_ws
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
