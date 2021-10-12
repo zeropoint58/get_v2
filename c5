@@ -35,6 +35,16 @@ proxies:
   - {name: A-CC二爷翻墙网https://1808.ga 12, server: 198.57.27.243, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
   - {name: A-CC二爷翻墙网https://1808.ga 13, server: 198.57.27.247, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
   - {name: A-CC二爷翻墙网https://1808.ga 14, server: 193.118.60.165, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: shadowsocks/35.154.201.59:807-egwhs, server: 35.154.201.59, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: shadowsocks/35.154.201.59:812-jmfrx, server: 35.154.201.59, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: shadowsocks/167.88.63.29:806-xphzi, server: 167.88.63.29, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: shadowsocks/167.88.63.29:803-jviyy, server: 167.88.63.29, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: shadowsocks/185.160.24.217:805-etxhg, server: 185.160.24.217, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: shadowsocks/135.125.248.215:812-trbgw, server: 135.125.248.215, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: shadowsocks/95.85.90.181:807-zelwx, server: 95.85.90.181, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: shadowsocks/95.85.90.181:803-ifnzw, server: 95.85.90.181, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: shadowsocks/135.125.248.215:800-xxazu, server: 135.125.248.215, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: shadowsocks/95.85.90.181:810-olmrl, server: 95.85.90.181, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -71,6 +81,16 @@ proxy-groups:
       - A-CC二爷翻墙网https://1808.ga 12
       - A-CC二爷翻墙网https://1808.ga 13
       - A-CC二爷翻墙网https://1808.ga 14
+      - shadowsocks/35.154.201.59:807-egwhs
+      - shadowsocks/35.154.201.59:812-jmfrx
+      - shadowsocks/167.88.63.29:806-xphzi
+      - shadowsocks/167.88.63.29:803-jviyy
+      - shadowsocks/185.160.24.217:805-etxhg
+      - shadowsocks/135.125.248.215:812-trbgw
+      - shadowsocks/95.85.90.181:807-zelwx
+      - shadowsocks/95.85.90.181:803-ifnzw
+      - shadowsocks/135.125.248.215:800-xxazu
+      - shadowsocks/95.85.90.181:810-olmrl
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -107,6 +127,16 @@ proxy-groups:
       - A-CC二爷翻墙网https://1808.ga 12
       - A-CC二爷翻墙网https://1808.ga 13
       - A-CC二爷翻墙网https://1808.ga 14
+      - shadowsocks/35.154.201.59:807-egwhs
+      - shadowsocks/35.154.201.59:812-jmfrx
+      - shadowsocks/167.88.63.29:806-xphzi
+      - shadowsocks/167.88.63.29:803-jviyy
+      - shadowsocks/185.160.24.217:805-etxhg
+      - shadowsocks/135.125.248.215:812-trbgw
+      - shadowsocks/95.85.90.181:807-zelwx
+      - shadowsocks/95.85.90.181:803-ifnzw
+      - shadowsocks/135.125.248.215:800-xxazu
+      - shadowsocks/95.85.90.181:810-olmrl
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -143,6 +173,16 @@ proxy-groups:
       - A-CC二爷翻墙网https://1808.ga 12
       - A-CC二爷翻墙网https://1808.ga 13
       - A-CC二爷翻墙网https://1808.ga 14
+      - shadowsocks/35.154.201.59:807-egwhs
+      - shadowsocks/35.154.201.59:812-jmfrx
+      - shadowsocks/167.88.63.29:806-xphzi
+      - shadowsocks/167.88.63.29:803-jviyy
+      - shadowsocks/185.160.24.217:805-etxhg
+      - shadowsocks/135.125.248.215:812-trbgw
+      - shadowsocks/95.85.90.181:807-zelwx
+      - shadowsocks/95.85.90.181:803-ifnzw
+      - shadowsocks/135.125.248.215:800-xxazu
+      - shadowsocks/95.85.90.181:810-olmrl
   - name: 📲 电报信息
     type: select
     proxies:
@@ -178,6 +218,16 @@ proxy-groups:
       - A-CC二爷翻墙网https://1808.ga 12
       - A-CC二爷翻墙网https://1808.ga 13
       - A-CC二爷翻墙网https://1808.ga 14
+      - shadowsocks/35.154.201.59:807-egwhs
+      - shadowsocks/35.154.201.59:812-jmfrx
+      - shadowsocks/167.88.63.29:806-xphzi
+      - shadowsocks/167.88.63.29:803-jviyy
+      - shadowsocks/185.160.24.217:805-etxhg
+      - shadowsocks/135.125.248.215:812-trbgw
+      - shadowsocks/95.85.90.181:807-zelwx
+      - shadowsocks/95.85.90.181:803-ifnzw
+      - shadowsocks/135.125.248.215:800-xxazu
+      - shadowsocks/95.85.90.181:810-olmrl
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -213,6 +263,16 @@ proxy-groups:
       - A-CC二爷翻墙网https://1808.ga 12
       - A-CC二爷翻墙网https://1808.ga 13
       - A-CC二爷翻墙网https://1808.ga 14
+      - shadowsocks/35.154.201.59:807-egwhs
+      - shadowsocks/35.154.201.59:812-jmfrx
+      - shadowsocks/167.88.63.29:806-xphzi
+      - shadowsocks/167.88.63.29:803-jviyy
+      - shadowsocks/185.160.24.217:805-etxhg
+      - shadowsocks/135.125.248.215:812-trbgw
+      - shadowsocks/95.85.90.181:807-zelwx
+      - shadowsocks/95.85.90.181:803-ifnzw
+      - shadowsocks/135.125.248.215:800-xxazu
+      - shadowsocks/95.85.90.181:810-olmrl
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -248,6 +308,16 @@ proxy-groups:
       - A-CC二爷翻墙网https://1808.ga 12
       - A-CC二爷翻墙网https://1808.ga 13
       - A-CC二爷翻墙网https://1808.ga 14
+      - shadowsocks/35.154.201.59:807-egwhs
+      - shadowsocks/35.154.201.59:812-jmfrx
+      - shadowsocks/167.88.63.29:806-xphzi
+      - shadowsocks/167.88.63.29:803-jviyy
+      - shadowsocks/185.160.24.217:805-etxhg
+      - shadowsocks/135.125.248.215:812-trbgw
+      - shadowsocks/95.85.90.181:807-zelwx
+      - shadowsocks/95.85.90.181:803-ifnzw
+      - shadowsocks/135.125.248.215:800-xxazu
+      - shadowsocks/95.85.90.181:810-olmrl
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -284,6 +354,16 @@ proxy-groups:
       - A-CC二爷翻墙网https://1808.ga 12
       - A-CC二爷翻墙网https://1808.ga 13
       - A-CC二爷翻墙网https://1808.ga 14
+      - shadowsocks/35.154.201.59:807-egwhs
+      - shadowsocks/35.154.201.59:812-jmfrx
+      - shadowsocks/167.88.63.29:806-xphzi
+      - shadowsocks/167.88.63.29:803-jviyy
+      - shadowsocks/185.160.24.217:805-etxhg
+      - shadowsocks/135.125.248.215:812-trbgw
+      - shadowsocks/95.85.90.181:807-zelwx
+      - shadowsocks/95.85.90.181:803-ifnzw
+      - shadowsocks/135.125.248.215:800-xxazu
+      - shadowsocks/95.85.90.181:810-olmrl
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -336,6 +416,16 @@ proxy-groups:
       - A-CC二爷翻墙网https://1808.ga 12
       - A-CC二爷翻墙网https://1808.ga 13
       - A-CC二爷翻墙网https://1808.ga 14
+      - shadowsocks/35.154.201.59:807-egwhs
+      - shadowsocks/35.154.201.59:812-jmfrx
+      - shadowsocks/167.88.63.29:806-xphzi
+      - shadowsocks/167.88.63.29:803-jviyy
+      - shadowsocks/185.160.24.217:805-etxhg
+      - shadowsocks/135.125.248.215:812-trbgw
+      - shadowsocks/95.85.90.181:807-zelwx
+      - shadowsocks/95.85.90.181:803-ifnzw
+      - shadowsocks/135.125.248.215:800-xxazu
+      - shadowsocks/95.85.90.181:810-olmrl
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
