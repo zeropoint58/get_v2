@@ -13,24 +13,19 @@ proxies:
   - {name: 二爷翻墙网 https://1808.ga 6, server: 45.79.122.28, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
   - {name: 二爷翻墙网 https://1808.ga 7, server: 167.88.63.119, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
   - {name: 二爷翻墙网 https://1808.ga 8, server: 167.88.63.99, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: vmess-cloudflare-fw01, server: 1.1.1.1, port: 443, type: vmess, uuid: d7662dde-1d41-4c35-888b-033f1764b643, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/zeduvws?ed=2048", ws-headers: {Host: c.1808.cf}}
+  - {name: vmess-cloudflare-fw01, server: 1.1.1.1, port: 443, type: vmess, uuid: d7662dde-1d41-4c35-888b-033f1764b643, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/zeduvws?ed%3D2048", ws-headers: {Host: c.1808.cf}}
   - {name: ss3, server: 167.88.63.60, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
   - {name: ws2, server: 167.88.63.60, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
   - {name: ss5, server: 212.102.40.68, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
-  - {name: 二爷翻墙网 https://1808.ga 9, server: 1.1.1.1, port: 443, type: vmess, uuid: d7662dde-1d41-4c35-888b-033f1764b643, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/zeduvws?ed=2048", ws-headers: {Host: c.1808.cf}}
-  - {name: 二爷翻墙网 https://1808.ga 10, server: 104.16.106.176, port: 443, type: vmess, uuid: d7662dde-1d41-4c35-888b-033f1764b643, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/zeduvws?ed=2048", ws-headers: {Host: c.1808.cf}}
+  - {name: 1.1.1.1:443, server: 1.1.1.1, port: 443, type: vmess, uuid: d7662dde-1d41-4c35-888b-033f1764b643, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/zeduvws?ed%3D2048", ws-headers: {Host: c.1808.cf}}
+  - {name: 104.16.106.176:443, server: 104.16.106.176, port: 443, type: vmess, uuid: d7662dde-1d41-4c35-888b-033f1764b643, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/zeduvws?ed%3D2048", ws-headers: {Host: c.1808.cf}}
   - {name: 🇨🇳 台服1➤Hinet, server: 14.29.124.174, port: 21701, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
   - {name: 🇨🇳 台服2➤Hinet, server: 14.29.124.174, port: 20700, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
   - {name: ss5 2, server: 167.88.63.119, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
   - {name: 🇺🇸 us, server: 172.99.190.246, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇯🇵 JP-AWS | V2 | 广移中转, server: ngzyd-1.okex-tradebot.xyz, port: 30006, type: vmess, uuid: d5bec4cd-b013-49ca-813c-640d050c16e2, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: ngzyd-1.okex-tradebot.xyz}}
-  - {name: 🇸🇬 SG-AWS | V2 | 广移中转, server: ngzyd-1.okex-tradebot.xyz, port: 30004, type: vmess, uuid: d5bec4cd-b013-49ca-813c-640d050c16e2, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: ngzyd-1.okex-tradebot.xyz}}
-  - {name: "[1.0x] BGP BeiJing-Janpan-No.03", server: 52.80.255.101, port: 57201, type: vmess, uuid: e4936684-1b09-400c-943b-0037ebf162de, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 52.80.255.101}}
-  - {name: 🇨🇳 台湾2 原生|华南移动|V3, server: rxzgzq.moox.icu, port: 41025, type: vmess, uuid: c7d0329b-18b4-49ae-8c7c-f362d03e6bd7, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: rxzgzq.moox.icu}}
-  - {name: 🇸🇬 新加坡2 广州移动|V2, server: icajm.moox.icu, port: 34019, type: vmess, uuid: c7d0329b-18b4-49ae-8c7c-f362d03e6bd7, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: do403.xlanfly.xyz}}
-  - {name: 🇸🇬 新加坡3 广州移动|V2, server: icajm.moox.icu, port: 34016, type: vmess, uuid: c7d0329b-18b4-49ae-8c7c-f362d03e6bd7, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: awssg.xlanfly.xyz}}
-  - {name: 🇸🇬 新加坡4 NF|华南移动|V3, server: icajm.moox.icu, port: 40007, type: vmess, uuid: c7d0329b-18b4-49ae-8c7c-f362d03e6bd7, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: sgnf.xlanfly.xyz}}
-  - {name: 🇭🇰 香港7 原生|华南移动|V3*, server: rxzgzq.moox.icu, port: 34025, type: vmess, uuid: c7d0329b-18b4-49ae-8c7c-f362d03e6bd7, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: rxzgzq.moox.icu}}
+  - {name: 3, server: kr2.futi.online, port: 8443, type: vmess, uuid: ab1f1860-eb87-4385-a543-9f408adb8b32, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: kr2.futi.online}}
+  - {name: 4, server: kr1.futi.online, port: 443, type: vmess, uuid: ab1f1860-eb87-4385-a543-9f408adb8b32, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: kr1.futi.online}}
+  - {name: 8, server: us2.futi.online, port: 443, type: vmess, uuid: ab1f1860-eb87-4385-a543-9f408adb8b32, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: us2.futi.online}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -49,20 +44,15 @@ proxy-groups:
       - ss3
       - ws2
       - ss5
-      - 二爷翻墙网 https://1808.ga 9
-      - 二爷翻墙网 https://1808.ga 10
+      - 1.1.1.1:443
+      - 104.16.106.176:443
       - 🇨🇳 台服1➤Hinet
       - 🇨🇳 台服2➤Hinet
       - ss5 2
       - 🇺🇸 us
-      - 🇯🇵 JP-AWS | V2 | 广移中转
-      - 🇸🇬 SG-AWS | V2 | 广移中转
-      - "[1.0x] BGP BeiJing-Janpan-No.03"
-      - 🇨🇳 台湾2 原生|华南移动|V3
-      - 🇸🇬 新加坡2 广州移动|V2
-      - 🇸🇬 新加坡3 广州移动|V2
-      - 🇸🇬 新加坡4 NF|华南移动|V3
-      - 🇭🇰 香港7 原生|华南移动|V3*
+      - 3
+      - 4
+      - 8
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -81,20 +71,15 @@ proxy-groups:
       - ss3
       - ws2
       - ss5
-      - 二爷翻墙网 https://1808.ga 9
-      - 二爷翻墙网 https://1808.ga 10
+      - 1.1.1.1:443
+      - 104.16.106.176:443
       - 🇨🇳 台服1➤Hinet
       - 🇨🇳 台服2➤Hinet
       - ss5 2
       - 🇺🇸 us
-      - 🇯🇵 JP-AWS | V2 | 广移中转
-      - 🇸🇬 SG-AWS | V2 | 广移中转
-      - "[1.0x] BGP BeiJing-Janpan-No.03"
-      - 🇨🇳 台湾2 原生|华南移动|V3
-      - 🇸🇬 新加坡2 广州移动|V2
-      - 🇸🇬 新加坡3 广州移动|V2
-      - 🇸🇬 新加坡4 NF|华南移动|V3
-      - 🇭🇰 香港7 原生|华南移动|V3*
+      - 3
+      - 4
+      - 8
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -113,20 +98,15 @@ proxy-groups:
       - ss3
       - ws2
       - ss5
-      - 二爷翻墙网 https://1808.ga 9
-      - 二爷翻墙网 https://1808.ga 10
+      - 1.1.1.1:443
+      - 104.16.106.176:443
       - 🇨🇳 台服1➤Hinet
       - 🇨🇳 台服2➤Hinet
       - ss5 2
       - 🇺🇸 us
-      - 🇯🇵 JP-AWS | V2 | 广移中转
-      - 🇸🇬 SG-AWS | V2 | 广移中转
-      - "[1.0x] BGP BeiJing-Janpan-No.03"
-      - 🇨🇳 台湾2 原生|华南移动|V3
-      - 🇸🇬 新加坡2 广州移动|V2
-      - 🇸🇬 新加坡3 广州移动|V2
-      - 🇸🇬 新加坡4 NF|华南移动|V3
-      - 🇭🇰 香港7 原生|华南移动|V3*
+      - 3
+      - 4
+      - 8
   - name: 📲 电报信息
     type: select
     proxies:
@@ -144,20 +124,15 @@ proxy-groups:
       - ss3
       - ws2
       - ss5
-      - 二爷翻墙网 https://1808.ga 9
-      - 二爷翻墙网 https://1808.ga 10
+      - 1.1.1.1:443
+      - 104.16.106.176:443
       - 🇨🇳 台服1➤Hinet
       - 🇨🇳 台服2➤Hinet
       - ss5 2
       - 🇺🇸 us
-      - 🇯🇵 JP-AWS | V2 | 广移中转
-      - 🇸🇬 SG-AWS | V2 | 广移中转
-      - "[1.0x] BGP BeiJing-Janpan-No.03"
-      - 🇨🇳 台湾2 原生|华南移动|V3
-      - 🇸🇬 新加坡2 广州移动|V2
-      - 🇸🇬 新加坡3 广州移动|V2
-      - 🇸🇬 新加坡4 NF|华南移动|V3
-      - 🇭🇰 香港7 原生|华南移动|V3*
+      - 3
+      - 4
+      - 8
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -175,20 +150,15 @@ proxy-groups:
       - ss3
       - ws2
       - ss5
-      - 二爷翻墙网 https://1808.ga 9
-      - 二爷翻墙网 https://1808.ga 10
+      - 1.1.1.1:443
+      - 104.16.106.176:443
       - 🇨🇳 台服1➤Hinet
       - 🇨🇳 台服2➤Hinet
       - ss5 2
       - 🇺🇸 us
-      - 🇯🇵 JP-AWS | V2 | 广移中转
-      - 🇸🇬 SG-AWS | V2 | 广移中转
-      - "[1.0x] BGP BeiJing-Janpan-No.03"
-      - 🇨🇳 台湾2 原生|华南移动|V3
-      - 🇸🇬 新加坡2 广州移动|V2
-      - 🇸🇬 新加坡3 广州移动|V2
-      - 🇸🇬 新加坡4 NF|华南移动|V3
-      - 🇭🇰 香港7 原生|华南移动|V3*
+      - 3
+      - 4
+      - 8
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -206,20 +176,15 @@ proxy-groups:
       - ss3
       - ws2
       - ss5
-      - 二爷翻墙网 https://1808.ga 9
-      - 二爷翻墙网 https://1808.ga 10
+      - 1.1.1.1:443
+      - 104.16.106.176:443
       - 🇨🇳 台服1➤Hinet
       - 🇨🇳 台服2➤Hinet
       - ss5 2
       - 🇺🇸 us
-      - 🇯🇵 JP-AWS | V2 | 广移中转
-      - 🇸🇬 SG-AWS | V2 | 广移中转
-      - "[1.0x] BGP BeiJing-Janpan-No.03"
-      - 🇨🇳 台湾2 原生|华南移动|V3
-      - 🇸🇬 新加坡2 广州移动|V2
-      - 🇸🇬 新加坡3 广州移动|V2
-      - 🇸🇬 新加坡4 NF|华南移动|V3
-      - 🇭🇰 香港7 原生|华南移动|V3*
+      - 3
+      - 4
+      - 8
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -238,20 +203,15 @@ proxy-groups:
       - ss3
       - ws2
       - ss5
-      - 二爷翻墙网 https://1808.ga 9
-      - 二爷翻墙网 https://1808.ga 10
+      - 1.1.1.1:443
+      - 104.16.106.176:443
       - 🇨🇳 台服1➤Hinet
       - 🇨🇳 台服2➤Hinet
       - ss5 2
       - 🇺🇸 us
-      - 🇯🇵 JP-AWS | V2 | 广移中转
-      - 🇸🇬 SG-AWS | V2 | 广移中转
-      - "[1.0x] BGP BeiJing-Janpan-No.03"
-      - 🇨🇳 台湾2 原生|华南移动|V3
-      - 🇸🇬 新加坡2 广州移动|V2
-      - 🇸🇬 新加坡3 广州移动|V2
-      - 🇸🇬 新加坡4 NF|华南移动|V3
-      - 🇭🇰 香港7 原生|华南移动|V3*
+      - 3
+      - 4
+      - 8
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -286,20 +246,15 @@ proxy-groups:
       - ss3
       - ws2
       - ss5
-      - 二爷翻墙网 https://1808.ga 9
-      - 二爷翻墙网 https://1808.ga 10
+      - 1.1.1.1:443
+      - 104.16.106.176:443
       - 🇨🇳 台服1➤Hinet
       - 🇨🇳 台服2➤Hinet
       - ss5 2
       - 🇺🇸 us
-      - 🇯🇵 JP-AWS | V2 | 广移中转
-      - 🇸🇬 SG-AWS | V2 | 广移中转
-      - "[1.0x] BGP BeiJing-Janpan-No.03"
-      - 🇨🇳 台湾2 原生|华南移动|V3
-      - 🇸🇬 新加坡2 广州移动|V2
-      - 🇸🇬 新加坡3 广州移动|V2
-      - 🇸🇬 新加坡4 NF|华南移动|V3
-      - 🇭🇰 香港7 原生|华南移动|V3*
+      - 3
+      - 4
+      - 8
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
