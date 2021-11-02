@@ -68,6 +68,16 @@ proxies:
   - {name: 🇬🇧 英国-2.85MB/s, server: 172.99.190.139, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
   - {name: 🇬🇧 英国-2.86MB/s, server: 172.99.190.35, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
   - {name: 🇬🇧 英国-2.98MB/s, server: 172.99.190.153, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: shadowsocks/167.88.63.119:8091-gyjov, server: 167.88.63.119, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: trojan/62.216.92.179:443-awcgl, server: 62.216.92.179, port: 443, type: trojan, password: 28d98f761aca9d636f44db62544628eb, skip-cert-verify: true}
+  - {name: shadowsocks/167.88.63.82:8091-anxfg, server: 167.88.63.82, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: shadowsocks/134.195.196.179:5003-mjjjm, server: 134.195.196.179, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: shadowsocks/145.239.1.137:2376-jgoyv, server: 145.239.1.137, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: trojan/184.168.127.50:443-fhyoi, server: 184.168.127.50, port: 443, type: trojan, password: 36ebef7d1b1d6205fd0c55f28800e674, skip-cert-verify: true}
+  - {name: trojan/184.168.127.50:443-zcleb, server: 184.168.127.50, port: 443, type: trojan, password: 28d98f761aca9d636f44db62544628eb, skip-cert-verify: true}
+  - {name: trojan, server: 62.216.92.180, port: 443, type: trojan, password: a3fa58b581353bb375d2ddad0f327938, skip-cert-verify: true}
+  - {name: 🇨🇳 中国-20.09MB/s, server: dg-hk-node01.linkthink.app, port: 10917, type: ssr, cipher: rc4-md5, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 226549:1jlcom6s0Z, obfs-param: ""}
+  - {name: 🇺🇸 美国-3.93MB/s, server: 107.173.157.168, port: 443, type: vmess, uuid: 4f6aa0c3-7be1-4eaa-a64c-a23418070422, alterId: 6, cipher: auto, tls: true, network: ws, ws-path: /b06fde1/, ws-headers: {Host: 107.173.157.168}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -137,6 +147,16 @@ proxy-groups:
       - 🇬🇧 英国-2.85MB/s
       - 🇬🇧 英国-2.86MB/s
       - 🇬🇧 英国-2.98MB/s
+      - shadowsocks/167.88.63.119:8091-gyjov
+      - trojan/62.216.92.179:443-awcgl
+      - shadowsocks/167.88.63.82:8091-anxfg
+      - shadowsocks/134.195.196.179:5003-mjjjm
+      - shadowsocks/145.239.1.137:2376-jgoyv
+      - trojan/184.168.127.50:443-fhyoi
+      - trojan/184.168.127.50:443-zcleb
+      - trojan
+      - 🇨🇳 中国-20.09MB/s
+      - 🇺🇸 美国-3.93MB/s
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -206,6 +226,16 @@ proxy-groups:
       - 🇬🇧 英国-2.85MB/s
       - 🇬🇧 英国-2.86MB/s
       - 🇬🇧 英国-2.98MB/s
+      - shadowsocks/167.88.63.119:8091-gyjov
+      - trojan/62.216.92.179:443-awcgl
+      - shadowsocks/167.88.63.82:8091-anxfg
+      - shadowsocks/134.195.196.179:5003-mjjjm
+      - shadowsocks/145.239.1.137:2376-jgoyv
+      - trojan/184.168.127.50:443-fhyoi
+      - trojan/184.168.127.50:443-zcleb
+      - trojan
+      - 🇨🇳 中国-20.09MB/s
+      - 🇺🇸 美国-3.93MB/s
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -275,6 +305,16 @@ proxy-groups:
       - 🇬🇧 英国-2.85MB/s
       - 🇬🇧 英国-2.86MB/s
       - 🇬🇧 英国-2.98MB/s
+      - shadowsocks/167.88.63.119:8091-gyjov
+      - trojan/62.216.92.179:443-awcgl
+      - shadowsocks/167.88.63.82:8091-anxfg
+      - shadowsocks/134.195.196.179:5003-mjjjm
+      - shadowsocks/145.239.1.137:2376-jgoyv
+      - trojan/184.168.127.50:443-fhyoi
+      - trojan/184.168.127.50:443-zcleb
+      - trojan
+      - 🇨🇳 中国-20.09MB/s
+      - 🇺🇸 美国-3.93MB/s
   - name: 📲 电报信息
     type: select
     proxies:
@@ -343,6 +383,16 @@ proxy-groups:
       - 🇬🇧 英国-2.85MB/s
       - 🇬🇧 英国-2.86MB/s
       - 🇬🇧 英国-2.98MB/s
+      - shadowsocks/167.88.63.119:8091-gyjov
+      - trojan/62.216.92.179:443-awcgl
+      - shadowsocks/167.88.63.82:8091-anxfg
+      - shadowsocks/134.195.196.179:5003-mjjjm
+      - shadowsocks/145.239.1.137:2376-jgoyv
+      - trojan/184.168.127.50:443-fhyoi
+      - trojan/184.168.127.50:443-zcleb
+      - trojan
+      - 🇨🇳 中国-20.09MB/s
+      - 🇺🇸 美国-3.93MB/s
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -411,6 +461,16 @@ proxy-groups:
       - 🇬🇧 英国-2.85MB/s
       - 🇬🇧 英国-2.86MB/s
       - 🇬🇧 英国-2.98MB/s
+      - shadowsocks/167.88.63.119:8091-gyjov
+      - trojan/62.216.92.179:443-awcgl
+      - shadowsocks/167.88.63.82:8091-anxfg
+      - shadowsocks/134.195.196.179:5003-mjjjm
+      - shadowsocks/145.239.1.137:2376-jgoyv
+      - trojan/184.168.127.50:443-fhyoi
+      - trojan/184.168.127.50:443-zcleb
+      - trojan
+      - 🇨🇳 中国-20.09MB/s
+      - 🇺🇸 美国-3.93MB/s
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -479,6 +539,16 @@ proxy-groups:
       - 🇬🇧 英国-2.85MB/s
       - 🇬🇧 英国-2.86MB/s
       - 🇬🇧 英国-2.98MB/s
+      - shadowsocks/167.88.63.119:8091-gyjov
+      - trojan/62.216.92.179:443-awcgl
+      - shadowsocks/167.88.63.82:8091-anxfg
+      - shadowsocks/134.195.196.179:5003-mjjjm
+      - shadowsocks/145.239.1.137:2376-jgoyv
+      - trojan/184.168.127.50:443-fhyoi
+      - trojan/184.168.127.50:443-zcleb
+      - trojan
+      - 🇨🇳 中国-20.09MB/s
+      - 🇺🇸 美国-3.93MB/s
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -548,6 +618,16 @@ proxy-groups:
       - 🇬🇧 英国-2.85MB/s
       - 🇬🇧 英国-2.86MB/s
       - 🇬🇧 英国-2.98MB/s
+      - shadowsocks/167.88.63.119:8091-gyjov
+      - trojan/62.216.92.179:443-awcgl
+      - shadowsocks/167.88.63.82:8091-anxfg
+      - shadowsocks/134.195.196.179:5003-mjjjm
+      - shadowsocks/145.239.1.137:2376-jgoyv
+      - trojan/184.168.127.50:443-fhyoi
+      - trojan/184.168.127.50:443-zcleb
+      - trojan
+      - 🇨🇳 中国-20.09MB/s
+      - 🇺🇸 美国-3.93MB/s
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -633,6 +713,16 @@ proxy-groups:
       - 🇬🇧 英国-2.85MB/s
       - 🇬🇧 英国-2.86MB/s
       - 🇬🇧 英国-2.98MB/s
+      - shadowsocks/167.88.63.119:8091-gyjov
+      - trojan/62.216.92.179:443-awcgl
+      - shadowsocks/167.88.63.82:8091-anxfg
+      - shadowsocks/134.195.196.179:5003-mjjjm
+      - shadowsocks/145.239.1.137:2376-jgoyv
+      - trojan/184.168.127.50:443-fhyoi
+      - trojan/184.168.127.50:443-zcleb
+      - trojan
+      - 🇨🇳 中国-20.09MB/s
+      - 🇺🇸 美国-3.93MB/s
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
