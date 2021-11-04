@@ -78,6 +78,41 @@ proxies:
   - {name: trojan, server: 62.216.92.180, port: 443, type: trojan, password: a3fa58b581353bb375d2ddad0f327938, skip-cert-verify: true}
   - {name: 🇨🇳 中国-20.09MB/s, server: dg-hk-node01.linkthink.app, port: 10917, type: ssr, cipher: rc4-md5, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 226549:1jlcom6s0Z, obfs-param: ""}
   - {name: 🇺🇸 美国-3.93MB/s, server: 107.173.157.168, port: 443, type: vmess, uuid: 4f6aa0c3-7be1-4eaa-a64c-a23418070422, alterId: 6, cipher: auto, tls: true, network: ws, ws-path: /b06fde1/, ws-headers: {Host: 107.173.157.168}}
+  - {name: 🇺🇸 美国-3.00MB/s(Youtube:不良林), server: 167.88.63.119, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇷🇺 专线 冷门-俄罗斯, server: iepl01.node.beer, port: 8092, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 109143:KbDfCI, obfs-param: cda7e109143.microsoft.com}
+  - {name: 🇩🇪 专线 冷门-德国, server: iepl02.node.beer, port: 8097, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 109143:KbDfCI, obfs-param: cda7e109143.microsoft.com}
+  - {name: 🇦🇺 专线 冷门-澳大利亚, server: iepl03.node.beer, port: 8094, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 109143:KbDfCI, obfs-param: cda7e109143.microsoft.com}
+  - {name: 🇬🇧 专线 冷门-英国, server: iepl01.node.beer, port: 8093, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 109143:KbDfCI, obfs-param: cda7e109143.microsoft.com}
+  - {name: 🇸🇬 专线 新加坡 01, server: iepl02.node.beer, port: 8021, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 109143:KbDfCI, obfs-param: cda7e109143.microsoft.com}
+  - {name: 🇯🇵 专线 日本 01, server: iepl02.node.beer, port: 8011, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 109143:KbDfCI, obfs-param: cda7e109143.microsoft.com}
+  - {name: 🇺🇸 专线 美国 01, server: iepl02.node.beer, port: 8031, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 109143:KbDfCI, obfs-param: cda7e109143.microsoft.com}
+  - {name: 🇰🇷 专线 韩国 01, server: iepl02.node.beer, port: 8051, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 109143:KbDfCI, obfs-param: cda7e109143.microsoft.com}
+  - {name: 🇭🇰 专线 香港 01, server: iepl01.node.beer, port: 8061, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 109143:KbDfCI, obfs-param: cda7e109143.microsoft.com}
+  - {name: 🇲🇾 专线 马来西亚 01, server: iepl01.node.beer, port: 8071, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 109143:KbDfCI, obfs-param: cda7e109143.microsoft.com}
+  - {name: 🇲🇾 专线 马来西亚 02, server: iepl02.node.beer, port: 8072, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 109143:KbDfCI, obfs-param: cda7e109143.microsoft.com}
+  - {name: 🇲🇾 专线 马来西亚 03, server: iepl03.node.beer, port: 8071, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 109143:KbDfCI, obfs-param: cda7e109143.microsoft.com}
+  - {name: 🇨🇳 中继 台湾 01, server: in01.node.beer, port: 8341, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 109143:KbDfCI, obfs-param: cda7e109143.microsoft.com}
+  - {name: 🇨🇳 中继 台湾 02, server: in02.node.beer, port: 8341, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 109143:KbDfCI, obfs-param: cda7e109143.microsoft.com}
+  - {name: 🇸🇬 中继 新加坡 01, server: in03.node.beer, port: 8321, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 109143:KbDfCI, obfs-param: cda7e109143.microsoft.com}
+  - {name: 🇸🇬 中继 新加坡 02, server: in04.node.beer, port: 8322, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 109143:KbDfCI, obfs-param: cda7e109143.microsoft.com}
+  - {name: 🇸🇬 中继 新加坡 03, server: in05.node.beer, port: 8323, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 109143:KbDfCI, obfs-param: cda7e109143.microsoft.com}
+  - {name: 🇸🇬 中继 新加坡 04, server: in02.node.beer, port: 8323, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 109143:KbDfCI, obfs-param: cda7e109143.microsoft.com}
+  - {name: 🇯🇵 中继 日本 01, server: in02.node.beer, port: 8311, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 109143:KbDfCI, obfs-param: cda7e109143.microsoft.com}
+  - {name: 🇯🇵 中继 日本 02, server: in03.node.beer, port: 8312, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 109143:KbDfCI, obfs-param: cda7e109143.microsoft.com}
+  - {name: 🇯🇵 中继 日本 03, server: in04.node.beer, port: 8313, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 109143:KbDfCI, obfs-param: cda7e109143.microsoft.com}
+  - {name: 🇺🇸 中继 美国 01, server: in05.node.beer, port: 8331, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 109143:KbDfCI, obfs-param: cda7e109143.microsoft.com}
+  - {name: 🇺🇸 中继 美国 02, server: in01.node.beer, port: 8332, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 109143:KbDfCI, obfs-param: cda7e109143.microsoft.com}
+  - {name: 🇺🇸 中继 美国 03, server: in02.node.beer, port: 8332, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 109143:KbDfCI, obfs-param: cda7e109143.microsoft.com}
+  - {name: 🇰🇷 中继 韩国 01, server: in03.node.beer, port: 8351, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 109143:KbDfCI, obfs-param: cda7e109143.microsoft.com}
+  - {name: 🇰🇷 中继 韩国 02, server: in04.node.beer, port: 8351, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 109143:KbDfCI, obfs-param: cda7e109143.microsoft.com}
+  - {name: 🇭🇰 中继 香港 01, server: in05.node.beer, port: 8361, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 109143:KbDfCI, obfs-param: cda7e109143.microsoft.com}
+  - {name: 🇭🇰 中继 香港 02, server: in01.node.beer, port: 8362, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 109143:KbDfCI, obfs-param: cda7e109143.microsoft.com}
+  - {name: 🇭🇰 中继 香港 03, server: in02.node.beer, port: 8363, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 109143:KbDfCI, obfs-param: cda7e109143.microsoft.com}
+  - {name: 🇭🇰 中继 香港 04, server: in03.node.beer, port: 8364, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 109143:KbDfCI, obfs-param: cda7e109143.microsoft.com}
+  - {name: 🇭🇰 中继 香港 05, server: in04.node.beer, port: 8365, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 109143:KbDfCI, obfs-param: cda7e109143.microsoft.com}
+  - {name: 🇭🇰 中继 香港 06, server: in05.node.beer, port: 8365, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 109143:KbDfCI, obfs-param: cda7e109143.microsoft.com}
+  - {name: 🇲🇾 中继 马来西亚 01, server: in01.node.beer, port: 8371, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 109143:KbDfCI, obfs-param: cda7e109143.microsoft.com}
+  - {name: 🇲🇾 中继 马来西亚 02, server: in02.node.beer, port: 8371, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 109143:KbDfCI, obfs-param: cda7e109143.microsoft.com}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -157,6 +192,41 @@ proxy-groups:
       - trojan
       - 🇨🇳 中国-20.09MB/s
       - 🇺🇸 美国-3.93MB/s
+      - 🇺🇸 美国-3.00MB/s(Youtube:不良林)
+      - 🇷🇺 专线 冷门-俄罗斯
+      - 🇩🇪 专线 冷门-德国
+      - 🇦🇺 专线 冷门-澳大利亚
+      - 🇬🇧 专线 冷门-英国
+      - 🇸🇬 专线 新加坡 01
+      - 🇯🇵 专线 日本 01
+      - 🇺🇸 专线 美国 01
+      - 🇰🇷 专线 韩国 01
+      - 🇭🇰 专线 香港 01
+      - 🇲🇾 专线 马来西亚 01
+      - 🇲🇾 专线 马来西亚 02
+      - 🇲🇾 专线 马来西亚 03
+      - 🇨🇳 中继 台湾 01
+      - 🇨🇳 中继 台湾 02
+      - 🇸🇬 中继 新加坡 01
+      - 🇸🇬 中继 新加坡 02
+      - 🇸🇬 中继 新加坡 03
+      - 🇸🇬 中继 新加坡 04
+      - 🇯🇵 中继 日本 01
+      - 🇯🇵 中继 日本 02
+      - 🇯🇵 中继 日本 03
+      - 🇺🇸 中继 美国 01
+      - 🇺🇸 中继 美国 02
+      - 🇺🇸 中继 美国 03
+      - 🇰🇷 中继 韩国 01
+      - 🇰🇷 中继 韩国 02
+      - 🇭🇰 中继 香港 01
+      - 🇭🇰 中继 香港 02
+      - 🇭🇰 中继 香港 03
+      - 🇭🇰 中继 香港 04
+      - 🇭🇰 中继 香港 05
+      - 🇭🇰 中继 香港 06
+      - 🇲🇾 中继 马来西亚 01
+      - 🇲🇾 中继 马来西亚 02
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -236,6 +306,41 @@ proxy-groups:
       - trojan
       - 🇨🇳 中国-20.09MB/s
       - 🇺🇸 美国-3.93MB/s
+      - 🇺🇸 美国-3.00MB/s(Youtube:不良林)
+      - 🇷🇺 专线 冷门-俄罗斯
+      - 🇩🇪 专线 冷门-德国
+      - 🇦🇺 专线 冷门-澳大利亚
+      - 🇬🇧 专线 冷门-英国
+      - 🇸🇬 专线 新加坡 01
+      - 🇯🇵 专线 日本 01
+      - 🇺🇸 专线 美国 01
+      - 🇰🇷 专线 韩国 01
+      - 🇭🇰 专线 香港 01
+      - 🇲🇾 专线 马来西亚 01
+      - 🇲🇾 专线 马来西亚 02
+      - 🇲🇾 专线 马来西亚 03
+      - 🇨🇳 中继 台湾 01
+      - 🇨🇳 中继 台湾 02
+      - 🇸🇬 中继 新加坡 01
+      - 🇸🇬 中继 新加坡 02
+      - 🇸🇬 中继 新加坡 03
+      - 🇸🇬 中继 新加坡 04
+      - 🇯🇵 中继 日本 01
+      - 🇯🇵 中继 日本 02
+      - 🇯🇵 中继 日本 03
+      - 🇺🇸 中继 美国 01
+      - 🇺🇸 中继 美国 02
+      - 🇺🇸 中继 美国 03
+      - 🇰🇷 中继 韩国 01
+      - 🇰🇷 中继 韩国 02
+      - 🇭🇰 中继 香港 01
+      - 🇭🇰 中继 香港 02
+      - 🇭🇰 中继 香港 03
+      - 🇭🇰 中继 香港 04
+      - 🇭🇰 中继 香港 05
+      - 🇭🇰 中继 香港 06
+      - 🇲🇾 中继 马来西亚 01
+      - 🇲🇾 中继 马来西亚 02
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -315,6 +420,41 @@ proxy-groups:
       - trojan
       - 🇨🇳 中国-20.09MB/s
       - 🇺🇸 美国-3.93MB/s
+      - 🇺🇸 美国-3.00MB/s(Youtube:不良林)
+      - 🇷🇺 专线 冷门-俄罗斯
+      - 🇩🇪 专线 冷门-德国
+      - 🇦🇺 专线 冷门-澳大利亚
+      - 🇬🇧 专线 冷门-英国
+      - 🇸🇬 专线 新加坡 01
+      - 🇯🇵 专线 日本 01
+      - 🇺🇸 专线 美国 01
+      - 🇰🇷 专线 韩国 01
+      - 🇭🇰 专线 香港 01
+      - 🇲🇾 专线 马来西亚 01
+      - 🇲🇾 专线 马来西亚 02
+      - 🇲🇾 专线 马来西亚 03
+      - 🇨🇳 中继 台湾 01
+      - 🇨🇳 中继 台湾 02
+      - 🇸🇬 中继 新加坡 01
+      - 🇸🇬 中继 新加坡 02
+      - 🇸🇬 中继 新加坡 03
+      - 🇸🇬 中继 新加坡 04
+      - 🇯🇵 中继 日本 01
+      - 🇯🇵 中继 日本 02
+      - 🇯🇵 中继 日本 03
+      - 🇺🇸 中继 美国 01
+      - 🇺🇸 中继 美国 02
+      - 🇺🇸 中继 美国 03
+      - 🇰🇷 中继 韩国 01
+      - 🇰🇷 中继 韩国 02
+      - 🇭🇰 中继 香港 01
+      - 🇭🇰 中继 香港 02
+      - 🇭🇰 中继 香港 03
+      - 🇭🇰 中继 香港 04
+      - 🇭🇰 中继 香港 05
+      - 🇭🇰 中继 香港 06
+      - 🇲🇾 中继 马来西亚 01
+      - 🇲🇾 中继 马来西亚 02
   - name: 📲 电报信息
     type: select
     proxies:
@@ -393,6 +533,41 @@ proxy-groups:
       - trojan
       - 🇨🇳 中国-20.09MB/s
       - 🇺🇸 美国-3.93MB/s
+      - 🇺🇸 美国-3.00MB/s(Youtube:不良林)
+      - 🇷🇺 专线 冷门-俄罗斯
+      - 🇩🇪 专线 冷门-德国
+      - 🇦🇺 专线 冷门-澳大利亚
+      - 🇬🇧 专线 冷门-英国
+      - 🇸🇬 专线 新加坡 01
+      - 🇯🇵 专线 日本 01
+      - 🇺🇸 专线 美国 01
+      - 🇰🇷 专线 韩国 01
+      - 🇭🇰 专线 香港 01
+      - 🇲🇾 专线 马来西亚 01
+      - 🇲🇾 专线 马来西亚 02
+      - 🇲🇾 专线 马来西亚 03
+      - 🇨🇳 中继 台湾 01
+      - 🇨🇳 中继 台湾 02
+      - 🇸🇬 中继 新加坡 01
+      - 🇸🇬 中继 新加坡 02
+      - 🇸🇬 中继 新加坡 03
+      - 🇸🇬 中继 新加坡 04
+      - 🇯🇵 中继 日本 01
+      - 🇯🇵 中继 日本 02
+      - 🇯🇵 中继 日本 03
+      - 🇺🇸 中继 美国 01
+      - 🇺🇸 中继 美国 02
+      - 🇺🇸 中继 美国 03
+      - 🇰🇷 中继 韩国 01
+      - 🇰🇷 中继 韩国 02
+      - 🇭🇰 中继 香港 01
+      - 🇭🇰 中继 香港 02
+      - 🇭🇰 中继 香港 03
+      - 🇭🇰 中继 香港 04
+      - 🇭🇰 中继 香港 05
+      - 🇭🇰 中继 香港 06
+      - 🇲🇾 中继 马来西亚 01
+      - 🇲🇾 中继 马来西亚 02
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -471,6 +646,41 @@ proxy-groups:
       - trojan
       - 🇨🇳 中国-20.09MB/s
       - 🇺🇸 美国-3.93MB/s
+      - 🇺🇸 美国-3.00MB/s(Youtube:不良林)
+      - 🇷🇺 专线 冷门-俄罗斯
+      - 🇩🇪 专线 冷门-德国
+      - 🇦🇺 专线 冷门-澳大利亚
+      - 🇬🇧 专线 冷门-英国
+      - 🇸🇬 专线 新加坡 01
+      - 🇯🇵 专线 日本 01
+      - 🇺🇸 专线 美国 01
+      - 🇰🇷 专线 韩国 01
+      - 🇭🇰 专线 香港 01
+      - 🇲🇾 专线 马来西亚 01
+      - 🇲🇾 专线 马来西亚 02
+      - 🇲🇾 专线 马来西亚 03
+      - 🇨🇳 中继 台湾 01
+      - 🇨🇳 中继 台湾 02
+      - 🇸🇬 中继 新加坡 01
+      - 🇸🇬 中继 新加坡 02
+      - 🇸🇬 中继 新加坡 03
+      - 🇸🇬 中继 新加坡 04
+      - 🇯🇵 中继 日本 01
+      - 🇯🇵 中继 日本 02
+      - 🇯🇵 中继 日本 03
+      - 🇺🇸 中继 美国 01
+      - 🇺🇸 中继 美国 02
+      - 🇺🇸 中继 美国 03
+      - 🇰🇷 中继 韩国 01
+      - 🇰🇷 中继 韩国 02
+      - 🇭🇰 中继 香港 01
+      - 🇭🇰 中继 香港 02
+      - 🇭🇰 中继 香港 03
+      - 🇭🇰 中继 香港 04
+      - 🇭🇰 中继 香港 05
+      - 🇭🇰 中继 香港 06
+      - 🇲🇾 中继 马来西亚 01
+      - 🇲🇾 中继 马来西亚 02
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -549,6 +759,41 @@ proxy-groups:
       - trojan
       - 🇨🇳 中国-20.09MB/s
       - 🇺🇸 美国-3.93MB/s
+      - 🇺🇸 美国-3.00MB/s(Youtube:不良林)
+      - 🇷🇺 专线 冷门-俄罗斯
+      - 🇩🇪 专线 冷门-德国
+      - 🇦🇺 专线 冷门-澳大利亚
+      - 🇬🇧 专线 冷门-英国
+      - 🇸🇬 专线 新加坡 01
+      - 🇯🇵 专线 日本 01
+      - 🇺🇸 专线 美国 01
+      - 🇰🇷 专线 韩国 01
+      - 🇭🇰 专线 香港 01
+      - 🇲🇾 专线 马来西亚 01
+      - 🇲🇾 专线 马来西亚 02
+      - 🇲🇾 专线 马来西亚 03
+      - 🇨🇳 中继 台湾 01
+      - 🇨🇳 中继 台湾 02
+      - 🇸🇬 中继 新加坡 01
+      - 🇸🇬 中继 新加坡 02
+      - 🇸🇬 中继 新加坡 03
+      - 🇸🇬 中继 新加坡 04
+      - 🇯🇵 中继 日本 01
+      - 🇯🇵 中继 日本 02
+      - 🇯🇵 中继 日本 03
+      - 🇺🇸 中继 美国 01
+      - 🇺🇸 中继 美国 02
+      - 🇺🇸 中继 美国 03
+      - 🇰🇷 中继 韩国 01
+      - 🇰🇷 中继 韩国 02
+      - 🇭🇰 中继 香港 01
+      - 🇭🇰 中继 香港 02
+      - 🇭🇰 中继 香港 03
+      - 🇭🇰 中继 香港 04
+      - 🇭🇰 中继 香港 05
+      - 🇭🇰 中继 香港 06
+      - 🇲🇾 中继 马来西亚 01
+      - 🇲🇾 中继 马来西亚 02
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -628,6 +873,41 @@ proxy-groups:
       - trojan
       - 🇨🇳 中国-20.09MB/s
       - 🇺🇸 美国-3.93MB/s
+      - 🇺🇸 美国-3.00MB/s(Youtube:不良林)
+      - 🇷🇺 专线 冷门-俄罗斯
+      - 🇩🇪 专线 冷门-德国
+      - 🇦🇺 专线 冷门-澳大利亚
+      - 🇬🇧 专线 冷门-英国
+      - 🇸🇬 专线 新加坡 01
+      - 🇯🇵 专线 日本 01
+      - 🇺🇸 专线 美国 01
+      - 🇰🇷 专线 韩国 01
+      - 🇭🇰 专线 香港 01
+      - 🇲🇾 专线 马来西亚 01
+      - 🇲🇾 专线 马来西亚 02
+      - 🇲🇾 专线 马来西亚 03
+      - 🇨🇳 中继 台湾 01
+      - 🇨🇳 中继 台湾 02
+      - 🇸🇬 中继 新加坡 01
+      - 🇸🇬 中继 新加坡 02
+      - 🇸🇬 中继 新加坡 03
+      - 🇸🇬 中继 新加坡 04
+      - 🇯🇵 中继 日本 01
+      - 🇯🇵 中继 日本 02
+      - 🇯🇵 中继 日本 03
+      - 🇺🇸 中继 美国 01
+      - 🇺🇸 中继 美国 02
+      - 🇺🇸 中继 美国 03
+      - 🇰🇷 中继 韩国 01
+      - 🇰🇷 中继 韩国 02
+      - 🇭🇰 中继 香港 01
+      - 🇭🇰 中继 香港 02
+      - 🇭🇰 中继 香港 03
+      - 🇭🇰 中继 香港 04
+      - 🇭🇰 中继 香港 05
+      - 🇭🇰 中继 香港 06
+      - 🇲🇾 中继 马来西亚 01
+      - 🇲🇾 中继 马来西亚 02
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -723,6 +1003,41 @@ proxy-groups:
       - trojan
       - 🇨🇳 中国-20.09MB/s
       - 🇺🇸 美国-3.93MB/s
+      - 🇺🇸 美国-3.00MB/s(Youtube:不良林)
+      - 🇷🇺 专线 冷门-俄罗斯
+      - 🇩🇪 专线 冷门-德国
+      - 🇦🇺 专线 冷门-澳大利亚
+      - 🇬🇧 专线 冷门-英国
+      - 🇸🇬 专线 新加坡 01
+      - 🇯🇵 专线 日本 01
+      - 🇺🇸 专线 美国 01
+      - 🇰🇷 专线 韩国 01
+      - 🇭🇰 专线 香港 01
+      - 🇲🇾 专线 马来西亚 01
+      - 🇲🇾 专线 马来西亚 02
+      - 🇲🇾 专线 马来西亚 03
+      - 🇨🇳 中继 台湾 01
+      - 🇨🇳 中继 台湾 02
+      - 🇸🇬 中继 新加坡 01
+      - 🇸🇬 中继 新加坡 02
+      - 🇸🇬 中继 新加坡 03
+      - 🇸🇬 中继 新加坡 04
+      - 🇯🇵 中继 日本 01
+      - 🇯🇵 中继 日本 02
+      - 🇯🇵 中继 日本 03
+      - 🇺🇸 中继 美国 01
+      - 🇺🇸 中继 美国 02
+      - 🇺🇸 中继 美国 03
+      - 🇰🇷 中继 韩国 01
+      - 🇰🇷 中继 韩国 02
+      - 🇭🇰 中继 香港 01
+      - 🇭🇰 中继 香港 02
+      - 🇭🇰 中继 香港 03
+      - 🇭🇰 中继 香港 04
+      - 🇭🇰 中继 香港 05
+      - 🇭🇰 中继 香港 06
+      - 🇲🇾 中继 马来西亚 01
+      - 🇲🇾 中继 马来西亚 02
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
