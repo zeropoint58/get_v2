@@ -6,30 +6,49 @@ log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
   - {name: 二爷翻墙网 https://1808.ga, server: 1.1.1.1, port: 443, type: vmess, uuid: d7662dde-1d41-4c35-888b-033f1764b643, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/zeduvws?ed=2048", ws-headers: {Host: 3.1808.cf}}
-  - {name: 二爷翻墙网 https://1808.ga 2, server: 104.17.203.146, port: 443, type: vmess, uuid: d7662dde-1d41-4c35-888b-033f1764b643, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/zeduvws?ed=2048", ws-headers: {Host: 3.1808.cf}}
-  - {name: 二爷翻墙网 https://1808.ga 3, server: 104.16.242.59, port: 443, type: vmess, uuid: d7662dde-1d41-4c35-888b-033f1764b643, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/zeduvws?ed=2048", ws-headers: {Host: 3.1808.cf}}
-  - {name: 二爷翻墙网 https://1808.ga 4, server: 104.16.252.108, port: 443, type: vmess, uuid: d7662dde-1d41-4c35-888b-033f1764b643, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/zeduvws?ed=2048", ws-headers: {Host: 3.1808.cf}}
-  - {name: 二爷翻墙网 https://1808.ga 5, server: 104.19.29.137, port: 443, type: vmess, uuid: d7662dde-1d41-4c35-888b-033f1764b643, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/zeduvws?ed=2048", ws-headers: {Host: 3.1808.cf}}
-  - {name: vmess, server: 104.16.197.107, port: 443, type: vmess, uuid: d7662dde-1d41-4c35-888b-033f1764b643, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/zeduvws?ed=2048", ws-headers: {Host: 3.1808.cf}}
+  - {name: 二爷翻墙网 https://1808.ga 2, server: 198.41.208.182, port: 443, type: vmess, uuid: d7662dde-1d41-4c35-888b-033f1764b643, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/zeduvws?ed=2048", ws-headers: {Host: 3.1808.cf}}
+  - {name: 二爷翻墙网 https://1808.ga 3, server: 104.16.243.132, port: 443, type: vmess, uuid: d7662dde-1d41-4c35-888b-033f1764b643, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/zeduvws?ed=2048", ws-headers: {Host: 3.1808.cf}}
+  - {name: 二爷翻墙网 https://1808.ga 4, server: 104.17.147.54, port: 443, type: vmess, uuid: d7662dde-1d41-4c35-888b-033f1764b643, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/zeduvws?ed=2048", ws-headers: {Host: 3.1808.cf}}
+  - {name: 二爷翻墙网 https://1808.ga 5, server: 104.17.186.128, port: 443, type: vmess, uuid: d7662dde-1d41-4c35-888b-033f1764b643, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/zeduvws?ed=2048", ws-headers: {Host: 3.1808.cf}}
+  - {name: vmess, server: 190.93.244.147, port: 443, type: vmess, uuid: d7662dde-1d41-4c35-888b-033f1764b643, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/zeduvws?ed=2048", ws-headers: {Host: 3.1808.cf}}
   - {name: ss, server: 38.39.192.74, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇨🇦 加拿大-2.25MB/s, server: 134.195.198.178, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
   - {name: 🇨🇦 加拿大-2.65MB/s, server: 134.195.196.60, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 波兰-1.71MB/s, server: 37.28.156.117, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r}
   - {name: 🇺🇸 美国-1.69MB/s, server: 66.115.177.141, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
   - {name: 🇺🇸 美国-2.00MB/s, server: 167.88.63.11, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
   - {name: 🇺🇸 美国-2.09MB/s, server: 66.115.177.141, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
   - {name: 🇺🇸 美国-2.78MB/s, server: 66.115.177.141, port: 50024, type: ss, cipher: aes-256-gcm, password: b2jDPHUQxCNa2KmGHZjy7C4B}
   - {name: 🇬🇧 英国-2.10MB/s, server: 172.99.190.139, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 1.40MB, server: 124.150.139.83, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
   - {name: 🇨🇦 加拿大-1.98MB, server: 134.195.196.179, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇨🇦 加拿大-2.25MB, server: 134.195.198.178, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
   - {name: 🇨🇦 加拿大-3.05MB, server: 134.195.196.50, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇨🇳 台湾-1.29MB, server: 2.58.242.45, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
-  - {name: 🇨🇭 瑞士-3.09MB, server: 84.17.53.227, port: 47861, type: ss, cipher: aes-256-gcm, password: LJcChRsGQRhywrtXUU55TLTu}
-  - {name: 🇨🇭 瑞士-3.41MB, server: 84.17.53.227, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
   - {name: 🇺🇸 美国-1.06MB, server: 66.115.177.143, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r}
   - {name: 🇺🇸 美国-1.46MB, server: 66.115.177.143, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
   - {name: 🇺🇸 美国-942.7KB, server: 167.88.63.119, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: -1.31MB, server: 134.195.196.179, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇨🇦 加拿大-1.39MB, server: 134.195.196.50, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇨🇦 加拿大-3.15MB, server: 134.195.196.202, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇩🇪 德国-1.42MB, server: 139.59.209.152, port: 4443, type: trojan, password: 7x42LetRa0}
+  - {name: 🇺🇸 美国-1.00MB, server: 167.88.63.119, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇺🇸 美国-986.4KB, server: 66.115.177.143, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 🇳🇱 荷兰-929.1KB, server: 178.62.201.120, port: 4443, type: trojan, password: 7x42LetRa0}
+  - {name: (已存活1天)西班牙-2.94MB%, server: 172.107.233.230, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 2.73MB%, server: 38.39.192.74, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: A-1.04MB%, server: 31.171.154.221, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
+  - {name: A7-1.44MB%, server: 134.195.196.179, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇨🇳 中国-1.91MB/s, server: 1.transit.nph.qjnodeip.xyz, port: 30001, type: vmess, uuid: 20610d05-76a9-47bb-9094-6eafb1b40e5c, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇦 加拿大-1005.0KB%, server: 134.195.196.202, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇩🇪 德国-1.64MB%, server: 82.102.16.99, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇸 美国-1.48MB%, server: 66.115.177.143, port: 50024, type: ss, cipher: aes-256-gcm, password: b2jDPHUQxCNa2KmGHZjy7C4B}
+  - {name: 🇺🇸 美国-1008.9KB%, server: 66.115.177.143, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: 🇨🇳 中国-1.91MB/s(Youtube:不良林), server: 1.transit.nph.qjnodeip.xyz, port: 30001, type: vmess, uuid: 20610d05-76a9-47bb-9094-6eafb1b40e5c, alterId: 0, cipher: auto, tls: false}
+  - {name: 塞尔维亚-1.50MB/s, server: 152.89.160.59, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 塞尔维亚-1.56MB/s, server: 152.89.160.59, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 塞尔维亚-2.02MB/s, server: 152.89.160.59, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
+  - {name: 🇩🇪 德国-1.28MB/s, server: 176.227.241.31, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇸🇬 新加坡-1.36MB/s(Youtube:不良林), server: sg.03.ddnss.vip, port: 10086, type: vmess, uuid: 1ce26853-ee96-3881-807c-d322c896c954, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 新加坡-1.96MB/s(Youtube:不良林), server: sg.01.ddnss.vip, port: 10086, type: vmess, uuid: 1ce26853-ee96-3881-807c-d322c896c954, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国-1.03MB/s, server: 66.115.177.141, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: 🇺🇸 美国-1.50MB/s, server: 66.115.177.141, port: 42185, type: ss, cipher: aes-256-gcm, password: FaTG4zALZru72gxjgSHQ7Jdh}
+  - {name: 🇺🇸 美国-1.71MB/s, server: 167.88.63.99, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -43,24 +62,43 @@ proxy-groups:
       - 二爷翻墙网 https://1808.ga 5
       - vmess
       - ss
-      - 🇨🇦 加拿大-2.25MB/s
       - 🇨🇦 加拿大-2.65MB/s
-      - 波兰-1.71MB/s
       - 🇺🇸 美国-1.69MB/s
       - 🇺🇸 美国-2.00MB/s
       - 🇺🇸 美国-2.09MB/s
       - 🇺🇸 美国-2.78MB/s
       - 🇬🇧 英国-2.10MB/s
-      - 1.40MB
       - 🇨🇦 加拿大-1.98MB
-      - 🇨🇦 加拿大-2.25MB
       - 🇨🇦 加拿大-3.05MB
-      - 🇨🇳 台湾-1.29MB
-      - 🇨🇭 瑞士-3.09MB
-      - 🇨🇭 瑞士-3.41MB
       - 🇺🇸 美国-1.06MB
       - 🇺🇸 美国-1.46MB
       - 🇺🇸 美国-942.7KB
+      - -1.31MB
+      - 🇨🇦 加拿大-1.39MB
+      - 🇨🇦 加拿大-3.15MB
+      - 🇩🇪 德国-1.42MB
+      - 🇺🇸 美国-1.00MB
+      - 🇺🇸 美国-986.4KB
+      - 🇳🇱 荷兰-929.1KB
+      - (已存活1天)西班牙-2.94MB%
+      - 2.73MB%
+      - A-1.04MB%
+      - A7-1.44MB%
+      - 🇨🇳 中国-1.91MB/s
+      - 🇨🇦 加拿大-1005.0KB%
+      - 🇩🇪 德国-1.64MB%
+      - 🇺🇸 美国-1.48MB%
+      - 🇺🇸 美国-1008.9KB%
+      - 🇨🇳 中国-1.91MB/s(Youtube:不良林)
+      - 塞尔维亚-1.50MB/s
+      - 塞尔维亚-1.56MB/s
+      - 塞尔维亚-2.02MB/s
+      - 🇩🇪 德国-1.28MB/s
+      - 🇸🇬 新加坡-1.36MB/s(Youtube:不良林)
+      - 🇸🇬 新加坡-1.96MB/s(Youtube:不良林)
+      - 🇺🇸 美国-1.03MB/s
+      - 🇺🇸 美国-1.50MB/s
+      - 🇺🇸 美国-1.71MB/s
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -74,24 +112,43 @@ proxy-groups:
       - 二爷翻墙网 https://1808.ga 5
       - vmess
       - ss
-      - 🇨🇦 加拿大-2.25MB/s
       - 🇨🇦 加拿大-2.65MB/s
-      - 波兰-1.71MB/s
       - 🇺🇸 美国-1.69MB/s
       - 🇺🇸 美国-2.00MB/s
       - 🇺🇸 美国-2.09MB/s
       - 🇺🇸 美国-2.78MB/s
       - 🇬🇧 英国-2.10MB/s
-      - 1.40MB
       - 🇨🇦 加拿大-1.98MB
-      - 🇨🇦 加拿大-2.25MB
       - 🇨🇦 加拿大-3.05MB
-      - 🇨🇳 台湾-1.29MB
-      - 🇨🇭 瑞士-3.09MB
-      - 🇨🇭 瑞士-3.41MB
       - 🇺🇸 美国-1.06MB
       - 🇺🇸 美国-1.46MB
       - 🇺🇸 美国-942.7KB
+      - -1.31MB
+      - 🇨🇦 加拿大-1.39MB
+      - 🇨🇦 加拿大-3.15MB
+      - 🇩🇪 德国-1.42MB
+      - 🇺🇸 美国-1.00MB
+      - 🇺🇸 美国-986.4KB
+      - 🇳🇱 荷兰-929.1KB
+      - (已存活1天)西班牙-2.94MB%
+      - 2.73MB%
+      - A-1.04MB%
+      - A7-1.44MB%
+      - 🇨🇳 中国-1.91MB/s
+      - 🇨🇦 加拿大-1005.0KB%
+      - 🇩🇪 德国-1.64MB%
+      - 🇺🇸 美国-1.48MB%
+      - 🇺🇸 美国-1008.9KB%
+      - 🇨🇳 中国-1.91MB/s(Youtube:不良林)
+      - 塞尔维亚-1.50MB/s
+      - 塞尔维亚-1.56MB/s
+      - 塞尔维亚-2.02MB/s
+      - 🇩🇪 德国-1.28MB/s
+      - 🇸🇬 新加坡-1.36MB/s(Youtube:不良林)
+      - 🇸🇬 新加坡-1.96MB/s(Youtube:不良林)
+      - 🇺🇸 美国-1.03MB/s
+      - 🇺🇸 美国-1.50MB/s
+      - 🇺🇸 美国-1.71MB/s
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -105,24 +162,43 @@ proxy-groups:
       - 二爷翻墙网 https://1808.ga 5
       - vmess
       - ss
-      - 🇨🇦 加拿大-2.25MB/s
       - 🇨🇦 加拿大-2.65MB/s
-      - 波兰-1.71MB/s
       - 🇺🇸 美国-1.69MB/s
       - 🇺🇸 美国-2.00MB/s
       - 🇺🇸 美国-2.09MB/s
       - 🇺🇸 美国-2.78MB/s
       - 🇬🇧 英国-2.10MB/s
-      - 1.40MB
       - 🇨🇦 加拿大-1.98MB
-      - 🇨🇦 加拿大-2.25MB
       - 🇨🇦 加拿大-3.05MB
-      - 🇨🇳 台湾-1.29MB
-      - 🇨🇭 瑞士-3.09MB
-      - 🇨🇭 瑞士-3.41MB
       - 🇺🇸 美国-1.06MB
       - 🇺🇸 美国-1.46MB
       - 🇺🇸 美国-942.7KB
+      - -1.31MB
+      - 🇨🇦 加拿大-1.39MB
+      - 🇨🇦 加拿大-3.15MB
+      - 🇩🇪 德国-1.42MB
+      - 🇺🇸 美国-1.00MB
+      - 🇺🇸 美国-986.4KB
+      - 🇳🇱 荷兰-929.1KB
+      - (已存活1天)西班牙-2.94MB%
+      - 2.73MB%
+      - A-1.04MB%
+      - A7-1.44MB%
+      - 🇨🇳 中国-1.91MB/s
+      - 🇨🇦 加拿大-1005.0KB%
+      - 🇩🇪 德国-1.64MB%
+      - 🇺🇸 美国-1.48MB%
+      - 🇺🇸 美国-1008.9KB%
+      - 🇨🇳 中国-1.91MB/s(Youtube:不良林)
+      - 塞尔维亚-1.50MB/s
+      - 塞尔维亚-1.56MB/s
+      - 塞尔维亚-2.02MB/s
+      - 🇩🇪 德国-1.28MB/s
+      - 🇸🇬 新加坡-1.36MB/s(Youtube:不良林)
+      - 🇸🇬 新加坡-1.96MB/s(Youtube:不良林)
+      - 🇺🇸 美国-1.03MB/s
+      - 🇺🇸 美国-1.50MB/s
+      - 🇺🇸 美国-1.71MB/s
   - name: 📲 电报信息
     type: select
     proxies:
@@ -135,24 +211,43 @@ proxy-groups:
       - 二爷翻墙网 https://1808.ga 5
       - vmess
       - ss
-      - 🇨🇦 加拿大-2.25MB/s
       - 🇨🇦 加拿大-2.65MB/s
-      - 波兰-1.71MB/s
       - 🇺🇸 美国-1.69MB/s
       - 🇺🇸 美国-2.00MB/s
       - 🇺🇸 美国-2.09MB/s
       - 🇺🇸 美国-2.78MB/s
       - 🇬🇧 英国-2.10MB/s
-      - 1.40MB
       - 🇨🇦 加拿大-1.98MB
-      - 🇨🇦 加拿大-2.25MB
       - 🇨🇦 加拿大-3.05MB
-      - 🇨🇳 台湾-1.29MB
-      - 🇨🇭 瑞士-3.09MB
-      - 🇨🇭 瑞士-3.41MB
       - 🇺🇸 美国-1.06MB
       - 🇺🇸 美国-1.46MB
       - 🇺🇸 美国-942.7KB
+      - -1.31MB
+      - 🇨🇦 加拿大-1.39MB
+      - 🇨🇦 加拿大-3.15MB
+      - 🇩🇪 德国-1.42MB
+      - 🇺🇸 美国-1.00MB
+      - 🇺🇸 美国-986.4KB
+      - 🇳🇱 荷兰-929.1KB
+      - (已存活1天)西班牙-2.94MB%
+      - 2.73MB%
+      - A-1.04MB%
+      - A7-1.44MB%
+      - 🇨🇳 中国-1.91MB/s
+      - 🇨🇦 加拿大-1005.0KB%
+      - 🇩🇪 德国-1.64MB%
+      - 🇺🇸 美国-1.48MB%
+      - 🇺🇸 美国-1008.9KB%
+      - 🇨🇳 中国-1.91MB/s(Youtube:不良林)
+      - 塞尔维亚-1.50MB/s
+      - 塞尔维亚-1.56MB/s
+      - 塞尔维亚-2.02MB/s
+      - 🇩🇪 德国-1.28MB/s
+      - 🇸🇬 新加坡-1.36MB/s(Youtube:不良林)
+      - 🇸🇬 新加坡-1.96MB/s(Youtube:不良林)
+      - 🇺🇸 美国-1.03MB/s
+      - 🇺🇸 美国-1.50MB/s
+      - 🇺🇸 美国-1.71MB/s
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -165,24 +260,43 @@ proxy-groups:
       - 二爷翻墙网 https://1808.ga 5
       - vmess
       - ss
-      - 🇨🇦 加拿大-2.25MB/s
       - 🇨🇦 加拿大-2.65MB/s
-      - 波兰-1.71MB/s
       - 🇺🇸 美国-1.69MB/s
       - 🇺🇸 美国-2.00MB/s
       - 🇺🇸 美国-2.09MB/s
       - 🇺🇸 美国-2.78MB/s
       - 🇬🇧 英国-2.10MB/s
-      - 1.40MB
       - 🇨🇦 加拿大-1.98MB
-      - 🇨🇦 加拿大-2.25MB
       - 🇨🇦 加拿大-3.05MB
-      - 🇨🇳 台湾-1.29MB
-      - 🇨🇭 瑞士-3.09MB
-      - 🇨🇭 瑞士-3.41MB
       - 🇺🇸 美国-1.06MB
       - 🇺🇸 美国-1.46MB
       - 🇺🇸 美国-942.7KB
+      - -1.31MB
+      - 🇨🇦 加拿大-1.39MB
+      - 🇨🇦 加拿大-3.15MB
+      - 🇩🇪 德国-1.42MB
+      - 🇺🇸 美国-1.00MB
+      - 🇺🇸 美国-986.4KB
+      - 🇳🇱 荷兰-929.1KB
+      - (已存活1天)西班牙-2.94MB%
+      - 2.73MB%
+      - A-1.04MB%
+      - A7-1.44MB%
+      - 🇨🇳 中国-1.91MB/s
+      - 🇨🇦 加拿大-1005.0KB%
+      - 🇩🇪 德国-1.64MB%
+      - 🇺🇸 美国-1.48MB%
+      - 🇺🇸 美国-1008.9KB%
+      - 🇨🇳 中国-1.91MB/s(Youtube:不良林)
+      - 塞尔维亚-1.50MB/s
+      - 塞尔维亚-1.56MB/s
+      - 塞尔维亚-2.02MB/s
+      - 🇩🇪 德国-1.28MB/s
+      - 🇸🇬 新加坡-1.36MB/s(Youtube:不良林)
+      - 🇸🇬 新加坡-1.96MB/s(Youtube:不良林)
+      - 🇺🇸 美国-1.03MB/s
+      - 🇺🇸 美国-1.50MB/s
+      - 🇺🇸 美国-1.71MB/s
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -195,24 +309,43 @@ proxy-groups:
       - 二爷翻墙网 https://1808.ga 5
       - vmess
       - ss
-      - 🇨🇦 加拿大-2.25MB/s
       - 🇨🇦 加拿大-2.65MB/s
-      - 波兰-1.71MB/s
       - 🇺🇸 美国-1.69MB/s
       - 🇺🇸 美国-2.00MB/s
       - 🇺🇸 美国-2.09MB/s
       - 🇺🇸 美国-2.78MB/s
       - 🇬🇧 英国-2.10MB/s
-      - 1.40MB
       - 🇨🇦 加拿大-1.98MB
-      - 🇨🇦 加拿大-2.25MB
       - 🇨🇦 加拿大-3.05MB
-      - 🇨🇳 台湾-1.29MB
-      - 🇨🇭 瑞士-3.09MB
-      - 🇨🇭 瑞士-3.41MB
       - 🇺🇸 美国-1.06MB
       - 🇺🇸 美国-1.46MB
       - 🇺🇸 美国-942.7KB
+      - -1.31MB
+      - 🇨🇦 加拿大-1.39MB
+      - 🇨🇦 加拿大-3.15MB
+      - 🇩🇪 德国-1.42MB
+      - 🇺🇸 美国-1.00MB
+      - 🇺🇸 美国-986.4KB
+      - 🇳🇱 荷兰-929.1KB
+      - (已存活1天)西班牙-2.94MB%
+      - 2.73MB%
+      - A-1.04MB%
+      - A7-1.44MB%
+      - 🇨🇳 中国-1.91MB/s
+      - 🇨🇦 加拿大-1005.0KB%
+      - 🇩🇪 德国-1.64MB%
+      - 🇺🇸 美国-1.48MB%
+      - 🇺🇸 美国-1008.9KB%
+      - 🇨🇳 中国-1.91MB/s(Youtube:不良林)
+      - 塞尔维亚-1.50MB/s
+      - 塞尔维亚-1.56MB/s
+      - 塞尔维亚-2.02MB/s
+      - 🇩🇪 德国-1.28MB/s
+      - 🇸🇬 新加坡-1.36MB/s(Youtube:不良林)
+      - 🇸🇬 新加坡-1.96MB/s(Youtube:不良林)
+      - 🇺🇸 美国-1.03MB/s
+      - 🇺🇸 美国-1.50MB/s
+      - 🇺🇸 美国-1.71MB/s
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -226,24 +359,43 @@ proxy-groups:
       - 二爷翻墙网 https://1808.ga 5
       - vmess
       - ss
-      - 🇨🇦 加拿大-2.25MB/s
       - 🇨🇦 加拿大-2.65MB/s
-      - 波兰-1.71MB/s
       - 🇺🇸 美国-1.69MB/s
       - 🇺🇸 美国-2.00MB/s
       - 🇺🇸 美国-2.09MB/s
       - 🇺🇸 美国-2.78MB/s
       - 🇬🇧 英国-2.10MB/s
-      - 1.40MB
       - 🇨🇦 加拿大-1.98MB
-      - 🇨🇦 加拿大-2.25MB
       - 🇨🇦 加拿大-3.05MB
-      - 🇨🇳 台湾-1.29MB
-      - 🇨🇭 瑞士-3.09MB
-      - 🇨🇭 瑞士-3.41MB
       - 🇺🇸 美国-1.06MB
       - 🇺🇸 美国-1.46MB
       - 🇺🇸 美国-942.7KB
+      - -1.31MB
+      - 🇨🇦 加拿大-1.39MB
+      - 🇨🇦 加拿大-3.15MB
+      - 🇩🇪 德国-1.42MB
+      - 🇺🇸 美国-1.00MB
+      - 🇺🇸 美国-986.4KB
+      - 🇳🇱 荷兰-929.1KB
+      - (已存活1天)西班牙-2.94MB%
+      - 2.73MB%
+      - A-1.04MB%
+      - A7-1.44MB%
+      - 🇨🇳 中国-1.91MB/s
+      - 🇨🇦 加拿大-1005.0KB%
+      - 🇩🇪 德国-1.64MB%
+      - 🇺🇸 美国-1.48MB%
+      - 🇺🇸 美国-1008.9KB%
+      - 🇨🇳 中国-1.91MB/s(Youtube:不良林)
+      - 塞尔维亚-1.50MB/s
+      - 塞尔维亚-1.56MB/s
+      - 塞尔维亚-2.02MB/s
+      - 🇩🇪 德国-1.28MB/s
+      - 🇸🇬 新加坡-1.36MB/s(Youtube:不良林)
+      - 🇸🇬 新加坡-1.96MB/s(Youtube:不良林)
+      - 🇺🇸 美国-1.03MB/s
+      - 🇺🇸 美国-1.50MB/s
+      - 🇺🇸 美国-1.71MB/s
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -273,24 +425,43 @@ proxy-groups:
       - 二爷翻墙网 https://1808.ga 5
       - vmess
       - ss
-      - 🇨🇦 加拿大-2.25MB/s
       - 🇨🇦 加拿大-2.65MB/s
-      - 波兰-1.71MB/s
       - 🇺🇸 美国-1.69MB/s
       - 🇺🇸 美国-2.00MB/s
       - 🇺🇸 美国-2.09MB/s
       - 🇺🇸 美国-2.78MB/s
       - 🇬🇧 英国-2.10MB/s
-      - 1.40MB
       - 🇨🇦 加拿大-1.98MB
-      - 🇨🇦 加拿大-2.25MB
       - 🇨🇦 加拿大-3.05MB
-      - 🇨🇳 台湾-1.29MB
-      - 🇨🇭 瑞士-3.09MB
-      - 🇨🇭 瑞士-3.41MB
       - 🇺🇸 美国-1.06MB
       - 🇺🇸 美国-1.46MB
       - 🇺🇸 美国-942.7KB
+      - -1.31MB
+      - 🇨🇦 加拿大-1.39MB
+      - 🇨🇦 加拿大-3.15MB
+      - 🇩🇪 德国-1.42MB
+      - 🇺🇸 美国-1.00MB
+      - 🇺🇸 美国-986.4KB
+      - 🇳🇱 荷兰-929.1KB
+      - (已存活1天)西班牙-2.94MB%
+      - 2.73MB%
+      - A-1.04MB%
+      - A7-1.44MB%
+      - 🇨🇳 中国-1.91MB/s
+      - 🇨🇦 加拿大-1005.0KB%
+      - 🇩🇪 德国-1.64MB%
+      - 🇺🇸 美国-1.48MB%
+      - 🇺🇸 美国-1008.9KB%
+      - 🇨🇳 中国-1.91MB/s(Youtube:不良林)
+      - 塞尔维亚-1.50MB/s
+      - 塞尔维亚-1.56MB/s
+      - 塞尔维亚-2.02MB/s
+      - 🇩🇪 德国-1.28MB/s
+      - 🇸🇬 新加坡-1.36MB/s(Youtube:不良林)
+      - 🇸🇬 新加坡-1.96MB/s(Youtube:不良林)
+      - 🇺🇸 美国-1.03MB/s
+      - 🇺🇸 美国-1.50MB/s
+      - 🇺🇸 美国-1.71MB/s
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
