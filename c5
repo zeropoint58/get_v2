@@ -19,6 +19,13 @@ proxies:
   - {name: 🇸🇬 SG03, server: 159.223.67.223, port: 58443, type: vmess, uuid: 07c40cf6-db51-4179-cce7-5607cc0d301b, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 159.223.67.223}}
   - {name: 🇸🇬 SG04, server: 159.223.76.179, port: 25337, type: vmess, uuid: c2260617-20d9-40cd-c026-7d44a2406a2c, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 159.223.76.179}}
   - {name: 🇸🇬 SG05, server: 159.223.75.14, port: 41462, type: vmess, uuid: 7556ad52-2253-4443-a483-623afcf4539c, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 159.223.75.14}}
+  - {name: 【中转】1, server: 140.179.85.93, port: 20801, type: vmess, uuid: aa3a3aed-6024-4bd5-bc4f-a3e86650409b, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 140.179.85.93}}
+  - {name: 【中转】2, server: 140.179.85.93, port: 20802, type: vmess, uuid: aa3a3aed-6024-4bd5-bc4f-a3e86650409b, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 140.179.85.93}}
+  - {name: 【中转】3, server: 140.179.85.93, port: 20803, type: vmess, uuid: aa3a3aed-6024-4bd5-bc4f-a3e86650409b, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 140.179.85.93}}
+  - {name: 【直连】SJC/圣荷西 - 1, server: 029.NA.POP.BIGAIRPORT.NET, port: 12356, type: vmess, uuid: 43b4c855-67d1-4b43-9f54-d3eab725639c, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 029.NA.POP.BIGAIRPORT.NET}}
+  - {name: 【直连】SJC/圣荷西 - 2, server: 030.NA.POP.BIGAIRPORT.NET, port: 12356, type: vmess, uuid: 43b4c855-67d1-4b43-9f54-d3eab725639c, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 030.NA.POP.BIGAIRPORT.NET}}
+  - {name: 【直连】SJC/圣荷西 - 80端口 - 1, server: 009.NA.POP.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 43b4c855-67d1-4b43-9f54-d3eab725639c, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 009.NA.POP.BIGAIRPORT.NET}}
+  - {name: 【直连】SJC/圣荷西 - 80端口 - 2, server: 010.NA.POP.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 43b4c855-67d1-4b43-9f54-d3eab725639c, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 010.NA.POP.BIGAIRPORT.NET}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -39,6 +46,13 @@ proxy-groups:
       - 🇸🇬 SG03
       - 🇸🇬 SG04
       - 🇸🇬 SG05
+      - 【中转】1
+      - 【中转】2
+      - 【中转】3
+      - 【直连】SJC/圣荷西 - 1
+      - 【直连】SJC/圣荷西 - 2
+      - 【直连】SJC/圣荷西 - 80端口 - 1
+      - 【直连】SJC/圣荷西 - 80端口 - 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -59,6 +73,13 @@ proxy-groups:
       - 🇸🇬 SG03
       - 🇸🇬 SG04
       - 🇸🇬 SG05
+      - 【中转】1
+      - 【中转】2
+      - 【中转】3
+      - 【直连】SJC/圣荷西 - 1
+      - 【直连】SJC/圣荷西 - 2
+      - 【直连】SJC/圣荷西 - 80端口 - 1
+      - 【直连】SJC/圣荷西 - 80端口 - 2
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -79,6 +100,13 @@ proxy-groups:
       - 🇸🇬 SG03
       - 🇸🇬 SG04
       - 🇸🇬 SG05
+      - 【中转】1
+      - 【中转】2
+      - 【中转】3
+      - 【直连】SJC/圣荷西 - 1
+      - 【直连】SJC/圣荷西 - 2
+      - 【直连】SJC/圣荷西 - 80端口 - 1
+      - 【直连】SJC/圣荷西 - 80端口 - 2
   - name: 📲 电报信息
     type: select
     proxies:
@@ -98,6 +126,13 @@ proxy-groups:
       - 🇸🇬 SG03
       - 🇸🇬 SG04
       - 🇸🇬 SG05
+      - 【中转】1
+      - 【中转】2
+      - 【中转】3
+      - 【直连】SJC/圣荷西 - 1
+      - 【直连】SJC/圣荷西 - 2
+      - 【直连】SJC/圣荷西 - 80端口 - 1
+      - 【直连】SJC/圣荷西 - 80端口 - 2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -117,6 +152,13 @@ proxy-groups:
       - 🇸🇬 SG03
       - 🇸🇬 SG04
       - 🇸🇬 SG05
+      - 【中转】1
+      - 【中转】2
+      - 【中转】3
+      - 【直连】SJC/圣荷西 - 1
+      - 【直连】SJC/圣荷西 - 2
+      - 【直连】SJC/圣荷西 - 80端口 - 1
+      - 【直连】SJC/圣荷西 - 80端口 - 2
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -136,6 +178,13 @@ proxy-groups:
       - 🇸🇬 SG03
       - 🇸🇬 SG04
       - 🇸🇬 SG05
+      - 【中转】1
+      - 【中转】2
+      - 【中转】3
+      - 【直连】SJC/圣荷西 - 1
+      - 【直连】SJC/圣荷西 - 2
+      - 【直连】SJC/圣荷西 - 80端口 - 1
+      - 【直连】SJC/圣荷西 - 80端口 - 2
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -156,6 +205,13 @@ proxy-groups:
       - 🇸🇬 SG03
       - 🇸🇬 SG04
       - 🇸🇬 SG05
+      - 【中转】1
+      - 【中转】2
+      - 【中转】3
+      - 【直连】SJC/圣荷西 - 1
+      - 【直连】SJC/圣荷西 - 2
+      - 【直连】SJC/圣荷西 - 80端口 - 1
+      - 【直连】SJC/圣荷西 - 80端口 - 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -192,6 +248,13 @@ proxy-groups:
       - 🇸🇬 SG03
       - 🇸🇬 SG04
       - 🇸🇬 SG05
+      - 【中转】1
+      - 【中转】2
+      - 【中转】3
+      - 【直连】SJC/圣荷西 - 1
+      - 【直连】SJC/圣荷西 - 2
+      - 【直连】SJC/圣荷西 - 80端口 - 1
+      - 【直连】SJC/圣荷西 - 80端口 - 2
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
