@@ -8,16 +8,9 @@ proxies:
   - {name: 二爷翻墙网 https://1808.ga, server: 42.157.196.104, port: 10926, type: ssr, cipher: aes-256-cfb, password: vCmp8ALih6, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 241699:ux74UgpcnA, obfs-param: ""}
   - {name: 二爷翻墙网 https://1808.ga 2, server: ngzyd-1.okex-tradebot.xyz, port: 30004, type: vmess, uuid: 7d234d10-1cd8-4e09-b998-000ee8fdedc0, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: ngzyd-1.okex-tradebot.xyz}}
   - {name: 二爷翻墙网 https://1808.ga 3, server: 111.51.66.44, port: 80, type: vmess, uuid: 06122b9f-f24a-493a-837b-1a45e9c64e5d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cdn.cloudfront.rui77.com}}
-  - {name: 🇯🇵 【中转】JPN/日本 A - 6, server: 116.129.226.35, port: 80, type: vmess, uuid: 06122b9f-f24a-493a-837b-1a45e9c64e5d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cdn.cloudfront.rui77.com}}
-  - {name: 🇯🇵 【中转】JPN/日本 A - 7, server: 118.193.97.175, port: 80, type: vmess, uuid: 06122b9f-f24a-493a-837b-1a45e9c64e5d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cdn.cloudfront.rui77.com}}
-  - {name: 🇯🇵 【中转】JPN/日本 A - Anycast, server: dkhndazrammw7.cloudfront.cn, port: 80, type: vmess, uuid: 06122b9f-f24a-493a-837b-1a45e9c64e5d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cdn.cloudfront.rui77.com}}
-  - {name: 【直连】IST/伊斯坦堡, server: 001.tr.eu.pop.smallairport.net, port: 22356, type: vmess, uuid: 06122b9f-f24a-493a-837b-1a45e9c64e5d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 001.tr.eu.pop.smallairport.net}}
-  - {name: 🇨🇳 【直连】TWN/台湾 B, server: twn01.ip4.ddns.acg.photos, port: 80, type: vmess, uuid: 06122b9f-f24a-493a-837b-1a45e9c64e5d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: twn01.ip4.ddns.acg.photos}}
-  - {name: 🇭🇰 Amazon Ec2 HongKong (香港), server: 18.162.155.162, port: 8888, type: vmess, uuid: 63fc8d31-358d-3769-a3e1-0b3f9dd9f98f, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 18.162.155.162}}
-  - {name: 🇸🇬 SG01 | tg频道:@ripaojiedian, server: 139.59.122.24, port: 34715, type: vmess, uuid: 28eeec13-db80-4cb9-9d30-060f4257d729, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 139.59.122.24}}
-  - {name: 🇸🇬 SG03 | tg频道:@ripaojiedian, server: 159.223.67.223, port: 58443, type: vmess, uuid: 07c40cf6-db51-4179-cce7-5607cc0d301b, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 159.223.67.223}}
-  - {name: 🇸🇬 SG04 | tg频道:@ripaojiedian, server: 159.223.76.179, port: 25337, type: vmess, uuid: c2260617-20d9-40cd-c026-7d44a2406a2c, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 159.223.76.179}}
-  - {name: 🇸🇬 SG05 | tg频道:@ripaojiedian, server: 159.223.75.14, port: 41462, type: vmess, uuid: 7556ad52-2253-4443-a483-623afcf4539c, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 159.223.75.14}}
+  - {name: 二爷翻墙网 https://1808.ga 4, server: 139.59.122.24, port: 34715, type: vmess, uuid: 28eeec13-db80-4cb9-9d30-060f4257d729, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 139.59.122.24}}
+  - {name: 二爷翻墙网 https://1808.ga 5, server: 159.223.76.179, port: 25337, type: vmess, uuid: c2260617-20d9-40cd-c026-7d44a2406a2c, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 159.223.76.179}}
+  - {name: 二爷翻墙网 https://1808.ga 6, server: 159.223.75.14, port: 41462, type: vmess, uuid: 7556ad52-2253-4443-a483-623afcf4539c, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 159.223.75.14}}
   - {name: 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_1573, server: 122.192.189.8, port: 19701, type: vmess, uuid: c0f4d26f-b870-3b0d-a77e-1786fcf52e50, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /download, ws-headers: {Host: t.me/vpnhat}}
   - {name: 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_1575, server: 122.192.189.8, port: 19700, type: vmess, uuid: c0f4d26f-b870-3b0d-a77e-1786fcf52e50, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /download, ws-headers: {Host: t.me/vpnhat}}
   - {name: 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_1608, server: 122.192.189.8, port: 19702, type: vmess, uuid: c0f4d26f-b870-3b0d-a77e-1786fcf52e50, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /download, ws-headers: {Host: t.me/vpnhat}}
@@ -45,6 +38,25 @@ proxies:
   - {name: 🇭🇰 Relay_🇭🇰HK-🇺🇸US_3826, server: a.transit.t.qjnodeip.xyz, port: 52161, type: vmess, uuid: 1439886a-ecb5-3bbf-bc65-8bfb23d72ea0, alterId: 8, cipher: auto, tls: true, network: ws, ws-path: /Xjibjp04e, ws-headers: {Host: xjp04.cswtw.xyz}}
   - {name: 🇭🇰 Relay_🇭🇰HK-🇺🇸US_3828, server: a.transit.t.qjnodeip.xyz, port: 18996, type: vmess, uuid: 615505e8-e63c-3bad-b3e7-d5e6cf99387e, alterId: 8, cipher: auto, tls: true, network: ws, ws-path: /Jg012, ws-headers: {Host: jnd01.wxyidc001.space}}
   - {name: 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_5136, server: 003.ap.pop.bigairport.net, port: 80, type: vmess, uuid: dad88b99-16f7-4760-ad52-bb291b9fa7dd, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: t.me/vpnhat}}
+  - {name: 🇨🇳 CN_113, server: 122.192.189.8, port: 19710, type: vmess, uuid: c0f4d26f-b870-3b0d-a77e-1786fcf52e50, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /download, ws-headers: {Host: t.me/vpnhat}}
+  - {name: 🇨🇳 CN_114, server: 122.192.189.8, port: 19700, type: vmess, uuid: c0f4d26f-b870-3b0d-a77e-1786fcf52e50, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /download, ws-headers: {Host: t.me/vpnhat}}
+  - {name: 🇨🇳 CN_115, server: 122.192.189.8, port: 19711, type: vmess, uuid: c0f4d26f-b870-3b0d-a77e-1786fcf52e50, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /download, ws-headers: {Host: t.me/vpnhat}}
+  - {name: 🇨🇳 CN_116, server: 122.192.189.8, port: 19712, type: vmess, uuid: c0f4d26f-b870-3b0d-a77e-1786fcf52e50, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /download, ws-headers: {Host: t.me/vpnhat}}
+  - {name: 🇨🇳 CN_117, server: 122.192.189.8, port: 19702, type: vmess, uuid: c0f4d26f-b870-3b0d-a77e-1786fcf52e50, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /download, ws-headers: {Host: t.me/vpnhat}}
+  - {name: 🇭🇰 HK_143, server: a.transit.t.qjnodeip.xyz, port: 41097, type: vmess, uuid: 615505e8-e63c-3bad-b3e7-d5e6cf99387e, alterId: 8, cipher: auto, tls: true, network: ws, ws-path: /5JSnmsw5sdq, ws-headers: {Host: ld02.sdhexzy.xyz}}
+  - {name: 🇭🇰 HK_144, server: a.transit.t.qjnodeip.xyz, port: 52161, type: vmess, uuid: 615505e8-e63c-3bad-b3e7-d5e6cf99387e, alterId: 8, cipher: auto, tls: true, network: ws, ws-path: /Xjibjp04e, ws-headers: {Host: xjp04.cswtw.xyz}}
+  - {name: 🇭🇰 HK_145, server: a.transit.t.qjnodeip.xyz, port: 18996, type: vmess, uuid: 615505e8-e63c-3bad-b3e7-d5e6cf99387e, alterId: 8, cipher: auto, tls: true, network: ws, ws-path: /Jg012, ws-headers: {Host: jnd01.wxyidc001.space}}
+  - {name: 🇭🇰 HK_146, server: a.transit.t.qjnodeip.xyz, port: 65364, type: vmess, uuid: 615505e8-e63c-3bad-b3e7-d5e6cf99387e, alterId: 8, cipher: auto, tls: true, network: ws, ws-path: /HG02Z, ws-headers: {Host: usa05.sdhexzy.xyz}}
+  - {name: 🇭🇰 HK_148, server: hkcm.tuboshu.space, port: 1888, type: vmess, uuid: 877a0755-2f5c-30fc-9206-461cf8be3286, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: hkcm.tuboshu.space}}
+  - {name: 🇭🇰 HK_150, server: a.transit.t.qjnodeip.xyz, port: 24981, type: vmess, uuid: 615505e8-e63c-3bad-b3e7-d5e6cf99387e, alterId: 8, cipher: auto, tls: true, network: ws, ws-path: /J02C, ws-headers: {Host: jnd02.wxyidc001.space}}
+  - {name: 🇺🇸 US_251, server: 104.21.100.150, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: "🇸🇬 [直连]新加坡免流3", server: 143.198.196.68, port: 80, type: vmess, uuid: e7c66d44-fc6c-4bd4-8ccb-bf75b70f1bc3, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 143.198.196.68}}
+  - {name: 【中转】3, server: 140.179.85.93, port: 20803, type: vmess, uuid: 4b693bf6-8c19-41a4-aab9-6bde4e7c0fa5, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 140.179.85.93}}
+  - {name: 【中转】9, server: 120.221.173.65, port: 20809, type: vmess, uuid: 4b693bf6-8c19-41a4-aab9-6bde4e7c0fa5, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 001.cdn.8x.cx.hit.edu.cn}}
+  - {name: 🇰🇷 【直连】ICN/首尔 A, server: 001.kr.ap.pop.smallairport.net, port: 22356, type: vmess, uuid: 4b693bf6-8c19-41a4-aab9-6bde4e7c0fa5, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 001.kr.ap.pop.smallairport.net}}
+  - {name: 🇸🇬 【直连】SIN/狮城 A, server: 001.sg.ap.pop.smallairport.net, port: 22356, type: vmess, uuid: 4b693bf6-8c19-41a4-aab9-6bde4e7c0fa5, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 001.sg.ap.pop.smallairport.net}}
+  - {name: 🇨🇳 【直连】TWN/台湾 C, server: twn04.ip4.ddns.acg.photos, port: 80, type: vmess, uuid: 4b693bf6-8c19-41a4-aab9-6bde4e7c0fa5, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: twn04.ip4.ddns.acg.photos}}
+  - {name: 🇺🇸 【直连】USA/美国, server: 001.us.na.pop.smallairport.net, port: 22356, type: vmess, uuid: 4b693bf6-8c19-41a4-aab9-6bde4e7c0fa5, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 001.us.na.pop.smallairport.net}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -54,16 +66,9 @@ proxy-groups:
       - 二爷翻墙网 https://1808.ga
       - 二爷翻墙网 https://1808.ga 2
       - 二爷翻墙网 https://1808.ga 3
-      - 🇯🇵 【中转】JPN/日本 A - 6
-      - 🇯🇵 【中转】JPN/日本 A - 7
-      - 🇯🇵 【中转】JPN/日本 A - Anycast
-      - 【直连】IST/伊斯坦堡
-      - 🇨🇳 【直连】TWN/台湾 B
-      - 🇭🇰 Amazon Ec2 HongKong (香港)
-      - 🇸🇬 SG01 | tg频道:@ripaojiedian
-      - 🇸🇬 SG03 | tg频道:@ripaojiedian
-      - 🇸🇬 SG04 | tg频道:@ripaojiedian
-      - 🇸🇬 SG05 | tg频道:@ripaojiedian
+      - 二爷翻墙网 https://1808.ga 4
+      - 二爷翻墙网 https://1808.ga 5
+      - 二爷翻墙网 https://1808.ga 6
       - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_1573
       - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_1575
       - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_1608
@@ -91,6 +96,25 @@ proxy-groups:
       - 🇭🇰 Relay_🇭🇰HK-🇺🇸US_3826
       - 🇭🇰 Relay_🇭🇰HK-🇺🇸US_3828
       - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_5136
+      - 🇨🇳 CN_113
+      - 🇨🇳 CN_114
+      - 🇨🇳 CN_115
+      - 🇨🇳 CN_116
+      - 🇨🇳 CN_117
+      - 🇭🇰 HK_143
+      - 🇭🇰 HK_144
+      - 🇭🇰 HK_145
+      - 🇭🇰 HK_146
+      - 🇭🇰 HK_148
+      - 🇭🇰 HK_150
+      - 🇺🇸 US_251
+      - 🇸🇬 [直连]新加坡免流3
+      - 【中转】3
+      - 【中转】9
+      - 🇰🇷 【直连】ICN/首尔 A
+      - 🇸🇬 【直连】SIN/狮城 A
+      - 🇨🇳 【直连】TWN/台湾 C
+      - 🇺🇸 【直连】USA/美国
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -100,16 +124,9 @@ proxy-groups:
       - 二爷翻墙网 https://1808.ga
       - 二爷翻墙网 https://1808.ga 2
       - 二爷翻墙网 https://1808.ga 3
-      - 🇯🇵 【中转】JPN/日本 A - 6
-      - 🇯🇵 【中转】JPN/日本 A - 7
-      - 🇯🇵 【中转】JPN/日本 A - Anycast
-      - 【直连】IST/伊斯坦堡
-      - 🇨🇳 【直连】TWN/台湾 B
-      - 🇭🇰 Amazon Ec2 HongKong (香港)
-      - 🇸🇬 SG01 | tg频道:@ripaojiedian
-      - 🇸🇬 SG03 | tg频道:@ripaojiedian
-      - 🇸🇬 SG04 | tg频道:@ripaojiedian
-      - 🇸🇬 SG05 | tg频道:@ripaojiedian
+      - 二爷翻墙网 https://1808.ga 4
+      - 二爷翻墙网 https://1808.ga 5
+      - 二爷翻墙网 https://1808.ga 6
       - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_1573
       - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_1575
       - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_1608
@@ -137,6 +154,25 @@ proxy-groups:
       - 🇭🇰 Relay_🇭🇰HK-🇺🇸US_3826
       - 🇭🇰 Relay_🇭🇰HK-🇺🇸US_3828
       - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_5136
+      - 🇨🇳 CN_113
+      - 🇨🇳 CN_114
+      - 🇨🇳 CN_115
+      - 🇨🇳 CN_116
+      - 🇨🇳 CN_117
+      - 🇭🇰 HK_143
+      - 🇭🇰 HK_144
+      - 🇭🇰 HK_145
+      - 🇭🇰 HK_146
+      - 🇭🇰 HK_148
+      - 🇭🇰 HK_150
+      - 🇺🇸 US_251
+      - 🇸🇬 [直连]新加坡免流3
+      - 【中转】3
+      - 【中转】9
+      - 🇰🇷 【直连】ICN/首尔 A
+      - 🇸🇬 【直连】SIN/狮城 A
+      - 🇨🇳 【直连】TWN/台湾 C
+      - 🇺🇸 【直连】USA/美国
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -146,16 +182,9 @@ proxy-groups:
       - 二爷翻墙网 https://1808.ga
       - 二爷翻墙网 https://1808.ga 2
       - 二爷翻墙网 https://1808.ga 3
-      - 🇯🇵 【中转】JPN/日本 A - 6
-      - 🇯🇵 【中转】JPN/日本 A - 7
-      - 🇯🇵 【中转】JPN/日本 A - Anycast
-      - 【直连】IST/伊斯坦堡
-      - 🇨🇳 【直连】TWN/台湾 B
-      - 🇭🇰 Amazon Ec2 HongKong (香港)
-      - 🇸🇬 SG01 | tg频道:@ripaojiedian
-      - 🇸🇬 SG03 | tg频道:@ripaojiedian
-      - 🇸🇬 SG04 | tg频道:@ripaojiedian
-      - 🇸🇬 SG05 | tg频道:@ripaojiedian
+      - 二爷翻墙网 https://1808.ga 4
+      - 二爷翻墙网 https://1808.ga 5
+      - 二爷翻墙网 https://1808.ga 6
       - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_1573
       - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_1575
       - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_1608
@@ -183,6 +212,25 @@ proxy-groups:
       - 🇭🇰 Relay_🇭🇰HK-🇺🇸US_3826
       - 🇭🇰 Relay_🇭🇰HK-🇺🇸US_3828
       - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_5136
+      - 🇨🇳 CN_113
+      - 🇨🇳 CN_114
+      - 🇨🇳 CN_115
+      - 🇨🇳 CN_116
+      - 🇨🇳 CN_117
+      - 🇭🇰 HK_143
+      - 🇭🇰 HK_144
+      - 🇭🇰 HK_145
+      - 🇭🇰 HK_146
+      - 🇭🇰 HK_148
+      - 🇭🇰 HK_150
+      - 🇺🇸 US_251
+      - 🇸🇬 [直连]新加坡免流3
+      - 【中转】3
+      - 【中转】9
+      - 🇰🇷 【直连】ICN/首尔 A
+      - 🇸🇬 【直连】SIN/狮城 A
+      - 🇨🇳 【直连】TWN/台湾 C
+      - 🇺🇸 【直连】USA/美国
   - name: 📲 电报信息
     type: select
     proxies:
@@ -191,16 +239,9 @@ proxy-groups:
       - 二爷翻墙网 https://1808.ga
       - 二爷翻墙网 https://1808.ga 2
       - 二爷翻墙网 https://1808.ga 3
-      - 🇯🇵 【中转】JPN/日本 A - 6
-      - 🇯🇵 【中转】JPN/日本 A - 7
-      - 🇯🇵 【中转】JPN/日本 A - Anycast
-      - 【直连】IST/伊斯坦堡
-      - 🇨🇳 【直连】TWN/台湾 B
-      - 🇭🇰 Amazon Ec2 HongKong (香港)
-      - 🇸🇬 SG01 | tg频道:@ripaojiedian
-      - 🇸🇬 SG03 | tg频道:@ripaojiedian
-      - 🇸🇬 SG04 | tg频道:@ripaojiedian
-      - 🇸🇬 SG05 | tg频道:@ripaojiedian
+      - 二爷翻墙网 https://1808.ga 4
+      - 二爷翻墙网 https://1808.ga 5
+      - 二爷翻墙网 https://1808.ga 6
       - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_1573
       - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_1575
       - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_1608
@@ -228,6 +269,25 @@ proxy-groups:
       - 🇭🇰 Relay_🇭🇰HK-🇺🇸US_3826
       - 🇭🇰 Relay_🇭🇰HK-🇺🇸US_3828
       - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_5136
+      - 🇨🇳 CN_113
+      - 🇨🇳 CN_114
+      - 🇨🇳 CN_115
+      - 🇨🇳 CN_116
+      - 🇨🇳 CN_117
+      - 🇭🇰 HK_143
+      - 🇭🇰 HK_144
+      - 🇭🇰 HK_145
+      - 🇭🇰 HK_146
+      - 🇭🇰 HK_148
+      - 🇭🇰 HK_150
+      - 🇺🇸 US_251
+      - 🇸🇬 [直连]新加坡免流3
+      - 【中转】3
+      - 【中转】9
+      - 🇰🇷 【直连】ICN/首尔 A
+      - 🇸🇬 【直连】SIN/狮城 A
+      - 🇨🇳 【直连】TWN/台湾 C
+      - 🇺🇸 【直连】USA/美国
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -236,16 +296,9 @@ proxy-groups:
       - 二爷翻墙网 https://1808.ga
       - 二爷翻墙网 https://1808.ga 2
       - 二爷翻墙网 https://1808.ga 3
-      - 🇯🇵 【中转】JPN/日本 A - 6
-      - 🇯🇵 【中转】JPN/日本 A - 7
-      - 🇯🇵 【中转】JPN/日本 A - Anycast
-      - 【直连】IST/伊斯坦堡
-      - 🇨🇳 【直连】TWN/台湾 B
-      - 🇭🇰 Amazon Ec2 HongKong (香港)
-      - 🇸🇬 SG01 | tg频道:@ripaojiedian
-      - 🇸🇬 SG03 | tg频道:@ripaojiedian
-      - 🇸🇬 SG04 | tg频道:@ripaojiedian
-      - 🇸🇬 SG05 | tg频道:@ripaojiedian
+      - 二爷翻墙网 https://1808.ga 4
+      - 二爷翻墙网 https://1808.ga 5
+      - 二爷翻墙网 https://1808.ga 6
       - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_1573
       - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_1575
       - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_1608
@@ -273,6 +326,25 @@ proxy-groups:
       - 🇭🇰 Relay_🇭🇰HK-🇺🇸US_3826
       - 🇭🇰 Relay_🇭🇰HK-🇺🇸US_3828
       - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_5136
+      - 🇨🇳 CN_113
+      - 🇨🇳 CN_114
+      - 🇨🇳 CN_115
+      - 🇨🇳 CN_116
+      - 🇨🇳 CN_117
+      - 🇭🇰 HK_143
+      - 🇭🇰 HK_144
+      - 🇭🇰 HK_145
+      - 🇭🇰 HK_146
+      - 🇭🇰 HK_148
+      - 🇭🇰 HK_150
+      - 🇺🇸 US_251
+      - 🇸🇬 [直连]新加坡免流3
+      - 【中转】3
+      - 【中转】9
+      - 🇰🇷 【直连】ICN/首尔 A
+      - 🇸🇬 【直连】SIN/狮城 A
+      - 🇨🇳 【直连】TWN/台湾 C
+      - 🇺🇸 【直连】USA/美国
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -281,16 +353,9 @@ proxy-groups:
       - 二爷翻墙网 https://1808.ga
       - 二爷翻墙网 https://1808.ga 2
       - 二爷翻墙网 https://1808.ga 3
-      - 🇯🇵 【中转】JPN/日本 A - 6
-      - 🇯🇵 【中转】JPN/日本 A - 7
-      - 🇯🇵 【中转】JPN/日本 A - Anycast
-      - 【直连】IST/伊斯坦堡
-      - 🇨🇳 【直连】TWN/台湾 B
-      - 🇭🇰 Amazon Ec2 HongKong (香港)
-      - 🇸🇬 SG01 | tg频道:@ripaojiedian
-      - 🇸🇬 SG03 | tg频道:@ripaojiedian
-      - 🇸🇬 SG04 | tg频道:@ripaojiedian
-      - 🇸🇬 SG05 | tg频道:@ripaojiedian
+      - 二爷翻墙网 https://1808.ga 4
+      - 二爷翻墙网 https://1808.ga 5
+      - 二爷翻墙网 https://1808.ga 6
       - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_1573
       - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_1575
       - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_1608
@@ -318,6 +383,25 @@ proxy-groups:
       - 🇭🇰 Relay_🇭🇰HK-🇺🇸US_3826
       - 🇭🇰 Relay_🇭🇰HK-🇺🇸US_3828
       - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_5136
+      - 🇨🇳 CN_113
+      - 🇨🇳 CN_114
+      - 🇨🇳 CN_115
+      - 🇨🇳 CN_116
+      - 🇨🇳 CN_117
+      - 🇭🇰 HK_143
+      - 🇭🇰 HK_144
+      - 🇭🇰 HK_145
+      - 🇭🇰 HK_146
+      - 🇭🇰 HK_148
+      - 🇭🇰 HK_150
+      - 🇺🇸 US_251
+      - 🇸🇬 [直连]新加坡免流3
+      - 【中转】3
+      - 【中转】9
+      - 🇰🇷 【直连】ICN/首尔 A
+      - 🇸🇬 【直连】SIN/狮城 A
+      - 🇨🇳 【直连】TWN/台湾 C
+      - 🇺🇸 【直连】USA/美国
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -327,16 +411,9 @@ proxy-groups:
       - 二爷翻墙网 https://1808.ga
       - 二爷翻墙网 https://1808.ga 2
       - 二爷翻墙网 https://1808.ga 3
-      - 🇯🇵 【中转】JPN/日本 A - 6
-      - 🇯🇵 【中转】JPN/日本 A - 7
-      - 🇯🇵 【中转】JPN/日本 A - Anycast
-      - 【直连】IST/伊斯坦堡
-      - 🇨🇳 【直连】TWN/台湾 B
-      - 🇭🇰 Amazon Ec2 HongKong (香港)
-      - 🇸🇬 SG01 | tg频道:@ripaojiedian
-      - 🇸🇬 SG03 | tg频道:@ripaojiedian
-      - 🇸🇬 SG04 | tg频道:@ripaojiedian
-      - 🇸🇬 SG05 | tg频道:@ripaojiedian
+      - 二爷翻墙网 https://1808.ga 4
+      - 二爷翻墙网 https://1808.ga 5
+      - 二爷翻墙网 https://1808.ga 6
       - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_1573
       - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_1575
       - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_1608
@@ -364,6 +441,25 @@ proxy-groups:
       - 🇭🇰 Relay_🇭🇰HK-🇺🇸US_3826
       - 🇭🇰 Relay_🇭🇰HK-🇺🇸US_3828
       - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_5136
+      - 🇨🇳 CN_113
+      - 🇨🇳 CN_114
+      - 🇨🇳 CN_115
+      - 🇨🇳 CN_116
+      - 🇨🇳 CN_117
+      - 🇭🇰 HK_143
+      - 🇭🇰 HK_144
+      - 🇭🇰 HK_145
+      - 🇭🇰 HK_146
+      - 🇭🇰 HK_148
+      - 🇭🇰 HK_150
+      - 🇺🇸 US_251
+      - 🇸🇬 [直连]新加坡免流3
+      - 【中转】3
+      - 【中转】9
+      - 🇰🇷 【直连】ICN/首尔 A
+      - 🇸🇬 【直连】SIN/狮城 A
+      - 🇨🇳 【直连】TWN/台湾 C
+      - 🇺🇸 【直连】USA/美国
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -389,16 +485,9 @@ proxy-groups:
       - 二爷翻墙网 https://1808.ga
       - 二爷翻墙网 https://1808.ga 2
       - 二爷翻墙网 https://1808.ga 3
-      - 🇯🇵 【中转】JPN/日本 A - 6
-      - 🇯🇵 【中转】JPN/日本 A - 7
-      - 🇯🇵 【中转】JPN/日本 A - Anycast
-      - 【直连】IST/伊斯坦堡
-      - 🇨🇳 【直连】TWN/台湾 B
-      - 🇭🇰 Amazon Ec2 HongKong (香港)
-      - 🇸🇬 SG01 | tg频道:@ripaojiedian
-      - 🇸🇬 SG03 | tg频道:@ripaojiedian
-      - 🇸🇬 SG04 | tg频道:@ripaojiedian
-      - 🇸🇬 SG05 | tg频道:@ripaojiedian
+      - 二爷翻墙网 https://1808.ga 4
+      - 二爷翻墙网 https://1808.ga 5
+      - 二爷翻墙网 https://1808.ga 6
       - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_1573
       - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_1575
       - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_1608
@@ -426,6 +515,25 @@ proxy-groups:
       - 🇭🇰 Relay_🇭🇰HK-🇺🇸US_3826
       - 🇭🇰 Relay_🇭🇰HK-🇺🇸US_3828
       - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_5136
+      - 🇨🇳 CN_113
+      - 🇨🇳 CN_114
+      - 🇨🇳 CN_115
+      - 🇨🇳 CN_116
+      - 🇨🇳 CN_117
+      - 🇭🇰 HK_143
+      - 🇭🇰 HK_144
+      - 🇭🇰 HK_145
+      - 🇭🇰 HK_146
+      - 🇭🇰 HK_148
+      - 🇭🇰 HK_150
+      - 🇺🇸 US_251
+      - 🇸🇬 [直连]新加坡免流3
+      - 【中转】3
+      - 【中转】9
+      - 🇰🇷 【直连】ICN/首尔 A
+      - 🇸🇬 【直连】SIN/狮城 A
+      - 🇨🇳 【直连】TWN/台湾 C
+      - 🇺🇸 【直连】USA/美国
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
