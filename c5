@@ -22,11 +22,7 @@ proxies:
   - {name: 🇩🇪 Relay_🇭🇰HK-🇩🇪DE_3822, server: 021.ap.pop.bigairport.net, port: 12356, type: vmess, uuid: dad88b99-16f7-4760-ad52-bb291b9fa7dd, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: t.me/vpnhat}}
   - {name: 🇭🇰 Relay_🇭🇰HK-🇬🇧GB_3810, server: a.transit.t.qjnodeip.xyz, port: 41097, type: vmess, uuid: 1439886a-ecb5-3bbf-bc65-8bfb23d72ea0, alterId: 8, cipher: auto, tls: true, network: ws, ws-path: /5JSnmsw5sdq, ws-headers: {Host: ld02.sdhexzy.xyz}}
   - {name: 🇭🇰 Relay_🇭🇰HK-🇬🇧GB_3812, server: a.transit.t.qjnodeip.xyz, port: 41097, type: vmess, uuid: 615505e8-e63c-3bad-b3e7-d5e6cf99387e, alterId: 8, cipher: auto, tls: true, network: ws, ws-path: /5JSnmsw5sdq, ws-headers: {Host: ld02.sdhexzy.xyz}}
-  - {name: 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_3814, server: v1-aws-hk-07.niaoyun.online, port: 666, type: vmess, uuid: f548911a-d732-3e05-b552-899f3f9a3487, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /niaocloud, ws-headers: {Host: t.me/vpnpool}}
   - {name: 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_3817, server: hkcm.tuboshu.space, port: 1888, type: vmess, uuid: 877a0755-2f5c-30fc-9206-461cf8be3286, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: hkcm.tuboshu.space}}
-  - {name: 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_3819, server: v1-aws-hk-07.niaoyun.online, port: 666, type: vmess, uuid: dcbd3481-eb2c-33bc-8cb3-a093b3b4e2bb, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /niaocloud, ws-headers: {Host: t.me/vpnpool}}
-  - {name: 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_3823, server: v1-aws-hk-14.niaoyun.online, port: 666, type: vmess, uuid: dcbd3481-eb2c-33bc-8cb3-a093b3b4e2bb, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /niaocloud, ws-headers: {Host: t.me/vpnpool}}
-  - {name: 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_3827, server: v1-aws-hk-07.niaoyun.online, port: 666, type: vmess, uuid: a2813ede-de11-3a5c-9b78-88513f897491, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /niaocloud, ws-headers: {Host: t.me/vpnpool}}
   - {name: 🇭🇰 Relay_🇭🇰HK-🇺🇸US_3811, server: a.transit.t.qjnodeip.xyz, port: 32061, type: vmess, uuid: 1439886a-ecb5-3bbf-bc65-8bfb23d72ea0, alterId: 8, cipher: auto, tls: true, network: ws, ws-path: /JS35, ws-headers: {Host: hg01.dddwda.xyz}}
   - {name: 🇭🇰 Relay_🇭🇰HK-🇺🇸US_3813, server: a.transit.t.qjnodeip.xyz, port: 65364, type: vmess, uuid: 615505e8-e63c-3bad-b3e7-d5e6cf99387e, alterId: 8, cipher: auto, tls: true, network: ws, ws-path: /HG02Z, ws-headers: {Host: usa05.sdhexzy.xyz}}
   - {name: 🇭🇰 Relay_🇭🇰HK-🇺🇸US_3815, server: a.transit.t.qjnodeip.xyz, port: 24981, type: vmess, uuid: 1439886a-ecb5-3bbf-bc65-8bfb23d72ea0, alterId: 8, cipher: auto, tls: true, network: ws, ws-path: /J02C, ws-headers: {Host: jnd02.wxyidc001.space}}
@@ -57,6 +53,9 @@ proxies:
   - {name: 🇸🇬 【直连】SIN/狮城 A, server: 001.sg.ap.pop.smallairport.net, port: 22356, type: vmess, uuid: 4b693bf6-8c19-41a4-aab9-6bde4e7c0fa5, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 001.sg.ap.pop.smallairport.net}}
   - {name: 🇨🇳 【直连】TWN/台湾 C, server: twn04.ip4.ddns.acg.photos, port: 80, type: vmess, uuid: 4b693bf6-8c19-41a4-aab9-6bde4e7c0fa5, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: twn04.ip4.ddns.acg.photos}}
   - {name: 🇺🇸 【直连】USA/美国, server: 001.us.na.pop.smallairport.net, port: 22356, type: vmess, uuid: 4b693bf6-8c19-41a4-aab9-6bde4e7c0fa5, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 001.us.na.pop.smallairport.net}}
+  - {name: 🇯🇵 日本🇯🇵, server: 54.238.161.11, port: 80, type: vmess, uuid: 261aeb5f-b6f7-359c-a321-9794bf344e12, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 54.238.161.11}}
+  - {name: 🇰🇷 韩国🇰🇷, server: 3.38.95.113, port: 1234, type: vmess, uuid: 261aeb5f-b6f7-359c-a321-9794bf344e12, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 3.38.95.113}}
+  - {name: 🇭🇰 香港, server: 18.162.214.245, port: 8888, type: vmess, uuid: 261aeb5f-b6f7-359c-a321-9794bf344e12, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 18.162.214.245}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -80,11 +79,7 @@ proxy-groups:
       - 🇩🇪 Relay_🇭🇰HK-🇩🇪DE_3822
       - 🇭🇰 Relay_🇭🇰HK-🇬🇧GB_3810
       - 🇭🇰 Relay_🇭🇰HK-🇬🇧GB_3812
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_3814
       - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_3817
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_3819
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_3823
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_3827
       - 🇭🇰 Relay_🇭🇰HK-🇺🇸US_3811
       - 🇭🇰 Relay_🇭🇰HK-🇺🇸US_3813
       - 🇭🇰 Relay_🇭🇰HK-🇺🇸US_3815
@@ -115,6 +110,9 @@ proxy-groups:
       - 🇸🇬 【直连】SIN/狮城 A
       - 🇨🇳 【直连】TWN/台湾 C
       - 🇺🇸 【直连】USA/美国
+      - 🇯🇵 日本🇯🇵
+      - 🇰🇷 韩国🇰🇷
+      - 🇭🇰 香港
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -138,11 +136,7 @@ proxy-groups:
       - 🇩🇪 Relay_🇭🇰HK-🇩🇪DE_3822
       - 🇭🇰 Relay_🇭🇰HK-🇬🇧GB_3810
       - 🇭🇰 Relay_🇭🇰HK-🇬🇧GB_3812
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_3814
       - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_3817
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_3819
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_3823
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_3827
       - 🇭🇰 Relay_🇭🇰HK-🇺🇸US_3811
       - 🇭🇰 Relay_🇭🇰HK-🇺🇸US_3813
       - 🇭🇰 Relay_🇭🇰HK-🇺🇸US_3815
@@ -173,6 +167,9 @@ proxy-groups:
       - 🇸🇬 【直连】SIN/狮城 A
       - 🇨🇳 【直连】TWN/台湾 C
       - 🇺🇸 【直连】USA/美国
+      - 🇯🇵 日本🇯🇵
+      - 🇰🇷 韩国🇰🇷
+      - 🇭🇰 香港
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -196,11 +193,7 @@ proxy-groups:
       - 🇩🇪 Relay_🇭🇰HK-🇩🇪DE_3822
       - 🇭🇰 Relay_🇭🇰HK-🇬🇧GB_3810
       - 🇭🇰 Relay_🇭🇰HK-🇬🇧GB_3812
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_3814
       - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_3817
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_3819
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_3823
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_3827
       - 🇭🇰 Relay_🇭🇰HK-🇺🇸US_3811
       - 🇭🇰 Relay_🇭🇰HK-🇺🇸US_3813
       - 🇭🇰 Relay_🇭🇰HK-🇺🇸US_3815
@@ -231,6 +224,9 @@ proxy-groups:
       - 🇸🇬 【直连】SIN/狮城 A
       - 🇨🇳 【直连】TWN/台湾 C
       - 🇺🇸 【直连】USA/美国
+      - 🇯🇵 日本🇯🇵
+      - 🇰🇷 韩国🇰🇷
+      - 🇭🇰 香港
   - name: 📲 电报信息
     type: select
     proxies:
@@ -253,11 +249,7 @@ proxy-groups:
       - 🇩🇪 Relay_🇭🇰HK-🇩🇪DE_3822
       - 🇭🇰 Relay_🇭🇰HK-🇬🇧GB_3810
       - 🇭🇰 Relay_🇭🇰HK-🇬🇧GB_3812
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_3814
       - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_3817
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_3819
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_3823
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_3827
       - 🇭🇰 Relay_🇭🇰HK-🇺🇸US_3811
       - 🇭🇰 Relay_🇭🇰HK-🇺🇸US_3813
       - 🇭🇰 Relay_🇭🇰HK-🇺🇸US_3815
@@ -288,6 +280,9 @@ proxy-groups:
       - 🇸🇬 【直连】SIN/狮城 A
       - 🇨🇳 【直连】TWN/台湾 C
       - 🇺🇸 【直连】USA/美国
+      - 🇯🇵 日本🇯🇵
+      - 🇰🇷 韩国🇰🇷
+      - 🇭🇰 香港
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -310,11 +305,7 @@ proxy-groups:
       - 🇩🇪 Relay_🇭🇰HK-🇩🇪DE_3822
       - 🇭🇰 Relay_🇭🇰HK-🇬🇧GB_3810
       - 🇭🇰 Relay_🇭🇰HK-🇬🇧GB_3812
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_3814
       - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_3817
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_3819
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_3823
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_3827
       - 🇭🇰 Relay_🇭🇰HK-🇺🇸US_3811
       - 🇭🇰 Relay_🇭🇰HK-🇺🇸US_3813
       - 🇭🇰 Relay_🇭🇰HK-🇺🇸US_3815
@@ -345,6 +336,9 @@ proxy-groups:
       - 🇸🇬 【直连】SIN/狮城 A
       - 🇨🇳 【直连】TWN/台湾 C
       - 🇺🇸 【直连】USA/美国
+      - 🇯🇵 日本🇯🇵
+      - 🇰🇷 韩国🇰🇷
+      - 🇭🇰 香港
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -367,11 +361,7 @@ proxy-groups:
       - 🇩🇪 Relay_🇭🇰HK-🇩🇪DE_3822
       - 🇭🇰 Relay_🇭🇰HK-🇬🇧GB_3810
       - 🇭🇰 Relay_🇭🇰HK-🇬🇧GB_3812
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_3814
       - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_3817
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_3819
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_3823
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_3827
       - 🇭🇰 Relay_🇭🇰HK-🇺🇸US_3811
       - 🇭🇰 Relay_🇭🇰HK-🇺🇸US_3813
       - 🇭🇰 Relay_🇭🇰HK-🇺🇸US_3815
@@ -402,6 +392,9 @@ proxy-groups:
       - 🇸🇬 【直连】SIN/狮城 A
       - 🇨🇳 【直连】TWN/台湾 C
       - 🇺🇸 【直连】USA/美国
+      - 🇯🇵 日本🇯🇵
+      - 🇰🇷 韩国🇰🇷
+      - 🇭🇰 香港
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -425,11 +418,7 @@ proxy-groups:
       - 🇩🇪 Relay_🇭🇰HK-🇩🇪DE_3822
       - 🇭🇰 Relay_🇭🇰HK-🇬🇧GB_3810
       - 🇭🇰 Relay_🇭🇰HK-🇬🇧GB_3812
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_3814
       - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_3817
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_3819
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_3823
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_3827
       - 🇭🇰 Relay_🇭🇰HK-🇺🇸US_3811
       - 🇭🇰 Relay_🇭🇰HK-🇺🇸US_3813
       - 🇭🇰 Relay_🇭🇰HK-🇺🇸US_3815
@@ -460,6 +449,9 @@ proxy-groups:
       - 🇸🇬 【直连】SIN/狮城 A
       - 🇨🇳 【直连】TWN/台湾 C
       - 🇺🇸 【直连】USA/美国
+      - 🇯🇵 日本🇯🇵
+      - 🇰🇷 韩国🇰🇷
+      - 🇭🇰 香港
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -499,11 +491,7 @@ proxy-groups:
       - 🇩🇪 Relay_🇭🇰HK-🇩🇪DE_3822
       - 🇭🇰 Relay_🇭🇰HK-🇬🇧GB_3810
       - 🇭🇰 Relay_🇭🇰HK-🇬🇧GB_3812
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_3814
       - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_3817
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_3819
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_3823
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_3827
       - 🇭🇰 Relay_🇭🇰HK-🇺🇸US_3811
       - 🇭🇰 Relay_🇭🇰HK-🇺🇸US_3813
       - 🇭🇰 Relay_🇭🇰HK-🇺🇸US_3815
@@ -534,6 +522,9 @@ proxy-groups:
       - 🇸🇬 【直连】SIN/狮城 A
       - 🇨🇳 【直连】TWN/台湾 C
       - 🇺🇸 【直连】USA/美国
+      - 🇯🇵 日本🇯🇵
+      - 🇰🇷 韩国🇰🇷
+      - 🇭🇰 香港
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
