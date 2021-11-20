@@ -375,6 +375,7 @@ proxies:
   - {name: 🇺🇸 US_13190 |41.92Mb, server: 99uu.wtf, port: 443, type: vmess, uuid: 6495f4fd-c88c-4521-bd2e-d79c8097ed86, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /6495f4fd-c88c-4521-bd2e-d79c8097ed86-vmess, ws-headers: {Host: little-3135.yhdnwm.workers.dev}}
   - {name: 🇺🇸 US_13194 |42.11Mb, server: 104.21.21.243, port: 443, type: vmess, uuid: 6495f4fd-c88c-4521-bd2e-d79c8097ed86, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /6495f4fd-c88c-4521-bd2e-d79c8097ed86-vmess, ws-headers: {Host: little-3135.yhdnwm.workers.dev}}
   - {name: 🇺🇸 US_13199 |43.47Mb, server: 172.67.201.112, port: 443, type: vmess, uuid: 6495f4fd-c88c-4521-bd2e-d79c8097ed86, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /6495f4fd-c88c-4521-bd2e-d79c8097ed86-vmess, ws-headers: {Host: little-3135.yhdnwm.workers.dev}}
+  - {name: "🇨🇳 中转上海联通[1Gbps]-纯公益", server: server1.sh-cu.exacc.need.sh, port: 58190, type: vmess, uuid: 3f15492a-54a6-4eda-846b-bdfb049b0a27, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /Y77A2IHP, ws-headers: {Host: server1.sh-cu.exacc.need.sh}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -751,6 +752,7 @@ proxy-groups:
       - 🇺🇸 US_13190 |41.92Mb
       - 🇺🇸 US_13194 |42.11Mb
       - 🇺🇸 US_13199 |43.47Mb
+      - 🇨🇳 中转上海联通[1Gbps]-纯公益
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -1127,6 +1129,7 @@ proxy-groups:
       - 🇺🇸 US_13190 |41.92Mb
       - 🇺🇸 US_13194 |42.11Mb
       - 🇺🇸 US_13199 |43.47Mb
+      - 🇨🇳 中转上海联通[1Gbps]-纯公益
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -1503,6 +1506,7 @@ proxy-groups:
       - 🇺🇸 US_13190 |41.92Mb
       - 🇺🇸 US_13194 |42.11Mb
       - 🇺🇸 US_13199 |43.47Mb
+      - 🇨🇳 中转上海联通[1Gbps]-纯公益
   - name: 📲 电报信息
     type: select
     proxies:
@@ -1878,6 +1882,7 @@ proxy-groups:
       - 🇺🇸 US_13190 |41.92Mb
       - 🇺🇸 US_13194 |42.11Mb
       - 🇺🇸 US_13199 |43.47Mb
+      - 🇨🇳 中转上海联通[1Gbps]-纯公益
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -2253,6 +2258,7 @@ proxy-groups:
       - 🇺🇸 US_13190 |41.92Mb
       - 🇺🇸 US_13194 |42.11Mb
       - 🇺🇸 US_13199 |43.47Mb
+      - 🇨🇳 中转上海联通[1Gbps]-纯公益
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -2628,6 +2634,7 @@ proxy-groups:
       - 🇺🇸 US_13190 |41.92Mb
       - 🇺🇸 US_13194 |42.11Mb
       - 🇺🇸 US_13199 |43.47Mb
+      - 🇨🇳 中转上海联通[1Gbps]-纯公益
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -3004,6 +3011,7 @@ proxy-groups:
       - 🇺🇸 US_13190 |41.92Mb
       - 🇺🇸 US_13194 |42.11Mb
       - 🇺🇸 US_13199 |43.47Mb
+      - 🇨🇳 中转上海联通[1Gbps]-纯公益
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -3396,6 +3404,7 @@ proxy-groups:
       - 🇺🇸 US_13190 |41.92Mb
       - 🇺🇸 US_13194 |42.11Mb
       - 🇺🇸 US_13199 |43.47Mb
+      - 🇨🇳 中转上海联通[1Gbps]-纯公益
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
