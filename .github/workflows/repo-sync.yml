@@ -50,7 +50,7 @@ jobs:
           rm -rf .git
           rm -rf .gitignore
           cd ..
-          cp -rf ./Free-Node-Merge/* ./free
+          cp -rf ./Free-Node-Merge/. ./free
           cd free
           git add .
           git commit --allow-empty -m "up"
