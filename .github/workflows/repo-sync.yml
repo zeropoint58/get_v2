@@ -45,7 +45,7 @@ jobs:
           git checkout Free-Node-Merge
           rm -rf !(.git | .githup)
           cd ..
-          git clone -b master https://github.com/vpei/Free-Node-Merge.git Free-Node-Merge
+          git clone https://github.com/vpei/Free-Node-Merge.git Free-Node-Merge
           cd Free-Node-Merge
           rm -rf .git
           rm -rf .gitignore
