@@ -198,6 +198,50 @@ proxies:
   - {name: K_434_28.82Mb, server: 118.107.244.112, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
   - {name: K_388 |15.38Mb 3, server: 118.107.244.112, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: K_434_28.82Mb 2, server: 118.107.244.112, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇭🇰 HK 二爷翻墙网https://1808.ga 2, server: 52.184.18.57, port: 32386, type: vmess, uuid: 464fff1b-6b20-424d-db46-f894795f8ad2, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 52.184.18.57}}
+  - {name: 🇮🇳 印度◆DO 03 Netflix 1x, server: global-transit-02-sg.pucdn.me, port: 49993, type: vmess, uuid: 98e77fe2-773a-380b-89df-9f3dae0127bd, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-do-in-03.pucdn.me}}
+  - {name: 🇮🇳 印度◆DO 04 Netflix 1x, server: global-transit-02-sg.pucdn.me, port: 49994, type: vmess, uuid: 98e77fe2-773a-380b-89df-9f3dae0127bd, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-do-in-04.pucdn.me}}
+  - {name: 🇸🇬 新加坡◆AWS 01 Netflix 1x, server: global-transit-02-sg.pucdn.me, port: 61000, type: vmess, uuid: 98e77fe2-773a-380b-89df-9f3dae0127bd, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-sg-01.pucdn.me}}
+  - {name: 🇸🇬 新加坡◆AWS 02 Netflix 1x, server: global-transit-02-sg.pucdn.me, port: 61001, type: vmess, uuid: 98e77fe2-773a-380b-89df-9f3dae0127bd, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-sg-02.pucdn.me}}
+  - {name: 🇸🇬 新加坡◆AWS 03 Netflix 1x, server: global-transit-02-sg.pucdn.me, port: 61002, type: vmess, uuid: 98e77fe2-773a-380b-89df-9f3dae0127bd, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-sg-03.pucdn.me}}
+  - {name: 🇸🇬 新加坡◆AWS 04 Netflix 1x, server: global-transit-02-sg.pucdn.me, port: 61003, type: vmess, uuid: 98e77fe2-773a-380b-89df-9f3dae0127bd, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-sg-04.pucdn.me}}
+  - {name: 🇸🇬 新加坡◆AWS 05 Netflix 1x, server: global-transit-02-sg.pucdn.me, port: 61004, type: vmess, uuid: 98e77fe2-773a-380b-89df-9f3dae0127bd, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-sg-05.pucdn.me}}
+  - {name: 🇸🇬 新加坡◆AWS 06 Netflix 1x, server: global-transit-02-sg.pucdn.me, port: 61005, type: vmess, uuid: 98e77fe2-773a-380b-89df-9f3dae0127bd, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-sg-06.pucdn.me}}
+  - {name: 🇸🇬 新加坡◆AWS 07 Netflix 1x, server: global-transit-02-sg.pucdn.me, port: 61006, type: vmess, uuid: 98e77fe2-773a-380b-89df-9f3dae0127bd, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-sg-07.pucdn.me}}
+  - {name: 🇸🇬 新加坡◆AWS 08 Netflix 1x, server: global-transit-02-sg.pucdn.me, port: 61007, type: vmess, uuid: 98e77fe2-773a-380b-89df-9f3dae0127bd, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-sg-08.pucdn.me}}
+  - {name: 🇯🇵 日本◆AWS 01 Netflix 1x, server: guangzou-yd-jy-03.pucdn.me, port: 40001, type: vmess, uuid: 98e77fe2-773a-380b-89df-9f3dae0127bd, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-jp-01.pucdn.me}}
+  - {name: 🇯🇵 日本◆AWS 02 Netflix 1x, server: guangzou-yd-jy-03.pucdn.me, port: 40002, type: vmess, uuid: 98e77fe2-773a-380b-89df-9f3dae0127bd, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-jp-02.pucdn.me}}
+  - {name: 🇯🇵 日本◆AWS 03 Netflix 1x, server: guangzou-yd-jy-03.pucdn.me, port: 40003, type: vmess, uuid: 98e77fe2-773a-380b-89df-9f3dae0127bd, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-jp-03.pucdn.me}}
+  - {name: 🇯🇵 日本◆AWS 04 Netflix 1x, server: guangzou-yd-jy-03.pucdn.me, port: 40004, type: vmess, uuid: 98e77fe2-773a-380b-89df-9f3dae0127bd, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-jp-04.pucdn.me}}
+  - {name: 🇯🇵 日本◆AWS 05 Netflix 1x, server: guangzou-yd-jy-03.pucdn.me, port: 40005, type: vmess, uuid: 98e77fe2-773a-380b-89df-9f3dae0127bd, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-jp-05.pucdn.me}}
+  - {name: 🇯🇵 日本◆AWS 06 Netflix 1x, server: global-transit-hk-v2.pucdn.me, port: 40006, type: vmess, uuid: 98e77fe2-773a-380b-89df-9f3dae0127bd, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-jp-06.pucdn.me}}
+  - {name: 🇯🇵 日本◆AWS 07 Netflix 1x, server: global-transit-hk-v2.pucdn.me, port: 40007, type: vmess, uuid: 98e77fe2-773a-380b-89df-9f3dae0127bd, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-jp-07.pucdn.me}}
+  - {name: 🇯🇵 日本◆AWS 08 Netflix 1x, server: global-transit-hk-v2.pucdn.me, port: 40008, type: vmess, uuid: 98e77fe2-773a-380b-89df-9f3dae0127bd, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-jp-08.pucdn.me}}
+  - {name: 🇯🇵 日本◆AWS 09 Netflix 1x, server: global-transit-hk-v2.pucdn.me, port: 40009, type: vmess, uuid: 98e77fe2-773a-380b-89df-9f3dae0127bd, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-jp-09.pucdn.me}}
+  - {name: 🇯🇵 日本◆AWS 10 Netflix 1x, server: global-transit-hk-v2.pucdn.me, port: 40010, type: vmess, uuid: 98e77fe2-773a-380b-89df-9f3dae0127bd, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-jp-10.pucdn.me}}
+  - {name: 🇯🇵 日本◆AWS 11 Netflix 1x, server: global-transit-hk-v2.pucdn.me, port: 40011, type: vmess, uuid: 98e77fe2-773a-380b-89df-9f3dae0127bd, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-jp-11.pucdn.me}}
+  - {name: 🇯🇵 日本◆AWS 12 Netflix 1x, server: global-transit-hk-v2.pucdn.me, port: 40012, type: vmess, uuid: 98e77fe2-773a-380b-89df-9f3dae0127bd, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-jp-12.pucdn.me}}
+  - {name: 🇺🇸 美国UA◆DO 01 高速 1x, server: l1-do-ua-01.pucdn.me, port: 10080, type: vmess, uuid: 98e77fe2-773a-380b-89df-9f3dae0127bd, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /pucloud, ws-headers: {Host: l1-do-ua-01.pucdn.me}}
+  - {name: 🇺🇸 美国UA◆DO 02 高速 1x, server: l1-do-ua-02.pucdn.me, port: 10080, type: vmess, uuid: 98e77fe2-773a-380b-89df-9f3dae0127bd, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /pucloud, ws-headers: {Host: l1-do-ua-02.pucdn.me}}
+  - {name: 🇺🇸 美国UA◆DO 03 高速 1x, server: l1-do-ua-03.pucdn.me, port: 10080, type: vmess, uuid: 98e77fe2-773a-380b-89df-9f3dae0127bd, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /pucloud, ws-headers: {Host: l1-do-ua-03.pucdn.me}}
+  - {name: 🇺🇸 美国UA◆DO 04 高速 1x, server: l1-do-ua-04.pucdn.me, port: 10080, type: vmess, uuid: 98e77fe2-773a-380b-89df-9f3dae0127bd, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /pucloud, ws-headers: {Host: l1-do-ua-04.pucdn.me}}
+  - {name: UID：83385, server: pucloud.cc, port: 10086, type: vmess, uuid: 98e77fe2-773a-380b-89df-9f3dae0127bd, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇰🇷 韩国◆AWS 01 Netflix 1x, server: global-transit-02-sg.pucdn.me, port: 63001, type: vmess, uuid: 98e77fe2-773a-380b-89df-9f3dae0127bd, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: L1-aws-kr-01.pucdn.me}}
+  - {name: 🇰🇷 韩国◆AWS 02 Netflix 1x, server: global-transit-02-sg.pucdn.me, port: 63002, type: vmess, uuid: 98e77fe2-773a-380b-89df-9f3dae0127bd, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: L1-aws-kr-02.pucdn.me}}
+  - {name: 🇰🇷 韩国◆AWS 03 Netflix 1x, server: global-transit-02-sg.pucdn.me, port: 63003, type: vmess, uuid: 98e77fe2-773a-380b-89df-9f3dae0127bd, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: L1-aws-kr-03.pucdn.me}}
+  - {name: 🇰🇷 韩国◆AWS 04 Netflix 1x, server: global-transit-02-sg.pucdn.me, port: 63004, type: vmess, uuid: 98e77fe2-773a-380b-89df-9f3dae0127bd, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: L1-aws-kr-04.pucdn.me}}
+  - {name: 🇰🇷 韩国◆AWS 05 Netflix 1x, server: global-transit-02-sg.pucdn.me, port: 63005, type: vmess, uuid: 98e77fe2-773a-380b-89df-9f3dae0127bd, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: L1-aws-kr-05.pucdn.me}}
+  - {name: 🇰🇷 韩国◆AWS 06 Netflix 1x, server: global-transit-02-sg.pucdn.me, port: 63006, type: vmess, uuid: 98e77fe2-773a-380b-89df-9f3dae0127bd, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: L1-aws-kr-06.pucdn.me}}
+  - {name: 🇰🇷 韩国◆AWS 07 Netflix 1x, server: global-transit-02-sg.pucdn.me, port: 63007, type: vmess, uuid: 98e77fe2-773a-380b-89df-9f3dae0127bd, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: L1-aws-kr-07.pucdn.me}}
+  - {name: 🇰🇷 韩国◆AWS 08 Netflix 1x, server: global-transit-02-sg.pucdn.me, port: 63008, type: vmess, uuid: 98e77fe2-773a-380b-89df-9f3dae0127bd, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: L1-aws-kr-08.pucdn.me}}
+  - {name: 🇭🇰 香港◆AWS 01 Netflix 1x, server: guangzou-yd-jy-03.pucdn.me, port: 62005, type: vmess, uuid: 98e77fe2-773a-380b-89df-9f3dae0127bd, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: L1-aws-hk-06.pucdn.me}}
+  - {name: 🇭🇰 香港◆AWS 02 Netflix 1x, server: guangzou-yd-jy-03.pucdn.me, port: 62006, type: vmess, uuid: 98e77fe2-773a-380b-89df-9f3dae0127bd, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: L1-aws-hk-07.pucdn.me}}
+  - {name: 🇭🇰 香港◆AWS 03 Netflix 1x, server: guangzou-yd-jy-03.pucdn.me, port: 62007, type: vmess, uuid: 98e77fe2-773a-380b-89df-9f3dae0127bd, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: L1-aws-hk-08.pucdn.me}}
+  - {name: 🇭🇰 香港◆AWS 04 Netflix 1x, server: guangzou-yd-jy-03.pucdn.me, port: 62008, type: vmess, uuid: 98e77fe2-773a-380b-89df-9f3dae0127bd, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: L1-aws-hk-09.pucdn.me}}
+  - {name: 🇭🇰 香港◆AWS 05 Netflix 1x, server: global-transit-02-sg.pucdn.me, port: 62009, type: vmess, uuid: 98e77fe2-773a-380b-89df-9f3dae0127bd, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: L1-aws-hk-10.pucdn.me}}
+  - {name: 🇭🇰 香港◆AWS 06 Netflix 1x, server: global-transit-02-sg.pucdn.me, port: 62010, type: vmess, uuid: 98e77fe2-773a-380b-89df-9f3dae0127bd, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: L1-aws-hk-11.pucdn.me}}
+  - {name: 🇭🇰 香港◆AWS 07 Netflix 1x, server: global-transit-02-sg.pucdn.me, port: 62011, type: vmess, uuid: 98e77fe2-773a-380b-89df-9f3dae0127bd, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: L1-aws-hk-12.pucdn.me}}
+  - {name: 🇭🇰 香港◆AWS 08 Netflix 1x, server: global-transit-02-sg.pucdn.me, port: 62012, type: vmess, uuid: 98e77fe2-773a-380b-89df-9f3dae0127bd, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: L1-aws-hk-13.pucdn.me}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -397,6 +441,50 @@ proxy-groups:
       - K_434_28.82Mb
       - K_388 |15.38Mb 3
       - K_434_28.82Mb 2
+      - 🇭🇰 HK 二爷翻墙网https://1808.ga 2
+      - 🇮🇳 印度◆DO 03 Netflix 1x
+      - 🇮🇳 印度◆DO 04 Netflix 1x
+      - 🇸🇬 新加坡◆AWS 01 Netflix 1x
+      - 🇸🇬 新加坡◆AWS 02 Netflix 1x
+      - 🇸🇬 新加坡◆AWS 03 Netflix 1x
+      - 🇸🇬 新加坡◆AWS 04 Netflix 1x
+      - 🇸🇬 新加坡◆AWS 05 Netflix 1x
+      - 🇸🇬 新加坡◆AWS 06 Netflix 1x
+      - 🇸🇬 新加坡◆AWS 07 Netflix 1x
+      - 🇸🇬 新加坡◆AWS 08 Netflix 1x
+      - 🇯🇵 日本◆AWS 01 Netflix 1x
+      - 🇯🇵 日本◆AWS 02 Netflix 1x
+      - 🇯🇵 日本◆AWS 03 Netflix 1x
+      - 🇯🇵 日本◆AWS 04 Netflix 1x
+      - 🇯🇵 日本◆AWS 05 Netflix 1x
+      - 🇯🇵 日本◆AWS 06 Netflix 1x
+      - 🇯🇵 日本◆AWS 07 Netflix 1x
+      - 🇯🇵 日本◆AWS 08 Netflix 1x
+      - 🇯🇵 日本◆AWS 09 Netflix 1x
+      - 🇯🇵 日本◆AWS 10 Netflix 1x
+      - 🇯🇵 日本◆AWS 11 Netflix 1x
+      - 🇯🇵 日本◆AWS 12 Netflix 1x
+      - 🇺🇸 美国UA◆DO 01 高速 1x
+      - 🇺🇸 美国UA◆DO 02 高速 1x
+      - 🇺🇸 美国UA◆DO 03 高速 1x
+      - 🇺🇸 美国UA◆DO 04 高速 1x
+      - UID：83385
+      - 🇰🇷 韩国◆AWS 01 Netflix 1x
+      - 🇰🇷 韩国◆AWS 02 Netflix 1x
+      - 🇰🇷 韩国◆AWS 03 Netflix 1x
+      - 🇰🇷 韩国◆AWS 04 Netflix 1x
+      - 🇰🇷 韩国◆AWS 05 Netflix 1x
+      - 🇰🇷 韩国◆AWS 06 Netflix 1x
+      - 🇰🇷 韩国◆AWS 07 Netflix 1x
+      - 🇰🇷 韩国◆AWS 08 Netflix 1x
+      - 🇭🇰 香港◆AWS 01 Netflix 1x
+      - 🇭🇰 香港◆AWS 02 Netflix 1x
+      - 🇭🇰 香港◆AWS 03 Netflix 1x
+      - 🇭🇰 香港◆AWS 04 Netflix 1x
+      - 🇭🇰 香港◆AWS 05 Netflix 1x
+      - 🇭🇰 香港◆AWS 06 Netflix 1x
+      - 🇭🇰 香港◆AWS 07 Netflix 1x
+      - 🇭🇰 香港◆AWS 08 Netflix 1x
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -596,6 +684,50 @@ proxy-groups:
       - K_434_28.82Mb
       - K_388 |15.38Mb 3
       - K_434_28.82Mb 2
+      - 🇭🇰 HK 二爷翻墙网https://1808.ga 2
+      - 🇮🇳 印度◆DO 03 Netflix 1x
+      - 🇮🇳 印度◆DO 04 Netflix 1x
+      - 🇸🇬 新加坡◆AWS 01 Netflix 1x
+      - 🇸🇬 新加坡◆AWS 02 Netflix 1x
+      - 🇸🇬 新加坡◆AWS 03 Netflix 1x
+      - 🇸🇬 新加坡◆AWS 04 Netflix 1x
+      - 🇸🇬 新加坡◆AWS 05 Netflix 1x
+      - 🇸🇬 新加坡◆AWS 06 Netflix 1x
+      - 🇸🇬 新加坡◆AWS 07 Netflix 1x
+      - 🇸🇬 新加坡◆AWS 08 Netflix 1x
+      - 🇯🇵 日本◆AWS 01 Netflix 1x
+      - 🇯🇵 日本◆AWS 02 Netflix 1x
+      - 🇯🇵 日本◆AWS 03 Netflix 1x
+      - 🇯🇵 日本◆AWS 04 Netflix 1x
+      - 🇯🇵 日本◆AWS 05 Netflix 1x
+      - 🇯🇵 日本◆AWS 06 Netflix 1x
+      - 🇯🇵 日本◆AWS 07 Netflix 1x
+      - 🇯🇵 日本◆AWS 08 Netflix 1x
+      - 🇯🇵 日本◆AWS 09 Netflix 1x
+      - 🇯🇵 日本◆AWS 10 Netflix 1x
+      - 🇯🇵 日本◆AWS 11 Netflix 1x
+      - 🇯🇵 日本◆AWS 12 Netflix 1x
+      - 🇺🇸 美国UA◆DO 01 高速 1x
+      - 🇺🇸 美国UA◆DO 02 高速 1x
+      - 🇺🇸 美国UA◆DO 03 高速 1x
+      - 🇺🇸 美国UA◆DO 04 高速 1x
+      - UID：83385
+      - 🇰🇷 韩国◆AWS 01 Netflix 1x
+      - 🇰🇷 韩国◆AWS 02 Netflix 1x
+      - 🇰🇷 韩国◆AWS 03 Netflix 1x
+      - 🇰🇷 韩国◆AWS 04 Netflix 1x
+      - 🇰🇷 韩国◆AWS 05 Netflix 1x
+      - 🇰🇷 韩国◆AWS 06 Netflix 1x
+      - 🇰🇷 韩国◆AWS 07 Netflix 1x
+      - 🇰🇷 韩国◆AWS 08 Netflix 1x
+      - 🇭🇰 香港◆AWS 01 Netflix 1x
+      - 🇭🇰 香港◆AWS 02 Netflix 1x
+      - 🇭🇰 香港◆AWS 03 Netflix 1x
+      - 🇭🇰 香港◆AWS 04 Netflix 1x
+      - 🇭🇰 香港◆AWS 05 Netflix 1x
+      - 🇭🇰 香港◆AWS 06 Netflix 1x
+      - 🇭🇰 香港◆AWS 07 Netflix 1x
+      - 🇭🇰 香港◆AWS 08 Netflix 1x
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -795,6 +927,50 @@ proxy-groups:
       - K_434_28.82Mb
       - K_388 |15.38Mb 3
       - K_434_28.82Mb 2
+      - 🇭🇰 HK 二爷翻墙网https://1808.ga 2
+      - 🇮🇳 印度◆DO 03 Netflix 1x
+      - 🇮🇳 印度◆DO 04 Netflix 1x
+      - 🇸🇬 新加坡◆AWS 01 Netflix 1x
+      - 🇸🇬 新加坡◆AWS 02 Netflix 1x
+      - 🇸🇬 新加坡◆AWS 03 Netflix 1x
+      - 🇸🇬 新加坡◆AWS 04 Netflix 1x
+      - 🇸🇬 新加坡◆AWS 05 Netflix 1x
+      - 🇸🇬 新加坡◆AWS 06 Netflix 1x
+      - 🇸🇬 新加坡◆AWS 07 Netflix 1x
+      - 🇸🇬 新加坡◆AWS 08 Netflix 1x
+      - 🇯🇵 日本◆AWS 01 Netflix 1x
+      - 🇯🇵 日本◆AWS 02 Netflix 1x
+      - 🇯🇵 日本◆AWS 03 Netflix 1x
+      - 🇯🇵 日本◆AWS 04 Netflix 1x
+      - 🇯🇵 日本◆AWS 05 Netflix 1x
+      - 🇯🇵 日本◆AWS 06 Netflix 1x
+      - 🇯🇵 日本◆AWS 07 Netflix 1x
+      - 🇯🇵 日本◆AWS 08 Netflix 1x
+      - 🇯🇵 日本◆AWS 09 Netflix 1x
+      - 🇯🇵 日本◆AWS 10 Netflix 1x
+      - 🇯🇵 日本◆AWS 11 Netflix 1x
+      - 🇯🇵 日本◆AWS 12 Netflix 1x
+      - 🇺🇸 美国UA◆DO 01 高速 1x
+      - 🇺🇸 美国UA◆DO 02 高速 1x
+      - 🇺🇸 美国UA◆DO 03 高速 1x
+      - 🇺🇸 美国UA◆DO 04 高速 1x
+      - UID：83385
+      - 🇰🇷 韩国◆AWS 01 Netflix 1x
+      - 🇰🇷 韩国◆AWS 02 Netflix 1x
+      - 🇰🇷 韩国◆AWS 03 Netflix 1x
+      - 🇰🇷 韩国◆AWS 04 Netflix 1x
+      - 🇰🇷 韩国◆AWS 05 Netflix 1x
+      - 🇰🇷 韩国◆AWS 06 Netflix 1x
+      - 🇰🇷 韩国◆AWS 07 Netflix 1x
+      - 🇰🇷 韩国◆AWS 08 Netflix 1x
+      - 🇭🇰 香港◆AWS 01 Netflix 1x
+      - 🇭🇰 香港◆AWS 02 Netflix 1x
+      - 🇭🇰 香港◆AWS 03 Netflix 1x
+      - 🇭🇰 香港◆AWS 04 Netflix 1x
+      - 🇭🇰 香港◆AWS 05 Netflix 1x
+      - 🇭🇰 香港◆AWS 06 Netflix 1x
+      - 🇭🇰 香港◆AWS 07 Netflix 1x
+      - 🇭🇰 香港◆AWS 08 Netflix 1x
   - name: 📲 电报信息
     type: select
     proxies:
@@ -993,6 +1169,50 @@ proxy-groups:
       - K_434_28.82Mb
       - K_388 |15.38Mb 3
       - K_434_28.82Mb 2
+      - 🇭🇰 HK 二爷翻墙网https://1808.ga 2
+      - 🇮🇳 印度◆DO 03 Netflix 1x
+      - 🇮🇳 印度◆DO 04 Netflix 1x
+      - 🇸🇬 新加坡◆AWS 01 Netflix 1x
+      - 🇸🇬 新加坡◆AWS 02 Netflix 1x
+      - 🇸🇬 新加坡◆AWS 03 Netflix 1x
+      - 🇸🇬 新加坡◆AWS 04 Netflix 1x
+      - 🇸🇬 新加坡◆AWS 05 Netflix 1x
+      - 🇸🇬 新加坡◆AWS 06 Netflix 1x
+      - 🇸🇬 新加坡◆AWS 07 Netflix 1x
+      - 🇸🇬 新加坡◆AWS 08 Netflix 1x
+      - 🇯🇵 日本◆AWS 01 Netflix 1x
+      - 🇯🇵 日本◆AWS 02 Netflix 1x
+      - 🇯🇵 日本◆AWS 03 Netflix 1x
+      - 🇯🇵 日本◆AWS 04 Netflix 1x
+      - 🇯🇵 日本◆AWS 05 Netflix 1x
+      - 🇯🇵 日本◆AWS 06 Netflix 1x
+      - 🇯🇵 日本◆AWS 07 Netflix 1x
+      - 🇯🇵 日本◆AWS 08 Netflix 1x
+      - 🇯🇵 日本◆AWS 09 Netflix 1x
+      - 🇯🇵 日本◆AWS 10 Netflix 1x
+      - 🇯🇵 日本◆AWS 11 Netflix 1x
+      - 🇯🇵 日本◆AWS 12 Netflix 1x
+      - 🇺🇸 美国UA◆DO 01 高速 1x
+      - 🇺🇸 美国UA◆DO 02 高速 1x
+      - 🇺🇸 美国UA◆DO 03 高速 1x
+      - 🇺🇸 美国UA◆DO 04 高速 1x
+      - UID：83385
+      - 🇰🇷 韩国◆AWS 01 Netflix 1x
+      - 🇰🇷 韩国◆AWS 02 Netflix 1x
+      - 🇰🇷 韩国◆AWS 03 Netflix 1x
+      - 🇰🇷 韩国◆AWS 04 Netflix 1x
+      - 🇰🇷 韩国◆AWS 05 Netflix 1x
+      - 🇰🇷 韩国◆AWS 06 Netflix 1x
+      - 🇰🇷 韩国◆AWS 07 Netflix 1x
+      - 🇰🇷 韩国◆AWS 08 Netflix 1x
+      - 🇭🇰 香港◆AWS 01 Netflix 1x
+      - 🇭🇰 香港◆AWS 02 Netflix 1x
+      - 🇭🇰 香港◆AWS 03 Netflix 1x
+      - 🇭🇰 香港◆AWS 04 Netflix 1x
+      - 🇭🇰 香港◆AWS 05 Netflix 1x
+      - 🇭🇰 香港◆AWS 06 Netflix 1x
+      - 🇭🇰 香港◆AWS 07 Netflix 1x
+      - 🇭🇰 香港◆AWS 08 Netflix 1x
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -1191,6 +1411,50 @@ proxy-groups:
       - K_434_28.82Mb
       - K_388 |15.38Mb 3
       - K_434_28.82Mb 2
+      - 🇭🇰 HK 二爷翻墙网https://1808.ga 2
+      - 🇮🇳 印度◆DO 03 Netflix 1x
+      - 🇮🇳 印度◆DO 04 Netflix 1x
+      - 🇸🇬 新加坡◆AWS 01 Netflix 1x
+      - 🇸🇬 新加坡◆AWS 02 Netflix 1x
+      - 🇸🇬 新加坡◆AWS 03 Netflix 1x
+      - 🇸🇬 新加坡◆AWS 04 Netflix 1x
+      - 🇸🇬 新加坡◆AWS 05 Netflix 1x
+      - 🇸🇬 新加坡◆AWS 06 Netflix 1x
+      - 🇸🇬 新加坡◆AWS 07 Netflix 1x
+      - 🇸🇬 新加坡◆AWS 08 Netflix 1x
+      - 🇯🇵 日本◆AWS 01 Netflix 1x
+      - 🇯🇵 日本◆AWS 02 Netflix 1x
+      - 🇯🇵 日本◆AWS 03 Netflix 1x
+      - 🇯🇵 日本◆AWS 04 Netflix 1x
+      - 🇯🇵 日本◆AWS 05 Netflix 1x
+      - 🇯🇵 日本◆AWS 06 Netflix 1x
+      - 🇯🇵 日本◆AWS 07 Netflix 1x
+      - 🇯🇵 日本◆AWS 08 Netflix 1x
+      - 🇯🇵 日本◆AWS 09 Netflix 1x
+      - 🇯🇵 日本◆AWS 10 Netflix 1x
+      - 🇯🇵 日本◆AWS 11 Netflix 1x
+      - 🇯🇵 日本◆AWS 12 Netflix 1x
+      - 🇺🇸 美国UA◆DO 01 高速 1x
+      - 🇺🇸 美国UA◆DO 02 高速 1x
+      - 🇺🇸 美国UA◆DO 03 高速 1x
+      - 🇺🇸 美国UA◆DO 04 高速 1x
+      - UID：83385
+      - 🇰🇷 韩国◆AWS 01 Netflix 1x
+      - 🇰🇷 韩国◆AWS 02 Netflix 1x
+      - 🇰🇷 韩国◆AWS 03 Netflix 1x
+      - 🇰🇷 韩国◆AWS 04 Netflix 1x
+      - 🇰🇷 韩国◆AWS 05 Netflix 1x
+      - 🇰🇷 韩国◆AWS 06 Netflix 1x
+      - 🇰🇷 韩国◆AWS 07 Netflix 1x
+      - 🇰🇷 韩国◆AWS 08 Netflix 1x
+      - 🇭🇰 香港◆AWS 01 Netflix 1x
+      - 🇭🇰 香港◆AWS 02 Netflix 1x
+      - 🇭🇰 香港◆AWS 03 Netflix 1x
+      - 🇭🇰 香港◆AWS 04 Netflix 1x
+      - 🇭🇰 香港◆AWS 05 Netflix 1x
+      - 🇭🇰 香港◆AWS 06 Netflix 1x
+      - 🇭🇰 香港◆AWS 07 Netflix 1x
+      - 🇭🇰 香港◆AWS 08 Netflix 1x
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -1389,6 +1653,50 @@ proxy-groups:
       - K_434_28.82Mb
       - K_388 |15.38Mb 3
       - K_434_28.82Mb 2
+      - 🇭🇰 HK 二爷翻墙网https://1808.ga 2
+      - 🇮🇳 印度◆DO 03 Netflix 1x
+      - 🇮🇳 印度◆DO 04 Netflix 1x
+      - 🇸🇬 新加坡◆AWS 01 Netflix 1x
+      - 🇸🇬 新加坡◆AWS 02 Netflix 1x
+      - 🇸🇬 新加坡◆AWS 03 Netflix 1x
+      - 🇸🇬 新加坡◆AWS 04 Netflix 1x
+      - 🇸🇬 新加坡◆AWS 05 Netflix 1x
+      - 🇸🇬 新加坡◆AWS 06 Netflix 1x
+      - 🇸🇬 新加坡◆AWS 07 Netflix 1x
+      - 🇸🇬 新加坡◆AWS 08 Netflix 1x
+      - 🇯🇵 日本◆AWS 01 Netflix 1x
+      - 🇯🇵 日本◆AWS 02 Netflix 1x
+      - 🇯🇵 日本◆AWS 03 Netflix 1x
+      - 🇯🇵 日本◆AWS 04 Netflix 1x
+      - 🇯🇵 日本◆AWS 05 Netflix 1x
+      - 🇯🇵 日本◆AWS 06 Netflix 1x
+      - 🇯🇵 日本◆AWS 07 Netflix 1x
+      - 🇯🇵 日本◆AWS 08 Netflix 1x
+      - 🇯🇵 日本◆AWS 09 Netflix 1x
+      - 🇯🇵 日本◆AWS 10 Netflix 1x
+      - 🇯🇵 日本◆AWS 11 Netflix 1x
+      - 🇯🇵 日本◆AWS 12 Netflix 1x
+      - 🇺🇸 美国UA◆DO 01 高速 1x
+      - 🇺🇸 美国UA◆DO 02 高速 1x
+      - 🇺🇸 美国UA◆DO 03 高速 1x
+      - 🇺🇸 美国UA◆DO 04 高速 1x
+      - UID：83385
+      - 🇰🇷 韩国◆AWS 01 Netflix 1x
+      - 🇰🇷 韩国◆AWS 02 Netflix 1x
+      - 🇰🇷 韩国◆AWS 03 Netflix 1x
+      - 🇰🇷 韩国◆AWS 04 Netflix 1x
+      - 🇰🇷 韩国◆AWS 05 Netflix 1x
+      - 🇰🇷 韩国◆AWS 06 Netflix 1x
+      - 🇰🇷 韩国◆AWS 07 Netflix 1x
+      - 🇰🇷 韩国◆AWS 08 Netflix 1x
+      - 🇭🇰 香港◆AWS 01 Netflix 1x
+      - 🇭🇰 香港◆AWS 02 Netflix 1x
+      - 🇭🇰 香港◆AWS 03 Netflix 1x
+      - 🇭🇰 香港◆AWS 04 Netflix 1x
+      - 🇭🇰 香港◆AWS 05 Netflix 1x
+      - 🇭🇰 香港◆AWS 06 Netflix 1x
+      - 🇭🇰 香港◆AWS 07 Netflix 1x
+      - 🇭🇰 香港◆AWS 08 Netflix 1x
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -1588,6 +1896,50 @@ proxy-groups:
       - K_434_28.82Mb
       - K_388 |15.38Mb 3
       - K_434_28.82Mb 2
+      - 🇭🇰 HK 二爷翻墙网https://1808.ga 2
+      - 🇮🇳 印度◆DO 03 Netflix 1x
+      - 🇮🇳 印度◆DO 04 Netflix 1x
+      - 🇸🇬 新加坡◆AWS 01 Netflix 1x
+      - 🇸🇬 新加坡◆AWS 02 Netflix 1x
+      - 🇸🇬 新加坡◆AWS 03 Netflix 1x
+      - 🇸🇬 新加坡◆AWS 04 Netflix 1x
+      - 🇸🇬 新加坡◆AWS 05 Netflix 1x
+      - 🇸🇬 新加坡◆AWS 06 Netflix 1x
+      - 🇸🇬 新加坡◆AWS 07 Netflix 1x
+      - 🇸🇬 新加坡◆AWS 08 Netflix 1x
+      - 🇯🇵 日本◆AWS 01 Netflix 1x
+      - 🇯🇵 日本◆AWS 02 Netflix 1x
+      - 🇯🇵 日本◆AWS 03 Netflix 1x
+      - 🇯🇵 日本◆AWS 04 Netflix 1x
+      - 🇯🇵 日本◆AWS 05 Netflix 1x
+      - 🇯🇵 日本◆AWS 06 Netflix 1x
+      - 🇯🇵 日本◆AWS 07 Netflix 1x
+      - 🇯🇵 日本◆AWS 08 Netflix 1x
+      - 🇯🇵 日本◆AWS 09 Netflix 1x
+      - 🇯🇵 日本◆AWS 10 Netflix 1x
+      - 🇯🇵 日本◆AWS 11 Netflix 1x
+      - 🇯🇵 日本◆AWS 12 Netflix 1x
+      - 🇺🇸 美国UA◆DO 01 高速 1x
+      - 🇺🇸 美国UA◆DO 02 高速 1x
+      - 🇺🇸 美国UA◆DO 03 高速 1x
+      - 🇺🇸 美国UA◆DO 04 高速 1x
+      - UID：83385
+      - 🇰🇷 韩国◆AWS 01 Netflix 1x
+      - 🇰🇷 韩国◆AWS 02 Netflix 1x
+      - 🇰🇷 韩国◆AWS 03 Netflix 1x
+      - 🇰🇷 韩国◆AWS 04 Netflix 1x
+      - 🇰🇷 韩国◆AWS 05 Netflix 1x
+      - 🇰🇷 韩国◆AWS 06 Netflix 1x
+      - 🇰🇷 韩国◆AWS 07 Netflix 1x
+      - 🇰🇷 韩国◆AWS 08 Netflix 1x
+      - 🇭🇰 香港◆AWS 01 Netflix 1x
+      - 🇭🇰 香港◆AWS 02 Netflix 1x
+      - 🇭🇰 香港◆AWS 03 Netflix 1x
+      - 🇭🇰 香港◆AWS 04 Netflix 1x
+      - 🇭🇰 香港◆AWS 05 Netflix 1x
+      - 🇭🇰 香港◆AWS 06 Netflix 1x
+      - 🇭🇰 香港◆AWS 07 Netflix 1x
+      - 🇭🇰 香港◆AWS 08 Netflix 1x
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1803,6 +2155,50 @@ proxy-groups:
       - K_434_28.82Mb
       - K_388 |15.38Mb 3
       - K_434_28.82Mb 2
+      - 🇭🇰 HK 二爷翻墙网https://1808.ga 2
+      - 🇮🇳 印度◆DO 03 Netflix 1x
+      - 🇮🇳 印度◆DO 04 Netflix 1x
+      - 🇸🇬 新加坡◆AWS 01 Netflix 1x
+      - 🇸🇬 新加坡◆AWS 02 Netflix 1x
+      - 🇸🇬 新加坡◆AWS 03 Netflix 1x
+      - 🇸🇬 新加坡◆AWS 04 Netflix 1x
+      - 🇸🇬 新加坡◆AWS 05 Netflix 1x
+      - 🇸🇬 新加坡◆AWS 06 Netflix 1x
+      - 🇸🇬 新加坡◆AWS 07 Netflix 1x
+      - 🇸🇬 新加坡◆AWS 08 Netflix 1x
+      - 🇯🇵 日本◆AWS 01 Netflix 1x
+      - 🇯🇵 日本◆AWS 02 Netflix 1x
+      - 🇯🇵 日本◆AWS 03 Netflix 1x
+      - 🇯🇵 日本◆AWS 04 Netflix 1x
+      - 🇯🇵 日本◆AWS 05 Netflix 1x
+      - 🇯🇵 日本◆AWS 06 Netflix 1x
+      - 🇯🇵 日本◆AWS 07 Netflix 1x
+      - 🇯🇵 日本◆AWS 08 Netflix 1x
+      - 🇯🇵 日本◆AWS 09 Netflix 1x
+      - 🇯🇵 日本◆AWS 10 Netflix 1x
+      - 🇯🇵 日本◆AWS 11 Netflix 1x
+      - 🇯🇵 日本◆AWS 12 Netflix 1x
+      - 🇺🇸 美国UA◆DO 01 高速 1x
+      - 🇺🇸 美国UA◆DO 02 高速 1x
+      - 🇺🇸 美国UA◆DO 03 高速 1x
+      - 🇺🇸 美国UA◆DO 04 高速 1x
+      - UID：83385
+      - 🇰🇷 韩国◆AWS 01 Netflix 1x
+      - 🇰🇷 韩国◆AWS 02 Netflix 1x
+      - 🇰🇷 韩国◆AWS 03 Netflix 1x
+      - 🇰🇷 韩国◆AWS 04 Netflix 1x
+      - 🇰🇷 韩国◆AWS 05 Netflix 1x
+      - 🇰🇷 韩国◆AWS 06 Netflix 1x
+      - 🇰🇷 韩国◆AWS 07 Netflix 1x
+      - 🇰🇷 韩国◆AWS 08 Netflix 1x
+      - 🇭🇰 香港◆AWS 01 Netflix 1x
+      - 🇭🇰 香港◆AWS 02 Netflix 1x
+      - 🇭🇰 香港◆AWS 03 Netflix 1x
+      - 🇭🇰 香港◆AWS 04 Netflix 1x
+      - 🇭🇰 香港◆AWS 05 Netflix 1x
+      - 🇭🇰 香港◆AWS 06 Netflix 1x
+      - 🇭🇰 香港◆AWS 07 Netflix 1x
+      - 🇭🇰 香港◆AWS 08 Netflix 1x
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
