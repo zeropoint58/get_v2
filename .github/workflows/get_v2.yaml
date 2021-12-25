@@ -38,6 +38,17 @@ jobs:
           ssh-add ~/.ssh/id_rsa
       - name: 获取订阅
         run: |
+          ShellDir=${JD_DIR:-$(
+              cd $(dirname $0)
+              pwd
+          )}
+          git clone https://github.com/bhqz/bhqz.git bhqz 
+          cp bhqz.sh bhqz
+          cd bhqz && bash bhqz.sh
+          cp bhqz.txt ${ShellDir}
+          cp bhqz.yml ${ShellDir}
+          cd ${ShellDir}
+          rm -rf bhqz
           python3 main.py
           git add .
           git commit --allow-empty -m "up"
