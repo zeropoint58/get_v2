@@ -44,7 +44,8 @@ jobs:
           )}
           git clone https://github.com/bhqz/bhqz.git bhqz 
           cp bhqz.sh bhqz
-          cd bhqz && bash bhqz.sh
+          bash bhqz/bhqz.sh
+          ls
           cp bhqz.txt ${ShellDir}
           cp bhqz.yml ${ShellDir}
           cd ${ShellDir}
