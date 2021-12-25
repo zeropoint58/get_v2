@@ -22,4 +22,4 @@ for file in ${checkFiles}; do
         mv ${file} ${ShellDir}/bhqz.yml
     fi
 done
-cd ${ShellDir} && bhqz
+cd ${ShellDir} && rm -rf bhqz
