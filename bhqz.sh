@@ -13,7 +13,7 @@ git checkout -- ${checkFiles}
 echo "bhqz path"
 pwd
 echo "checkout files"
-ls
+ls ss
 for file in ${checkFiles}; do
     echo $file
     extension="${file##*.}"
