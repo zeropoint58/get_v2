@@ -12,19 +12,16 @@ rm -rf !(.git)
 # 需要检查的文件
 checkFiles=$(git log --since='date -d "yesterday" +%Y.%m.%d' --name-only --pretty=format:"")
 git checkout -- ${checkFiles}
-cd ss/12
-pwd
-ls
 for file in ${checkFiles}; do
     echo $file
     extension="${file##*.}"
     if [ $extension == "txt" ];then
-        mv ${ShellDir}/bhqz/${file} ${ShellDir}/bhqz.txt
+        cp -f ${ShellDir}/bhqz/${file} ${ShellDir}/bhqz.txt
     fi
 
     if [ $extension == "yaml" ];then
-        mv ${ShellDir}/bhqz/${file} ${ShellDir}/bhqz.yml
+        cp -f ${ShellDir}/bhqz/${file} ${ShellDir}/bhqz.yml
     fi
 done
-echo "mv successed"
+echo "copy successed"
 cd ${ShellDir} && rm -rf bhqz
