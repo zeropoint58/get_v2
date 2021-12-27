@@ -12,6 +12,8 @@ checkFiles=$(git log --since='date -d "yesterday" +%Y.%m.%d' --name-only --prett
 git checkout -- ${checkFiles}
 echo "bhqz path"
 pwd
+echo "checkout files"
+ls
 for file in ${checkFiles}; do
     echo $file
     extension="${file##*.}"
