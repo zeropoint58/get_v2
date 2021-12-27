@@ -26,4 +26,5 @@ for file in ${checkFiles}; do
         mv ${ShellDir}/bhqz/${file} ${ShellDir}/bhqz.yml
     fi
 done
+echo "mv successed"
 cd ${ShellDir} && rm -rf bhqz
