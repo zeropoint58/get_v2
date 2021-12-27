@@ -7,13 +7,14 @@ ShellDir=${JD_DIR:-$(
 
 git clone https://github.com/bhqz/bhqz.git bhqz
 cd bhqz
+rm -rf !(.git)
 # 需要检查的文件
 checkFiles=$(git log --since='date -d "yesterday" +%Y.%m.%d' --name-only --pretty=format:"")
-# git checkout -- ${checkFiles}
+git checkout -- ${checkFiles}
 echo "bhqz path"
 pwd
 echo "checkout files"
-ls ss
+ls
 for file in ${checkFiles}; do
     echo $file
     extension="${file##*.}"
