@@ -38,6 +38,7 @@ jobs:
           ssh-add ~/.ssh/id_rsa
       - name: 获取订阅
         run: |
+          pwd
           bash bhqz.sh
           python3 main.py
           git add .
