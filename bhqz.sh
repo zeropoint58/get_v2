@@ -12,9 +12,8 @@ rm -rf !(.git)
 # 需要检查的文件
 checkFiles=$(git log --since='date -d "yesterday" +%Y.%m.%d' --name-only --pretty=format:"")
 git checkout -- ${checkFiles}
-echo "bhqz path"
+cd ss/12
 pwd
-echo "checkout files"
 ls
 for file in ${checkFiles}; do
     echo $file
