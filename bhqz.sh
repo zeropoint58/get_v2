@@ -15,11 +15,11 @@ for file in ${checkFiles}; do
     echo $file
     extension="${file##*.}"
     if [ $extension == "txt" ];then
-        mv ${file} ${ShellDir}/bhqz.txt
+        mv ${ShellDir}/bhqz/${file} ${ShellDir}/bhqz.txt
     fi
 
     if [ $extension == "yaml" ];then
-        mv ${file} ${ShellDir}/bhqz.yml
+        mv ${ShellDir}/bhqz/${file} ${ShellDir}/bhqz.yml
     fi
 done
 cd ${ShellDir} && rm -rf bhqz
