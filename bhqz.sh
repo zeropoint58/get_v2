@@ -1,4 +1,5 @@
 #!/bin/bash
+shopt -s extglob
 
 ShellDir=${JD_DIR:-$(
     cd $(dirname $0)
