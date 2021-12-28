@@ -81,7 +81,7 @@ class YamlUtils:
             if (dirname is None or dirname in item) and "yaml" in item:
                 try:
                     file_path = os.path.join(self.local_path, item)
-                    if os.path.exists(file_path):
+                    if os.path.exists(file_path) and os.path.isfile(file_path):
                         with open(file_path, "r", encoding="utf8") as yaml_file:
                             yaml_obj = yaml.safe_load(yaml_file)
                             rules = yaml_obj.get("rules")
