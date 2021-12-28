@@ -64,6 +64,7 @@ class YamlUtils:
 
         self.not_support_ciphers = ["chacha20", "rc4", "none"]
         self.not_support_alterIds = ["undefined"]
+        self.not_support_type = ["vless"]
 
         self.proxies_md5_dict = dict()
         self.filtered_rules = list()
@@ -107,6 +108,7 @@ class YamlUtils:
                                     proxy.get("cipher") not in self.not_support_ciphers
                                     and proxy.get("alterId")
                                     not in self.not_support_alterIds
+                                    and proxy.get("type") not in self.not_support_type
                                 ):
                                     proxy_copy = copy.deepcopy(proxy)
                                     proxy_copy.pop("name")
