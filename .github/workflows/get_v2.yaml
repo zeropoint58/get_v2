@@ -41,6 +41,7 @@ jobs:
           python3 fromgithup.py
           python3 main.py
           git add .
+          git pull
           git commit --allow-empty -m "up"
           git push
       - name: 同步到gitee
