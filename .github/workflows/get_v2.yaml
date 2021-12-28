@@ -38,8 +38,7 @@ jobs:
           ssh-add ~/.ssh/id_rsa
       - name: 获取订阅
         run: |
-          pwd
-          bash bhqz.sh
+          python3 fromgithup.py
           python3 main.py
           git add .
           git commit --allow-empty -m "up"
