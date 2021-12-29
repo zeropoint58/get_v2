@@ -108,7 +108,7 @@ class YamlUtils:
                                 if check_proxy(proxy):
                                     if proxy.get(
                                         "network"
-                                    ) in self.network and proxy.get("tls"):
+                                    ) in self.network and not proxy.get("tls"):
                                         continue
                                     proxy_copy = copy.deepcopy(proxy)
                                     proxy_copy.pop("name")
