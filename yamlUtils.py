@@ -25,7 +25,6 @@ class YamlUtils:
 
         self.proxy_groups_default = [
             {"name": "🔰 节点选择", "type": "select", "proxies": ["♻️ 自动选择", "🎯 全球直连"]},
-            {"name": "🚀 节点选择", "type": "select", "proxies": ["♻️ 自动选择", "🎯 全球直连"]},
             {
                 "name": "♻️ 自动选择",
                 "type": "url-test",
@@ -39,7 +38,6 @@ class YamlUtils:
                 "proxies": ["🔰 节点选择", "♻️ 自动选择", "🎯 全球直连"],
             },
             {"name": "🌏 国内媒体", "type": "select", "proxies": ["🎯 全球直连", "🔰 节点选择"]},
-            {"name": "Ⓜ️ 微软服务", "type": "select", "proxies": ["🎯 全球直连", "🔰 节点选择"]},
             {"name": "📲 电报信息", "type": "select", "proxies": ["🔰 节点选择", "🎯 全球直连"]},
             {
                 "name": "🍎 苹果服务",
@@ -48,15 +46,8 @@ class YamlUtils:
             },
             {"name": "🎯 全球直连", "type": "select", "proxies": ["DIRECT"]},
             {"name": "🛑 全球拦截", "type": "select", "proxies": ["REJECT", "DIRECT"]},
-            {"name": "🆎 AdBlock", "type": "select", "proxies": ["REJECT", "DIRECT"]},
-            {"name": "🍃 应用净化", "type": "select", "proxies": ["REJECT", "DIRECT"]},
             {
                 "name": "🐟 漏网之鱼",
-                "type": "select",
-                "proxies": ["🔰 节点选择", "🎯 全球直连", "♻️ 自动选择"],
-            },
-            {
-                "name": "📢 谷歌FCM",
                 "type": "select",
                 "proxies": ["🔰 节点选择", "🎯 全球直连", "♻️ 自动选择"],
             },
@@ -109,6 +100,7 @@ class YamlUtils:
                                     and proxy.get("alterId")
                                     not in self.not_support_alterIds
                                     and proxy.get("type") not in self.not_support_type
+                                    and type(proxy.get("port") == int)
                                 ):
                                     proxy_copy = copy.deepcopy(proxy)
                                     proxy_copy.pop("name")
@@ -136,9 +128,43 @@ class YamlUtils:
                 proxies.extend(self.proxy_names_set)
             item["proxies"] = proxies
 
+        def get_final_rule(items, group):
+            if "节点选择" in group or "自动选择" in group:
+                items.append("🔰 节点选择")
+            elif "国外媒体" in group:
+                items.append("🌍 国外媒体")
+            elif "国内媒体" in group or "微软服务" in group:
+                items.append("🌏 国内媒体")
+            elif "电报信息" in group:
+                items.append("📲 电报信息")
+            elif "苹果服务" in group:
+                items.append("🍎 苹果服务")
+            elif "全球直连" in group:
+                items.append("🎯 全球直连")
+            elif "AdBlock" in group or "应用净化" in group or "全球拦截" in group:
+                items.append("🛑 全球拦截")
+            elif "漏网之鱼" in group or "谷歌FCM" in group:
+                items.append("🐟 漏网之鱼")
+            else:
+                items.append(group)
+
+        filtered_rules_set = set()
+        for item in self.filtered_rules:
+            items = item.split(",")
+            group = items.pop(len(items) - 1)
+            if len(items) == 2 or len(items) == 1:
+                get_final_rule(items, group)
+                filtered_rules_set.add(",".join(items))
+            elif len(items) == 3:
+                new_items = list()
+                for i in range(0, len(items)):
+                    get_final_rule(new_items, items[i])
+                new_items.append(group)
+                filtered_rules_set.add(",".join(new_items))
+
         self.template["proxies"] = list(self.proxies_md5_dict.values())
         self.template["proxy-groups"] = self.proxy_groups_default
-        self.template["rules"] = list(set(self.filtered_rules))
+        self.template["rules"] = list(filtered_rules_set)
 
     def get_template_dict(self):
         return self.template
