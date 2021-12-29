@@ -39,7 +39,8 @@ jobs:
       - name: 获取订阅
         run: |
           python3 fromgithup.py
-          python3 main.py
+          python3 mattkaydiary.py
+          python3 jiang.py
           git add .
           git pull
           git commit --allow-empty -m "up"

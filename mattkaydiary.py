@@ -35,5 +35,5 @@ if __name__ == "__main__":
         file = requests.get(val, proxies=proxies)
         headers = json.dumps(dict(file.headers))
         if "yaml" in headers:
-            with open("mattkaydiary.yaml", "wb") as f:
+            with open("pub/mattkaydiary.yaml", "wb") as f:
                 f.write(file.content)
