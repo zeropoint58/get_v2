@@ -11,48 +11,6 @@ from git.repo.fun import is_git_dir
 class YamlUtils:
     def __init__(self, local_path="./"):
         self.local_path = local_path
-        self.template = {
-            "port": 7890,
-            "socks-port": 7891,
-            "allow-lan": True,
-            "mode": "Rule",
-            "log-level": "info",
-            "external-controller": "0.0.0.0:9090",
-            "proxies": [],
-            "proxy-groups": [],
-            "rules": [],
-        }
-
-        self.proxy_groups_default = [
-            {"name": "🔰 节点选择", "type": "select", "proxies": ["♻️ 自动选择", "🎯 全球直连"]},
-            {
-                "name": "♻️ 自动选择",
-                "type": "url-test",
-                "url": "http://www.gstatic.com/generate_204",
-                "interval": 300,
-                "proxies": [],
-            },
-            {
-                "name": "🌍 国外媒体",
-                "type": "select",
-                "proxies": ["🔰 节点选择", "♻️ 自动选择", "🎯 全球直连"],
-            },
-            {"name": "🌏 国内媒体", "type": "select", "proxies": ["🎯 全球直连", "🔰 节点选择"]},
-            {"name": "📲 电报信息", "type": "select", "proxies": ["🔰 节点选择", "🎯 全球直连"]},
-            {
-                "name": "🍎 苹果服务",
-                "type": "select",
-                "proxies": ["🔰 节点选择", "🎯 全球直连", "♻️ 自动选择"],
-            },
-            {"name": "🎯 全球直连", "type": "select", "proxies": ["DIRECT"]},
-            {"name": "🛑 全球拦截", "type": "select", "proxies": ["REJECT", "DIRECT"]},
-            {
-                "name": "🐟 漏网之鱼",
-                "type": "select",
-                "proxies": ["🔰 节点选择", "🎯 全球直连", "♻️ 自动选择"],
-            },
-        ]
-
         self.not_support_ciphers = ["chacha20", "rc4", "none"]
         self.not_support_alterIds = ["undefined"]
         self.not_support_type = ["vless"]
@@ -61,6 +19,8 @@ class YamlUtils:
         self.proxies_md5_dict = dict()
         self.filtered_rules = list()
         self.proxy_names_set = set()
+        with open("template.json", "r", encoding="utf8") as template_file:
+            self.template = json.load(template_file)
 
     def clone_repo(self, repo_url, branch=None):
         git_local_path = os.path.join(self.local_path, ".git")
@@ -85,7 +45,7 @@ class YamlUtils:
             '--pretty=format:""',
         )
         log_list = commit_log.split("\n")
-        self.make_template(log_list)
+        self.make_template(log_list, keyword, dirname)
 
     def make_template(self, filelist, keyword="yaml", dirname=None):
         def check_proxy(proxy):
@@ -132,7 +92,7 @@ class YamlUtils:
                     print(item)
                     print(e)
 
-        for item in self.proxy_groups_default:
+        for item in self.template["proxy-groups"]:
             proxies = item.get("proxies")
             if "DIRECT" not in proxies and "REJECT" not in proxies:
                 proxies.extend(self.proxy_names_set)
@@ -173,7 +133,6 @@ class YamlUtils:
                 filtered_rules_set.add(",".join(new_items))
 
         self.template["proxies"] = list(self.proxies_md5_dict.values())
-        self.template["proxy-groups"] = self.proxy_groups_default
         self.template["rules"] = list(filtered_rules_set)
 
     def get_template_dict(self):
