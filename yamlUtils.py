@@ -85,7 +85,9 @@ class YamlUtils:
             '--pretty=format:""',
         )
         log_list = commit_log.split("\n")
+        self.make_template(log_list)
 
+    def make_template(self, filelist, keyword="yaml", dirname=None):
         def check_proxy(proxy):
             return (
                 proxy.get("cipher") not in self.not_support_ciphers
@@ -94,7 +96,7 @@ class YamlUtils:
                 and type(proxy.get("port") == int)
             )
 
-        for item in log_list:
+        for item in filelist:
             if (dirname is None or dirname in item) and keyword in item:
                 try:
                     file_path = os.path.join(self.local_path, item)
