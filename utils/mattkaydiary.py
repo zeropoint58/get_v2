@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 from pyquery import PyQuery
 
 
-if __name__ == "__main__":
+def get_content():
     url = "https://www.mattkaydiary.com/"
     # proxies = {
     #     "http": "http://localhost:1080",
@@ -22,17 +22,18 @@ if __name__ == "__main__":
     )
     a_list = []
     p = re.compile(r"\d{4}年\d{2}月\d{2}日更新")
-    for i, val in enumerate(div_list[:10]):
+    for val in div_list[:10]:
         if p.search(val.text):
             a_list.append(val.get("href"))
     new_v2ray_url = a_list[0]
     new_v2ray_data = requests.get(new_v2ray_url, proxies=proxies)
     new_v2ray_data_html = new_v2ray_data.text
     doc = PyQuery(new_v2ray_data_html)
-    s = re.findall("https?://drive.google.com/uc\Sexport=download&id=\S+", doc.text())
-    for i, val in enumerate(s):
-        print(val)
-        file = requests.get(val, proxies=proxies)
+    urls = re.findall(
+        "https?://drive.google.com/uc\Sexport=download&id=\S+", doc.text()
+    )
+    for url in urls:
+        file = requests.get(url, proxies=proxies)
         headers = json.dumps(dict(file.headers))
         if "yaml" in headers:
             with open("pub/mattkaydiary.yaml", "wb") as f:

@@ -1,7 +1,9 @@
 import os
 import time
 import shutil
-from yamlUtils import YamlUtils
+from utils.yamlUtils import YamlUtils
+from utils.jiang import get_content as jiang_content
+from utils.mattkaydiary import get_content as mattkaydiary_content
 
 changfengoss = os.path.join("changfengoss")
 dirname = time.strftime("%Y_%m_%d", time.localtime(time.time()))
@@ -31,3 +33,13 @@ shutil.rmtree(freenode)
 # yamlUtils.make_template_dict("yml")
 # yamlUtils.save_file("ssr.yaml")
 # shutil.rmtree(ssr)
+
+jiang = jiang_content()
+mattkaydiary = mattkaydiary_content()
+
+pub = os.path.join("pub")
+yamlUtils = YamlUtils(pub)
+yamlUtils.make_template(
+    ["jiang.yaml", "mattkaydiary.yaml", "freenode.yaml", "bhqz.yaml"]
+)
+yamlUtils.save_file("pub/combine.yaml")
