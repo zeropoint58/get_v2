@@ -73,10 +73,11 @@ class YamlUtils:
         repo = Repo(self.local_path)
         repo.git.pull()
 
-    def make_template_dict(self, dirname=None, keyword="yaml"):
+    def make_template_dict(self, keyword="yaml", dirname=None):
         if not os.path.exists(self.local_path):
             os.makedirs(self.local_path)
         repo = Repo(self.local_path)
+        # 2 days ago
         # git log --since='date -d "yesterday" +%Y.%m.%d' --name-only --pretty=format:""
         commit_log = repo.git.log(
             "--since='date -d \"yesterday\" +%Y.%m.%d'",
