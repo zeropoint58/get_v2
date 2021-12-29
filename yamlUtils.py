@@ -56,6 +56,7 @@ class YamlUtils:
         self.not_support_ciphers = ["chacha20", "rc4", "none"]
         self.not_support_alterIds = ["undefined"]
         self.not_support_type = ["vless"]
+        self.network = ["grpc", "h2"]
 
         self.proxies_md5_dict = dict()
         self.filtered_rules = list()
@@ -72,7 +73,7 @@ class YamlUtils:
         repo = Repo(self.local_path)
         repo.git.pull()
 
-    def make_template_dict(self, dirname=None):
+    def make_template_dict(self, dirname=None, keyword="yaml"):
         if not os.path.exists(self.local_path):
             os.makedirs(self.local_path)
         repo = Repo(self.local_path)
@@ -84,8 +85,16 @@ class YamlUtils:
         )
         log_list = commit_log.split("\n")
 
+        def check_proxy(proxy):
+            return (
+                proxy.get("cipher") not in self.not_support_ciphers
+                and proxy.get("alterId") not in self.not_support_alterIds
+                and proxy.get("type") not in self.not_support_type
+                and type(proxy.get("port") == int)
+            )
+
         for item in log_list:
-            if (dirname is None or dirname in item) and "yaml" in item:
+            if (dirname is None or dirname in item) and keyword in item:
                 try:
                     file_path = os.path.join(self.local_path, item)
                     if os.path.exists(file_path) and os.path.isfile(file_path):
@@ -95,13 +104,11 @@ class YamlUtils:
                             proxies = yaml_obj.get("proxies")
                             self.filtered_rules.extend(rules)
                             for proxy in proxies:
-                                if (
-                                    proxy.get("cipher") not in self.not_support_ciphers
-                                    and proxy.get("alterId")
-                                    not in self.not_support_alterIds
-                                    and proxy.get("type") not in self.not_support_type
-                                    and type(proxy.get("port") == int)
-                                ):
+                                if check_proxy(proxy):
+                                    if proxy.get(
+                                        "network"
+                                    ) in self.network and proxy.get("tls"):
+                                        continue
                                     proxy_copy = copy.deepcopy(proxy)
                                     proxy_copy.pop("name")
                                     data_md5 = hashlib.md5(
