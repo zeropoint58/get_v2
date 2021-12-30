@@ -21,6 +21,8 @@ class YamlUtils:
         self.proxy_names_set = set()
         with open("template.json", "r", encoding="utf8") as template_file:
             self.template = json.load(template_file)
+        with open("adguard_dns.json", "r", encoding="utf8") as template_file:
+            self.adguard_dns = json.load(template_file)
 
     def clone_repo(self, repo_url, branch=None):
         git_local_path = os.path.join(self.local_path, ".git")
@@ -138,9 +140,12 @@ class YamlUtils:
     def get_template_dict(self):
         return self.template
 
-    def save_file(self, savepath=None):
+    def save_file(self, savepath=None, with_adguard_dns=False):
         if savepath is not None:
+            template = copy.deepcopy(self.template)
+            if with_adguard_dns:
+                template["dns"] = self.adguard_dns
             yml = yaml.YAML()
             yml.indent(mapping=2, sequence=4, offset=2)
             with open(savepath, "w+", encoding="utf8") as outfile:
-                yml.dump(self.template, outfile)
+                yml.dump(template, outfile)

@@ -43,3 +43,4 @@ yamlUtils.make_template(
     ["jiang.yaml", "mattkaydiary.yaml", "freenode.yaml", "bhqz.yaml"]
 )
 yamlUtils.save_file("pub/combine.yaml")
+yamlUtils.save_file("pub/combine_adguard.yaml", True)
