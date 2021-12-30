@@ -1,7 +1,7 @@
 {
     "enable": true,
     "ipv6": false,
-    "listen": "127.0.0.1:5450",
+    "listen": "180.76.55.43:53",
     "enhanced-mode": "redir-host",
     "default-nameserver": [
         "119.29.29.29",
