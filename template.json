@@ -82,6 +82,13 @@
     ],
     "rules": [],
     "rule-providers": {
+        "AntiAd": {
+            "type": "http",
+            "behavior": "domain",
+            "url": "https://raw.fastgit.org/privacy-protection-tools/anti-AD/master/anti-ad-clash.yaml",
+            "path": "./ruleset/AntiAd.yaml",
+            "interval": 86400
+        },
         "reject": {
             "type": "http",
             "behavior": "domain",
