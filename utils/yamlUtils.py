@@ -74,6 +74,7 @@ class YamlUtils:
                                         "network"
                                     ) in self.network and not proxy.get("tls"):
                                         continue
+                                    proxy["port"] = int(proxy.get("port"))
                                     proxy_copy = copy.deepcopy(proxy)
                                     proxy_copy.pop("name")
                                     data_md5 = hashlib.md5(
