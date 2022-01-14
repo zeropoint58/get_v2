@@ -52,7 +52,8 @@ class YamlUtils:
     def make_template(self, filelist, keyword="yaml", dirname=None):
         def check_proxy(proxy):
             return (
-                proxy.get("cipher") not in self.not_support_ciphers
+                "server" in proxy
+                and proxy.get("cipher") not in self.not_support_ciphers
                 and proxy.get("alterId") not in self.not_support_alterIds
                 and proxy.get("type") not in self.not_support_type
                 and type(proxy.get("port") == int)
