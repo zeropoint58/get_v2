@@ -176,4 +176,123 @@ proxies:
   - {name: 2ye 15, server: 38.75.136.93, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: 2ye 16, server: 172.105.180.227, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
   - {name: 2ye 17, server: 38.75.136.93, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: 2ye 18, server: 38.75.136.93, port: 7306, type: ss, cipher: 
+  - {name: 2ye 18, server: 38.75.136.93, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 2ye 19, server: 38.75.136.93, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 2ye 20, server: 172.105.180.227, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 2ye 21, server: 172.105.180.227, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 2ye 22, server: 172.105.180.227, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 2ye 23, server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
+  - {name: 2ye 24, server: 172.105.180.227, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 2ye 25, server: 172.105.180.227, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 2ye 26, server: 172.105.180.227, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 2ye 27, server: 172.105.180.227, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 2ye 28, server: 37.120.137.82, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: EGTHtnGhcnggx5yBYSqS}
+  - {name: 2ye 29, server: 172.105.180.227, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 2ye 30, server: 38.75.136.93, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 2ye 31, server: 172.105.180.227, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 2ye 32, server: 172.105.180.227, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 2ye 33, server: 172.105.180.227, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 2ye 34, server: 70.39.71.2, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: XkH8z99cQguQ8ywK5jhV}
+  - {name: 2ye 35, server: 172.105.180.227, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 2ye 36, server: 38.75.136.93, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 2ye 37, server: 172.105.180.227, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 2ye 38, server: 118.107.244.112, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 2ye 39, server: 145.239.1.137, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 2ye 40, server: 38.75.136.93, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 2ye 41, server: 188.214.152.194, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: t8BFcaM3GSCw5FHbph27}
+  - {name: 2ye 42, server: 62.210.209.50, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 2ye 43, server: 62.210.209.50, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 2ye 44, server: 172.105.180.227, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 2ye 45, server: 172.105.180.227, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 2ye 46, server: 172.105.180.227, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 2ye 47, server: 172.105.180.227, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 2ye 48, server: 172.105.180.227, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 2ye 49, server: 172.105.180.227, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 2ye 50, server: 172.105.180.227, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 2ye 51, server: 38.75.136.93, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 2ye 52, server: 62.210.209.50, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 2ye 53, server: 62.210.209.50, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 2ye 54, server: 62.210.209.50, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 2ye 55, server: 62.210.209.50, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 2ye 56, server: 62.210.209.50, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 2ye 57, server: 62.210.209.50, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 2ye 58, server: 38.75.136.93, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 2ye 59, server: 62.210.209.50, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 2ye 60, server: 38.75.136.93, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 2ye 61, server: 96.47.224.2, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: YDNYJcNdH5xuLrhyr7Fj}
+  - {name: 2ye 62, server: 120.232.214.36, port: 5002, type: ss, cipher: aes-256-gcm, password: 1f6aca3cebd21a4cd5a80718ed16b74c}
+  - {name: 2ye 63, server: 118.107.244.112, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 2ye 64, server: 118.107.244.112, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: 2ye 65, server: 118.107.244.112, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 2ye 66, server: 103.76.84.36, port: 8478, type: ss, cipher: chacha20-ietf-poly1305, password: ljqdalu13..}
+  - {name: 2ye 67, server: 103.85.23.186, port: 8478, type: ss, cipher: chacha20-ietf-poly1305, password: ljqdalu13..}
+  - {name: 2ye 68, server: 46.29.218.6, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 2ye 69, server: 172.99.190.87, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 2ye 70, server: 84.17.37.55, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: tjwRqQvteAjt3xFmbZTA}
+  - {name: 2ye 71, server: 118.107.244.112, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 2ye 72, server: 118.107.244.112, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 2ye 73, server: 118.107.244.112, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 2ye 74, server: 118.107.244.112, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 二爷翻墙网 https://1808.ga 30, server: 194.147.33.186, port: 29078, type: vmess, uuid: 37c3b288-7287-11ec-ab53-62ada0aaad7c, alterId: 0, cipher: auto, tls: false}
+  - {name: 二爷翻墙网 https://1808.ga 31, server: 193.42.114.222, port: 48186, type: vmess, uuid: 29c30ab2-7287-11ec-9c16-ce1d3620cfe6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hjX8I1VS/, headers: {Host: 193.42.114.222}}}
+  - {name: 二爷翻墙网 https://1808.ga 32, server: 120.241.72.97, port: 18067, type: vmess, uuid: 08c83d64-b259-3d4b-83ad-d91579bc5a7b, alterId: 0, cipher: auto, tls: false}
+  - {name: 卢森堡|01|BT|反代优选 2, server: cf.kycc-nodes.bike, port: 443, type: vmess, uuid: 27aba096-4d20-49d3-9ee8-ae29aaa24b7b, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: kycc, headers: {Host: lsb.stupidfellow.cf}}}
+  - {name: 🇫🇷 法国|01 2, server: 178.62.224.119, port: 8888, type: vmess, uuid: 27aba096-4d20-49d3-9ee8-ae29aaa24b7b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 178.62.224.119}}}
+  - {name: 🇺🇸 美国|0.5x|09|流解|长沙联通 2, server: cslt.sf66.cf, port: 34716, type: vmess, uuid: 27aba096-4d20-49d3-9ee8-ae29aaa24b7b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: cslt.sf66.cf}}}
+  - {name: 🇺🇸 美国|03|流解 2, server: 199.19.226.178, port: 21888, type: vmess, uuid: 27aba096-4d20-49d3-9ee8-ae29aaa24b7b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 199.19.226.178}}}
+  - {name: 🇺🇸 美国|09|流解 2, server: 209.209.114.222, port: 21888, type: vmess, uuid: 27aba096-4d20-49d3-9ee8-ae29aaa24b7b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 209.209.114.222}}}
+  - {name: 🇭🇰 香港|10|流解|CN2 GIA 2, server: 47.243.67.117, port: 21888, type: vmess, uuid: 27aba096-4d20-49d3-9ee8-ae29aaa24b7b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 47.243.67.117}}}
+  - {name: "%2ye", server: sg27.holiganfan.com, port: 10088, type: trojan, password: 8ce38f17-b2be-453a-8d25-deec1a0aabba, sni: sg27.holiganfan.com, skip-cert-verify: true}
+  - {name: "%2ye 2", server: ahyd.transfer.mugocloud.top, port: 22456, type: trojan, password: 1351a400-fd12-34a8-986c-d91e1c27740a, sni: ahyd.transfer.mugocloud.top, skip-cert-verify: true}
+  - {name: "%2ye 3", server: az.transfer.mugocloud.top, port: 29456, type: trojan, password: 1351a400-fd12-34a8-986c-d91e1c27740a, sni: az.transfer.mugocloud.top, skip-cert-verify: true}
+  - {name: "%2ye 4", server: ahyd.transfer.mugocloud.top, port: 22556, type: trojan, password: 1351a400-fd12-34a8-986c-d91e1c27740a, sni: ahyd.transfer.mugocloud.top, skip-cert-verify: true}
+  - {name: 2ye 75, server: cu.googo.in, port: 21003, type: ss, cipher: chacha20-ietf-poly1305, password: a6583148-6f03-49f8-b636-2f295fb3953e}
+  - {name: 2ye 76, server: 188.214.152.194, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: t8BFcaM3GSCw5FHbph27}
+  - {name: 2ye 77, server: us2.tr.mg-nb.com, port: 12953, type: trojan, password: 2671642d-fb87-4d20-bd00-5bbd41aa320a, sni: us2.tr.mg-nb.com, skip-cert-verify: true}
+  - {name: 2ye 78, server: 183.dxmax.co, port: 8010, type: ss, cipher: chacha20-ietf-poly1305, password: 8bbc6c20-6011-4fbe-9689-b1986abd2221}
+  - {name: 2ye 79, server: 152.70.115.89, port: 12331, type: ss, cipher: chacha20-ietf-poly1305, password: 8bbc6c20-6011-4fbe-9689-b1986abd2221}
+  - {name: 2ye 80, server: 197.dxmax.co, port: 14979, type: ss, cipher: chacha20-ietf-poly1305, password: 8bbc6c20-6011-4fbe-9689-b1986abd2221}
+  - {name: 2ye 81, server: 183.dxmax.co, port: 8001, type: ss, cipher: chacha20-ietf-poly1305, password: 8bbc6c20-6011-4fbe-9689-b1986abd2221}
+  - {name: 2ye 82, server: 197.dxmax.co, port: 14817, type: ss, cipher: chacha20-ietf-poly1305, password: 8bbc6c20-6011-4fbe-9689-b1986abd2221}
+  - {name: 2ye 83, server: az.transfer.mugocloud.top, port: 26316, type: trojan, password: 1351a400-fd12-34a8-986c-d91e1c27740a, sni: az.transfer.mugocloud.top, skip-cert-verify: true}
+  - {name: 2ye 84, server: gy.mg-nb.com, port: 10001, type: ss, cipher: aes-128-gcm, password: 2671642d-fb87-4d20-bd00-5bbd41aa320a}
+  - {name: 2ye 85, server: cu.googo.in, port: 21002, type: ss, cipher: chacha20-ietf-poly1305, password: a6583148-6f03-49f8-b636-2f295fb3953e}
+  - {name: 2ye 86, server: cu.googo.in, port: 21000, type: ss, cipher: chacha20-ietf-poly1305, password: a6583148-6f03-49f8-b636-2f295fb3953e}
+  - {name: 2ye 87, server: 62.216.92.179, port: 443, type: trojan, password: 28d98f761aca9d636f44db62544628eb, skip-cert-verify: true}
+  - {name: 2ye 88, server: 62.216.92.179, port: 443, type: trojan, password: a3fa58b581353bb375d2ddad0f327938, skip-cert-verify: true}
+  - {name: 2ye 89, server: cs.transfer.mugocloud.top, port: 21412, type: trojan, password: 1351a400-fd12-34a8-986c-d91e1c27740a, sni: cs.transfer.mugocloud.top, skip-cert-verify: true}
+  - {name: 2ye 90, server: 161.129.34.57, port: 12111, type: ss, cipher: chacha20-ietf-poly1305, password: 8bbc6c20-6011-4fbe-9689-b1986abd2221}
+  - {name: 2ye 91, server: 123.59.87.29, port: 3389, type: trojan, password: 032532644f4fd784, skip-cert-verify: true}
+  - {name: 2ye 92, server: 123.59.72.193, port: 3389, type: trojan, password: 032532644f4fd784, skip-cert-verify: true}
+  - {name: 2ye 93, server: 113.31.155.165, port: 3389, type: trojan, password: 032532644f4fd784, skip-cert-verify: true}
+  - {name: 2ye 94, server: 183.dxmax.co, port: 8006, type: ss, cipher: chacha20-ietf-poly1305, password: 8bbc6c20-6011-4fbe-9689-b1986abd2221}
+  - {name: 2ye 95, server: 178.173.230.101, port: 32400, type: ss, cipher: chacha20-ietf-poly1305, password: 8bbc6c20-6011-4fbe-9689-b1986abd2221}
+  - {name: 2ye 96, server: 20.210.112.57, port: 10001, type: ss, cipher: chacha20-ietf-poly1305, password: 8bbc6c20-6011-4fbe-9689-b1986abd2221}
+  - {name: 2ye 97, server: ahyd.transfer.mugocloud.top, port: 25417, type: trojan, password: 1351a400-fd12-34a8-986c-d91e1c27740a, sni: ahyd.transfer.mugocloud.top, skip-cert-verify: true}
+  - {name: 2ye 98, server: cs.mg-nb.com, port: 10000, type: ss, cipher: aes-128-gcm, password: 2671642d-fb87-4d20-bd00-5bbd41aa320a}
+  - {name: 2ye 99, server: gy.mg-nb.com, port: 10000, type: ss, cipher: aes-128-gcm, password: 2671642d-fb87-4d20-bd00-5bbd41aa320a}
+  - {name: 2ye 100, server: cu.googo.in, port: 21006, type: ss, cipher: chacha20-ietf-poly1305, password: a6583148-6f03-49f8-b636-2f295fb3953e}
+  - {name: 2ye 101, server: 106.75.233.91, port: 3389, type: trojan, password: 1a1247ea6cb266b4, skip-cert-verify: true}
+  - {name: 2ye 102, server: jp19.holiganfan.com, port: 10088, type: trojan, password: 6a826c64-5b0a-4960-8de0-a4de86e71034, sni: jp19.holiganfan.com, skip-cert-verify: true}
+  - {name: 2ye 103, server: 183.dxmax.co, port: 8011, type: ss, cipher: chacha20-ietf-poly1305, password: 8bbc6c20-6011-4fbe-9689-b1986abd2221}
+  - {name: 2ye 104, server: az.transfer.mugocloud.top, port: 22332, type: trojan, password: 1351a400-fd12-34a8-986c-d91e1c27740a, sni: az.transfer.mugocloud.top, skip-cert-verify: true}
+  - {name: 2ye 105, server: payday2.eu.org, port: 10086, type: trojan, password: WDNMDM, sni: payday2.eu.org, skip-cert-verify: true}
+  - {name: 2ye 106, server: payday2.eu.org, port: 10086, type: trojan, password: WDNMDN, sni: payday2.eu.org, skip-cert-verify: true}
+  - {name: 2ye 107, server: payday2.eu.org, port: 10086, type: trojan, password: WDNMDC, sni: payday2.eu.org, skip-cert-verify: true}
+  - {name: ye, server: 112.15.9.141, port: 45642, type: ss, cipher: chacha20-ietf-poly1305, password: 8bbc6c20-6011-4fbe-9689-b1986abd2221}
+  - {name: ye 2, server: 197.dxmax.co, port: 20460, type: ss, cipher: chacha20-ietf-poly1305, password: 8bbc6c20-6011-4fbe-9689-b1986abd2221}
+  - {name: ye 3, server: 183.dxmax.co, port: 8003, type: ss, cipher: chacha20-ietf-poly1305, password: 8bbc6c20-6011-4fbe-9689-b1986abd2221}
+  - {name: ye 4, server: 197.dxmax.co, port: 33119, type: ss, cipher: chacha20-ietf-poly1305, password: 8bbc6c20-6011-4fbe-9689-b1986abd2221}
+  - {name: ye 5, server: 103.172.116.149, port: 10001, type: ss, cipher: chacha20-ietf-poly1305, password: 8bbc6c20-6011-4fbe-9689-b1986abd2221}
+  - {name: ye 6, server: azure.dxmax.co, port: 22380, type: ss, cipher: chacha20-ietf-poly1305, password: 8bbc6c20-6011-4fbe-9689-b1986abd2221}
+  - {name: ye 7, server: cs.mg-nb.com, port: 10004, type: ss, cipher: aes-128-gcm, password: 2671642d-fb87-4d20-bd00-5bbd41aa320a}
+  - {name: ye 8, server: gy.mg-nb.com, port: 10004, type: ss, cipher: aes-128-gcm, password: 2671642d-fb87-4d20-bd00-5bbd41aa320a}
+  - {name: ye 9, server: 183.dxmax.co, port: 8002, type: ss, cipher: chacha20-ietf-poly1305, password: 8bbc6c20-6011-4fbe-9689-b1986abd2221}
+  - {name: ye 10, server: 120.232.192.211, port: 9035, type: ss, cipher: chacha20-ietf-poly1305, password: 8bbc6c20-6011-4fbe-9689-b1986abd2221}
+  - {name: ye 11, server: 45.133.181.58, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: qzj5NqakK4YvYYU87eFF}
+  - {name: ye 12, server: 197.dxmax.co, port: 10002, type: ss, cipher: chacha20-ietf-poly1305, password: 8bbc6c20-6011-4fbe-9689-b1986abd2221}
+  - {name: ye 13, server: 197.dxmax.co, port: 10001, type: ss, cipher: chacha20-ietf-poly1305, password: 8bbc6c20-6011-4fbe-9689-b1986abd2221}
+  - {name: ye 14, server: 120.232.192.211, port: 9533, type: ss, cipher: chacha20-ietf-poly1305, password: 8bbc6c20-6011-4fbe-9689-b1986abd2221}
+  - {name: ye 15, server: gy.mg-nb.com, port: 10002, type: ss, cipher: aes-128-gcm, password: 2671642d-fb87-4d20-bd00-5bbd41aa320a}
+  - {name: ye 16, server: cn2.mg-nb.com, port: 12112, type: ss, cipher: aes-256-gcm, password: 2671642d-fb87-4d20-bd00-5bbd41aa320a}
+  - {name: ye 17, server: cu.googo.in, port: 21013, type: ss, cipher: chacha20-ietf-poly1305, password: a65
