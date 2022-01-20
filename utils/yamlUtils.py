@@ -125,7 +125,7 @@ class YamlUtils:
 
         filtered_rules_set = set()
         for item in self.filtered_rules:
-            if "USER-AGENT" not in item:
+            if "USER-AGENT" not in item and "FINAL" not in item:
                 items = item.replace(",no-resolve", "").split(",")
                 group = items.pop(len(items) - 1)
                 if len(items) == 2 or len(items) == 1:
