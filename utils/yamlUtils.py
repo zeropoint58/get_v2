@@ -125,17 +125,18 @@ class YamlUtils:
 
         filtered_rules_set = set()
         for item in self.filtered_rules:
-            items = item.replace(",no-resolve", "").split(",")
-            group = items.pop(len(items) - 1)
-            if len(items) == 2 or len(items) == 1:
-                get_final_rule(items, group)
-                filtered_rules_set.add(",".join(items))
-            elif len(items) == 3:
-                new_items = list()
-                for i in range(0, len(items)):
-                    get_final_rule(new_items, items[i])
-                new_items.append(group)
-                filtered_rules_set.add(",".join(new_items))
+            if "USER-AGENT" not in item:
+                items = item.replace(",no-resolve", "").split(",")
+                group = items.pop(len(items) - 1)
+                if len(items) == 2 or len(items) == 1:
+                    get_final_rule(items, group)
+                    filtered_rules_set.add(",".join(items))
+                elif len(items) == 3:
+                    new_items = list()
+                    for i in range(0, len(items)):
+                        get_final_rule(new_items, items[i])
+                    new_items.append(group)
+                    filtered_rules_set.add(",".join(new_items))
 
         self.template["proxies"] = list(self.proxies_md5_dict.values())
         self.template["rules"] = list(filtered_rules_set)
