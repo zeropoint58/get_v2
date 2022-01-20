@@ -125,7 +125,7 @@ class YamlUtils:
 
         filtered_rules_set = set()
         for item in self.filtered_rules:
-            items = item.split(",")
+            items = item.replace(",no-resolve", "").split(",")
             group = items.pop(len(items) - 1)
             if len(items) == 2 or len(items) == 1:
                 get_final_rule(items, group)
