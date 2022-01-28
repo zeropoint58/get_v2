@@ -3,6 +3,7 @@ import json
 import time
 import copy
 import hashlib
+import uuid
 from ruamel import yaml
 from git.repo import Repo
 from git.repo.fun import is_git_dir
@@ -89,7 +90,10 @@ class YamlUtils:
                                             proxy["name"] = (
                                                 proxy.get("name")
                                                 + "_"
+                                                + item
+                                                + "_"
                                                 + str(round(time.time() * 1000))
+                                                + uuid.uuid4()
                                             )
                                         self.proxy_names_set.add(proxy.get("name"))
                                         self.proxies_md5_dict[data_md5] = proxy
