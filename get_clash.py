@@ -11,6 +11,7 @@ yamlUtils = YamlUtils(changfengoss)
 yamlUtils.clone_repo("https://github.com/changfengoss/pub.git")
 yamlUtils.make_template_dict("yaml", dirname)
 yamlUtils.save_file("pub/changfengoss.yaml")
+yamlUtils.save_file_without_providers("pub/changfengoss_without_providers.yaml")
 shutil.rmtree(changfengoss)
 
 bhqz = os.path.join("bhqz")

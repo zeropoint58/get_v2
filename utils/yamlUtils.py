@@ -3,7 +3,6 @@ import json
 import time
 import copy
 import hashlib
-import uuid
 from ruamel import yaml
 from git.repo import Repo
 from git.repo.fun import is_git_dir
@@ -151,6 +150,17 @@ class YamlUtils:
     def save_file(self, savepath=None, with_adguard_dns=False):
         if savepath is not None:
             template = copy.deepcopy(self.template)
+            if with_adguard_dns:
+                template["dns"] = self.adguard_dns
+            yml = yaml.YAML()
+            yml.indent(mapping=2, sequence=4, offset=2)
+            with open(savepath, "w+", encoding="utf8") as outfile:
+                yml.dump(template, outfile)
+
+    def save_file_without_providers(self, savepath=None, with_adguard_dns=False):
+        if savepath is not None:
+            template = copy.deepcopy(self.template)
+            template.pop('rule-providers')
             if with_adguard_dns:
                 template["dns"] = self.adguard_dns
             yml = yaml.YAML()
