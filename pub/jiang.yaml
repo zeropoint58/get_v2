@@ -5935,6 +5935,7 @@ rules:
  - DOMAIN-SUFFIX,snssdk.com,🎯 全球直连
  - DOMAIN-SUFFIX,toutiao.com,🎯 全球直连
  - DOMAIN-SUFFIX,toutiao13.com,🎯 全球直连
+ - DOMAIN-SUFFIX,toutiaoapi.com,🎯 全球直连
  - DOMAIN-SUFFIX,toutiaocdn.com,🎯 全球直连
  - DOMAIN-SUFFIX,toutiaocdn.net,🎯 全球直连
  - DOMAIN-SUFFIX,toutiaocloud.com,🎯 全球直连
