@@ -109,22 +109,31 @@ class YamlUtils:
         def get_final_rule(items, group):
             if "节点选择" in group or "自动选择" in group:
                 items.append("🔰 节点选择")
+                return True
             elif "国外媒体" in group:
                 items.append("🌍 国外媒体")
+                return True
             elif "国内媒体" in group or "微软服务" in group:
                 items.append("🌏 国内媒体")
+                return True
             elif "电报信息" in group:
                 items.append("📲 电报信息")
+                return True
             elif "苹果服务" in group:
                 items.append("🍎 苹果服务")
+                return True
             elif "全球直连" in group:
                 items.append("🎯 全球直连")
+                return True
             elif "AdBlock" in group or "应用净化" in group or "全球拦截" in group:
                 items.append("🛑 全球拦截")
+                return True
             elif "漏网之鱼" in group or "谷歌FCM" in group:
                 items.append("🐟 漏网之鱼")
-            # else:
-            #     items.append(group)
+                return True
+            else:
+                items.append(group)
+                return False
 
         filtered_rules_set = set()
         for item in self.filtered_rules:
@@ -138,8 +147,8 @@ class YamlUtils:
                     new_items = list()
                     for i in range(0, len(items)):
                         get_final_rule(new_items, items[i])
-                    new_items.append(group)
-                    filtered_rules_set.add(",".join(new_items))
+                    if get_final_rule(new_items, group):
+                        filtered_rules_set.add(",".join(new_items))
 
         self.template["proxies"] = list(self.proxies_md5_dict.values())
         self.template["rules"] = list(filtered_rules_set)
