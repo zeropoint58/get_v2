@@ -123,8 +123,8 @@ class YamlUtils:
                 items.append("🛑 全球拦截")
             elif "漏网之鱼" in group or "谷歌FCM" in group:
                 items.append("🐟 漏网之鱼")
-            else:
-                items.append(group)
+            # else:
+            #     items.append(group)
 
         filtered_rules_set = set()
         for item in self.filtered_rules:
@@ -160,7 +160,7 @@ class YamlUtils:
     def save_file_without_providers(self, savepath=None, with_adguard_dns=False):
         if savepath is not None:
             template = copy.deepcopy(self.template)
-            template.pop('rule-providers')
+            template.pop("rule-providers")
             if with_adguard_dns:
                 template["dns"] = self.adguard_dns
             yml = yaml.YAML()
