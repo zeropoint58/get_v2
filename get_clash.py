@@ -31,7 +31,7 @@ ssr = os.path.join("ssr")
 yamlUtils = YamlUtils(ssr)
 yamlUtils.clone_repo("https://github.com/ssrsub/ssr.git", "master")
 yamlUtils.make_template_dict("yml")
-yamlUtils.save_file("ssr.yaml")
+yamlUtils.save_file("pub/ssr.yaml")
 shutil.rmtree(ssr)
 
 jiang = jiang_content()
