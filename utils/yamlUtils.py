@@ -4,6 +4,7 @@ import time
 import copy
 import hashlib
 from ruamel import yaml
+
 from git.repo import Repo
 from git.repo.fun import is_git_dir
 
@@ -17,8 +18,11 @@ class YamlUtils:
         self.network = ["grpc", "h2"]
 
         self.proxies_md5_dict = dict()
+        self.proxies_md5_name_dict = dict()
         self.filtered_rules = list()
         self.proxy_names_set = set()
+        self.proxy_groups = dict()
+        self.proxy_groups_test_set = set()
         with open("template.json", "r", encoding="utf8") as template_file:
             self.template = json.load(template_file)
         with open("adguard_dns.json", "r", encoding="utf8") as template_file:
@@ -70,11 +74,12 @@ class YamlUtils:
                             rules = yaml_obj.get("rules")
                             proxies = yaml_obj.get("proxies")
                             self.filtered_rules.extend(rules)
+                            merged_proxy = dict()
+                            deleted_proxy = list()
                             for proxy in proxies:
                                 if check_proxy(proxy):
-                                    if proxy.get(
-                                        "network"
-                                    ) in self.network and not proxy.get("tls"):
+                                    if proxy.get("network") in self.network and not proxy.get("tls"):
+                                        deleted_proxy.append(proxy.get("name"))
                                         continue
                                     proxy["port"] = int(proxy.get("port"))
                                     proxy_copy = copy.deepcopy(proxy)
@@ -96,59 +101,40 @@ class YamlUtils:
                                             )
                                         self.proxy_names_set.add(proxy.get("name"))
                                         self.proxies_md5_dict[data_md5] = proxy
+                                        self.proxies_md5_name_dict[data_md5] = proxy.get("name")
+                                    merged_proxy[proxy.get("name")] = self.proxies_md5_name_dict.get(data_md5)
+                                else:
+                                    deleted_proxy.append(proxy.get("name"))
+                            proxy_groups = yaml_obj.get("proxy-groups")
+
+                            for index, group in enumerate(proxy_groups):
+                                group_name = group.get("name")
+                                if group.get("type") == "url-test":
+                                    self.proxy_groups_test_set.add(group_name)
+                                    group['name'] = '♻️ 自动选择'
+                                    proxy_groups[index] = group
+
+                            for group in proxy_groups:
+                                group_name = group.get("name")
+                                saved_group = self.proxy_groups.get(group_name, dict())
+                                saved_proxies = saved_group.get("proxies", list())
+                                proxies = group.get("proxies")
+                                for proxy in proxies:
+                                    if proxy not in deleted_proxy and proxy not in saved_proxies:
+                                        for one in self.proxy_groups_test_set: 
+                                            proxy = proxy.replace(one, '♻️ 自动选择')
+                                        saved_proxies.append(merged_proxy.get(proxy, proxy))
+                                group["proxies"] = saved_proxies
+                                self.proxy_groups[group_name] = group
                 except Exception as e:
-                    print(item)
-                    print(e)
-
-        for item in self.template["proxy-groups"]:
-            proxies = item.get("proxies")
-            if "DIRECT" not in proxies and "REJECT" not in proxies:
-                proxies.extend(self.proxy_names_set)
-            item["proxies"] = proxies
-
-        def get_final_rule(items, group):
-            if "节点选择" in group or "自动选择" in group:
-                items.append("🔰 节点选择")
-                return True
-            elif "国外媒体" in group:
-                items.append("🌍 国外媒体")
-                return True
-            elif "国内媒体" in group or "微软服务" in group:
-                items.append("🌏 国内媒体")
-                return True
-            elif "电报信息" in group:
-                items.append("📲 电报信息")
-                return True
-            elif "苹果服务" in group:
-                items.append("🍎 苹果服务")
-                return True
-            elif "全球直连" in group:
-                items.append("🎯 全球直连")
-                return True
-            elif "AdBlock" in group or "应用净化" in group or "全球拦截" in group:
-                items.append("🛑 全球拦截")
-                return True
-            elif "漏网之鱼" in group or "谷歌FCM" in group:
-                items.append("🐟 漏网之鱼")
-                return True
-            else:
-                items.append(group)
-                return False
+                    pass
+        if len(self.proxy_groups) > 0:
+            self.template["proxy-groups"] = list(self.proxy_groups.values())
 
         filtered_rules_set = set()
         for item in self.filtered_rules:
-            if "USER-AGENT" not in item and "FINAL" not in item:
-                items = item.replace(",no-resolve", "").split(",")
-                group = items.pop(len(items) - 1)
-                if len(items) == 2 or len(items) == 1:
-                    get_final_rule(items, group)
-                    filtered_rules_set.add(",".join(items))
-                elif len(items) == 3:
-                    new_items = list()
-                    for i in range(0, len(items)):
-                        get_final_rule(new_items, items[i])
-                    if get_final_rule(new_items, group):
-                        filtered_rules_set.add(",".join(new_items))
+            for one in self.proxy_groups_test_set: 
+                filtered_rules_set.add(item.replace(one, '♻️ 自动选择'))
 
         self.template["proxies"] = list(self.proxies_md5_dict.values())
         self.template["rules"] = list(filtered_rules_set)
@@ -156,7 +142,7 @@ class YamlUtils:
     def get_template_dict(self):
         return self.template
 
-    def save_file(self, savepath=None, with_adguard_dns=False):
+    def save_file(self, savepath="clash.yaml", with_adguard_dns=False):
         if savepath is not None:
             template = copy.deepcopy(self.template)
             if with_adguard_dns:
@@ -166,7 +152,7 @@ class YamlUtils:
             with open(savepath, "w+", encoding="utf8") as outfile:
                 yml.dump(template, outfile)
 
-    def save_file_without_providers(self, savepath=None, with_adguard_dns=False):
+    def save_file_without_providers(self, savepath="clash_without_providers.yaml", with_adguard_dns=False):
         if savepath is not None:
             template = copy.deepcopy(self.template)
             template.pop("rule-providers")
