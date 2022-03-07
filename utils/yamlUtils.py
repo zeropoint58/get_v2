@@ -124,7 +124,7 @@ class YamlUtils:
                                         for one in self.proxy_groups_test_set: 
                                             proxy = proxy.replace(one, '♻️ 自动选择')
                                         saved_proxies.append(merged_proxy.get(proxy, proxy))
-                                group["proxies"] = saved_proxies
+                                group["proxies"] = saved_proxies if len(saved_proxies) > 0 else ['DIRECT','REJECT']
                                 self.proxy_groups[group_name] = group
                 except Exception as e:
                     pass
