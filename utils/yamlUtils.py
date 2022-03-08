@@ -58,7 +58,7 @@ class YamlUtils:
             return (
                 "server" in proxy
                 and proxy.get("cipher") not in self.not_support_ciphers
-                and proxy.get("alterId") not in self.not_support_alterIds
+                and proxy.get("alterId") not None and proxy.get("alterId") not in self.not_support_alterIds
                 and proxy.get("type") not in self.not_support_type
                 and type(proxy.get("port") == int)
                 and proxy.get("port") > 0
