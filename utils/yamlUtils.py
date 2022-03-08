@@ -58,7 +58,8 @@ class YamlUtils:
             return (
                 "server" in proxy
                 and proxy.get("cipher") not in self.not_support_ciphers
-                and proxy.get("alterId") not None and proxy.get("alterId") not in self.not_support_alterIds
+                and proxy.get("alterId") is not None
+                and proxy.get("alterId") not in self.not_support_alterIds
                 and proxy.get("type") not in self.not_support_type
                 and type(proxy.get("port") == int)
                 and proxy.get("port") > 0
@@ -78,7 +79,9 @@ class YamlUtils:
                             deleted_proxy = list()
                             for proxy in proxies:
                                 if check_proxy(proxy):
-                                    if proxy.get("network") in self.network and not proxy.get("tls"):
+                                    if proxy.get(
+                                        "network"
+                                    ) in self.network and not proxy.get("tls"):
                                         deleted_proxy.append(proxy.get("name"))
                                         continue
                                     proxy["port"] = int(proxy.get("port"))
@@ -101,8 +104,12 @@ class YamlUtils:
                                             )
                                         self.proxy_names_set.add(proxy.get("name"))
                                         self.proxies_md5_dict[data_md5] = proxy
-                                        self.proxies_md5_name_dict[data_md5] = proxy.get("name")
-                                    merged_proxy[proxy.get("name")] = self.proxies_md5_name_dict.get(data_md5)
+                                        self.proxies_md5_name_dict[
+                                            data_md5
+                                        ] = proxy.get("name")
+                                    merged_proxy[
+                                        proxy.get("name")
+                                    ] = self.proxies_md5_name_dict.get(data_md5)
                                 else:
                                     deleted_proxy.append(proxy.get("name"))
                             proxy_groups = yaml_obj.get("proxy-groups")
@@ -111,7 +118,7 @@ class YamlUtils:
                                 group_name = group.get("name")
                                 if group.get("type") == "url-test":
                                     self.proxy_groups_test_set.add(group_name)
-                                    group['name'] = '♻️ 自动选择'
+                                    group["name"] = "♻️ 自动选择"
                                     proxy_groups[index] = group
 
                             for group in proxy_groups:
@@ -120,11 +127,20 @@ class YamlUtils:
                                 saved_proxies = saved_group.get("proxies", list())
                                 proxies = group.get("proxies")
                                 for proxy in proxies:
-                                    if proxy not in deleted_proxy and proxy not in saved_proxies:
-                                        for one in self.proxy_groups_test_set: 
-                                            proxy = proxy.replace(one, '♻️ 自动选择')
-                                        saved_proxies.append(merged_proxy.get(proxy, proxy))
-                                group["proxies"] = saved_proxies if len(saved_proxies) > 0 else ['DIRECT','REJECT']
+                                    if (
+                                        proxy not in deleted_proxy
+                                        and proxy not in saved_proxies
+                                    ):
+                                        for one in self.proxy_groups_test_set:
+                                            proxy = proxy.replace(one, "♻️ 自动选择")
+                                        saved_proxies.append(
+                                            merged_proxy.get(proxy, proxy)
+                                        )
+                                group["proxies"] = (
+                                    saved_proxies
+                                    if len(saved_proxies) > 0
+                                    else ["DIRECT", "REJECT"]
+                                )
                                 self.proxy_groups[group_name] = group
                 except Exception as e:
                     pass
@@ -133,8 +149,8 @@ class YamlUtils:
 
         filtered_rules_set = set()
         for item in self.filtered_rules:
-            for one in self.proxy_groups_test_set: 
-                filtered_rules_set.add(item.replace(one, '♻️ 自动选择'))
+            for one in self.proxy_groups_test_set:
+                filtered_rules_set.add(item.replace(one, "♻️ 自动选择"))
 
         self.template["proxies"] = list(self.proxies_md5_dict.values())
         self.template["rules"] = list(filtered_rules_set)
@@ -153,7 +169,9 @@ class YamlUtils:
             with open(savepath, "w+", encoding="utf8") as outfile:
                 yml.dump(template, outfile)
 
-    def save_file_without_providers(self, savepath="clash_without_providers.yaml", with_adguard_dns=False):
+    def save_file_without_providers(
+        self, savepath="clash_without_providers.yaml", with_adguard_dns=False
+    ):
         if savepath is not None:
             template = copy.deepcopy(self.template)
             template.pop("rule-providers")
