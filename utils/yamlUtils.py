@@ -130,6 +130,7 @@ class YamlUtils:
                                     if (
                                         proxy not in deleted_proxy
                                         and proxy not in saved_proxies
+                                        and proxy in self.proxy_names_set
                                     ):
                                         for one in self.proxy_groups_test_set:
                                             proxy = proxy.replace(one, "♻️ 自动选择")
