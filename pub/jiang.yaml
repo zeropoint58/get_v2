@@ -11,6 +11,15 @@ proxies:
   - {name: w5528二爷翻墙https://1808.ga, server: cf.731808.tk, port: 443, type: vmess, uuid: c39279c3-3aba-4e93-ab34-6be69163e5bd, alterId: 0, cipher: auto, tls: true, servername: w5528.731808.tk, network: ws, ws-opts: {path: /zfjkvws, headers: {Host: w5528.731808.tk}}}
   - {name: h5528二爷翻墙https://1808.ga, server: cf.731808.tk, port: 443, type: vmess, uuid: 8e5dbaed-9dd8-4a51-b7e9-86968a5ee020, alterId: 0, cipher: auto, tls: true, servername: h5528.731808.tk, network: ws, ws-opts: {path: /ddmxvws, headers: {Host: h5528.731808.tk}}}
   - {name: h5472二爷翻墙https://1808.ga, server: cf.731808.tk, port: 443, type: vmess, uuid: fd60467d-5c8b-4553-a03f-dc493020aaca, alterId: 0, cipher: auto, tls: true, servername: h5472.731808.tk, network: ws, ws-opts: {path: /gdlgvws, headers: {Host: h5472.731808.tk}}}
+  - {name: 🇩🇪 de, server: cf.731808.tk, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, servername: fbi-in-statute-huntington.trycloudflare.com, network: ws, ws-opts: {path: /, headers: {Host: fbi-in-statute-huntington.trycloudflare.com}}}
+  - {name: 二爷翻墙https://1808.ga, server: 128.14.140.254, port: 443, type: vmess, uuid: 43a55a45-6fbd-4713-9ff5-48f90bd74c5f, alterId: 0, cipher: auto, tls: true, servername: hax-tunnels.petll.tk, network: ws, ws-opts: {path: /, headers: {Host: hax-tunnels.petll.tk}}}
+  - {name: 二爷翻墙https://1808.ga 2, server: cf.731808.tk, port: 443, type: vmess, uuid: 768e7477-0985-4c4d-9f94-6ea0ad0bba2c, alterId: 0, cipher: auto, tls: true, servername: woiden-tunnels.petll.tk, network: ws, ws-opts: {path: /, headers: {Host: woiden-tunnels.petll.tk}}}
+  - {name: 二爷翻墙https://1808.ga 3, server: 172.64.150.150, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, servername: surfing-tiles-madness-pmc.trycloudflare.com, network: ws, ws-opts: {path: /, headers: {Host: surfing-tiles-madness-pmc.trycloudflare.com}}}
+  - {name: 二爷翻墙https://1808.ga 4, server: 172.64.150.150, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, servername: contemporary-nightlife-been-supervisors.trycloudflare.com, network: ws, ws-opts: {path: /, headers: {Host: contemporary-nightlife-been-supervisors.trycloudflare.com}}}
+  - {name: 二爷翻墙https://1808.ga 5, server: 172.64.150.150, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, servername: spencer-selecting-archive-coaching.trycloudflare.com, network: ws, ws-opts: {path: /, headers: {Host: spencer-selecting-archive-coaching.trycloudflare.com}}}
+  - {name: 二爷翻墙https://1808.ga 6, server: 45.64.22.23, port: 443, type: vmess, uuid: 43a55a45-6fbd-4713-9ff5-48f90bd74c5f, alterId: 0, cipher: auto, tls: true, servername: hax-tunnels.petll.tk, network: ws, ws-opts: {path: /, headers: {Host: hax-tunnels.petll.tk}}}
+  - {name: 二爷翻墙https://1808.ga 7, server: 172.64.150.150, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, servername: contemporary-nightlife-been-supervisors.trycloudflare.com, network: ws, ws-opts: {path: /, headers: {Host: contemporary-nightlife-been-supervisors.trycloudflare.com}}}
+  - {name: 二爷翻墙https://1808.ga 8, server: 172.64.150.150, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, servername: spencer-selecting-archive-coaching.trycloudflare.com, network: ws, ws-opts: {path: /, headers: {Host: spencer-selecting-archive-coaching.trycloudflare.com}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -23,6 +32,15 @@ proxy-groups:
       - w5528二爷翻墙https://1808.ga
       - h5528二爷翻墙https://1808.ga
       - h5472二爷翻墙https://1808.ga
+      - 🇩🇪 de
+      - 二爷翻墙https://1808.ga
+      - 二爷翻墙https://1808.ga 2
+      - 二爷翻墙https://1808.ga 3
+      - 二爷翻墙https://1808.ga 4
+      - 二爷翻墙https://1808.ga 5
+      - 二爷翻墙https://1808.ga 6
+      - 二爷翻墙https://1808.ga 7
+      - 二爷翻墙https://1808.ga 8
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -35,6 +53,15 @@ proxy-groups:
       - w5528二爷翻墙https://1808.ga
       - h5528二爷翻墙https://1808.ga
       - h5472二爷翻墙https://1808.ga
+      - 🇩🇪 de
+      - 二爷翻墙https://1808.ga
+      - 二爷翻墙https://1808.ga 2
+      - 二爷翻墙https://1808.ga 3
+      - 二爷翻墙https://1808.ga 4
+      - 二爷翻墙https://1808.ga 5
+      - 二爷翻墙https://1808.ga 6
+      - 二爷翻墙https://1808.ga 7
+      - 二爷翻墙https://1808.ga 8
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -47,6 +74,15 @@ proxy-groups:
       - w5528二爷翻墙https://1808.ga
       - h5528二爷翻墙https://1808.ga
       - h5472二爷翻墙https://1808.ga
+      - 🇩🇪 de
+      - 二爷翻墙https://1808.ga
+      - 二爷翻墙https://1808.ga 2
+      - 二爷翻墙https://1808.ga 3
+      - 二爷翻墙https://1808.ga 4
+      - 二爷翻墙https://1808.ga 5
+      - 二爷翻墙https://1808.ga 6
+      - 二爷翻墙https://1808.ga 7
+      - 二爷翻墙https://1808.ga 8
   - name: 📲 电报信息
     type: select
     proxies:
@@ -58,6 +94,15 @@ proxy-groups:
       - w5528二爷翻墙https://1808.ga
       - h5528二爷翻墙https://1808.ga
       - h5472二爷翻墙https://1808.ga
+      - 🇩🇪 de
+      - 二爷翻墙https://1808.ga
+      - 二爷翻墙https://1808.ga 2
+      - 二爷翻墙https://1808.ga 3
+      - 二爷翻墙https://1808.ga 4
+      - 二爷翻墙https://1808.ga 5
+      - 二爷翻墙https://1808.ga 6
+      - 二爷翻墙https://1808.ga 7
+      - 二爷翻墙https://1808.ga 8
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -69,6 +114,15 @@ proxy-groups:
       - w5528二爷翻墙https://1808.ga
       - h5528二爷翻墙https://1808.ga
       - h5472二爷翻墙https://1808.ga
+      - 🇩🇪 de
+      - 二爷翻墙https://1808.ga
+      - 二爷翻墙https://1808.ga 2
+      - 二爷翻墙https://1808.ga 3
+      - 二爷翻墙https://1808.ga 4
+      - 二爷翻墙https://1808.ga 5
+      - 二爷翻墙https://1808.ga 6
+      - 二爷翻墙https://1808.ga 7
+      - 二爷翻墙https://1808.ga 8
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -80,6 +134,15 @@ proxy-groups:
       - w5528二爷翻墙https://1808.ga
       - h5528二爷翻墙https://1808.ga
       - h5472二爷翻墙https://1808.ga
+      - 🇩🇪 de
+      - 二爷翻墙https://1808.ga
+      - 二爷翻墙https://1808.ga 2
+      - 二爷翻墙https://1808.ga 3
+      - 二爷翻墙https://1808.ga 4
+      - 二爷翻墙https://1808.ga 5
+      - 二爷翻墙https://1808.ga 6
+      - 二爷翻墙https://1808.ga 7
+      - 二爷翻墙https://1808.ga 8
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -92,6 +155,15 @@ proxy-groups:
       - w5528二爷翻墙https://1808.ga
       - h5528二爷翻墙https://1808.ga
       - h5472二爷翻墙https://1808.ga
+      - 🇩🇪 de
+      - 二爷翻墙https://1808.ga
+      - 二爷翻墙https://1808.ga 2
+      - 二爷翻墙https://1808.ga 3
+      - 二爷翻墙https://1808.ga 4
+      - 二爷翻墙https://1808.ga 5
+      - 二爷翻墙https://1808.ga 6
+      - 二爷翻墙https://1808.ga 7
+      - 二爷翻墙https://1808.ga 8
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -120,6 +192,15 @@ proxy-groups:
       - w5528二爷翻墙https://1808.ga
       - h5528二爷翻墙https://1808.ga
       - h5472二爷翻墙https://1808.ga
+      - 🇩🇪 de
+      - 二爷翻墙https://1808.ga
+      - 二爷翻墙https://1808.ga 2
+      - 二爷翻墙https://1808.ga 3
+      - 二爷翻墙https://1808.ga 4
+      - 二爷翻墙https://1808.ga 5
+      - 二爷翻墙https://1808.ga 6
+      - 二爷翻墙https://1808.ga 7
+      - 二爷翻墙https://1808.ga 8
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
