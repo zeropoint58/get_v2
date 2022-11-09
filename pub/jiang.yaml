@@ -11,6 +11,7 @@ proxies:
   - {name: w4423 二爷翻墙https://1808.ga, server: cdn.chigua.tk, port: 443, type: vmess, uuid: 2cc54dbd-d448-4cc0-b61c-1d1ba6317307, alterId: 0, cipher: auto, tls: true, servername: earth-identity-devel-pubmed.trycloudflare.com, network: ws, ws-opts: {path: /2cc54dbd, headers: {Host: earth-identity-devel-pubmed.trycloudflare.com}}}
   - {name: w1665 二爷翻墙https://1808.ga, server: cdn.chigua.tk, port: 443, type: vmess, uuid: bea4a9b4-2ba4-4ed6-8247-7ea68d7f0112, alterId: 0, cipher: auto, tls: true, servername: reduction-accomplish-entities-surname.trycloudflare.com, network: ws, ws-opts: {path: /bea4a9b4, headers: {Host: reduction-accomplish-entities-surname.trycloudflare.com}}}
   - {name: w5528 二爷翻墙https://1808.ga, server: cdn.chigua.tk, port: 443, type: vmess, uuid: 76a884db-04e1-40fb-ade5-c031a7f3461e, alterId: 0, cipher: auto, tls: true, servername: charging-looks-composed-labels.trycloudflare.com, network: ws, ws-opts: {path: /76a884db, headers: {Host: charging-looks-composed-labels.trycloudflare.com}}}
+  - {name: DDP, server: cdn.chigua.tk, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, servername: v2.chigua.tk, network: ws, ws-opts: {path: /vmess, headers: {Host: v2.chigua.tk}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -23,6 +24,7 @@ proxy-groups:
       - w4423 二爷翻墙https://1808.ga
       - w1665 二爷翻墙https://1808.ga
       - w5528 二爷翻墙https://1808.ga
+      - DDP
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -35,6 +37,7 @@ proxy-groups:
       - w4423 二爷翻墙https://1808.ga
       - w1665 二爷翻墙https://1808.ga
       - w5528 二爷翻墙https://1808.ga
+      - DDP
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -47,6 +50,7 @@ proxy-groups:
       - w4423 二爷翻墙https://1808.ga
       - w1665 二爷翻墙https://1808.ga
       - w5528 二爷翻墙https://1808.ga
+      - DDP
   - name: 📲 电报信息
     type: select
     proxies:
@@ -58,6 +62,7 @@ proxy-groups:
       - w4423 二爷翻墙https://1808.ga
       - w1665 二爷翻墙https://1808.ga
       - w5528 二爷翻墙https://1808.ga
+      - DDP
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -69,6 +74,7 @@ proxy-groups:
       - w4423 二爷翻墙https://1808.ga
       - w1665 二爷翻墙https://1808.ga
       - w5528 二爷翻墙https://1808.ga
+      - DDP
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -80,6 +86,7 @@ proxy-groups:
       - w4423 二爷翻墙https://1808.ga
       - w1665 二爷翻墙https://1808.ga
       - w5528 二爷翻墙https://1808.ga
+      - DDP
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -92,6 +99,7 @@ proxy-groups:
       - w4423 二爷翻墙https://1808.ga
       - w1665 二爷翻墙https://1808.ga
       - w5528 二爷翻墙https://1808.ga
+      - DDP
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -120,6 +128,7 @@ proxy-groups:
       - w4423 二爷翻墙https://1808.ga
       - w1665 二爷翻墙https://1808.ga
       - w5528 二爷翻墙https://1808.ga
+      - DDP
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
