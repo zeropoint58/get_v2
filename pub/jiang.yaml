@@ -3035,10 +3035,13 @@ rules:
  - DOMAIN-SUFFIX,edgedatg.com,🌍 国外媒体
  - DOMAIN-SUFFIX,go.com,🌍 国外媒体
  - DOMAIN-KEYWORD,abematv.akamaized.net,🌍 国外媒体
+ - DOMAIN,api-abematv.bucketeer.jp,🌍 国外媒体
+ - DOMAIN-SUFFIX,abema-tv.com,🌍 国外媒体
  - DOMAIN-SUFFIX,abema.io,🌍 国外媒体
  - DOMAIN-SUFFIX,abema.tv,🌍 国外媒体
  - DOMAIN-SUFFIX,ameba.jp,🌍 国外媒体
  - DOMAIN-SUFFIX,hayabusa.io,🌍 国外媒体
+ - DOMAIN-SUFFIX,hayabusa.media,🌍 国外媒体
  - DOMAIN-SUFFIX,c4assets.com,🌍 国外媒体
  - DOMAIN-SUFFIX,channel4.com,🌍 国外媒体
  - DOMAIN-KEYWORD,avoddashs,🌍 国外媒体
@@ -3899,6 +3902,7 @@ rules:
  - DOMAIN-SUFFIX,douyuscdn.com,🎯 全球直连
  - DOMAIN-SUFFIX,douyutv.com,🎯 全球直连
  - DOMAIN-SUFFIX,epicgames.com,🎯 全球直连
+ - DOMAIN-SUFFIX,epicgames.dev,🎯 全球直连
  - DOMAIN-SUFFIX,helpshift.com,🎯 全球直连
  - DOMAIN-SUFFIX,paragon.com,🎯 全球直连
  - DOMAIN-SUFFIX,unrealengine.com,🎯 全球直连
