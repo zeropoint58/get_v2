@@ -195,6 +195,7 @@ rules:
  - DOMAIN,instant.arubanetworks.com,🎯 全球直连
  - DOMAIN,setmeup.arubanetworks.com,🎯 全球直连
  - DOMAIN,router.asus.com,🎯 全球直连
+ - DOMAIN,www.asusrouter.com,🎯 全球直连
  - DOMAIN-SUFFIX,hiwifi.com,🎯 全球直连
  - DOMAIN-SUFFIX,leike.cc,🎯 全球直连
  - DOMAIN-SUFFIX,miwifi.com,🎯 全球直连
@@ -207,6 +208,7 @@ rules:
  - DOMAIN-SUFFIX,tendawifi.com,🎯 全球直连
  - DOMAIN-SUFFIX,zte.home,🎯 全球直连
  - DOMAIN-SUFFIX,tplogin.cn,🎯 全球直连
+ - DOMAIN-SUFFIX,wifi.cmcc,🎯 全球直连
  - DOMAIN-SUFFIX,ol.epicgames.com,🎯 全球直连
  - DOMAIN-SUFFIX,dizhensubao.getui.com,🎯 全球直连
  - DOMAIN,dl.google.com,🎯 全球直连
@@ -1343,7 +1345,6 @@ rules:
  - DOMAIN-SUFFIX,stat.pandora.xiaomi.com,🍃 应用净化
  - DOMAIN-SUFFIX,union.mi.com,🍃 应用净化
  - DOMAIN-SUFFIX,wtradv.market.xiaomi.com,🍃 应用净化
- - DOMAIN-SUFFIX,xmpush.xiaomi.com,🍃 应用净化
  - DOMAIN-SUFFIX,ad.api.moji.com,🍃 应用净化
  - DOMAIN-SUFFIX,app.moji001.com,🍃 应用净化
  - DOMAIN-SUFFIX,cdn.moji002.com,🍃 应用净化
@@ -1538,7 +1539,6 @@ rules:
  - DOMAIN-SUFFIX,ws.progrss.yahoo.com,🍃 应用净化
  - DOMAIN-SUFFIX,yads.yahoo.co.jp,🍃 应用净化
  - DOMAIN-SUFFIX,ybp.yahoo.com,🍃 应用净化
- - DOMAIN-SUFFIX,zhihu-web-analytics.zhihu.com,🍃 应用净化
  - DOMAIN-SUFFIX,shrek.6.cn,🍃 应用净化
  - DOMAIN-SUFFIX,simba.6.cn,🍃 应用净化
  - DOMAIN-SUFFIX,union.6.cn,🍃 应用净化
@@ -2337,6 +2337,26 @@ rules:
  - DOMAIN-SUFFIX,yt.be,🌍 国外媒体
  - DOMAIN-SUFFIX,ytimg.com,🌍 国外媒体
  - DOMAIN,music.youtube.com,🌍 国外媒体
+ - DOMAIN-KEYWORD,nivod,🌍 国外媒体
+ - DOMAIN-SUFFIX,biggggg.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,mudvod.tv,🌍 国外媒体
+ - DOMAIN-SUFFIX,nivod.tv,🌍 国外媒体
+ - DOMAIN-SUFFIX,nivodz.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,nivodi.tv,🌍 国外媒体
+ - DOMAIN-SUFFIX,nbys.tv,🌍 国外媒体
+ - DOMAIN-SUFFIX,nbyy.tv,🌍 国外媒体
+ - DOMAIN-SUFFIX,nbys1.tv,🌍 国外媒体
+ - DOMAIN-SUFFIX,newpppp.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,vod360.net,🌍 国外媒体
+ - DOMAIN-KEYWORD,olevod,🌍 国外媒体
+ - DOMAIN-SUFFIX,olevod.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,olevod.tv,🌍 国外媒体
+ - DOMAIN-SUFFIX,olevodtv.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,olevod.io,🌍 国外媒体
+ - DOMAIN-SUFFIX,olelive.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,olehd.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,iole.tv,🌍 国外媒体
+ - DOMAIN-SUFFIX,haiwaikan.com,🌍 国外媒体
  - DOMAIN-SUFFIX,1password.com,🚀 节点选择
  - DOMAIN-SUFFIX,adguard.org,🚀 节点选择
  - DOMAIN-SUFFIX,bit.no.com,🚀 节点选择
@@ -3120,6 +3140,7 @@ rules:
  - DOMAIN-SUFFIX,redacted.ch,🎯 全球直连
  - DOMAIN-SUFFIX,springsunday.net,🎯 全球直连
  - DOMAIN-SUFFIX,tjupt.org,🎯 全球直连
+ - DOMAIN-SUFFIX,tju.pt,🎯 全球直连
  - DOMAIN-SUFFIX,totheglory.im,🎯 全球直连
  - DOMAIN-SUFFIX,trontv.com,🎯 全球直连
  - DOMAIN-SUFFIX,teamviewer.com,🎯 全球直连
