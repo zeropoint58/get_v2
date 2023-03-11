@@ -5,9 +5,7 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: a二爷翻墙 https://1808.ga, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: a4921a75-0991-4d81-9721-8e45d2e31905, alterId: 0, cipher: auto, tls: true, servername: dd3.1808.cf, network: ws, ws-opts: {path: /nguevws, headers: {Host: dd3.1808.cf}}}
-  - {name: 🇬🇧 「SCP」UK-CF, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, servername: uk1.scproxy.top, network: ws, ws-opts: {path: /shirker, headers: {Host: uk1.scproxy.top}}}
-  - {name: 🇳🇱 「SCP」NL-CF, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, servername: nl1.scproxy.top, network: ws, ws-opts: {path: /shirker, headers: {Host: nl1.scproxy.top}}}
+  - {name: 二爷翻墙 https://1808.ga, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, servername: de1.scproxy.top, network: ws, ws-opts: {path: /shirker, headers: {Host: de1.scproxy.top}}}
   - {name: 🇭🇰 「SCP」HK-CF, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, servername: hk-hytron.ilovescp.com, network: ws, ws-opts: {path: /shirker, headers: {Host: hk-hytron.ilovescp.com}}}
   - {name: 🇯🇵 「SCP」JP-CF, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, servername: jp1.sharecentrepro.com, network: ws, ws-opts: {path: /shirker, headers: {Host: jp1.sharecentrepro.com}}}
   - {name: 🇨🇦 「SCP」CA-CF, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, servername: ca-nnc.ilovescp.com, network: ws, ws-opts: {path: /shirker, headers: {Host: ca-nnc.ilovescp.com}}}
@@ -18,15 +16,14 @@ proxies:
   - {name: 🇺🇸 「SCP」US-DP1, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, servername: dp1.scproxy.top, network: ws, ws-opts: {path: /shirker, headers: {Host: dp1.scproxy.top}}}
   - {name: 🇺🇸 「SCP」US-DP2, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, servername: dp2.scproxy.top, network: ws, ws-opts: {path: /shirker, headers: {Host: dp2.scproxy.top}}}
   - {name: 「SCP」KH-CF, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, servername: kh1.scproxy.top, network: ws, ws-opts: {path: /shirker, headers: {Host: kh1.scproxy.top}}}
+  - {name: 🇩🇪 「SCP」DE-CF, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, servername: de1.scproxy.top, network: ws, ws-opts: {path: /shirker, headers: {Host: de1.scproxy.top}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - a二爷翻墙 https://1808.ga
-      - 🇬🇧 「SCP」UK-CF
-      - 🇳🇱 「SCP」NL-CF
+      - 二爷翻墙 https://1808.ga
       - 🇭🇰 「SCP」HK-CF
       - 🇯🇵 「SCP」JP-CF
       - 🇨🇦 「SCP」CA-CF
@@ -37,15 +34,14 @@ proxy-groups:
       - 🇺🇸 「SCP」US-DP1
       - 🇺🇸 「SCP」US-DP2
       - 「SCP」KH-CF
+      - 🇩🇪 「SCP」DE-CF
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - a二爷翻墙 https://1808.ga
-      - 🇬🇧 「SCP」UK-CF
-      - 🇳🇱 「SCP」NL-CF
+      - 二爷翻墙 https://1808.ga
       - 🇭🇰 「SCP」HK-CF
       - 🇯🇵 「SCP」JP-CF
       - 🇨🇦 「SCP」CA-CF
@@ -56,15 +52,14 @@ proxy-groups:
       - 🇺🇸 「SCP」US-DP1
       - 🇺🇸 「SCP」US-DP2
       - 「SCP」KH-CF
+      - 🇩🇪 「SCP」DE-CF
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - a二爷翻墙 https://1808.ga
-      - 🇬🇧 「SCP」UK-CF
-      - 🇳🇱 「SCP」NL-CF
+      - 二爷翻墙 https://1808.ga
       - 🇭🇰 「SCP」HK-CF
       - 🇯🇵 「SCP」JP-CF
       - 🇨🇦 「SCP」CA-CF
@@ -75,14 +70,13 @@ proxy-groups:
       - 🇺🇸 「SCP」US-DP1
       - 🇺🇸 「SCP」US-DP2
       - 「SCP」KH-CF
+      - 🇩🇪 「SCP」DE-CF
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - a二爷翻墙 https://1808.ga
-      - 🇬🇧 「SCP」UK-CF
-      - 🇳🇱 「SCP」NL-CF
+      - 二爷翻墙 https://1808.ga
       - 🇭🇰 「SCP」HK-CF
       - 🇯🇵 「SCP」JP-CF
       - 🇨🇦 「SCP」CA-CF
@@ -93,14 +87,13 @@ proxy-groups:
       - 🇺🇸 「SCP」US-DP1
       - 🇺🇸 「SCP」US-DP2
       - 「SCP」KH-CF
+      - 🇩🇪 「SCP」DE-CF
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - a二爷翻墙 https://1808.ga
-      - 🇬🇧 「SCP」UK-CF
-      - 🇳🇱 「SCP」NL-CF
+      - 二爷翻墙 https://1808.ga
       - 🇭🇰 「SCP」HK-CF
       - 🇯🇵 「SCP」JP-CF
       - 🇨🇦 「SCP」CA-CF
@@ -111,14 +104,13 @@ proxy-groups:
       - 🇺🇸 「SCP」US-DP1
       - 🇺🇸 「SCP」US-DP2
       - 「SCP」KH-CF
+      - 🇩🇪 「SCP」DE-CF
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - a二爷翻墙 https://1808.ga
-      - 🇬🇧 「SCP」UK-CF
-      - 🇳🇱 「SCP」NL-CF
+      - 二爷翻墙 https://1808.ga
       - 🇭🇰 「SCP」HK-CF
       - 🇯🇵 「SCP」JP-CF
       - 🇨🇦 「SCP」CA-CF
@@ -129,15 +121,14 @@ proxy-groups:
       - 🇺🇸 「SCP」US-DP1
       - 🇺🇸 「SCP」US-DP2
       - 「SCP」KH-CF
+      - 🇩🇪 「SCP」DE-CF
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - a二爷翻墙 https://1808.ga
-      - 🇬🇧 「SCP」UK-CF
-      - 🇳🇱 「SCP」NL-CF
+      - 二爷翻墙 https://1808.ga
       - 🇭🇰 「SCP」HK-CF
       - 🇯🇵 「SCP」JP-CF
       - 🇨🇦 「SCP」CA-CF
@@ -148,6 +139,7 @@ proxy-groups:
       - 🇺🇸 「SCP」US-DP1
       - 🇺🇸 「SCP」US-DP2
       - 「SCP」KH-CF
+      - 🇩🇪 「SCP」DE-CF
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -170,9 +162,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - a二爷翻墙 https://1808.ga
-      - 🇬🇧 「SCP」UK-CF
-      - 🇳🇱 「SCP」NL-CF
+      - 二爷翻墙 https://1808.ga
       - 🇭🇰 「SCP」HK-CF
       - 🇯🇵 「SCP」JP-CF
       - 🇨🇦 「SCP」CA-CF
@@ -183,6 +173,7 @@ proxy-groups:
       - 🇺🇸 「SCP」US-DP1
       - 🇺🇸 「SCP」US-DP2
       - 「SCP」KH-CF
+      - 🇩🇪 「SCP」DE-CF
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
