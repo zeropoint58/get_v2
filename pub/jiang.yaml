@@ -1921,9 +1921,8 @@ rules:
  - DOMAIN,st.dl.bscstorage.net,🎯 全球直连
  - DOMAIN,st.dl.eccdnx.com,🎯 全球直连
  - DOMAIN,st.dl.pinyuncloud.com,🎯 全球直连
- - DOMAIN,xz.pphimalayanrt.com,🎯 全球直连
  - DOMAIN,steampipe.steamcontent.tnkjmec.com,🎯 全球直连
- - DOMAIN-SUFFIX,steampowered.com.8686c.com,🎯 全球直连
+ - DOMAIN,steampowered.com.8686c.com,🎯 全球直连
  - DOMAIN,steamstatic.com.8686c.com,🎯 全球直连
  - DOMAIN,wmsjsteam.com,🎯 全球直连
  - DOMAIN-SUFFIX,cm.steampowered.com,🎯 全球直连
@@ -2896,6 +2895,7 @@ rules:
  - DOMAIN-SUFFIX,bytetos.com,🎯 全球直连
  - DOMAIN-SUFFIX,bytexservice.com,🎯 全球直连
  - DOMAIN-SUFFIX,douyin.com,🎯 全球直连
+ - DOMAIN-SUFFIX,douyincdn.com,🎯 全球直连
  - DOMAIN-SUFFIX,douyinpic.com,🎯 全球直连
  - DOMAIN-SUFFIX,douyinstatic.com,🎯 全球直连
  - DOMAIN-SUFFIX,douyinvod.com,🎯 全球直连
@@ -3050,6 +3050,7 @@ rules:
  - DOMAIN,st.dl.bscstorage.net,🎯 全球直连
  - DOMAIN,st.dl.eccdnx.com,🎯 全球直连
  - DOMAIN,st.dl.pinyuncloud.com,🎯 全球直连
+ - DOMAIN,xz.pphimalayanrt.com,🎯 全球直连
  - DOMAIN,steampipe.steamcontent.tnkjmec.com,🎯 全球直连
  - DOMAIN,steampowered.com.8686c.com,🎯 全球直连
  - DOMAIN,steamstatic.com.8686c.com,🎯 全球直连
