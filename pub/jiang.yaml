@@ -1970,6 +1970,7 @@ rules:
  - DOMAIN,steampowered.com.8686c.com,🎯 全球直连
  - DOMAIN,steamstatic.com.8686c.com,🎯 全球直连
  - DOMAIN,wmsjsteam.com,🎯 全球直连
+ - DOMAIN,xz.pphimalayanrt.com,🎯 全球直连
  - DOMAIN-SUFFIX,cm.steampowered.com,🎯 全球直连
  - DOMAIN-SUFFIX,steamchina.com,🎯 全球直连
  - DOMAIN-SUFFIX,steamcontent.com,🎯 全球直连
@@ -2338,7 +2339,7 @@ rules:
  - DOMAIN-SUFFIX,p-cdn.us,🌍 国外媒体
  - DOMAIN-SUFFIX,sndcdn.com,🌍 国外媒体
  - DOMAIN-SUFFIX,soundcloud.com,🌍 国外媒体
- - DOMAIN-KEYWORD,-spotify-com,🌍 国外媒体
+ - DOMAIN-KEYWORD,-spotify-,🌍 国外媒体
  - DOMAIN-KEYWORD,spotify.com,🌍 国外媒体
  - DOMAIN-SUFFIX,pscdn.co,🌍 国外媒体
  - DOMAIN-SUFFIX,scdn.co,🌍 国外媒体
@@ -2351,7 +2352,7 @@ rules:
  - DOMAIN-SUFFIX,tidalhifi.com,🌍 国外媒体
  - DOMAIN,hamifans.emome.net,🌍 国外媒体
  - DOMAIN-SUFFIX,skyking.com.tw,🌍 国外媒体
- - DOMAIN-KEYWORD,tiktokcdn-,🌍 国外媒体
+ - DOMAIN-KEYWORD,tiktokcdn,🌍 国外媒体
  - DOMAIN-SUFFIX,byteoversea.com,🌍 国外媒体
  - DOMAIN-SUFFIX,ibytedtos.com,🌍 国外媒体
  - DOMAIN-SUFFIX,ipstatp.com,🌍 国外媒体
