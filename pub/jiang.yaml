@@ -5,189 +5,165 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 二爷翻墙网 https://1808.ga Node_1, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: nl.sharecentrepro.com}}}
-  - {name: 二爷翻墙网 https://1808.ga Node_2, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: hk2.ilovescp.com}}}
-  - {name: 二爷翻墙网 https://1808.ga Node_3, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: sg.ilovescp.com}}}
-  - {name: 二爷翻墙网 https://1808.ga Node_4, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: sg1.sharecentrepro.com}}}
-  - {name: 二爷翻墙网 https://1808.ga Node_5, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: sg2.sharecentrepro.com}}}
-  - {name: 二爷翻墙网 https://1808.ga Node_6, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: de1.sharecentrepro.org}}}
-  - {name: 二爷翻墙网 https://1808.ga Node_7, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: uk1.scproxy.top}}}
-  - {name: 二爷翻墙网 https://1808.ga Node_8, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: hk-hytron.ilovescp.com}}}
-  - {name: 二爷翻墙网 https://1808.ga Node_9, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
-  - {name: 二爷翻墙网 https://1808.ga Node_10, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: fr.scproxy.top}}}
-  - {name: 二爷翻墙网 https://1808.ga Node_11, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ny1.sharecentrepro.org}}}
-  - {name: 二爷翻墙网 https://1808.ga Node_12, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: lv1.sharecentrepro.org}}}
-  - {name: 二爷翻墙网 https://1808.ga Node_13, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: lv2.sharecentrepro.org}}}
-  - {name: 二爷翻墙网 https://1808.ga Node_14, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: lv3.sharecentrepro.org}}}
-  - {name: 二爷翻墙网 https://1808.ga Node_15, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp1.scproxy.top}}}
-  - {name: 二爷翻墙网 https://1808.ga Node_16, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp2.scproxy.top}}}
-  - {name: 二爷翻墙网 https://1808.ga Node_17, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}}
-  - {name: 二爷翻墙网 https://1808.ga Node_18, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: sg.ilovescp.com}}}
+  - {name: 5.1快乐 二爷翻墙 https://1808.ga Node_1, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: nl.sharecentrepro.com}}}
+  - {name: 5.1快乐 二爷翻墙 https://1808.ga Node_2, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: hk2.ilovescp.com}}}
+  - {name: 5.1快乐 二爷翻墙 https://1808.ga Node_3, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: sg.ilovescp.com}}}
+  - {name: 5.1快乐 二爷翻墙 https://1808.ga Node_4, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: de1.sharecentrepro.org}}}
+  - {name: 5.1快乐 二爷翻墙 https://1808.ga Node_5, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: uk1.scproxy.top}}}
+  - {name: 5.1快乐 二爷翻墙 https://1808.ga Node_6, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: hk-hytron.ilovescp.com}}}
+  - {name: 5.1快乐 二爷翻墙 https://1808.ga Node_7, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
+  - {name: 5.1快乐 二爷翻墙 https://1808.ga Node_8, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: fr.scproxy.top}}}
+  - {name: 5.1快乐 二爷翻墙 https://1808.ga Node_9, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ny1.sharecentrepro.org}}}
+  - {name: 5.1快乐 二爷翻墙 https://1808.ga Node_10, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: lv1.sharecentrepro.org}}}
+  - {name: 5.1快乐 二爷翻墙 https://1808.ga Node_11, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: lv2.sharecentrepro.org}}}
+  - {name: 5.1快乐 二爷翻墙 https://1808.ga Node_12, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: lv3.sharecentrepro.org}}}
+  - {name: 5.1快乐 二爷翻墙 https://1808.ga Node_13, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp1.scproxy.top}}}
+  - {name: 5.1快乐 二爷翻墙 https://1808.ga Node_14, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp2.scproxy.top}}}
+  - {name: 5.1快乐 二爷翻墙 https://1808.ga Node_15, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 二爷翻墙网 https://1808.ga Node_1
-      - 二爷翻墙网 https://1808.ga Node_2
-      - 二爷翻墙网 https://1808.ga Node_3
-      - 二爷翻墙网 https://1808.ga Node_4
-      - 二爷翻墙网 https://1808.ga Node_5
-      - 二爷翻墙网 https://1808.ga Node_6
-      - 二爷翻墙网 https://1808.ga Node_7
-      - 二爷翻墙网 https://1808.ga Node_8
-      - 二爷翻墙网 https://1808.ga Node_9
-      - 二爷翻墙网 https://1808.ga Node_10
-      - 二爷翻墙网 https://1808.ga Node_11
-      - 二爷翻墙网 https://1808.ga Node_12
-      - 二爷翻墙网 https://1808.ga Node_13
-      - 二爷翻墙网 https://1808.ga Node_14
-      - 二爷翻墙网 https://1808.ga Node_15
-      - 二爷翻墙网 https://1808.ga Node_16
-      - 二爷翻墙网 https://1808.ga Node_17
-      - 二爷翻墙网 https://1808.ga Node_18
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_1
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_2
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_3
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_4
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_5
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_6
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_7
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_8
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_9
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_10
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_11
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_12
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_13
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_14
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_15
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 二爷翻墙网 https://1808.ga Node_1
-      - 二爷翻墙网 https://1808.ga Node_2
-      - 二爷翻墙网 https://1808.ga Node_3
-      - 二爷翻墙网 https://1808.ga Node_4
-      - 二爷翻墙网 https://1808.ga Node_5
-      - 二爷翻墙网 https://1808.ga Node_6
-      - 二爷翻墙网 https://1808.ga Node_7
-      - 二爷翻墙网 https://1808.ga Node_8
-      - 二爷翻墙网 https://1808.ga Node_9
-      - 二爷翻墙网 https://1808.ga Node_10
-      - 二爷翻墙网 https://1808.ga Node_11
-      - 二爷翻墙网 https://1808.ga Node_12
-      - 二爷翻墙网 https://1808.ga Node_13
-      - 二爷翻墙网 https://1808.ga Node_14
-      - 二爷翻墙网 https://1808.ga Node_15
-      - 二爷翻墙网 https://1808.ga Node_16
-      - 二爷翻墙网 https://1808.ga Node_17
-      - 二爷翻墙网 https://1808.ga Node_18
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_1
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_2
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_3
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_4
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_5
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_6
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_7
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_8
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_9
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_10
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_11
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_12
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_13
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_14
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_15
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 二爷翻墙网 https://1808.ga Node_1
-      - 二爷翻墙网 https://1808.ga Node_2
-      - 二爷翻墙网 https://1808.ga Node_3
-      - 二爷翻墙网 https://1808.ga Node_4
-      - 二爷翻墙网 https://1808.ga Node_5
-      - 二爷翻墙网 https://1808.ga Node_6
-      - 二爷翻墙网 https://1808.ga Node_7
-      - 二爷翻墙网 https://1808.ga Node_8
-      - 二爷翻墙网 https://1808.ga Node_9
-      - 二爷翻墙网 https://1808.ga Node_10
-      - 二爷翻墙网 https://1808.ga Node_11
-      - 二爷翻墙网 https://1808.ga Node_12
-      - 二爷翻墙网 https://1808.ga Node_13
-      - 二爷翻墙网 https://1808.ga Node_14
-      - 二爷翻墙网 https://1808.ga Node_15
-      - 二爷翻墙网 https://1808.ga Node_16
-      - 二爷翻墙网 https://1808.ga Node_17
-      - 二爷翻墙网 https://1808.ga Node_18
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_1
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_2
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_3
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_4
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_5
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_6
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_7
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_8
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_9
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_10
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_11
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_12
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_13
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_14
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_15
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 二爷翻墙网 https://1808.ga Node_1
-      - 二爷翻墙网 https://1808.ga Node_2
-      - 二爷翻墙网 https://1808.ga Node_3
-      - 二爷翻墙网 https://1808.ga Node_4
-      - 二爷翻墙网 https://1808.ga Node_5
-      - 二爷翻墙网 https://1808.ga Node_6
-      - 二爷翻墙网 https://1808.ga Node_7
-      - 二爷翻墙网 https://1808.ga Node_8
-      - 二爷翻墙网 https://1808.ga Node_9
-      - 二爷翻墙网 https://1808.ga Node_10
-      - 二爷翻墙网 https://1808.ga Node_11
-      - 二爷翻墙网 https://1808.ga Node_12
-      - 二爷翻墙网 https://1808.ga Node_13
-      - 二爷翻墙网 https://1808.ga Node_14
-      - 二爷翻墙网 https://1808.ga Node_15
-      - 二爷翻墙网 https://1808.ga Node_16
-      - 二爷翻墙网 https://1808.ga Node_17
-      - 二爷翻墙网 https://1808.ga Node_18
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_1
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_2
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_3
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_4
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_5
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_6
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_7
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_8
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_9
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_10
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_11
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_12
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_13
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_14
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_15
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 二爷翻墙网 https://1808.ga Node_1
-      - 二爷翻墙网 https://1808.ga Node_2
-      - 二爷翻墙网 https://1808.ga Node_3
-      - 二爷翻墙网 https://1808.ga Node_4
-      - 二爷翻墙网 https://1808.ga Node_5
-      - 二爷翻墙网 https://1808.ga Node_6
-      - 二爷翻墙网 https://1808.ga Node_7
-      - 二爷翻墙网 https://1808.ga Node_8
-      - 二爷翻墙网 https://1808.ga Node_9
-      - 二爷翻墙网 https://1808.ga Node_10
-      - 二爷翻墙网 https://1808.ga Node_11
-      - 二爷翻墙网 https://1808.ga Node_12
-      - 二爷翻墙网 https://1808.ga Node_13
-      - 二爷翻墙网 https://1808.ga Node_14
-      - 二爷翻墙网 https://1808.ga Node_15
-      - 二爷翻墙网 https://1808.ga Node_16
-      - 二爷翻墙网 https://1808.ga Node_17
-      - 二爷翻墙网 https://1808.ga Node_18
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_1
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_2
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_3
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_4
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_5
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_6
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_7
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_8
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_9
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_10
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_11
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_12
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_13
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_14
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_15
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 二爷翻墙网 https://1808.ga Node_1
-      - 二爷翻墙网 https://1808.ga Node_2
-      - 二爷翻墙网 https://1808.ga Node_3
-      - 二爷翻墙网 https://1808.ga Node_4
-      - 二爷翻墙网 https://1808.ga Node_5
-      - 二爷翻墙网 https://1808.ga Node_6
-      - 二爷翻墙网 https://1808.ga Node_7
-      - 二爷翻墙网 https://1808.ga Node_8
-      - 二爷翻墙网 https://1808.ga Node_9
-      - 二爷翻墙网 https://1808.ga Node_10
-      - 二爷翻墙网 https://1808.ga Node_11
-      - 二爷翻墙网 https://1808.ga Node_12
-      - 二爷翻墙网 https://1808.ga Node_13
-      - 二爷翻墙网 https://1808.ga Node_14
-      - 二爷翻墙网 https://1808.ga Node_15
-      - 二爷翻墙网 https://1808.ga Node_16
-      - 二爷翻墙网 https://1808.ga Node_17
-      - 二爷翻墙网 https://1808.ga Node_18
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_1
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_2
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_3
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_4
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_5
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_6
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_7
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_8
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_9
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_10
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_11
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_12
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_13
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_14
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_15
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 二爷翻墙网 https://1808.ga Node_1
-      - 二爷翻墙网 https://1808.ga Node_2
-      - 二爷翻墙网 https://1808.ga Node_3
-      - 二爷翻墙网 https://1808.ga Node_4
-      - 二爷翻墙网 https://1808.ga Node_5
-      - 二爷翻墙网 https://1808.ga Node_6
-      - 二爷翻墙网 https://1808.ga Node_7
-      - 二爷翻墙网 https://1808.ga Node_8
-      - 二爷翻墙网 https://1808.ga Node_9
-      - 二爷翻墙网 https://1808.ga Node_10
-      - 二爷翻墙网 https://1808.ga Node_11
-      - 二爷翻墙网 https://1808.ga Node_12
-      - 二爷翻墙网 https://1808.ga Node_13
-      - 二爷翻墙网 https://1808.ga Node_14
-      - 二爷翻墙网 https://1808.ga Node_15
-      - 二爷翻墙网 https://1808.ga Node_16
-      - 二爷翻墙网 https://1808.ga Node_17
-      - 二爷翻墙网 https://1808.ga Node_18
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_1
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_2
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_3
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_4
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_5
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_6
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_7
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_8
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_9
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_10
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_11
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_12
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_13
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_14
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_15
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -210,24 +186,21 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 二爷翻墙网 https://1808.ga Node_1
-      - 二爷翻墙网 https://1808.ga Node_2
-      - 二爷翻墙网 https://1808.ga Node_3
-      - 二爷翻墙网 https://1808.ga Node_4
-      - 二爷翻墙网 https://1808.ga Node_5
-      - 二爷翻墙网 https://1808.ga Node_6
-      - 二爷翻墙网 https://1808.ga Node_7
-      - 二爷翻墙网 https://1808.ga Node_8
-      - 二爷翻墙网 https://1808.ga Node_9
-      - 二爷翻墙网 https://1808.ga Node_10
-      - 二爷翻墙网 https://1808.ga Node_11
-      - 二爷翻墙网 https://1808.ga Node_12
-      - 二爷翻墙网 https://1808.ga Node_13
-      - 二爷翻墙网 https://1808.ga Node_14
-      - 二爷翻墙网 https://1808.ga Node_15
-      - 二爷翻墙网 https://1808.ga Node_16
-      - 二爷翻墙网 https://1808.ga Node_17
-      - 二爷翻墙网 https://1808.ga Node_18
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_1
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_2
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_3
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_4
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_5
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_6
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_7
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_8
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_9
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_10
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_11
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_12
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_13
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_14
+      - 5.1快乐 二爷翻墙 https://1808.ga Node_15
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
