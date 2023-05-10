@@ -6,23 +6,22 @@ log-level: info
 external-controller: :9090
 proxies:
   - {name: 二爷翻墙网 https://1808.ga 节点_1, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: nl.sharecentrepro.com}}}
-  - {name: 二爷翻墙网 https://1808.ga 节点_2, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: hk2.ilovescp.com}}}
-  - {name: 二爷翻墙网 https://1808.ga 节点_3, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: sg.ilovescp.com}}}
-  - {name: 二爷翻墙网 https://1808.ga 节点_4, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: do.sharecentrepro.com}}}
-  - {name: 二爷翻墙网 https://1808.ga 节点_5, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: fr.sharecentrepro.org}}}
-  - {name: 二爷翻墙网 https://1808.ga 节点_6, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: de1.sharecentrepro.org}}}
-  - {name: 二爷翻墙网 https://1808.ga 节点_7, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: uk1.scproxy.top}}}
-  - {name: 二爷翻墙网 https://1808.ga 节点_8, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: hk-hytron.ilovescp.com}}}
-  - {name: 二爷翻墙网 https://1808.ga 节点_9, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
-  - {name: 二爷翻墙网 https://1808.ga 节点_10, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: jp.scproxy.top}}}
-  - {name: 二爷翻墙网 https://1808.ga 节点_11, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ny1.sharecentrepro.org}}}
-  - {name: 二爷翻墙网 https://1808.ga 节点_12, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: lv1.sharecentrepro.org}}}
-  - {name: 二爷翻墙网 https://1808.ga 节点_13, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: lv2.sharecentrepro.org}}}
-  - {name: 二爷翻墙网 https://1808.ga 节点_14, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: lv3.sharecentrepro.org}}}
-  - {name: 二爷翻墙网 https://1808.ga 节点_15, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp1.scproxy.top}}}
-  - {name: 二爷翻墙网 https://1808.ga 节点_16, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp2.scproxy.top}}}
-  - {name: 二爷翻墙网 https://1808.ga 节点_17, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}}
-  - {name: 二爷翻墙网 https://1808.ga 节点_18, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.scproxy.top}}}
+  - {name: 二爷翻墙网 https://1808.ga 节点_2, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: sg.ilovescp.com}}}
+  - {name: 二爷翻墙网 https://1808.ga 节点_3, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: do.sharecentrepro.com}}}
+  - {name: 二爷翻墙网 https://1808.ga 节点_4, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: fr.sharecentrepro.org}}}
+  - {name: 二爷翻墙网 https://1808.ga 节点_5, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: de1.sharecentrepro.org}}}
+  - {name: 二爷翻墙网 https://1808.ga 节点_6, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: uk1.scproxy.top}}}
+  - {name: 二爷翻墙网 https://1808.ga 节点_7, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: hk-hytron.ilovescp.com}}}
+  - {name: 二爷翻墙网 https://1808.ga 节点_8, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
+  - {name: 二爷翻墙网 https://1808.ga 节点_9, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: jp.scproxy.top}}}
+  - {name: 二爷翻墙网 https://1808.ga 节点_10, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ny1.sharecentrepro.org}}}
+  - {name: 二爷翻墙网 https://1808.ga 节点_11, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: lv1.sharecentrepro.org}}}
+  - {name: 二爷翻墙网 https://1808.ga 节点_12, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: lv2.sharecentrepro.org}}}
+  - {name: 二爷翻墙网 https://1808.ga 节点_13, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: lv3.sharecentrepro.org}}}
+  - {name: 二爷翻墙网 https://1808.ga 节点_14, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp1.scproxy.top}}}
+  - {name: 二爷翻墙网 https://1808.ga 节点_15, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp2.scproxy.top}}}
+  - {name: 二爷翻墙网 https://1808.ga 节点_16, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}}
+  - {name: 二爷翻墙网 https://1808.ga 节点_17, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.scproxy.top}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -46,7 +45,6 @@ proxy-groups:
       - 二爷翻墙网 https://1808.ga 节点_15
       - 二爷翻墙网 https://1808.ga 节点_16
       - 二爷翻墙网 https://1808.ga 节点_17
-      - 二爷翻墙网 https://1808.ga 节点_18
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -70,7 +68,6 @@ proxy-groups:
       - 二爷翻墙网 https://1808.ga 节点_15
       - 二爷翻墙网 https://1808.ga 节点_16
       - 二爷翻墙网 https://1808.ga 节点_17
-      - 二爷翻墙网 https://1808.ga 节点_18
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -94,7 +91,6 @@ proxy-groups:
       - 二爷翻墙网 https://1808.ga 节点_15
       - 二爷翻墙网 https://1808.ga 节点_16
       - 二爷翻墙网 https://1808.ga 节点_17
-      - 二爷翻墙网 https://1808.ga 节点_18
   - name: 📲 电报信息
     type: select
     proxies:
@@ -117,7 +113,6 @@ proxy-groups:
       - 二爷翻墙网 https://1808.ga 节点_15
       - 二爷翻墙网 https://1808.ga 节点_16
       - 二爷翻墙网 https://1808.ga 节点_17
-      - 二爷翻墙网 https://1808.ga 节点_18
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -140,7 +135,6 @@ proxy-groups:
       - 二爷翻墙网 https://1808.ga 节点_15
       - 二爷翻墙网 https://1808.ga 节点_16
       - 二爷翻墙网 https://1808.ga 节点_17
-      - 二爷翻墙网 https://1808.ga 节点_18
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -163,7 +157,6 @@ proxy-groups:
       - 二爷翻墙网 https://1808.ga 节点_15
       - 二爷翻墙网 https://1808.ga 节点_16
       - 二爷翻墙网 https://1808.ga 节点_17
-      - 二爷翻墙网 https://1808.ga 节点_18
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -187,7 +180,6 @@ proxy-groups:
       - 二爷翻墙网 https://1808.ga 节点_15
       - 二爷翻墙网 https://1808.ga 节点_16
       - 二爷翻墙网 https://1808.ga 节点_17
-      - 二爷翻墙网 https://1808.ga 节点_18
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -227,7 +219,6 @@ proxy-groups:
       - 二爷翻墙网 https://1808.ga 节点_15
       - 二爷翻墙网 https://1808.ga 节点_16
       - 二爷翻墙网 https://1808.ga 节点_17
-      - 二爷翻墙网 https://1808.ga 节点_18
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
