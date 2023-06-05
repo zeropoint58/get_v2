@@ -5,1741 +5,181 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: HK_https://1808.ga  Node_1, server: 62.216.92.168, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: HK_https://1808.ga  Node_2, server: 62.216.92.168, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: JP_https://1808.ga  Node_3, server: 85.208.108.19, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: JP_https://1808.ga  Node_4, server: 85.208.108.19, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: JP_https://1808.ga  Node_5, server: 85.208.108.19, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: SG_https://1808.ga  Node_6, server: 81.90.189.41, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: US_https://1808.ga  Node_7, server: 38.114.114.104, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: US_https://1808.ga  Node_8, server: 38.114.114.104, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: US_https://1808.ga  Node_9, server: 38.114.114.104, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: US_https://1808.ga  Node_10, server: 38.114.114.104, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: RU_https://1808.ga  Node_11, server: 165.154.243.157, port: 48007, type: trojan, password: 75599052-d014-478d-b575-455346f4f660, sni: zaelot.cc}
-  - {name: JP_https://1808.ga  Node_12, server: 153.121.32.77, port: 19999, type: ss, cipher: aes-128-gcm, password: 68d69ff4-03eb-425c-97b0-64a3e16d8af8}
-  - {name: CN_https://1808.ga  Node_13, server: tw-tpe-hq-v2.node.inforun.work, port: 10188, type: vmess, uuid: 4d578f9e-6af4-4d29-966f-88c061d075b7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /je5x3pBN1vez3NQudNkB, headers: {Host: tw-tpe-hq-v2.node.inforun.work}}}
-  - {name: TW_https://1808.ga  Node_14, server: pastry.taiwanesefood.link, port: 443, type: trojan, password: ZVqSTHcLasKIKGnzjnr8aHRPATiaTj5U, sni: pastry.taiwanesefood.link}
-  - {name: CN_https://1808.ga  Node_15, server: mzqlpieszcm.julvab.com, port: 27717, type: vmess, uuid: bb8830d9-492f-3a51-bab3-721e49887638, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /microsoft/support, headers: {Host: mzqlpieszcm.julvab.com}}}
-  - {name: CN_https://1808.ga  Node_16, server: mzqlpieszcm.julvab.com, port: 59955, type: vmess, uuid: bb8830d9-492f-3a51-bab3-721e49887638, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /microsoft/support, headers: {Host: mzqlpieszcm.julvab.com}}}
-  - {name: CN_https://1808.ga  Node_17, server: mzqlpieszcm.julvab.com, port: 58811, type: vmess, uuid: bb8830d9-492f-3a51-bab3-721e49887638, alterId: 0, cipher: auto, tls: false}
-  - {name: CN_https://1808.ga  Node_18, server: cunicom.julvab.com, port: 50922, type: vmess, uuid: bb8830d9-492f-3a51-bab3-721e49887638, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /microsoft/support, headers: {Host: cunicom.julvab.com}}}
-  - {name: CN_https://1808.ga  Node_19, server: mzqlpieszcm.julvab.com, port: 59933, type: vmess, uuid: bb8830d9-492f-3a51-bab3-721e49887638, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /microsoft/support, headers: {Host: mzqlpieszcm.julvab.com}}}
-  - {name: CN_https://1808.ga  Node_20, server: node3.onenode.top, port: 10015, type: vmess, uuid: 4667f1db-6ee3-3302-86ae-10183f9b8a3b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /chat, headers: {Host: node3.onenode.top}}}
-  - {name: CN_https://1808.ga  Node_21, server: debian10.domainsv3.com, port: 8003, type: ss, cipher: chacha20-ietf-poly1305, password: 0a00fe526e3592521559427839020652, plugin: obfs, plugin-opts: {mode: http, host: eb19780f3835.microsoft.com}}
-  - {name: CN_https://1808.ga  Node_22, server: debian10.updatensv3.com, port: 8765, type: ss, cipher: aes-128-gcm, password: 24ffe5a4c321e0b926dc335a91c2d78a, plugin: obfs, plugin-opts: {mode: http, host: eb19780f3835.microsoft.com}}
-  - {name: CN_https://1808.ga  Node_23, server: aliyun.install02.vnupgcn.cn, port: 11929, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /rocket, headers: {Host: aliyun.install02.vnupgcn.cn}}}
-  - {name: RU_https://1808.ga  Node_24, server: 165.154.243.157, port: 48001, type: trojan, password: 75599052-d014-478d-b575-455346f4f660, sni: download.windowsupdate1.com}
-  - {name: CN_https://1808.ga  Node_25, server: 4.hk.zz.xxxxx.x-t-fuckword.network, port: 36676, type: vmess, uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5, alterId: 0, cipher: auto, tls: false}
-  - {name: CN_https://1808.ga  Node_26, server: aliyun.install01.vnupgcn.cn, port: 11907, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /rocket, headers: {Host: aliyun.install01.vnupgcn.cn}}}
-  - {name: CN_https://1808.ga  Node_27, server: aliyun.install02.vnupgcn.cn, port: 11907, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /rocket, headers: {Host: aliyun.install02.vnupgcn.cn}}}
-  - {name: CN_https://1808.ga  Node_28, server: aliyun.install03.vnupgcn.cn, port: 11907, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /rocket, headers: {Host: aliyun.install03.vnupgcn.cn}}}
-  - {name: CN_https://1808.ga  Node_29, server: aliyun.install04.vnupgcn.cn, port: 11907, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /rocket, headers: {Host: aliyun.install04.vnupgcn.cn}}}
-  - {name: CN_https://1808.ga  Node_30, server: zfd-moble.gatknqh.cn, port: 16111, type: vmess, uuid: 7cd050f1-0a72-3c8c-9650-b00faa5bacbc, alterId: 0, cipher: auto, tls: false}
-  - {name: CN_https://1808.ga  Node_31, server: zfd-moble.gatknqh.cn, port: 16112, type: vmess, uuid: 7cd050f1-0a72-3c8c-9650-b00faa5bacbc, alterId: 0, cipher: auto, tls: false}
-  - {name: CN_https://1808.ga  Node_32, server: zfd-moble.gatknqh.cn, port: 16113, type: vmess, uuid: 7cd050f1-0a72-3c8c-9650-b00faa5bacbc, alterId: 0, cipher: auto, tls: false}
-  - {name: CN_https://1808.ga  Node_33, server: zfd-moble.gatknqh.cn, port: 16114, type: vmess, uuid: 7cd050f1-0a72-3c8c-9650-b00faa5bacbc, alterId: 0, cipher: auto, tls: false}
-  - {name: CN_https://1808.ga  Node_34, server: aliyun.install01.vnupgcn.cn, port: 11906, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /rocket, headers: {Host: aliyun.install01.vnupgcn.cn}}}
-  - {name: CN_https://1808.ga  Node_35, server: aliyun.install02.vnupgcn.cn, port: 11906, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /rocket, headers: {Host: aliyun.install02.vnupgcn.cn}}}
-  - {name: CN_https://1808.ga  Node_36, server: aliyun.install03.vnupgcn.cn, port: 11906, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /rocket, headers: {Host: aliyun.install03.vnupgcn.cn}}}
-  - {name: CN_https://1808.ga  Node_37, server: aliyun.install04.vnupgcn.cn, port: 11906, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /rocket, headers: {Host: aliyun.install04.vnupgcn.cn}}}
-  - {name: CN_https://1808.ga  Node_38, server: aliyun.install01.vnupgcn.cn, port: 11904, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /rocket, headers: {Host: aliyun.install01.vnupgcn.cn}}}
-  - {name: CN_https://1808.ga  Node_39, server: aliyun.install02.vnupgcn.cn, port: 11904, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /rocket, headers: {Host: aliyun.install02.vnupgcn.cn}}}
-  - {name: CN_https://1808.ga  Node_40, server: aliyun.install03.vnupgcn.cn, port: 11904, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /rocket, headers: {Host: aliyun.install03.vnupgcn.cn}}}
-  - {name: CN_https://1808.ga  Node_41, server: aliyun.install02.vnupgcn.cn, port: 11923, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /rocket, headers: {Host: aliyun.install02.vnupgcn.cn}}}
-  - {name: CN_https://1808.ga  Node_42, server: aliyun.install03.vnupgcn.cn, port: 11924, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /rocket, headers: {Host: aliyun.install03.vnupgcn.cn}}}
-  - {name: CN_https://1808.ga  Node_43, server: aliyun.install04.vnupgcn.cn, port: 11924, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /rocket, headers: {Host: aliyun.install04.vnupgcn.cn}}}
-  - {name: CN_https://1808.ga  Node_44, server: relay.wl-node1.com, port: 39002, type: ss, cipher: aes-128-gcm, password: dded6ef8-0bc4-4c84-98ec-8e74eba97b00}
-  - {name: CN_https://1808.ga  Node_45, server: xi.kanao.xyz, port: 58820, type: trojan, password: f5b6ace4-a1f3-48a0-9663-84adfab416d1, sni: soolos.com}
-  - {name: CN_https://1808.ga  Node_46, server: da.kanao.xyz, port: 58803, type: trojan, password: f5b6ace4-a1f3-48a0-9663-84adfab416d1, sni: soolos.com}
-  - {name: CN_https://1808.ga  Node_47, server: da.kanao.xyz, port: 58819, type: trojan, password: f5b6ace4-a1f3-48a0-9663-84adfab416d1, sni: soolos.com}
-  - {name: CN_https://1808.ga  Node_48, server: xi.kanao.xyz, port: 58804, type: trojan, password: f5b6ace4-a1f3-48a0-9663-84adfab416d1, sni: soolos.com}
-  - {name: CN_https://1808.ga  Node_49, server: 4.3.1.fuckppppp.today, port: 58418, type: vmess, uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5, alterId: 0, cipher: auto, tls: false}
-  - {name: CN_https://1808.ga  Node_50, server: 4.3.1.fuckppppp.today, port: 58418, type: vmess, uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5, alterId: 0, cipher: auto, tls: false}
-  - {name: CN_https://1808.ga  Node_51, server: 3.sg.zz.xxxxx.x-t-fuckword.network, port: 36679, type: vmess, uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5, alterId: 0, cipher: auto, tls: false}
-  - {name: CN_https://1808.ga  Node_52, server: aliyun.moble03.vnupgcn.cn, port: 65041, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /rocket, headers: {Host: aliyun.moble03.vnupgcn.cn}}}
-  - {name: HK_https://1808.ga  Node_53, server: 103.103.245.125, port: 50418, type: trojan, password: a70b39d1-62ea-4d9e-b681-9c5408352234}
-  - {name: CN_https://1808.ga  Node_54, server: aliyun.moble05.vnupgcn.cn, port: 65083, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /rocket, headers: {Host: aliyun.moble05.vnupgcn.cn}}}
-  - {name: HK_https://1808.ga  Node_55, server: 103.103.245.125, port: 50350, type: trojan, password: 006bca8c-4e1f-44e0-9399-1cd4ff480a40}
-  - {name: HK_https://1808.ga  Node_56, server: 103.103.245.125, port: 50206, type: trojan, password: 789d73af-b985-4778-9872-211047c28015}
-  - {name: HK_https://1808.ga  Node_57, server: 203.184.132.248, port: 4399, type: vmess, uuid: b315a93b-cec1-34cb-a658-be53ffda7cd8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /situ-hgc3}}
-  - {name: HK_https://1808.ga  Node_58, server: 203.184.132.249, port: 4399, type: vmess, uuid: b315a93b-cec1-34cb-a658-be53ffda7cd8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /situ-hgc4}}
-  - {name: HK_https://1808.ga  Node_59, server: 203.184.132.247, port: 4399, type: vmess, uuid: b315a93b-cec1-34cb-a658-be53ffda7cd8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /situ-hgc2}}
-  - {name: HK_https://1808.ga  Node_60, server: azure.xlzlucky.ml, port: 24285, type: vmess, uuid: 6e0efce1-d794-40d8-ddb6-c9b9605ea0ec, alterId: 0, cipher: auto, tls: true}
-  - {name: CN_https://1808.ga  Node_61, server: 120-241-236-214.nhost.00cdn.com, port: 16620, type: vmess, uuid: eea6906b-c9d9-4f5d-b4be-4ed523e1e70d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 120-241-236-214.nhost.00cdn.com}}}
-  - {name: CN_https://1808.ga  Node_62, server: t.cccao.cyou, port: 16620, type: vmess, uuid: eea6906b-c9d9-4f5d-b4be-4ed523e1e70d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: t.cccao.cyou}}}
-  - {name: CN_https://1808.ga  Node_63, server: relay1.wl-node1.com, port: 39001, type: vmess, uuid: dded6ef8-0bc4-4c84-98ec-8e74eba97b00, alterId: 0, cipher: auto, tls: false}
-  - {name: CN_https://1808.ga  Node_64, server: ddns.0318.cyou, port: 25070, type: ss, cipher: aes-128-gcm, password: 68d69ff4-03eb-425c-97b0-64a3e16d8af8}
-  - {name: CN_https://1808.ga  Node_65, server: ddns.0318.cyou, port: 25070, type: ss, cipher: aes-128-gcm, password: 68d69ff4-03eb-425c-97b0-64a3e16d8af8}
-  - {name: CN_https://1808.ga  Node_66, server: sdfwh.guaranteev2.com, port: 7410, type: ss, cipher: aes-128-gcm, password: 5478031491c1d1373c959397435f2a35, plugin: obfs, plugin-opts: {mode: http, host: a68f742ca034.microsoft.com}}
-  - {name: CN_https://1808.ga  Node_67, server: sdfwh.guaranteev2.com, port: 7413, type: ss, cipher: aes-128-gcm, password: 1197b38cb1e8a1a07b93e9269126bccd, plugin: obfs, plugin-opts: {mode: http, host: a68f742ca034.microsoft.com}}
-  - {name: CN_https://1808.ga  Node_68, server: oadht.guaranteev2.com, port: 7414, type: ss, cipher: aes-128-gcm, password: 9d7dbacfbd2d308e4ded7c6434770bc3, plugin: obfs, plugin-opts: {mode: http, host: a68f742ca034.microsoft.com}}
-  - {name: CN_https://1808.ga  Node_69, server: node3.onenode.top, port: 40009, type: vmess, uuid: 4667f1db-6ee3-3302-86ae-10183f9b8a3b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /chat, headers: {Host: node3.onenode.top}}}
-  - {name: CN_https://1808.ga  Node_70, server: b-entry.linkdns.xyz, port: 40256, type: vmess, uuid: 95ebc6b2-7b4c-3816-bc9b-63f56f775373, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /test, headers: {Host: b-entry.linkdns.xyz}}}
-  - {name: CN_https://1808.ga  Node_71, server: b-entry.linkdns.xyz, port: 40262, type: vmess, uuid: 95ebc6b2-7b4c-3816-bc9b-63f56f775373, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /test, headers: {Host: b-entry.linkdns.xyz}}}
-  - {name: US_https://1808.ga  Node_72, server: jp.useanlo.cf, port: 6523, type: trojan, password: 77065fa6-b38e-302c-beea-4b047967af01, sni: jp.useanlo.cf}
-  - {name: JP_https://1808.ga  Node_73, server: 45.78.54.36, port: 50020, type: trojan, password: b1593d7b-af38-40fc-a469-df07fad47683}
-  - {name: JP_https://1808.ga  Node_74, server: 45.78.54.36, port: 50134, type: trojan, password: 3ebff89d-8a2a-4620-aa71-1a7dd8561e8e}
-  - {name: CN_https://1808.ga  Node_75, server: ersgdf.passwordv2.com, port: 7401, type: ss, cipher: aes-128-gcm, password: c0b4efb0-ab81-46f8-87af-815b62351089}
-  - {name: CN_https://1808.ga  Node_76, server: ersgdf.passwordv2.com, port: 7402, type: ss, cipher: aes-128-gcm, password: c0b4efb0-ab81-46f8-87af-815b62351089}
-  - {name: CN_https://1808.ga  Node_77, server: sg-sin-krn-v2.node.inforun.work, port: 12888, type: vmess, uuid: 4d578f9e-6af4-4d29-966f-88c061d075b7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /je5x3pBN1vez3NQudNkB, headers: {Host: sg-sin-krn-v2.node.inforun.work}}}
-  - {name: US_https://1808.ga  Node_78, server: 20.24.44.110, port: 28443, type: trojan, password: 91ddf170-fe8a-4c14-ac16-a0ec55192782, sni: download.windowsupdate1.com}
-  - {name: CN_https://1808.ga  Node_79, server: da.kanao.xyz, port: 58807, type: trojan, password: f5b6ace4-a1f3-48a0-9663-84adfab416d1, sni: soolos.com}
-  - {name: CN_https://1808.ga  Node_80, server: aliyun.moble01.vnupgcn.cn, port: 65015, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /rocket, headers: {Host: aliyun.moble01.vnupgcn.cn}}}
-  - {name: CN_https://1808.ga  Node_81, server: aliyun.moble02.vnupgcn.cn, port: 65016, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /rocket, headers: {Host: aliyun.moble02.vnupgcn.cn}}}
-  - {name: CN_https://1808.ga  Node_82, server: aliyun.moble04.vnupgcn.cn, port: 65045, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /rocket, headers: {Host: aliyun.moble04.vnupgcn.cn}}}
-  - {name: CN_https://1808.ga  Node_83, server: zfd-moble.gatknqh.cn, port: 16108, type: vmess, uuid: 7cd050f1-0a72-3c8c-9650-b00faa5bacbc, alterId: 0, cipher: auto, tls: false}
-  - {name: CN_https://1808.ga  Node_84, server: us-sjc-ap-tr.node.inforun.work, port: 789, type: trojan, password: kFyvvCcvMXQKFcJZWuxcdTZOFummlVbf, sni: cdn.savoy.click}
-  - {name: CN_https://1808.ga  Node_85, server: us-sjc-ap-v2.node.inforun.work, port: 788, type: vmess, uuid: 4d578f9e-6af4-4d29-966f-88c061d075b7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /je5x3pBN1vez3NQudNkB, headers: {Host: us-sjc-ap-v2.node.inforun.work}}}
-  - {name: https://1808.ga  Node_86, server: us-sjc-ctg-02-v2.node.inforun.work, port: 888, type: vmess, uuid: 4d578f9e-6af4-4d29-966f-88c061d075b7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /je5x3pBN1vez3NQudNkB, headers: {Host: us-sjc-ctg-02-v2.node.inforun.work}}}
-  - {name: US_https://1808.ga  Node_87, server: florida.missionsec.us, port: 443, type: trojan, password: ZVqSTHcLasKIKGnzjnr8aHRPATiaTj5U, sni: florida.missionsec.us}
-  - {name: US_https://1808.ga  Node_88, server: pride.missionsec.us, port: 443, type: trojan, password: ZVqSTHcLasKIKGnzjnr8aHRPATiaTj5U, sni: pride.missionsec.us}
-  - {name: US_https://1808.ga  Node_89, server: kansas.missionsec.us, port: 443, type: trojan, password: ZVqSTHcLasKIKGnzjnr8aHRPATiaTj5U, sni: kansas.missionsec.us}
-  - {name: US_https://1808.ga  Node_90, server: texas.missionsec.us, port: 443, type: trojan, password: ZVqSTHcLasKIKGnzjnr8aHRPATiaTj5U, sni: texas.missionsec.us}
-  - {name: US_https://1808.ga  Node_91, server: 199.19.109.161, port: 50178, type: trojan, password: 9aa046a9-3be4-403e-b4a2-015cfe36d594}
-  - {name: https://1808.ga  Node_92, server: awssg3.sharecentre.xyz, port: 443, type: trojan, password: sharecentre}
-  - {name: https://1808.ga  Node_93, server: fr0810.moonfree.top, port: 443, type: vmess, uuid: a8ce5e05-d5c9-48c0-a082-7b39453b29c0, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: fr0810.moonfree.top}}}
-  - {name: https://1808.ga  Node_94, server: 104.17.3.81, port: 80, type: vmess, uuid: e5d7063b-afbc-47bb-a913-e459a7714830, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vpnneo, headers: {Host: hurricane3.nextvpn.cc}}}
-  - {name: https://1808.ga  Node_95, server: 103.186.149.132, port: 80, type: vmess, uuid: a479fc02-07c5-4864-8564-c4f147dfa488, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shopvpn.net, headers: {Host: frontier-i18n.tiktokv.com}}}
-  - {name: https://1808.ga  Node_96, server: cdn.digicertcdn.com, port: 80, type: vmess, uuid: 3890505d-a496-4418-91a1-742faa2b0ac7, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vpnneo, headers: {Host: biznet3.nextvpn.cc}}}
-  - {name: https://1808.ga  Node_97, server: 103.179.143.96, port: 22390, type: vmess, uuid: e02e92ae-788b-4d24-9060-fe6fa070aaa6, alterId: 0, cipher: auto, tls: false}
-  - {name: https://1808.ga  Node_98, server: cn04.downloadmovie.cn, port: 65028, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /rocket, headers: {Host: "%7B%22Host%22:%22cn04.downloadmovie.cn%22%7D"}}}
-  - {name: https://1808.ga  Node_99, server: cn04.downloadmovie.cn, port: 65025, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /rocket, headers: {Host: "%7B%22Host%22:%22cn04.downloadmovie.cn%22%7D"}}}
-  - {name: https://1808.ga  Node_100, server: cn04.downloadmovie.cn, port: 65036, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /rocket, headers: {Host: "%7B%22Host%22:%22cn04.downloadmovie.cn%22%7D"}}}
-  - {name: https://1808.ga  Node_101, server: 103.186.148.106, port: 80, type: vmess, uuid: a479fc02-07c5-4864-8564-c4f147dfa488, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shopvpn.net, headers: {Host: frontier-i18n.tiktokv.com}}}
-  - {name: https://1808.ga  Node_102, server: 104.18.21.226, port: 80, type: vmess, uuid: a55b7d77-d251-4e31-a76e-22d09ac69eb0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vpnneo, headers: {Host: sanggoro6.nextvpn.cc}}}
-  - {name: AU_https://1808.ga  Node_104, server: jgwxn4.gaox.ml, port: 443, type: trojan, password: e8c1ab3c-89b3-4933-92df-682e6dce7819, sni: jgwxn4.gaox.ml}
-  - {name: CA_https://1808.ga  Node_105, server: 138.197.166.205, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: Ultr@r00t_2017}
-  - {name: CN_https://1808.ga  Node_106, server: ingress-i1.onebox6.org, port: 38701, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: ingress-i1.onebox6.org}}}
-  - {name: CN_https://1808.ga  Node_107, server: pp1.zhengzhongfeizhu.xyz, port: 33002, type: trojan, password: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, sni: 111-47-215-139.nhost.00cdn.com}
-  - {name: CN_https://1808.ga  Node_108, server: pp1.zhengzhongfeizhu.xyz, port: 32001, type: trojan, password: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, sni: 111-47-215-139.nhost.00cdn.com}
-  - {name: CN_https://1808.ga  Node_109, server: pp1.zhengzhongfeizhu.xyz, port: 34000, type: trojan, password: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, sni: 111-47-215-139.nhost.00cdn.com}
-  - {name: CN_https://1808.ga  Node_110, server: pp1.zhengzhongfeizhu.xyz, port: 32002, type: trojan, password: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, sni: ip3884414509.mobgslb.tbcache.com}
-  - {name: CN_https://1808.ga  Node_111, server: pp1.zhengzhongfeizhu.xyz, port: 32000, type: trojan, password: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, sni: 111-47-215-139.nhost.00cdn.com}
-  - {name: CN_https://1808.ga  Node_112, server: pp1.zhengzhongfeizhu.xyz, port: 32003, type: trojan, password: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, sni: ip3884414509.mobgslb.tbcache.com}
-  - {name: CN_https://1808.ga  Node_113, server: hk-hkg-sh-hk-02-tr.cdn.savoy.click, port: 21089, type: trojan, password: kFyvvCcvMXQKFcJZWuxcdTZOFummlVbf}
-  - {name: CN_https://1808.ga  Node_114, server: iiiieeepppplll.zhengzhongfeizhu.xyz, port: 34004, type: trojan, password: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, sni: 111-47-215-139.nhost.00cdn.com}
-  - {name: CN_https://1808.ga  Node_115, server: iiiieeepppplll.zhengzhongfeizhu.xyz, port: 34001, type: trojan, password: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, sni: 111-47-215-139.nhost.00cdn.com}
-  - {name: CN_https://1808.ga  Node_116, server: iiiieeepppplll.zhengzhongfeizhu.xyz, port: 34002, type: trojan, password: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, sni: 111-47-215-139.nhost.00cdn.com}
-  - {name: CN_https://1808.ga  Node_117, server: iiiieeepppplll.zhengzhongfeizhu.xyz, port: 34003, type: trojan, password: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, sni: 111-47-215-139.nhost.00cdn.com}
-  - {name: CN_https://1808.ga  Node_118, server: 120.240.55.137, port: 38201, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: YouTube-aweikeji}}}
-  - {name: CN_https://1808.ga  Node_119, server: tw-tpe-h-tr.cdn.savoy.click, port: 10089, type: trojan, password: kFyvvCcvMXQKFcJZWuxcdTZOFummlVbf, sni: tw-tpe-h-tr.cdn.savoy.click}
-  - {name: CN_https://1808.ga  Node_120, server: 4.hk.zz.xxxxx.x-t-fuckword.network, port: 36676, type: vmess, uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5, alterId: 0, cipher: auto, tls: false}
-  - {name: CN_https://1808.ga  Node_121, server: 42.186.175.8, port: 443, type: vmess, uuid: 2962b6dc-8de5-40c2-f5fb-5039f72d9a95, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: sgarm.ptuu.ml}}}
-  - {name: CN_https://1808.ga  Node_122, server: in-sg-1.onebox6.org, port: 38701, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: www.ivpnpro.net}}}
-  - {name: CN_https://1808.ga  Node_123, server: aliyun.sgzx01.downloadmovie.cn, port: 11935, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /rocket, headers: {Host: aliyun.sgzx01.downloadmovie.cn}}}
-  - {name: CN_https://1808.ga  Node_124, server: in-us-1.onebox6.org, port: 38401, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: YouTube-aweikeji}}}
-  - {name: CN_https://1808.ga  Node_125, server: ingress-i2.iivvppnn.info, port: 38102, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: tv.cctv.com}}}
-  - {name: CN_https://1808.ga  Node_126, server: in-us-1.onebox6.org, port: 38401, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: "%7B%22Host%22:%22in-us-1.onebox6.org%22%7D"}}}
-  - {name: CN_https://1808.ga  Node_127, server: 36.137.147.7, port: 32087, type: ss, cipher: aes-256-gcm, password: dad0de41-db0c-4287-a4a6-d49d74c3d55e}
-  - {name: CN_https://1808.ga  Node_128, server: ingress-i1.onebox6.org, port: 38701, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: aweikeji-YouTube}}}
-  - {name: CN_https://1808.ga  Node_129, server: ingress-i1.onebox6.org, port: 38201, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: ingress-i1.onebox6.org}}}
-  - {name: CZ_https://1808.ga  Node_130, server: 194.87.196.20, port: 34736, type: vmess, uuid: ad34e7ff-a389-492a-8e0b-aeb0ab2a2e2b, alterId: 0, cipher: auto, tls: false}
-  - {name: CZ_https://1808.ga  Node_131, server: 195.133.53.192, port: 43688, type: vmess, uuid: bd1c8b57-0a9e-4e9f-a261-48e90c871e41, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: YouTube-aweikeji}}}
-  - {name: CZ_https://1808.ga  Node_132, server: 195.133.53.192, port: 14369, type: vmess, uuid: 2331affa-1194-45ae-9457-3746120c4751, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 195.133.53.192}}}
-  - {name: GB_https://1808.ga  Node_133, server: 45.152.65.174, port: 15941, type: ss, cipher: aes-256-gcm, password: Ni7Xn9PJPN}
-  - {name: GB_https://1808.ga  Node_134, server: 144.24.88.101, port: 16833, type: vmess, uuid: f5425ccf-3946-4fb4-eb24-5393d78a392f, alterId: 0, cipher: auto, tls: false}
-  - {name: GB_https://1808.ga  Node_135, server: vuk2.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /chat, headers: {Host: vuk2.0bad.com}}}
-  - {name: GB_https://1808.ga  Node_136, server: 185.167.78.193, port: 48986, type: vmess, uuid: 51e663d5-bd0b-447c-d483-d7a8e27d157a, alterId: 0, cipher: auto, tls: false}
-  - {name: GB_https://1808.ga  Node_137, server: 185.167.77.195, port: 46279, type: vmess, uuid: 666c9436-3680-4694-d0d6-02e16f725871, alterId: 0, cipher: auto, tls: false}
-  - {name: GB_https://1808.ga  Node_138, server: 144.24.92.192, port: 443, type: vmess, uuid: 1743c2d9-bad1-4485-95a8-897145f09812, alterId: 0, cipher: auto, tls: false}
-  - {name: GB_https://1808.ga  Node_139, server: 144.24.92.192, port: 80, type: vmess, uuid: 29d057f9-1600-4a18-b595-62a14073a230, alterId: 0, cipher: auto, tls: false}
-  - {name: GB_https://1808.ga  Node_140, server: 185.167.77.195, port: 29650, type: vmess, uuid: 660dbb02-2297-466b-c7b2-1bb8a6e680e5, alterId: 0, cipher: auto, tls: false}
-  - {name: GB_https://1808.ga  Node_141, server: 185.167.78.193, port: 47634, type: vmess, uuid: 5cf637c0-04f2-4af4-c25b-6e467c14d496, alterId: 0, cipher: auto, tls: false}
-  - {name: GB_https://1808.ga  Node_142, server: 144.24.92.192, port: 8080, type: vmess, uuid: 8d727db8-d20d-4425-cbcc-de7a04ac2717, alterId: 0, cipher: auto, tls: false}
-  - {name: HK_https://1808.ga  Node_143, server: lc-hk01-direct01.lc-hk01.lc-node.com, port: 443, type: vmess, uuid: ec736482-173e-3eff-9114-b49df8056e7d, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: lc-hk01-direct01.lc-hk01.lc-node.com}}}
-  - {name: HK_https://1808.ga  Node_144, server: hk-gz-hk-hkt-tr-b.cdn.savoy.click, port: 889, type: trojan, password: kFyvvCcvMXQKFcJZWuxcdTZOFummlVbf, sni: hk-gz-hk-hkt-tr-b.cdn.savoy.click}
-  - {name: HK_https://1808.ga  Node_145, server: lc-hk01-direct01.lc-hk01.lc-node.com, port: 443, type: vmess, uuid: ec736482-173e-3eff-9114-b49df8056e7d, alterId: 2, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: lc-hk01-direct01.lc-hk01.lc-node.com}}}
-  - {name: HK_https://1808.ga  Node_146, server: 18.167.20.169, port: 8080, type: vmess, uuid: e1f97064-adcd-40d3-91a0-3f0bea035fca, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: HK_https://1808.ga  Node_147, server: ziye.xn--94q649d.live, port: 666, type: vmess, uuid: 7da56c72-5a1e-44a1-be93-7a42d542f79d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: 119.28.84.171}}}
-  - {name: HK_https://1808.ga  Node_148, server: 23.91.100.243, port: 30862, type: vmess, uuid: 3b0f44e4-dd11-429d-c80f-615b10595db9, alterId: 0, cipher: auto, tls: false}
-  - {name: HK_https://1808.ga  Node_149, server: 18.167.20.169, port: 8080, type: vmess, uuid: e1f97064-adcd-40d3-91a0-3f0bea035fca, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 18.167.20.169}}}
-  - {name: ID_https://1808.ga  Node_150, server: yytok.wvs22.buzz, port: 31848, type: vmess, uuid: b88dd566-4fb4-42d0-bb79-7f06638d4d61, alterId: 0, cipher: auto, tls: true}
-  - {name: IN_https://1808.ga  Node_151, server: jgwhdlb2.gaox.ml, port: 443, type: trojan, password: 54080134-2cba-4535-8599-95650bd9aa54, sni: jgwhdlb2.gaox.ml}
-  - {name: IR_https://1808.ga  Node_152, server: nnv.chitacdn.xyz, port: 54242, type: vmess, uuid: f2393d82-94c4-4b12-8267-293a7500e487, alterId: 0, cipher: auto, tls: false}
-  - {name: JP_https://1808.ga  Node_153, server: vjp3.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /chat, headers: {Host: vjp3.0bad.com}}}
-  - {name: JP_https://1808.ga  Node_154, server: vjp1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /chat, headers: {Host: vjp1.0bad.com}}}
-  - {name: JP_https://1808.ga  Node_155, server: 168.138.207.66, port: 21365, type: vmess, uuid: 905f99b1-e7ba-45e0-ae4d-b0ffdf0ad245, alterId: 0, cipher: auto, tls: false}
-  - {name: JP_https://1808.ga  Node_156, server: 168.138.207.66, port: 21365, type: vmess, uuid: 905f99b1-e7ba-45e0-ae4d-b0ffdf0ad245, alterId: 0, cipher: auto, tls: false}
-  - {name: JP_https://1808.ga  Node_157, server: 168.138.207.66, port: 21365, type: vmess, uuid: 905f99b1-e7ba-45e0-ae4d-b0ffdf0ad245, alterId: 0, cipher: auto, tls: false}
-  - {name: JP_https://1808.ga  Node_158, server: 35.77.14.109, port: 58611, type: vmess, uuid: fb7fbd8f-6c61-40f2-858e-58502833497a, alterId: 0, cipher: auto, tls: false}
-  - {name: KR_https://1808.ga  Node_159, server: 152.70.235.207, port: 35412, type: vmess, uuid: 70d95308-2a61-4f93-f139-9103d0587fd9, alterId: 0, cipher: auto, tls: false}
-  - {name: KR_https://1808.ga  Node_160, server: 152.70.235.207, port: 35412, type: vmess, uuid: 70d95308-2a61-4f93-f139-9103d0587fd9, alterId: 0, cipher: auto, tls: false}
-  - {name: KR_https://1808.ga  Node_161, server: m4.40010010.xyz, port: 37121, type: vmess, uuid: 575e4d92-1056-44c2-8cac-75ef1c859ad5, alterId: 0, cipher: auto, tls: true}
-  - {name: KR_https://1808.ga  Node_162, server: 152.67.207.69, port: 80, type: vmess, uuid: 58cba904-206e-3e03-b61e-e2fa60cede05, alterId: 0, cipher: auto, tls: false}
-  - {name: KR_https://1808.ga  Node_163, server: 146.56.167.119, port: 6666, type: vmess, uuid: 64779fce-63a5-4faa-b59b-e4af40f4e419, alterId: 0, cipher: auto, tls: false}
-  - {name: KR_https://1808.ga  Node_164, server: m4.40010010.xyz, port: 37121, type: vmess, uuid: 575e4d92-1056-44c2-8cac-75ef1c859ad5, alterId: 0, cipher: auto, tls: true}
-  - {name: KR_https://1808.ga  Node_165, server: 146.56.167.119, port: 6666, type: vmess, uuid: 64779fce-63a5-4faa-b59b-e4af40f4e419, alterId: 0, cipher: auto, tls: false}
-  - {name: KR_https://1808.ga  Node_166, server: 146.56.184.242, port: 19570, type: vmess, uuid: 70a998e0-ba0b-4994-af50-8deed58cdbd9, alterId: 0, cipher: auto, tls: false}
-  - {name: KR_https://1808.ga  Node_167, server: m4.40010010.xyz, port: 37121, type: vmess, uuid: 575e4d92-1056-44c2-8cac-75ef1c859ad5, alterId: 0, cipher: auto, tls: true}
-  - {name: KR_https://1808.ga  Node_168, server: 103.138.80.193, port: 14485, type: vmess, uuid: b687b974-701b-4a7b-e7a4-c7f8b5102723, alterId: 0, cipher: auto, tls: false}
-  - {name: RU_https://1808.ga  Node_170, server: ru.hootfun.top, port: 45112, type: trojan, password: 935f34c1-1713-402c-bfe1-f051cf49d370}
-  - {name: SG_https://1808.ga  Node_171, server: www.fuckdbuy.xyz, port: 57170, type: vmess, uuid: 0fcee849-28e7-4251-87f3-e7cb9d95c00f, alterId: 0, cipher: auto, tls: true}
-  - {name: SG_https://1808.ga  Node_172, server: xmrs003.xmrth-node.xyz, port: 15880, type: vmess, uuid: a662477f-410b-3fa1-ba8b-a67abc8cce8c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /index, headers: {Host: file-1250914416.cos.ap-singapore.myqcloud.com}}}
-  - {name: SG_https://1808.ga  Node_173, server: vsg1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /chat, headers: {Host: vsg1.0bad.com}}}
-  - {name: SG_https://1808.ga  Node_174, server: v2sg02.connauto.com, port: 443, type: trojan, password: 208d536b-a83e-3006-97d7-9c5e15dc3669}
-  - {name: US_https://1808.ga  Node_179, server: 138.68.248.130, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: Ultr@r00t_2017}
-  - {name: US_https://1808.ga  Node_180, server: usa-washington.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-washington.lvuft.com}}}
-  - {name: US_https://1808.ga  Node_181, server: 141.193.213.21, port: 80, type: vmess, uuid: 3890505d-a496-4418-91a1-742faa2b0ac7, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vpnneo, headers: {Host: biznet3.nextvpn.cc}}}
-  - {name: US_https://1808.ga  Node_182, server: 74.211.97.81, port: 50500, type: trojan, password: bd52a53f-b02c-4bcb-be6a-ac4fd85e5f14, sni: us.bw3.hyperlinkvpn.xyz}
-  - {name: US_https://1808.ga  Node_183, server: 107.148.162.154, port: 16399, type: vmess, uuid: 7be2219f-7ac7-4cad-f45f-4c8fef813656, alterId: 0, cipher: auto, tls: false}
-  - {name: US_https://1808.ga  Node_184, server: guibi.ml, port: 443, type: vmess, uuid: 9d090c5f-56b9-4408-fc6b-b9316cc377c1, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: guibi.ml}}}
-  - {name: US_https://1808.ga  Node_185, server: 38.121.43.97, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: US_https://1808.ga  Node_186, server: 38.121.43.97, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: US_https://1808.ga  Node_187, server: 38.121.43.97, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: US_https://1808.ga  Node_188, server: 38.121.43.97, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: US_https://1808.ga  Node_189, server: 38.114.114.104, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: US_https://1808.ga  Node_190, server: 38.114.114.104, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: US_https://1808.ga  Node_191, server: 38.114.114.104, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: US_https://1808.ga  Node_192, server: 38.114.114.104, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: US_https://1808.ga  Node_193, server: 141.193.213.21, port: 80, type: vmess, uuid: a55b7d77-d251-4e31-a76e-22d09ac69eb0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vpnneo, headers: {Host: sanggoro6.nextvpn.cc}}}
-  - {name: US_https://1808.ga  Node_194, server: 141.193.213.20, port: 80, type: vmess, uuid: a55b7d77-d251-4e31-a76e-22d09ac69eb0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vpnneo, headers: {Host: sanggoro6.nextvpn.cc}}}
-  - {name: US_https://1808.ga  Node_195, server: 104.166.135.10, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws, headers: {Host: ahdaeph8.com}}}
-  - {name: US_https://1808.ga  Node_196, server: online.uc.edu, port: 80, type: vmess, uuid: e5d7063b-afbc-47bb-a913-e459a7714830, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vpnneo, headers: {Host: hurricane3.nextvpn.cc}}}
-  - {name: US_https://1808.ga  Node_197, server: 107.148.162.154, port: 16399, type: vmess, uuid: 7be2219f-7ac7-4cad-f45f-4c8fef813656, alterId: 0, cipher: auto, tls: false}
-  - {name: US_https://1808.ga  Node_198, server: jgwcc3.gaox.ml, port: 443, type: trojan, password: b291d129-ee55-4801-a9b8-b5316e5c37b7, sni: jgwcc3.gaox.ml}
-  - {name: US_https://1808.ga  Node_199, server: jgwcc2.gaox.ml, port: 443, type: trojan, password: 9c822f05-cfdc-479a-9534-60f3d4127435, sni: jgwcc2.gaox.ml}
-  - {name: US_https://1808.ga  Node_200, server: ol.cloudorg.uk, port: 443, type: trojan, password: 70b2198e-ccef-4e8b-b030-b1b03d7f4175}
-  - {name: US_https://1808.ga  Node_201, server: dg.hootfun.top, port: 32451, type: trojan, password: dd8a44f9-7c1d-4286-8f6f-4e4f19cb7998, sni: dg.hootfun.top}
-  - {name: US_https://1808.ga  Node_202, server: dg.hootfun.top, port: 31324, type: trojan, password: dd8a44f9-7c1d-4286-8f6f-4e4f19cb7998, sni: dg.hootfun.top}
-  - {name: US_https://1808.ga  Node_203, server: dg.hootfun.top, port: 31324, type: trojan, password: 935f34c1-1713-402c-bfe1-f051cf49d370, sni: dg.hootfun.top}
-  - {name: US_https://1808.ga  Node_204, server: 150.230.249.15, port: 46842, type: vmess, uuid: 4530b5ee-ced4-4e64-9285-1867fc5df7f8, alterId: 0, cipher: auto, tls: false}
-  - {name: US_https://1808.ga  Node_205, server: 137.184.118.47, port: 51649, type: vmess, uuid: 5d0b1709-5c3c-4073-fb3f-67251426571e, alterId: 0, cipher: auto, tls: false}
-  - {name: US_https://1808.ga  Node_206, server: 137.184.118.47, port: 51649, type: vmess, uuid: 5d0b1709-5c3c-4073-fb3f-67251426571e, alterId: 0, cipher: auto, tls: false}
-  - {name: US_https://1808.ga  Node_207, server: lc-kr02-direct01.lc-kr02.lc-node.com, port: 443, type: vmess, uuid: ec736482-173e-3eff-9114-b49df8056e7d, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: lc-kr02-direct01.lc-kr02.lc-node.com}}}
-  - {name: US_https://1808.ga  Node_208, server: usa-washington.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-washington.lvuft.com}}}
-  - {name: US_https://1808.ga  Node_209, server: blogs.microsoft.com, port: 80, type: vmess, uuid: 15df1f53-9101-404b-dd52-7774cdb3c218, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: net2.xtls.my.id}}}
-  - {name: US_https://1808.ga  Node_210, server: guibi.ml, port: 443, type: vmess, uuid: 9d090c5f-56b9-4408-fc6b-b9316cc377c1, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: guibi.ml}}}
-  - {name: US_https://1808.ga  Node_211, server: access.zoominfo.com, port: 80, type: vmess, uuid: e5d7063b-afbc-47bb-a913-e459a7714830, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vpnneo, headers: {Host: hurricane3.nextvpn.cc}}}
-  - {name: US_https://1808.ga  Node_212, server: 143.198.0.211, port: 26923, type: vmess, uuid: e8e1b9a5-2ba6-4847-9dd8-92f1d8019ebf, alterId: 0, cipher: auto, tls: false}
-  - {name: US_https://1808.ga  Node_213, server: 192.96.204.250, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-washington.lvuft.com}}}
-  - {name: US_https://1808.ga  Node_214, server: 129.150.46.8, port: 36277, type: vmess, uuid: f3d972b0-aa7f-499d-85cd-c0c26f9cc15f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: YouTube-aweikeji}}}
-  - {name: US_https://1808.ga  Node_215, server: iq0m0t3xlr3f.cf, port: 56115, type: ss, cipher: chacha20-ietf-poly1305, password: Zd07906YjHbCki4wC6UB}
-  - {name: US_https://1808.ga  Node_216, server: cne.cloudorg.uk, port: 17081, type: ss, cipher: chacha20-ietf-poly1305, password: 70b2198e-ccef-4e8b-b030-b1b03d7f4175}
-  - {name: US_https://1808.ga  Node_217, server: us218.hootfun.top, port: 32444, type: trojan, password: 935f34c1-1713-402c-bfe1-f051cf49d370}
-  - {name: US_https://1808.ga  Node_218, server: lswjs.hootfun.top, port: 23313, type: trojan, password: 935f34c1-1713-402c-bfe1-f051cf49d370}
+  - {name: 二爷翻墙https://1808.ga 节点_1, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /shirker, headers: {Host: nl.sharecentrepro.com}}}
+  - {name: 二爷翻墙https://1808.ga 节点_2, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /shirker, headers: {Host: sw.sharecentrepro.com}}}
+  - {name: 二爷翻墙https://1808.ga 节点_3, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /shirker, headers: {Host: in.sharecentrepro.com}}}
+  - {name: 二爷翻墙https://1808.ga 节点_4, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /shirker, headers: {Host: gcore.ilovescp.com}}}
+  - {name: 二爷翻墙https://1808.ga 节点_5, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /shirker, headers: {Host: do.sharecentrepro.com}}}
+  - {name: 二爷翻墙https://1808.ga 节点_6, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /shirker, headers: {Host: uk1.scproxy.top}}}
+  - {name: 二爷翻墙https://1808.ga 节点_7, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /shirker, headers: {Host: hk-hytron.ilovescp.com}}}
+  - {name: 二爷翻墙https://1808.ga 节点_8, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
+  - {name: 二爷翻墙https://1808.ga 节点_9, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ny1.sharecentrepro.org}}}
+  - {name: 二爷翻墙https://1808.ga 节点_10, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv1.sharecentrepro.org}}}
+  - {name: 二爷翻墙https://1808.ga 节点_11, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv2.sharecentrepro.org}}}
+  - {name: 二爷翻墙https://1808.ga 节点_12, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: lv3.sharecentrepro.org}}}
+  - {name: 二爷翻墙https://1808.ga 节点_13, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp1.scproxy.top}}}
+  - {name: 二爷翻墙https://1808.ga 节点_14, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp2.scproxy.top}}}
+  - {name: 二爷翻墙https://1808.ga 节点_15, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}}
+  - {name: 二爷翻墙https://1808.ga 节点_16, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.scproxy.top}}}
+  - {name: 二爷翻墙https://1808.ga 节点_17, server: cdn.anycast.eu.org, port: 443, type: vmess, uuid: dddd0b29-1576-4003-9990-d7cea34264db, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /835757, headers: {Host: dedi2.1808.cf}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - HK_https://1808.ga  Node_1
-      - HK_https://1808.ga  Node_2
-      - JP_https://1808.ga  Node_3
-      - JP_https://1808.ga  Node_4
-      - JP_https://1808.ga  Node_5
-      - SG_https://1808.ga  Node_6
-      - US_https://1808.ga  Node_7
-      - US_https://1808.ga  Node_8
-      - US_https://1808.ga  Node_9
-      - US_https://1808.ga  Node_10
-      - RU_https://1808.ga  Node_11
-      - JP_https://1808.ga  Node_12
-      - CN_https://1808.ga  Node_13
-      - TW_https://1808.ga  Node_14
-      - CN_https://1808.ga  Node_15
-      - CN_https://1808.ga  Node_16
-      - CN_https://1808.ga  Node_17
-      - CN_https://1808.ga  Node_18
-      - CN_https://1808.ga  Node_19
-      - CN_https://1808.ga  Node_20
-      - CN_https://1808.ga  Node_21
-      - CN_https://1808.ga  Node_22
-      - CN_https://1808.ga  Node_23
-      - RU_https://1808.ga  Node_24
-      - CN_https://1808.ga  Node_25
-      - CN_https://1808.ga  Node_26
-      - CN_https://1808.ga  Node_27
-      - CN_https://1808.ga  Node_28
-      - CN_https://1808.ga  Node_29
-      - CN_https://1808.ga  Node_30
-      - CN_https://1808.ga  Node_31
-      - CN_https://1808.ga  Node_32
-      - CN_https://1808.ga  Node_33
-      - CN_https://1808.ga  Node_34
-      - CN_https://1808.ga  Node_35
-      - CN_https://1808.ga  Node_36
-      - CN_https://1808.ga  Node_37
-      - CN_https://1808.ga  Node_38
-      - CN_https://1808.ga  Node_39
-      - CN_https://1808.ga  Node_40
-      - CN_https://1808.ga  Node_41
-      - CN_https://1808.ga  Node_42
-      - CN_https://1808.ga  Node_43
-      - CN_https://1808.ga  Node_44
-      - CN_https://1808.ga  Node_45
-      - CN_https://1808.ga  Node_46
-      - CN_https://1808.ga  Node_47
-      - CN_https://1808.ga  Node_48
-      - CN_https://1808.ga  Node_49
-      - CN_https://1808.ga  Node_50
-      - CN_https://1808.ga  Node_51
-      - CN_https://1808.ga  Node_52
-      - HK_https://1808.ga  Node_53
-      - CN_https://1808.ga  Node_54
-      - HK_https://1808.ga  Node_55
-      - HK_https://1808.ga  Node_56
-      - HK_https://1808.ga  Node_57
-      - HK_https://1808.ga  Node_58
-      - HK_https://1808.ga  Node_59
-      - HK_https://1808.ga  Node_60
-      - CN_https://1808.ga  Node_61
-      - CN_https://1808.ga  Node_62
-      - CN_https://1808.ga  Node_63
-      - CN_https://1808.ga  Node_64
-      - CN_https://1808.ga  Node_65
-      - CN_https://1808.ga  Node_66
-      - CN_https://1808.ga  Node_67
-      - CN_https://1808.ga  Node_68
-      - CN_https://1808.ga  Node_69
-      - CN_https://1808.ga  Node_70
-      - CN_https://1808.ga  Node_71
-      - US_https://1808.ga  Node_72
-      - JP_https://1808.ga  Node_73
-      - JP_https://1808.ga  Node_74
-      - CN_https://1808.ga  Node_75
-      - CN_https://1808.ga  Node_76
-      - CN_https://1808.ga  Node_77
-      - US_https://1808.ga  Node_78
-      - CN_https://1808.ga  Node_79
-      - CN_https://1808.ga  Node_80
-      - CN_https://1808.ga  Node_81
-      - CN_https://1808.ga  Node_82
-      - CN_https://1808.ga  Node_83
-      - CN_https://1808.ga  Node_84
-      - CN_https://1808.ga  Node_85
-      - https://1808.ga  Node_86
-      - US_https://1808.ga  Node_87
-      - US_https://1808.ga  Node_88
-      - US_https://1808.ga  Node_89
-      - US_https://1808.ga  Node_90
-      - US_https://1808.ga  Node_91
-      - https://1808.ga  Node_92
-      - https://1808.ga  Node_93
-      - https://1808.ga  Node_94
-      - https://1808.ga  Node_95
-      - https://1808.ga  Node_96
-      - https://1808.ga  Node_97
-      - https://1808.ga  Node_98
-      - https://1808.ga  Node_99
-      - https://1808.ga  Node_100
-      - https://1808.ga  Node_101
-      - https://1808.ga  Node_102
-      - AU_https://1808.ga  Node_104
-      - CA_https://1808.ga  Node_105
-      - CN_https://1808.ga  Node_106
-      - CN_https://1808.ga  Node_107
-      - CN_https://1808.ga  Node_108
-      - CN_https://1808.ga  Node_109
-      - CN_https://1808.ga  Node_110
-      - CN_https://1808.ga  Node_111
-      - CN_https://1808.ga  Node_112
-      - CN_https://1808.ga  Node_113
-      - CN_https://1808.ga  Node_114
-      - CN_https://1808.ga  Node_115
-      - CN_https://1808.ga  Node_116
-      - CN_https://1808.ga  Node_117
-      - CN_https://1808.ga  Node_118
-      - CN_https://1808.ga  Node_119
-      - CN_https://1808.ga  Node_120
-      - CN_https://1808.ga  Node_121
-      - CN_https://1808.ga  Node_122
-      - CN_https://1808.ga  Node_123
-      - CN_https://1808.ga  Node_124
-      - CN_https://1808.ga  Node_125
-      - CN_https://1808.ga  Node_126
-      - CN_https://1808.ga  Node_127
-      - CN_https://1808.ga  Node_128
-      - CN_https://1808.ga  Node_129
-      - CZ_https://1808.ga  Node_130
-      - CZ_https://1808.ga  Node_131
-      - CZ_https://1808.ga  Node_132
-      - GB_https://1808.ga  Node_133
-      - GB_https://1808.ga  Node_134
-      - GB_https://1808.ga  Node_135
-      - GB_https://1808.ga  Node_136
-      - GB_https://1808.ga  Node_137
-      - GB_https://1808.ga  Node_138
-      - GB_https://1808.ga  Node_139
-      - GB_https://1808.ga  Node_140
-      - GB_https://1808.ga  Node_141
-      - GB_https://1808.ga  Node_142
-      - HK_https://1808.ga  Node_143
-      - HK_https://1808.ga  Node_144
-      - HK_https://1808.ga  Node_145
-      - HK_https://1808.ga  Node_146
-      - HK_https://1808.ga  Node_147
-      - HK_https://1808.ga  Node_148
-      - HK_https://1808.ga  Node_149
-      - ID_https://1808.ga  Node_150
-      - IN_https://1808.ga  Node_151
-      - IR_https://1808.ga  Node_152
-      - JP_https://1808.ga  Node_153
-      - JP_https://1808.ga  Node_154
-      - JP_https://1808.ga  Node_155
-      - JP_https://1808.ga  Node_156
-      - JP_https://1808.ga  Node_157
-      - JP_https://1808.ga  Node_158
-      - KR_https://1808.ga  Node_159
-      - KR_https://1808.ga  Node_160
-      - KR_https://1808.ga  Node_161
-      - KR_https://1808.ga  Node_162
-      - KR_https://1808.ga  Node_163
-      - KR_https://1808.ga  Node_164
-      - KR_https://1808.ga  Node_165
-      - KR_https://1808.ga  Node_166
-      - KR_https://1808.ga  Node_167
-      - KR_https://1808.ga  Node_168
-      - RU_https://1808.ga  Node_170
-      - SG_https://1808.ga  Node_171
-      - SG_https://1808.ga  Node_172
-      - SG_https://1808.ga  Node_173
-      - SG_https://1808.ga  Node_174
-      - US_https://1808.ga  Node_179
-      - US_https://1808.ga  Node_180
-      - US_https://1808.ga  Node_181
-      - US_https://1808.ga  Node_182
-      - US_https://1808.ga  Node_183
-      - US_https://1808.ga  Node_184
-      - US_https://1808.ga  Node_185
-      - US_https://1808.ga  Node_186
-      - US_https://1808.ga  Node_187
-      - US_https://1808.ga  Node_188
-      - US_https://1808.ga  Node_189
-      - US_https://1808.ga  Node_190
-      - US_https://1808.ga  Node_191
-      - US_https://1808.ga  Node_192
-      - US_https://1808.ga  Node_193
-      - US_https://1808.ga  Node_194
-      - US_https://1808.ga  Node_195
-      - US_https://1808.ga  Node_196
-      - US_https://1808.ga  Node_197
-      - US_https://1808.ga  Node_198
-      - US_https://1808.ga  Node_199
-      - US_https://1808.ga  Node_200
-      - US_https://1808.ga  Node_201
-      - US_https://1808.ga  Node_202
-      - US_https://1808.ga  Node_203
-      - US_https://1808.ga  Node_204
-      - US_https://1808.ga  Node_205
-      - US_https://1808.ga  Node_206
-      - US_https://1808.ga  Node_207
-      - US_https://1808.ga  Node_208
-      - US_https://1808.ga  Node_209
-      - US_https://1808.ga  Node_210
-      - US_https://1808.ga  Node_211
-      - US_https://1808.ga  Node_212
-      - US_https://1808.ga  Node_213
-      - US_https://1808.ga  Node_214
-      - US_https://1808.ga  Node_215
-      - US_https://1808.ga  Node_216
-      - US_https://1808.ga  Node_217
-      - US_https://1808.ga  Node_218
+      - 二爷翻墙https://1808.ga 节点_1
+      - 二爷翻墙https://1808.ga 节点_2
+      - 二爷翻墙https://1808.ga 节点_3
+      - 二爷翻墙https://1808.ga 节点_4
+      - 二爷翻墙https://1808.ga 节点_5
+      - 二爷翻墙https://1808.ga 节点_6
+      - 二爷翻墙https://1808.ga 节点_7
+      - 二爷翻墙https://1808.ga 节点_8
+      - 二爷翻墙https://1808.ga 节点_9
+      - 二爷翻墙https://1808.ga 节点_10
+      - 二爷翻墙https://1808.ga 节点_11
+      - 二爷翻墙https://1808.ga 节点_12
+      - 二爷翻墙https://1808.ga 节点_13
+      - 二爷翻墙https://1808.ga 节点_14
+      - 二爷翻墙https://1808.ga 节点_15
+      - 二爷翻墙https://1808.ga 节点_16
+      - 二爷翻墙https://1808.ga 节点_17
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - HK_https://1808.ga  Node_1
-      - HK_https://1808.ga  Node_2
-      - JP_https://1808.ga  Node_3
-      - JP_https://1808.ga  Node_4
-      - JP_https://1808.ga  Node_5
-      - SG_https://1808.ga  Node_6
-      - US_https://1808.ga  Node_7
-      - US_https://1808.ga  Node_8
-      - US_https://1808.ga  Node_9
-      - US_https://1808.ga  Node_10
-      - RU_https://1808.ga  Node_11
-      - JP_https://1808.ga  Node_12
-      - CN_https://1808.ga  Node_13
-      - TW_https://1808.ga  Node_14
-      - CN_https://1808.ga  Node_15
-      - CN_https://1808.ga  Node_16
-      - CN_https://1808.ga  Node_17
-      - CN_https://1808.ga  Node_18
-      - CN_https://1808.ga  Node_19
-      - CN_https://1808.ga  Node_20
-      - CN_https://1808.ga  Node_21
-      - CN_https://1808.ga  Node_22
-      - CN_https://1808.ga  Node_23
-      - RU_https://1808.ga  Node_24
-      - CN_https://1808.ga  Node_25
-      - CN_https://1808.ga  Node_26
-      - CN_https://1808.ga  Node_27
-      - CN_https://1808.ga  Node_28
-      - CN_https://1808.ga  Node_29
-      - CN_https://1808.ga  Node_30
-      - CN_https://1808.ga  Node_31
-      - CN_https://1808.ga  Node_32
-      - CN_https://1808.ga  Node_33
-      - CN_https://1808.ga  Node_34
-      - CN_https://1808.ga  Node_35
-      - CN_https://1808.ga  Node_36
-      - CN_https://1808.ga  Node_37
-      - CN_https://1808.ga  Node_38
-      - CN_https://1808.ga  Node_39
-      - CN_https://1808.ga  Node_40
-      - CN_https://1808.ga  Node_41
-      - CN_https://1808.ga  Node_42
-      - CN_https://1808.ga  Node_43
-      - CN_https://1808.ga  Node_44
-      - CN_https://1808.ga  Node_45
-      - CN_https://1808.ga  Node_46
-      - CN_https://1808.ga  Node_47
-      - CN_https://1808.ga  Node_48
-      - CN_https://1808.ga  Node_49
-      - CN_https://1808.ga  Node_50
-      - CN_https://1808.ga  Node_51
-      - CN_https://1808.ga  Node_52
-      - HK_https://1808.ga  Node_53
-      - CN_https://1808.ga  Node_54
-      - HK_https://1808.ga  Node_55
-      - HK_https://1808.ga  Node_56
-      - HK_https://1808.ga  Node_57
-      - HK_https://1808.ga  Node_58
-      - HK_https://1808.ga  Node_59
-      - HK_https://1808.ga  Node_60
-      - CN_https://1808.ga  Node_61
-      - CN_https://1808.ga  Node_62
-      - CN_https://1808.ga  Node_63
-      - CN_https://1808.ga  Node_64
-      - CN_https://1808.ga  Node_65
-      - CN_https://1808.ga  Node_66
-      - CN_https://1808.ga  Node_67
-      - CN_https://1808.ga  Node_68
-      - CN_https://1808.ga  Node_69
-      - CN_https://1808.ga  Node_70
-      - CN_https://1808.ga  Node_71
-      - US_https://1808.ga  Node_72
-      - JP_https://1808.ga  Node_73
-      - JP_https://1808.ga  Node_74
-      - CN_https://1808.ga  Node_75
-      - CN_https://1808.ga  Node_76
-      - CN_https://1808.ga  Node_77
-      - US_https://1808.ga  Node_78
-      - CN_https://1808.ga  Node_79
-      - CN_https://1808.ga  Node_80
-      - CN_https://1808.ga  Node_81
-      - CN_https://1808.ga  Node_82
-      - CN_https://1808.ga  Node_83
-      - CN_https://1808.ga  Node_84
-      - CN_https://1808.ga  Node_85
-      - https://1808.ga  Node_86
-      - US_https://1808.ga  Node_87
-      - US_https://1808.ga  Node_88
-      - US_https://1808.ga  Node_89
-      - US_https://1808.ga  Node_90
-      - US_https://1808.ga  Node_91
-      - https://1808.ga  Node_92
-      - https://1808.ga  Node_93
-      - https://1808.ga  Node_94
-      - https://1808.ga  Node_95
-      - https://1808.ga  Node_96
-      - https://1808.ga  Node_97
-      - https://1808.ga  Node_98
-      - https://1808.ga  Node_99
-      - https://1808.ga  Node_100
-      - https://1808.ga  Node_101
-      - https://1808.ga  Node_102
-      - AU_https://1808.ga  Node_104
-      - CA_https://1808.ga  Node_105
-      - CN_https://1808.ga  Node_106
-      - CN_https://1808.ga  Node_107
-      - CN_https://1808.ga  Node_108
-      - CN_https://1808.ga  Node_109
-      - CN_https://1808.ga  Node_110
-      - CN_https://1808.ga  Node_111
-      - CN_https://1808.ga  Node_112
-      - CN_https://1808.ga  Node_113
-      - CN_https://1808.ga  Node_114
-      - CN_https://1808.ga  Node_115
-      - CN_https://1808.ga  Node_116
-      - CN_https://1808.ga  Node_117
-      - CN_https://1808.ga  Node_118
-      - CN_https://1808.ga  Node_119
-      - CN_https://1808.ga  Node_120
-      - CN_https://1808.ga  Node_121
-      - CN_https://1808.ga  Node_122
-      - CN_https://1808.ga  Node_123
-      - CN_https://1808.ga  Node_124
-      - CN_https://1808.ga  Node_125
-      - CN_https://1808.ga  Node_126
-      - CN_https://1808.ga  Node_127
-      - CN_https://1808.ga  Node_128
-      - CN_https://1808.ga  Node_129
-      - CZ_https://1808.ga  Node_130
-      - CZ_https://1808.ga  Node_131
-      - CZ_https://1808.ga  Node_132
-      - GB_https://1808.ga  Node_133
-      - GB_https://1808.ga  Node_134
-      - GB_https://1808.ga  Node_135
-      - GB_https://1808.ga  Node_136
-      - GB_https://1808.ga  Node_137
-      - GB_https://1808.ga  Node_138
-      - GB_https://1808.ga  Node_139
-      - GB_https://1808.ga  Node_140
-      - GB_https://1808.ga  Node_141
-      - GB_https://1808.ga  Node_142
-      - HK_https://1808.ga  Node_143
-      - HK_https://1808.ga  Node_144
-      - HK_https://1808.ga  Node_145
-      - HK_https://1808.ga  Node_146
-      - HK_https://1808.ga  Node_147
-      - HK_https://1808.ga  Node_148
-      - HK_https://1808.ga  Node_149
-      - ID_https://1808.ga  Node_150
-      - IN_https://1808.ga  Node_151
-      - IR_https://1808.ga  Node_152
-      - JP_https://1808.ga  Node_153
-      - JP_https://1808.ga  Node_154
-      - JP_https://1808.ga  Node_155
-      - JP_https://1808.ga  Node_156
-      - JP_https://1808.ga  Node_157
-      - JP_https://1808.ga  Node_158
-      - KR_https://1808.ga  Node_159
-      - KR_https://1808.ga  Node_160
-      - KR_https://1808.ga  Node_161
-      - KR_https://1808.ga  Node_162
-      - KR_https://1808.ga  Node_163
-      - KR_https://1808.ga  Node_164
-      - KR_https://1808.ga  Node_165
-      - KR_https://1808.ga  Node_166
-      - KR_https://1808.ga  Node_167
-      - KR_https://1808.ga  Node_168
-      - RU_https://1808.ga  Node_170
-      - SG_https://1808.ga  Node_171
-      - SG_https://1808.ga  Node_172
-      - SG_https://1808.ga  Node_173
-      - SG_https://1808.ga  Node_174
-      - US_https://1808.ga  Node_179
-      - US_https://1808.ga  Node_180
-      - US_https://1808.ga  Node_181
-      - US_https://1808.ga  Node_182
-      - US_https://1808.ga  Node_183
-      - US_https://1808.ga  Node_184
-      - US_https://1808.ga  Node_185
-      - US_https://1808.ga  Node_186
-      - US_https://1808.ga  Node_187
-      - US_https://1808.ga  Node_188
-      - US_https://1808.ga  Node_189
-      - US_https://1808.ga  Node_190
-      - US_https://1808.ga  Node_191
-      - US_https://1808.ga  Node_192
-      - US_https://1808.ga  Node_193
-      - US_https://1808.ga  Node_194
-      - US_https://1808.ga  Node_195
-      - US_https://1808.ga  Node_196
-      - US_https://1808.ga  Node_197
-      - US_https://1808.ga  Node_198
-      - US_https://1808.ga  Node_199
-      - US_https://1808.ga  Node_200
-      - US_https://1808.ga  Node_201
-      - US_https://1808.ga  Node_202
-      - US_https://1808.ga  Node_203
-      - US_https://1808.ga  Node_204
-      - US_https://1808.ga  Node_205
-      - US_https://1808.ga  Node_206
-      - US_https://1808.ga  Node_207
-      - US_https://1808.ga  Node_208
-      - US_https://1808.ga  Node_209
-      - US_https://1808.ga  Node_210
-      - US_https://1808.ga  Node_211
-      - US_https://1808.ga  Node_212
-      - US_https://1808.ga  Node_213
-      - US_https://1808.ga  Node_214
-      - US_https://1808.ga  Node_215
-      - US_https://1808.ga  Node_216
-      - US_https://1808.ga  Node_217
-      - US_https://1808.ga  Node_218
+      - 二爷翻墙https://1808.ga 节点_1
+      - 二爷翻墙https://1808.ga 节点_2
+      - 二爷翻墙https://1808.ga 节点_3
+      - 二爷翻墙https://1808.ga 节点_4
+      - 二爷翻墙https://1808.ga 节点_5
+      - 二爷翻墙https://1808.ga 节点_6
+      - 二爷翻墙https://1808.ga 节点_7
+      - 二爷翻墙https://1808.ga 节点_8
+      - 二爷翻墙https://1808.ga 节点_9
+      - 二爷翻墙https://1808.ga 节点_10
+      - 二爷翻墙https://1808.ga 节点_11
+      - 二爷翻墙https://1808.ga 节点_12
+      - 二爷翻墙https://1808.ga 节点_13
+      - 二爷翻墙https://1808.ga 节点_14
+      - 二爷翻墙https://1808.ga 节点_15
+      - 二爷翻墙https://1808.ga 节点_16
+      - 二爷翻墙https://1808.ga 节点_17
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - HK_https://1808.ga  Node_1
-      - HK_https://1808.ga  Node_2
-      - JP_https://1808.ga  Node_3
-      - JP_https://1808.ga  Node_4
-      - JP_https://1808.ga  Node_5
-      - SG_https://1808.ga  Node_6
-      - US_https://1808.ga  Node_7
-      - US_https://1808.ga  Node_8
-      - US_https://1808.ga  Node_9
-      - US_https://1808.ga  Node_10
-      - RU_https://1808.ga  Node_11
-      - JP_https://1808.ga  Node_12
-      - CN_https://1808.ga  Node_13
-      - TW_https://1808.ga  Node_14
-      - CN_https://1808.ga  Node_15
-      - CN_https://1808.ga  Node_16
-      - CN_https://1808.ga  Node_17
-      - CN_https://1808.ga  Node_18
-      - CN_https://1808.ga  Node_19
-      - CN_https://1808.ga  Node_20
-      - CN_https://1808.ga  Node_21
-      - CN_https://1808.ga  Node_22
-      - CN_https://1808.ga  Node_23
-      - RU_https://1808.ga  Node_24
-      - CN_https://1808.ga  Node_25
-      - CN_https://1808.ga  Node_26
-      - CN_https://1808.ga  Node_27
-      - CN_https://1808.ga  Node_28
-      - CN_https://1808.ga  Node_29
-      - CN_https://1808.ga  Node_30
-      - CN_https://1808.ga  Node_31
-      - CN_https://1808.ga  Node_32
-      - CN_https://1808.ga  Node_33
-      - CN_https://1808.ga  Node_34
-      - CN_https://1808.ga  Node_35
-      - CN_https://1808.ga  Node_36
-      - CN_https://1808.ga  Node_37
-      - CN_https://1808.ga  Node_38
-      - CN_https://1808.ga  Node_39
-      - CN_https://1808.ga  Node_40
-      - CN_https://1808.ga  Node_41
-      - CN_https://1808.ga  Node_42
-      - CN_https://1808.ga  Node_43
-      - CN_https://1808.ga  Node_44
-      - CN_https://1808.ga  Node_45
-      - CN_https://1808.ga  Node_46
-      - CN_https://1808.ga  Node_47
-      - CN_https://1808.ga  Node_48
-      - CN_https://1808.ga  Node_49
-      - CN_https://1808.ga  Node_50
-      - CN_https://1808.ga  Node_51
-      - CN_https://1808.ga  Node_52
-      - HK_https://1808.ga  Node_53
-      - CN_https://1808.ga  Node_54
-      - HK_https://1808.ga  Node_55
-      - HK_https://1808.ga  Node_56
-      - HK_https://1808.ga  Node_57
-      - HK_https://1808.ga  Node_58
-      - HK_https://1808.ga  Node_59
-      - HK_https://1808.ga  Node_60
-      - CN_https://1808.ga  Node_61
-      - CN_https://1808.ga  Node_62
-      - CN_https://1808.ga  Node_63
-      - CN_https://1808.ga  Node_64
-      - CN_https://1808.ga  Node_65
-      - CN_https://1808.ga  Node_66
-      - CN_https://1808.ga  Node_67
-      - CN_https://1808.ga  Node_68
-      - CN_https://1808.ga  Node_69
-      - CN_https://1808.ga  Node_70
-      - CN_https://1808.ga  Node_71
-      - US_https://1808.ga  Node_72
-      - JP_https://1808.ga  Node_73
-      - JP_https://1808.ga  Node_74
-      - CN_https://1808.ga  Node_75
-      - CN_https://1808.ga  Node_76
-      - CN_https://1808.ga  Node_77
-      - US_https://1808.ga  Node_78
-      - CN_https://1808.ga  Node_79
-      - CN_https://1808.ga  Node_80
-      - CN_https://1808.ga  Node_81
-      - CN_https://1808.ga  Node_82
-      - CN_https://1808.ga  Node_83
-      - CN_https://1808.ga  Node_84
-      - CN_https://1808.ga  Node_85
-      - https://1808.ga  Node_86
-      - US_https://1808.ga  Node_87
-      - US_https://1808.ga  Node_88
-      - US_https://1808.ga  Node_89
-      - US_https://1808.ga  Node_90
-      - US_https://1808.ga  Node_91
-      - https://1808.ga  Node_92
-      - https://1808.ga  Node_93
-      - https://1808.ga  Node_94
-      - https://1808.ga  Node_95
-      - https://1808.ga  Node_96
-      - https://1808.ga  Node_97
-      - https://1808.ga  Node_98
-      - https://1808.ga  Node_99
-      - https://1808.ga  Node_100
-      - https://1808.ga  Node_101
-      - https://1808.ga  Node_102
-      - AU_https://1808.ga  Node_104
-      - CA_https://1808.ga  Node_105
-      - CN_https://1808.ga  Node_106
-      - CN_https://1808.ga  Node_107
-      - CN_https://1808.ga  Node_108
-      - CN_https://1808.ga  Node_109
-      - CN_https://1808.ga  Node_110
-      - CN_https://1808.ga  Node_111
-      - CN_https://1808.ga  Node_112
-      - CN_https://1808.ga  Node_113
-      - CN_https://1808.ga  Node_114
-      - CN_https://1808.ga  Node_115
-      - CN_https://1808.ga  Node_116
-      - CN_https://1808.ga  Node_117
-      - CN_https://1808.ga  Node_118
-      - CN_https://1808.ga  Node_119
-      - CN_https://1808.ga  Node_120
-      - CN_https://1808.ga  Node_121
-      - CN_https://1808.ga  Node_122
-      - CN_https://1808.ga  Node_123
-      - CN_https://1808.ga  Node_124
-      - CN_https://1808.ga  Node_125
-      - CN_https://1808.ga  Node_126
-      - CN_https://1808.ga  Node_127
-      - CN_https://1808.ga  Node_128
-      - CN_https://1808.ga  Node_129
-      - CZ_https://1808.ga  Node_130
-      - CZ_https://1808.ga  Node_131
-      - CZ_https://1808.ga  Node_132
-      - GB_https://1808.ga  Node_133
-      - GB_https://1808.ga  Node_134
-      - GB_https://1808.ga  Node_135
-      - GB_https://1808.ga  Node_136
-      - GB_https://1808.ga  Node_137
-      - GB_https://1808.ga  Node_138
-      - GB_https://1808.ga  Node_139
-      - GB_https://1808.ga  Node_140
-      - GB_https://1808.ga  Node_141
-      - GB_https://1808.ga  Node_142
-      - HK_https://1808.ga  Node_143
-      - HK_https://1808.ga  Node_144
-      - HK_https://1808.ga  Node_145
-      - HK_https://1808.ga  Node_146
-      - HK_https://1808.ga  Node_147
-      - HK_https://1808.ga  Node_148
-      - HK_https://1808.ga  Node_149
-      - ID_https://1808.ga  Node_150
-      - IN_https://1808.ga  Node_151
-      - IR_https://1808.ga  Node_152
-      - JP_https://1808.ga  Node_153
-      - JP_https://1808.ga  Node_154
-      - JP_https://1808.ga  Node_155
-      - JP_https://1808.ga  Node_156
-      - JP_https://1808.ga  Node_157
-      - JP_https://1808.ga  Node_158
-      - KR_https://1808.ga  Node_159
-      - KR_https://1808.ga  Node_160
-      - KR_https://1808.ga  Node_161
-      - KR_https://1808.ga  Node_162
-      - KR_https://1808.ga  Node_163
-      - KR_https://1808.ga  Node_164
-      - KR_https://1808.ga  Node_165
-      - KR_https://1808.ga  Node_166
-      - KR_https://1808.ga  Node_167
-      - KR_https://1808.ga  Node_168
-      - RU_https://1808.ga  Node_170
-      - SG_https://1808.ga  Node_171
-      - SG_https://1808.ga  Node_172
-      - SG_https://1808.ga  Node_173
-      - SG_https://1808.ga  Node_174
-      - US_https://1808.ga  Node_179
-      - US_https://1808.ga  Node_180
-      - US_https://1808.ga  Node_181
-      - US_https://1808.ga  Node_182
-      - US_https://1808.ga  Node_183
-      - US_https://1808.ga  Node_184
-      - US_https://1808.ga  Node_185
-      - US_https://1808.ga  Node_186
-      - US_https://1808.ga  Node_187
-      - US_https://1808.ga  Node_188
-      - US_https://1808.ga  Node_189
-      - US_https://1808.ga  Node_190
-      - US_https://1808.ga  Node_191
-      - US_https://1808.ga  Node_192
-      - US_https://1808.ga  Node_193
-      - US_https://1808.ga  Node_194
-      - US_https://1808.ga  Node_195
-      - US_https://1808.ga  Node_196
-      - US_https://1808.ga  Node_197
-      - US_https://1808.ga  Node_198
-      - US_https://1808.ga  Node_199
-      - US_https://1808.ga  Node_200
-      - US_https://1808.ga  Node_201
-      - US_https://1808.ga  Node_202
-      - US_https://1808.ga  Node_203
-      - US_https://1808.ga  Node_204
-      - US_https://1808.ga  Node_205
-      - US_https://1808.ga  Node_206
-      - US_https://1808.ga  Node_207
-      - US_https://1808.ga  Node_208
-      - US_https://1808.ga  Node_209
-      - US_https://1808.ga  Node_210
-      - US_https://1808.ga  Node_211
-      - US_https://1808.ga  Node_212
-      - US_https://1808.ga  Node_213
-      - US_https://1808.ga  Node_214
-      - US_https://1808.ga  Node_215
-      - US_https://1808.ga  Node_216
-      - US_https://1808.ga  Node_217
-      - US_https://1808.ga  Node_218
+      - 二爷翻墙https://1808.ga 节点_1
+      - 二爷翻墙https://1808.ga 节点_2
+      - 二爷翻墙https://1808.ga 节点_3
+      - 二爷翻墙https://1808.ga 节点_4
+      - 二爷翻墙https://1808.ga 节点_5
+      - 二爷翻墙https://1808.ga 节点_6
+      - 二爷翻墙https://1808.ga 节点_7
+      - 二爷翻墙https://1808.ga 节点_8
+      - 二爷翻墙https://1808.ga 节点_9
+      - 二爷翻墙https://1808.ga 节点_10
+      - 二爷翻墙https://1808.ga 节点_11
+      - 二爷翻墙https://1808.ga 节点_12
+      - 二爷翻墙https://1808.ga 节点_13
+      - 二爷翻墙https://1808.ga 节点_14
+      - 二爷翻墙https://1808.ga 节点_15
+      - 二爷翻墙https://1808.ga 节点_16
+      - 二爷翻墙https://1808.ga 节点_17
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - HK_https://1808.ga  Node_1
-      - HK_https://1808.ga  Node_2
-      - JP_https://1808.ga  Node_3
-      - JP_https://1808.ga  Node_4
-      - JP_https://1808.ga  Node_5
-      - SG_https://1808.ga  Node_6
-      - US_https://1808.ga  Node_7
-      - US_https://1808.ga  Node_8
-      - US_https://1808.ga  Node_9
-      - US_https://1808.ga  Node_10
-      - RU_https://1808.ga  Node_11
-      - JP_https://1808.ga  Node_12
-      - CN_https://1808.ga  Node_13
-      - TW_https://1808.ga  Node_14
-      - CN_https://1808.ga  Node_15
-      - CN_https://1808.ga  Node_16
-      - CN_https://1808.ga  Node_17
-      - CN_https://1808.ga  Node_18
-      - CN_https://1808.ga  Node_19
-      - CN_https://1808.ga  Node_20
-      - CN_https://1808.ga  Node_21
-      - CN_https://1808.ga  Node_22
-      - CN_https://1808.ga  Node_23
-      - RU_https://1808.ga  Node_24
-      - CN_https://1808.ga  Node_25
-      - CN_https://1808.ga  Node_26
-      - CN_https://1808.ga  Node_27
-      - CN_https://1808.ga  Node_28
-      - CN_https://1808.ga  Node_29
-      - CN_https://1808.ga  Node_30
-      - CN_https://1808.ga  Node_31
-      - CN_https://1808.ga  Node_32
-      - CN_https://1808.ga  Node_33
-      - CN_https://1808.ga  Node_34
-      - CN_https://1808.ga  Node_35
-      - CN_https://1808.ga  Node_36
-      - CN_https://1808.ga  Node_37
-      - CN_https://1808.ga  Node_38
-      - CN_https://1808.ga  Node_39
-      - CN_https://1808.ga  Node_40
-      - CN_https://1808.ga  Node_41
-      - CN_https://1808.ga  Node_42
-      - CN_https://1808.ga  Node_43
-      - CN_https://1808.ga  Node_44
-      - CN_https://1808.ga  Node_45
-      - CN_https://1808.ga  Node_46
-      - CN_https://1808.ga  Node_47
-      - CN_https://1808.ga  Node_48
-      - CN_https://1808.ga  Node_49
-      - CN_https://1808.ga  Node_50
-      - CN_https://1808.ga  Node_51
-      - CN_https://1808.ga  Node_52
-      - HK_https://1808.ga  Node_53
-      - CN_https://1808.ga  Node_54
-      - HK_https://1808.ga  Node_55
-      - HK_https://1808.ga  Node_56
-      - HK_https://1808.ga  Node_57
-      - HK_https://1808.ga  Node_58
-      - HK_https://1808.ga  Node_59
-      - HK_https://1808.ga  Node_60
-      - CN_https://1808.ga  Node_61
-      - CN_https://1808.ga  Node_62
-      - CN_https://1808.ga  Node_63
-      - CN_https://1808.ga  Node_64
-      - CN_https://1808.ga  Node_65
-      - CN_https://1808.ga  Node_66
-      - CN_https://1808.ga  Node_67
-      - CN_https://1808.ga  Node_68
-      - CN_https://1808.ga  Node_69
-      - CN_https://1808.ga  Node_70
-      - CN_https://1808.ga  Node_71
-      - US_https://1808.ga  Node_72
-      - JP_https://1808.ga  Node_73
-      - JP_https://1808.ga  Node_74
-      - CN_https://1808.ga  Node_75
-      - CN_https://1808.ga  Node_76
-      - CN_https://1808.ga  Node_77
-      - US_https://1808.ga  Node_78
-      - CN_https://1808.ga  Node_79
-      - CN_https://1808.ga  Node_80
-      - CN_https://1808.ga  Node_81
-      - CN_https://1808.ga  Node_82
-      - CN_https://1808.ga  Node_83
-      - CN_https://1808.ga  Node_84
-      - CN_https://1808.ga  Node_85
-      - https://1808.ga  Node_86
-      - US_https://1808.ga  Node_87
-      - US_https://1808.ga  Node_88
-      - US_https://1808.ga  Node_89
-      - US_https://1808.ga  Node_90
-      - US_https://1808.ga  Node_91
-      - https://1808.ga  Node_92
-      - https://1808.ga  Node_93
-      - https://1808.ga  Node_94
-      - https://1808.ga  Node_95
-      - https://1808.ga  Node_96
-      - https://1808.ga  Node_97
-      - https://1808.ga  Node_98
-      - https://1808.ga  Node_99
-      - https://1808.ga  Node_100
-      - https://1808.ga  Node_101
-      - https://1808.ga  Node_102
-      - AU_https://1808.ga  Node_104
-      - CA_https://1808.ga  Node_105
-      - CN_https://1808.ga  Node_106
-      - CN_https://1808.ga  Node_107
-      - CN_https://1808.ga  Node_108
-      - CN_https://1808.ga  Node_109
-      - CN_https://1808.ga  Node_110
-      - CN_https://1808.ga  Node_111
-      - CN_https://1808.ga  Node_112
-      - CN_https://1808.ga  Node_113
-      - CN_https://1808.ga  Node_114
-      - CN_https://1808.ga  Node_115
-      - CN_https://1808.ga  Node_116
-      - CN_https://1808.ga  Node_117
-      - CN_https://1808.ga  Node_118
-      - CN_https://1808.ga  Node_119
-      - CN_https://1808.ga  Node_120
-      - CN_https://1808.ga  Node_121
-      - CN_https://1808.ga  Node_122
-      - CN_https://1808.ga  Node_123
-      - CN_https://1808.ga  Node_124
-      - CN_https://1808.ga  Node_125
-      - CN_https://1808.ga  Node_126
-      - CN_https://1808.ga  Node_127
-      - CN_https://1808.ga  Node_128
-      - CN_https://1808.ga  Node_129
-      - CZ_https://1808.ga  Node_130
-      - CZ_https://1808.ga  Node_131
-      - CZ_https://1808.ga  Node_132
-      - GB_https://1808.ga  Node_133
-      - GB_https://1808.ga  Node_134
-      - GB_https://1808.ga  Node_135
-      - GB_https://1808.ga  Node_136
-      - GB_https://1808.ga  Node_137
-      - GB_https://1808.ga  Node_138
-      - GB_https://1808.ga  Node_139
-      - GB_https://1808.ga  Node_140
-      - GB_https://1808.ga  Node_141
-      - GB_https://1808.ga  Node_142
-      - HK_https://1808.ga  Node_143
-      - HK_https://1808.ga  Node_144
-      - HK_https://1808.ga  Node_145
-      - HK_https://1808.ga  Node_146
-      - HK_https://1808.ga  Node_147
-      - HK_https://1808.ga  Node_148
-      - HK_https://1808.ga  Node_149
-      - ID_https://1808.ga  Node_150
-      - IN_https://1808.ga  Node_151
-      - IR_https://1808.ga  Node_152
-      - JP_https://1808.ga  Node_153
-      - JP_https://1808.ga  Node_154
-      - JP_https://1808.ga  Node_155
-      - JP_https://1808.ga  Node_156
-      - JP_https://1808.ga  Node_157
-      - JP_https://1808.ga  Node_158
-      - KR_https://1808.ga  Node_159
-      - KR_https://1808.ga  Node_160
-      - KR_https://1808.ga  Node_161
-      - KR_https://1808.ga  Node_162
-      - KR_https://1808.ga  Node_163
-      - KR_https://1808.ga  Node_164
-      - KR_https://1808.ga  Node_165
-      - KR_https://1808.ga  Node_166
-      - KR_https://1808.ga  Node_167
-      - KR_https://1808.ga  Node_168
-      - RU_https://1808.ga  Node_170
-      - SG_https://1808.ga  Node_171
-      - SG_https://1808.ga  Node_172
-      - SG_https://1808.ga  Node_173
-      - SG_https://1808.ga  Node_174
-      - US_https://1808.ga  Node_179
-      - US_https://1808.ga  Node_180
-      - US_https://1808.ga  Node_181
-      - US_https://1808.ga  Node_182
-      - US_https://1808.ga  Node_183
-      - US_https://1808.ga  Node_184
-      - US_https://1808.ga  Node_185
-      - US_https://1808.ga  Node_186
-      - US_https://1808.ga  Node_187
-      - US_https://1808.ga  Node_188
-      - US_https://1808.ga  Node_189
-      - US_https://1808.ga  Node_190
-      - US_https://1808.ga  Node_191
-      - US_https://1808.ga  Node_192
-      - US_https://1808.ga  Node_193
-      - US_https://1808.ga  Node_194
-      - US_https://1808.ga  Node_195
-      - US_https://1808.ga  Node_196
-      - US_https://1808.ga  Node_197
-      - US_https://1808.ga  Node_198
-      - US_https://1808.ga  Node_199
-      - US_https://1808.ga  Node_200
-      - US_https://1808.ga  Node_201
-      - US_https://1808.ga  Node_202
-      - US_https://1808.ga  Node_203
-      - US_https://1808.ga  Node_204
-      - US_https://1808.ga  Node_205
-      - US_https://1808.ga  Node_206
-      - US_https://1808.ga  Node_207
-      - US_https://1808.ga  Node_208
-      - US_https://1808.ga  Node_209
-      - US_https://1808.ga  Node_210
-      - US_https://1808.ga  Node_211
-      - US_https://1808.ga  Node_212
-      - US_https://1808.ga  Node_213
-      - US_https://1808.ga  Node_214
-      - US_https://1808.ga  Node_215
-      - US_https://1808.ga  Node_216
-      - US_https://1808.ga  Node_217
-      - US_https://1808.ga  Node_218
+      - 二爷翻墙https://1808.ga 节点_1
+      - 二爷翻墙https://1808.ga 节点_2
+      - 二爷翻墙https://1808.ga 节点_3
+      - 二爷翻墙https://1808.ga 节点_4
+      - 二爷翻墙https://1808.ga 节点_5
+      - 二爷翻墙https://1808.ga 节点_6
+      - 二爷翻墙https://1808.ga 节点_7
+      - 二爷翻墙https://1808.ga 节点_8
+      - 二爷翻墙https://1808.ga 节点_9
+      - 二爷翻墙https://1808.ga 节点_10
+      - 二爷翻墙https://1808.ga 节点_11
+      - 二爷翻墙https://1808.ga 节点_12
+      - 二爷翻墙https://1808.ga 节点_13
+      - 二爷翻墙https://1808.ga 节点_14
+      - 二爷翻墙https://1808.ga 节点_15
+      - 二爷翻墙https://1808.ga 节点_16
+      - 二爷翻墙https://1808.ga 节点_17
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - HK_https://1808.ga  Node_1
-      - HK_https://1808.ga  Node_2
-      - JP_https://1808.ga  Node_3
-      - JP_https://1808.ga  Node_4
-      - JP_https://1808.ga  Node_5
-      - SG_https://1808.ga  Node_6
-      - US_https://1808.ga  Node_7
-      - US_https://1808.ga  Node_8
-      - US_https://1808.ga  Node_9
-      - US_https://1808.ga  Node_10
-      - RU_https://1808.ga  Node_11
-      - JP_https://1808.ga  Node_12
-      - CN_https://1808.ga  Node_13
-      - TW_https://1808.ga  Node_14
-      - CN_https://1808.ga  Node_15
-      - CN_https://1808.ga  Node_16
-      - CN_https://1808.ga  Node_17
-      - CN_https://1808.ga  Node_18
-      - CN_https://1808.ga  Node_19
-      - CN_https://1808.ga  Node_20
-      - CN_https://1808.ga  Node_21
-      - CN_https://1808.ga  Node_22
-      - CN_https://1808.ga  Node_23
-      - RU_https://1808.ga  Node_24
-      - CN_https://1808.ga  Node_25
-      - CN_https://1808.ga  Node_26
-      - CN_https://1808.ga  Node_27
-      - CN_https://1808.ga  Node_28
-      - CN_https://1808.ga  Node_29
-      - CN_https://1808.ga  Node_30
-      - CN_https://1808.ga  Node_31
-      - CN_https://1808.ga  Node_32
-      - CN_https://1808.ga  Node_33
-      - CN_https://1808.ga  Node_34
-      - CN_https://1808.ga  Node_35
-      - CN_https://1808.ga  Node_36
-      - CN_https://1808.ga  Node_37
-      - CN_https://1808.ga  Node_38
-      - CN_https://1808.ga  Node_39
-      - CN_https://1808.ga  Node_40
-      - CN_https://1808.ga  Node_41
-      - CN_https://1808.ga  Node_42
-      - CN_https://1808.ga  Node_43
-      - CN_https://1808.ga  Node_44
-      - CN_https://1808.ga  Node_45
-      - CN_https://1808.ga  Node_46
-      - CN_https://1808.ga  Node_47
-      - CN_https://1808.ga  Node_48
-      - CN_https://1808.ga  Node_49
-      - CN_https://1808.ga  Node_50
-      - CN_https://1808.ga  Node_51
-      - CN_https://1808.ga  Node_52
-      - HK_https://1808.ga  Node_53
-      - CN_https://1808.ga  Node_54
-      - HK_https://1808.ga  Node_55
-      - HK_https://1808.ga  Node_56
-      - HK_https://1808.ga  Node_57
-      - HK_https://1808.ga  Node_58
-      - HK_https://1808.ga  Node_59
-      - HK_https://1808.ga  Node_60
-      - CN_https://1808.ga  Node_61
-      - CN_https://1808.ga  Node_62
-      - CN_https://1808.ga  Node_63
-      - CN_https://1808.ga  Node_64
-      - CN_https://1808.ga  Node_65
-      - CN_https://1808.ga  Node_66
-      - CN_https://1808.ga  Node_67
-      - CN_https://1808.ga  Node_68
-      - CN_https://1808.ga  Node_69
-      - CN_https://1808.ga  Node_70
-      - CN_https://1808.ga  Node_71
-      - US_https://1808.ga  Node_72
-      - JP_https://1808.ga  Node_73
-      - JP_https://1808.ga  Node_74
-      - CN_https://1808.ga  Node_75
-      - CN_https://1808.ga  Node_76
-      - CN_https://1808.ga  Node_77
-      - US_https://1808.ga  Node_78
-      - CN_https://1808.ga  Node_79
-      - CN_https://1808.ga  Node_80
-      - CN_https://1808.ga  Node_81
-      - CN_https://1808.ga  Node_82
-      - CN_https://1808.ga  Node_83
-      - CN_https://1808.ga  Node_84
-      - CN_https://1808.ga  Node_85
-      - https://1808.ga  Node_86
-      - US_https://1808.ga  Node_87
-      - US_https://1808.ga  Node_88
-      - US_https://1808.ga  Node_89
-      - US_https://1808.ga  Node_90
-      - US_https://1808.ga  Node_91
-      - https://1808.ga  Node_92
-      - https://1808.ga  Node_93
-      - https://1808.ga  Node_94
-      - https://1808.ga  Node_95
-      - https://1808.ga  Node_96
-      - https://1808.ga  Node_97
-      - https://1808.ga  Node_98
-      - https://1808.ga  Node_99
-      - https://1808.ga  Node_100
-      - https://1808.ga  Node_101
-      - https://1808.ga  Node_102
-      - AU_https://1808.ga  Node_104
-      - CA_https://1808.ga  Node_105
-      - CN_https://1808.ga  Node_106
-      - CN_https://1808.ga  Node_107
-      - CN_https://1808.ga  Node_108
-      - CN_https://1808.ga  Node_109
-      - CN_https://1808.ga  Node_110
-      - CN_https://1808.ga  Node_111
-      - CN_https://1808.ga  Node_112
-      - CN_https://1808.ga  Node_113
-      - CN_https://1808.ga  Node_114
-      - CN_https://1808.ga  Node_115
-      - CN_https://1808.ga  Node_116
-      - CN_https://1808.ga  Node_117
-      - CN_https://1808.ga  Node_118
-      - CN_https://1808.ga  Node_119
-      - CN_https://1808.ga  Node_120
-      - CN_https://1808.ga  Node_121
-      - CN_https://1808.ga  Node_122
-      - CN_https://1808.ga  Node_123
-      - CN_https://1808.ga  Node_124
-      - CN_https://1808.ga  Node_125
-      - CN_https://1808.ga  Node_126
-      - CN_https://1808.ga  Node_127
-      - CN_https://1808.ga  Node_128
-      - CN_https://1808.ga  Node_129
-      - CZ_https://1808.ga  Node_130
-      - CZ_https://1808.ga  Node_131
-      - CZ_https://1808.ga  Node_132
-      - GB_https://1808.ga  Node_133
-      - GB_https://1808.ga  Node_134
-      - GB_https://1808.ga  Node_135
-      - GB_https://1808.ga  Node_136
-      - GB_https://1808.ga  Node_137
-      - GB_https://1808.ga  Node_138
-      - GB_https://1808.ga  Node_139
-      - GB_https://1808.ga  Node_140
-      - GB_https://1808.ga  Node_141
-      - GB_https://1808.ga  Node_142
-      - HK_https://1808.ga  Node_143
-      - HK_https://1808.ga  Node_144
-      - HK_https://1808.ga  Node_145
-      - HK_https://1808.ga  Node_146
-      - HK_https://1808.ga  Node_147
-      - HK_https://1808.ga  Node_148
-      - HK_https://1808.ga  Node_149
-      - ID_https://1808.ga  Node_150
-      - IN_https://1808.ga  Node_151
-      - IR_https://1808.ga  Node_152
-      - JP_https://1808.ga  Node_153
-      - JP_https://1808.ga  Node_154
-      - JP_https://1808.ga  Node_155
-      - JP_https://1808.ga  Node_156
-      - JP_https://1808.ga  Node_157
-      - JP_https://1808.ga  Node_158
-      - KR_https://1808.ga  Node_159
-      - KR_https://1808.ga  Node_160
-      - KR_https://1808.ga  Node_161
-      - KR_https://1808.ga  Node_162
-      - KR_https://1808.ga  Node_163
-      - KR_https://1808.ga  Node_164
-      - KR_https://1808.ga  Node_165
-      - KR_https://1808.ga  Node_166
-      - KR_https://1808.ga  Node_167
-      - KR_https://1808.ga  Node_168
-      - RU_https://1808.ga  Node_170
-      - SG_https://1808.ga  Node_171
-      - SG_https://1808.ga  Node_172
-      - SG_https://1808.ga  Node_173
-      - SG_https://1808.ga  Node_174
-      - US_https://1808.ga  Node_179
-      - US_https://1808.ga  Node_180
-      - US_https://1808.ga  Node_181
-      - US_https://1808.ga  Node_182
-      - US_https://1808.ga  Node_183
-      - US_https://1808.ga  Node_184
-      - US_https://1808.ga  Node_185
-      - US_https://1808.ga  Node_186
-      - US_https://1808.ga  Node_187
-      - US_https://1808.ga  Node_188
-      - US_https://1808.ga  Node_189
-      - US_https://1808.ga  Node_190
-      - US_https://1808.ga  Node_191
-      - US_https://1808.ga  Node_192
-      - US_https://1808.ga  Node_193
-      - US_https://1808.ga  Node_194
-      - US_https://1808.ga  Node_195
-      - US_https://1808.ga  Node_196
-      - US_https://1808.ga  Node_197
-      - US_https://1808.ga  Node_198
-      - US_https://1808.ga  Node_199
-      - US_https://1808.ga  Node_200
-      - US_https://1808.ga  Node_201
-      - US_https://1808.ga  Node_202
-      - US_https://1808.ga  Node_203
-      - US_https://1808.ga  Node_204
-      - US_https://1808.ga  Node_205
-      - US_https://1808.ga  Node_206
-      - US_https://1808.ga  Node_207
-      - US_https://1808.ga  Node_208
-      - US_https://1808.ga  Node_209
-      - US_https://1808.ga  Node_210
-      - US_https://1808.ga  Node_211
-      - US_https://1808.ga  Node_212
-      - US_https://1808.ga  Node_213
-      - US_https://1808.ga  Node_214
-      - US_https://1808.ga  Node_215
-      - US_https://1808.ga  Node_216
-      - US_https://1808.ga  Node_217
-      - US_https://1808.ga  Node_218
+      - 二爷翻墙https://1808.ga 节点_1
+      - 二爷翻墙https://1808.ga 节点_2
+      - 二爷翻墙https://1808.ga 节点_3
+      - 二爷翻墙https://1808.ga 节点_4
+      - 二爷翻墙https://1808.ga 节点_5
+      - 二爷翻墙https://1808.ga 节点_6
+      - 二爷翻墙https://1808.ga 节点_7
+      - 二爷翻墙https://1808.ga 节点_8
+      - 二爷翻墙https://1808.ga 节点_9
+      - 二爷翻墙https://1808.ga 节点_10
+      - 二爷翻墙https://1808.ga 节点_11
+      - 二爷翻墙https://1808.ga 节点_12
+      - 二爷翻墙https://1808.ga 节点_13
+      - 二爷翻墙https://1808.ga 节点_14
+      - 二爷翻墙https://1808.ga 节点_15
+      - 二爷翻墙https://1808.ga 节点_16
+      - 二爷翻墙https://1808.ga 节点_17
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - HK_https://1808.ga  Node_1
-      - HK_https://1808.ga  Node_2
-      - JP_https://1808.ga  Node_3
-      - JP_https://1808.ga  Node_4
-      - JP_https://1808.ga  Node_5
-      - SG_https://1808.ga  Node_6
-      - US_https://1808.ga  Node_7
-      - US_https://1808.ga  Node_8
-      - US_https://1808.ga  Node_9
-      - US_https://1808.ga  Node_10
-      - RU_https://1808.ga  Node_11
-      - JP_https://1808.ga  Node_12
-      - CN_https://1808.ga  Node_13
-      - TW_https://1808.ga  Node_14
-      - CN_https://1808.ga  Node_15
-      - CN_https://1808.ga  Node_16
-      - CN_https://1808.ga  Node_17
-      - CN_https://1808.ga  Node_18
-      - CN_https://1808.ga  Node_19
-      - CN_https://1808.ga  Node_20
-      - CN_https://1808.ga  Node_21
-      - CN_https://1808.ga  Node_22
-      - CN_https://1808.ga  Node_23
-      - RU_https://1808.ga  Node_24
-      - CN_https://1808.ga  Node_25
-      - CN_https://1808.ga  Node_26
-      - CN_https://1808.ga  Node_27
-      - CN_https://1808.ga  Node_28
-      - CN_https://1808.ga  Node_29
-      - CN_https://1808.ga  Node_30
-      - CN_https://1808.ga  Node_31
-      - CN_https://1808.ga  Node_32
-      - CN_https://1808.ga  Node_33
-      - CN_https://1808.ga  Node_34
-      - CN_https://1808.ga  Node_35
-      - CN_https://1808.ga  Node_36
-      - CN_https://1808.ga  Node_37
-      - CN_https://1808.ga  Node_38
-      - CN_https://1808.ga  Node_39
-      - CN_https://1808.ga  Node_40
-      - CN_https://1808.ga  Node_41
-      - CN_https://1808.ga  Node_42
-      - CN_https://1808.ga  Node_43
-      - CN_https://1808.ga  Node_44
-      - CN_https://1808.ga  Node_45
-      - CN_https://1808.ga  Node_46
-      - CN_https://1808.ga  Node_47
-      - CN_https://1808.ga  Node_48
-      - CN_https://1808.ga  Node_49
-      - CN_https://1808.ga  Node_50
-      - CN_https://1808.ga  Node_51
-      - CN_https://1808.ga  Node_52
-      - HK_https://1808.ga  Node_53
-      - CN_https://1808.ga  Node_54
-      - HK_https://1808.ga  Node_55
-      - HK_https://1808.ga  Node_56
-      - HK_https://1808.ga  Node_57
-      - HK_https://1808.ga  Node_58
-      - HK_https://1808.ga  Node_59
-      - HK_https://1808.ga  Node_60
-      - CN_https://1808.ga  Node_61
-      - CN_https://1808.ga  Node_62
-      - CN_https://1808.ga  Node_63
-      - CN_https://1808.ga  Node_64
-      - CN_https://1808.ga  Node_65
-      - CN_https://1808.ga  Node_66
-      - CN_https://1808.ga  Node_67
-      - CN_https://1808.ga  Node_68
-      - CN_https://1808.ga  Node_69
-      - CN_https://1808.ga  Node_70
-      - CN_https://1808.ga  Node_71
-      - US_https://1808.ga  Node_72
-      - JP_https://1808.ga  Node_73
-      - JP_https://1808.ga  Node_74
-      - CN_https://1808.ga  Node_75
-      - CN_https://1808.ga  Node_76
-      - CN_https://1808.ga  Node_77
-      - US_https://1808.ga  Node_78
-      - CN_https://1808.ga  Node_79
-      - CN_https://1808.ga  Node_80
-      - CN_https://1808.ga  Node_81
-      - CN_https://1808.ga  Node_82
-      - CN_https://1808.ga  Node_83
-      - CN_https://1808.ga  Node_84
-      - CN_https://1808.ga  Node_85
-      - https://1808.ga  Node_86
-      - US_https://1808.ga  Node_87
-      - US_https://1808.ga  Node_88
-      - US_https://1808.ga  Node_89
-      - US_https://1808.ga  Node_90
-      - US_https://1808.ga  Node_91
-      - https://1808.ga  Node_92
-      - https://1808.ga  Node_93
-      - https://1808.ga  Node_94
-      - https://1808.ga  Node_95
-      - https://1808.ga  Node_96
-      - https://1808.ga  Node_97
-      - https://1808.ga  Node_98
-      - https://1808.ga  Node_99
-      - https://1808.ga  Node_100
-      - https://1808.ga  Node_101
-      - https://1808.ga  Node_102
-      - AU_https://1808.ga  Node_104
-      - CA_https://1808.ga  Node_105
-      - CN_https://1808.ga  Node_106
-      - CN_https://1808.ga  Node_107
-      - CN_https://1808.ga  Node_108
-      - CN_https://1808.ga  Node_109
-      - CN_https://1808.ga  Node_110
-      - CN_https://1808.ga  Node_111
-      - CN_https://1808.ga  Node_112
-      - CN_https://1808.ga  Node_113
-      - CN_https://1808.ga  Node_114
-      - CN_https://1808.ga  Node_115
-      - CN_https://1808.ga  Node_116
-      - CN_https://1808.ga  Node_117
-      - CN_https://1808.ga  Node_118
-      - CN_https://1808.ga  Node_119
-      - CN_https://1808.ga  Node_120
-      - CN_https://1808.ga  Node_121
-      - CN_https://1808.ga  Node_122
-      - CN_https://1808.ga  Node_123
-      - CN_https://1808.ga  Node_124
-      - CN_https://1808.ga  Node_125
-      - CN_https://1808.ga  Node_126
-      - CN_https://1808.ga  Node_127
-      - CN_https://1808.ga  Node_128
-      - CN_https://1808.ga  Node_129
-      - CZ_https://1808.ga  Node_130
-      - CZ_https://1808.ga  Node_131
-      - CZ_https://1808.ga  Node_132
-      - GB_https://1808.ga  Node_133
-      - GB_https://1808.ga  Node_134
-      - GB_https://1808.ga  Node_135
-      - GB_https://1808.ga  Node_136
-      - GB_https://1808.ga  Node_137
-      - GB_https://1808.ga  Node_138
-      - GB_https://1808.ga  Node_139
-      - GB_https://1808.ga  Node_140
-      - GB_https://1808.ga  Node_141
-      - GB_https://1808.ga  Node_142
-      - HK_https://1808.ga  Node_143
-      - HK_https://1808.ga  Node_144
-      - HK_https://1808.ga  Node_145
-      - HK_https://1808.ga  Node_146
-      - HK_https://1808.ga  Node_147
-      - HK_https://1808.ga  Node_148
-      - HK_https://1808.ga  Node_149
-      - ID_https://1808.ga  Node_150
-      - IN_https://1808.ga  Node_151
-      - IR_https://1808.ga  Node_152
-      - JP_https://1808.ga  Node_153
-      - JP_https://1808.ga  Node_154
-      - JP_https://1808.ga  Node_155
-      - JP_https://1808.ga  Node_156
-      - JP_https://1808.ga  Node_157
-      - JP_https://1808.ga  Node_158
-      - KR_https://1808.ga  Node_159
-      - KR_https://1808.ga  Node_160
-      - KR_https://1808.ga  Node_161
-      - KR_https://1808.ga  Node_162
-      - KR_https://1808.ga  Node_163
-      - KR_https://1808.ga  Node_164
-      - KR_https://1808.ga  Node_165
-      - KR_https://1808.ga  Node_166
-      - KR_https://1808.ga  Node_167
-      - KR_https://1808.ga  Node_168
-      - RU_https://1808.ga  Node_170
-      - SG_https://1808.ga  Node_171
-      - SG_https://1808.ga  Node_172
-      - SG_https://1808.ga  Node_173
-      - SG_https://1808.ga  Node_174
-      - US_https://1808.ga  Node_179
-      - US_https://1808.ga  Node_180
-      - US_https://1808.ga  Node_181
-      - US_https://1808.ga  Node_182
-      - US_https://1808.ga  Node_183
-      - US_https://1808.ga  Node_184
-      - US_https://1808.ga  Node_185
-      - US_https://1808.ga  Node_186
-      - US_https://1808.ga  Node_187
-      - US_https://1808.ga  Node_188
-      - US_https://1808.ga  Node_189
-      - US_https://1808.ga  Node_190
-      - US_https://1808.ga  Node_191
-      - US_https://1808.ga  Node_192
-      - US_https://1808.ga  Node_193
-      - US_https://1808.ga  Node_194
-      - US_https://1808.ga  Node_195
-      - US_https://1808.ga  Node_196
-      - US_https://1808.ga  Node_197
-      - US_https://1808.ga  Node_198
-      - US_https://1808.ga  Node_199
-      - US_https://1808.ga  Node_200
-      - US_https://1808.ga  Node_201
-      - US_https://1808.ga  Node_202
-      - US_https://1808.ga  Node_203
-      - US_https://1808.ga  Node_204
-      - US_https://1808.ga  Node_205
-      - US_https://1808.ga  Node_206
-      - US_https://1808.ga  Node_207
-      - US_https://1808.ga  Node_208
-      - US_https://1808.ga  Node_209
-      - US_https://1808.ga  Node_210
-      - US_https://1808.ga  Node_211
-      - US_https://1808.ga  Node_212
-      - US_https://1808.ga  Node_213
-      - US_https://1808.ga  Node_214
-      - US_https://1808.ga  Node_215
-      - US_https://1808.ga  Node_216
-      - US_https://1808.ga  Node_217
-      - US_https://1808.ga  Node_218
+      - 二爷翻墙https://1808.ga 节点_1
+      - 二爷翻墙https://1808.ga 节点_2
+      - 二爷翻墙https://1808.ga 节点_3
+      - 二爷翻墙https://1808.ga 节点_4
+      - 二爷翻墙https://1808.ga 节点_5
+      - 二爷翻墙https://1808.ga 节点_6
+      - 二爷翻墙https://1808.ga 节点_7
+      - 二爷翻墙https://1808.ga 节点_8
+      - 二爷翻墙https://1808.ga 节点_9
+      - 二爷翻墙https://1808.ga 节点_10
+      - 二爷翻墙https://1808.ga 节点_11
+      - 二爷翻墙https://1808.ga 节点_12
+      - 二爷翻墙https://1808.ga 节点_13
+      - 二爷翻墙https://1808.ga 节点_14
+      - 二爷翻墙https://1808.ga 节点_15
+      - 二爷翻墙https://1808.ga 节点_16
+      - 二爷翻墙https://1808.ga 节点_17
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - HK_https://1808.ga  Node_1
-      - HK_https://1808.ga  Node_2
-      - JP_https://1808.ga  Node_3
-      - JP_https://1808.ga  Node_4
-      - JP_https://1808.ga  Node_5
-      - SG_https://1808.ga  Node_6
-      - US_https://1808.ga  Node_7
-      - US_https://1808.ga  Node_8
-      - US_https://1808.ga  Node_9
-      - US_https://1808.ga  Node_10
-      - RU_https://1808.ga  Node_11
-      - JP_https://1808.ga  Node_12
-      - CN_https://1808.ga  Node_13
-      - TW_https://1808.ga  Node_14
-      - CN_https://1808.ga  Node_15
-      - CN_https://1808.ga  Node_16
-      - CN_https://1808.ga  Node_17
-      - CN_https://1808.ga  Node_18
-      - CN_https://1808.ga  Node_19
-      - CN_https://1808.ga  Node_20
-      - CN_https://1808.ga  Node_21
-      - CN_https://1808.ga  Node_22
-      - CN_https://1808.ga  Node_23
-      - RU_https://1808.ga  Node_24
-      - CN_https://1808.ga  Node_25
-      - CN_https://1808.ga  Node_26
-      - CN_https://1808.ga  Node_27
-      - CN_https://1808.ga  Node_28
-      - CN_https://1808.ga  Node_29
-      - CN_https://1808.ga  Node_30
-      - CN_https://1808.ga  Node_31
-      - CN_https://1808.ga  Node_32
-      - CN_https://1808.ga  Node_33
-      - CN_https://1808.ga  Node_34
-      - CN_https://1808.ga  Node_35
-      - CN_https://1808.ga  Node_36
-      - CN_https://1808.ga  Node_37
-      - CN_https://1808.ga  Node_38
-      - CN_https://1808.ga  Node_39
-      - CN_https://1808.ga  Node_40
-      - CN_https://1808.ga  Node_41
-      - CN_https://1808.ga  Node_42
-      - CN_https://1808.ga  Node_43
-      - CN_https://1808.ga  Node_44
-      - CN_https://1808.ga  Node_45
-      - CN_https://1808.ga  Node_46
-      - CN_https://1808.ga  Node_47
-      - CN_https://1808.ga  Node_48
-      - CN_https://1808.ga  Node_49
-      - CN_https://1808.ga  Node_50
-      - CN_https://1808.ga  Node_51
-      - CN_https://1808.ga  Node_52
-      - HK_https://1808.ga  Node_53
-      - CN_https://1808.ga  Node_54
-      - HK_https://1808.ga  Node_55
-      - HK_https://1808.ga  Node_56
-      - HK_https://1808.ga  Node_57
-      - HK_https://1808.ga  Node_58
-      - HK_https://1808.ga  Node_59
-      - HK_https://1808.ga  Node_60
-      - CN_https://1808.ga  Node_61
-      - CN_https://1808.ga  Node_62
-      - CN_https://1808.ga  Node_63
-      - CN_https://1808.ga  Node_64
-      - CN_https://1808.ga  Node_65
-      - CN_https://1808.ga  Node_66
-      - CN_https://1808.ga  Node_67
-      - CN_https://1808.ga  Node_68
-      - CN_https://1808.ga  Node_69
-      - CN_https://1808.ga  Node_70
-      - CN_https://1808.ga  Node_71
-      - US_https://1808.ga  Node_72
-      - JP_https://1808.ga  Node_73
-      - JP_https://1808.ga  Node_74
-      - CN_https://1808.ga  Node_75
-      - CN_https://1808.ga  Node_76
-      - CN_https://1808.ga  Node_77
-      - US_https://1808.ga  Node_78
-      - CN_https://1808.ga  Node_79
-      - CN_https://1808.ga  Node_80
-      - CN_https://1808.ga  Node_81
-      - CN_https://1808.ga  Node_82
-      - CN_https://1808.ga  Node_83
-      - CN_https://1808.ga  Node_84
-      - CN_https://1808.ga  Node_85
-      - https://1808.ga  Node_86
-      - US_https://1808.ga  Node_87
-      - US_https://1808.ga  Node_88
-      - US_https://1808.ga  Node_89
-      - US_https://1808.ga  Node_90
-      - US_https://1808.ga  Node_91
-      - https://1808.ga  Node_92
-      - https://1808.ga  Node_93
-      - https://1808.ga  Node_94
-      - https://1808.ga  Node_95
-      - https://1808.ga  Node_96
-      - https://1808.ga  Node_97
-      - https://1808.ga  Node_98
-      - https://1808.ga  Node_99
-      - https://1808.ga  Node_100
-      - https://1808.ga  Node_101
-      - https://1808.ga  Node_102
-      - AU_https://1808.ga  Node_104
-      - CA_https://1808.ga  Node_105
-      - CN_https://1808.ga  Node_106
-      - CN_https://1808.ga  Node_107
-      - CN_https://1808.ga  Node_108
-      - CN_https://1808.ga  Node_109
-      - CN_https://1808.ga  Node_110
-      - CN_https://1808.ga  Node_111
-      - CN_https://1808.ga  Node_112
-      - CN_https://1808.ga  Node_113
-      - CN_https://1808.ga  Node_114
-      - CN_https://1808.ga  Node_115
-      - CN_https://1808.ga  Node_116
-      - CN_https://1808.ga  Node_117
-      - CN_https://1808.ga  Node_118
-      - CN_https://1808.ga  Node_119
-      - CN_https://1808.ga  Node_120
-      - CN_https://1808.ga  Node_121
-      - CN_https://1808.ga  Node_122
-      - CN_https://1808.ga  Node_123
-      - CN_https://1808.ga  Node_124
-      - CN_https://1808.ga  Node_125
-      - CN_https://1808.ga  Node_126
-      - CN_https://1808.ga  Node_127
-      - CN_https://1808.ga  Node_128
-      - CN_https://1808.ga  Node_129
-      - CZ_https://1808.ga  Node_130
-      - CZ_https://1808.ga  Node_131
-      - CZ_https://1808.ga  Node_132
-      - GB_https://1808.ga  Node_133
-      - GB_https://1808.ga  Node_134
-      - GB_https://1808.ga  Node_135
-      - GB_https://1808.ga  Node_136
-      - GB_https://1808.ga  Node_137
-      - GB_https://1808.ga  Node_138
-      - GB_https://1808.ga  Node_139
-      - GB_https://1808.ga  Node_140
-      - GB_https://1808.ga  Node_141
-      - GB_https://1808.ga  Node_142
-      - HK_https://1808.ga  Node_143
-      - HK_https://1808.ga  Node_144
-      - HK_https://1808.ga  Node_145
-      - HK_https://1808.ga  Node_146
-      - HK_https://1808.ga  Node_147
-      - HK_https://1808.ga  Node_148
-      - HK_https://1808.ga  Node_149
-      - ID_https://1808.ga  Node_150
-      - IN_https://1808.ga  Node_151
-      - IR_https://1808.ga  Node_152
-      - JP_https://1808.ga  Node_153
-      - JP_https://1808.ga  Node_154
-      - JP_https://1808.ga  Node_155
-      - JP_https://1808.ga  Node_156
-      - JP_https://1808.ga  Node_157
-      - JP_https://1808.ga  Node_158
-      - KR_https://1808.ga  Node_159
-      - KR_https://1808.ga  Node_160
-      - KR_https://1808.ga  Node_161
-      - KR_https://1808.ga  Node_162
-      - KR_https://1808.ga  Node_163
-      - KR_https://1808.ga  Node_164
-      - KR_https://1808.ga  Node_165
-      - KR_https://1808.ga  Node_166
-      - KR_https://1808.ga  Node_167
-      - KR_https://1808.ga  Node_168
-      - RU_https://1808.ga  Node_170
-      - SG_https://1808.ga  Node_171
-      - SG_https://1808.ga  Node_172
-      - SG_https://1808.ga  Node_173
-      - SG_https://1808.ga  Node_174
-      - US_https://1808.ga  Node_179
-      - US_https://1808.ga  Node_180
-      - US_https://1808.ga  Node_181
-      - US_https://1808.ga  Node_182
-      - US_https://1808.ga  Node_183
-      - US_https://1808.ga  Node_184
-      - US_https://1808.ga  Node_185
-      - US_https://1808.ga  Node_186
-      - US_https://1808.ga  Node_187
-      - US_https://1808.ga  Node_188
-      - US_https://1808.ga  Node_189
-      - US_https://1808.ga  Node_190
-      - US_https://1808.ga  Node_191
-      - US_https://1808.ga  Node_192
-      - US_https://1808.ga  Node_193
-      - US_https://1808.ga  Node_194
-      - US_https://1808.ga  Node_195
-      - US_https://1808.ga  Node_196
-      - US_https://1808.ga  Node_197
-      - US_https://1808.ga  Node_198
-      - US_https://1808.ga  Node_199
-      - US_https://1808.ga  Node_200
-      - US_https://1808.ga  Node_201
-      - US_https://1808.ga  Node_202
-      - US_https://1808.ga  Node_203
-      - US_https://1808.ga  Node_204
-      - US_https://1808.ga  Node_205
-      - US_https://1808.ga  Node_206
-      - US_https://1808.ga  Node_207
-      - US_https://1808.ga  Node_208
-      - US_https://1808.ga  Node_209
-      - US_https://1808.ga  Node_210
-      - US_https://1808.ga  Node_211
-      - US_https://1808.ga  Node_212
-      - US_https://1808.ga  Node_213
-      - US_https://1808.ga  Node_214
-      - US_https://1808.ga  Node_215
-      - US_https://1808.ga  Node_216
-      - US_https://1808.ga  Node_217
-      - US_https://1808.ga  Node_218
+      - 二爷翻墙https://1808.ga 节点_1
+      - 二爷翻墙https://1808.ga 节点_2
+      - 二爷翻墙https://1808.ga 节点_3
+      - 二爷翻墙https://1808.ga 节点_4
+      - 二爷翻墙https://1808.ga 节点_5
+      - 二爷翻墙https://1808.ga 节点_6
+      - 二爷翻墙https://1808.ga 节点_7
+      - 二爷翻墙https://1808.ga 节点_8
+      - 二爷翻墙https://1808.ga 节点_9
+      - 二爷翻墙https://1808.ga 节点_10
+      - 二爷翻墙https://1808.ga 节点_11
+      - 二爷翻墙https://1808.ga 节点_12
+      - 二爷翻墙https://1808.ga 节点_13
+      - 二爷翻墙https://1808.ga 节点_14
+      - 二爷翻墙https://1808.ga 节点_15
+      - 二爷翻墙https://1808.ga 节点_16
+      - 二爷翻墙https://1808.ga 节点_17
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1762,218 +202,23 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - HK_https://1808.ga  Node_1
-      - HK_https://1808.ga  Node_2
-      - JP_https://1808.ga  Node_3
-      - JP_https://1808.ga  Node_4
-      - JP_https://1808.ga  Node_5
-      - SG_https://1808.ga  Node_6
-      - US_https://1808.ga  Node_7
-      - US_https://1808.ga  Node_8
-      - US_https://1808.ga  Node_9
-      - US_https://1808.ga  Node_10
-      - RU_https://1808.ga  Node_11
-      - JP_https://1808.ga  Node_12
-      - CN_https://1808.ga  Node_13
-      - TW_https://1808.ga  Node_14
-      - CN_https://1808.ga  Node_15
-      - CN_https://1808.ga  Node_16
-      - CN_https://1808.ga  Node_17
-      - CN_https://1808.ga  Node_18
-      - CN_https://1808.ga  Node_19
-      - CN_https://1808.ga  Node_20
-      - CN_https://1808.ga  Node_21
-      - CN_https://1808.ga  Node_22
-      - CN_https://1808.ga  Node_23
-      - RU_https://1808.ga  Node_24
-      - CN_https://1808.ga  Node_25
-      - CN_https://1808.ga  Node_26
-      - CN_https://1808.ga  Node_27
-      - CN_https://1808.ga  Node_28
-      - CN_https://1808.ga  Node_29
-      - CN_https://1808.ga  Node_30
-      - CN_https://1808.ga  Node_31
-      - CN_https://1808.ga  Node_32
-      - CN_https://1808.ga  Node_33
-      - CN_https://1808.ga  Node_34
-      - CN_https://1808.ga  Node_35
-      - CN_https://1808.ga  Node_36
-      - CN_https://1808.ga  Node_37
-      - CN_https://1808.ga  Node_38
-      - CN_https://1808.ga  Node_39
-      - CN_https://1808.ga  Node_40
-      - CN_https://1808.ga  Node_41
-      - CN_https://1808.ga  Node_42
-      - CN_https://1808.ga  Node_43
-      - CN_https://1808.ga  Node_44
-      - CN_https://1808.ga  Node_45
-      - CN_https://1808.ga  Node_46
-      - CN_https://1808.ga  Node_47
-      - CN_https://1808.ga  Node_48
-      - CN_https://1808.ga  Node_49
-      - CN_https://1808.ga  Node_50
-      - CN_https://1808.ga  Node_51
-      - CN_https://1808.ga  Node_52
-      - HK_https://1808.ga  Node_53
-      - CN_https://1808.ga  Node_54
-      - HK_https://1808.ga  Node_55
-      - HK_https://1808.ga  Node_56
-      - HK_https://1808.ga  Node_57
-      - HK_https://1808.ga  Node_58
-      - HK_https://1808.ga  Node_59
-      - HK_https://1808.ga  Node_60
-      - CN_https://1808.ga  Node_61
-      - CN_https://1808.ga  Node_62
-      - CN_https://1808.ga  Node_63
-      - CN_https://1808.ga  Node_64
-      - CN_https://1808.ga  Node_65
-      - CN_https://1808.ga  Node_66
-      - CN_https://1808.ga  Node_67
-      - CN_https://1808.ga  Node_68
-      - CN_https://1808.ga  Node_69
-      - CN_https://1808.ga  Node_70
-      - CN_https://1808.ga  Node_71
-      - US_https://1808.ga  Node_72
-      - JP_https://1808.ga  Node_73
-      - JP_https://1808.ga  Node_74
-      - CN_https://1808.ga  Node_75
-      - CN_https://1808.ga  Node_76
-      - CN_https://1808.ga  Node_77
-      - US_https://1808.ga  Node_78
-      - CN_https://1808.ga  Node_79
-      - CN_https://1808.ga  Node_80
-      - CN_https://1808.ga  Node_81
-      - CN_https://1808.ga  Node_82
-      - CN_https://1808.ga  Node_83
-      - CN_https://1808.ga  Node_84
-      - CN_https://1808.ga  Node_85
-      - https://1808.ga  Node_86
-      - US_https://1808.ga  Node_87
-      - US_https://1808.ga  Node_88
-      - US_https://1808.ga  Node_89
-      - US_https://1808.ga  Node_90
-      - US_https://1808.ga  Node_91
-      - https://1808.ga  Node_92
-      - https://1808.ga  Node_93
-      - https://1808.ga  Node_94
-      - https://1808.ga  Node_95
-      - https://1808.ga  Node_96
-      - https://1808.ga  Node_97
-      - https://1808.ga  Node_98
-      - https://1808.ga  Node_99
-      - https://1808.ga  Node_100
-      - https://1808.ga  Node_101
-      - https://1808.ga  Node_102
-      - AU_https://1808.ga  Node_104
-      - CA_https://1808.ga  Node_105
-      - CN_https://1808.ga  Node_106
-      - CN_https://1808.ga  Node_107
-      - CN_https://1808.ga  Node_108
-      - CN_https://1808.ga  Node_109
-      - CN_https://1808.ga  Node_110
-      - CN_https://1808.ga  Node_111
-      - CN_https://1808.ga  Node_112
-      - CN_https://1808.ga  Node_113
-      - CN_https://1808.ga  Node_114
-      - CN_https://1808.ga  Node_115
-      - CN_https://1808.ga  Node_116
-      - CN_https://1808.ga  Node_117
-      - CN_https://1808.ga  Node_118
-      - CN_https://1808.ga  Node_119
-      - CN_https://1808.ga  Node_120
-      - CN_https://1808.ga  Node_121
-      - CN_https://1808.ga  Node_122
-      - CN_https://1808.ga  Node_123
-      - CN_https://1808.ga  Node_124
-      - CN_https://1808.ga  Node_125
-      - CN_https://1808.ga  Node_126
-      - CN_https://1808.ga  Node_127
-      - CN_https://1808.ga  Node_128
-      - CN_https://1808.ga  Node_129
-      - CZ_https://1808.ga  Node_130
-      - CZ_https://1808.ga  Node_131
-      - CZ_https://1808.ga  Node_132
-      - GB_https://1808.ga  Node_133
-      - GB_https://1808.ga  Node_134
-      - GB_https://1808.ga  Node_135
-      - GB_https://1808.ga  Node_136
-      - GB_https://1808.ga  Node_137
-      - GB_https://1808.ga  Node_138
-      - GB_https://1808.ga  Node_139
-      - GB_https://1808.ga  Node_140
-      - GB_https://1808.ga  Node_141
-      - GB_https://1808.ga  Node_142
-      - HK_https://1808.ga  Node_143
-      - HK_https://1808.ga  Node_144
-      - HK_https://1808.ga  Node_145
-      - HK_https://1808.ga  Node_146
-      - HK_https://1808.ga  Node_147
-      - HK_https://1808.ga  Node_148
-      - HK_https://1808.ga  Node_149
-      - ID_https://1808.ga  Node_150
-      - IN_https://1808.ga  Node_151
-      - IR_https://1808.ga  Node_152
-      - JP_https://1808.ga  Node_153
-      - JP_https://1808.ga  Node_154
-      - JP_https://1808.ga  Node_155
-      - JP_https://1808.ga  Node_156
-      - JP_https://1808.ga  Node_157
-      - JP_https://1808.ga  Node_158
-      - KR_https://1808.ga  Node_159
-      - KR_https://1808.ga  Node_160
-      - KR_https://1808.ga  Node_161
-      - KR_https://1808.ga  Node_162
-      - KR_https://1808.ga  Node_163
-      - KR_https://1808.ga  Node_164
-      - KR_https://1808.ga  Node_165
-      - KR_https://1808.ga  Node_166
-      - KR_https://1808.ga  Node_167
-      - KR_https://1808.ga  Node_168
-      - RU_https://1808.ga  Node_170
-      - SG_https://1808.ga  Node_171
-      - SG_https://1808.ga  Node_172
-      - SG_https://1808.ga  Node_173
-      - SG_https://1808.ga  Node_174
-      - US_https://1808.ga  Node_179
-      - US_https://1808.ga  Node_180
-      - US_https://1808.ga  Node_181
-      - US_https://1808.ga  Node_182
-      - US_https://1808.ga  Node_183
-      - US_https://1808.ga  Node_184
-      - US_https://1808.ga  Node_185
-      - US_https://1808.ga  Node_186
-      - US_https://1808.ga  Node_187
-      - US_https://1808.ga  Node_188
-      - US_https://1808.ga  Node_189
-      - US_https://1808.ga  Node_190
-      - US_https://1808.ga  Node_191
-      - US_https://1808.ga  Node_192
-      - US_https://1808.ga  Node_193
-      - US_https://1808.ga  Node_194
-      - US_https://1808.ga  Node_195
-      - US_https://1808.ga  Node_196
-      - US_https://1808.ga  Node_197
-      - US_https://1808.ga  Node_198
-      - US_https://1808.ga  Node_199
-      - US_https://1808.ga  Node_200
-      - US_https://1808.ga  Node_201
-      - US_https://1808.ga  Node_202
-      - US_https://1808.ga  Node_203
-      - US_https://1808.ga  Node_204
-      - US_https://1808.ga  Node_205
-      - US_https://1808.ga  Node_206
-      - US_https://1808.ga  Node_207
-      - US_https://1808.ga  Node_208
-      - US_https://1808.ga  Node_209
-      - US_https://1808.ga  Node_210
-      - US_https://1808.ga  Node_211
-      - US_https://1808.ga  Node_212
-      - US_https://1808.ga  Node_213
-      - US_https://1808.ga  Node_214
-      - US_https://1808.ga  Node_215
-      - US_https://1808.ga  Node_216
-      - US_https://1808.ga  Node_217
-      - US_https://1808.ga  Node_218
+      - 二爷翻墙https://1808.ga 节点_1
+      - 二爷翻墙https://1808.ga 节点_2
+      - 二爷翻墙https://1808.ga 节点_3
+      - 二爷翻墙https://1808.ga 节点_4
+      - 二爷翻墙https://1808.ga 节点_5
+      - 二爷翻墙https://1808.ga 节点_6
+      - 二爷翻墙https://1808.ga 节点_7
+      - 二爷翻墙https://1808.ga 节点_8
+      - 二爷翻墙https://1808.ga 节点_9
+      - 二爷翻墙https://1808.ga 节点_10
+      - 二爷翻墙https://1808.ga 节点_11
+      - 二爷翻墙https://1808.ga 节点_12
+      - 二爷翻墙https://1808.ga 节点_13
+      - 二爷翻墙https://1808.ga 节点_14
+      - 二爷翻墙https://1808.ga 节点_15
+      - 二爷翻墙https://1808.ga 节点_16
+      - 二爷翻墙https://1808.ga 节点_17
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -1981,6 +226,7 @@ rules:
  - DOMAIN-SUFFIX,lan,🎯 全球直连
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - DOMAIN-SUFFIX,localhost,🎯 全球直连
+ - IP-CIDR,0.0.0.0/8,🎯 全球直连,no-resolve
  - IP-CIDR,10.0.0.0/8,🎯 全球直连,no-resolve
  - IP-CIDR,100.64.0.0/10,🎯 全球直连,no-resolve
  - IP-CIDR,127.0.0.0/8,🎯 全球直连,no-resolve
@@ -1995,6 +241,7 @@ rules:
  - DOMAIN,instant.arubanetworks.com,🎯 全球直连
  - DOMAIN,setmeup.arubanetworks.com,🎯 全球直连
  - DOMAIN,router.asus.com,🎯 全球直连
+ - DOMAIN,www.asusrouter.com,🎯 全球直连
  - DOMAIN-SUFFIX,hiwifi.com,🎯 全球直连
  - DOMAIN-SUFFIX,leike.cc,🎯 全球直连
  - DOMAIN-SUFFIX,miwifi.com,🎯 全球直连
@@ -2006,25 +253,24 @@ rules:
  - DOMAIN-SUFFIX,routerlogin.com,🎯 全球直连
  - DOMAIN-SUFFIX,tendawifi.com,🎯 全球直连
  - DOMAIN-SUFFIX,zte.home,🎯 全球直连
+ - DOMAIN-SUFFIX,tplogin.cn,🎯 全球直连
+ - DOMAIN-SUFFIX,wifi.cmcc,🎯 全球直连
  - DOMAIN-SUFFIX,ol.epicgames.com,🎯 全球直连
  - DOMAIN-SUFFIX,dizhensubao.getui.com,🎯 全球直连
  - DOMAIN,dl.google.com,🎯 全球直连
  - DOMAIN-SUFFIX,googletraveladservices.com,🎯 全球直连
  - DOMAIN-SUFFIX,tracking-protection.cdn.mozilla.net,🎯 全球直连
  - DOMAIN,origin-a.akamaihd.net,🎯 全球直连
- - DOMAIN,xivanalysis.com,🎯 全球直连
- - DOMAIN,picanalysis.vivo.com.cn,🎯 全球直连
- - DOMAIN,picanalysis-auth.vivo.com.cn,🎯 全球直连
  - DOMAIN,fairplay.l.qq.com,🎯 全球直连
  - DOMAIN,livew.l.qq.com,🎯 全球直连
  - DOMAIN,vd.l.qq.com,🎯 全球直连
- - DOMAIN,analytics.strava.com,🎯 全球直连
  - DOMAIN,errlog.umeng.com,🎯 全球直连
  - DOMAIN,msg.umeng.com,🎯 全球直连
  - DOMAIN,msg.umengcloud.com,🎯 全球直连
  - DOMAIN,tracking.miui.com,🎯 全球直连
  - DOMAIN,app.adjust.com,🎯 全球直连
  - DOMAIN,bdtj.tagtic.cn,🎯 全球直连
+ - DOMAIN,rewards.hypixel.net,🎯 全球直连
  - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
  - DOMAIN-KEYWORD,admaster,🛑 全球拦截
  - DOMAIN-KEYWORD,adsage,🛑 全球拦截
@@ -2035,7 +281,6 @@ rules:
  - DOMAIN-KEYWORD,adsserving,🛑 全球拦截
  - DOMAIN-KEYWORD,adsystem,🛑 全球拦截
  - DOMAIN-KEYWORD,adwords,🛑 全球拦截
- - DOMAIN-KEYWORD,analysis,🛑 全球拦截
  - DOMAIN-KEYWORD,applovin,🛑 全球拦截
  - DOMAIN-KEYWORD,appsflyer,🛑 全球拦截
  - DOMAIN-KEYWORD,domob,🛑 全球拦截
@@ -2049,7 +294,6 @@ rules:
  - DOMAIN-KEYWORD,pingfore,🛑 全球拦截
  - DOMAIN-KEYWORD,socdm,🛑 全球拦截
  - DOMAIN-KEYWORD,supersonicads,🛑 全球拦截
- - DOMAIN-KEYWORD,usage,🛑 全球拦截
  - DOMAIN-KEYWORD,wlmonitor,🛑 全球拦截
  - DOMAIN-KEYWORD,zjtoolbar,🛑 全球拦截
  - DOMAIN-SUFFIX,09mk.cn,🛑 全球拦截
@@ -2783,7 +1027,6 @@ rules:
  - DOMAIN-SUFFIX,baidu9635.com,🍃 应用净化
  - DOMAIN-SUFFIX,baidustatic.com,🍃 应用净化
  - DOMAIN-SUFFIX,baidutv.baidu.com,🍃 应用净化
- - DOMAIN-SUFFIX,baikebcs.bdimg.com,🍃 应用净化
  - DOMAIN-SUFFIX,banlv.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,bar.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,bdplus.baidu.com,🍃 应用净化
@@ -3141,7 +1384,6 @@ rules:
  - DOMAIN-SUFFIX,stat.pandora.xiaomi.com,🍃 应用净化
  - DOMAIN-SUFFIX,union.mi.com,🍃 应用净化
  - DOMAIN-SUFFIX,wtradv.market.xiaomi.com,🍃 应用净化
- - DOMAIN-SUFFIX,xmpush.xiaomi.com,🍃 应用净化
  - DOMAIN-SUFFIX,ad.api.moji.com,🍃 应用净化
  - DOMAIN-SUFFIX,app.moji001.com,🍃 应用净化
  - DOMAIN-SUFFIX,cdn.moji002.com,🍃 应用净化
@@ -3336,7 +1578,6 @@ rules:
  - DOMAIN-SUFFIX,ws.progrss.yahoo.com,🍃 应用净化
  - DOMAIN-SUFFIX,yads.yahoo.co.jp,🍃 应用净化
  - DOMAIN-SUFFIX,ybp.yahoo.com,🍃 应用净化
- - DOMAIN-SUFFIX,zhihu-web-analytics.zhihu.com,🍃 应用净化
  - DOMAIN-SUFFIX,shrek.6.cn,🍃 应用净化
  - DOMAIN-SUFFIX,simba.6.cn,🍃 应用净化
  - DOMAIN-SUFFIX,union.6.cn,🍃 应用净化
@@ -3691,33 +1932,24 @@ rules:
  - DOMAIN-SUFFIX,alt7-mtalk.google.com,🎯 全球直连
  - DOMAIN-SUFFIX,alt8-mtalk.google.com,🎯 全球直连
  - DOMAIN-SUFFIX,app-measurement.com,🎯 全球直连
- - DOMAIN-SUFFIX,c.android.clients.google.com,🎯 全球直连
  - DOMAIN-SUFFIX,cache.pack.google.com,🎯 全球直连
  - DOMAIN-SUFFIX,clickserve.dartsearch.net,🎯 全球直连
- - DOMAIN-SUFFIX,clientservices.googleapis.com,🎯 全球直连
  - DOMAIN-SUFFIX,crl.pki.goog,🎯 全球直连
  - DOMAIN-SUFFIX,dl.google.com,🎯 全球直连
  - DOMAIN-SUFFIX,dl.l.google.com,🎯 全球直连
- - DOMAIN-SUFFIX,fonts.googleapis.com,🎯 全球直连
- - DOMAIN-SUFFIX,fonts.gstatic.com,🎯 全球直连
  - DOMAIN-SUFFIX,googletagmanager.com,🎯 全球直连
  - DOMAIN-SUFFIX,googletagservices.com,🎯 全球直连
  - DOMAIN-SUFFIX,gtm.oasisfeng.com,🎯 全球直连
- - DOMAIN-SUFFIX,imasdk.googleapis.com,🎯 全球直连
  - DOMAIN-SUFFIX,mtalk.google.com,🎯 全球直连
  - DOMAIN-SUFFIX,ocsp.pki.goog,🎯 全球直连
  - DOMAIN-SUFFIX,recaptcha.net,🎯 全球直连
  - DOMAIN-SUFFIX,safebrowsing-cache.google.com,🎯 全球直连
- - DOMAIN-SUFFIX,safebrowsing.googleapis.com,🎯 全球直连
  - DOMAIN-SUFFIX,settings.crashlytics.com,🎯 全球直连
  - DOMAIN-SUFFIX,ssl-google-analytics.l.google.com,🎯 全球直连
- - DOMAIN-SUFFIX,ssl.gstatic.com,🎯 全球直连
  - DOMAIN-SUFFIX,toolbarqueries.google.com,🎯 全球直连
  - DOMAIN-SUFFIX,tools.google.com,🎯 全球直连
  - DOMAIN-SUFFIX,tools.l.google.com,🎯 全球直连
- - DOMAIN-SUFFIX,update.googleapis.com,🎯 全球直连
  - DOMAIN-SUFFIX,www-googletagmanager.l.google.com,🎯 全球直连
- - DOMAIN-SUFFIX,www.gstatic.com,🎯 全球直连
  - DOMAIN,csgo.wmsj.cn,🎯 全球直连
  - DOMAIN,dl.steam.clngaa.com,🎯 全球直连
  - DOMAIN,dl.steam.ksyna.com,🎯 全球直连
@@ -3729,6 +1961,7 @@ rules:
  - DOMAIN,steampowered.com.8686c.com,🎯 全球直连
  - DOMAIN,steamstatic.com.8686c.com,🎯 全球直连
  - DOMAIN,wmsjsteam.com,🎯 全球直连
+ - DOMAIN,xz.pphimalayanrt.com,🎯 全球直连
  - DOMAIN-SUFFIX,cm.steampowered.com,🎯 全球直连
  - DOMAIN-SUFFIX,steamchina.com,🎯 全球直连
  - DOMAIN-SUFFIX,steamcontent.com,🎯 全球直连
@@ -3745,8 +1978,11 @@ rules:
  - DOMAIN-SUFFIX,azure.com,Ⓜ️ 微软服务
  - DOMAIN-SUFFIX,azure.net,Ⓜ️ 微软服务
  - DOMAIN-SUFFIX,azureedge.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,azureiotcentral.com,Ⓜ️ 微软服务
  - DOMAIN-SUFFIX,azurerms.com,Ⓜ️ 微软服务
  - DOMAIN-SUFFIX,bing.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,bing.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,bingapis.com,Ⓜ️ 微软服务
  - DOMAIN-SUFFIX,cloudapp.net,Ⓜ️ 微软服务
  - DOMAIN-SUFFIX,cloudappsecurity.com,Ⓜ️ 微软服务
  - DOMAIN-SUFFIX,edgesuite.net,Ⓜ️ 微软服务
@@ -3852,10 +2088,13 @@ rules:
  - DOMAIN-SUFFIX,edgedatg.com,🌍 国外媒体
  - DOMAIN-SUFFIX,go.com,🌍 国外媒体
  - DOMAIN-KEYWORD,abematv.akamaized.net,🌍 国外媒体
+ - DOMAIN,api-abematv.bucketeer.jp,🌍 国外媒体
+ - DOMAIN-SUFFIX,abema-tv.com,🌍 国外媒体
  - DOMAIN-SUFFIX,abema.io,🌍 国外媒体
  - DOMAIN-SUFFIX,abema.tv,🌍 国外媒体
  - DOMAIN-SUFFIX,ameba.jp,🌍 国外媒体
  - DOMAIN-SUFFIX,hayabusa.io,🌍 国外媒体
+ - DOMAIN-SUFFIX,hayabusa.media,🌍 国外媒体
  - DOMAIN-SUFFIX,c4assets.com,🌍 国外媒体
  - DOMAIN-SUFFIX,channel4.com,🌍 国外媒体
  - DOMAIN-KEYWORD,avoddashs,🌍 国外媒体
@@ -3873,9 +2112,11 @@ rules:
  - DOMAIN-SUFFIX,aiv-cdn.net,🌍 国外媒体
  - DOMAIN-SUFFIX,aiv-delivery.net,🌍 国外媒体
  - DOMAIN-SUFFIX,amazon.jobs,🌍 国外媒体
+ - DOMAIN-SUFFIX,amazonuniversity.jobs,🌍 国外媒体
  - DOMAIN-SUFFIX,amazonvideo.com,🌍 国外媒体
  - DOMAIN-SUFFIX,media-amazon.com,🌍 国外媒体
  - DOMAIN-SUFFIX,pv-cdn.net,🌍 国外媒体
+ - DOMAIN-SUFFIX,seattlespheres.com,🌍 国外媒体
  - DOMAIN,gspe1-ssl.ls.apple.com,🌍 国外媒体
  - DOMAIN,np-edge.itunes.apple.com,🌍 国外媒体
  - DOMAIN,play-edge.itunes.apple.com,🌍 国外媒体
@@ -4062,6 +2303,40 @@ rules:
  - DOMAIN-SUFFIX,dmc.nico,🌍 国外媒体
  - DOMAIN-SUFFIX,nicovideo.jp,🌍 国外媒体
  - DOMAIN-SUFFIX,nimg.jp,🌍 国外媒体
+ - DOMAIN-KEYWORD,nivod,🌍 国外媒体
+ - DOMAIN-SUFFIX,biggggg.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,mudvod.tv,🌍 国外媒体
+ - DOMAIN-SUFFIX,nbys.tv,🌍 国外媒体
+ - DOMAIN-SUFFIX,nbys1.tv,🌍 国外媒体
+ - DOMAIN-SUFFIX,nbyy.tv,🌍 国外媒体
+ - DOMAIN-SUFFIX,newpppp.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,nivod.tv,🌍 国外媒体
+ - DOMAIN-SUFFIX,nivodi.tv,🌍 国外媒体
+ - DOMAIN-SUFFIX,nivodz.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,vod360.net,🌍 国外媒体
+ - DOMAIN-KEYWORD,olevod,🌍 国外媒体
+ - DOMAIN-SUFFIX,haiwaikan.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,iole.tv,🌍 国外媒体
+ - DOMAIN-SUFFIX,olehd.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,olelive.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,olevod.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,olevod.io,🌍 国外媒体
+ - DOMAIN-SUFFIX,olevod.tv,🌍 国外媒体
+ - DOMAIN-SUFFIX,olevodtv.com,🌍 国外媒体
+ - DOMAIN-KEYWORD,openai,🌍 国外媒体
+ - DOMAIN-SUFFIX,ai.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,auth0.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,challenges.cloudflare.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,client-api.arkoselabs.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,events.statsigapi.net,🌍 国外媒体
+ - DOMAIN-SUFFIX,featuregates.org,🌍 国外媒体
+ - DOMAIN-SUFFIX,identrust.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,intercom.io,🌍 国外媒体
+ - DOMAIN-SUFFIX,intercomcdn.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,openai.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,openaiapi-site.azureedge.net,🌍 国外媒体
+ - DOMAIN-SUFFIX,sentry.io,🌍 国外媒体
+ - DOMAIN-SUFFIX,stripe.com,🌍 国外媒体
  - DOMAIN-SUFFIX,pbs.org,🌍 国外媒体
  - DOMAIN-SUFFIX,pandora.com,🌍 国外媒体
  - DOMAIN-SUFFIX,phncdn.com,🌍 国外媒体
@@ -4072,7 +2347,7 @@ rules:
  - DOMAIN-SUFFIX,p-cdn.us,🌍 国外媒体
  - DOMAIN-SUFFIX,sndcdn.com,🌍 国外媒体
  - DOMAIN-SUFFIX,soundcloud.com,🌍 国外媒体
- - DOMAIN-KEYWORD,-spotify-com,🌍 国外媒体
+ - DOMAIN-KEYWORD,-spotify-,🌍 国外媒体
  - DOMAIN-KEYWORD,spotify.com,🌍 国外媒体
  - DOMAIN-SUFFIX,pscdn.co,🌍 国外媒体
  - DOMAIN-SUFFIX,scdn.co,🌍 国外媒体
@@ -4085,7 +2360,7 @@ rules:
  - DOMAIN-SUFFIX,tidalhifi.com,🌍 国外媒体
  - DOMAIN,hamifans.emome.net,🌍 国外媒体
  - DOMAIN-SUFFIX,skyking.com.tw,🌍 国外媒体
- - DOMAIN-KEYWORD,tiktokcdn-,🌍 国外媒体
+ - DOMAIN-KEYWORD,tiktokcdn,🌍 国外媒体
  - DOMAIN-SUFFIX,byteoversea.com,🌍 国外媒体
  - DOMAIN-SUFFIX,ibytedtos.com,🌍 国外媒体
  - DOMAIN-SUFFIX,ipstatp.com,🌍 国外媒体
@@ -4102,18 +2377,18 @@ rules:
  - DOMAIN-SUFFIX,twitch-ext.rootonline.de,🌍 国外媒体
  - DOMAIN-SUFFIX,twitch.tv,🌍 国外媒体
  - DOMAIN-SUFFIX,twitchcdn.net,🌍 国外媒体
+ - PROCESS-NAME,com.viu.pad,🌍 国外媒体
+ - PROCESS-NAME,com.viu.phone,🌍 国外媒体
+ - PROCESS-NAME,com.vuclip.viu,🌍 国外媒体
  - DOMAIN,api.viu.now.com,🌍 国外媒体
  - DOMAIN,d1k2us671qcoau.cloudfront.net,🌍 国外媒体
  - DOMAIN,d2anahhhmp1ffz.cloudfront.net,🌍 国外媒体
  - DOMAIN,dfp6rglgjqszk.cloudfront.net,🌍 国外媒体
- - DOMAIN-SUFFIX,bootstrapcdn.com,🌍 国外媒体
- - DOMAIN-SUFFIX,cloudfront.net,🌍 国外媒体
  - DOMAIN-SUFFIX,cognito-identity.us-east-1.amazonaws.com,🌍 国外媒体
- - DOMAIN-SUFFIX,firebaseio.com,🌍 国外媒体
- - DOMAIN-SUFFIX,jwpcdn.com,🌍 国外媒体
- - DOMAIN-SUFFIX,jwplayer.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,d1k2us671qcoau.cloudfront.net,🌍 国外媒体
+ - DOMAIN-SUFFIX,d2anahhhmp1ffz.cloudfront.net,🌍 国外媒体
+ - DOMAIN-SUFFIX,dfp6rglgjqszk.cloudfront.net,🌍 国外媒体
  - DOMAIN-SUFFIX,mobileanalytics.us-east-1.amazonaws.com,🌍 国外媒体
- - DOMAIN-SUFFIX,nowe.com,🌍 国外媒体
  - DOMAIN-SUFFIX,viu.com,🌍 国外媒体
  - DOMAIN-SUFFIX,viu.now.com,🌍 国外媒体
  - DOMAIN-SUFFIX,viu.tv,🌍 国外媒体
@@ -4136,7 +2411,6 @@ rules:
  - DOMAIN-SUFFIX,adguard.org,🚀 节点选择
  - DOMAIN-SUFFIX,bit.no.com,🚀 节点选择
  - DOMAIN-SUFFIX,btlibrary.me,🚀 节点选择
- - DOMAIN-SUFFIX,cccat.io,🚀 节点选择
  - DOMAIN-SUFFIX,cloudcone.com,🚀 节点选择
  - DOMAIN-SUFFIX,dubox.com,🚀 节点选择
  - DOMAIN-SUFFIX,gameloft.com,🚀 节点选择
@@ -4160,7 +2434,6 @@ rules:
  - DOMAIN-SUFFIX,sg,🚀 节点选择
  - DOMAIN-SUFFIX,tw,🚀 节点选择
  - DOMAIN-SUFFIX,uk,🚀 节点选择
- - DOMAIN-SUFFIX,us,🚀 节点选择
  - DOMAIN-KEYWORD,1e100,🚀 节点选择
  - DOMAIN-KEYWORD,abema,🚀 节点选择
  - DOMAIN-KEYWORD,appledaily,🚀 节点选择
@@ -4427,6 +2700,9 @@ rules:
  - IP-CIDR,119.235.236.0/23,🚀 节点选择,no-resolve
  - IP-CIDR,147.92.128.0/17,🚀 节点选择,no-resolve
  - IP-CIDR,203.104.128.0/19,🚀 节点选择,no-resolve
+ - DOMAIN-SUFFIX,openai.com,🚀 节点选择
+ - DOMAIN-SUFFIX,challenges.cloudflare.com,🚀 节点选择
+ - DOMAIN-SUFFIX,ai.com,🚀 节点选择
  - DOMAIN-KEYWORD,1drv,🚀 节点选择
  - DOMAIN-KEYWORD,onedrive,🚀 节点选择
  - DOMAIN-KEYWORD,skydrive,🚀 节点选择
@@ -4482,7 +2758,6 @@ rules:
  - DOMAIN-SUFFIX,steamstatic.com,🚀 节点选择
  - DOMAIN-SUFFIX,steamstat.us,🚀 节点选择
  - DOMAIN,steambroadcast.akamaized.net,🚀 节点选择
- - DOMAIN,steamcdn-a.akamaihd.net,🚀 节点选择
  - DOMAIN,steamcommunity-a.akamaihd.net,🚀 节点选择
  - DOMAIN,steamstore-a.akamaihd.net,🚀 节点选择
  - DOMAIN,steamusercontent-a.akamaihd.net,🚀 节点选择
@@ -4543,6 +2818,8 @@ rules:
  - DOMAIN-SUFFIX,icntv.xyz,🚀 节点选择
  - DOMAIN-SUFFIX,flzbcdn.xyz,🚀 节点选择
  - DOMAIN-SUFFIX,ocnttv.com,🚀 节点选择
+ - DOMAIN-SUFFIX,vikacg.com,🚀 节点选择
+ - DOMAIN-SUFFIX,picjs.xyz,🚀 节点选择
  - DOMAIN-SUFFIX,13th.tech,🎯 全球直连
  - DOMAIN-SUFFIX,423down.com,🎯 全球直连
  - DOMAIN-SUFFIX,bokecc.com,🎯 全球直连
@@ -4562,7 +2839,6 @@ rules:
  - DOMAIN-SUFFIX,xn--fiqs8s,🎯 全球直连
  - DOMAIN-SUFFIX,xn--55qx5d,🎯 全球直连
  - DOMAIN-SUFFIX,xn--io0a7i,🎯 全球直连
- - DOMAIN-KEYWORD,-cn,🎯 全球直连
  - DOMAIN-KEYWORD,360buy,🎯 全球直连
  - DOMAIN-KEYWORD,alicdn,🎯 全球直连
  - DOMAIN-KEYWORD,alimama,🎯 全球直连
@@ -4672,6 +2948,7 @@ rules:
  - DOMAIN-SUFFIX,bytetos.com,🎯 全球直连
  - DOMAIN-SUFFIX,bytexservice.com,🎯 全球直连
  - DOMAIN-SUFFIX,douyin.com,🎯 全球直连
+ - DOMAIN-SUFFIX,douyincdn.com,🎯 全球直连
  - DOMAIN-SUFFIX,douyinpic.com,🎯 全球直连
  - DOMAIN-SUFFIX,douyinstatic.com,🎯 全球直连
  - DOMAIN-SUFFIX,douyinvod.com,🎯 全球直连
@@ -4713,12 +2990,14 @@ rules:
  - DOMAIN-SUFFIX,douyuscdn.com,🎯 全球直连
  - DOMAIN-SUFFIX,douyutv.com,🎯 全球直连
  - DOMAIN-SUFFIX,epicgames.com,🎯 全球直连
+ - DOMAIN-SUFFIX,epicgames.dev,🎯 全球直连
  - DOMAIN-SUFFIX,helpshift.com,🎯 全球直连
  - DOMAIN-SUFFIX,paragon.com,🎯 全球直连
  - DOMAIN-SUFFIX,unrealengine.com,🎯 全球直连
  - DOMAIN-SUFFIX,dbankcdn.com,🎯 全球直连
  - DOMAIN-SUFFIX,hc-cdn.com,🎯 全球直连
  - DOMAIN-SUFFIX,hicloud.com,🎯 全球直连
+ - DOMAIN-SUFFIX,hihonor.com,🎯 全球直连
  - DOMAIN-SUFFIX,huawei.com,🎯 全球直连
  - DOMAIN-SUFFIX,huaweicloud.com,🎯 全球直连
  - DOMAIN-SUFFIX,huaweishop.net,🎯 全球直连
@@ -4824,6 +3103,7 @@ rules:
  - DOMAIN,st.dl.bscstorage.net,🎯 全球直连
  - DOMAIN,st.dl.eccdnx.com,🎯 全球直连
  - DOMAIN,st.dl.pinyuncloud.com,🎯 全球直连
+ - DOMAIN,xz.pphimalayanrt.com,🎯 全球直连
  - DOMAIN,steampipe.steamcontent.tnkjmec.com,🎯 全球直连
  - DOMAIN,steampowered.com.8686c.com,🎯 全球直连
  - DOMAIN,steamstatic.com.8686c.com,🎯 全球直连
@@ -4878,43 +3158,128 @@ rules:
  - DOMAIN-KEYWORD,announce,🎯 全球直连
  - DOMAIN-KEYWORD,torrent,🎯 全球直连
  - DOMAIN-KEYWORD,tracker,🎯 全球直连
+ - DOMAIN-KEYWORD,announce,🎯 全球直连
+ - DOMAIN-KEYWORD,torrent,🎯 全球直连
+ - DOMAIN-KEYWORD,tracker,🎯 全球直连
+ - DOMAIN-SUFFIX,52pt.site,🎯 全球直连
+ - DOMAIN-SUFFIX,aidoru-online.me,🎯 全球直连
+ - DOMAIN-SUFFIX,alpharatio.cc,🎯 全球直连
  - DOMAIN-SUFFIX,animebytes.tv,🎯 全球直连
  - DOMAIN-SUFFIX,animetorrents.me,🎯 全球直连
+ - DOMAIN-SUFFIX,anthelion.me,🎯 全球直连
+ - DOMAIN-SUFFIX,asiancinema.me,🎯 全球直连
+ - DOMAIN-SUFFIX,audiences.me,🎯 全球直连
+ - DOMAIN-SUFFIX,avgv.cc,🎯 全球直连
+ - DOMAIN-SUFFIX,avistaz.to,🎯 全球直连
  - DOMAIN-SUFFIX,awesome-hd.me,🎯 全球直连
  - DOMAIN-SUFFIX,beitai.pt,🎯 全球直连
+ - DOMAIN-SUFFIX,beyond-hd.me,🎯 全球直连
+ - DOMAIN-SUFFIX,bibliotik.me,🎯 全球直连
  - DOMAIN-SUFFIX,bittorrent.com,🎯 全球直连
+ - DOMAIN-SUFFIX,blutopia.xyz,🎯 全球直连
  - DOMAIN-SUFFIX,broadcasthe.net,🎯 全球直连
+ - DOMAIN-SUFFIX,bt.byr.cn,🎯 全球直连
+ - DOMAIN-SUFFIX,bt.neu6.edu.cn,🎯 全球直连
+ - DOMAIN-SUFFIX,btschool.club,🎯 全球直连
+ - DOMAIN-SUFFIX,bwtorrents.tv,🎯 全球直连
+ - DOMAIN-SUFFIX,byr.pt,🎯 全球直连
+ - DOMAIN-SUFFIX,ccfbits.org,🎯 全球直连
+ - DOMAIN-SUFFIX,cgpeers.com,🎯 全球直连
  - DOMAIN-SUFFIX,chdbits.co,🎯 全球直连
+ - DOMAIN-SUFFIX,cinemageddon.net,🎯 全球直连
+ - DOMAIN-SUFFIX,cinematik.net,🎯 全球直连
+ - DOMAIN-SUFFIX,cinemaz.to,🎯 全球直连
  - DOMAIN-SUFFIX,classix-unlimited.co.uk,🎯 全球直连
+ - DOMAIN-SUFFIX,concertos.live,🎯 全球直连
+ - DOMAIN-SUFFIX,dicmusic.club,🎯 全球直连
+ - DOMAIN-SUFFIX,discfan.net,🎯 全球直连
+ - DOMAIN-SUFFIX,dxdhd.com,🎯 全球直连
+ - DOMAIN-SUFFIX,eastgame.org,🎯 全球直连
  - DOMAIN-SUFFIX,empornium.me,🎯 全球直连
+ - DOMAIN-SUFFIX,et8.org,🎯 全球直连
+ - DOMAIN-SUFFIX,exoticaz.to,🎯 全球直连
+ - DOMAIN-SUFFIX,extremlymtorrents.ws,🎯 全球直连
+ - DOMAIN-SUFFIX,filelist.io,🎯 全球直连
+ - DOMAIN-SUFFIX,gainbound.net,🎯 全球直连
  - DOMAIN-SUFFIX,gazellegames.net,🎯 全球直连
+ - DOMAIN-SUFFIX,gfxpeers.net,🎯 全球直连
+ - DOMAIN-SUFFIX,hd-space.org,🎯 全球直连
+ - DOMAIN-SUFFIX,hd-torrents.org,🎯 全球直连
+ - DOMAIN-SUFFIX,hd4.xyz,🎯 全球直连
  - DOMAIN-SUFFIX,hd4fans.org,🎯 全球直连
+ - DOMAIN-SUFFIX,hdarea.co,🎯 全球直连
+ - DOMAIN-SUFFIX,hdatmos.club,🎯 全球直连
+ - DOMAIN-SUFFIX,hdbd.us,🎯 全球直连
+ - DOMAIN-SUFFIX,hdbits.org,🎯 全球直连
  - DOMAIN-SUFFIX,hdchina.org,🎯 全球直连
+ - DOMAIN-SUFFIX,hdcity.city,🎯 全球直连
+ - DOMAIN-SUFFIX,hddolby.com,🎯 全球直连
+ - DOMAIN-SUFFIX,hdfans.org,🎯 全球直连
  - DOMAIN-SUFFIX,hdhome.org,🎯 全球直连
+ - DOMAIN-SUFFIX,hdpost.top,🎯 全球直连
+ - DOMAIN-SUFFIX,hdroute.org,🎯 全球直连
  - DOMAIN-SUFFIX,hdsky.me,🎯 全球直连
+ - DOMAIN-SUFFIX,hdstreet.club,🎯 全球直连
  - DOMAIN-SUFFIX,hdtime.org,🎯 全球直连
+ - DOMAIN-SUFFIX,hdupt.com,🎯 全球直连
  - DOMAIN-SUFFIX,hdzone.me,🎯 全球直连
+ - DOMAIN-SUFFIX,hhanclub.top,🎯 全球直连
+ - DOMAIN-SUFFIX,hitpt.com,🎯 全球直连
+ - DOMAIN-SUFFIX,hitpt.org,🎯 全球直连
+ - DOMAIN-SUFFIX,hudbt.hust.edu.cn,🎯 全球直连
  - DOMAIN-SUFFIX,icetorrent.org,🎯 全球直连
+ - DOMAIN-SUFFIX,iptorrents.com,🎯 全球直连
+ - DOMAIN-SUFFIX,j99.info,🎯 全球直连
+ - DOMAIN-SUFFIX,joyhd.net,🎯 全球直连
  - DOMAIN-SUFFIX,jpopsuki.eu,🎯 全球直连
+ - DOMAIN-SUFFIX,karagarga.in,🎯 全球直连
  - DOMAIN-SUFFIX,keepfrds.com,🎯 全球直连
+ - DOMAIN-SUFFIX,landof.tv,🎯 全球直连
  - DOMAIN-SUFFIX,leaguehd.com,🎯 全球直连
+ - DOMAIN-SUFFIX,lemonhd.org,🎯 全球直连
+ - DOMAIN-SUFFIX,lztr.me,🎯 全球直连
  - DOMAIN-SUFFIX,m-team.cc,🎯 全球直连
  - DOMAIN-SUFFIX,madsrevolution.net,🎯 全球直连
+ - DOMAIN-SUFFIX,moecat.best,🎯 全球直连
+ - DOMAIN-SUFFIX,morethan.tv,🎯 全球直连
  - DOMAIN-SUFFIX,msg.vg,🎯 全球直连
+ - DOMAIN-SUFFIX,myanonamouse.net,🎯 全球直连
  - DOMAIN-SUFFIX,nanyangpt.com,🎯 全球直连
  - DOMAIN-SUFFIX,ncore.cc,🎯 全球直连
+ - DOMAIN-SUFFIX,nebulance.io,🎯 全球直连
+ - DOMAIN-SUFFIX,nicept.net,🎯 全球直连
+ - DOMAIN-SUFFIX,npupt.com,🎯 全球直连
+ - DOMAIN-SUFFIX,nwsuaf6.edu.cn,🎯 全球直连
  - DOMAIN-SUFFIX,open.cd,🎯 全球直连
+ - DOMAIN-SUFFIX,oppaiti.me,🎯 全球直连
+ - DOMAIN-SUFFIX,orpheus.network,🎯 全球直连
  - DOMAIN-SUFFIX,ourbits.club,🎯 全球直连
  - DOMAIN-SUFFIX,passthepopcorn.me,🎯 全球直连
+ - DOMAIN-SUFFIX,pornbits.net,🎯 全球直连
  - DOMAIN-SUFFIX,privatehd.to,🎯 全球直连
+ - DOMAIN-SUFFIX,pterclub.com,🎯 全球直连
  - DOMAIN-SUFFIX,pthome.net,🎯 全球直连
+ - DOMAIN-SUFFIX,ptsbao.club,🎯 全球直连
+ - DOMAIN-SUFFIX,pttime.org,🎯 全球直连
+ - DOMAIN-SUFFIX,pussytorrents.org,🎯 全球直连
  - DOMAIN-SUFFIX,redacted.ch,🎯 全球直连
+ - DOMAIN-SUFFIX,sdbits.org,🎯 全球直连
+ - DOMAIN-SUFFIX,sharkpt.net,🎯 全球直连
+ - DOMAIN-SUFFIX,sjtu.edu.cn,🎯 全球直连
+ - DOMAIN-SUFFIX,skyey2.com,🎯 全球直连
+ - DOMAIN-SUFFIX,soulvoice.club,🎯 全球直连
  - DOMAIN-SUFFIX,springsunday.net,🎯 全球直连
+ - DOMAIN-SUFFIX,tju.pt,🎯 全球直连
  - DOMAIN-SUFFIX,tjupt.org,🎯 全球直连
+ - DOMAIN-SUFFIX,torrentday.com,🎯 全球直连
+ - DOMAIN-SUFFIX,torrentleech.org,🎯 全球直连
+ - DOMAIN-SUFFIX,torrentseeds.org,🎯 全球直连
  - DOMAIN-SUFFIX,totheglory.im,🎯 全球直连
  - DOMAIN-SUFFIX,trontv.com,🎯 全球直连
+ - DOMAIN-SUFFIX,u2.dmhy.org,🎯 全球直连
+ - DOMAIN-SUFFIX,uhdbits.org,🎯 全球直连
+ - DOMAIN-SUFFIX,xauat6.edu.cn,🎯 全球直连
  - DOMAIN-SUFFIX,teamviewer.com,🎯 全球直连
- - IP-CIDR,109.239.140.0/24,🎯 全球直连,no-resolve
  - IP-CIDR,139.220.243.27/32,🎯 全球直连,no-resolve
  - IP-CIDR,172.16.102.56/32,🎯 全球直连,no-resolve
  - IP-CIDR,185.188.32.1/28,🎯 全球直连,no-resolve
@@ -4971,8 +3336,6 @@ rules:
  - DOMAIN-SUFFIX,clouddn.com,🎯 全球直连
  - DOMAIN-SUFFIX,cloudxns.net,🎯 全球直连
  - DOMAIN-SUFFIX,cn163.net,🎯 全球直连
- - DOMAIN-SUFFIX,cnbeta.com,🎯 全球直连
- - DOMAIN-SUFFIX,cnbetacdn.com,🎯 全球直连
  - DOMAIN-SUFFIX,cnblogs.com,🎯 全球直连
  - DOMAIN-SUFFIX,cnki.net,🎯 全球直连
  - DOMAIN-SUFFIX,cnmstl.net,🎯 全球直连
@@ -5072,7 +3435,9 @@ rules:
  - DOMAIN-SUFFIX,nruan.com,🎯 全球直连
  - DOMAIN-SUFFIX,nuomi.com,🎯 全球直连
  - DOMAIN-SUFFIX,onedns.net,🎯 全球直连
+ - DOMAIN-SUFFIX,oneplus.com,🎯 全球直连
  - DOMAIN-SUFFIX,onlinedown.net,🎯 全球直连
+ - DOMAIN-SUFFIX,oppo.com,🎯 全球直连
  - DOMAIN-SUFFIX,oracle.com,🎯 全球直连
  - DOMAIN-SUFFIX,oschina.net,🎯 全球直连
  - DOMAIN-SUFFIX,ourdvs.com,🎯 全球直连
@@ -5094,6 +3459,7 @@ rules:
  - DOMAIN-SUFFIX,quanmin.tv,🎯 全球直连
  - DOMAIN-SUFFIX,qunar.com,🎯 全球直连
  - DOMAIN-SUFFIX,qunarzz.com,🎯 全球直连
+ - DOMAIN-SUFFIX,realme.com,🎯 全球直连
  - DOMAIN-SUFFIX,repaik.com,🎯 全球直连
  - DOMAIN-SUFFIX,ruguoapp.com,🎯 全球直连
  - DOMAIN-SUFFIX,runoob.com,🎯 全球直连
@@ -5127,6 +3493,7 @@ rules:
  - DOMAIN-SUFFIX,upyun.com,🎯 全球直连
  - DOMAIN-SUFFIX,uxengine.net,🎯 全球直连
  - DOMAIN-SUFFIX,videocc.net,🎯 全球直连
+ - DOMAIN-SUFFIX,vivo.com,🎯 全球直连
  - DOMAIN-SUFFIX,wandoujia.com,🎯 全球直连
  - DOMAIN-SUFFIX,weather.com,🎯 全球直连
  - DOMAIN-SUFFIX,weico.cc,🎯 全球直连

@@ -5,133 +5,149 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_04, server: 14.29.124.168, port: 24004, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇩🇪DE_08, server: ingress-i1.onebox6.org, port: 38701, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: aweikeji-YouTube}}}
-  - {name: 🇺🇸 v2cross.com - 美国  23, server: 137.184.118.47, port: 51649, type: vmess, uuid: 5d0b1709-5c3c-4073-fb3f-67251426571e, alterId: 0, cipher: auto, tls: false}
-  - {name: JP_62, server: 146.56.184.242, port: 19570, type: vmess, uuid: 70a998e0-ba0b-4994-af50-8deed58cdbd9, alterId: 0, cipher: auto, tls: false}
-  - {name: v2cross.com, server: ce.rutracker-cn.com, port: 443, type: trojan, password: 5y8y3CwxRVYhyfSY, sni: ce.rutracker-cn.com}
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇺🇸US_10, server: 42.186.175.8, port: 443, type: vmess, uuid: c19b138c-6e30-43b4-f66d-a94c6e869d12, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: usarm.ptuu.cf}}}
-  - {name: CN_29 v2cross.com, server: 14.29.124.174, port: 11031, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_717, server: 185.4.65.6, port: 21247, type: ss, cipher: aes-256-cfb, password: vDS9G2p}
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_160, server: 4.3.1.fuckppppp.today, port: 58418, type: vmess, uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_25, server: 123456789abcd.xn--h6q53lcvpz7l.club, port: 20943, type: vmess, uuid: e278c68f-4716-4798-a9c6-1f91d74499d8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}}
-  - {name: v2cross.com 2, server: v2cross.com.02.v2ce.com, port: 443, type: trojan, password: 3gLlCYBipVwr6Y5F, sni: v2cross.com.02.v2ce.com}
+  - {name: 🇨🇦 CA 2 → v2cross.com, server: 927tw01.tfzhc.top, port: 44319, type: trojan, password: 3ad5547b-609b-4f59-916b-afebd85aba7d, skip-cert-verify: true}
+  - {name: 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_56, server: 14.29.124.174, port: 11048, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
+  - {name: NL_282, server: yu.miaoge110.cf, port: 443, type: vmess, uuid: 4893ed3e-8a5f-48dc-aa1e-bbc2e67a065b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: yu.miaoge110.cf}}}
+  - {name: SG_321, server: 139.162.29.179, port: 18231, type: vmess, uuid: cb185001-85ed-4186-e391-fdeb7b624403, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇪🇸 v2cross.com - 西班牙  23, server: 185.194.30.40, port: 41443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true}
+  - {name: 🇺🇸 github.com/freefq - 美国科罗拉多州布隆菲尔德市Level3 29, server: cdn.linil.ml, port: 443, type: vmess, uuid: 7ac0dc7a-0ec5-4b62-ab61-4d0c00fc113a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: jlnt8169.czsx1624.tk}}}
+  - {name: "@SSRSUB-V06-付费推荐:v2cross.com", server: 192.96.204.250, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws}}
+  - {name: 🇺🇸 github.com/freefq - 美国  32, server: 161.129.34.102, port: 443, type: vmess, uuid: ec736482-173e-3eff-9114-b49df8056e7d, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: 161.129.34.102}}}
+  - {name: 🇺🇸 v2cross.com - 美国CloudFlare节点 17, server: jparm.fineyoo.cf, port: 443, type: vmess, uuid: bd5ee249-fe7b-4669-a6d9-b3f5eecb98e6, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /123, headers: {Host: jparm.fineyoo.cf}}}
+  - {name: 🇺🇸 US 10 → v2cross.com, server: dtua1.bitznet.one, port: 33019, type: trojan, password: 502560b1-6cb2-443e-ba50-361c94ddab3a, skip-cert-verify: true}
+  - {name: 🇩🇪 v2cross.com - 德国黑森州法兰克福DigitalOcean数据中心 10, server: 138.68.90.231, port: 8080, type: vmess, uuid: 294ffdc3-5942-45ae-a154-dc6c92eacf1d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: 138.68.90.231}}}
+  - {name: 🇺🇸 github.com/freefq - 美国加州 6, server: 64.112.42.72, port: 16999, type: vmess, uuid: b5a01f44-b981-421a-bdc0-6d9d53da07fd, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇯🇵 v2cross.com - 日本东京Linode数据中心 9, server: 172.105.219.18, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_04
-      - 🇨🇳 Relay_🇨🇳CN-🇩🇪DE_08
-      - 🇺🇸 v2cross.com - 美国  23
-      - JP_62
-      - v2cross.com
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_10
-      - CN_29 v2cross.com
-      - 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_717
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_160
-      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_25
-      - v2cross.com 2
+      - 🇨🇦 CA 2 → v2cross.com
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_56
+      - NL_282
+      - SG_321
+      - 🇪🇸 v2cross.com - 西班牙  23
+      - 🇺🇸 github.com/freefq - 美国科罗拉多州布隆菲尔德市Level3 29
+      - "@SSRSUB-V06-付费推荐:v2cross.com"
+      - 🇺🇸 github.com/freefq - 美国  32
+      - 🇺🇸 v2cross.com - 美国CloudFlare节点 17
+      - 🇺🇸 US 10 → v2cross.com
+      - 🇩🇪 v2cross.com - 德国黑森州法兰克福DigitalOcean数据中心 10
+      - 🇺🇸 github.com/freefq - 美国加州 6
+      - 🇯🇵 v2cross.com - 日本东京Linode数据中心 9
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_04
-      - 🇨🇳 Relay_🇨🇳CN-🇩🇪DE_08
-      - 🇺🇸 v2cross.com - 美国  23
-      - JP_62
-      - v2cross.com
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_10
-      - CN_29 v2cross.com
-      - 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_717
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_160
-      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_25
-      - v2cross.com 2
+      - 🇨🇦 CA 2 → v2cross.com
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_56
+      - NL_282
+      - SG_321
+      - 🇪🇸 v2cross.com - 西班牙  23
+      - 🇺🇸 github.com/freefq - 美国科罗拉多州布隆菲尔德市Level3 29
+      - "@SSRSUB-V06-付费推荐:v2cross.com"
+      - 🇺🇸 github.com/freefq - 美国  32
+      - 🇺🇸 v2cross.com - 美国CloudFlare节点 17
+      - 🇺🇸 US 10 → v2cross.com
+      - 🇩🇪 v2cross.com - 德国黑森州法兰克福DigitalOcean数据中心 10
+      - 🇺🇸 github.com/freefq - 美国加州 6
+      - 🇯🇵 v2cross.com - 日本东京Linode数据中心 9
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_04
-      - 🇨🇳 Relay_🇨🇳CN-🇩🇪DE_08
-      - 🇺🇸 v2cross.com - 美国  23
-      - JP_62
-      - v2cross.com
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_10
-      - CN_29 v2cross.com
-      - 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_717
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_160
-      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_25
-      - v2cross.com 2
+      - 🇨🇦 CA 2 → v2cross.com
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_56
+      - NL_282
+      - SG_321
+      - 🇪🇸 v2cross.com - 西班牙  23
+      - 🇺🇸 github.com/freefq - 美国科罗拉多州布隆菲尔德市Level3 29
+      - "@SSRSUB-V06-付费推荐:v2cross.com"
+      - 🇺🇸 github.com/freefq - 美国  32
+      - 🇺🇸 v2cross.com - 美国CloudFlare节点 17
+      - 🇺🇸 US 10 → v2cross.com
+      - 🇩🇪 v2cross.com - 德国黑森州法兰克福DigitalOcean数据中心 10
+      - 🇺🇸 github.com/freefq - 美国加州 6
+      - 🇯🇵 v2cross.com - 日本东京Linode数据中心 9
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_04
-      - 🇨🇳 Relay_🇨🇳CN-🇩🇪DE_08
-      - 🇺🇸 v2cross.com - 美国  23
-      - JP_62
-      - v2cross.com
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_10
-      - CN_29 v2cross.com
-      - 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_717
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_160
-      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_25
-      - v2cross.com 2
+      - 🇨🇦 CA 2 → v2cross.com
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_56
+      - NL_282
+      - SG_321
+      - 🇪🇸 v2cross.com - 西班牙  23
+      - 🇺🇸 github.com/freefq - 美国科罗拉多州布隆菲尔德市Level3 29
+      - "@SSRSUB-V06-付费推荐:v2cross.com"
+      - 🇺🇸 github.com/freefq - 美国  32
+      - 🇺🇸 v2cross.com - 美国CloudFlare节点 17
+      - 🇺🇸 US 10 → v2cross.com
+      - 🇩🇪 v2cross.com - 德国黑森州法兰克福DigitalOcean数据中心 10
+      - 🇺🇸 github.com/freefq - 美国加州 6
+      - 🇯🇵 v2cross.com - 日本东京Linode数据中心 9
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_04
-      - 🇨🇳 Relay_🇨🇳CN-🇩🇪DE_08
-      - 🇺🇸 v2cross.com - 美国  23
-      - JP_62
-      - v2cross.com
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_10
-      - CN_29 v2cross.com
-      - 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_717
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_160
-      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_25
-      - v2cross.com 2
+      - 🇨🇦 CA 2 → v2cross.com
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_56
+      - NL_282
+      - SG_321
+      - 🇪🇸 v2cross.com - 西班牙  23
+      - 🇺🇸 github.com/freefq - 美国科罗拉多州布隆菲尔德市Level3 29
+      - "@SSRSUB-V06-付费推荐:v2cross.com"
+      - 🇺🇸 github.com/freefq - 美国  32
+      - 🇺🇸 v2cross.com - 美国CloudFlare节点 17
+      - 🇺🇸 US 10 → v2cross.com
+      - 🇩🇪 v2cross.com - 德国黑森州法兰克福DigitalOcean数据中心 10
+      - 🇺🇸 github.com/freefq - 美国加州 6
+      - 🇯🇵 v2cross.com - 日本东京Linode数据中心 9
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_04
-      - 🇨🇳 Relay_🇨🇳CN-🇩🇪DE_08
-      - 🇺🇸 v2cross.com - 美国  23
-      - JP_62
-      - v2cross.com
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_10
-      - CN_29 v2cross.com
-      - 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_717
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_160
-      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_25
-      - v2cross.com 2
+      - 🇨🇦 CA 2 → v2cross.com
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_56
+      - NL_282
+      - SG_321
+      - 🇪🇸 v2cross.com - 西班牙  23
+      - 🇺🇸 github.com/freefq - 美国科罗拉多州布隆菲尔德市Level3 29
+      - "@SSRSUB-V06-付费推荐:v2cross.com"
+      - 🇺🇸 github.com/freefq - 美国  32
+      - 🇺🇸 v2cross.com - 美国CloudFlare节点 17
+      - 🇺🇸 US 10 → v2cross.com
+      - 🇩🇪 v2cross.com - 德国黑森州法兰克福DigitalOcean数据中心 10
+      - 🇺🇸 github.com/freefq - 美国加州 6
+      - 🇯🇵 v2cross.com - 日本东京Linode数据中心 9
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_04
-      - 🇨🇳 Relay_🇨🇳CN-🇩🇪DE_08
-      - 🇺🇸 v2cross.com - 美国  23
-      - JP_62
-      - v2cross.com
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_10
-      - CN_29 v2cross.com
-      - 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_717
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_160
-      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_25
-      - v2cross.com 2
+      - 🇨🇦 CA 2 → v2cross.com
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_56
+      - NL_282
+      - SG_321
+      - 🇪🇸 v2cross.com - 西班牙  23
+      - 🇺🇸 github.com/freefq - 美国科罗拉多州布隆菲尔德市Level3 29
+      - "@SSRSUB-V06-付费推荐:v2cross.com"
+      - 🇺🇸 github.com/freefq - 美国  32
+      - 🇺🇸 v2cross.com - 美国CloudFlare节点 17
+      - 🇺🇸 US 10 → v2cross.com
+      - 🇩🇪 v2cross.com - 德国黑森州法兰克福DigitalOcean数据中心 10
+      - 🇺🇸 github.com/freefq - 美国加州 6
+      - 🇯🇵 v2cross.com - 日本东京Linode数据中心 9
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -154,17 +170,19 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_04
-      - 🇨🇳 Relay_🇨🇳CN-🇩🇪DE_08
-      - 🇺🇸 v2cross.com - 美国  23
-      - JP_62
-      - v2cross.com
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_10
-      - CN_29 v2cross.com
-      - 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_717
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_160
-      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_25
-      - v2cross.com 2
+      - 🇨🇦 CA 2 → v2cross.com
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_56
+      - NL_282
+      - SG_321
+      - 🇪🇸 v2cross.com - 西班牙  23
+      - 🇺🇸 github.com/freefq - 美国科罗拉多州布隆菲尔德市Level3 29
+      - "@SSRSUB-V06-付费推荐:v2cross.com"
+      - 🇺🇸 github.com/freefq - 美国  32
+      - 🇺🇸 v2cross.com - 美国CloudFlare节点 17
+      - 🇺🇸 US 10 → v2cross.com
+      - 🇩🇪 v2cross.com - 德国黑森州法兰克福DigitalOcean数据中心 10
+      - 🇺🇸 github.com/freefq - 美国加州 6
+      - 🇯🇵 v2cross.com - 日本东京Linode数据中心 9
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
