@@ -34,7 +34,7 @@ def get_content():
         doc = PyQuery(new_v2ray_data_html)
         print(new_v2ray_url)
         urls = re.findall(
-            "clash订阅链接：https://tt.vg/\S+", doc.text()
+            "clash订阅链接：https://oss.v2rayse.com/\S+", doc.text()
         )
         for url in urls:
             print(url)
